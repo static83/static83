@@ -1,0 +1,12 @@
+{
+  "name": "Christa Loisel — Cutting & Colour Specialist",
+  "short_name": "Christa Loisel",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#f3ede4",
+  "theme_color": "#f3ede4",
+  "icons": [
+    { "src": "/favicon.svg", "type": "image/svg+xml", "sizes": "any" },
+    { "src": "/icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}

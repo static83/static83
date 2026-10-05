@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en-NZ">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <title>Book an Appointment — Christa Loisel Hair | Grey Lynn &amp; Waiheke</title>
+  <meta name="description" content="Request a haircut, colour, balayage or free consultation with Christa Loisel in Grey Lynn, Auckland or Surfdale, Waiheke. Choose your service and studio, and your booking text is written for you.">
+  <link rel="canonical" href="https://christaloisel.co.nz/book/">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#f3ede4">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_NZ">
+  <meta property="og:site_name" content="Christa Loisel">
+  <meta property="og:title" content="Book with Christa Loisel — Cutting &amp; Colour Specialist">
+  <meta property="og:description" content="Request a cut, colour or free consultation in Grey Lynn or Waiheke.">
+  <meta property="og:url" content="https://christaloisel.co.nz/book/">
+  <meta property="og:image" content="https://christaloisel.co.nz/assets/img/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <link rel="preload" href="/assets/fonts/bodoni-moda.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/hanken-grotesk.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/site.css">
+  <script src="/assets/js/site.js" defer></script>
+  <script src="/assets/js/book.js" defer></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://christaloisel.co.nz/" },
+          { "@type": "ListItem", "position": 2, "name": "Book", "item": "https://christaloisel.co.nz/book/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "How do I book with Christa Loisel?", "acceptedAnswer": { "@type": "Answer", "text": "Text 020 4064 1495, or fill in the booking form and your phone will open a pre-written text. Christa replies personally to confirm a time." } },
+          { "@type": "Question", "name": "Are consultations free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Consultations are complimentary and include a strand test for colour where needed." } },
+          { "@type": "Question", "name": "When is the Grey Lynn studio open?", "acceptedAnswer": { "@type": "Answer", "text": "Grey Lynn appointments are on Sundays and Mondays. The Surfdale, Waiheke studio is by appointment, with flexible hours." } }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#booking-form">Skip to booking form</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/" aria-label="Christa Loisel — home">
+        <img src="/assets/img/monogram.svg" alt="" width="42" height="38">
+        <span>Christa Loisel<small>Cutting &amp; Colour</small></span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="/#about">About</a>
+        <a href="/#approach">Approach</a>
+        <a href="/#colour">Colour</a>
+        <a href="/#services">Services</a>
+        <a href="/#studios">Studios</a>
+        <a class="btn" href="/book/" aria-current="page">Book</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="book-hero" aria-labelledby="book-title">
+      <div class="wrap">
+        <div>
+          <p class="eyebrow">Bookings</p>
+          <h1 id="book-title">Reserve<br>your <em>chair.</em></h1>
+        </div>
+        <p class="lede">Tell Christa what you're after and when suits. Your request is written up as a text message — you send it from your own phone, and Christa replies personally to confirm a time.</p>
+      </div>
+    </section>
+
+    <section class="booking">
+      <div class="wrap">
+        <form id="booking-form" novalidate autocomplete="on" aria-describedby="form-error">
+          <p class="form-error" id="form-error" role="alert" tabindex="-1"></p>
+
+          <fieldset class="step">
+            <legend><span>01</span> What would you like?</legend>
+            <div class="choices">
+              <label class="choice"><input type="radio" name="service" value="Free consultation" data-key="consultation" required><span class="choice__box"><b>Free consultation</b><small>A chat and strand test, no obligation</small></span></label>
+              <label class="choice"><input type="radio" name="service" value="Precision cut" data-key="cut"><span class="choice__box"><b>Precision cut</b><small>Restyles, bobs, layers, fringes</small></span></label>
+              <label class="choice"><input type="radio" name="service" value="Colour" data-key="colour"><span class="choice__box"><b>Colour</b><small>Full colour, roots, grey blending, gloss</small></span></label>
+              <label class="choice"><input type="radio" name="service" value="Highlights / balayage" data-key="balayage"><span class="choice__box"><b>Highlights &amp; balayage</b><small>Foils, hand-painting, toning</small></span></label>
+              <label class="choice"><input type="radio" name="service" value="Colour correction" data-key="correction"><span class="choice__box"><b>Colour correction</b><small>Back to balance, step by step</small></span></label>
+              <label class="choice"><input type="radio" name="service" value="Cut & colour" data-key="cut-colour"><span class="choice__box"><b>Cut &amp; colour</b><small>The full transformation</small></span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="step">
+            <legend><span>02</span> Which studio?</legend>
+            <div class="choices">
+              <label class="choice"><input type="radio" name="studio" value="Grey Lynn, Auckland" data-days="0,1" required><span class="choice__box"><b>Grey Lynn</b><small>Auckland · Sunday &amp; Monday</small></span></label>
+              <label class="choice"><input type="radio" name="studio" value="Surfdale, Waiheke"><span class="choice__box"><b>Surfdale</b><small>Waiheke Island · by appointment</small></span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="step">
+            <legend><span>03</span> When suits you?</legend>
+            <p class="hint" id="date-hint">Pick a preferred date if you have one — Christa will confirm the closest available time.</p>
+            <label class="field field--half">
+              <span class="field__label">Preferred date</span>
+              <input type="date" name="date" id="date" aria-describedby="date-hint">
+            </label>
+            <span class="field__label" id="tod-label">Time of day</span>
+            <div class="choices choices--3" role="radiogroup" aria-labelledby="tod-label">
+              <label class="choice"><input type="radio" name="time" value="Morning"><span class="choice__box"><b>Morning</b></span></label>
+              <label class="choice"><input type="radio" name="time" value="Midday"><span class="choice__box"><b>Midday</b></span></label>
+              <label class="choice"><input type="radio" name="time" value="Afternoon"><span class="choice__box"><b>Afternoon</b></span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="step">
+            <legend><span>04</span> About you</legend>
+            <label class="field field--half">
+              <span class="field__label">Your name <i aria-hidden="true">*</i></span>
+              <input type="text" name="name" id="name" autocomplete="name" maxlength="60" required>
+            </label>
+            <span class="field__label" id="visit-label">Have you been before?</span>
+            <div class="choices choices--gap" role="radiogroup" aria-labelledby="visit-label">
+              <label class="choice"><input type="radio" name="visit" value="First visit"><span class="choice__box"><b>First visit</b></span></label>
+              <label class="choice"><input type="radio" name="visit" value="Returning client"><span class="choice__box"><b>Returning client</b></span></label>
+            </div>
+            <label class="field">
+              <span class="field__label">Anything Christa should know?</span>
+              <textarea name="notes" id="notes" maxlength="400" placeholder="Current colour, last time it was coloured, the look you're after…"></textarea>
+            </label>
+          </fieldset>
+
+          <h2 class="eyebrow">Good to know</h2>
+          <div class="faq">
+            <details>
+              <summary>What happens after I send my request?</summary>
+              <p>Christa replies personally by text to confirm a day and time, and sends the studio address with your confirmation.</p>
+            </details>
+            <details>
+              <summary>Are consultations really free?</summary>
+              <p>Yes. A consultation is a relaxed, no-obligation chat about your hair, including a strand test for colour where it's needed.</p>
+            </details>
+            <details>
+              <summary>How much will it cost?</summary>
+              <p>Because every head of hair is different, pricing is confirmed at your consultation or before your appointment — never as a surprise on the day.</p>
+            </details>
+            <details>
+              <summary>Is my information stored?</summary>
+              <p>No. This form doesn't send or save anything. It simply writes a text message on your device, which you choose whether to send.</p>
+            </details>
+          </div>
+        </form>
+
+        <aside class="ticket" aria-labelledby="ticket-title">
+          <img class="ticket__mark" src="/assets/img/monogram-light.svg" alt="" width="210" height="188">
+          <p class="fig">Your request</p>
+          <h2 id="ticket-title">Appointment<br><em>card.</em></h2>
+          <dl aria-live="polite">
+            <div><dt>Service</dt><dd data-out="service" class="is-empty">Choose a service</dd></div>
+            <div><dt>Studio</dt><dd data-out="studio" class="is-empty">Choose a studio</dd></div>
+            <div><dt>When</dt><dd data-out="when" class="is-empty">Flexible</dd></div>
+            <div><dt>Name</dt><dd data-out="name" class="is-empty">—</dd></div>
+          </dl>
+          <a class="btn btn--light" id="send" href="sms:+642040641495">Send by text</a>
+          <div class="ticket__alt">
+            <button type="button" class="link" id="copy">Copy message</button>
+            <a class="link" href="tel:+642040641495">Or call 020 4064 1495</a>
+          </div>
+          <p class="ticket__status" id="status" role="status"></p>
+          <p class="ticket__note">On a computer? Copy the message and text it to 020 4064 1495 from your phone. Nothing you type here is stored or sent anywhere.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <a class="brand" href="/" aria-label="Christa Loisel — home">
+          <img src="/assets/img/monogram.svg" alt="" width="42" height="38">
+          <span>Christa Loisel<small>Cutting &amp; Colour Specialist</small></span>
+        </a>
+        <p>Colour in the curve. Care in the line.</p>
+      </div>
+      <div>
+        <h4>Grey Lynn</h4>
+        <address>Grey Lynn, Auckland<br>Sunday &amp; Monday<br>By appointment</address>
+      </div>
+      <div>
+        <h4>Waiheke</h4>
+        <address>Surfdale, Waiheke Island<br>By appointment</address>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a class="link" href="sms:+642040641495">Text 020 4064 1495</a></p>
+        <p><a class="link" href="/book/">Booking request</a></p>
+        <p><a class="link" href="https://www.instagram.com/christaloiselhair/" rel="noopener noreferrer me" target="_blank">Instagram</a></p>
+      </div>
+      <div class="footer__base">
+        <span>© <span data-year>2026</span> Christa Loisel. All rights reserved.</span>
+        <span>Davines colour · Free consultations</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
