@@ -168,10 +168,9 @@
   });
 
   // the line
-  el("line", { class: "cut", x1: 20, x2: W - 10, y1: CUT, y2: CUT }, svg);
+  // the line runs the full width of the screen (the svg overflows; the hero clips it)
+  el("line", { class: "cut", x1: -4000, x2: W + 4000, y1: CUT, y2: CUT }, svg);
   var anno = el("g", { class: "anno" }, svg);
-  var figLabel = el("text", { x: 20, y: CUT - 12 }, anno);
-  figLabel.textContent = "Fig. 01 — The line";
 
   // three tone call-outs that follow the ends of their strands
   var calls = [

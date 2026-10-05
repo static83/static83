@@ -26,7 +26,7 @@
   --paper: #f3ede4;
   --paper-2: #ebe2d5;
   --paper-3: #e1d5c4;
-  --ink: #1d1714;
+  --ink: #1a1512;
   --ink-2: #4b3f38;
   --ink-3: #7a6b61;
   --rule: rgba(29, 23, 20, 0.16);
@@ -40,8 +40,8 @@
   --serif: "Bodoni Moda", "Didot", "Bodoni 72", Georgia, serif;
   --sans: "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
 
-  --gutter: clamp(20px, 5vw, 72px);
-  --max: 1320px;
+  --gutter: clamp(16px, 3.2vw, 56px);
+  --max: none;
   --ease: cubic-bezier(0.22, 0.61, 0.21, 1);
 }
 
@@ -138,11 +138,23 @@ h3 {
   margin: 0;
   letter-spacing: -0.01em;
   font-optical-sizing: auto;
+  font-kerning: normal;
+}
+
+h1,
+h2 {
+  font-weight: 600;
+  letter-spacing: -0.035em;
+}
+h1 em,
+h2 em {
+  font-weight: 500;
+  letter-spacing: -0.015em;
 }
 
 h2 {
-  font-size: clamp(38px, 5.4vw, 76px);
-  line-height: 1.02;
+  font-size: clamp(42px, 6.6vw, 128px);
+  line-height: 0.9;
 }
 
 h2 em,
@@ -321,69 +333,109 @@ h1 em {
 
 .hero {
   position: relative;
-  padding: clamp(28px, 5vw, 60px) 0 0;
   overflow: hidden;
-}
-.hero .wrap {
-  display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
-  align-items: end;
-  gap: 0 clamp(20px, 4vw, 64px);
+  padding: clamp(16px, 2.4vw, 32px) 0 clamp(56px, 7vw, 104px);
+  /* the last headline line is sized to run edge to edge */
+  --hero-size: calc((100vw - 2 * var(--gutter)) / var(--hero-ratio, 6.84));
 }
 
-.hero__copy {
-  padding-bottom: clamp(56px, 9vw, 120px);
+.hero__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px 24px;
+  flex-wrap: wrap;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--ink);
+  margin-bottom: clamp(28px, 4.6vw, 72px);
   position: relative;
   z-index: 2;
+  /* the lock emerges from beneath this rule */
+  background: var(--paper);
+  box-shadow: 0 -200px 0 200px var(--paper);
+}
+.hero__top .eyebrow {
+  margin: 0;
+}
+.hero__issue {
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.hero__issue span {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 19px;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+  margin-right: 12px;
+}
+
+.hero__stage {
+  position: relative;
 }
 
 .hero h1 {
-  font-size: clamp(50px, 7.6vw, 118px);
-  line-height: 0.94;
-  letter-spacing: -0.025em;
-  margin-bottom: 34px;
+  position: relative;
+  z-index: 1;
+  font-size: var(--hero-size);
+  font-weight: 600;
+  line-height: 0.86;
+  letter-spacing: -0.035em;
+  font-kerning: normal;
+  margin: 0;
+  padding-top: 0.04em;
 }
 .hero h1 .line {
   display: block;
+  white-space: nowrap;
 }
-.hero h1 .indent {
-  padding-left: 0.9em;
+.hero h1 .line--step {
+  padding-left: 0.55em;
+}
+.hero h1 em {
+  font-weight: 500;
+  letter-spacing: -0.015em;
+}
+
+.hero__foot {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 30px;
+  max-width: min(46%, 640px);
+  padding-top: clamp(32px, 4.6vw, 64px);
+}
+.hero__foot .lede {
+  margin: 0;
 }
 
 .hero__actions {
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
-  margin-top: 40px;
 }
 
-.hero__meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px 28px;
-  margin-top: 46px;
-  padding-top: 20px;
-  border-top: 1px solid var(--rule);
-  max-width: 34em;
-}
-.hero__meta span {
-  font-size: 12px;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--ink-3);
-}
-
+/* the lock of hair: its cut line sits exactly on the headline's last line */
 .hero__art {
-  position: relative;
-  align-self: stretch;
-  min-height: 560px;
+  --art-w: 40vw;
+  position: absolute;
+  z-index: 0;
+  right: 3vw;
+  width: var(--art-w);
+  height: calc(var(--art-w) * 1.3333);
+  bottom: calc(var(--art-w) * -0.2);
+  pointer-events: none;
 }
 .strands {
+  display: block;
+  width: 100%;
+  height: 100%;
   overflow: visible;
-  position: absolute;
-  inset: -40px -8% 0 -6%;
-  width: 114%;
-  height: calc(100% + 40px);
 }
 .strands path {
   fill: none;
@@ -393,6 +445,7 @@ h1 em {
 .strands .cut {
   stroke: var(--ink);
   stroke-width: 1;
+  vector-effect: non-scaling-stroke;
 }
 .strands text {
   font-family: var(--sans);
@@ -408,11 +461,13 @@ h1 em {
 .strands .tone line {
   stroke: var(--ink-3);
   stroke-width: 0.6;
+  vector-effect: non-scaling-stroke;
 }
 .strands .tone circle {
   fill: var(--paper);
   stroke: var(--ink);
   stroke-width: 0.8;
+  vector-effect: non-scaling-stroke;
 }
 
 .js .strands .strand {
@@ -437,21 +492,26 @@ h1 em {
 }
 
 @media (max-width: 900px) {
-  .hero .wrap {
-    grid-template-columns: 1fr;
+  .hero__stage {
+    display: flex;
+    flex-direction: column;
   }
   .hero__art {
-    order: -1;
-    min-height: 0;
-    height: 340px;
-    margin: 0 calc(var(--gutter) * -1) 8px;
-  }
-  .strands {
-    inset: -30px 0 0 0;
+    --art-w: 100%;
+    position: relative;
+    right: auto;
+    bottom: auto;
     width: 100%;
+    height: clamp(320px, 92vw, 520px);
+    margin-bottom: clamp(28px, 8vw, 48px);
   }
-  .hero__copy {
-    padding-bottom: 72px;
+  .hero__foot {
+    max-width: none;
+  }
+  .strands text,
+  .strands .tone text {
+    font-size: 23px;
+    letter-spacing: 0.12em;
   }
 }
 
@@ -611,8 +671,7 @@ h1 em {
 }
 .swatch svg {
   width: 100%;
-  height: auto;
-  aspect-ratio: 60 / 200;
+  height: clamp(300px, 34vw, 640px);
   transform-origin: 50% 0;
   transition: transform 0.8s var(--ease);
 }
@@ -827,7 +886,7 @@ h1 em {
   overflow: hidden;
 }
 .cta__mark {
-  width: 88px;
+  width: 72px;
   height: auto;
   margin: 0 auto 40px;
 }
@@ -846,9 +905,10 @@ h1 em {
 .cta__phone {
   display: inline-block;
   font-family: var(--serif);
-  font-size: clamp(46px, 9vw, 132px);
-  line-height: 1;
-  letter-spacing: -0.02em;
+  font-size: calc((100vw - 2 * var(--gutter)) / 6.56);
+  font-weight: 600;
+  line-height: 0.9;
+  letter-spacing: -0.04em;
   text-decoration: none;
   margin: 8px 0 26px;
   white-space: nowrap;
@@ -879,7 +939,9 @@ h1 em {
   grid-template-columns: 1.4fr 1fr 1fr 1fr;
   gap: 36px;
 }
-.site-footer h4 {
+.site-footer .footer__title {
+  font-family: var(--sans);
+  line-height: 1.4;
   margin: 0 0 14px;
   font-size: 11px;
   font-weight: 500;
@@ -1373,20 +1435,30 @@ h1 em {
   margin: 0 auto;
 }
 
-/* ---------- about / portrait ---------- */
+/* ---------- about / portrait (full-bleed split) ---------- */
 
+.about {
+  padding: 0;
+  border-top: 1px solid var(--ink);
+}
 .about .wrap {
+  padding: 0;
   display: grid;
-  grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
-  gap: 56px clamp(32px, 7vw, 120px);
-  align-items: center;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: stretch;
 }
 .portrait {
   margin: 0;
-  max-width: 500px;
+  background: var(--paper-3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(48px, 6vw, 110px) var(--gutter);
 }
 .portrait__arch {
   position: relative;
+  width: min(100%, 560px);
   aspect-ratio: 4 / 5;
   border-radius: 999px 999px 0 0;
   background: var(--auburn);
@@ -1413,23 +1485,27 @@ h1 em {
 }
 .portrait__arch img.portrait__photo {
   object-fit: cover;
-  object-position: 42% 30%;
 }
 .portrait__mark {
   width: 38%;
   opacity: 0.85;
 }
 .portrait figcaption {
+  width: min(100%, 560px);
   margin-top: 16px;
   padding-top: 12px;
   border-top: 1px solid var(--ink);
 }
+.about__copy {
+  align-self: center;
+  padding: clamp(72px, 9vw, 160px) var(--gutter) clamp(72px, 9vw, 160px) clamp(32px, 6vw, 120px);
+}
 .about h2 {
-  margin-bottom: 32px;
+  margin-bottom: 36px;
 }
 .about__copy > p:not(.eyebrow):not(.lede) {
   color: var(--ink-2);
-  max-width: 34em;
+  max-width: 36em;
   margin: 0 0 16px;
 }
 .about__copy .lede {
@@ -1442,13 +1518,19 @@ h1 em {
   .about .wrap {
     grid-template-columns: 1fr;
   }
-  .portrait {
-    max-width: 420px;
+  .about__copy {
+    padding: 64px var(--gutter) 80px;
   }
 }
 .about h2 {
-  font-size: clamp(38px, 4.4vw, 64px);
+  font-size: clamp(42px, 5.6vw, 112px);
 }
 section[id] {
   scroll-margin-top: 78px;
+}
+.cta .hero__actions {
+  margin-top: 40px;
+}
+.duo__fig {
+  height: clamp(150px, 14vw, 230px);
 }

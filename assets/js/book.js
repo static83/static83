@@ -45,7 +45,9 @@
 
   function clean(s, n) {
     // strip control characters and collapse whitespace
-    return String(s).replace(/[\u0000-\u001f\u007f]+/g, " ").replace(/\s+/g, " ").trim().slice(0, n);
+    var t = String(s).replace(/[\u0000-\u001f\u007f]+/g, " ").replace(/\s+/g, " ").trim();
+    // cut by code point, never through the middle of an emoji
+    return Array.from(t).slice(0, n).join("");
   }
 
   function parseDate(v) {
