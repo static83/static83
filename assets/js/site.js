@@ -165,6 +165,10 @@
       g
     );
     st.node.style.animationDelay = (0.15 + st.u * 0.5 + rand(idx + 7) * 0.25).toFixed(2) + "s";
+    // once drawn, drop the dash so wide screens (where the stroke is scaled up) show the full strand
+    st.node.addEventListener("animationend", function () {
+      this.style.strokeDasharray = "none";
+    });
   });
 
   // the line
