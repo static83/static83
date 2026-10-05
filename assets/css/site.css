@@ -405,13 +405,43 @@ h1 em {
   position: relative;
   z-index: 2;
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  gap: 30px;
-  max-width: min(46%, 640px);
-  padding-top: clamp(32px, 4.6vw, 64px);
+  grid-template-columns: minmax(0, 5fr) minmax(0, 3fr) minmax(0, 4fr);
+  gap: 28px clamp(24px, 3.4vw, 64px);
+  align-items: start;
+  padding-top: clamp(32px, 4vw, 56px);
 }
 .hero__foot .lede {
   margin: 0;
+}
+.hero__foot .hero__actions {
+  flex-direction: column;
+  align-items: stretch;
+}
+.hero__foot .hero__actions .btn {
+  justify-content: space-between;
+}
+.hero__facts {
+  list-style: none;
+  margin: clamp(48px, 5.6vw, 92px) 0 0;
+  padding: 0;
+  border-top: 1px solid var(--ink);
+}
+.hero__facts li {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 11px 0;
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--serif);
+  font-size: clamp(17px, 1.3vw, 21px);
+}
+.hero__facts span {
+  font-family: var(--sans);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  padding-top: 0.4em;
 }
 
 .hero__actions {
@@ -506,7 +536,14 @@ h1 em {
     margin-bottom: clamp(28px, 8vw, 48px);
   }
   .hero__foot {
-    max-width: none;
+    grid-template-columns: 1fr;
+  }
+  .hero__foot .hero__actions {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .hero__facts {
+    margin-top: 8px;
   }
   .strands text,
   .strands .tone text {
@@ -581,14 +618,14 @@ h1 em {
 /* ---------- sections ---------- */
 
 .section {
-  padding: clamp(88px, 12vw, 168px) 0;
+  padding: clamp(72px, 8vw, 128px) 0;
 }
 .section__head {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 32px clamp(24px, 6vw, 96px);
   align-items: end;
-  margin-bottom: clamp(48px, 7vw, 96px);
+  margin-bottom: clamp(40px, 5vw, 80px);
 }
 .section__head .lede {
   margin: 0;
@@ -1533,4 +1570,223 @@ section[id] {
 }
 .duo__fig {
   height: clamp(150px, 14vw, 230px);
+}
+
+
+/* =========================================================
+   Full-width, colour-blocked pass
+   ========================================================= */
+
+@media (max-width: 1200px) and (min-width: 901px) {
+  .hero__foot {
+    grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+  }
+  .hero__facts {
+    grid-column: 1 / -1;
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+  }
+}
+
+/* headline lines rise in, one after another */
+.js .hero h1 .line {
+  opacity: 0;
+  transform: translateY(0.18em);
+  animation: rise 1.2s var(--ease) forwards;
+}
+.js .hero h1 .line:nth-child(2) {
+  animation-delay: 0.14s;
+}
+.js .hero h1 .line:nth-child(3) {
+  animation-delay: 0.28s;
+}
+@keyframes rise {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* credentials now sit under the Meet Christa copy */
+.ledger--mini {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: clamp(40px, 4vw, 64px);
+  border-top: 1px solid var(--ink);
+  border-bottom: 0;
+}
+.ledger--mini .ledger__item {
+  padding: 24px 20px 22px 0;
+  border-right: 0;
+  border-bottom: 1px solid var(--rule);
+}
+.ledger--mini .ledger__item:nth-child(even) {
+  padding-left: 24px;
+  border-left: 1px solid var(--rule);
+}
+.ledger--mini .ledger__num {
+  font-size: clamp(40px, 3.6vw, 60px);
+}
+.ledger--mini .ledger__num--word {
+  font-size: clamp(32px, 2.8vw, 46px);
+}
+.about__copy > p:not(.eyebrow):not(.lede) {
+  max-width: none;
+}
+
+/* approach drawings fill their columns */
+.duo__fig svg {
+  width: 100%;
+  height: 100%;
+}
+.duo p {
+  max-width: none;
+}
+.duo__col {
+  padding-right: clamp(0px, 3vw, 56px);
+}
+
+/* ---- colour chart on black, like a salon colour ring ---- */
+.tones {
+  background: var(--ink);
+  color: var(--paper);
+}
+.tones .eyebrow {
+  color: rgba(243, 237, 228, 0.55);
+}
+.tones .lede,
+.tones .davines p {
+  color: rgba(243, 237, 228, 0.78);
+}
+.tones h2 em {
+  color: var(--honey);
+}
+.tones .chart {
+  position: relative;
+}
+.tones .chart::before {
+  /* a soft spotlight behind the swatches */
+  content: "";
+  position: absolute;
+  inset: -12% -4% 10%;
+  background: radial-gradient(60% 55% at 50% 40%, rgba(201, 139, 62, 0.16), transparent 70%);
+  pointer-events: none;
+}
+.tones .swatch figcaption {
+  border-top-color: rgba(243, 237, 228, 0.35);
+}
+.tones .swatch span {
+  color: rgba(243, 237, 228, 0.55);
+}
+.tones .davines {
+  border-top-color: rgba(243, 237, 228, 0.3);
+}
+
+/* ---- studios on deep oxblood ---- */
+.dark {
+  background: #3a130c;
+}
+.studio h3 {
+  font-size: clamp(48px, 6.4vw, 120px);
+  font-weight: 600;
+  letter-spacing: -0.035em;
+  line-height: 0.9;
+}
+.studio .area {
+  display: block;
+  margin-top: 8px;
+  font-size: clamp(22px, 2vw, 32px);
+}
+.studio dl {
+  grid-template-columns: repeat(3, auto);
+  grid-auto-flow: column;
+  grid-template-rows: auto auto;
+  justify-content: start;
+  gap: 6px clamp(28px, 4vw, 72px);
+  padding-top: 22px;
+  border-top: 1px solid rgba(243, 237, 228, 0.18);
+}
+
+/* ---- call to action in full copper ---- */
+.cta {
+  background: var(--copper);
+  color: var(--paper);
+}
+.cta .eyebrow {
+  color: rgba(243, 237, 228, 0.8);
+}
+.cta p {
+  color: rgba(243, 237, 228, 0.88);
+}
+.cta__phone:hover {
+  color: var(--ink);
+}
+.cta .btn {
+  --bg: var(--paper);
+  --fg: var(--ink);
+  border-color: var(--paper);
+}
+.cta .btn:hover {
+  --bg: var(--ink);
+  --fg: var(--paper);
+  border-color: var(--ink);
+}
+.cta .btn--ghost {
+  --bg: transparent;
+  --fg: var(--paper);
+  border-color: rgba(243, 237, 228, 0.6);
+}
+.cta {
+  padding: clamp(72px, 9vw, 140px) 0 clamp(72px, 9vw, 130px);
+}
+
+/* services: a row fills with colour on hover */
+.services li {
+  transition: background 0.5s var(--ease);
+}
+@media (hover: hover) {
+  .services li:hover {
+    background: var(--paper-2);
+  }
+}
+.services li {
+  padding-left: 14px;
+  padding-right: 14px;
+  margin: 0 -14px;
+}
+.tones {
+  overflow: hidden;
+}
+
+/* hero foot fills its row */
+.hero__foot .lede {
+  font-size: clamp(19px, 1.65vw, 26px);
+  line-height: 1.5;
+}
+.hero__ig {
+  align-self: flex-start;
+  margin-top: 10px;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(18px, 1.4vw, 22px);
+}
+
+/* the arch grows to the full height of its panel */
+@media (min-width: 861px) {
+  .portrait {
+    justify-content: stretch;
+  }
+  .portrait__arch {
+    flex: 1;
+    width: 100%;
+    max-width: 640px;
+    aspect-ratio: auto;
+    min-height: 560px;
+  }
+  .portrait figcaption {
+    max-width: 640px;
+    width: 100%;
+  }
 }

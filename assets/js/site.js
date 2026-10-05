@@ -55,7 +55,7 @@
   var W = 600,
     CUT = 640,
     TOP = -520,
-    N = 40,
+    N = 56,
     STEPS = 46;
 
   // ends tone, from lifted honey through copper to espresso
@@ -92,7 +92,7 @@
     var uu = Math.min(1, Math.max(0, u + (rand(i) - 0.5) * 0.12));
     strands.push({
       u: uu,
-      w: 0.7 + rand(i + 50) * 1.1,
+      w: 0.8 + rand(i + 50) * 1.3,
       ph: rand(i + 99) * Math.PI * 2,
       end: toneAt(uu),
     });
