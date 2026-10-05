@@ -46,6 +46,7 @@
         "@id": "https://christaloisel.co.nz/#christa",
         "name": "Christa Loisel",
         "jobTitle": "Cutting & Colour Specialist",
+        "image": "https://christaloisel.co.nz/assets/img/christa-loisel-910.jpg",
         "description": "Hairdresser with over 28 years' experience worldwide, trained at Servilles (NZ) with advanced training in London. Specialist in colour and precision cutting.",
         "url": "https://christaloisel.co.nz/",
         "telephone": "+64-20-4064-1495",
@@ -152,8 +153,10 @@
       <div class="wrap">
         <figure class="portrait reveal">
           <div class="portrait__arch">
-            <!-- PORTRAIT -->
-            <img class="portrait__mark" src="/assets/img/monogram-light.svg" alt="" width="180" height="161">
+            <picture>
+              <source type="image/webp" srcset="/assets/img/christa-loisel-600.webp 600w, /assets/img/christa-loisel-910.webp 910w" sizes="(max-width: 860px) 92vw, 640px">
+              <img class="portrait__photo" src="/assets/img/christa-loisel-910.jpg" srcset="/assets/img/christa-loisel-600.jpg 600w, /assets/img/christa-loisel-910.jpg 910w" sizes="(max-width: 860px) 92vw, 640px" width="910" height="1248" alt="Christa Loisel, hair cutting and colour specialist, smiling in the salon with her glossy auburn hair" loading="lazy" decoding="async">
+            </picture>
           </div>
           <figcaption class="fig">Christa Loisel — Cutting &amp; Colour Specialist</figcaption>
         </figure>

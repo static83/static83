@@ -1790,3 +1790,8 @@ section[id] {
     width: 100%;
   }
 }
+
+/* portrait photo: keep Christa's face in frame at every arch shape */
+.portrait__arch img.portrait__photo {
+  object-position: 40% 42%;
+}
