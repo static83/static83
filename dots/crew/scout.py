@@ -163,6 +163,10 @@ _NOTES_CLOSING = [re.compile(p, re.IGNORECASE) for p in (
     r"\b(initial purchasers?|underwriters?|book-running managers?)\b",
 )]
 _CONVERTIBLE = re.compile(r"\bconvertible\b", re.IGNORECASE)
+_AS_PREVIOUSLY = re.compile(r"\bas previously (disclosed|announced|reported)\b", re.IGNORECASE)
+_COMPLETED_DEAL = re.compile(
+    r"\b(completed|consummated|closed)\b.{0,60}?\b(acquisition|merger|sale|disposition|purchase)\b", re.IGNORECASE
+)
 _UNDERWRITTEN = re.compile(r"\bentered into an underwriting agreement\b", re.IGNORECASE)
 # Offering paperwork is only skipped when the filing reports nothing else.
 _FINANCING_ONLY_ITEMS = {"1.01", "7.01", "8.01"}
@@ -174,6 +178,8 @@ def settles_prior_news(items: list[str], body: str) -> Optional[str]:
     m = _COMPLETES_PRIOR.search(head)
     if m:
         return f"settles a previously announced deal ('{m.group(0)[:70]}')"
+    if "2.01" in items and "2.02" not in items and _AS_PREVIOUSLY.search(head) and _COMPLETED_DEAL.search(head):
+        return "completes a previously disclosed acquisition or sale"
     if set(items) <= _FINANCING_ONLY_ITEMS:
         if all(p.search(head) for p in _NOTES_CLOSING):
             kind = "convertible bond" if _CONVERTIBLE.search(head) else "bond"
@@ -217,7 +223,15 @@ def _sentences(text: str) -> list[str]:
 
 def routine_people_filing(items: list[str], body: str) -> Optional[str]:
     """Why an Item 5.02-only filing is routine, or None if it may be news (or is not 5.02-only)."""
-    if items != ["5.02"]:
+    if items == ["5.02", "7.01"]:
+        # Allowed only when the 7.01 section just furnishes a press release about the same people news.
+        m = re.search(r"\bitem\s+7\.01\b(.*?)(\bitem\s+9\.01\b|$)", body[:6000], re.IGNORECASE | re.DOTALL)
+        reg_fd = m.group(1) if m else ""
+        if not (re.search(r"press release", reg_fd, re.IGNORECASE)
+                and re.search(r"appoint|resign|retire|director|board|depart", reg_fd, re.IGNORECASE)
+                and not _HAS_FIGURES.search(reg_fd)):
+            return None
+    elif items != ["5.02"]:
         return None
     head = body[:5000]
     if not re.search(r"\bitem\s+5\.02", head, re.IGNORECASE):
@@ -341,6 +355,7 @@ def already_traded(bars: list[dict], first_day: date, now: Optional[datetime] = 
 _NOTICE_ONLY_ITEMS = {"7.01", "8.01"}
 _CALL_NOTICE = re.compile(
     r"will (host|hold) (a|its|an) (conference call|earnings call|webcast|call)"
+    r"|(annual|special) meeting of (stockholders|shareholders|unitholders) will be held"
     r"|(conference call|earnings call|webcast)[^.]{0,120}\bto (discuss|review|announce)\b[^.]{0,60}\bresults"
     r"|will (release|report|announce) (its )?[^.]{0,60}\bresults\b[^.]{0,80}\b(on|before|after) "
     r"(january|february|march|april|may|june|july|august|september|october|november|december|monday|tuesday|wednesday|thursday|friday)",
@@ -359,7 +374,7 @@ def call_notice_only(items: list[str], body: str) -> Optional[str]:
         return None
     head = " ".join(_sentences(body[:2500])[:3])
     if _CALL_NOTICE.search(head) and not _HAS_FIGURES.search(body[:2500]):
-        return "only a date for an upcoming earnings call or results, no figures"
+        return "only a date for an upcoming call, results or shareholder meeting, no figures"
     return None
 
 

@@ -38,19 +38,21 @@ source with an official timestamp, so "pull the original source" is literal. Fil
 1. Only items 1.01, 2.01, 2.02, 5.02, 7.01, 8.01. Routine items are skipped.
 2. A listed ticker (EDGAR's own CIK to ticker map).
 3. Not just the paperwork for news that is already public: a filing that says it completed, closed,
-   settled or priced something "previously announced", the closing of a convertible bond offering,
+   settled or priced something "previously announced", a completed acquisition or sale the filing
+   says was previously disclosed, the closing of a bond or convertible bond offering,
    or an underwriting agreement (signed the day an offering is priced). The last two only apply when
    the filing reports nothing else. "As previously disclosed" alone is not enough: filings often use
    it to introduce something genuinely new.
 4. Not routine people paperwork. A filing whose only material item is 5.02 is skipped unless a CEO,
    CFO, COO or president is leaving or arriving, or someone left over a disagreement. Board seats,
-   pay plans, bonuses and temporary leave are skipped. When the filter cannot tell, SCOUT reads it.
+   pay plans, bonuses and temporary leave are skipped. A 5.02 paired with a 7.01 that only furnishes
+   the press release about it counts the same. When the filter cannot tell, SCOUT reads it.
 5. Not stale earnings. A filing that only reports results (2.02, with or without 7.01) is skipped
    once a full trading session has closed since the release: results released before the open or
    during the day are skipped by the nightly run, results released after the close pass. The
    release time is the filing time unless the filing dates the release to an earlier day.
 6. Not just a call date. A filing whose only items are 7.01 or 8.01 and that only announces when
-   a conference call or results will happen, with no figures in it, is skipped.
+   a conference call, results or a shareholder meeting will happen, with no figures in it, is skipped.
 7. A price at Alpaca, so the stock can actually be paper traded.
 8. Market cap at or above `DOTS_MIN_MARKET_CAP_USD` (default 300M): last price times the most recent
    share count the SEC has (cover-page count summed across share classes, then the balance-sheet
