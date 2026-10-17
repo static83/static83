@@ -54,7 +54,7 @@ def main() -> int:
             print("SCOUT scanning EDGAR 8-K feed...")
             from crew.learning import seen_filings
 
-            candidates = find_candidates(Edgar(), data.last_price, limit=args.candidates,
+            candidates = find_candidates(Edgar(), data.last_price, data.daily_bars, limit=args.candidates,
                                          since_hours=args.since_hours, skip=seen_filings())
             save_candidates(root, candidates)
         if not candidates:
@@ -78,7 +78,7 @@ def main() -> int:
         print("SCOUT scanning EDGAR 8-K feed...")
         from crew.learning import seen_filings
 
-        candidates = find_candidates(Edgar(), data.last_price, limit=args.candidates,
+        candidates = find_candidates(Edgar(), data.last_price, data.daily_bars, limit=args.candidates,
                                      since_hours=args.since_hours, skip=seen_filings())
         if not candidates:
             print("SCOUT found nothing worth the crew's night. No trade.")

@@ -290,6 +290,53 @@ def late_earnings(items: list[str], body: str, filed_at: str, now: Optional[date
     return None
 
 
+# Any filing: did the stock already react after the news went public?
+_PUBLIC_WORDS = re.compile(r"press release|news release|earnings release|announced|publicly (disclosed|released)", re.IGNORECASE)
+REACTION_MOVE = 0.05   # open or close at least 5% from the prior close
+REACTION_VOLUME = 2.0  # on at least twice the median daily volume of the prior 20 sessions
+
+
+def first_exposed_session(body: str, filed_at: str) -> date:
+    """The first trading day whose session could have traded on this news.
+
+    If the filing dates a press release or announcement, that day's session counts (the release may
+    have gone out before the open even when the 8-K was filed after the close). Otherwise the news
+    was public when the 8-K was filed: that day's session if filed before 4pm New York, else the next.
+    """
+    filed = datetime.fromisoformat(filed_at.replace("Z", "+00:00")).astimezone(NY)
+    for sent in _sentences(body[:2500]):
+        m = _RELEASE_DATE.search(sent)
+        if m and _PUBLIC_WORDS.search(sent):
+            day = datetime.strptime(f"{m.group(1)} {m.group(2)} {m.group(3)}", "%B %d %Y").date()
+            if day <= filed.date():
+                return day
+            break
+    return filed.date() if filed.hour < 16 else filed.date() + timedelta(days=1)
+
+
+def already_traded(bars: list[dict], first_day: date, now: Optional[datetime] = None, look: int = 3) -> Optional[str]:
+    """Why the market has visibly traded on this news already, or None."""
+    now = (now or datetime.now(timezone.utc)).astimezone(NY)
+    idx = [i for i, b in enumerate(bars) if b["t"][:10] >= first_day.isoformat()]
+    if not idx or idx[0] == 0:
+        return None
+    start = idx[0]
+    base = sorted(float(b["v"]) for b in bars[max(0, start - 20):start])
+    median_vol = base[len(base) // 2] if base else 0
+    for i in idx[:look]:
+        b, prev = bars[i], bars[i - 1]
+        day = date.fromisoformat(b["t"][:10])
+        if datetime(day.year, day.month, day.day, 16, 0, tzinfo=NY) > now:
+            break  # that session has not closed yet
+        prior = float(prev["c"])
+        gap, move = float(b["o"]) / prior - 1, float(b["c"]) / prior - 1
+        vol = float(b["v"]) / median_vol if median_vol else 0
+        if max(abs(gap), abs(move)) >= REACTION_MOVE and vol >= REACTION_VOLUME:
+            return (f"already traded: on {day:%b %d} it opened {gap:+.0%} and closed {move:+.0%} "
+                    f"on {vol:.1f}x normal volume")
+    return None
+
+
 def _clean(raw: str) -> str:
     text = _TAG_RE.sub(" ", raw)
     text = html.unescape(text)
@@ -314,6 +361,7 @@ def excerpt(text: str) -> str:
 def find_candidates(
     edgar: Edgar,
     price_of,
+    bars_of=None,
     limit: Optional[int] = None,
     since_hours: float = 18,
     log=print,
@@ -374,6 +422,11 @@ def find_candidates(
             log(f"  skip {ticker}: no share count on file at the SEC, market cap unknown")
             continue
         cap = price * shares
+        if cap >= settings.min_market_cap and bars_of is not None:
+            traded = already_traded(bars_of(ticker, 40), first_exposed_session(body, entry["filed_at"]))
+            if traded:
+                log(f"  skip {ticker}: {traded}")
+                continue
         if cap < settings.min_market_cap:
             log(f"  skip {ticker}: market cap {cap/1e6:,.0f}M below floor")
             continue
