@@ -5,6 +5,7 @@
     python run_night.py --dry-run       # never send orders, even with Alpaca keys
     python run_night.py --offline       # no network, no keys: scripted memos, exercises the pipeline
     python run_night.py --candidates 2  # cap SCOUT's handoffs for the night
+    python run_night.py --manual runs/night1   # memos written by hand into runs/night1/inbox
 """
 from __future__ import annotations
 
@@ -24,6 +25,8 @@ def main() -> int:
     ap.add_argument("--offline", action="store_true", help="scripted memos, no API calls")
     ap.add_argument("--dry-run", action="store_true", help="never send paper orders")
     ap.add_argument("--candidates", type=int, default=settings.max_candidates)
+    ap.add_argument("--since-hours", type=float, default=18, help="how far back SCOUT looks")
+    ap.add_argument("--manual", metavar="DIR", help="no Anthropic key: memos are read from DIR/inbox")
     args = ap.parse_args()
 
     broker = PaperBroker(dry_run=args.dry_run or args.offline)
@@ -36,6 +39,25 @@ def main() -> int:
         ask = OfflineAsker(clock)
         candidates = SAMPLE_FILINGS[: args.candidates]
         data = AlpacaData()
+    elif args.manual:
+        from pathlib import Path
+
+        from crew.manual import ManualAsker, OnceBroker, load_candidates, save_candidates
+        from crew.scout import Edgar, find_candidates
+
+        root = Path(args.manual)
+        broker = OnceBroker(broker, root)
+        data = AlpacaData()
+        ledger = Ledger(broker.equity(), broker.mode, "manual (memos written in session)")
+        ask = ManualAsker(root)
+        candidates = load_candidates(root)
+        if candidates is None:
+            print("SCOUT scanning EDGAR 8-K feed...")
+            candidates = find_candidates(Edgar(), data.last_price, limit=args.candidates, since_hours=args.since_hours)
+            save_candidates(root, candidates)
+        if not candidates:
+            print("SCOUT found nothing worth the crew's night. No trade.")
+            return 0
     else:
         if not settings.anthropic_api_key:
             print("ANTHROPIC_API_KEY is not set (or run `ant auth login`). Use --offline to test without it.")
@@ -47,7 +69,7 @@ def main() -> int:
         ledger = Ledger(broker.equity(), broker.mode, settings.model)
         print(f"22:00 rule: if all six agree right away, start over. broker={broker.mode} model={settings.model}")
         print("SCOUT scanning EDGAR 8-K feed...")
-        candidates = find_candidates(Edgar(), data.last_price, limit=args.candidates)
+        candidates = find_candidates(Edgar(), data.last_price, limit=args.candidates, since_hours=args.since_hours)
         if not candidates:
             print("SCOUT found nothing worth the crew's night. No trade.")
             ledger.log("SCOUT", "system", 0, "no candidates passed the filters")
@@ -56,7 +78,13 @@ def main() -> int:
 
     spider = Spider(ask, ledger, broker, data)
     for i, cand in enumerate(candidates, start=1):
-        result = spider.run_case(i, cand)
+        try:
+            result = spider.run_case(i, cand)
+        except Exception as exc:  # manual mode pauses here until the memo is written
+            if type(exc).__name__ != "NeedMemo":
+                raise
+            print(f"\nWAITING for memo {exc.key}\n  packet: {exc.path}")
+            return 3
         if result.outcome == "paper_order":
             ledger.mark_balance(broker.equity())
             break  # one name, one night
