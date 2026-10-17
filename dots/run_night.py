@@ -52,7 +52,10 @@ def main() -> int:
         candidates = load_candidates(root)
         if candidates is None:
             print("SCOUT scanning EDGAR 8-K feed...")
-            candidates = find_candidates(Edgar(), data.last_price, limit=args.candidates, since_hours=args.since_hours)
+            from crew.learning import seen_filings
+
+            candidates = find_candidates(Edgar(), data.last_price, limit=args.candidates,
+                                         since_hours=args.since_hours, skip=seen_filings())
             save_candidates(root, candidates)
         if not candidates:
             print("SCOUT found nothing worth the crew's night. No trade.")
@@ -73,7 +76,10 @@ def main() -> int:
         ledger = Ledger(broker.equity(), broker.mode, settings.model)
         print(f"22:00 rule: if all six agree right away, start over. broker={broker.mode} model={settings.model}")
         print("SCOUT scanning EDGAR 8-K feed...")
-        candidates = find_candidates(Edgar(), data.last_price, limit=args.candidates, since_hours=args.since_hours)
+        from crew.learning import seen_filings
+
+        candidates = find_candidates(Edgar(), data.last_price, limit=args.candidates,
+                                     since_hours=args.since_hours, skip=seen_filings())
         if not candidates:
             print("SCOUT found nothing worth the crew's night. No trade.")
             ledger.log("SCOUT", "system", 0, "no candidates passed the filters")
@@ -92,6 +98,7 @@ def main() -> int:
         learning.update_outcomes(data)
         track_record = learning.scorecard()
         learning.write_lessons(track_record)
+        ledger.track_record = track_record
         ledger.log("JOURNAL", "report", 0, f"track record: {track_record['cases_on_file']} past case(s) on file")
         for line in track_record["scorecard"]:
             print(f"  record   {line}")
@@ -108,6 +115,11 @@ def main() -> int:
             ledger.mark_balance(broker.equity())
             break  # one name, one night
     ledger.mark_balance(broker.equity())
+    if not args.offline:  # the record the dashboard shows includes tonight's cases
+        from crew import learning
+
+        ledger.track_record = learning.scorecard()
+        learning.write_lessons(ledger.track_record)
     path = ledger.write()
     outcomes = ", ".join(f"case {c.case:02d} {c.ticker} {c.outcome}" for c in ledger.cases)
     print(f"\nnight closed: {outcomes}\nledger: {path}\ndashboard: dashboard/runs/latest.json")

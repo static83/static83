@@ -135,6 +135,7 @@ def find_candidates(
     limit: Optional[int] = None,
     since_hours: float = 18,
     log=print,
+    skip: set[str] | None = None,
 ) -> list[Candidate]:
     """Apply the SCOUT filters in order and hand back at most `limit` candidates.
 
@@ -159,6 +160,9 @@ def find_candidates(
         if not info:  # no listed ticker, nothing to paper trade
             continue
         ticker = info["ticker"]
+        if skip and (entry["accession"] in skip or f"{ticker}|{entry['filed_at']}" in skip):
+            log(f"  skip {ticker}: already judged on an earlier night")
+            continue
         url, text = edgar.primary_document(entry["index_url"])
         items = items_in(text)
         if not items:

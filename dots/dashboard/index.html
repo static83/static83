@@ -120,6 +120,18 @@ canvas{display:block;width:100%;max-width:100%;background:var(--surface-chart);b
 .bars-x span{flex:1;text-align:center;font-size:8px;letter-spacing:.04em;color:var(--fg-3)}
 .foot{color:var(--fg-3);font-size:10px;letter-spacing:.06em;text-transform:uppercase;display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
 
+
+/* track record */
+.tr{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:16px}
+@media (max-width:860px){ .tr{grid-template-columns:1fr} }
+.tr ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.tr li{font-size:12px;color:var(--fg-2);line-height:1.5;padding-left:12px;border-left:2px solid var(--line)}
+.tr-table{overflow-x:auto}
+.tr table{width:100%;border-collapse:collapse;font-size:11px;font-variant-numeric:tabular-nums}
+.tr th{font-weight:500;color:var(--fg-3);text-align:left;font-size:10px;letter-spacing:.06em;text-transform:uppercase;padding:4px 6px;border-bottom:1px solid var(--line)}
+.tr td{padding:5px 6px;border-bottom:1px solid var(--line-2);white-space:nowrap}
+.tr td.pos{color:var(--good)} .tr td.neg{color:var(--bad)} .tr td.na{color:var(--fg-3)}
+
 /* crew */
 .crew{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}
 @media (max-width:860px){ .crew{grid-template-columns:repeat(3,1fr)} }
@@ -264,6 +276,17 @@ canvas{display:block;width:100%;max-width:100%;background:var(--surface-chart);b
     </div>
   </section>
 
+  <section class="panel" id="tr-panel" aria-label="Track record" hidden>
+    <div class="head"><h2>Track record <span class="sl">// how past calls played out</span></h2><span class="lbl" id="tr-sub">0 cases on file</span></div>
+    <div class="tr">
+      <ul id="tr-lines"></ul>
+      <div class="tr-table"><table>
+        <thead><tr><th>Ticker</th><th>Night</th><th>Ended by</th><th>Thesis</th><th>5-day result</th><th>First exit</th></tr></thead>
+        <tbody id="tr-rows"></tbody>
+      </table></div>
+    </div>
+  </section>
+
   <section class="crew" id="crew" aria-label="Crew"></section>
   <p class="note" id="note">Replay of the sample night. Numbers are a story, not a result. Drop a real run at runs/latest.json to replay it instead.</p>
 </div>
@@ -366,6 +389,7 @@ function init(){
     ? 'Replay of the sample night. Numbers are a story, not a result. Drop a real run at runs/latest.json to replay it instead.'
     : 'Replay of a real paper run written by run_night.py. Paper only.';
   buildCrew();
+  renderTrackRecord();
   sizeCanvases();
   render(true);
   requestAnimationFrame(frame);
@@ -706,6 +730,21 @@ function mulberry(a){ return () => { a|=0; a=a+0x6D2B79F5|0; let t=Math.imul(a^a
 function renderReceipts(ev){
   const counts = ROLES.map(r => ev.filter(e => e.role===r).length); const max = Math.max(1, ...counts);
   $('receipts').innerHTML = ROLES.map((r,i) => `<div class="bg-${r}" style="height:${Math.max(3, counts[i]/max*56)}px"><span class="num">${counts[i]||''}</span></div>`).join('');
+}
+
+
+function renderTrackRecord(){
+  const tr = S.run.track_record;
+  if (!tr || !tr.scorecard) return;
+  $('tr-panel').hidden = false;
+  $('tr-sub').textContent = tr.cases_on_file + (tr.cases_on_file===1 ? ' case on file' : ' cases on file');
+  $('tr-lines').innerHTML = tr.scorecard.map(l => `<li>${esc(l)}</li>`).join('');
+  const pct = v => v==null ? '<td class="na">pending</td>' : `<td class="${v>0?'pos':v<0?'neg':''}">${(v>0?'+':'')+(100*v).toFixed(1)}%</td>`;
+  const night = n => n ? n.slice(4,6)+'/'+n.slice(6,8) : '';
+  $('tr-rows').innerHTML = (tr.recent_cases||[]).map(r => `<tr><td><b>${esc(r.ticker)}</b></td><td>${night(r.night)}</td>
+    <td class="role c-${esc(r.ended_by)}">${esc(r.ended_by)}</td><td>${esc(r.direction||'none')}</td>
+    ${r.thesis_5d!=null ? pct(r.thesis_5d) : (r.raw_5d!=null ? pct(r.raw_5d) : pct(null))}<td>${esc(r.first_exit||'—')}</td></tr>`).join('')
+    || '<tr><td colspan="6" class="na">No cases yet.</td></tr>';
 }
 
 /* crew cards */

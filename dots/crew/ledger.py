@@ -23,6 +23,7 @@ class Ledger:
         self.balance: list[tuple[int, float]] = [(0, start_balance)]
         self.cases: list[CaseResult] = []
         self.counts = {"objections": 0, "source_links": 0, "send_backs": 0, "restarts": 0}
+        self.track_record: dict = {}
 
     # ---- writing ----------------------------------------------------------------------------
     def minute(self) -> int:
@@ -91,6 +92,7 @@ class Ledger:
             "cases": cases,
             "receipts": self.receipts(),
             "counts": self.counts,
+            "track_record": self.track_record,
         }
 
     def write(self, path: Optional[Path] = None) -> Path:

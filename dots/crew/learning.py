@@ -78,6 +78,7 @@ def record_case(night: str, result: CaseResult, cand: Candidate, decided_at: dat
         "key": key,
         "night": night,
         "ticker": cand.ticker,
+        "accession": cand.accession,
         "filed_at": cand.filed_at,
         "decided_at": decided_at.isoformat(),
         "price_at_decision": cand.last_price,
@@ -118,6 +119,16 @@ def record_trade(case_key: str, order: dict, memos: list[Memo]) -> None:
         "opened_at": datetime.now(timezone.utc).isoformat(),
     }
     _save(TRADES, trades)
+
+
+def seen_filings() -> set[str]:
+    """Accession numbers and ticker|filed_at pairs the crew has already judged."""
+    out: set[str] = set()
+    for r in _load(CASEBOOK).values():
+        if r.get("accession"):
+            out.add(r["accession"])
+        out.add(f"{r['ticker']}|{r['filed_at']}")
+    return out
 
 
 # ---- rule 8: the time limit ---------------------------------------------------------------
