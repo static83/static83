@@ -75,6 +75,35 @@ class PaperBroker:
         r.raise_for_status()
         return r.json()
 
+    def shortable(self, symbol: str) -> bool:
+        if self.dry_run:
+            return True
+        r = self.session.get(f"{self.base}/v2/assets/{symbol}", timeout=20)
+        if r.status_code != 200:
+            return False
+        a = r.json()
+        return bool(a.get("shortable") and a.get("easy_to_borrow"))
+
+    def cancel_stale_entries(self, max_age_hours: float = 20) -> list[str]:
+        """Cancel bracket entries that never filled. Cancelling the parent cancels its legs."""
+        if self.dry_run:
+            return []
+        from datetime import datetime, timezone
+
+        r = self.session.get(f"{self.base}/v2/orders", params={"status": "open", "nested": "true"}, timeout=20)
+        r.raise_for_status()
+        now = datetime.now(timezone.utc)
+        cancelled = []
+        for o in r.json():
+            if o.get("order_class") != "bracket" or float(o.get("filled_qty") or 0) > 0:
+                continue
+            created = datetime.fromisoformat(o["created_at"].replace("Z", "+00:00"))
+            if (now - created).total_seconds() / 3600 >= max_age_hours:
+                d = self.session.delete(f"{self.base}/v2/orders/{o['id']}", timeout=20)
+                if d.status_code in (200, 204):
+                    cancelled.append(f"{o['symbol']} {o['side']} {o['qty']} @ {o.get('limit_price')}")
+        return cancelled
+
     def bracket_order(
         self, symbol: str, side: str, qty: int, entry: float, stop: float, target: float
     ) -> dict:
@@ -86,7 +115,9 @@ class PaperBroker:
             "side": side,
             "type": "limit",
             "limit_price": f"{entry:.2f}",
-            "time_in_force": "day",
+            # gtc so the stop-loss and take-profit legs stay live after the first session.
+            # An entry that has not filled by the next night is cancelled by cancel_stale_entries().
+            "time_in_force": "gtc",
             "order_class": "bracket",
             "take_profit": {"limit_price": f"{target:.2f}"},
             "stop_loss": {"stop_price": f"{stop:.2f}"},

@@ -80,6 +80,8 @@ def main() -> int:
             ledger.write()
             return 0
 
+    for stale in broker.cancel_stale_entries():
+        ledger.log("SPIDER", "system", 0, f"cancelled unfilled entry from a previous night: {stale}")
     spider = Spider(ask, ledger, broker, data)
     for i, cand in enumerate(candidates, start=1):
         try:

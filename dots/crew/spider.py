@@ -126,6 +126,9 @@ class Spider:
         size = min(risk.position_size_usd, quant.position_size_usd or risk.position_size_usd)
         qty = shares_for(size, quant.entry_price)
         side = "sell" if (quant.direction or risk.direction) == "short" else "buy"
+        if side == "sell" and not self.broker.shortable(cand.ticker):
+            L.log("SPIDER", "system", case, f"{cand.ticker} is not shortable or not easy to borrow at Alpaca: no trade")
+            return self.close(case, cand, memos, "rejected", rounds)
         if qty < 1:
             L.log("SPIDER", "system", case, f"approved size ${size:.2f} buys 0 shares at {quant.entry_price:.2f}: no trade")
             return self.close(case, cand, memos, "rejected", rounds)
