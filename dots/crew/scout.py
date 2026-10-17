@@ -238,7 +238,9 @@ def routine_people_filing(items: list[str], body: str) -> Optional[str]:
 # nothing but results (2.02, optionally with the 7.01 that furnishes the same release).
 _EARNINGS_ONLY_ITEMS = {"2.02", "7.01"}
 _MONTHS = "January|February|March|April|May|June|July|August|September|October|November|December"
-_RELEASE_DATE = re.compile(rf"\bOn ({_MONTHS}) (\d{{1,2}}), (\d{{4}})", re.IGNORECASE)
+_RELEASE_DATE = re.compile(
+    rf"\b(?:On|(?:press|news|earnings) release dated) ({_MONTHS}) (\d{{1,2}}),? (\d{{4}})", re.IGNORECASE
+)
 _RELEASE_WORDS = re.compile(r"press release|news release|earnings release|announced|issued|reported|released", re.IGNORECASE)
 
 
@@ -346,6 +348,7 @@ def find_candidates(
             url2, text2 = edgar.primary_document(entry["index_url"])
             same.source_excerpt += f"\n\n[Second filing the same night, {entry['filed_at']}, {url2}]\n" + excerpt(text2)[:3000]
             same.items = sorted(set(same.items) | set(items_in(text2)))
+            same.also_accessions.append(entry["accession"])
             log(f"  fold {ticker}: second filing added to tonight's case")
             continue
         if skip and (entry["accession"] in skip or f"{ticker}|{entry['filed_at']}" in skip):

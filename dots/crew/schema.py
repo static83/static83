@@ -23,6 +23,7 @@ class Candidate(BaseModel):
     source_excerpt: str  # the filing text, trimmed, never paraphrased
     market_cap_usd: Optional[float] = None
     last_price: Optional[float] = None
+    also_accessions: list[str] = Field(default_factory=list)  # other filings folded into this case
 
 
 class Memo(BaseModel):

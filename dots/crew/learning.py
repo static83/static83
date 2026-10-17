@@ -79,6 +79,7 @@ def record_case(night: str, result: CaseResult, cand: Candidate, decided_at: dat
         "night": night,
         "ticker": cand.ticker,
         "accession": cand.accession,
+        "also_accessions": cand.also_accessions,
         "filed_at": cand.filed_at,
         "decided_at": decided_at.isoformat(),
         "price_at_decision": cand.last_price,
@@ -127,6 +128,7 @@ def seen_filings() -> set[str]:
     for r in _load(CASEBOOK).values():
         if r.get("accession"):
             out.add(r["accession"])
+        out.update(r.get("also_accessions") or [])
         out.add(f"{r['ticker']}|{r['filed_at']}")
     return out
 
