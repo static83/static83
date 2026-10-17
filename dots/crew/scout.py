@@ -50,34 +50,53 @@ class Edgar:
         return resp
 
     # ---- feed -------------------------------------------------------------------------------
-    def latest_8k(self, count: int = 100) -> list[dict]:
-        """Newest 8-K entries from the 'current filings' Atom feed."""
-        resp = self._get(
-            EDGAR_CURRENT,
-            params={"action": "getcurrent", "type": "8-K", "count": count, "output": "atom"},
-        )
-        root = ET.fromstring(resp.content)
-        out = []
-        for entry in root.findall("a:entry", ATOM):
-            title = entry.findtext("a:title", default="", namespaces=ATOM)
-            link = entry.find("a:link", ATOM)
-            updated = entry.findtext("a:updated", default="", namespaces=ATOM)
-            summary = html.unescape(entry.findtext("a:summary", default="", namespaces=ATOM))
-            m = re.match(r"8-K(?:/A)?\s+-\s+(.*?)\s+\((\d{6,10})\)", title)
-            if not m or link is None:
-                continue
-            acc = re.search(r"AccNo:</b>\s*([\d-]+)", summary)
-            out.append(
-                {
-                    "company": m.group(1).strip(),
-                    "cik": m.group(2).lstrip("0"),
-                    "index_url": link.get("href", ""),
-                    "filed_at": updated,
-                    "accession": acc.group(1) if acc else "",
-                    "amendment": title.startswith("8-K/A"),
-                }
+    def latest_8k(self, count: int = 100, since: Optional[datetime] = None, max_pages: int = 10) -> list[dict]:
+        """8-K entries from the 'current filings' Atom feed, newest first.
+
+        The feed serves 100 entries a page, which is only an hour or two on a busy evening, so keep
+        paging until entries are older than `since` (or max_pages is reached).
+        """
+        out: list[dict] = []
+        for page in range(max_pages):
+            resp = self._get(
+                EDGAR_CURRENT,
+                params={"action": "getcurrent", "type": "8-K", "count": count, "start": page * count, "output": "atom"},
             )
-        return out
+            root = ET.fromstring(resp.content)
+            entries = root.findall("a:entry", ATOM)
+            for entry in entries:
+                title = entry.findtext("a:title", default="", namespaces=ATOM)
+                link = entry.find("a:link", ATOM)
+                updated = entry.findtext("a:updated", default="", namespaces=ATOM)
+                summary = html.unescape(entry.findtext("a:summary", default="", namespaces=ATOM))
+                m = re.match(r"8-K(?:/A)?\s+-\s+(.*?)\s+\((\d{6,10})\)", title)
+                if not m or link is None:
+                    continue
+                acc = re.search(r"AccNo:</b>\s*([\d-]+)", summary)
+                out.append(
+                    {
+                        "company": m.group(1).strip(),
+                        "cik": m.group(2).lstrip("0"),
+                        "index_url": link.get("href", ""),
+                        "filed_at": updated,
+                        "accession": acc.group(1) if acc else "",
+                        "amendment": title.startswith("8-K/A"),
+                    }
+                )
+            if len(entries) < count or since is None or not out:
+                break
+            try:
+                oldest = datetime.fromisoformat(out[-1]["filed_at"].replace("Z", "+00:00"))
+            except ValueError:
+                break
+            if oldest < since:
+                break
+        seen, unique = set(), []
+        for r in out:  # the feed can repeat an entry across page boundaries
+            if r["accession"] not in seen:
+                seen.add(r["accession"])
+                unique.append(r)
+        return unique
 
     # ---- per filing -------------------------------------------------------------------------
     def primary_document(self, index_url: str) -> tuple[str, str]:
@@ -101,7 +120,11 @@ class Edgar:
     def tickers(self) -> dict[str, dict]:
         if self._tickers is None:
             data = self._get(EDGAR_TICKERS).json()
-            self._tickers = {str(v["cik_str"]): v for v in data.values()}
+            # One company can have several tickers (common, preferreds, notes). The SEC lists the
+            # primary common stock first, so keep the first entry for each company.
+            self._tickers = {}
+            for _, v in sorted(data.items(), key=lambda kv: int(kv[0])):
+                self._tickers.setdefault(str(v["cik_str"]), v)
         return self._tickers
 
     def shares_outstanding(self, cik: str, max_age_days: int = 400) -> Optional[float]:
@@ -133,7 +156,12 @@ _COMPLETES_PRIOR = re.compile(
     r"|\b(completion|closing|consummation|settlement|pricing) of (its|the|our) previously (announced|disclosed)\b",
     re.IGNORECASE,
 )
-_CONVERT_CLOSING = [re.compile(p, re.IGNORECASE) for p in (r"\bindenture\b", r"\bconvertible senior notes\b", r"\binitial purchasers?\b")]
+_NOTES_CLOSING = [re.compile(p, re.IGNORECASE) for p in (
+    r"\bindenture\b",
+    r"\b(senior |convertible |subordinated )*notes due \d{4}\b",
+    r"\b(initial purchasers?|underwriters?|book-running managers?)\b",
+)]
+_CONVERTIBLE = re.compile(r"\bconvertible\b", re.IGNORECASE)
 _UNDERWRITTEN = re.compile(r"\bentered into an underwriting agreement\b", re.IGNORECASE)
 # Offering paperwork is only skipped when the filing reports nothing else.
 _FINANCING_ONLY_ITEMS = {"1.01", "7.01", "8.01"}
@@ -146,8 +174,9 @@ def settles_prior_news(items: list[str], body: str) -> Optional[str]:
     if m:
         return f"settles a previously announced deal ('{m.group(0)[:70]}')"
     if set(items) <= _FINANCING_ONLY_ITEMS:
-        if all(p.search(head) for p in _CONVERT_CLOSING):
-            return "closing of a convertible bond offering, which is announced when it is priced"
+        if all(p.search(head) for p in _NOTES_CLOSING):
+            kind = "convertible bond" if _CONVERTIBLE.search(head) else "bond"
+            return f"closing of a {kind} offering, which is announced when it is priced"
         if _UNDERWRITTEN.search(head):
             return "underwritten offering, which is announced the day it is priced"
     return None
@@ -241,7 +270,7 @@ def find_candidates(
     cutoff = datetime.now(timezone.utc) - timedelta(hours=since_hours)
     tickers = edgar.tickers()
     picked: list[Candidate] = []
-    for entry in edgar.latest_8k():
+    for entry in edgar.latest_8k(since=cutoff):
         if len(picked) >= limit:
             break
         if entry["amendment"]:
@@ -256,6 +285,14 @@ def find_candidates(
         if not info:  # no listed ticker, nothing to paper trade
             continue
         ticker = info["ticker"]
+        same = next((c for c in picked if c.ticker == ticker), None)
+        if same is not None:
+            # one company, one case a night: fold its other filing into the case SCOUT already has
+            url2, text2 = edgar.primary_document(entry["index_url"])
+            same.source_excerpt += f"\n\n[Second filing the same night, {entry['filed_at']}, {url2}]\n" + excerpt(text2)[:3000]
+            same.items = sorted(set(same.items) | set(items_in(text2)))
+            log(f"  fold {ticker}: second filing added to tonight's case")
+            continue
         if skip and (entry["accession"] in skip or f"{ticker}|{entry['filed_at']}" in skip):
             log(f"  skip {ticker}: already judged on an earlier night")
             continue

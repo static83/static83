@@ -32,18 +32,27 @@ class AlpacaData:
         return (data or {}).get("quote")
 
     def last_price(self, symbol: str) -> Optional[float]:
+        """Mid of a sane two-sided quote; otherwise the last daily close.
+
+        Outside market hours the IEX quote is often one-sided or far off, so a wide or one-sided
+        quote is not trusted.
+        """
         q = self.quote(symbol)
-        if not q:
-            return None
-        ask, bid = float(q.get("ap") or 0), float(q.get("bp") or 0)
-        mid = (ask + bid) / 2 if ask and bid else ask or bid
-        return mid or None
+        if q:
+            ask, bid = float(q.get("ap") or 0), float(q.get("bp") or 0)
+            if ask and bid and ask >= bid:
+                mid = (ask + bid) / 2
+                if (ask - bid) / mid <= 0.02:
+                    return mid
+        bars = self.daily_bars(symbol, limit=5)
+        return float(bars[-1]["c"]) if bars else None
 
     def daily_bars(self, symbol: str, limit: int = 30) -> list[dict]:
         from datetime import date, timedelta
 
         start = (date.today() - timedelta(days=int(limit * 1.6) + 7)).isoformat()
-        data = self._get(f"/v2/stocks/{symbol}/bars", timeframe="1Day", start=start, limit=limit * 2, feed="iex")
+        # The API returns bars oldest-first and stops at `limit`, so ask for plenty and keep the newest.
+        data = self._get(f"/v2/stocks/{symbol}/bars", timeframe="1Day", start=start, limit=1000, feed="iex")
         return ((data or {}).get("bars") or [])[-limit:]
 
 
