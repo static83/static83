@@ -337,6 +337,32 @@ def already_traded(bars: list[dict], first_day: date, now: Optional[datetime] = 
     return None
 
 
+# A notice that results or a call are coming, with no results in it.
+_NOTICE_ONLY_ITEMS = {"7.01", "8.01"}
+_CALL_NOTICE = re.compile(
+    r"will (host|hold) (a|its|an) (conference call|earnings call|webcast|call)"
+    r"|(conference call|earnings call|webcast)[^.]{0,120}\bto (discuss|review|announce)\b[^.]{0,60}\bresults"
+    r"|will (release|report|announce) (its )?[^.]{0,60}\bresults\b[^.]{0,80}\b(on|before|after) "
+    r"(january|february|march|april|may|june|july|august|september|october|november|december|monday|tuesday|wednesday|thursday|friday)",
+    re.IGNORECASE,
+)
+_HAS_FIGURES = re.compile(
+    r"revenues? (of|was|were|increased|decreased)|net (income|loss) (of|was)|earnings per share|per diluted share"
+    r"|preliminary|guidance|outlook|\$\s?\d[\d,.]*\s?(million|billion)",
+    re.IGNORECASE,
+)
+
+
+def call_notice_only(items: list[str], body: str) -> Optional[str]:
+    """Why a filing is only a date for an upcoming call or results, or None."""
+    if not items or not set(items) <= _NOTICE_ONLY_ITEMS:
+        return None
+    head = " ".join(_sentences(body[:2500])[:3])
+    if _CALL_NOTICE.search(head) and not _HAS_FIGURES.search(body[:2500]):
+        return "only a date for an upcoming earnings call or results, no figures"
+    return None
+
+
 def _clean(raw: str) -> str:
     text = _TAG_RE.sub(" ", raw)
     text = html.unescape(text)
@@ -409,7 +435,7 @@ def find_candidates(
             continue
         body = excerpt(text)
         prior = (settles_prior_news(items, body) or routine_people_filing(items, body)
-                 or late_earnings(items, body, entry["filed_at"]))
+                 or late_earnings(items, body, entry["filed_at"]) or call_notice_only(items, body))
         if prior:
             log(f"  skip {ticker}: {prior}")
             continue

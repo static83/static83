@@ -49,18 +49,20 @@ source with an official timestamp, so "pull the original source" is literal. Fil
    once a full trading session has closed since the release: results released before the open or
    during the day are skipped by the nightly run, results released after the close pass. The
    release time is the filing time unless the filing dates the release to an earlier day.
-6. A price at Alpaca, so the stock can actually be paper traded.
-7. Market cap at or above `DOTS_MIN_MARKET_CAP_USD` (default 300M): last price times the most recent
+6. Not just a call date. A filing whose only items are 7.01 or 8.01 and that only announces when
+   a conference call or results will happen, with no figures in it, is skipped.
+7. A price at Alpaca, so the stock can actually be paper traded.
+8. Market cap at or above `DOTS_MIN_MARKET_CAP_USD` (default 300M): last price times the most recent
    share count the SEC has (cover-page count summed across share classes, then the balance-sheet
    count, then the weighted average from the income statement; anything older than about 13 months
    is ignored). No recent share count, as with a fresh IPO, means a skip.
-8. Not already traded. Once the news is public (from the day a dated press release or announcement
+9. Not already traded. Once the news is public (from the day a dated press release or announcement
    went out, or else from the filing time), if any of the next three closed sessions opened or
    closed at least 5% from the prior close on at least twice the median volume, the market has
    already acted on it. Quiet news that drew no reaction still goes to the crew.
-9. Not already judged on an earlier night. A second filing from the same company the same night is
+10. Not already judged on an earlier night. A second filing from the same company the same night is
    folded into that company's case.
-10. At most `DOTS_MAX_CANDIDATES` handoffs a night (default 3). Depth, not volume.
+11. At most `DOTS_MAX_CANDIDATES` handoffs a night (default 3). Depth, not volume.
 
 SCOUT the model then quotes the sentences that matter and flags whether a press release beat the
 filing, which is SKEPTIC's "late" objection raised early.
