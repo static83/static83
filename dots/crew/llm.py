@@ -16,7 +16,8 @@ PREAMBLE = (
     "Memo object. Carry forward every earlier objection in `objections`, marking each as answered "
     "or open. Do not invent prices or figures that are not in the material you were given; if a "
     "number is missing, say so in `reasoning` and reflect it in your verdict. Keep the headline "
-    "under 90 characters.\n\n"
+    "under 90 characters. The packet's `track_record` shows how this crew's past calls played out; "
+    "use it as evidence and weigh it by sample size.\n\n"
 )
 
 _schema = Memo.model_json_schema()

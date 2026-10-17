@@ -82,7 +82,20 @@ def main() -> int:
 
     for stale in broker.cancel_stale_entries():
         ledger.log("SPIDER", "system", 0, f"cancelled unfilled entry from a previous night: {stale}")
-    spider = Spider(ask, ledger, broker, data)
+
+    # Review before arguing: settle open trades (rule 8, the time limit), score past calls.
+    track_record = None
+    if not args.offline:
+        from crew import learning
+
+        learning.review_trades(broker, lambda text: ledger.log("SPIDER", "system", 0, text))
+        learning.update_outcomes(data)
+        track_record = learning.scorecard()
+        learning.write_lessons(track_record)
+        ledger.log("JOURNAL", "report", 0, f"track record: {track_record['cases_on_file']} past case(s) on file")
+        for line in track_record["scorecard"]:
+            print(f"  record   {line}")
+    spider = Spider(ask, ledger, broker, data, track_record=track_record, record=not args.offline)
     for i, cand in enumerate(candidates, start=1):
         try:
             result = spider.run_case(i, cand)

@@ -6,6 +6,7 @@ from __future__ import annotations
 
 from typing import Callable, Optional
 
+from . import learning
 from .config import ROLE_ORDER, settings
 from .ledger import Ledger
 from .market import AlpacaData, cost_model, gap_stats, shares_for
@@ -17,11 +18,18 @@ MAX_BAD_EXIT_FRACTION = 0.05  # RISK rule of thumb surfaced to the model; RISK m
 
 
 class Spider:
-    def __init__(self, ask: Asker, ledger: Ledger, broker, data: Optional[AlpacaData] = None):
+    def __init__(self, ask: Asker, ledger: Ledger, broker, data: Optional[AlpacaData] = None,
+                 track_record: Optional[dict] = None, record: bool = False):
         self.ask = ask
         self.ledger = ledger
         self.broker = broker
         self.data = data or AlpacaData()
+        self.track_record = track_record or {}
+        self.record = record  # write cases and trades to the casebook (off for offline demos)
+        self.night = ledger.started.strftime("%Y%m%d-%H%M")
+
+    def case_key(self, case: int, cand: Candidate) -> str:
+        return f"{self.night}-{case:02d}-{cand.ticker}"
 
     # ---- rule 1: one case, fixed order, everyone sees everything --------------------------
     def packet(self, case: int, cand: Candidate, memos: list[Memo], extra: dict) -> dict:
@@ -36,10 +44,12 @@ class Spider:
             "filing": cand.model_dump(),
             "market": extra,
             "memos_so_far": [m.model_dump(exclude_none=True) for m in memos],
+            "track_record": self.track_record,
             "rules": {
                 "unanimous_first_pass_restarts": True,
                 "max_rounds": settings.max_rounds,
                 "max_bad_exit_fraction_of_account": MAX_BAD_EXIT_FRACTION,
+                "time_limit": f"trades close after horizon_days trading days (default {learning.DEFAULT_HORIZON_DAYS})",
             },
         }
 
@@ -133,8 +143,12 @@ class Spider:
             L.log("SPIDER", "system", case, f"approved size ${size:.2f} buys 0 shares at {quant.entry_price:.2f}: no trade")
             return self.close(case, cand, memos, "rejected", rounds)
         order = self.broker.bracket_order(cand.ticker, side, qty, quant.entry_price, quant.stop_price, quant.target_price)
+        horizon = learning.horizon_of(memos)
         L.log("SPIDER", "order", case,
-              f"{order['mode']}: {side} {qty} {cand.ticker} @ {quant.entry_price:.2f} stop {quant.stop_price:.2f} target {quant.target_price:.2f}")
+              f"{order['mode']}: {side} {qty} {cand.ticker} @ {quant.entry_price:.2f} stop {quant.stop_price:.2f} "
+              f"target {quant.target_price:.2f}, time limit {horizon} trading days")
+        if self.record:
+            learning.record_trade(self.case_key(case, cand), order, memos)
         return self.close(case, cand, memos, "paper_order", rounds, order)
 
     # ---- JOURNAL closes every case ----------------------------------------------------------
@@ -145,4 +159,6 @@ class Spider:
         self.ledger.log("JOURNAL", "report", case, journal.headline)
         result = CaseResult(case=case, ticker=cand.ticker, outcome=outcome, rounds=rounds, memos=memos, order=order)
         self.ledger.cases.append(result)
+        if self.record:
+            learning.record_case(self.night, result, cand, self.ledger.clock())
         return result

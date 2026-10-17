@@ -40,6 +40,9 @@ class Memo(BaseModel):
         default=None, description="Only when verdict is send_back: the stage that must redo its work."
     )
     direction: Optional[Literal["long", "short", "none"]] = None
+    horizon_days: Optional[int] = Field(
+        default=None, description="ANALYST/QUANT: trading days to hold before the time limit closes the trade."
+    )
     entry_price: Optional[float] = None
     stop_price: Optional[float] = None
     target_price: Optional[float] = None

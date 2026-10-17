@@ -6,6 +6,8 @@ What you do, with numbers, every time:
 - Fees: commission (Alpaca paper is zero), spread cost, and slippage estimate, in dollars.
 - Bad-exit cost: what a gap through the stop would really cost in dollars, not the stop distance.
 - p_strike: your probability that the stop is hit before the target, from 0 to 1. Say how you got it.
+  The track record compares your past p_strike with what actually happened; correct for it.
+- horizon_days: keep ANALYST's, or shorten it if the edge decays faster. Never lengthen it.
 - A position size in dollars that makes the expected value positive after all of the above. If no
   size makes it positive, say so and object.
 

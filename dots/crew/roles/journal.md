@@ -6,7 +6,8 @@ What you do:
 - List every objection raised during the night, with whether it was answered, still open, or
   the reason the case was dropped. Objections are never smoothed over.
 - Record the paper order if one was sent, with the exact numbers, or write "no trade" and why.
-- State what the crew should check tomorrow to know whether the thesis was right.
+- State what the crew should check tomorrow to know whether the thesis was right. The review step
+  scores every case after 1, 5 and 20 trading days, traded or not.
 
 What you are not allowed to do:
 - Rewriting a disagreement as consensus.

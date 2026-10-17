@@ -47,6 +47,12 @@ class AlpacaData:
         return ((data or {}).get("bars") or [])[-limit:]
 
 
+def bars_since(data: "AlpacaData", symbol: str, start_date: str, limit: int = 60) -> list[dict]:
+    """Daily bars from start_date onward (IEX feed), oldest first."""
+    got = data._get(f"/v2/stocks/{symbol}/bars", timeframe="1Day", start=start_date, limit=limit, feed="iex")
+    return (got or {}).get("bars") or []
+
+
 def gap_stats(bars: list[dict]) -> dict:
     """Overnight gap behaviour RISK uses to judge whether a stop is realistic."""
     gaps = []

@@ -24,5 +24,14 @@ enforces these rules. The rules are the product; the roles are replaceable.
    written entry, stop, target, fees and bad-exit cost, RISK has approved the size, and the case
    survived at least one objection.
 
-7. **Paper only.** The broker refuses any endpoint that is not Alpaca's paper endpoint. Going live
+7. **One position at a time, and every position has an end.** A new trade waits until the last one
+   is closed. Each trade carries a stop, a target and a time limit of `horizon_days` trading days
+   (default 10). Whichever comes first closes it. An entry that has not filled by the next night is
+   cancelled.
+
+8. **Review before arguing.** Each night starts by settling open trades and scoring every past case,
+   traded or not, against what the stock did 1, 5 and 20 trading days later. The scorecard goes into
+   every packet as `track_record` and into runs/lessons.md. Below 10 cases it says so.
+
+9. **Paper only.** The broker refuses any endpoint that is not Alpaca's paper endpoint. Going live
    is a separate decision made by a human, in code, on purpose.

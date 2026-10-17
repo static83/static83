@@ -104,6 +104,33 @@ class PaperBroker:
                     cancelled.append(f"{o['symbol']} {o['side']} {o['qty']} @ {o.get('limit_price')}")
         return cancelled
 
+    def get_order(self, order_id: str) -> Optional[dict]:
+        if self.dry_run or not order_id or order_id == "dry-run":
+            return None
+        r = self.session.get(f"{self.base}/v2/orders/{order_id}", params={"nested": "true"}, timeout=20)
+        return r.json() if r.status_code == 200 else None
+
+    def cancel_order(self, order_id: str) -> bool:
+        if self.dry_run:
+            return False
+        r = self.session.delete(f"{self.base}/v2/orders/{order_id}", timeout=20)
+        return r.status_code in (200, 204)
+
+    def close_position(self, symbol: str) -> Optional[dict]:
+        """Market order to flatten one symbol. Queued for the next open if the market is closed."""
+        if self.dry_run:
+            return None
+        r = self.session.delete(f"{self.base}/v2/positions/{symbol}", timeout=20)
+        return r.json() if r.status_code in (200, 207) else None
+
+    def trading_days_between(self, start_date: str, end_date: str) -> int:
+        """Sessions strictly after start_date up to and including end_date (YYYY-MM-DD)."""
+        if self.dry_run:
+            return 0
+        r = self.session.get(f"{self.base}/v2/calendar", params={"start": start_date, "end": end_date}, timeout=20)
+        r.raise_for_status()
+        return sum(1 for d in r.json() if start_date < d["date"] <= end_date)
+
     def bracket_order(
         self, symbol: str, side: str, qty: int, entry: float, stop: float, target: float
     ) -> dict:
