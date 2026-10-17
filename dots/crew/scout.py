@@ -127,6 +127,32 @@ class Edgar:
         return None
 
 
+# Filings that only settle news already made public. Checked against the start of the filing body.
+_COMPLETES_PRIOR = re.compile(
+    r"\b(completed|closed|consummated|settled|priced)\b[^.]{0,80}?\bpreviously (announced|disclosed|reported)\b"
+    r"|\b(completion|closing|consummation|settlement|pricing) of (its|the|our) previously (announced|disclosed)\b",
+    re.IGNORECASE,
+)
+_CONVERT_CLOSING = [re.compile(p, re.IGNORECASE) for p in (r"\bindenture\b", r"\bconvertible senior notes\b", r"\binitial purchasers?\b")]
+_UNDERWRITTEN = re.compile(r"\bentered into an underwriting agreement\b", re.IGNORECASE)
+# Offering paperwork is only skipped when the filing reports nothing else.
+_FINANCING_ONLY_ITEMS = {"1.01", "7.01", "8.01"}
+
+
+def settles_prior_news(items: list[str], body: str) -> Optional[str]:
+    """Why this filing only settles something announced earlier, or None if it may be new."""
+    head = body[:3000]
+    m = _COMPLETES_PRIOR.search(head)
+    if m:
+        return f"settles a previously announced deal ('{m.group(0)[:70]}')"
+    if set(items) <= _FINANCING_ONLY_ITEMS:
+        if all(p.search(head) for p in _CONVERT_CLOSING):
+            return "closing of a convertible bond offering, which is announced when it is priced"
+        if _UNDERWRITTEN.search(head):
+            return "underwritten offering, which is announced the day it is priced"
+    return None
+
+
 def _clean(raw: str) -> str:
     text = _TAG_RE.sub(" ", raw)
     text = html.unescape(text)
@@ -186,6 +212,10 @@ def find_candidates(
         items = items_in(text)
         if not items:
             log(f"  skip {ticker}: routine items only")
+            continue
+        prior = settles_prior_news(items, excerpt(text))
+        if prior:
+            log(f"  skip {ticker}: {prior}")
             continue
         price = price_of(ticker)
         shares = edgar.shares_outstanding(entry["cik"])
