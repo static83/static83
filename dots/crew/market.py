@@ -40,8 +40,11 @@ class AlpacaData:
         return mid or None
 
     def daily_bars(self, symbol: str, limit: int = 30) -> list[dict]:
-        data = self._get(f"/v2/stocks/{symbol}/bars", timeframe="1Day", limit=limit, feed="iex")
-        return (data or {}).get("bars") or []
+        from datetime import date, timedelta
+
+        start = (date.today() - timedelta(days=int(limit * 1.6) + 7)).isoformat()
+        data = self._get(f"/v2/stocks/{symbol}/bars", timeframe="1Day", start=start, limit=limit * 2, feed="iex")
+        return ((data or {}).get("bars") or [])[-limit:]
 
 
 def gap_stats(bars: list[dict]) -> dict:

@@ -167,7 +167,10 @@ def find_candidates(
         price = price_of(ticker)
         shares = edgar.shares_outstanding(entry["cik"])
         cap = (price or 0) * (shares or 0) or None
-        if cap is not None and cap < settings.min_market_cap:
+        if cap is None:
+            log(f"  skip {ticker}: market cap unknown (no quote or no common shares on file)")
+            continue
+        if cap < settings.min_market_cap:
             log(f"  skip {ticker}: market cap {cap/1e6:,.0f}M below floor")
             continue
         picked.append(

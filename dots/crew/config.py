@@ -49,6 +49,7 @@ class Settings:
         default_factory=lambda: _env("EDGAR_USER_AGENT", "dots-crew contact@example.com")
     )
     start_balance: float = field(default_factory=lambda: float(_env("DOTS_START_BALANCE", "37")))
+    balance_cap: float = field(default_factory=lambda: float(_env("DOTS_BALANCE_CAP", "0") or 0))
     max_candidates: int = field(default_factory=lambda: int(_env("DOTS_MAX_CANDIDATES", "3")))
     max_rounds: int = field(default_factory=lambda: int(_env("DOTS_MAX_ROUNDS", "4")))
     min_market_cap: float = field(

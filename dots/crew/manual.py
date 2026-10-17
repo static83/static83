@@ -8,6 +8,7 @@ the Spider replays every earlier memo from the inbox and continues. Candidates a
 from __future__ import annotations
 
 import json
+from datetime import datetime, timezone
 from pathlib import Path
 
 from .schema import Candidate, Memo
@@ -25,6 +26,10 @@ class ManualAsker:
         (root / "inbox").mkdir(parents=True, exist_ok=True)
         (root / "outbox").mkdir(parents=True, exist_ok=True)
         self.seen: dict[tuple[int, str], int] = {}
+        self.now: datetime | None = None  # write time of the last memo read; the ledger's clock
+
+    def clock(self) -> datetime:
+        return self.now or datetime.now(timezone.utc)
 
     def __call__(self, role: str, packet: dict) -> Memo:
         case = packet["case"]
@@ -35,6 +40,7 @@ class ManualAsker:
         if memo_path.exists():
             memo = Memo.model_validate_json(memo_path.read_text())
             memo.role = role
+            self.now = datetime.fromtimestamp(memo_path.stat().st_mtime, timezone.utc)
             return memo
         out = self.root / "outbox" / f"{key}.json"
         out.write_text(json.dumps({"role": role, "packet": packet}, indent=2, default=str))

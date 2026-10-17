@@ -330,11 +330,12 @@ function sampleRun(){
 }
 
 /* ---------- state ---------- */
-const S = { run:null, minute:0, playing:false, speed:1, last:0, lastRendered:-1, total:H, rot:0 };
+const S = { run:null, minute:0, playing:false, speed:1, last:0, lastRendered:-1, total:H, rot:0, base:22*60 };
 const $ = id => document.getElementById(id);
 const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 const roleColor = r => css('--'+(ROLES.includes(r)?r.toLowerCase():'fg-3'));
-const fmtClock = m => { const h=(22+Math.floor(m/60))%24, mm=Math.floor(m%60); return String(h).padStart(2,'0')+':'+String(mm).padStart(2,'0'); };
+const fmtClock = m => { const t=Math.floor(S.base+m); const h=Math.floor(t/60)%24, mm=t%60; return String(h).padStart(2,'0')+':'+String(mm).padStart(2,'0'); };
+const fmtSpan = m => m >= 120 ? Math.round(m/60)+'H' : Math.round(m)+'MIN';
 const fmtUSD = v => (v<0?'-':'')+'$'+Math.abs(v).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
 
 function load(){
@@ -347,16 +348,18 @@ function load(){
 
 function init(){
   const r = S.run;
-  S.total = Math.max(60, (r.hours||11)*60);
+  const lastM = Math.max(0, ...r.events.map(e => e.m), ...r.balance.map(b => b[0]));
+  S.total = r.fictional ? Math.max(60, (r.hours||11)*60) : Math.max(5, lastM + 1);
+  if (!r.fictional && r.started_at){ const d = new Date(r.started_at); S.base = d.getUTCHours()*60 + d.getUTCMinutes(); }
   $('scrub').max = S.total;
   $('hdr-scenario').textContent = r.fictional ? 'X · FICTIONAL SCENARIO' : 'LIVE PAPER RUN';
   $('hdr-scenario').style.color = r.fictional ? 'var(--bad)' : 'var(--good)';
   $('hdr-model').textContent = (r.model||'crew').toUpperCase()+' × SPIDER';
   $('t-bal-s').textContent = 'start '+fmtUSD(r.start_balance)+(r.fictional?' · story replay':' · '+(r.mode||'paper'));
-  $('t-pnl-s').textContent = r.fictional ? (r.hours||11)+'-hour fictional scenario' : (r.hours||11)+'-hour paper run';
+  $('t-pnl-s').textContent = r.fictional ? (r.hours||11)+'-hour fictional scenario' : 'paper run · '+r.cases.length+' cases · '+r.cases.filter(c=>c.outcome==='paper_order').length+' orders';
   const start = r.started_at ? new Date(r.started_at) : null;
-  $('t-clock-s').textContent = (start? start.toISOString().slice(11,16)+' UTC' : '22:00')+' start / '+(r.hours||11)+' hours';
-  $('bal-sub').textContent = 'USD / '+(r.hours||11)+'H';
+  $('t-clock-s').textContent = r.fictional ? '22:00 → 09:00 / 11 hours' : (start ? start.toISOString().slice(0,10)+' '+start.toISOString().slice(11,16)+' UTC' : '')+' / '+fmtSpan(S.total).toLowerCase();
+  $('bal-sub').textContent = 'USD / '+fmtSpan(S.total);
   $('g-model').textContent = (r.model||'—');
   $('g-mode').textContent = (r.mode||'—');
   $('note').textContent = r.fictional
@@ -372,7 +375,7 @@ function init(){
 function frame(ts){
   if (S.playing){
     const dt = (ts - (S.last||ts))/1000; S.last = ts;
-    S.minute = Math.min(S.total, S.minute + dt*6*S.speed); // 1 real second = 6 story minutes at 1×
+    S.minute = Math.min(S.total, S.minute + dt*(S.total/110)*S.speed); // a full replay takes about 110 s at 1×
     if (S.minute >= S.total){ S.playing=false; $('btn-play').textContent='REPLAY'; }
   } else S.last = ts;
   S.rot += 0.004 + (S.playing?0.01:0);
@@ -408,7 +411,7 @@ function stageInfo(ev){
 /* ---------- render ---------- */
 function render(force){
   const m = Math.floor(S.minute);
-  $('clock').textContent = fmtClock(S.minute)+' / '+(S.run.hours||11)+'H';
+  $('clock').textContent = fmtClock(S.minute)+' / '+fmtSpan(S.total);
   $('scrub').value = S.minute;
   drawLattice();
   drawRidge();
@@ -419,7 +422,7 @@ function render(force){
   $('t-bal').textContent = fmtUSD(bal);
   $('t-pnl').textContent = (pnl>=0?'+':'')+fmtUSD(pnl);
   $('t-pnl').className = 'v num '+(pnl<0?'bad':'good');
-  $('t-clock').textContent = String(Math.floor(m/60)).padStart(2,'0')+':'+String(m%60).padStart(2,'0');
+  $('t-clock').textContent = S.run.fictional ? String(Math.floor(m/60)).padStart(2,'0')+':'+String(m%60).padStart(2,'0') : fmtClock(S.minute);
   const st = stageInfo(ev);
   const cas = S.run.cases.find(c => c.id===st.c);
   const idx = ROLES.indexOf(st.role);

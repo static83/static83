@@ -48,7 +48,6 @@ def main() -> int:
         root = Path(args.manual)
         broker = OnceBroker(broker, root)
         data = AlpacaData()
-        ledger = Ledger(broker.equity(), broker.mode, "manual (memos written in session)")
         ask = ManualAsker(root)
         candidates = load_candidates(root)
         if candidates is None:
@@ -58,6 +57,11 @@ def main() -> int:
         if not candidates:
             print("SCOUT found nothing worth the crew's night. No trade.")
             return 0
+        from datetime import datetime as _dt, timezone as _tz
+
+        ask.now = _dt.fromtimestamp((root / "candidates.json").stat().st_mtime, _tz.utc)
+        ledger = Ledger(broker.equity(), broker.mode, "claude (in session)", clock=ask.clock)
+        ledger.started = ask.now
     else:
         if not settings.anthropic_api_key:
             print("ANTHROPIC_API_KEY is not set (or run `ant auth login`). Use --offline to test without it.")

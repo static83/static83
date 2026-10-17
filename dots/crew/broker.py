@@ -25,17 +25,31 @@ class PaperBroker:
             {"APCA-API-KEY-ID": settings.alpaca_key, "APCA-API-SECRET-KEY": settings.alpaca_secret}
         )
         self.base = settings.alpaca_paper_url.rstrip("/")
+        self._baseline: Optional[float] = None
 
     @property
     def mode(self) -> str:
         return "dry-run" if self.dry_run else "alpaca-paper"
 
-    def equity(self) -> float:
-        if self.dry_run:
-            return settings.start_balance
+    def raw_equity(self) -> float:
         r = self.session.get(f"{self.base}/v2/account", timeout=20)
         r.raise_for_status()
         return float(r.json()["equity"])
+
+    def equity(self) -> float:
+        """Account equity the crew sizes against.
+
+        With DOTS_BALANCE_CAP set, the crew acts as if it has exactly that much: the cap plus
+        any profit or loss since this run started. The real paper balance is untouched.
+        """
+        if self.dry_run:
+            return settings.balance_cap or settings.start_balance
+        real = self.raw_equity()
+        if not settings.balance_cap:
+            return real
+        if self._baseline is None:
+            self._baseline = real
+        return round(settings.balance_cap + (real - self._baseline), 2)
 
     def open_positions(self) -> list[dict]:
         if self.dry_run:
