@@ -37,9 +37,13 @@ source with an official timestamp, so "pull the original source" is literal. Fil
 
 1. Only items 1.01, 2.01, 2.02, 5.02, 7.01, 8.01. Routine items are skipped.
 2. A listed ticker (EDGAR's own CIK to ticker map).
-3. Market cap at or above `DOTS_MIN_MARKET_CAP_USD` (default 300M), computed from the last quote
-   and EDGAR's shares outstanding.
-4. At most `DOTS_MAX_CANDIDATES` handoffs a night (default 3). Depth, not volume.
+3. A price at Alpaca, so the stock can actually be paper traded.
+4. Market cap at or above `DOTS_MIN_MARKET_CAP_USD` (default 300M): last price times the most recent
+   share count the SEC has (cover-page count summed across share classes, then the balance-sheet
+   count, then the weighted average from the income statement; anything older than about 13 months
+   is ignored). No recent share count, as with a fresh IPO, means a skip.
+5. Not already judged on an earlier night.
+6. At most `DOTS_MAX_CANDIDATES` handoffs a night (default 3). Depth, not volume.
 
 SCOUT the model then quotes the sentences that matter and flags whether a press release beat the
 filing, which is SKEPTIC's "late" objection raised early.

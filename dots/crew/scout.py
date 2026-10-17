@@ -18,7 +18,15 @@ from .schema import Candidate
 
 EDGAR_CURRENT = "https://www.sec.gov/cgi-bin/browse-edgar"
 EDGAR_TICKERS = "https://www.sec.gov/files/company_tickers.json"
-EDGAR_SHARES = "https://data.sec.gov/api/xbrl/companyconcept/CIK{cik:0>10}/dei/EntityCommonStockSharesOutstanding.json"
+EDGAR_FACTS = "https://data.sec.gov/api/xbrl/companyfacts/CIK{cik:0>10}.json"
+# Tried in order. Companies with several share classes often tag only the class-level dei figure,
+# which the API leaves out, so fall back to the statement-level counts.
+SHARE_CONCEPTS = [
+    ("dei", "EntityCommonStockSharesOutstanding"),
+    ("us-gaap", "CommonStockSharesOutstanding"),
+    ("us-gaap", "WeightedAverageNumberOfSharesOutstandingBasic"),
+    ("us-gaap", "WeightedAverageNumberOfDilutedSharesOutstanding"),
+]
 ATOM = {"a": "http://www.w3.org/2005/Atom"}
 EXCERPT_CHARS = 6000
 _ITEM_RE = re.compile(r"Item\s+(\d\.\d\d)", re.IGNORECASE)
@@ -96,16 +104,27 @@ class Edgar:
             self._tickers = {str(v["cik_str"]): v for v in data.values()}
         return self._tickers
 
-    def shares_outstanding(self, cik: str) -> Optional[float]:
+    def shares_outstanding(self, cik: str, max_age_days: int = 400) -> Optional[float]:
+        """Most recent share count the SEC has for this company, or None if nothing recent exists."""
         try:
-            data = self._get(EDGAR_SHARES.format(cik=cik)).json()
-        except requests.RequestException:
+            facts = self._get(EDGAR_FACTS.format(cik=cik)).json().get("facts", {})
+        except (requests.RequestException, ValueError):
             return None
-        units = data.get("units", {}).get("shares", [])
-        if not units:
-            return None
-        latest = max(units, key=lambda u: u.get("end", ""))
-        return float(latest.get("val") or 0) or None
+        cutoff = (datetime.now(timezone.utc) - timedelta(days=max_age_days)).date().isoformat()
+        for group, concept in SHARE_CONCEPTS:
+            rows = facts.get(group, {}).get(concept, {}).get("units", {}).get("shares", [])
+            rows = [r for r in rows if r.get("val") and r.get("end", "") >= cutoff]
+            if not rows:
+                continue  # missing or stale: try the next concept
+            latest = max(r["end"] for r in rows)
+            on_latest = [r for r in rows if r["end"] == latest]
+            if group == "dei":
+                # the cover-page figure is reported once per share class; add the classes up,
+                # taking the most recent filing for each class value
+                by_filing = max(r.get("filed", "") for r in on_latest)
+                return float(sum(r["val"] for r in on_latest if r.get("filed", "") == by_filing))
+            return float(max(on_latest, key=lambda r: r.get("filed", ""))["val"])
+        return None
 
 
 def _clean(raw: str) -> str:
@@ -170,10 +189,13 @@ def find_candidates(
             continue
         price = price_of(ticker)
         shares = edgar.shares_outstanding(entry["cik"])
-        cap = (price or 0) * (shares or 0) or None
-        if cap is None:
-            log(f"  skip {ticker}: market cap unknown (no quote or no common shares on file)")
+        if not price:
+            log(f"  skip {ticker}: no price at Alpaca, so it cannot be paper traded")
             continue
+        if not shares:
+            log(f"  skip {ticker}: no share count on file at the SEC, market cap unknown")
+            continue
+        cap = price * shares
         if cap < settings.min_market_cap:
             log(f"  skip {ticker}: market cap {cap/1e6:,.0f}M below floor")
             continue
