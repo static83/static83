@@ -363,7 +363,7 @@ const fmtUSD = v => (v<0?'-':'')+'$'+Math.abs(v).toLocaleString('en-US',{minimum
 
 function load(){
   const useSample = () => { S.run = sampleRun(); init(); };
-  fetch('runs/latest.json',{cache:'no-store'}).then(r => r.ok ? r.json() : Promise.reject()).then(d => {
+  fetch('runs/latest.json?t='+Date.now(),{cache:'no-store'}).then(r => r.ok ? r.json() : Promise.reject()).then(d => {
     if (!d || !Array.isArray(d.events) || !d.events.length) return useSample();
     S.run = d; init();
   }).catch(useSample);
