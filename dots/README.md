@@ -45,13 +45,17 @@ source with an official timestamp, so "pull the original source" is literal. Fil
 4. Not routine people paperwork. A filing whose only material item is 5.02 is skipped unless a CEO,
    CFO, COO or president is leaving or arriving, or someone left over a disagreement. Board seats,
    pay plans, bonuses and temporary leave are skipped. When the filter cannot tell, SCOUT reads it.
-5. A price at Alpaca, so the stock can actually be paper traded.
-6. Market cap at or above `DOTS_MIN_MARKET_CAP_USD` (default 300M): last price times the most recent
+5. Not stale earnings. A filing that only reports results (2.02, with or without 7.01) is skipped
+   once a full trading session has closed since the release: results released before the open or
+   during the day are skipped by the nightly run, results released after the close pass. The
+   release time is the filing time unless the filing dates the release to an earlier day.
+6. A price at Alpaca, so the stock can actually be paper traded.
+7. Market cap at or above `DOTS_MIN_MARKET_CAP_USD` (default 300M): last price times the most recent
    share count the SEC has (cover-page count summed across share classes, then the balance-sheet
    count, then the weighted average from the income statement; anything older than about 13 months
    is ignored). No recent share count, as with a fresh IPO, means a skip.
-7. Not already judged on an earlier night.
-8. At most `DOTS_MAX_CANDIDATES` handoffs a night (default 3). Depth, not volume.
+8. Not already judged on an earlier night.
+9. At most `DOTS_MAX_CANDIDATES` handoffs a night (default 3). Depth, not volume.
 
 SCOUT the model then quotes the sentences that matter and flags whether a press release beat the
 filing, which is SKEPTIC's "late" objection raised early.

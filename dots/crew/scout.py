@@ -8,7 +8,8 @@ import html
 import re
 import time
 import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 from typing import Iterable, Optional
 
 import requests
@@ -233,6 +234,60 @@ def routine_people_filing(items: list[str], body: str) -> Optional[str]:
     return "routine board or officer change, no top officer leaving or arriving"
 
 
+# Earnings filed after the market has already traded on them. Only for filings that report
+# nothing but results (2.02, optionally with the 7.01 that furnishes the same release).
+_EARNINGS_ONLY_ITEMS = {"2.02", "7.01"}
+_MONTHS = "January|February|March|April|May|June|July|August|September|October|November|December"
+_RELEASE_DATE = re.compile(rf"\bOn ({_MONTHS}) (\d{{1,2}}), (\d{{4}})", re.IGNORECASE)
+_RELEASE_WORDS = re.compile(r"press release|news release|earnings release|announced|issued|reported|released", re.IGNORECASE)
+
+
+NY = ZoneInfo("America/New_York")
+
+
+def _sessions_closed(after: datetime, until: datetime) -> int:
+    """Weekday sessions whose 4pm New York close falls after `after` and by `until` (holidays not excluded)."""
+    after, until = after.astimezone(NY), until.astimezone(NY)
+    n, d = 0, after.date()
+    while d <= until.date():
+        close = datetime(d.year, d.month, d.day, 16, 0, tzinfo=NY)
+        if d.weekday() < 5 and after < close <= until:
+            n += 1
+        d += timedelta(days=1)
+    return n
+
+
+def late_earnings(items: list[str], body: str, filed_at: str, now: Optional[datetime] = None) -> Optional[str]:
+    """Why an earnings-only filing is stale by the time the crew runs, or None if it may still be fresh.
+
+    Stale means at least one full session has closed between the release and now. When the release
+    is dated the same day as the filing, the filing time stands in for the release time (companies
+    file the 8-K within minutes of the release); an earlier release date is taken as late that day.
+    """
+    if not items or not set(items) <= _EARNINGS_ONLY_ITEMS or "2.02" not in items:
+        return None
+    try:
+        filed = datetime.fromisoformat(filed_at.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    now = now or datetime.now(timezone.utc)
+    # Default: the release went out when the 8-K was filed (they are filed within minutes of each
+    # other, and a release cannot come after its own filing). An earlier dated release overrides it.
+    released, when = filed, f"{filed.astimezone(NY):%b %d %H:%M} ET"
+    for sent in _sentences(body[:2500]):
+        m = _RELEASE_DATE.search(sent)
+        if m and _RELEASE_WORDS.search(sent):
+            released_day = datetime.strptime(f"{m.group(1)} {m.group(2)} {m.group(3)}", "%B %d %Y").date()
+            if released_day < filed.astimezone(NY).date():
+                released = datetime(released_day.year, released_day.month, released_day.day, 23, 59, tzinfo=NY)
+                when = f"{released_day:%b %d}"
+            break
+    sessions = _sessions_closed(released, now)
+    if sessions >= 1:
+        return f"earnings out {when}; the market has traded {sessions} full session(s) on them"
+    return None
+
+
 def _clean(raw: str) -> str:
     text = _TAG_RE.sub(" ", raw)
     text = html.unescape(text)
@@ -301,7 +356,9 @@ def find_candidates(
         if not items:
             log(f"  skip {ticker}: routine items only")
             continue
-        prior = settles_prior_news(items, excerpt(text)) or routine_people_filing(items, excerpt(text))
+        body = excerpt(text)
+        prior = (settles_prior_news(items, body) or routine_people_filing(items, body)
+                 or late_earnings(items, body, entry["filed_at"]))
         if prior:
             log(f"  skip {ticker}: {prior}")
             continue
