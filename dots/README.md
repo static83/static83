@@ -42,13 +42,16 @@ source with an official timestamp, so "pull the original source" is literal. Fil
    or an underwriting agreement (signed the day an offering is priced). The last two only apply when
    the filing reports nothing else. "As previously disclosed" alone is not enough: filings often use
    it to introduce something genuinely new.
-4. A price at Alpaca, so the stock can actually be paper traded.
-5. Market cap at or above `DOTS_MIN_MARKET_CAP_USD` (default 300M): last price times the most recent
+4. Not routine people paperwork. A filing whose only material item is 5.02 is skipped unless a CEO,
+   CFO, COO or president is leaving or arriving, or someone left over a disagreement. Board seats,
+   pay plans, bonuses and temporary leave are skipped. When the filter cannot tell, SCOUT reads it.
+5. A price at Alpaca, so the stock can actually be paper traded.
+6. Market cap at or above `DOTS_MIN_MARKET_CAP_USD` (default 300M): last price times the most recent
    share count the SEC has (cover-page count summed across share classes, then the balance-sheet
    count, then the weighted average from the income statement; anything older than about 13 months
    is ignored). No recent share count, as with a fresh IPO, means a skip.
-6. Not already judged on an earlier night.
-7. At most `DOTS_MAX_CANDIDATES` handoffs a night (default 3). Depth, not volume.
+7. Not already judged on an earlier night.
+8. At most `DOTS_MAX_CANDIDATES` handoffs a night (default 3). Depth, not volume.
 
 SCOUT the model then quotes the sentences that matter and flags whether a press release beat the
 filing, which is SKEPTIC's "late" objection raised early.

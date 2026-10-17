@@ -153,6 +153,57 @@ def settles_prior_news(items: list[str], body: str) -> Optional[str]:
     return None
 
 
+# Item 5.02 on its own is usually board seats and pay. It is news when a top officer leaves or
+# arrives, or when someone leaves over a disagreement. When unsure, the filing goes to SCOUT.
+_KEY_OFFICER = re.compile(
+    r"chief executive officer|chief financial officer|chief operating officer|principal (executive|financial) officer"
+    r"|\bCEO\b|\bCFO\b|\bCOO\b|(?<!vice )(?<!vice-)\bpresident\b",
+    re.IGNORECASE,
+)
+_LEAVES = re.compile(
+    r"\b(resign\w*|terminat\w*|depart\w*|step(s|ped|ping)? down|separat\w*|retire\w*|remov\w*|dismiss\w*"
+    r"|ceased?|will leave|left the company|transition\w* out)\b",
+    re.IGNORECASE,
+)
+_ARRIVES = re.compile(r"\b(appoint\w*|named|promot\w*|succeed\w*|hired|elected)\b", re.IGNORECASE)
+_PAY_WORDS = re.compile(r"\b(compensation|bonus\w*|award\w*|vest\w*|salary|severance|incentive|equity grant|plan)\b", re.IGNORECASE)
+_DISAGREEMENT = re.compile(r"disagreement", re.IGNORECASE)
+_NEGATED = re.compile(r"\b(not|no|without|neither|nor|never)\b.{0,80}disagreement", re.IGNORECASE)
+_ABBREV_END = re.compile(
+    r"(\b(Inc|Corp|Co|Ltd|LLC|Mr|Ms|Mrs|Dr|No|Jr|Sr|St|Nos|Messrs|plc)\.|\b[A-Z]\.|\b(L\.L\.C|N\.V|S\.A|U\.S|M\.D|Ph\.D|M\.B\.B\.S|B\.V)\.)$"
+)
+
+
+def _sentences(text: str) -> list[str]:
+    """Split on sentence ends, but not after 'Inc.', 'Mr.', 'M.D.' or a middle initial."""
+    out: list[str] = []
+    for piece in re.split(r"(?<=[.;])\s+", text):
+        if out and _ABBREV_END.search(out[-1]):
+            out[-1] += " " + piece
+        else:
+            out.append(piece)
+    return out
+
+
+def routine_people_filing(items: list[str], body: str) -> Optional[str]:
+    """Why an Item 5.02-only filing is routine, or None if it may be news (or is not 5.02-only)."""
+    if items != ["5.02"]:
+        return None
+    head = body[:5000]
+    if not re.search(r"\bitem\s+5\.02", head, re.IGNORECASE):
+        return None  # could not find the section; let SCOUT read it
+    sentences = _sentences(head)
+    for sent in sentences:
+        if _DISAGREEMENT.search(sent) and not _NEGATED.search(sent):
+            return None  # someone left over a disagreement: always news
+        if _KEY_OFFICER.search(sent) and not _PAY_WORDS.search(sent):
+            if _LEAVES.search(sent) or _ARRIVES.search(sent):
+                return None  # a top officer is leaving or arriving
+    if any(_PAY_WORDS.search(x) for x in sentences[:6]):
+        return "routine pay or award filing, no top officer leaving or arriving"
+    return "routine board or officer change, no top officer leaving or arriving"
+
+
 def _clean(raw: str) -> str:
     text = _TAG_RE.sub(" ", raw)
     text = html.unescape(text)
@@ -169,8 +220,8 @@ def items_in(text: str) -> list[str]:
 
 def excerpt(text: str) -> str:
     """The part of the filing after the cover page, fixed length, untouched otherwise."""
-    start = text.find("Item ")
-    body = text[start:] if start >= 0 else text
+    m = re.search(r"\bitem\s+\d\.\d\d", text, re.IGNORECASE)
+    body = text[m.start():] if m else text
     return body[:EXCERPT_CHARS]
 
 
@@ -213,7 +264,7 @@ def find_candidates(
         if not items:
             log(f"  skip {ticker}: routine items only")
             continue
-        prior = settles_prior_news(items, excerpt(text))
+        prior = settles_prior_news(items, excerpt(text)) or routine_people_filing(items, excerpt(text))
         if prior:
             log(f"  skip {ticker}: {prior}")
             continue
