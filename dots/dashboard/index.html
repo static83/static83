@@ -1,0 +1,736 @@
+<title>DOTS Replay</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Archivo:wght@500;700;800&display=swap">
+<style>
+/* Layout: a terminal-style mission board. Four stat tiles, then a 12-column grid of panels, then the crew row. */
+:root{
+  --bg:#f3f3f0; --panel:#ffffff; --fg:#111210; --fg-2:#5b5a55; --fg-3:#9b9a93; --line:#e2e1dc; --line-2:#efeeea;
+  --accent:#2a78d6; --accent-ink:#1c5cab; --good:#008300; --warn:#c98500; --bad:#e34948;
+  --surface-chart:#fcfcfb; --grid:#ebebe7; --strike:#f3c9c1; --ridge:#9c9a95;
+  --scout:#2a78d6; --analyst:#eb6834; --skeptic:#1baf7a; --quant:#eda100; --risk:#e87ba4; --journal:#008300;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --sans:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --radius:10px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#141413; --panel:#1d1d1c; --fg:#f2f1ec; --fg-2:#b8b7ae; --fg-3:#7d7c75; --line:#2e2e2b; --line-2:#272725;
+    --accent:#3987e5; --accent-ink:#86b6ef; --good:#2fb34a; --warn:#eda100; --bad:#e66767;
+    --surface-chart:#1a1a19; --grid:#2a2a28; --strike:#5a2e2a; --ridge:#8a8984;
+    --scout:#3987e5; --analyst:#d95926; --skeptic:#199e70; --quant:#c98500; --risk:#d55181; --journal:#2fb34a;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#141413; --panel:#1d1d1c; --fg:#f2f1ec; --fg-2:#b8b7ae; --fg-3:#7d7c75; --line:#2e2e2b; --line-2:#272725;
+  --accent:#3987e5; --accent-ink:#86b6ef; --good:#2fb34a; --warn:#eda100; --bad:#e66767;
+  --surface-chart:#1a1a19; --grid:#2a2a28; --strike:#5a2e2a; --ridge:#8a8984;
+  --scout:#3987e5; --analyst:#d95926; --skeptic:#199e70; --quant:#c98500; --risk:#d55181; --journal:#2fb34a;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--mono);font-size:12px;line-height:1.45;
+  padding-inline:16px;padding-block:0 24px;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1180px;margin:0 auto;display:grid;gap:12px}
+h1,h2,h3{margin:0;font-family:var(--sans);text-wrap:balance}
+button{font:inherit;color:inherit;background:none;border:1px solid var(--line);border-radius:999px;padding:6px 14px;cursor:pointer}
+button:hover{border-color:var(--fg-3)}
+button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.lbl{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-3)}
+.num{font-variant-numeric:tabular-nums}
+.role{font-weight:600;letter-spacing:.04em}
+.c-SCOUT{color:var(--scout)} .c-ANALYST{color:var(--analyst)} .c-SKEPTIC{color:var(--skeptic)}
+.c-QUANT{color:var(--quant)} .c-RISK{color:var(--risk)} .c-JOURNAL{color:var(--journal)} .c-SPIDER{color:var(--fg-2)}
+.bg-SCOUT{background:var(--scout)} .bg-ANALYST{background:var(--analyst)} .bg-SKEPTIC{background:var(--skeptic)}
+.bg-QUANT{background:var(--quant)} .bg-RISK{background:var(--risk)} .bg-JOURNAL{background:var(--journal)} .bg-SPIDER{background:var(--fg-3)}
+
+/* header */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+  padding-block:12px 10px;border-bottom:1px solid var(--line)}
+.logo{display:grid;grid-template-columns:repeat(3,7px);gap:3px}
+.logo i{width:7px;height:7px;border-radius:50%;display:block}
+.top h1{font-size:26px;font-weight:800;letter-spacing:-.02em}
+.top .sub{color:var(--fg-2);letter-spacing:.06em}
+.top .scen{color:var(--bad);font-weight:600;letter-spacing:.06em}
+.top .right{margin-left:auto;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.btn-play{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:600;letter-spacing:.06em}
+.btn-play:hover{background:var(--accent-ink);border-color:var(--accent-ink)}
+.clock{font-weight:600;min-width:92px;text-align:right}
+.controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.controls input[type=range]{width:160px;accent-color:var(--accent)}
+.speed button[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+
+/* tiles */
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.tile{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px;min-width:0}
+.tile .v{font-family:var(--sans);font-size:30px;font-weight:800;letter-spacing:-.02em;margin:4px 0 2px;line-height:1.1}
+.tile .v.good{color:var(--good)} .tile .v.bad{color:var(--bad)} .tile .v.acc{color:var(--accent)}
+.tile .s{color:var(--fg-3);font-size:10px;letter-spacing:.06em;text-transform:uppercase}
+.pips{display:flex;gap:4px;margin:8px 0 6px}
+.pips i{width:14px;height:6px;border-radius:2px;background:var(--line);display:block}
+.pips i.on{background:var(--accent)}
+.gate-head{display:flex;justify-content:space-between;align-items:baseline}
+
+/* panels */
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:12px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px;min-width:0;display:flex;flex-direction:column;gap:8px}
+.panel .head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.panel h2{font-size:13px;font-weight:700}
+.panel h2 .sl{color:var(--fg-3);font-weight:500;font-family:var(--mono)}
+.span7{grid-column:span 7} .span5{grid-column:span 5} .span12{grid-column:span 12} .span6{grid-column:span 6}
+@media (max-width:860px){ .tiles{grid-template-columns:repeat(2,1fr)} .span7,.span5,.span6{grid-column:span 12} .top h1{font-size:22px} }
+@media (max-width:420px){ .tiles{grid-template-columns:1fr} }
+
+svg{display:block;max-width:100%}
+canvas{display:block;width:100%;max-width:100%;background:var(--surface-chart);border-radius:6px}
+.chart-wrap{position:relative;min-width:0}
+.tip{position:absolute;pointer-events:none;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:6px 8px;
+  font-size:11px;box-shadow:0 4px 14px rgba(0,0,0,.08);white-space:nowrap;display:none;z-index:3}
+.tip b{display:block;color:var(--accent)}
+
+/* handoff log */
+.feat{border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:6px;padding:8px 10px;background:var(--line-2)}
+.feat .t{font-weight:600}
+.log{list-style:none;margin:0;padding:0;max-height:250px;overflow:auto;display:grid;gap:3px;scrollbar-width:thin}
+.log li{display:grid;grid-template-columns:44px 64px 1fr 10px;gap:8px;align-items:baseline;padding:3px 4px;border-radius:4px}
+.log li:first-child{background:var(--line-2)}
+.log .time{color:var(--fg-3)}
+.log .txt{color:var(--fg-2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.log .dot{width:6px;height:6px;border-radius:50%;display:block;justify-self:end}
+.log .k-objection .dot{background:var(--risk)} .log .k-send_back .dot{background:var(--warn)} .log .k-restart .dot{background:var(--bad)}
+.log .k-order .dot{background:var(--good)} .log .k-handoff .dot{background:var(--accent)} .log .k-report .dot{background:var(--journal)} .log .k-system .dot{background:var(--fg-3)}
+.empty{color:var(--fg-3);padding:12px 4px}
+
+/* side stats */
+.side{display:grid;grid-template-columns:150px 1fr;gap:12px;min-width:0}
+@media (max-width:600px){ .side{grid-template-columns:1fr} }
+.kv{display:grid;gap:5px;align-content:start}
+.kv div{display:flex;justify-content:space-between;gap:8px;border-bottom:1px solid var(--line-2);padding-bottom:4px}
+.kv span:last-child{font-weight:600}
+.kv .acc{color:var(--accent)} .kv .bad{color:var(--bad)} .kv .good{color:var(--good)} .kv .warn{color:var(--warn)}
+.legend{display:grid;gap:4px}
+.legend div{display:flex;align-items:center;gap:6px;color:var(--fg-2)}
+.legend i{width:8px;height:8px;border-radius:50%;display:block}
+.bars{display:flex;align-items:flex-end;gap:4px;height:70px;padding-top:6px}
+.bars div{flex:1;border-radius:3px 3px 0 0;min-height:2px;position:relative}
+.bars div span{position:absolute;top:-14px;left:0;right:0;text-align:center;font-size:9px;color:var(--fg-2)}
+.bars-x{display:flex;gap:4px}
+.bars-x span{flex:1;text-align:center;font-size:8px;letter-spacing:.04em;color:var(--fg-3)}
+.foot{color:var(--fg-3);font-size:10px;letter-spacing:.06em;text-transform:uppercase;display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
+
+/* crew */
+.crew{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}
+@media (max-width:860px){ .crew{grid-template-columns:repeat(3,1fr)} }
+@media (max-width:460px){ .crew{grid-template-columns:repeat(2,1fr)} }
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:10px 10px 12px;text-align:center;min-width:0;position:relative;transition:border-color .2s,box-shadow .2s}
+.card.active{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent) inset}
+.card .idx{position:absolute;top:8px;left:10px;font-size:9px;color:var(--fg-3)}
+.card .st{position:absolute;top:10px;right:10px;width:7px;height:7px;border-radius:50%;background:var(--line)}
+.card.active .st{background:var(--good);animation:pulse 1.4s ease-in-out infinite}
+.card.done .st{background:var(--fg-3)}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(0,131,0,.5)}50%{box-shadow:0 0 0 5px rgba(0,131,0,0)}}
+.card svg{width:84px;height:84px;margin:8px auto 4px}
+.card .nm{font-family:var(--sans);font-weight:800;font-size:14px;letter-spacing:.04em}
+.card .md{font-size:9px;letter-spacing:.08em;text-transform:uppercase;font-weight:600}
+.card .act{display:flex;gap:2px;justify-content:center;align-items:flex-end;height:14px;margin-top:6px}
+.card .act i{width:4px;background:var(--line);border-radius:1px;display:block;min-height:2px}
+.card.active .act i,.card.done .act i{background:currentColor;opacity:.7}
+@media (prefers-reduced-motion:reduce){ .card.active .st{animation:none} }
+.note{color:var(--fg-3);font-size:10px;text-align:center;letter-spacing:.04em}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="logo" aria-hidden="true">
+      <i style="background:var(--scout)"></i><i style="background:var(--analyst)"></i><i style="background:var(--skeptic)"></i>
+      <i style="background:var(--quant)"></i><i style="background:var(--risk)"></i><i style="background:var(--journal)"></i>
+    </div>
+    <h1>DOTS</h1>
+    <span class="sub" id="hdr-model">CREW × SPIDER</span>
+    <span class="scen" id="hdr-scenario">X · FICTIONAL SCENARIO</span>
+    <div class="right">
+      <div class="controls">
+        <div class="speed" role="group" aria-label="Replay speed">
+          <button type="button" data-speed="1" aria-pressed="true">1×</button>
+          <button type="button" data-speed="4" aria-pressed="false">4×</button>
+          <button type="button" data-speed="16" aria-pressed="false">16×</button>
+        </div>
+        <label class="lbl" for="scrub">scrub</label>
+        <input type="range" id="scrub" min="0" max="660" value="0" step="1" aria-label="Scrub the replay">
+      </div>
+      <button type="button" class="btn-play" id="btn-play">REPLAY</button>
+      <span class="clock num" id="clock">00:00 / 11H</span>
+    </div>
+  </header>
+
+  <section class="tiles" aria-label="Summary">
+    <div class="tile"><div class="lbl">Balance / USD</div><div class="v num" id="t-bal">$37.00</div><div class="s" id="t-bal-s">start $37.00 · story replay</div></div>
+    <div class="tile"><div class="lbl">Net PnL / USD</div><div class="v num good" id="t-pnl">+$0.00</div><div class="s" id="t-pnl-s">11-hour fictional scenario</div></div>
+    <div class="tile"><div class="lbl">Mission clock</div><div class="v num" id="t-clock">00:00</div><div class="s" id="t-clock-s">22:00 → 09:00 / 11 hours</div></div>
+    <div class="tile">
+      <div class="gate-head"><div class="lbl">Review gate</div><span class="lbl" id="t-gate-role">—</span></div>
+      <div class="v acc" id="t-gate" style="font-size:20px">WAITING</div>
+      <div class="pips" id="t-pips"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="s" id="t-gate-s">no case open</div>
+    </div>
+  </section>
+
+  <section class="grid" aria-label="Panels">
+    <div class="panel span7">
+      <div class="head"><h2><span class="sl">// </span>Balance history</h2><span class="lbl" id="bal-sub">USD / 11H</span></div>
+      <div class="chart-wrap"><svg id="bal" viewBox="0 0 640 230" preserveAspectRatio="none" role="img" aria-label="Account balance over the night"></svg><div class="tip" id="bal-tip"></div></div>
+    </div>
+    <div class="panel span5">
+      <div class="head"><h2><span class="sl">// </span>Crew handoffs</h2><span class="lbl">6 dots / 1 spider</span></div>
+      <div class="feat" id="feat"><div class="lbl" id="feat-h">—</div><div class="t" id="feat-t">Press REPLAY to start the night.</div></div>
+      <ul class="log" id="log"></ul>
+    </div>
+
+    <div class="panel span12">
+      <div class="head"><h2>Entry / Exit Risk Landscape</h2><span class="lbl" id="ridge-sub">scenario density · revised case</span></div>
+      <div class="side">
+        <div class="kv">
+          <div><span class="lbl">Case</span><span class="num" id="r-case">—</span></div>
+          <div><span class="lbl">Tail mass</span><span class="num acc" id="r-tail">—</span></div>
+          <div><span class="lbl">Checks</span><span class="num" id="r-checks">0</span></div>
+          <div><span class="lbl">Entry</span><span id="r-entry">—</span></div>
+          <div><span class="lbl">Size</span><span id="r-size">—</span></div>
+          <div class="lbl" style="border:0;padding-top:4px">fees + bad exit / before size</div>
+        </div>
+        <div class="chart-wrap"><canvas id="ridge" height="300" aria-label="Density of exit scenarios with the strike zone shaded"></canvas><div class="tip" id="ridge-tip"></div></div>
+      </div>
+      <div class="foot"><span>−2σ</span><span>−1σ</span><span>0</span><span>+1σ</span><span>+2σ</span></div>
+    </div>
+
+    <div class="panel span6">
+      <div class="head"><h2>Spider / Handoff Chord</h2><span class="lbl">6 dots</span></div>
+      <div class="side" style="grid-template-columns:1fr 150px">
+        <svg id="chord" viewBox="0 0 300 260" role="img" aria-label="Handoffs between the six roles, routed through the Spider"></svg>
+        <div class="kv">
+          <div><span class="lbl">Case</span><span class="num" id="c-case">—</span></div>
+          <div><span class="lbl">First idea</span><span id="c-first">—</span></div>
+          <div><span class="lbl">Risk</span><span id="c-risk">—</span></div>
+          <div><span class="lbl">Record</span><span id="c-record">—</span></div>
+          <div><span class="lbl">Send-backs</span><span class="num" id="c-sb">0</span></div>
+        </div>
+      </div>
+      <div class="foot"><span>disagreement → revision → check → receipt</span></div>
+    </div>
+
+    <div class="panel span6">
+      <div class="head"><h2>5D Decision Lattice</h2><span class="lbl">penteract · 32 nodes · 80 edges</span></div>
+      <div class="side" style="grid-template-columns:150px 1fr">
+        <div class="kv">
+          <div><span class="lbl">Dimensions</span><span class="num">5 / 5</span></div>
+          <div><span class="lbl">Vertices</span><span class="num">32</span></div>
+          <div><span class="lbl">Edges</span><span class="num">80</span></div>
+          <div><span class="lbl">Rotation</span><span class="num" id="l-rot">0°</span></div>
+          <div><span class="lbl">Checks lit</span><span class="num acc" id="l-lit">0 / 5</span></div>
+          <div class="legend" style="border:0;display:grid;padding-top:4px">
+            <div><i style="background:var(--scout)"></i>evidence</div><div><i style="background:var(--analyst)"></i>thesis</div>
+            <div><i style="background:var(--quant)"></i>fees</div><div><i style="background:var(--skeptic)"></i>exit</div><div><i style="background:var(--risk)"></i>size</div>
+          </div>
+        </div>
+        <canvas id="lattice" height="260" aria-label="A five-dimensional cube projected to two dimensions; lit vertices are checks that passed"></canvas>
+      </div>
+    </div>
+
+    <div class="panel span12">
+      <div class="head"><h2>Evidence / Objection Graph</h2><span class="lbl" id="g-sub">0 nodes · 0 edges</span></div>
+      <div class="side" style="grid-template-columns:150px 1fr 180px">
+        <div class="kv">
+          <div class="lbl" style="border:0">evidence class</div>
+          <div class="legend" style="border:0;display:grid">
+            <div><i style="background:var(--risk)"></i>objection</div><div><i style="background:var(--skeptic)"></i>evidence</div>
+            <div><i style="background:var(--scout)"></i>reasoning</div><div><i style="background:var(--quant)"></i>revision</div>
+          </div>
+          <div><span class="lbl">Objections</span><span class="num bad" id="g-obj">0</span></div>
+          <div><span class="lbl">Source links</span><span class="num" id="g-src">0</span></div>
+          <div><span class="lbl">Graph paths</span><span class="num" id="g-paths">0</span></div>
+          <div><span class="lbl">Trail kept</span><span class="num good">100%</span></div>
+        </div>
+        <div class="chart-wrap"><canvas id="graph" height="260" aria-label="Every memo and objection as a node, linked to the hub that produced it"></canvas><div class="tip" id="graph-tip"></div></div>
+        <div class="kv">
+          <div><span class="lbl">Dots</span><span class="num">6 / 6</span></div>
+          <div><span class="lbl">Model</span><span id="g-model" style="color:var(--bad)">—</span></div>
+          <div><span class="lbl">Mode</span><span id="g-mode">—</span></div>
+          <div><span class="lbl">Router</span><span class="acc">SPIDER</span></div>
+          <div class="lbl" style="border:0;padding-top:6px">receipts / by role</div>
+          <div style="border:0;display:block"><div class="bars" id="receipts"></div><div class="bars-x"><span>SCT</span><span>ANL</span><span>SKP</span><span>QNT</span><span>RSK</span><span>JRN</span></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="crew" id="crew" aria-label="Crew"></section>
+  <p class="note" id="note">Replay of the sample night. Numbers are a story, not a result. Drop a real run at runs/latest.json to replay it instead.</p>
+</div>
+
+<script>
+'use strict';
+/* ---------- data ---------- */
+const ROLES = ['SCOUT','ANALYST','SKEPTIC','QUANT','RISK','JOURNAL'];
+const MANDATE = {SCOUT:'source',ANALYST:'thesis',SKEPTIC:'challenge',QUANT:'entry + fees',RISK:'position size',JOURNAL:'decision log'};
+const H = 660; // minutes in the night, 22:00 -> 09:00
+
+// The sample night from the story. Timestamps are minutes after 22:00. Entirely fictional.
+function sampleRun(){
+  const E = [];
+  const add = (m, role, kind, c, text) => E.push({m, role, kind, case:c, text});
+  add(0,'SPIDER','system',0,'rule set: if all six agree right away, start over');
+  add(2,'SPIDER','system',0,'workspace ready. paper broker, dry-run');
+  add(5,'SPIDER','system',1,'case 01 opened: EXMP 8-K items 1.01, 8.01');
+  add(5,'SCOUT','handoff',1,'spotted the announcement and pulled the original source');
+  add(9,'SCOUT','objection',1,'SCOUT: press release beat the filing by 40 minutes');
+  add(17,'ANALYST','handoff',1,'thesis built around what the news changed for the business');
+  add(31,'ANALYST','handoff',1,'business change isolated: revenue floor through 2031');
+  add(68,'SKEPTIC','handoff',1,'obvious, late and probably already priced in');
+  add(70,'SKEPTIC','objection',1,'SKEPTIC: 6% after-hours move already in the price');
+  add(72,'SKEPTIC','objection',1,'SKEPTIC: thesis has no 10-day test');
+  add(161,'QUANT','handoff',1,'reworked the entry, the fees and what a bad exit would cost');
+  add(166,'QUANT','handoff',1,'entry + exit costs checked: bad exit $3.10 on $37');
+  add(256,'RISK','handoff',1,'position size shot down. full account on one name after a 6% gap');
+  add(256,'RISK','objection',1,'RISK: size exceeds the bad-exit cap');
+  add(258,'SPIDER','send_back',1,'RISK sent the case back to QUANT (round 2)');
+  add(290,'QUANT','handoff',1,'revised size: no size makes this positive after fees');
+  add(292,'SPIDER','system',1,'QUANT objected: no trade');
+  add(300,'JOURNAL','report',1,'case 01: no trade. four objections, none answered');
+  add(312,'SPIDER','system',2,'case 02 opened: SMPL 8-K item 5.02');
+  add(318,'SCOUT','handoff',2,'CFO out effective immediately. filing is the first public mention');
+  add(355,'ANALYST','handoff',2,'sudden CFO exit before the Q3 print: short, 5-day horizon');
+  add(402,'SKEPTIC','handoff',2,'base rate for this pattern is not in the memo. get it');
+  add(402,'SKEPTIC','objection',2,'SKEPTIC: no base rate for the pattern');
+  add(404,'SPIDER','send_back',2,'SKEPTIC sent the case back to ANALYST (round 2)');
+  add(430,'ANALYST','handoff',2,'base rate added: 1 in 4 such exits precede a negative surprise');
+  add(452,'SKEPTIC','handoff',2,'one in four is a bet, not a thesis. objection stays on record');
+  add(452,'SKEPTIC','objection',2,'SKEPTIC: 75% chance this is noise');
+  add(470,'QUANT','handoff',2,'short 12.60, stop 13.30, target 11.40. EV positive only below $14 size');
+  add(478,'QUANT','handoff',2,'p_strike 0.38 from the 30-day gap distribution');
+  add(492,'RISK','handoff',2,'one share. bad exit 2.6% of the account. approved');
+  add(495,'SPIDER','order',2,'paper: sell 1 SMPL @ 12.60 stop 13.30 target 11.40');
+  add(540,'SPIDER','system',2,'open: stop and target resting with the paper broker');
+  add(654,'JOURNAL','report',2,'final report assembled with every objection still in it');
+  add(660,'SPIDER','system',2,'09:00 terminal opened');
+  // balance path: flat while researching, then the story's fictional move once a paper order exists
+  const bal = [[0,37]];
+  let v = 37;
+  for (let m=495; m<=660; m+=5){ const p=(m-495)/165; v = 37 + (7450-37)*Math.pow(p,1.6)*(1+0.06*Math.sin(m/9)); bal.push([m, Math.round(v*100)/100]); }
+  bal[bal.length-1][1] = 7450;
+  return {
+    title:'DOTS story replay', fictional:true, mode:'story', model:'claude-opus-5-5', router:'SPIDER',
+    start_balance:37, hours:11, balance:bal, events:E,
+    cases:[
+      {id:1,ticker:'EXMP',outcome:'no_trade',rounds:2,entry:43.70,stop:41.90,target:47.00,size:37,p_strike:0.46,risk:'REJECTED',objections:4},
+      {id:2,ticker:'SMPL',outcome:'paper_order',rounds:2,entry:12.60,stop:13.30,target:11.40,size:12.60,p_strike:0.38,risk:'APPROVED',objections:2}
+    ],
+    counts:{objections:6, source_links:2, send_backs:2, restarts:0}
+  };
+}
+
+/* ---------- state ---------- */
+const S = { run:null, minute:0, playing:false, speed:1, last:0, lastRendered:-1, total:H, rot:0 };
+const $ = id => document.getElementById(id);
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const roleColor = r => css('--'+(ROLES.includes(r)?r.toLowerCase():'fg-3'));
+const fmtClock = m => { const h=(22+Math.floor(m/60))%24, mm=Math.floor(m%60); return String(h).padStart(2,'0')+':'+String(mm).padStart(2,'0'); };
+const fmtUSD = v => (v<0?'-':'')+'$'+Math.abs(v).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+
+function load(){
+  const useSample = () => { S.run = sampleRun(); init(); };
+  fetch('runs/latest.json',{cache:'no-store'}).then(r => r.ok ? r.json() : Promise.reject()).then(d => {
+    if (!d || !Array.isArray(d.events) || !d.events.length) return useSample();
+    S.run = d; init();
+  }).catch(useSample);
+}
+
+function init(){
+  const r = S.run;
+  S.total = Math.max(60, (r.hours||11)*60);
+  $('scrub').max = S.total;
+  $('hdr-scenario').textContent = r.fictional ? 'X · FICTIONAL SCENARIO' : 'LIVE PAPER RUN';
+  $('hdr-scenario').style.color = r.fictional ? 'var(--bad)' : 'var(--good)';
+  $('hdr-model').textContent = (r.model||'crew').toUpperCase()+' × SPIDER';
+  $('t-bal-s').textContent = 'start '+fmtUSD(r.start_balance)+(r.fictional?' · story replay':' · '+(r.mode||'paper'));
+  $('t-pnl-s').textContent = r.fictional ? (r.hours||11)+'-hour fictional scenario' : (r.hours||11)+'-hour paper run';
+  const start = r.started_at ? new Date(r.started_at) : null;
+  $('t-clock-s').textContent = (start? start.toISOString().slice(11,16)+' UTC' : '22:00')+' start / '+(r.hours||11)+' hours';
+  $('bal-sub').textContent = 'USD / '+(r.hours||11)+'H';
+  $('g-model').textContent = (r.model||'—');
+  $('g-mode').textContent = (r.mode||'—');
+  $('note').textContent = r.fictional
+    ? 'Replay of the sample night. Numbers are a story, not a result. Drop a real run at runs/latest.json to replay it instead.'
+    : 'Replay of a real paper run written by run_night.py. Paper only.';
+  buildCrew();
+  sizeCanvases();
+  render(true);
+  requestAnimationFrame(frame);
+}
+
+/* ---------- replay engine ---------- */
+function frame(ts){
+  if (S.playing){
+    const dt = (ts - (S.last||ts))/1000; S.last = ts;
+    S.minute = Math.min(S.total, S.minute + dt*6*S.speed); // 1 real second = 6 story minutes at 1×
+    if (S.minute >= S.total){ S.playing=false; $('btn-play').textContent='REPLAY'; }
+  } else S.last = ts;
+  S.rot += 0.004 + (S.playing?0.01:0);
+  render(false);
+  requestAnimationFrame(frame);
+}
+$('btn-play').addEventListener('click', () => {
+  if (S.playing){ S.playing=false; $('btn-play').textContent='RESUME'; return; }
+  if (S.minute >= S.total) S.minute = 0;
+  S.playing = true; S.last = 0; $('btn-play').textContent='PAUSE';
+});
+$('scrub').addEventListener('input', e => { S.minute = +e.target.value; render(true); });
+document.querySelectorAll('.speed button').forEach(b => b.addEventListener('click', () => {
+  S.speed = +b.dataset.speed;
+  document.querySelectorAll('.speed button').forEach(x => x.setAttribute('aria-pressed', x===b));
+}));
+window.addEventListener('resize', () => { sizeCanvases(); render(true); });
+
+/* ---------- derived state at minute m ---------- */
+function visible(){ return S.run.events.filter(e => e.m <= S.minute); }
+function balanceAt(m){
+  const b = S.run.balance; let v = b[0][1];
+  for (const [t,val] of b){ if (t<=m) v=val; else break; }
+  return v;
+}
+function stageInfo(ev){
+  // which role currently holds the case, and which case
+  let role='—', c=0, lastHand=null;
+  for (const e of ev){ if (e.case) c=e.case; if (ROLES.includes(e.role)) { role=e.role; lastHand=e; } }
+  return {role, c, lastHand};
+}
+
+/* ---------- render ---------- */
+function render(force){
+  const m = Math.floor(S.minute);
+  $('clock').textContent = fmtClock(S.minute)+' / '+(S.run.hours||11)+'H';
+  $('scrub').value = S.minute;
+  drawLattice();
+  drawRidge();
+  if (!force && m === S.lastRendered) return;
+  S.lastRendered = m;
+  const ev = visible();
+  const bal = balanceAt(m), pnl = bal - S.run.start_balance;
+  $('t-bal').textContent = fmtUSD(bal);
+  $('t-pnl').textContent = (pnl>=0?'+':'')+fmtUSD(pnl);
+  $('t-pnl').className = 'v num '+(pnl<0?'bad':'good');
+  $('t-clock').textContent = String(Math.floor(m/60)).padStart(2,'0')+':'+String(m%60).padStart(2,'0');
+  const st = stageInfo(ev);
+  const cas = S.run.cases.find(c => c.id===st.c);
+  const idx = ROLES.indexOf(st.role);
+  $('t-gate').textContent = st.role==='—' ? 'WAITING' : (st.role==='JOURNAL' ? 'REPORT' : 'REVIEW');
+  $('t-gate-role').textContent = st.role; $('t-gate-role').className = 'lbl role c-'+st.role;
+  [...$('t-pips').children].forEach((p,i) => p.classList.toggle('on', i<=idx));
+  $('t-gate-s').textContent = st.c ? `case ${String(st.c).padStart(2,'0')} / ${gateText(st, ev)}` : 'no case open';
+
+  renderLog(ev);
+  drawBalance(m);
+  renderRidgeStats(st, cas, ev);
+  drawChord(ev, st, cas);
+  drawGraph(ev);
+  renderReceipts(ev);
+  renderCrew(ev, st);
+}
+function gateText(st, ev){
+  const last = [...ev].reverse().find(e => e.case===st.c && (e.kind==='order'||e.kind==='report'||e.kind==='restart'||e.kind==='send_back'));
+  if (last && last.kind==='order') return 'paper order resting';
+  if (last && last.kind==='report') return 'report filed';
+  if (last && last.kind==='restart') return 'restarted';
+  if (last && last.kind==='send_back') return 'sent back';
+  return {SCOUT:'source under review',ANALYST:'thesis under review',SKEPTIC:'challenge in progress',QUANT:'entry + fees under review',RISK:'size under review',JOURNAL:'writing the record'}[st.role] || 'opening';
+}
+
+function renderLog(ev){
+  const log = $('log');
+  if (!ev.length){ log.innerHTML = '<li class="empty">22:00 · nothing yet</li>'; $('feat-h').textContent='—'; $('feat-t').textContent='Press REPLAY to start the night.'; return; }
+  const last = ev[ev.length-1];
+  $('feat-h').innerHTML = `${fmtClock(last.m)} <span class="role c-${last.role}">${last.role}</span>`;
+  $('feat-t').textContent = last.text;
+  const rows = ev.slice(-40).reverse().map(e =>
+    `<li class="k-${e.kind}"><span class="time num">${fmtClock(e.m)}</span><span class="role c-${e.role}">${e.role}</span><span class="txt" title="${esc(e.text)}">${esc(e.text)}</span><i class="dot"></i></li>`).join('');
+  log.innerHTML = rows;
+}
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+/* balance line (SVG, to scale) */
+function drawBalance(m){
+  const svg = $('bal'); const W=640, Hh=230, L=46, R=16, T=18, B=28;
+  const pts = S.run.balance.filter(p => p[0] <= m);
+  const maxAll = Math.max(...S.run.balance.map(p=>p[1]));
+  const maxNow = Math.max(...pts.map(p=>p[1]), S.run.start_balance);
+  const yMax = niceMax(Math.max(maxNow*1.15, S.run.start_balance*2));
+  const x = t => L + (t/S.total)*(W-L-R);
+  const y = v => T + (1 - v/yMax)*(Hh-T-B);
+  const ticks = [0, yMax/2, yMax];
+  let g = '';
+  for (const tv of ticks) g += `<line x1="${L}" x2="${W-R}" y1="${y(tv)}" y2="${y(tv)}" stroke="var(--grid)" stroke-width="1"/>
+    <text x="${L-6}" y="${y(tv)+4}" text-anchor="end" font-size="10" fill="var(--fg-3)" font-family="var(--mono)">${fmtShort(tv)}</text>`;
+  for (const hm of [0, S.total/2, S.total]) g += `<text x="${x(hm)}" y="${Hh-8}" text-anchor="${hm===0?'start':hm===S.total?'end':'middle'}" font-size="10" fill="var(--fg-3)" font-family="var(--mono)">${fmtClock(hm)}</text>`;
+  // now line
+  g += `<line x1="${x(m)}" x2="${x(m)}" y1="${T}" y2="${Hh-B}" stroke="var(--line)" stroke-dasharray="3 3"/>`;
+  if (pts.length){
+    const last = pts[pts.length-1];
+    const seg = [...pts, [m, last[1]]];
+    const d = seg.map((p,i) => (i?'L':'M')+x(p[0]).toFixed(1)+' '+y(p[1]).toFixed(1)).join(' ');
+    const area = d + ` L${x(m).toFixed(1)} ${y(0)} L${x(seg[0][0]).toFixed(1)} ${y(0)} Z`;
+    g += `<path d="${area}" fill="var(--accent)" fill-opacity="0.08"/><path d="${d}" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linejoin="round"/>`;
+    g += `<circle cx="${x(m)}" cy="${y(last[1])}" r="4" fill="var(--accent)" stroke="var(--panel)" stroke-width="2"/>`;
+    const lx = Math.min(x(m)+8, W-R-70);
+    g += `<text x="${lx}" y="${Math.max(T+10, y(last[1])-8)}" font-size="11" font-weight="600" fill="var(--fg)" font-family="var(--mono)">${fmtUSD(last[1])}</text>`;
+    // annotate the flat research stretch
+    const flatEnd = S.run.balance.find(p => p[1] !== S.run.balance[0][1]);
+    const fe = flatEnd ? flatEnd[0] : S.total;
+    if (m > 30) g += `<text x="${x(Math.min(m, fe)/2 + 20)}" y="${y(S.run.start_balance)-10}" font-size="10" fill="var(--fg-3)" font-family="var(--mono)">${S.run.cases[0] ? 'CASE 01 RESEARCH / '+(S.run.cases[0].outcome==='paper_order'?'PAPER':'NO TRADE') : 'RESEARCH'}</text>`;
+  }
+  svg.innerHTML = g;
+  svg.onmousemove = e => {
+    const rect = svg.getBoundingClientRect(); const mx = (e.clientX-rect.left)/rect.width*W;
+    const t = Math.max(0, Math.min(S.total, (mx-L)/(W-L-R)*S.total));
+    if (t > m) { $('bal-tip').style.display='none'; return; }
+    const tip = $('bal-tip'); tip.style.display='block'; tip.style.left = (e.clientX-rect.left+12)+'px'; tip.style.top = (e.clientY-rect.top-10)+'px';
+    tip.innerHTML = `<b>${fmtClock(t)}</b>${fmtUSD(balanceAt(t))}`;
+  };
+  svg.onmouseleave = () => $('bal-tip').style.display='none';
+}
+function niceMax(v){ const p = Math.pow(10, Math.floor(Math.log10(v))); const n = v/p; const s = n<=1?1:n<=2?2:n<=2.5?2.5:n<=5?5:10; return s*p; }
+function fmtShort(v){ return v>=1000 ? (v/1000).toFixed(v%1000?1:0)+'k' : String(Math.round(v)); }
+
+/* ridge landscape (canvas) */
+function sizeCanvases(){
+  for (const id of ['ridge','lattice','graph']){
+    const c = $(id); const w = c.parentElement.clientWidth || 600; const h = +c.getAttribute('height');
+    const dpr = Math.min(2, window.devicePixelRatio||1);
+    c.width = Math.round(w*dpr); c.height = Math.round(h*dpr); c.style.height = h+'px';
+    c.getContext('2d').setTransform(dpr,0,0,dpr,0,0); c._w = w; c._h = h;
+  }
+}
+function currentQuant(ev){
+  // last QUANT handoff decides the landscape; before that the landscape is flat and wide
+  const st = stageInfo(ev); const cas = S.run.cases.find(c => c.id===st.c);
+  const quantSeen = ev.some(e => e.role==='QUANT' && e.case===st.c);
+  return {cas, quantSeen, p: (cas && cas.p_strike!=null) ? cas.p_strike : 0.5};
+}
+function drawRidge(){
+  const c = $('ridge'), ctx = c.getContext('2d'), W=c._w, Hh=c._h; if (!W) return;
+  const ev = visible(); const {quantSeen, p} = currentQuant(ev);
+  ctx.clearRect(0,0,W,Hh);
+  const rows = 34, left = 20, right = W-20, span = right-left;
+  const xOf = s => left + ((s+2.6)/5.2)*span; // sigma -> x
+  const strikeS = quantSeen ? 0.9 + (0.5-p)*1.2 : 2.4; // strike moves left as p_strike rises
+  const t = S.rot*2;
+  // strike zone
+  ctx.fillStyle = css('--strike'); ctx.globalAlpha = 0.7;
+  ctx.fillRect(xOf(strikeS), 10, right-xOf(strikeS), Hh-20); ctx.globalAlpha = 1;
+  for (let i=0;i<rows;i++){
+    const base = 30 + i*((Hh-50)/rows);
+    const width = quantSeen ? 0.55 + 0.25*Math.sin(i*0.7+t) : 1.3 + 0.2*Math.sin(i*0.5+t);
+    const mu = quantSeen ? -0.2 + 0.15*Math.sin(i*0.9+t*0.7) : 0.1*Math.sin(i+t);
+    const amp = (quantSeen?70:36) * (0.6 + 0.4*Math.sin(i/rows*Math.PI));
+    ctx.beginPath();
+    for (let px=left; px<=right; px+=2){
+      const s = (px-left)/span*5.2-2.6;
+      const g = Math.exp(-0.5*Math.pow((s-mu)/width,2)) + (quantSeen?0.25*Math.exp(-0.5*Math.pow((s-strikeS-0.3)/0.35,2)):0);
+      const y = base - amp*g;
+      px===left ? ctx.moveTo(px,y) : ctx.lineTo(px,y);
+    }
+    ctx.lineTo(right, base); ctx.lineTo(left, base); ctx.closePath();
+    ctx.fillStyle = css('--surface-chart'); ctx.fill();
+    ctx.strokeStyle = css('--ridge'); ctx.globalAlpha = 0.55; ctx.lineWidth = 1; ctx.stroke(); ctx.globalAlpha = 1;
+  }
+  // strike / exit marker
+  ctx.strokeStyle = css('--bad'); ctx.setLineDash([4,3]); ctx.beginPath(); ctx.moveTo(xOf(strikeS),10); ctx.lineTo(xOf(strikeS),Hh-10); ctx.stroke(); ctx.setLineDash([]);
+  ctx.fillStyle = css('--fg'); ctx.font = '600 10px '+css('--mono'); ctx.textAlign = 'right';
+  ctx.fillText('STRIKE / EXIT', right-4, 22);
+  // entry marker
+  if (quantSeen){ ctx.fillStyle = css('--bad'); ctx.beginPath(); ctx.arc(xOf(-0.2), Hh*0.55, 4, 0, Math.PI*2); ctx.fill(); }
+  const tip = $('ridge-tip');
+  if (quantSeen){
+    tip.style.display='block'; tip.style.left = Math.min(W-170, xOf(strikeS)-150)+'px'; tip.style.top = (Hh*0.45)+'px';
+    tip.innerHTML = `<b>P(&gt;STRIKE) ${(p*100).toFixed(2)}%</b>EXIT COST / CHECKED<br><span style="color:var(--fg-3)">case ${String(currentQuant(ev).cas.id).padStart(2,'0')} / QUANT</span>`;
+  } else tip.style.display='none';
+}
+function renderRidgeStats(st, cas, ev){
+  $('r-case').textContent = st.c ? String(st.c).padStart(2,'0') : '—';
+  const q = currentQuant(ev);
+  $('r-tail').textContent = q.quantSeen ? (q.p*100).toFixed(2)+'%' : '—';
+  $('r-checks').textContent = ev.filter(e => e.kind==='handoff'||e.kind==='objection').length;
+  const riskDone = ev.some(e => e.role==='RISK' && e.case===st.c);
+  const sb = ev.some(e => e.kind==='send_back' && e.case===st.c);
+  $('r-entry').textContent = q.quantSeen ? (sb ? 'REVISED' : 'SET') : 'PENDING';
+  $('r-entry').className = q.quantSeen ? 'acc' : 'warn';
+  $('r-size').textContent = riskDone && cas ? (cas.risk==='APPROVED' ? fmtUSD(cas.size||0) : cas.risk) : 'PENDING';
+  $('r-size').className = riskDone && cas ? (cas.risk==='APPROVED'?'good':'bad') : 'warn';
+  $('ridge-sub').textContent = q.quantSeen ? 'scenario density · revised case' : 'scenario density · no numbers yet';
+}
+
+/* chord (SVG) */
+function drawChord(ev, st, cas){
+  const svg = $('chord'); const cx=150, cy=130, R=96;
+  const pos = ROLES.map((r,i) => { const a = -Math.PI/2 + i*(Math.PI*2/6); return {r, x: cx+R*Math.cos(a), y: cy+R*Math.sin(a)}; });
+  const P = Object.fromEntries(pos.map(p => [p.r, p]));
+  let g = '';
+  // every handoff from one role to the next passes through the spider
+  const hands = ev.filter(e => e.kind==='handoff' || e.kind==='report' || e.kind==='send_back');
+  let prev = null;
+  for (const e of hands){
+    const to = e.kind==='send_back' ? (e.text.match(/back to (\w+)/)||[])[1] : e.role;
+    if (prev && to && P[prev] && P[to] && prev!==to){
+      const a = P[prev], b = P[to];
+      g += `<path d="M${a.x} ${a.y} Q${cx} ${cy} ${b.x} ${b.y}" fill="none" stroke="${roleColor(prev)}" stroke-width="${e.kind==='send_back'?2.2:1.2}" stroke-opacity="${e.kind==='send_back'?0.9:0.45}" ${e.kind==='send_back'?'stroke-dasharray="4 3"':''}/>`;
+    }
+    if (to && P[to]) prev = to;
+  }
+  for (const p of pos){
+    const active = p.r===st.role;
+    g += `<circle cx="${p.x}" cy="${p.y}" r="${active?8:6}" fill="${roleColor(p.r)}" stroke="var(--panel)" stroke-width="2"/>`;
+    const lx = p.x + (p.x-cx)*0.22, ly = p.y + (p.y-cy)*0.22 + 4;
+    g += `<text x="${lx}" y="${ly}" text-anchor="${Math.abs(p.x-cx)<1?'middle':p.x>cx?'start':'end'}" font-size="9" font-weight="600" fill="${roleColor(p.r)}" font-family="var(--mono)">${p.r}</text>`;
+  }
+  g += `<circle cx="${cx}" cy="${cy}" r="18" fill="var(--panel)" stroke="var(--fg)" stroke-width="1.5"/><text x="${cx}" y="${cy+3}" text-anchor="middle" font-size="8" font-weight="700" fill="var(--fg)" font-family="var(--mono)">SPIDER</text>`;
+  svg.innerHTML = g;
+  $('c-case').textContent = st.c ? String(st.c).padStart(2,'0') : '—';
+  const c1 = S.run.cases[0];
+  const c1done = c1 && ev.some(e => e.case===c1.id && (e.kind==='report'||e.kind==='order'||e.kind==='restart'));
+  $('c-first').textContent = c1done ? (c1.outcome==='paper_order'?'PAPER':c1.outcome==='restarted'?'RESTART':'NO TRADE') : 'OPEN';
+  $('c-first').className = c1done ? (c1.outcome==='paper_order'?'good':'bad') : 'warn';
+  const riskDone = cas && ev.some(e => e.role==='RISK' && e.case===cas.id);
+  $('c-risk').textContent = riskDone ? cas.risk : 'PENDING';
+  $('c-risk').className = riskDone ? (cas.risk==='APPROVED'?'good':'bad') : 'warn';
+  const nObj = ev.filter(e => e.kind==='objection').length;
+  $('c-record').textContent = nObj ? 'OBJECTIONS KEPT' : '—';
+  $('c-sb').textContent = ev.filter(e => e.kind==='send_back').length;
+}
+
+/* 5D lattice (canvas) */
+const PENT = (() => {
+  const V = []; for (let i=0;i<32;i++) V.push([0,1,2,3,4].map(b => (i>>b)&1 ? 1 : -1));
+  const E = []; for (let i=0;i<32;i++) for (let b=0;b<5;b++){ const j = i ^ (1<<b); if (j>i) E.push([i,j]); }
+  return {V,E};
+})();
+function rot(v, i, j, a){ const c=Math.cos(a), s=Math.sin(a); const o=v.slice(); o[i]=v[i]*c-v[j]*s; o[j]=v[i]*s+v[j]*c; return o; }
+function checksLit(ev){
+  const st = stageInfo(ev); const c = st.c; if (!c) return 0;
+  const seen = r => ev.some(e => e.case===c && e.role===r && e.kind==='handoff');
+  const cas = S.run.cases.find(x => x.id===c);
+  const riskOk = cas && cas.risk==='APPROVED' && seen('RISK');
+  return [seen('SCOUT'), seen('ANALYST'), seen('QUANT'), seen('SKEPTIC'), riskOk].filter(Boolean).length;
+}
+function drawLattice(){
+  const c = $('lattice'), ctx = c.getContext('2d'), W=c._w, Hh=c._h; if (!W) return;
+  ctx.clearRect(0,0,W,Hh);
+  const lit = checksLit(visible());
+  const a = S.rot;
+  const proj = PENT.V.map(v => {
+    let p = rot(v,0,1,a); p = rot(p,2,3,a*0.7); p = rot(p,1,4,a*0.45); p = rot(p,0,3,0.6);
+    const depth = 3.2 + p[2]*0.6 + p[4]*0.4;
+    const sc = Math.min(W,Hh)*0.19 * (3/depth);
+    return {x: W/2 + p[0]*sc + p[3]*sc*0.35, y: Hh/2 + p[1]*sc + p[3]*sc*0.25, d: depth};
+  });
+  ctx.lineWidth = 1;
+  for (const [i,j] of PENT.E){
+    const A=proj[i], B=proj[j];
+    ctx.strokeStyle = css('--fg-3'); ctx.globalAlpha = 0.18 + 0.25*(1/((A.d+B.d)/2)); ctx.beginPath(); ctx.moveTo(A.x,A.y); ctx.lineTo(B.x,B.y); ctx.stroke();
+  }
+  ctx.globalAlpha = 1;
+  const dimColor = ['--scout','--analyst','--quant','--skeptic','--risk'];
+  PENT.V.forEach((v,i) => {
+    const bits = v.map(x => x>0?1:0); const on = bits.reduce((s,b)=>s+b,0);
+    const p = proj[i];
+    const isState = on===lit && bits.every((b,k) => k<lit ? b===1 : b===0);
+    const r = isState ? 5 : 2.2 + on*0.35;
+    ctx.beginPath(); ctx.arc(p.x,p.y,r,0,Math.PI*2);
+    const k = bits.lastIndexOf(1);
+    ctx.fillStyle = on===0 ? css('--fg-3') : css(dimColor[k]);
+    ctx.globalAlpha = isState ? 1 : (on<=lit ? 0.9 : 0.3);
+    ctx.fill();
+    if (isState){ ctx.strokeStyle = css('--fg'); ctx.lineWidth = 1.5; ctx.stroke(); }
+  });
+  ctx.globalAlpha = 1;
+  $('l-rot').textContent = Math.round((a*57.2958)%360)+'°';
+  $('l-lit').textContent = lit+' / 5';
+}
+
+/* evidence graph (canvas) */
+let graphCache = {key:'', nodes:[], edges:[]};
+function drawGraph(ev){
+  const c = $('graph'), ctx = c.getContext('2d'), W=c._w, Hh=c._h; if (!W) return;
+  const hubs = {OBJ:{x:W*0.17,y:Hh*0.5,c:'--risk',l:'OBJECTIONS'}, SPI:{x:W*0.5,y:Hh*0.28,c:'--scout',l:'SPIDER / HANDOFF'}, EVI:{x:W*0.83,y:Hh*0.5,c:'--skeptic',l:'EVIDENCE'}, MOD:{x:W*0.5,y:Hh*0.78,c:'--analyst',l:'MODEL'}};
+  const key = ev.length+':'+W;
+  if (graphCache.key !== key){
+    const nodes = [], edges = []; const rnd = mulberry(7);
+    const byCase = {};
+    ev.forEach((e,i) => {
+      const hub = e.kind==='objection' ? 'OBJ' : (e.kind==='report'||e.kind==='order') ? 'MOD' : (e.role==='SCOUT'||e.kind==='system') ? 'EVI' : 'SPI';
+      const h = hubs[hub]; const ang = rnd()*Math.PI*2, rad = 26 + rnd()*54;
+      const col = e.kind==='objection' ? '--risk' : e.kind==='send_back' ? '--quant' : (e.role==='SCOUT'||e.kind==='system') ? '--skeptic' : '--scout';
+      const n = {x: h.x+Math.cos(ang)*rad, y: h.y+Math.sin(ang)*rad*0.7, c: col, hub, e};
+      nodes.push(n); edges.push([n, h]);
+      if (byCase[e.case]) edges.push([byCase[e.case], n]);
+      byCase[e.case] = n;
+    });
+    graphCache = {key, nodes, edges};
+  }
+  ctx.clearRect(0,0,W,Hh);
+  ctx.lineWidth = 1;
+  for (const [a,b] of graphCache.edges){ ctx.strokeStyle = css('--fg-3'); ctx.globalAlpha = 0.25; ctx.beginPath(); ctx.moveTo(a.x,a.y); ctx.lineTo(b.x,b.y); ctx.stroke(); }
+  ctx.globalAlpha = 1;
+  // hub spine
+  ctx.setLineDash([3,4]); ctx.strokeStyle = css('--fg-3'); ctx.beginPath(); ctx.moveTo(hubs.OBJ.x,hubs.OBJ.y); ctx.lineTo(hubs.SPI.x,hubs.SPI.y); ctx.lineTo(hubs.EVI.x,hubs.EVI.y); ctx.stroke(); ctx.setLineDash([]);
+  for (const n of graphCache.nodes){ ctx.fillStyle = css(n.c); ctx.beginPath(); ctx.arc(n.x,n.y,3,0,Math.PI*2); ctx.fill(); }
+  ctx.font = '600 9px '+css('--mono'); ctx.textAlign = 'center';
+  for (const k in hubs){ const h = hubs[k]; ctx.fillStyle = css(h.c); ctx.beginPath(); ctx.arc(h.x,h.y,13,0,Math.PI*2); ctx.fill();
+    ctx.strokeStyle = css('--panel'); ctx.lineWidth = 2; ctx.stroke();
+    const tw = ctx.measureText(h.l).width+10; ctx.fillStyle = css('--fg'); ctx.fillRect(h.x-tw/2, h.y+18, tw, 14); ctx.fillStyle = css('--bg'); ctx.fillText(h.l, h.x, h.y+28); }
+  const nObj = ev.filter(e => e.kind==='objection').length;
+  $('g-obj').textContent = nObj; $('g-src').textContent = ev.filter(e => e.role==='SCOUT' && e.kind==='handoff').length + (S.run.counts?.source_links||0);
+  $('g-paths').textContent = graphCache.edges.length; $('g-sub').textContent = `${graphCache.nodes.length+4} nodes · ${graphCache.edges.length} edges`;
+  c.onmousemove = e => {
+    const r = c.getBoundingClientRect(); const mx = e.clientX-r.left, my = e.clientY-r.top;
+    const n = graphCache.nodes.find(n => Math.hypot(n.x-mx,n.y-my) < 7);
+    const tip = $('graph-tip'); if (!n){ tip.style.display='none'; return; }
+    tip.style.display='block'; tip.style.left=(mx+12)+'px'; tip.style.top=(my-10)+'px';
+    tip.innerHTML = `<b>${fmtClock(n.e.m)} ${n.e.role}</b>${esc(n.e.text).slice(0,70)}`;
+  };
+  c.onmouseleave = () => $('graph-tip').style.display='none';
+}
+function mulberry(a){ return () => { a|=0; a=a+0x6D2B79F5|0; let t=Math.imul(a^a>>>15,1|a); t=t+Math.imul(t^t>>>7,61|t)^t; return ((t^t>>>14)>>>0)/4294967296; }; }
+
+function renderReceipts(ev){
+  const counts = ROLES.map(r => ev.filter(e => e.role===r).length); const max = Math.max(1, ...counts);
+  $('receipts').innerHTML = ROLES.map((r,i) => `<div class="bg-${r}" style="height:${Math.max(3, counts[i]/max*56)}px"><span class="num">${counts[i]||''}</span></div>`).join('');
+}
+
+/* crew cards */
+const FACE = {
+  SCOUT: `<ellipse cx="42" cy="48" rx="32" ry="28" fill="C"/><circle cx="30" cy="36" r="9" fill="#fff"/><circle cx="54" cy="36" r="9" fill="#fff"/><circle cx="31" cy="37" r="4" fill="#111"/><circle cx="55" cy="37" r="4" fill="#111"/><path d="M34 58q8 6 16 0" stroke="#111" stroke-width="2" fill="none" stroke-linecap="round"/>`,
+  ANALYST: `<ellipse cx="42" cy="48" rx="32" ry="28" fill="C"/><circle cx="31" cy="44" r="8" fill="#fff" stroke="#111" stroke-width="2"/><circle cx="53" cy="44" r="8" fill="#fff" stroke="#111" stroke-width="2"/><line x1="39" y1="44" x2="45" y2="44" stroke="#111" stroke-width="2"/><circle cx="31" cy="45" r="2.5" fill="#111"/><circle cx="53" cy="45" r="2.5" fill="#111"/><path d="M36 60h12" stroke="#111" stroke-width="2" stroke-linecap="round"/>`,
+  SKEPTIC: `<ellipse cx="42" cy="48" rx="32" ry="28" fill="C"/><rect x="22" y="38" width="18" height="11" rx="3" fill="#111"/><rect x="44" y="38" width="18" height="11" rx="3" fill="#111"/><line x1="40" y1="42" x2="44" y2="42" stroke="#111" stroke-width="2"/><path d="M34 62q8 -5 16 0" stroke="#111" stroke-width="2" fill="none" stroke-linecap="round"/>`,
+  QUANT: `<ellipse cx="42" cy="50" rx="32" ry="26" fill="C"/><path d="M14 36q28 -22 56 -2q-6 -14 -30 -16q-22 2 -26 18z" fill="#2b2b2b"/><circle cx="31" cy="48" r="4" fill="#111"/><circle cx="53" cy="48" r="4" fill="#111"/><circle cx="33" cy="47" r="1.3" fill="#fff"/><circle cx="55" cy="47" r="1.3" fill="#fff"/><path d="M36 62q6 4 12 0" stroke="#111" stroke-width="2" fill="none" stroke-linecap="round"/>`,
+  RISK: `<ellipse cx="42" cy="50" rx="32" ry="26" fill="C"/><path d="M14 40q4 -22 28 -22q24 0 28 22h-12q-2 -12 -16 -12q-14 0 -16 12z" fill="#2b2b2b"/><rect x="10" y="38" width="64" height="6" rx="3" fill="#2b2b2b"/><circle cx="31" cy="52" r="4" fill="#111"/><circle cx="53" cy="52" r="4" fill="#111"/><line x1="36" y1="63" x2="48" y2="63" stroke="#111" stroke-width="2" stroke-linecap="round"/>`,
+  JOURNAL: `<ellipse cx="42" cy="48" rx="32" ry="28" fill="C"/><g transform="translate(62 24)"><circle r="4" cx="0" cy="-6" fill="#fff"/><circle r="4" cx="6" cy="0" fill="#fff"/><circle r="4" cx="0" cy="6" fill="#fff"/><circle r="4" cx="-6" cy="0" fill="#fff"/><circle r="3" fill="#eda100"/></g><path d="M26 42q5 -5 10 0" stroke="#111" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M48 42q5 -5 10 0" stroke="#111" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M32 58q10 8 20 0" stroke="#111" stroke-width="2" fill="none" stroke-linecap="round"/>`
+};
+function buildCrew(){
+  $('crew').innerHTML = ROLES.map((r,i) => `<div class="card c-${r}" id="card-${r}">
+    <span class="idx num">0${i+1}</span><span class="st"></span>
+    <svg viewBox="0 0 84 84" aria-hidden="true">${FACE[r].replace('fill="C"', `fill="var(--${r.toLowerCase()})"`)}</svg>
+    <div class="nm" style="color:var(--fg)">${r}</div><div class="md">${MANDATE[r]}</div>
+    <div class="act" id="act-${r}">${'<i></i>'.repeat(11)}</div></div>`).join('');
+}
+function renderCrew(ev, st){
+  const hours = Math.ceil(S.total/60);
+  for (const r of ROLES){
+    const card = $('card-'+r); const mine = ev.filter(e => e.role===r);
+    card.classList.toggle('active', st.role===r);
+    card.classList.toggle('done', st.role!==r && mine.length>0);
+    const bars = [...$('act-'+r).children];
+    bars.forEach((b,i) => { const n = mine.filter(e => Math.floor(e.m/60)===i).length; b.style.height = (n? Math.min(14, 4+n*3) : 2)+'px'; });
+  }
+}
+
+load();
+</script>
