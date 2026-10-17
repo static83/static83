@@ -27,7 +27,12 @@ class Spider:
     def packet(self, case: int, cand: Candidate, memos: list[Memo], extra: dict) -> dict:
         return {
             "case": case,
-            "account": {"equity_usd": self.ledger.start_balance, "mode": self.broker.mode},
+            "account": {
+                "equity_usd": self.ledger.start_balance,
+                "mode": self.broker.mode,
+                "open_positions": [p.get("symbol") for p in self.broker.open_positions()],
+                "open_orders": [o.get("symbol") for o in self.broker.open_orders()],
+            },
             "filing": cand.model_dump(),
             "market": extra,
             "memos_so_far": [m.model_dump(exclude_none=True) for m in memos],
@@ -113,6 +118,10 @@ class Spider:
                   quant and quant.bad_exit_cost_usd is not None, risk and risk.position_size_usd]
         if not all(needed):
             L.log("SPIDER", "system", case, "RISK approved but numbers are incomplete: no trade")
+            return self.close(case, cand, memos, "rejected", rounds)
+        held = [p.get("symbol") for p in self.broker.open_positions()] + [o.get("symbol") for o in self.broker.open_orders()]
+        if held:
+            L.log("SPIDER", "system", case, f"already holding or waiting on {', '.join(sorted(set(held)))}: one position at a time, no trade")
             return self.close(case, cand, memos, "rejected", rounds)
         size = min(risk.position_size_usd, quant.position_size_usd or risk.position_size_usd)
         qty = shares_for(size, quant.entry_price)

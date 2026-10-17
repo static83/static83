@@ -4,9 +4,13 @@ from __future__ import annotations
 
 from typing import Optional
 
+import json
+
 import requests
 
-from .config import settings
+from .config import RUNS_DIR, settings
+
+BASELINE_FILE = RUNS_DIR / "balance_baseline.json"
 
 
 class PaperOnlyError(RuntimeError):
@@ -48,13 +52,26 @@ class PaperBroker:
         if not settings.balance_cap:
             return real
         if self._baseline is None:
-            self._baseline = real
+            # The baseline is fixed the first night and kept, so profit and loss carry over.
+            if BASELINE_FILE.exists():
+                self._baseline = float(json.loads(BASELINE_FILE.read_text())["real_equity"])
+            else:
+                self._baseline = real
+                BASELINE_FILE.parent.mkdir(exist_ok=True)
+                BASELINE_FILE.write_text(json.dumps({"real_equity": real, "cap": settings.balance_cap}))
         return round(settings.balance_cap + (real - self._baseline), 2)
 
     def open_positions(self) -> list[dict]:
         if self.dry_run:
             return []
         r = self.session.get(f"{self.base}/v2/positions", timeout=20)
+        r.raise_for_status()
+        return r.json()
+
+    def open_orders(self) -> list[dict]:
+        if self.dry_run:
+            return []
+        r = self.session.get(f"{self.base}/v2/orders", params={"status": "open"}, timeout=20)
         r.raise_for_status()
         return r.json()
 
