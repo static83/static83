@@ -22,8 +22,8 @@ _MATERIAL = re.compile(
     r"recall|lawsuit|sues|settle(s|ment)|investigation|probe|subpoena|charges|indict|"
     r"bankruptcy|chapter 11|default|delist(ed|ing)?|going concern|"
     r"(suspends|cuts|initiates|eliminates) .{0,20}dividend|special dividend|buyback|repurchase|"
-    r"(ceo|cfo|chief executive|chief financial).{0,40}(resign|steps? down|depart|ousted|fired|retire|appoint|named)|"
-    r"(resign|steps? down|depart|ousted|fired|retire|appoint|named).{0,40}(ceo|cfo|chief executive|chief financial)|"
+    r"(ceo|cfo|chief executive|chief financial).{0,40}(resign|steps? down|depart|ousted|fired|retire|appoint|names?)|"
+    r"(resign|steps? down|depart|ousted|fired|retire|appoint|names?).{0,40}(ceo|cfo|chief executive|chief financial)|"
     r"cyber(attack| ?security incident)|breach|outage|explosion|fire at)\b",
     re.IGNORECASE,
 )
@@ -41,6 +41,29 @@ _FILLER = re.compile(
     r"\bto present\b|\bwill present\b|\bpresents?\b.{0,40}\bat\b|"
     r"\b(doses|dosed|dosing|enrolls|enrolled|enrollment)\b|first patient|last patient|\bon track\b|"
     r"(stockholders|shareholders)'? (approv|vote)|ipo security released",
+    re.IGNORECASE,
+)
+# FDA permission to start or widen a study: a step on the way, not a result.
+_PROCEDURAL = re.compile(
+    r"\b(ide|ind|investigational (device exemption|new drug))\b.{0,60}(clear|approv|supplement|accept)|"
+    r"(clear|approv|accept)\w*.{0,60}\b(ide|ind|investigational (device exemption|new drug))\b",
+    re.IGNORECASE,
+)
+# How much an event can move a stock, used to pick which cases the crew sees first.
+_TIER3 = re.compile(
+    r"\b(halt(ed)?|acquir(e|es|ed|ing)|acquisition|merger|to (buy|be acquired)|buyout|takeover|tender offer|"
+    r"go(ing)? private|definitive agreement|strategic alternatives|fda approv\w*|approv(al|es|ed) .{0,30}(fda|ema)|"
+    r"complete response|crl|topline|phase (3|iii)|primary endpoint|trial (results|data|met|fail)|"
+    r"(raises|lowers|cuts|withdraws|boosts|slashes) .{0,25}(outlook|forecast|guidance)|preliminary|"
+    r"bankruptcy|chapter 11|going concern|delist(ed|ing)?|special dividend|"
+    r"(ceo|chief executive).{0,40}(resign|steps? down|depart|ousted|fired|retire|appoint|names?)|"
+    r"(resign|steps? down|depart|ousted|fired|retire|appoint|names?).{0,40}(ceo|chief executive))\b",
+    re.IGNORECASE,
+)
+_TIER2 = re.compile(
+    r"\b(contract|award(ed)?|wins?|order|settle(s|ment)|lawsuit|sues|investigation|probe|subpoena|charges|"
+    r"indict|recall|buyback|repurchase|dividend|breach|cyber|outage|explosion|phase (2|ii)|"
+    r"cfo|chief financial|default|spin[- ]?off|strategic review|approv(al|es|ed))\b",
     re.IGNORECASE,
 )
 _TAGS = re.compile(r"<[^>]+>")
@@ -61,9 +84,20 @@ def classify(item: dict) -> Optional[str]:
         return "round-up of several companies"
     if _FILLER.search(head):
         return "commentary, not an event"
+    if _PROCEDURAL.search(head):
+        return "procedural FDA step (IDE/IND), not a result"
     if not _MATERIAL.search(head):
         return "no material event in the headline"
     return None
+
+
+def weight(text: str) -> int:
+    """3 = can reprice the company (deal, trial readout, guidance change, CEO), 2 = notable, 1 = minor."""
+    if _TIER3.search(text):
+        return 3
+    if _TIER2.search(text):
+        return 2
+    return 1
 
 
 def fetch_news(data, since: datetime, until: Optional[datetime] = None, max_pages: int = 30) -> list[dict]:

@@ -21,17 +21,21 @@ from crew.spider import Spider
 
 
 def gather(edgar, data, args):
-    """SEC filings first, then material news, merged newest first, one case per company."""
+    """SEC filings and material news, heaviest events first (newest breaks ties), one case per company."""
     from crew.learning import recently_judged_tickers, seen_filings
     from crew.scout import find_candidates, find_news_candidates
 
-    skip = seen_filings()
-    filings = find_candidates(edgar, data.last_price, data.daily_bars, limit=args.candidates * 3,
-                              since_hours=args.since_hours, skip=skip)
+    skip, recent = seen_filings(), recently_judged_tickers()
+    filings = find_candidates(edgar, data.last_price, data.daily_bars, limit=args.candidates * 5,
+                              since_hours=args.since_hours, skip=skip, recent_tickers=recent)
     news = [] if args.no_news else find_news_candidates(
-        edgar, data, args.since_hours, skip=skip, recent_tickers=recently_judged_tickers())
+        edgar, data, args.since_hours, skip=skip, recent_tickers=recent)
+
+    def when(c):  # EDGAR stamps are New York time, Benzinga's are UTC: compare instants, not strings
+        return datetime.fromisoformat(c.filed_at.replace("Z", "+00:00"))
+
     picked, tickers = [], set()
-    for c in sorted(filings + news, key=lambda c: c.filed_at, reverse=True):
+    for c in sorted(filings + news, key=lambda c: (c.weight, when(c)), reverse=True):
         if c.ticker in tickers:
             continue  # a filing and a news item about the same company: one case
         tickers.add(c.ticker)

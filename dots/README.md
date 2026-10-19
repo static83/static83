@@ -76,7 +76,15 @@ source with an official timestamp, so "pull the original source" is literal. Fil
    already acted on it. Quiet news that drew no reaction still goes to the crew.
 11. Not already judged on an earlier night. A second filing from the same company the same night is
    folded into that company's case.
-12. At most `DOTS_MAX_CANDIDATES` handoffs a night (default 3). Depth, not volume.
+12. At most `DOTS_MAX_CANDIDATES` handoffs a night (default 3). Depth, not volume. The heaviest
+   events go first, and the newest breaks ties:
+   - weight 3: results (2.02), bankruptcy, delisting, restated accounts, or an "other events"
+     filing that announces a deal, a trial readout, a guidance change or a new CEO
+   - weight 2: material agreements, completed deals, impairments, officer changes, contracts,
+     lawsuits, buybacks
+   - weight 1: everything else.
+
+   A company the crew judged in the last three days is skipped, whichever source it came from.
 
 SCOUT the model then quotes the sentences that matter and flags whether a press release beat the
 filing, which is SKEPTIC's "late" objection raised early.
@@ -90,13 +98,15 @@ only if:
 
 1. Its headline names a material event (a deal, FDA or trial result, guidance change, halt,
    lawsuit, bankruptcy, top-officer change, buyback...) and is not commentary, a price-target note,
-   a conference-presentation notice, a dosing milestone or a round-up of several companies.
+   a conference-presentation notice, a dosing milestone, an FDA go-ahead to start or widen a study
+   (IDE/IND) or a round-up of several companies.
 2. It tags one or two companies, and the company it is about (the one named first in the
    headline) is an SEC registrant with a price at Alpaca, a recent share count, a market cap
    above the floor and enough daily trading.
 3. No regular session has closed since it was published, and the stock has not visibly reacted.
 4. The crew has not judged that company in the last three days, and no SEC filing about it is
-   already a case tonight. Filings and news are merged newest first, one case per company.
+   already a case tonight. Filings and news are ranked together by the same weights, one case
+   per company.
 
 SCOUT treats the story as a pointer: it quotes the primary source (the company's release, the
 regulator's notice) and flags unconfirmed reports as unconfirmed. `--no-news` turns the feed off.

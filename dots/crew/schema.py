@@ -24,6 +24,7 @@ class Candidate(BaseModel):
     market_cap_usd: Optional[float] = None
     last_price: Optional[float] = None
     also_accessions: list[str] = Field(default_factory=list)  # other filings folded into this case
+    weight: int = 1  # how material the event is, 1-3; the night takes the heaviest cases first
 
 
 class Memo(BaseModel):

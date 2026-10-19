@@ -416,6 +416,23 @@ def excerpt(text: str) -> str:
     return body[:EXCERPT_CHARS]
 
 
+# Items that on their own can reprice a company, and items that usually matter.
+# 2.01 (deal completed) is only notable: the deal was nearly always announced earlier.
+_HEAVY_ITEMS = {"1.03", "2.02", "3.01", "4.02"}
+_NOTABLE_ITEMS = {"1.01", "1.02", "2.01", "2.05", "2.06", "4.01", "5.01", "5.02"}
+
+
+def filing_weight(items: list[str], body: str) -> int:
+    """1-3, like news.weight. 'Other events' filings are weighed by what their text announces."""
+    from .news import weight
+
+    w = 3 if _HEAVY_ITEMS & set(items) else 2 if _NOTABLE_ITEMS & set(items) else 1
+    if w < 3 and {"7.01", "8.01"} & set(items):
+        said = re.split(r"\bitem\s+9\.01|\bsignatures?\b", body, maxsplit=1, flags=re.IGNORECASE)[0]
+        w = max(w, weight(said[:800]))  # stop before the exhibit list and the signer's title
+    return w
+
+
 def find_candidates(
     edgar: Edgar,
     price_of,
@@ -424,6 +441,7 @@ def find_candidates(
     since_hours: float = 18,
     log=print,
     skip: set[str] | None = None,
+    recent_tickers: Iterable[str] = (),
 ) -> list[Candidate]:
     """Apply the SCOUT filters in order and hand back at most `limit` candidates.
 
@@ -459,6 +477,9 @@ def find_candidates(
             continue
         if skip and (entry["accession"] in skip or f"{ticker}|{entry['filed_at']}" in skip):
             log(f"  skip {ticker}: already judged on an earlier night")
+            continue
+        if ticker in recent_tickers:
+            log(f"  skip {ticker}: the crew judged this company in the last 3 days")
             continue
         url, text = edgar.primary_document(entry["index_url"])
         items = items_in(text)
@@ -505,6 +526,7 @@ def find_candidates(
                 source_excerpt=excerpt(text),
                 market_cap_usd=cap,
                 last_price=price,
+                weight=filing_weight(items, excerpt(text)),
             )
         )
         log(f"  pulled {ticker}: items {', '.join(items)}")
@@ -524,7 +546,7 @@ def find_news_candidates(
     """Material single-company news no regular session has traded yet, through the same checks
     as filings: a price at Alpaca, a recent share count, the market-cap floor, and no visible
     reaction already."""
-    from .news import classify, clean_text, fetch_news, first_public_session
+    from .news import classify, clean_text, fetch_news, first_public_session, weight
 
     now = now or datetime.now(timezone.utc)
     by_ticker = {v["ticker"]: (cik, v) for cik, v in edgar.tickers().items()}
@@ -594,7 +616,7 @@ def find_news_candidates(
         out.append(Candidate(
             ticker=ticker, company=info.get("title", ticker), cik=cik, accession=f"news:{item['id']}",
             items=["news"], filed_at=item["created_at"], url=item.get("url") or "",
-            source_excerpt=excerpt_text, market_cap_usd=cap, last_price=price,
+            source_excerpt=excerpt_text, market_cap_usd=cap, last_price=price, weight=weight(head),
         ))
         log(f"  news pulled {ticker}: {head[:90]}")
     if stale:
