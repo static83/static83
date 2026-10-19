@@ -220,6 +220,20 @@ def _filed_date(filed_at: str) -> str:
         return filed_at[:10]
 
 
+def _first_open_after(when: str) -> str:
+    """Date of the first 9:30 New York open after `when`: where the crew's entry would have filled.
+
+    A morning decision (before 9:30) enters that day; a night decision enters the next day.
+    Weekends roll forward because bars only exist on trading days.
+    """
+    from datetime import timedelta
+
+    t = datetime.fromisoformat(when.replace("Z", "+00:00")).astimezone(NY)
+    open_today = t.replace(hour=9, minute=30, second=0, microsecond=0)
+    day = t.date() if t < open_today else t.date() + timedelta(days=1)
+    return day.isoformat()
+
+
 def update_outcomes(data) -> int:
     """Fill in forward returns for every case as the days pass. Returns how many records changed."""
     book = _load(CASEBOOK)
@@ -228,7 +242,8 @@ def update_outcomes(data) -> int:
         if all(str(h) in rec.get("returns", {}) for h in HORIZONS) and rec.get("first_exit"):
             continue
         filed = _filed_date(rec["filed_at"])
-        bars = [b for b in bars_since(data, rec["ticker"], filed) if b["t"][:10] > filed]
+        entry_day = _first_open_after(rec.get("decided_at") or rec["filed_at"])
+        bars = [b for b in bars_since(data, rec["ticker"], filed) if b["t"][:10] >= entry_day]
         if not bars:
             continue
         base = float(bars[0]["o"])  # the first open after the filing: where an entry would have filled
