@@ -20,12 +20,32 @@ from crew.market import AlpacaData
 from crew.spider import Spider
 
 
+def gather(edgar, data, args):
+    """SEC filings first, then material news, merged newest first, one case per company."""
+    from crew.learning import recently_judged_tickers, seen_filings
+    from crew.scout import find_candidates, find_news_candidates
+
+    skip = seen_filings()
+    filings = find_candidates(edgar, data.last_price, data.daily_bars, limit=args.candidates * 3,
+                              since_hours=args.since_hours, skip=skip)
+    news = [] if args.no_news else find_news_candidates(
+        edgar, data, args.since_hours, skip=skip, recent_tickers=recently_judged_tickers())
+    picked, tickers = [], set()
+    for c in sorted(filings + news, key=lambda c: c.filed_at, reverse=True):
+        if c.ticker in tickers:
+            continue  # a filing and a news item about the same company: one case
+        tickers.add(c.ticker)
+        picked.append(c)
+    return picked[: args.candidates]
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--offline", action="store_true", help="scripted memos, no API calls")
     ap.add_argument("--dry-run", action="store_true", help="never send paper orders")
     ap.add_argument("--candidates", type=int, default=settings.max_candidates)
     ap.add_argument("--since-hours", type=float, default=18, help="how far back SCOUT looks")
+    ap.add_argument("--no-news", action="store_true", help="SEC filings only, skip the Benzinga news feed")
     ap.add_argument("--manual", metavar="DIR", help="no Anthropic key: memos are read from DIR/inbox")
     args = ap.parse_args()
 
@@ -54,8 +74,7 @@ def main() -> int:
             print("SCOUT scanning EDGAR 8-K feed...")
             from crew.learning import seen_filings
 
-            candidates = find_candidates(Edgar(), data.last_price, data.daily_bars, limit=args.candidates,
-                                         since_hours=args.since_hours, skip=seen_filings())
+            candidates = gather(Edgar(), data, args)
             save_candidates(root, candidates)
         if not candidates:
             print("SCOUT found nothing worth the crew's night. No trade.")
@@ -78,8 +97,7 @@ def main() -> int:
         print("SCOUT scanning EDGAR 8-K feed...")
         from crew.learning import seen_filings
 
-        candidates = find_candidates(Edgar(), data.last_price, data.daily_bars, limit=args.candidates,
-                                     since_hours=args.since_hours, skip=seen_filings())
+        candidates = gather(Edgar(), data, args)
         if not candidates:
             print("SCOUT found nothing worth the crew's night. No trade.")
             ledger.log("SCOUT", "system", 0, "no candidates passed the filters")

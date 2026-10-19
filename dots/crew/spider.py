@@ -67,7 +67,8 @@ class Spider:
     def run_case(self, case: int, cand: Candidate) -> CaseResult:
         L = self.ledger
         L.counts["source_links"] += 1
-        L.log("SPIDER", "system", case, f"case {case:02d} opened: {cand.ticker} 8-K items {', '.join(cand.items)}")
+        source = "news" if cand.items == ["news"] else f"8-K items {', '.join(cand.items)}"
+        L.log("SPIDER", "system", case, f"case {case:02d} opened: {cand.ticker} {source}")
         market = self.market_context(cand)
         memos: list[Memo] = []
 

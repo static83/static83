@@ -487,3 +487,89 @@ def find_candidates(
         )
         log(f"  pulled {ticker}: items {', '.join(items)}")
     return picked
+
+
+# ---- second source: Benzinga news through Alpaca ------------------------------------------
+def find_news_candidates(
+    edgar: Edgar,
+    data,
+    since_hours: float,
+    log=print,
+    skip: set[str] | None = None,
+    recent_tickers: set[str] | None = None,
+    now: Optional[datetime] = None,
+) -> list[Candidate]:
+    """Material single-company news no regular session has traded yet, through the same checks
+    as filings: a price at Alpaca, a recent share count, the market-cap floor, and no visible
+    reaction already."""
+    from .news import classify, clean_text, fetch_news, first_public_session
+
+    now = now or datetime.now(timezone.utc)
+    by_ticker = {v["ticker"]: (cik, v) for cik, v in edgar.tickers().items()}
+    out: list[Candidate] = []
+    seen_tickers: set[str] = set()
+    stale = 0
+
+    def subject(item: dict) -> Optional[str]:
+        """The company the headline is about: of the tagged symbols, the one named first in it."""
+        tagged = [t for t in item["symbols"] if t in by_ticker]
+        head = item["headline"].lower()
+        best, best_pos = None, len(head) + 1
+        for t in tagged:
+            name = re.sub(r"[^a-z0-9 ]", " ", by_ticker[t][1].get("title", "").lower()).split()
+            spots = [m.start() for m in re.finditer(rf"\b{re.escape(t.lower())}\b", head)]
+            if name and name[0] in head:
+                spots.append(head.index(name[0]))
+            if spots and min(spots) < best_pos:
+                best, best_pos = t, min(spots)
+        return best or (tagged[0] if tagged else None)
+
+    for item in fetch_news(data, now - timedelta(hours=since_hours), now):
+        if classify(item):
+            continue
+        ticker = subject(item)
+        if ticker is None:
+            continue  # not a US-listed SEC registrant, nothing to paper trade
+        if ticker in seen_tickers:
+            continue  # newest material item per company only
+        seen_tickers.add(ticker)
+        head = item["headline"]
+        created = datetime.fromisoformat(item["created_at"].replace("Z", "+00:00"))
+        if skip and f"news:{item['id']}" in skip:
+            log(f"  news skip {ticker}: already judged on an earlier run")
+            continue
+        if recent_tickers and ticker in recent_tickers:
+            log(f"  news skip {ticker}: the crew judged this company in the last 3 days")
+            continue
+        if _sessions_closed(created, now) >= 1:
+            stale += 1  # already traded by a full session; counted, not logged one by one
+            continue
+        price = data.last_price(ticker)
+        if not price:
+            log(f"  news skip {ticker}: no price at Alpaca")
+            continue
+        cik, info = by_ticker[ticker]
+        shares = edgar.shares_outstanding(cik)
+        if not shares:
+            log(f"  news skip {ticker}: no share count on file at the SEC")
+            continue
+        cap = price * shares
+        if cap < settings.min_market_cap:
+            log(f"  news skip {ticker}: market cap {cap/1e6:,.0f}M below floor")
+            continue
+        traded = already_traded(data.daily_bars(ticker, 40), first_public_session(created), now)
+        if traded:
+            log(f"  news skip {ticker}: {traded}")
+            continue
+        body = clean_text(item.get("content")) or clean_text(item.get("summary"))
+        excerpt_text = (f"[Benzinga news, {item['created_at']}, by {item.get('author') or 'staff'}] {head}\n"
+                        f"{clean_text(item.get('summary'))}\n{body}")[:EXCERPT_CHARS]
+        out.append(Candidate(
+            ticker=ticker, company=info.get("title", ticker), cik=cik, accession=f"news:{item['id']}",
+            items=["news"], filed_at=item["created_at"], url=item.get("url") or "",
+            source_excerpt=excerpt_text, market_cap_usd=cap, last_price=price,
+        ))
+        log(f"  news pulled {ticker}: {head[:90]}")
+    if stale:
+        log(f"  news skip {stale} material item(s) a full session has already traded")
+    return out

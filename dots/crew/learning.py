@@ -133,6 +133,14 @@ def seen_filings() -> set[str]:
     return out
 
 
+def recently_judged_tickers(days: int = 3) -> set[str]:
+    """Companies the crew has judged in the last few days; their news is usually the same story."""
+    from datetime import timedelta
+
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+    return {r["ticker"] for r in _load(CASEBOOK).values() if r.get("decided_at", "") >= cutoff}
+
+
 # ---- rule 8: the time limit ---------------------------------------------------------------
 def _pnl(side: str, qty: int, entry: float, exit_: float) -> float:
     sign = 1 if side == "buy" else -1

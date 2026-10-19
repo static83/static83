@@ -78,6 +78,26 @@ source with an official timestamp, so "pull the original source" is literal. Fil
 SCOUT the model then quotes the sentences that matter and flags whether a press release beat the
 filing, which is SKEPTIC's "late" objection raised early.
 
+## Second source: Benzinga news
+
+Plenty of news never comes with an 8-K: FDA decisions, contract wins, trading halts, guidance
+updates in a press release. SCOUT also reads Benzinga's feed through Alpaca's market-data API
+(`/v1beta1/news`, included with the Alpaca keys). Most of it is filler, so an item becomes a case
+only if:
+
+1. Its headline names a material event (a deal, FDA or trial result, guidance change, halt,
+   lawsuit, bankruptcy, top-officer change, buyback...) and is not commentary, a price-target note,
+   a conference-presentation notice, a dosing milestone or a round-up of several companies.
+2. It tags one or two companies, and the company it is about (the one named first in the
+   headline) is an SEC registrant with a price at Alpaca, a recent share count and a market cap
+   above the floor.
+3. No regular session has closed since it was published, and the stock has not visibly reacted.
+4. The crew has not judged that company in the last three days, and no SEC filing about it is
+   already a case tonight. Filings and news are merged newest first, one case per company.
+
+SCOUT treats the story as a pointer: it quotes the primary source (the company's release, the
+regulator's notice) and flags unconfirmed reports as unconfirmed. `--no-news` turns the feed off.
+
 ## The handoff rules
 
 See [`crew/roles/spider.md`](crew/roles/spider.md). In short: one case at a time, everyone sees
