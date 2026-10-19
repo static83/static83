@@ -9,7 +9,7 @@ from typing import Callable, Optional
 from . import learning
 from .config import ROLE_ORDER, settings
 from .ledger import Ledger
-from .market import AlpacaData, cost_model, gap_stats, shares_for
+from .market import AlpacaData, cost_model, extended_move, gap_stats, shares_for
 from .schema import Candidate, CaseResult, Memo
 
 Asker = Callable[[str, dict], Memo]
@@ -58,6 +58,7 @@ class Spider:
         bars = self.data.daily_bars(cand.ticker)
         return {
             "quote": quote,
+            "extended_hours": extended_move(self.data, cand.ticker),
             "gap_stats_30d": gap_stats(bars),
             "cost_model_for_full_account": cost_model(quote, self.ledger.start_balance),
             "note": "quote is None when Alpaca keys are not configured; say so instead of guessing",

@@ -24,11 +24,20 @@ python run_night.py                # live EDGAR + Claude, paper orders if Alpaca
 Each run writes `runs/<stamp>.json` (the ledger), `runs/<stamp>-memos.json` (every memo in full)
 and `dashboard/runs/latest.json` (what the dashboard replays).
 
-To run it nightly at 22:00 local time:
+Two runs a weekday, New York time:
+
+- **08:45, before the open**: news filed since last night. Each case carries the stock's pre-market
+  move, so the crew can see what is already being priced; any order waits for the 9:30 open.
+- **22:15, after the close**: the day's after-close news, with the after-hours move.
+
+Orders are never placed outside regular hours: Alpaca only takes plain limit orders there, with no
+stop-loss or target attached. With cron:
 
 ```
-0 22 * * 1-5  cd /path/to/dots && .venv/bin/python run_night.py >> runs/cron.log 2>&1
+45 8  * * 1-5  cd /path/to/dots && .venv/bin/python run_night.py --since-hours 12 >> runs/cron.log 2>&1
+15 22 * * 1-5  cd /path/to/dots && .venv/bin/python run_night.py --since-hours 24 >> runs/cron.log 2>&1
 ```
+(cron uses the machine's clock; set `CRON_TZ=America/New_York` where supported.)
 
 ## What SCOUT watches, and why
 

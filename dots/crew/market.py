@@ -56,6 +56,55 @@ class AlpacaData:
         return ((data or {}).get("bars") or [])[-limit:]
 
 
+def extended_move(data: "AlpacaData", symbol: str, now=None) -> Optional[dict]:
+    """The stock's move outside regular hours, for whichever extended session the run sits in.
+
+    Before 9:30 New York time: pre-market from 4:00 against the last regular close.
+    After 4:00pm: after-hours up to 8:00pm against today's regular close.
+    Uses the free IEX feed, which is thin outside regular hours; treat small volumes with care.
+    """
+    from datetime import datetime, timedelta, timezone
+    from zoneinfo import ZoneInfo
+
+    ny = ZoneInfo("America/New_York")
+    now = (now or datetime.now(timezone.utc)).astimezone(ny)
+    if now.weekday() >= 5:
+        return None
+    day = now.date()
+    at = lambda h, m=0: datetime(day.year, day.month, day.day, h, m, tzinfo=ny)
+    daily = data.daily_bars(symbol, 10)
+    if now < at(9, 30):
+        session, start, end = "pre-market", at(4), now
+        prior = [b for b in daily if b["t"][:10] < day.isoformat()]
+    elif now >= at(16):
+        session, start, end = "after-hours", at(16), min(now, at(20))
+        prior = [b for b in daily if b["t"][:10] <= day.isoformat()]
+    else:
+        return None
+    if not prior:
+        return None
+    ref = float(prior[-1]["c"])
+    got = data._get(f"/v2/stocks/{symbol}/bars", timeframe="5Min", start=start.isoformat(), end=end.isoformat(),
+                    limit=1000, feed="iex")
+    bars = (got or {}).get("bars") or []
+    if not bars:
+        return {"session": session, "reference_close": ref, "trades_seen": False,
+                "note": "no extended-hours trades on the IEX feed yet"}
+    last = float(bars[-1]["c"])
+    return {
+        "session": session,
+        "reference_close": ref,
+        "last": last,
+        "move_pct": round(100 * (last / ref - 1), 2),
+        "high": max(float(b["h"]) for b in bars),
+        "low": min(float(b["l"]) for b in bars),
+        "volume": int(sum(float(b["v"]) for b in bars)),
+        "as_of": bars[-1]["t"],
+        "trades_seen": True,
+        "note": "IEX feed only; extended-hours volume is thin, so a small print can move the last price",
+    }
+
+
 def bars_since(data: "AlpacaData", symbol: str, start_date: str, limit: int = 60) -> list[dict]:
     """Daily bars from start_date onward (IEX feed), oldest first."""
     got = data._get(f"/v2/stocks/{symbol}/bars", timeframe="1Day", start=start_date, limit=limit, feed="iex")
