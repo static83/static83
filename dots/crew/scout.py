@@ -328,6 +328,23 @@ def first_exposed_session(body: str, filed_at: str) -> date:
     return filed.date() if filed.hour < 16 else filed.date() + timedelta(days=1)
 
 
+# Alpaca's free feed is IEX only, a few percent of all US volume, so the bar is set low:
+# $25k a day on IEX is very roughly $1M a day across all exchanges: plenty for a $5,000 position.
+MIN_IEX_DOLLAR_VOLUME = 25_000
+
+
+def too_thin(bars: list[dict]) -> Optional[str]:
+    """Why a stock trades too little for the crew to get in and out sensibly, or None."""
+    recent = bars[-20:]
+    if len(recent) < 10:
+        return "fewer than 10 sessions of price history"
+    dollars = sorted(float(b["v"]) * float(b["c"]) for b in recent)
+    median = dollars[len(dollars) // 2]
+    if median < MIN_IEX_DOLLAR_VOLUME:
+        return f"too thinly traded: about ${median:,.0f} a day on the IEX feed"
+    return None
+
+
 def already_traded(bars: list[dict], first_day: date, now: Optional[datetime] = None, look: int = 3) -> Optional[str]:
     """Why the market has visibly traded on this news already, or None."""
     now = (now or datetime.now(timezone.utc)).astimezone(NY)
@@ -464,7 +481,12 @@ def find_candidates(
             continue
         cap = price * shares
         if cap >= settings.min_market_cap and bars_of is not None:
-            traded = already_traded(bars_of(ticker, 40), first_exposed_session(body, entry["filed_at"]))
+            bars = bars_of(ticker, 40)
+            thin = too_thin(bars)
+            if thin:
+                log(f"  skip {ticker}: {thin}")
+                continue
+            traded = already_traded(bars, first_exposed_session(body, entry["filed_at"]))
             if traded:
                 log(f"  skip {ticker}: {traded}")
                 continue
@@ -557,7 +579,12 @@ def find_news_candidates(
         if cap < settings.min_market_cap:
             log(f"  news skip {ticker}: market cap {cap/1e6:,.0f}M below floor")
             continue
-        traded = already_traded(data.daily_bars(ticker, 40), first_public_session(created), now)
+        bars = data.daily_bars(ticker, 40)
+        thin = too_thin(bars)
+        if thin:
+            log(f"  news skip {ticker}: {thin}")
+            continue
+        traded = already_traded(bars, first_public_session(created), now)
         if traded:
             log(f"  news skip {ticker}: {traded}")
             continue
