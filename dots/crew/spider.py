@@ -4,12 +4,13 @@ It is deliberately plain code. Every rule in spider.md maps to a few lines here,
 """
 from __future__ import annotations
 
+from datetime import datetime
 from typing import Callable, Optional
 
 from . import learning
 from .config import ROLE_ORDER, settings
 from .ledger import Ledger
-from .market import AlpacaData, cost_model, extended_move, gap_stats, shares_for
+from .market import AlpacaData, cost_model, extended_move, gap_stats, move_since, shares_for
 from .schema import Candidate, CaseResult, Memo
 
 Asker = Callable[[str, dict], Memo]
@@ -59,6 +60,8 @@ class Spider:
         return {
             "quote": quote,
             "extended_hours": extended_move(self.data, cand.ticker),
+            "since_news": move_since(self.data, cand.ticker,
+                                     datetime.fromisoformat(cand.filed_at.replace("Z", "+00:00"))),
             "gap_stats_30d": gap_stats(bars),
             "cost_model_for_full_account": cost_model(quote, self.ledger.start_balance),
             "note": "quote is None when Alpaca keys are not configured; say so instead of guessing",

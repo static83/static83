@@ -445,6 +445,24 @@ def filing_weight(items: list[str], body: str) -> int:
     return w
 
 
+# During the session a stock that has moved this much since its news has already reacted.
+INTRADAY_MOVE_PCT = 3.0
+
+
+def _open_of(filed: datetime) -> datetime:
+    """A filing's attached release usually went out before the filing: measure from that day's open,
+    which move_since reads as 'from the previous close'."""
+    t = filed.astimezone(NY)
+    return min(filed, datetime(t.year, t.month, t.day, 9, 29, tzinfo=NY))
+
+
+def traded_since(move: Optional[dict]) -> Optional[str]:
+    """Why intraday news is already priced: the stock moved INTRADAY_MOVE_PCT or more since it went out."""
+    if move and abs(move["move_pct"]) >= INTRADAY_MOVE_PCT:
+        return f"already traded since the news: {move['move_pct']:+.1f}% from {move['reference']:.2f} on the IEX feed"
+    return None
+
+
 def find_candidates(
     edgar: Edgar,
     price_of,
@@ -455,6 +473,7 @@ def find_candidates(
     skip: set[str] | None = None,
     recent_tickers: Iterable[str] = (),
     news: Optional[dict[str, list[dict]]] = None,
+    move_of=None,
 ) -> list[Candidate]:
     """Apply the SCOUT filters in order and hand back at most `limit` candidates.
 
@@ -521,7 +540,8 @@ def find_candidates(
             if thin:
                 log(f"  skip {ticker}: {thin}")
                 continue
-            traded = already_traded(bars, first_exposed_session(body, entry["filed_at"]))
+            traded = (already_traded(bars, first_exposed_session(body, entry["filed_at"]))
+                      or (move_of and traded_since(move_of(ticker, _open_of(filed)))))
             if traded:
                 log(f"  skip {ticker}: {traded}")
                 continue
@@ -619,6 +639,7 @@ def find_news_candidates(
     """Material single-company news no regular session has traded yet, through the same checks
     as filings: a price at Alpaca, a recent share count, the market-cap floor, and no visible
     reaction already. A company with several headlines gets one case, on its heaviest fresh one."""
+    from .market import move_since
     from .news import clean_text, fetch_news, first_public_session, weight
 
     now = now or datetime.now(timezone.utc)
@@ -636,7 +657,10 @@ def find_news_candidates(
         if not fresh:
             log(f"  news skip {ticker}: already judged on an earlier run")
             continue
-        live = [i for i in fresh if _sessions_closed(_created(i), now) < 1]
+        window = [i for i in fresh if _created(i) >= now - timedelta(hours=since_hours)]
+        if not window:
+            continue  # older news, fetched only to spot filings that repeat it
+        live = [i for i in window if _sessions_closed(_created(i), now) < 1]
         if not live:
             stale += 1  # already traded by a full session; counted, not logged one by one
             continue
@@ -661,7 +685,8 @@ def find_news_candidates(
         heaviest = max(weight(i["headline"], cap, price) for i in live)
         item = next(i for i in live if weight(i["headline"], cap, price) == heaviest)  # newest of the heaviest
         created = _created(item)
-        traded = already_traded(bars, first_public_session(created), now)
+        traded = (already_traded(bars, first_public_session(created), now)
+                  or traded_since(move_since(data, ticker, created, now)))
         if traded:
             log(f"  news skip {ticker}: {traded}")
             continue

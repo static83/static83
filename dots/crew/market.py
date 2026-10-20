@@ -105,6 +105,63 @@ def extended_move(data: "AlpacaData", symbol: str, now=None) -> Optional[dict]:
     }
 
 
+def in_regular_session(now=None) -> bool:
+    """True between 9:30 and 4:00pm New York time on a weekday (holidays aside)."""
+    from datetime import datetime, time, timezone
+    from zoneinfo import ZoneInfo
+
+    t = (now or datetime.now(timezone.utc)).astimezone(ZoneInfo("America/New_York"))
+    return t.weekday() < 5 and time(9, 30) <= t.time() < time(16)
+
+
+def move_since(data: "AlpacaData", symbol: str, since, now=None) -> Optional[dict]:
+    """How far the stock has moved since `since` (a news or filing time), while the market is open.
+
+    News from before today's open is measured from the previous regular close, so the pre-market
+    reaction counts. News during the session is measured from the last 5-minute bar before it.
+    None outside regular hours, or for news older than the previous close.
+    """
+    from datetime import datetime, timedelta, timezone
+    from zoneinfo import ZoneInfo
+
+    ny = ZoneInfo("America/New_York")
+    now = now or datetime.now(timezone.utc)
+    if not in_regular_session(now) or since >= now:
+        return None
+    day = now.astimezone(ny).date()
+    open_ = datetime(day.year, day.month, day.day, 9, 30, tzinfo=ny)
+    if since < open_:
+        prior = [b for b in data.daily_bars(symbol, 10) if b["t"][:10] < day.isoformat()]
+        if not prior:
+            return None
+        ref, start, basis = float(prior[-1]["c"]), open_, "previous close"
+    else:
+        start, ref, basis = since, None, "last bar before the news"
+    got = data._get(f"/v2/stocks/{symbol}/bars", timeframe="5Min", start=(start - timedelta(minutes=30)).isoformat(),
+                    end=now.isoformat(), limit=1000, feed="iex")
+    bars = (got or {}).get("bars") or []
+    stamp = lambda b: datetime.fromisoformat(b["t"].replace("Z", "+00:00"))
+    after = [b for b in bars if stamp(b) + timedelta(minutes=5) > start]
+    if not after:
+        return None
+    if ref is None:
+        before = [b for b in bars if stamp(b) + timedelta(minutes=5) <= start]
+        ref = float(before[-1]["c"]) if before else float(after[0]["o"])
+    last = float(after[-1]["c"])
+    return {
+        "since": since.isoformat(),
+        "reference": ref,
+        "reference_is": basis,
+        "last": last,
+        "move_pct": round(100 * (last / ref - 1), 2),
+        "high": max(float(b["h"]) for b in after),
+        "low": min(float(b["l"]) for b in after),
+        "volume": int(sum(float(b["v"]) for b in after)),
+        "as_of": after[-1]["t"],
+        "note": "IEX feed only: the move since the news went out, during today's session",
+    }
+
+
 def bars_since(data: "AlpacaData", symbol: str, start_date: str, limit: int = 60) -> list[dict]:
     """Daily bars from start_date onward (IEX feed), oldest first."""
     got = data._get(f"/v2/stocks/{symbol}/bars", timeframe="1Day", start=start_date, limit=limit, feed="iex")

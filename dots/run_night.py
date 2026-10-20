@@ -23,6 +23,7 @@ from crew.spider import Spider
 def gather(edgar, data, args):
     """SEC filings and material news, heaviest events first (newest breaks ties), one case per company."""
     from crew.learning import recently_judged_tickers, seen_filings
+    from crew.market import move_since
     from crew.news import fetch_news
     from crew.scout import find_candidates, find_news_candidates, material_news
 
@@ -33,7 +34,8 @@ def gather(edgar, data, args):
     groups = {} if args.no_news else material_news(
         edgar, fetch_news(data, now - timedelta(hours=args.since_hours + 12), now))
     filings = find_candidates(edgar, data.last_price, data.daily_bars, limit=args.candidates * 5,
-                              since_hours=args.since_hours, skip=skip, recent_tickers=recent, news=groups)
+                              since_hours=args.since_hours, skip=skip, recent_tickers=recent, news=groups,
+                              move_of=lambda t, since: move_since(data, t, since, now))
     news = [] if args.no_news else find_news_candidates(
         edgar, data, args.since_hours, skip=skip, recent_tickers=recent, now=now, groups=groups)
 
