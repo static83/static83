@@ -122,6 +122,20 @@ def record_trade(case_key: str, order: dict, memos: list[Memo]) -> None:
     _save(TRADES, trades)
 
 
+def record_test_trade(order: dict, horizon_days: int) -> None:
+    """A plumbing check placed by test_order.py: settled like any trade, kept out of the crew's record."""
+    record_trade("test-order-path", order, [])
+    trades = _load(TRADES)
+    if order.get("id") in trades:
+        trades[order["id"]].update(test=True, horizon_days=horizon_days)
+        _save(TRADES, trades)
+
+
+def test_symbols() -> set[str]:
+    """Symbols held or ordered only by an unfinished test trade; the one-position rule ignores them."""
+    return {t["symbol"] for t in _load(TRADES).values() if t.get("test") and t["status"] in ("pending", "open", "closing")}
+
+
 def seen_filings() -> set[str]:
     """Accession numbers and ticker|filed_at pairs the crew has already judged."""
     out: set[str] = set()
@@ -284,7 +298,8 @@ def _caveat(n: int) -> str:
 
 def scorecard() -> dict:
     book = list(_load(CASEBOOK).values())
-    trades = list(_load(TRADES).values())
+    every = list(_load(TRADES).values())
+    trades = [t for t in every if not t.get("test")]
     lines: list[str] = []
 
     for role, label in (("SCOUT", "SCOUT skipped"), ("SKEPTIC", "SKEPTIC killed"), ("QUANT", "QUANT rejected"),
@@ -315,6 +330,10 @@ def scorecard() -> dict:
     open_ = [t for t in trades if t["status"] in ("pending", "open", "closing")]
     if open_:
         lines.append("Still open: " + ", ".join(f"{t['symbol']} ({t['status']})" for t in open_) + ".")
+
+    for t in (t for t in every if t.get("test")):
+        lines.append(f"Test order (plumbing check, not a crew call): {t['side']} {t['qty']} {t['symbol']}, {t['status']}"
+                     + (f", {t['exit_reason']} exit, P&L {t['pnl']:+.2f}" if t["status"] == "closed" else "") + ".")
 
     calib = [r for r in book if r.get("p_strike") is not None and r.get("first_exit") in ("stop", "target", "time")]
     if calib:

@@ -132,6 +132,7 @@ class Spider:
             L.log("SPIDER", "system", case, "RISK approved but numbers are incomplete: no trade")
             return self.close(case, cand, memos, "rejected", rounds)
         held = [p.get("symbol") for p in self.broker.open_positions()] + [o.get("symbol") for o in self.broker.open_orders()]
+        held = [s for s in held if s not in learning.test_symbols()]  # a plumbing test never blocks a real case
         if held:
             L.log("SPIDER", "system", case, f"already holding or waiting on {', '.join(sorted(set(held)))}: one position at a time, no trade")
             return self.close(case, cand, memos, "rejected", rounds)

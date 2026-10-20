@@ -149,6 +149,18 @@ Open `dashboard/index.html` through any static server (`python -m http.server -d
 press REPLAY. With no `runs/latest.json` present it replays a built-in sample night, labelled as
 fictional. After a real run, it replays that run's ledger instead.
 
+## Checking the order path, and keeping the memory
+
+`python test_order.py` sends one small paper bracket order (1 share of F by default, stop and
+target 3% away, closed after one trading day). It is recorded in `runs/trades.json` marked as a
+test: the runs settle it like any trade, but it stays out of the crew's scorecard and never
+blocks a real case under the one-position rule.
+
+`runs/` is git-ignored because it is the crew's working memory, not code. `./backup_memory.sh
+<checkout> <branch>` copies it to `dots-memory/` in another checkout and pushes it, after checking
+that no Alpaca key from `.env` appears in it. To restore after a reset, copy `dots-memory/` back
+into `runs/`.
+
 ## Model
 
 `DOTS_MODEL` defaults to `claude-opus-5-5`. Each role is a single structured-output call with the
