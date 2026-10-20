@@ -1,0 +1,17 @@
+{
+ "role": "ANALYST",
+ "verdict": "agree",
+ "headline": "Short EOSE: a 15% pop on a release that trims the full year again",
+ "reasoning": [
+  "The headline is revenue growth; the substance is the second guidance trim in three months, to the lower half of $300-350M",
+  "Gross margin is still about minus 54%; the company loses money on every unit it ships, and cash fell $20M even with $87M of new DOE loan money",
+  "A 15% pre-market jump on 3,600 shares is a headline reaction, not considered buying",
+  "What the market must believe at 2.09: that the revenue ramp outweighs the trim and the burn",
+  "Direction short, horizon 5 trading days; wrong if the regular-session open confirms the move on heavy volume"
+ ],
+ "objections": [
+  "SCOUT: the full-year outlook moved to the lower half of an already-cut range"
+ ],
+ "direction": "short",
+ "horizon_days": 5
+}

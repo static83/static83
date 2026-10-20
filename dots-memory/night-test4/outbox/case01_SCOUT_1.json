@@ -1,0 +1,143 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 5000.0,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "COST",
+      "company": "COSTCO WHOLESALE CORP /NEW",
+      "cik": "909832",
+      "accession": "0000909832-26-000100",
+      "items": [
+        "5.02"
+      ],
+      "filed_at": "2026-10-16T16:52:57-04:00",
+      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000100/cost-20261013.htm",
+      "source_excerpt": "Item 5.02. Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. On October 13, 2026, the Compensation Committee of the Board of Directors approved the fiscal 2027 criteria for bonuses to executive officers, with the Nominating and Governance Committee of the Board also approving the environmental and social performance criteria. Executive officers other than the Chief Executive Officer are eligible to receive base bonuses of $400,000. The base amounts include $160,000 based on targets relating to sales and $160,000 based on targets relating to pre-tax income. The potential payment attributable to each goal may be from zero to up to 120% of the target amount, based on the level of achievement. In addition, up to $80,000 can be earned relating to environmental and social objectives based on quantitative performance metrics (including those concerning human capital and environmental-related areas). For fiscal 2027, the Chief Executive Officer is eligible to receive a base bonus of $1.2 million. The base amount includes $500,000 based on targets relating to sales and $500,000 based on targets relating to pre-tax income. The potential payment attributable to each goal may be from zero to up to 120% of the target amount, based on the level of achievement. In addition, $200,000 can be earned relating to environmental and social metrics (as discussed above). A copy of the Fiscal 2027 Executive Bonus Plan is attached as Exhibit 10.1. Item 9.01. Financial Statements and Exhibits. (d) Exhibits. 10.1. Fiscal 2027 Executive Bonus Plan. 104 Cover Page Interactive Data File (embedded within the Inline XBRL document). SIGNATURE Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned, hereunto duly authorized. COSTCO WHOLESALE CORPORATION Dated: October 16, 2026 By: /s/ John Sullivan John Sullivan Executive Vice President, General Counsel and Secretary",
+      "market_cap_usd": 435514171137.435,
+      "last_price": 982.815
+    },
+    "market": {
+      "quote": {
+        "ap": 1034.25,
+        "as": 40,
+        "ax": "V",
+        "bp": 931.38,
+        "bs": 40,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-16T20:00:00.001775137Z",
+        "z": "C"
+      },
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.47,
+        "max_gap_pct": 1.6
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 261.6718,
+        "slippage_usd": 2.5,
+        "spread_pct": 10.467
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 8 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "WSBF",
+          "night": "20261017-1154",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "IONQ",
+          "night": "20261017-1154",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "S",
+          "night": "20261017-1154",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ARI",
+          "night": "20261017-1143",
+          "ended_by": "QUANT",
+          "direction": "long",
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "TWI",
+          "night": "20261017-1143",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ENVA",
+          "night": "20261017-1143",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "LFST",
+          "night": "20261017-1143",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CIFR",
+          "night": "20261017-1112",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 10
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

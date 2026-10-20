@@ -1,0 +1,14 @@
+{
+ "role": "SCOUT",
+ "verdict": "object",
+ "headline": "Skip: Erasca cuts its COO role; stock already fell 10% on Friday",
+ "reasoning": [
+  "Quote: 'the employment of Nicholas (Nik) Chetwyn, Ph.D., the Company's Chief Operating Officer, will terminate effective November 2, 2026'",
+  "Quote: responsibilities move to others 'to streamline the Company's reporting structure'",
+  "Filed before Friday's open (09:00). Friday: 14.875 to 13.395 (-10%) on about 1.7x normal volume, just under the already-traded threshold",
+  "Whatever this means for the company, the market has had a full session on it; nothing here is unread"
+ ],
+ "objections": [
+  "SCOUT: late; public before Friday's open and traded down 10% on the day"
+ ]
+}

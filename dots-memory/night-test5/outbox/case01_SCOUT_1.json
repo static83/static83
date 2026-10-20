@@ -1,0 +1,145 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 5000.0,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "NB",
+      "company": "NIOCORP DEVELOPMENTS LTD",
+      "cik": "1512228",
+      "accession": "0001539497-26-002705",
+      "items": [
+        "1.01",
+        "2.02",
+        "7.01"
+      ],
+      "filed_at": "2026-10-16T17:15:39-04:00",
+      "url": "https://www.sec.gov/Archives/edgar/data/1512228/000153949726002705/n2574_x323-8k.htm",
+      "source_excerpt": "Item 2.02. Results of Operations and Financial Condition. On October 16, 2026, NioCorp Developments Ltd. (the \u201cCompany\u201d) announced a Company update relating to certain preliminary financial results for the three-month period ended September 30, 2026. This announcement was contained in a press release, a copy of which is attached as Exhibit 99.1 hereto. Such exhibit and the information set forth therein shall not be deemed to be filed for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the \u201cExchange Act\u201d), or otherwise be subject to the liabilities of that section, nor shall it be deemed to be incorporated by reference in any filing under the Securities Act of 1933, as amended, or the Exchange Act. Item 7.01. Regulation FD Disclosure. The information set forth in Item 2.02 of this Current Report on Form 8-K is incorporated herein by reference. Item 9.01 . Financial Statements and Exhibits. (d) Exhibits . Exhibit Description 99.1 Press Release, dated October 16, 2026 104 Cover Page Interactive Data File (embedded within the Inline XBRL document) SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. Dated: October 16, 2026 NIOCORP DEVELOPMENTS LTD. By: /s/ Neal S. Shah Name: Neal S. Shah Title: Chief Financial Officer\n\n[Second filing the same night, 2026-10-16T17:00:37-04:00, https://www.sec.gov/Archives/edgar/data/1512228/000153949726002703/n2574_x324-8k.htm]\nItem 1.01 Entry into a Material Definitive Agreement. On October 13, 2026, Elk Creek Resources Corp. (\u201c ECRC \u201d), a majority-owned subsidiary of NioCorp Developments Ltd. (the \u201c Company \u201d), entered into an Offtake Agreement (the \u201c Offtake Agreement \u201d) with Traxys North America LLC (\u201c Traxys \u201d) covering ferroniobium and certain other products expected to be produced at the Company\u2019s Elk Creek Critical Minerals Project in southeast Nebraska (the \u201c Elk Creek Project \u201d), including scandium, titanium and rare earth products. The Offtake Agreement supersedes and replaces the prior ferroniobium and scandium offtake agreements between the Company and Traxys, including the ferroniobium offtake agreement originally entered into on June 13, 2016, as amended and as assigned to Traxys (the \u201c Prior Ferroniobium Offtake Agreement \u201d). Pursuant to the terms of the Offtake Agreement, and subject to certain exclusions, Traxys will purchase, on a take-or-pay basis, 50% of the Elk Creek Project's annual ferroniobium production or, at Traxys\u2019 election, 3,700 metric tonnes of ferroniobium per year, and will have a right of first refusal on certain additional ferroniobium production. In addition, Traxys will have the exclusive right, but not the obligation, to market and sell 100% of the Elk Creek Project\u2019s products other than ferroniobium, including scandium oxide, scandium metal and scandium-aluminum master alloy, titanium tetrachloride, neodymium-praseodymium oxide, dysprosium oxide, terbium oxide, samarium-europium-gadolinium carbonate, and heavy rare earth carbonate, and derivatives thereof (collectively, the \u201c Other Products \u201d and, collectively with ferroniobium, the \u201c Products \u201d). Ferroniobium will be priced by reference to a published monthly market price for ferroniobium, less a discount that increases at five-year intervals over the term. The Other Products will be priced by reference to published market prices, or, for Other Products without a published price assessment, the gross price invoiced by Traxys to third-party purchasers in bona fide arm\u2019s length sales, in each case, less a marketing commission payable to Traxys and less certain of Traxys' actual logistics, marketing and financing costs. Traxys will also have the exclusive right to sell the Products worldwide, except that, for ferroniobium, the European Union is excluded while the Company\u2019s existing ferroniobium offtake agreement with Thyssen Krupp Metallurgical Products GmbH remains in effect, subject to certain exceptions and exclusions. The Offtake Agreement has a term of 15 years measured from the first day of the month during which the output of the Products over the three prior calendar months equals or exceeds 80% of the planned production of the Products at the Elk Creek Project on an annualized basis (the \u201c Commercial Production Date \u201d). Thereafter, the Offtake Agreement is subject to two automatic one-year renewals, unless either party provides notice of non-renewal pursuant to the terms of",
+      "market_cap_usd": 479845282.7,
+      "last_price": 3.29
+    },
+    "market": {
+      "quote": {
+        "ap": 3.88,
+        "as": 100,
+        "ax": "V",
+        "bp": 2.7,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-16T20:00:01.167032798Z",
+        "z": "C"
+      },
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 1.56,
+        "max_gap_pct": 7.15
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 896.6565,
+        "slippage_usd": 2.5,
+        "spread_pct": 35.866
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 11 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "POST",
+          "night": "20261017-1201",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ETN",
+          "night": "20261017-1201",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "COST",
+          "night": "20261017-1201",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "WSBF",
+          "night": "20261017-1154",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "IONQ",
+          "night": "20261017-1154",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "S",
+          "night": "20261017-1154",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ARI",
+          "night": "20261017-1143",
+          "ended_by": "QUANT",
+          "direction": "long",
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "TWI",
+          "night": "20261017-1143",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 13
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

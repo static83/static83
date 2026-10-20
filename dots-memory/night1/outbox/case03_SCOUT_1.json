@@ -1,0 +1,58 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 3,
+    "account": {
+      "equity_usd": 37.0,
+      "mode": "alpaca-paper"
+    },
+    "filing": {
+      "ticker": "CIFR",
+      "company": "Cipher Digital Inc.",
+      "cik": "1819989",
+      "accession": "0001193125-26-424297",
+      "items": [
+        "1.01",
+        "7.01"
+      ],
+      "filed_at": "2026-10-16T17:26:24-04:00",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819989/000119312526424297/d313847d8k.htm",
+      "source_excerpt": "Item 1.01. Entry into a Material Definitive Agreement. Indenture and Notes On October 16, 2026, Cipher Digital Inc. (the \u201cCompany\u201d) issued $850.0 million aggregate principal amount of its 0.00% Convertible Senior Notes due 2032 (the \u201cNotes\u201d). The Notes were issued pursuant to, and are governed by, an indenture (the \u201cIndenture\u201d), dated as of October 16, 2026, between the Company and U.S. Bank Trust Company, National Association, as trustee (the \u201cTrustee\u201d). Pursuant to the purchase agreement between the Company and the representatives of the initial purchasers of the Notes, the Company granted the initial purchasers a 13-day option to purchase up to an additional $150,000,000 aggregate principal amount of Notes. The Notes will be the Company\u2019s senior, unsecured obligations and will be (i) equal in right of payment with the Company\u2019s existing and future senior, unsecured indebtedness, including the Company\u2019s existing $6.6 million principal amount of 1.75% Convertible Senior Notes due 2030 (the \u201c2030 Notes\u201d) that will remain outstanding following the Concurrent 2030 Notes Exchange (as defined below) and $1.3 billion principal amount of 0.00% Convertible Senior Notes due 2031; (ii) senior in right of payment to the Company\u2019s existing and future indebtedness that is expressly subordinated to the Notes; (iii) effectively subordinated to the Company\u2019s existing and future secured indebtedness, including the Company\u2019s $200.0 million senior secured revolving credit facility (the \u201cRevolving Credit Facility\u201d), to the extent of the value of the collateral securing that indebtedness; and (iv) structurally subordinated to all existing and future indebtedness and other liabilities, including trade payables, and (to the extent the Company is not a holder thereof) preferred equity, if any, of the Company\u2019s subsidiaries, including the subsidiary senior secured notes and the subsidiary guarantees of the Revolving Credit Facility. The Notes will not bear regular interest, and the principal amount of the Notes will not accrete. The Notes will mature on November 1, 2032, unless earlier repurchased, redeemed or converted. Prior to August 1, 2032, the Notes will be convertible only upon satisfaction of certain conditions and during certain period, and thereafter, the Notes will be convertible at any time until the close of business on the second scheduled trading day immediately preceding the maturity date. The Company will settle conversions by paying or delivering, as applicable, cash, shares of its common stock, or a combination of cash and shares of its common stock, at the Company\u2019s election. The initial conversion rate is 65.3211 shares of the Company\u2019s common stock per $1,000 principal amount of Notes, which represents an initial conversion price of approximately $15.31 per share of the Company\u2019s common stock. The conversion rate and conversion price will be subject to customary adjustments upon the occurrence of certain events. In addition, if certain corporate events that constitute a \u201cMake-Whole Fundamental Change\u201d (as defined in the Indenture) occur, then the conversion rate will, in certain circumstances, be increased for a specified period of time. Except pursuant to a cleanup redemption (as described below), the Notes will be redeemable, in whole or in part (subject to certain limitations described below), for cash at the Company\u2019s option at any time, and from time to time, on or after November 5, 2029 and on or before the 30th scheduled trading day immediately before the maturity date, but only if (i) the last reported sale price per share of the Company\u2019s common stock exceeds 130% of the conversion price on (1) each of at least 20 trading days, whether or not consecutive, during the 30 consecutive trading days ending on, and including, the trading day immediately before the date the Company sends the related redemption notice and (2) the trading day immediately before the date the Company sends such redemption notice, and (ii) certain \u201cliquidity conditions\u201d (as defined in the Indenture) having been satisfied. However, the Company may not redeem less than all of the outstanding Notes unless at least $100.0 million aggregate principal amount of Notes are outstanding and not called for redemption as of the time the Company sends the related redemption notice. In addition, the Company may redeem all, but not less than all, of the Notes at any time if the aggregate principal amount of Notes then outstanding is less than 10% of the aggregate original principal amount of Notes and certain other conditions set forth in the Indenture are satisfied (a \u201ccleanup redemption\u201d). The redemption price will be a cash amount equal to the principal amount of the Notes to be redeemed, plus accrued and unpaid special interest and additional interest, if any, to, but excluding, the redemption date. In addition, calling any Note for redemption (including a cleanup redemption) will constitute a Make-Whole Fundamental Change with respect to that Note, in which case the conversion rate applicable to the conversion of that Note will be increased in certain circumstances if it is converted after it is called for redemption. If certain corporate events that constitute a \u201cFundamental Change\u201d (as defined in the Indenture) occur, then, subject to a limited exception for certain cash mergers, noteholders may require the Company to repurchase their Notes at a cash repurchase price equal to the principal amount of the Notes to be repurchased, plus accrued and unpaid special interest and additional interest, if any, to, but excluding, the \u201cFundamental Change Repurchase Date\u201d (as defined in the Indenture). The definition of Fundamental Change includes certain business combination transactions involving the Company, certain de-listing events with respect to the Company\u2019s common stock and the approval of a liquidation or dissolution plan by the Company\u2019s stockholders. Unless prior to November 1, 2030 the Company has issued a notice of r",
+      "market_cap_usd": 3693773425.8,
+      "last_price": 8.9
+    },
+    "market": {
+      "quote": {
+        "ap": 0,
+        "as": 0,
+        "ax": " ",
+        "bp": 8.9,
+        "bs": 600,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-16T20:00:01.457834232Z",
+        "z": "C"
+      },
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 3.16,
+        "max_gap_pct": 13.73
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 0.0,
+        "slippage_usd": 0.0185,
+        "spread_pct": 0.0
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05
+    }
+  }
+}

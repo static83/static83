@@ -1,0 +1,12 @@
+{
+ "role": "JOURNAL",
+ "verdict": "agree",
+ "headline": "Case 01 OCUL: no trade. Strategy officer leaves for a CEO job elsewhere.",
+ "reasoning": [
+  "SCOUT skipped it at the door",
+  "Process note: the people filter lets this through by design when a CEO title appears; harmless, costs one slot"
+ ],
+ "objections": [
+  "SCOUT: routine officer departure (case ended)"
+ ]
+}

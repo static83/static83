@@ -1,0 +1,235 @@
+[
+  {
+    "case": 1,
+    "ticker": "MAZE",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: Maze swaps an investor's 2.8M shares for warrants",
+        "reasoning": [
+          "Quote: 'Maze exchanged an aggregate of 2,776,007 shares ... held by the Exchanging Stockholder for pre-funded warrants'",
+          "Quote: warrants cannot be exercised if the holder 'would beneficially own more than 9.99%'",
+          "Ownership housekeeping for a large holder; exercise price $0.001, so economically the same shares. Nothing changed for the business"
+        ],
+        "objections": [
+          "SCOUT: ownership housekeeping"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 01 MAZE: no trade. Share-for-warrant swap.",
+        "reasoning": [
+          "SCOUT skipped it at the door",
+          "Check: none needed"
+        ],
+        "objections": [
+          "SCOUT: ownership housekeeping (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "CPRT",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "Copart: founder-CEO takes $1 salary and 20M options struck $26-$53",
+        "reasoning": [
+          "Quote: 'approved the grant to A. Jayson Adair, the Company's Chief Executive Officer, of a nonstatutory stock option to purchase 20,000,000 shares'",
+          "Quote: tranches at '$26.27 ... $35.03 ... $43.78 ... and $52.54 per share'; 'a salary of $1 each year' and no bonus or other equity for 10 years",
+          "Quote: 'subject to approval by the Company's stockholders'; vests on the 5th anniversary",
+          "New: filed Friday 16:02 after the close; first public account found is this filing. Not yet traded",
+          "Context: Adair returned as CEO July 31, 2026; he took a $1-salary option package once before, in 2009",
+          "Tape: 26.27 on Oct 14 (the grant-date strike), 27.75 on Oct 15 (+5.6%, 2.1x volume), 27.89 on Oct 16"
+        ],
+        "objections": [
+          "SCOUT: Thursday's +5.6% on 2.1x volume came before this filing; cause unknown"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "agree",
+        "headline": "Long CPRT: the founder bets ten years of pay on a double",
+        "reasoning": [
+          "All of the CEO's pay for a decade now depends on the stock: three of four tranches are struck 33-100% above the grant price",
+          "The 2009 version of this deal preceded years of strong returns; it reads as conviction, not a payday",
+          "What the market must believe: this is a routine pay item. It is not routine for a $26B company",
+          "Dilution is about 2% of shares and only realized if the stock rises a lot",
+          "Direction long, horizon 10 trading days",
+          "Wrong if: the proxy advisers oppose it and the vote becomes a fight, or the market reads it as governance risk"
+        ],
+        "objections": [
+          "SCOUT: Thursday's +5.6% on 2.1x volume came before this filing; cause unknown"
+        ],
+        "send_back_to": null,
+        "direction": "long",
+        "horizon_days": 10,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "SKEPTIC",
+        "verdict": "object",
+        "headline": "Mega-grants usually draw governance fire. Direction is a coin flip.",
+        "reasoning": [
+          "ANALYST reads conviction. Proxy advisers and many holders read a 20M-share grant to a founder as overpay and entrenchment; recent mega-grants have drawn votes against and lawsuits",
+          "The first tranche is struck at $26.27, the Oct 14 close, after a slide. Setting the strike the day the stock was low is not conviction, it is a good price",
+          "The vote is not done; a contested vote is a headline risk before any upside",
+          "Thursday's +5.6% on twice normal volume before the filing is unexplained; ANALYST cannot say the news is fully fresh",
+          "Without a reliable sign on direction there is nothing for QUANT to size",
+          "Track record: 22 past cases, none with 5 days of history. No evidence that my kills are too strict yet"
+        ],
+        "objections": [
+          "SCOUT: Thursday's +5.6% on 2.1x volume came before this filing; cause unknown",
+          "SKEPTIC 1: market reaction to founder mega-grants is not reliably positive",
+          "SKEPTIC 2: first strike set at a local low",
+          "SKEPTIC 3: shareholder vote still to come"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": 0.4
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 02 CPRT: no trade. Fresh news, but no reliable direction.",
+        "reasoning": [
+          "SCOUT: founder-CEO's 10-year, $1-salary, 20M-option package, first public Friday after the close",
+          "ANALYST: long on founder conviction, 2009 precedent",
+          "SKEPTIC: mega-grants often read as governance negative; direction unclear; objected",
+          "Check: CPRT Monday open and 5-day move; any proxy adviser statement; the vote date",
+          "Learning note: a clean test of whether SKEPTIC is right about pay-package news. The 5-day result will score it"
+        ],
+        "objections": [
+          "SCOUT: Thursday's +5.6% on 2.1x volume came before this filing; cause unknown",
+          "SKEPTIC 1: direction unreliable (case ended)",
+          "SKEPTIC 2: strike at local low",
+          "SKEPTIC 3: vote pending"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "TEX",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: Terex sets the date of its earnings call",
+        "reasoning": [
+          "Quote: 'announcing that it will host a conference call to review its third quarter 2026 financial results on Wednesday, October 28'",
+          "A calendar notice issued Oct 14; no results, no numbers"
+        ],
+        "objections": [
+          "SCOUT: no information, only a call date"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 03 TEX: no trade. A conference-call notice.",
+        "reasoning": [
+          "SCOUT skipped it at the door",
+          "Process note: second call-date notice in two nights (Carlyle was the first); a filter could catch these"
+        ],
+        "objections": [
+          "SCOUT: no information (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

@@ -1,0 +1,295 @@
+[
+  {
+    "case": 1,
+    "ticker": "NB",
+    "outcome": "no_trade",
+    "rounds": 2,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "NioCorp: $405M cash vs ~$456M market value; all output now contracted",
+        "reasoning": [
+          "Original source (Oct 16 release): 'As of September 30, 2026, the Company had a cash balance of $405.1 million'; preliminary net income $3.7M for the quarter",
+          "Second filing, same night: 15-year take-or-pay offtake with Traxys for 50% of ferroniobium, plus exclusive marketing of all other products",
+          "The Traxys deal was announced Oct 13 (Yahoo/company release, stock +1.8% that day); it is not new",
+          "What is new Friday: the cash balance. At 3.12 the stock is about 1.13x its cash",
+          "Quote (offtake): either party may terminate 'if, by December 31, 2027, the Export-Import Bank ... has not provided final approval of senior debt financing'",
+          "Tape: 3.35 on Oct 13, 3.12 on Oct 16; 30-day mean gap 1.6%"
+        ],
+        "objections": [
+          "SCOUT: the Traxys offtake was public on Oct 13; only the cash figure is new"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "agree",
+        "headline": "Long NB: the project is priced at ~$50M above cash with sales fully contracted",
+        "reasoning": [
+          "Market value ~$456M less $405M cash leaves ~$50M for Elk Creek, a project with 100% of planned output under 10-15 year contracts",
+          "The Traxys take-or-pay is the piece lenders want; it strengthens the pending EXIM financing case",
+          "What the market must believe: the project is likely never financed or built",
+          "Catalyst: an EXIM final approval or term sheet; the offtake sets a Dec 31, 2027 deadline for it",
+          "Direction long, horizon 15 trading days",
+          "Wrong if: financing slips again, or the cash is spent without a funding package"
+        ],
+        "objections": [
+          "SCOUT: the Traxys offtake was public on Oct 13; only the cash figure is new"
+        ],
+        "send_back_to": null,
+        "direction": "long",
+        "horizon_days": 15,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "SKEPTIC",
+        "verdict": "send_back",
+        "headline": "That cash isn't spare. It's the down payment on a $1.85B build. Size the gap.",
+        "reasoning": [
+          "The company's own presentation puts upfront capex at $1.85 billion. $405M covers about 22% of it",
+          "So the market is not valuing the project at $50M; it is valuing it after a ~$1.45B funding gap that someone has to fill",
+          "If any of that gap is equity at today's price, holders are diluted before the project is worth anything",
+          "The $3.7M quarterly 'net income' at a pre-revenue miner is almost certainly non-cash; it says nothing about the business",
+          "ANALYST: how much of the gap is debt, how much equity, and on what timeline? Without that the 'trades near cash' line is misleading"
+        ],
+        "objections": [
+          "SCOUT: the Traxys offtake was public on Oct 13; only the cash figure is new",
+          "SKEPTIC 1: cash is committed to a $1.85B capex plan; ~$1.45B gap unfunded",
+          "SKEPTIC 2: equity funding at current prices would dilute holders",
+          "SKEPTIC 3: quarterly net income is likely non-cash"
+        ],
+        "send_back_to": "ANALYST",
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": 0.55
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "agree",
+        "headline": "Gap is ~$1.45B; split unknown. Thesis now rests only on EXIM approval.",
+        "reasoning": [
+          "Conceded: $1.85B capex less $405M cash is about $1.45B still to raise",
+          "The packet does not contain the expected debt/equity split or an EXIM decision date; I cannot size dilution",
+          "If EXIM funds most of the gap as debt, equity holders keep the project and the stock re-rates; if not, dilution comes first",
+          "That makes this a binary bet on a financing decision with no date. It is no longer a 'near cash' value case",
+          "Keeping it long only because the offtake materially improves the odds of approval"
+        ],
+        "objections": [
+          "SCOUT: the Traxys offtake was public on Oct 13; only the cash figure is new",
+          "SKEPTIC 1: ~$1.45B funding gap (accepted)",
+          "SKEPTIC 2: dilution risk (open; split unknown)",
+          "SKEPTIC 3: net income likely non-cash (accepted)"
+        ],
+        "send_back_to": null,
+        "direction": "long",
+        "horizon_days": 15,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "SKEPTIC",
+        "verdict": "object",
+        "headline": "A dateless financing bet isn't an edge. No trade.",
+        "reasoning": [
+          "ANALYST has conceded the value case; what is left is 'EXIM might approve', with no date inside a 15-day window",
+          "The offtake that improves the odds was public on Oct 13 and the stock fell 7% since; the market has had it for four sessions",
+          "Dilution risk is open and unsized",
+          "Track record: 13 past cases, none with 5 days of history yet. No evidence that my kills are too strict"
+        ],
+        "objections": [
+          "SCOUT: the Traxys offtake was public on Oct 13; only the cash figure is new",
+          "SKEPTIC 1: ~$1.45B funding gap (accepted)",
+          "SKEPTIC 2: dilution risk (open)",
+          "SKEPTIC 3: net income likely non-cash (accepted)",
+          "SKEPTIC 4: no catalyst inside the holding window"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": 0.7
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 01 NB: no trade. 'Trades near cash' fell apart against $1.85B capex.",
+        "reasoning": [
+          "SCOUT folded two filings: $405M cash (new) and the Traxys offtake (public since Oct 13)",
+          "ANALYST: long on ~$50M implied project value",
+          "SKEPTIC sent it back: the cash is a down payment on $1.85B of capex",
+          "ANALYST conceded the value case; only a dateless EXIM approval bet remained",
+          "SKEPTIC objected: no catalyst in the window",
+          "Check: any EXIM announcement; NB versus 3.12 after 5 and 20 days"
+        ],
+        "objections": [
+          "SCOUT: the Traxys offtake was public on Oct 13; only the cash figure is new",
+          "SKEPTIC 1: funding gap (accepted)",
+          "SKEPTIC 2: dilution (open)",
+          "SKEPTIC 3: non-cash income (accepted)",
+          "SKEPTIC 4: no catalyst in window (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "WAFD",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: WaFd's earnings came out Thursday; this is the paper copy",
+        "reasoning": [
+          "Quote: 'On October 15, 2026, the Company announced by press release its earnings for the quarter and fiscal year ended September 30, 2026'",
+          "The 8-K was filed on Oct 16 at 16:34; the market traded the results for the whole Friday session (29.44 to 29.15)",
+          "Nothing in this filing is new beyond the attached release"
+        ],
+        "objections": [
+          "SCOUT: late. Results were public a full session before this filing"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 02 WAFD: no trade. Earnings traded a full session first.",
+        "reasoning": [
+          "SCOUT skipped it as late",
+          "Process note: an earnings 8-K filed the day after the release is always late; a future filter could catch it"
+        ],
+        "objections": [
+          "SCOUT: late (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "GLP",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: Global Partners pushes its credit line out to 2031, same limits",
+        "reasoning": [
+          "Quote: '(i) extend the maturity date of the credit facility from March 20, 2028 to October 16, 2031, (ii) maintain each of the $1.0 billion Aggregate WC Commitment ... and the $500 million Aggregate Revolver Commitment'",
+          "Quote: 'All other material terms of the Credit Agreement remain the same'",
+          "A routine extension with no change in size or terms; nothing changed for the business"
+        ],
+        "objections": [
+          "SCOUT: routine refinancing"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 03 GLP: no trade. Routine credit line extension.",
+        "reasoning": [
+          "SCOUT skipped it at the door",
+          "Check: none needed"
+        ],
+        "objections": [
+          "SCOUT: routine refinancing (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

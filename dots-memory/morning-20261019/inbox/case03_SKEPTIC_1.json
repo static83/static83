@@ -1,0 +1,20 @@
+{
+ "role": "SKEPTIC",
+ "verdict": "object",
+ "headline": "Fading a squeeze-prone stock at the open, blind to consensus. No.",
+ "reasoning": [
+  "ANALYST calls the pop a misread, but we do not know what Q3 revenue the market expected. If consensus was near $75M, $82-83M is a clean beat and the trim may already be priced",
+  "'Lower half of $300-350M' still means $300M or more; whether that is a cut versus expectations depends on consensus we do not have",
+  "EOSE has a history of heavy short interest and violent squeezes; shorting it into an opening pop is where shorts get run over",
+  "The 15% is on 3,600 IEX shares. The real price discovery happens at 9:30, after this crew has to commit; QUANT would be setting an entry on a guess",
+  "Track record: 31 cases, none with 5 days of history. Nothing tells us fades like this work for this crew",
+  "Recommend no trade"
+ ],
+ "objections": [
+  "SCOUT: the full-year outlook moved to the lower half of an already-cut range",
+  "SKEPTIC 1: no consensus figure, so 'beat' or 'miss' is unknown",
+  "SKEPTIC 2: squeeze risk shorting a heavily shorted stock into strength",
+  "SKEPTIC 3: entry would be set on thin pre-market prints before the open"
+ ],
+ "priced_in_score": 0.5
+}

@@ -1,0 +1,12 @@
+{
+ "role": "JOURNAL",
+ "verdict": "agree",
+ "headline": "Case 01 LLY: no trade. Conference data, immaterial at this size.",
+ "reasoning": [
+  "SCOUT skipped it",
+  "Process note: big-company conference slates are a recurring news-feed false positive"
+ ],
+ "objections": [
+  "SCOUT: immaterial (case ended)"
+ ]
+}

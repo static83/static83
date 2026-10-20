@@ -1,0 +1,18 @@
+{
+ "role": "ANALYST",
+ "verdict": "agree",
+ "headline": "Long CPRT: the founder bets ten years of pay on a double",
+ "reasoning": [
+  "All of the CEO's pay for a decade now depends on the stock: three of four tranches are struck 33-100% above the grant price",
+  "The 2009 version of this deal preceded years of strong returns; it reads as conviction, not a payday",
+  "What the market must believe: this is a routine pay item. It is not routine for a $26B company",
+  "Dilution is about 2% of shares and only realized if the stock rises a lot",
+  "Direction long, horizon 10 trading days",
+  "Wrong if: the proxy advisers oppose it and the vote becomes a fight, or the market reads it as governance risk"
+ ],
+ "objections": [
+  "SCOUT: Thursday's +5.6% on 2.1x volume came before this filing; cause unknown"
+ ],
+ "direction": "long",
+ "horizon_days": 10
+}

@@ -1,0 +1,14 @@
+{
+ "role": "SCOUT",
+ "verdict": "object",
+ "headline": "Skip: IonQ's $2B share-and-warrant sale was priced Wednesday",
+ "reasoning": [
+  "Quote: 'On October 14, 2026, IonQ, Inc. ... entered into an underwriting agreement ... 20,500,000 shares ... 29,500,000 pre-funded warrants ... 100,000,000 warrants'",
+  "Quote: 'combined price to the public of $40.00', Series C warrants exercisable at $69.46",
+  "The underwriting agreement is dated Oct 14; the offering was public before Friday",
+  "Tape already moved: 34.73 on Oct 13, 31.26 on Oct 16"
+ ],
+ "objections": [
+  "SCOUT: late. Priced Oct 14"
+ ]
+}

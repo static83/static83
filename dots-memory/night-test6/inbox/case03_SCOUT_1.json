@@ -1,0 +1,15 @@
+{
+ "role": "SCOUT",
+ "verdict": "object",
+ "headline": "Skip: Fox Factory's cut and CEO exit traded all Friday: -18% open",
+ "reasoning": [
+  "Quote: 'issued a press release announcing preliminary unaudited financial results for the third quarter ... and updating its outlook for fiscal 2026'",
+  "Quote: 'Michael C. Dennison, the Company's Chief Executive Officer (\"CEO\"), is stepping down from his role as CEO'",
+  "Real news, but not new by tonight: pre-market trades at 14.50 at 9am ET, open 15.13 versus 18.49 Thursday (-18%), volume 6x normal",
+  "The stock recovered to 16.055 by the close; the market has had a full session to price both the cut and the CEO change",
+  "The 8-K was filed at 16:06, after that session; the earnings filter passed it only because it also reports the CEO change"
+ ],
+ "objections": [
+  "SCOUT: late. Released before Friday's open and traded the full session"
+ ]
+}

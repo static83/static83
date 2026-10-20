@@ -1,0 +1,79 @@
+SCOUT scanning EDGAR 8-K feed...
+  pulled BMNR: items 7.01
+  pulled TRON: items 7.01
+  skip DWTX: market cap 42M below floor
+  pulled ATKR: items 2.01, 5.02
+  pulled EOSE: items 2.02, 7.01, 8.01
+  skip AASP: no price at Alpaca, so it cannot be paper traded
+  pulled FUL: items 8.01
+  pulled MKSI: items 8.01
+  skip TMS: too thinly traded: about $19,121 a day on the IEX feed
+  pulled TTMI: items 8.01
+  skip DFDV: market cap 117M below floor
+  skip CJMB: market cap 13M below floor
+  pulled EXE: items 5.02, 7.01
+  pulled AVBP: items 7.01
+  news pulled TBN: Tamboran Resources Appoints Todd Abbott CEO
+  news skip BURU: market cap 5M below floor
+  news pulled DRTS: Alpha Tau Medical Receives FDA Approval For Investigational Device Exemption Supplement To
+  news pulled EOSE: Eos Energy Enterprises Reports Preliminary Q3 Revenue Of $82M To $83M, Representing ~19% T
+  news skip YMAT: market cap 32M below floor
+  news skip ZONE: market cap 48M below floor
+  news pulled TTMI: TTM Technologies Agrees To Acquire Ophir Optics Operations From MKS For ~$650M In Cash
+  news pulled NNE: Radnostix And NANO Nuclear Seek NRC Approval For Nuclear Fuel-Cycle Asset Transfer Of Lice
+  news skip ENLV: market cap 49M below floor
+  news skip CJMB: market cap 13M below floor
+  news skip DAIO: market cap 27M below floor
+  news pulled SLN: Trading Halt: Halt status updated at 8:15:00 AM ET: Quotation Resumption: News and Resumpt
+  news pulled EXE: Expand Energy Appoints Daniel E. Brown President, CEO, Effective Oct. 26
+  news pulled JNJ: Johnson & Johnson Announces 1-Yr Results From Phase 3 FUZION Study Showing TREMFYA Maintai
+  news skip BIVI: market cap 9M below floor
+  news pulled FUL: H.B. Fuller Board Unanimously Rejects Ancora’s Second Unsolicited, Non-Binding Proposal To
+  news pulled MAT: Mattel Appoints Peter Griffith CFO, Effective Oct. 20, Succeeding Paul Ruh
+  news skip NYXH: market cap 49M below floor
+  news pulled SGP: SpyGlass Pharma Announces Trial Results From Bimatoprost Drug Pad-IOL System In Participan
+  news skip MFIN: market cap 257M below floor
+  news skip CLNN: market cap 40M below floor
+  news pulled URGN: FDA Accepts UroGen Pharma's New Drug Application For UGN-103
+  news skip BDMD: market cap 24M below floor
+  news pulled CHRD: Chord Energy Reports Preliminary Q3 Total Production 290.5K–290.9K Boe/d
+  news skip EYPT: market cap 258M below floor
+  news skip GLAS: market cap 261M below floor
+  news pulled CRMD: CorMedix Therapeutics Says FDA Accepts sNDA Filing Seeking Approval Of REZZAYO For Prophyl
+  news pulled LEU: Centrus Energy Acquires Westerman Holdings For ~$116M, Funded Through Combination Of ~$95M
+  news skip REKR: market cap 46M below floor
+  news pulled IRON: Trading Halt: Halt status updated at 7:15:00 AM ET: Quotation Resumption: News and Resumpt
+  news pulled CGEM: Taiho Oncology and Cullinan Therapeutics Say Data From Cohort C Of Phase 2 REZILIENT2 Tria
+  news pulled MANE: Veradermics' VDPHL01 Meets All Primary And Secondary Endpoints In Phase 3 Study, Demonstra
+  news skip ATYR: market cap 17M below floor
+  news skip INEO: market cap 9M below floor
+  news pulled UTHR: The FDA Clears United Therapeutics' Investigational New Drug Application To Proceed With S
+  news pulled EQPT: EquipmentShare.com Raises FY2026 Sales Guidance from $5.254B-$5.682B to $5.808B-$6.045B vs
+  news pulled SMMT: Summit Therapeutics Announced Opening Of Global Phase II SMT112-216 Trial Of Ivonescimab A
+  news skip TCGX: market cap 30M below floor
+  news pulled XNDU: Xanadu Quantum Technologies Receives Provisional Approval For Project Funding Of Up To $10
+  news skip MRKR: market cap 18M below floor
+  news pulled PLTR: Knox Systems Announces New Partnership With Palantir Technologies To Accelerate Secure AI 
+  news skip VAI: market cap 33M below floor
+  news pulled RCAT: Red Cat Eyes Global Defense Market Expansion Through Steyr Motors Takeover
+  news pulled INFY: Infosys Expands Collaboration With Truist To Support Bank's Continued Build-Out Of Its AI-
+  news pulled RIG: Transocean Awarded Two U.S. Gulf Contracts For Its Ultra-Deepwater Drillships Totaling ~$5
+  news pulled VEON: VEON To Acquire 100% Of Uzbekistan Mobile Operator Rubicon Wireless, Trading Under 'Perfec
+  news pulled GILD: Gilead Announces Emvistegrast 200 Mg Met Primary Endpoint In Phase 2 Swift Dose-Ranging St
+  news skip PERF: no share count on file at the SEC
+  news skip TAK: no share count on file at the SEC
+  news skip LLY: the crew judged this company in the last 3 days
+  news pulled ABBV: AbbVie’s Dual-Target Drug Shows Phase 2 Results for Hard-to-Treat Crohn’s Disease
+  news skip EVAX: too thinly traded: about $1,373 a day on the IEX feed
+  news skip NTRA: already judged on an earlier run
+  news skip OPNW: market cap 34M below floor
+  news skip NVDA: already judged on an earlier run
+  news skip OCS: no share count on file at the SEC
+  12:47  JOURNAL  track record: 31 past case(s) on file
+  record   SCOUT skipped 26 case(s); none has a thesis direction with 5 trading days of history yet.
+  record   SKEPTIC killed 4 case(s); none has a thesis direction with 5 trading days of history yet.
+  record   QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.
+  12:47  SPIDER   case 01 opened: TBN news
+
+WAITING for memo case01_SCOUT_1
+  packet: runs/morning-20261019/outbox/case01_SCOUT_1.json

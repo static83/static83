@@ -1,0 +1,15 @@
+{
+ "role": "SCOUT",
+ "verdict": "object",
+ "headline": "Skip: Post's accounting chief on medical leave; CFO covers",
+ "reasoning": [
+  "Quote: 'Bradly A. Harper, the Company's Senior Vice President, Chief Accounting Officer, will be taking a temporary medical leave of absence'",
+  "Quote: the CFO 'will serve as Interim Chief Accounting Officer'",
+  "Quote (Item 5.05): the new Code of Conduct 'does not relate to, and its adoption will not result in, any waiver'",
+  "A temporary, medical, internally covered absence is not the pattern that precedes restatements (contrast: a sudden unexplained exit)",
+  "Stock 78.60, up on the week, 30-day mean gap 0.63%"
+ ],
+ "objections": [
+  "SCOUT: routine; temporary leave covered by the CFO"
+ ]
+}

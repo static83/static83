@@ -1,0 +1,13 @@
+{
+ "role": "JOURNAL",
+ "verdict": "agree",
+ "headline": "Case 02 ERAS: no trade. COO exit traded a full session (-10%).",
+ "reasoning": [
+  "SCOUT skipped it as late",
+  "Process note: the move was 1.7x normal volume, below the 2x already-traded threshold; SCOUT caught it from the tape",
+  "Check: ERAS 5-day move from 13.395"
+ ],
+ "objections": [
+  "SCOUT: late (case ended)"
+ ]
+}

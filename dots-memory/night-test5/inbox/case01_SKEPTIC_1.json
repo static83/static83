@@ -1,0 +1,20 @@
+{
+ "role": "SKEPTIC",
+ "verdict": "send_back",
+ "send_back_to": "ANALYST",
+ "headline": "That cash isn't spare. It's the down payment on a $1.85B build. Size the gap.",
+ "reasoning": [
+  "The company's own presentation puts upfront capex at $1.85 billion. $405M covers about 22% of it",
+  "So the market is not valuing the project at $50M; it is valuing it after a ~$1.45B funding gap that someone has to fill",
+  "If any of that gap is equity at today's price, holders are diluted before the project is worth anything",
+  "The $3.7M quarterly 'net income' at a pre-revenue miner is almost certainly non-cash; it says nothing about the business",
+  "ANALYST: how much of the gap is debt, how much equity, and on what timeline? Without that the 'trades near cash' line is misleading"
+ ],
+ "objections": [
+  "SCOUT: the Traxys offtake was public on Oct 13; only the cash figure is new",
+  "SKEPTIC 1: cash is committed to a $1.85B capex plan; ~$1.45B gap unfunded",
+  "SKEPTIC 2: equity funding at current prices would dilute holders",
+  "SKEPTIC 3: quarterly net income is likely non-cash"
+ ],
+ "priced_in_score": 0.55
+}

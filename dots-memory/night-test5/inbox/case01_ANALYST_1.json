@@ -1,0 +1,18 @@
+{
+ "role": "ANALYST",
+ "verdict": "agree",
+ "headline": "Long NB: the project is priced at ~$50M above cash with sales fully contracted",
+ "reasoning": [
+  "Market value ~$456M less $405M cash leaves ~$50M for Elk Creek, a project with 100% of planned output under 10-15 year contracts",
+  "The Traxys take-or-pay is the piece lenders want; it strengthens the pending EXIM financing case",
+  "What the market must believe: the project is likely never financed or built",
+  "Catalyst: an EXIM final approval or term sheet; the offtake sets a Dec 31, 2027 deadline for it",
+  "Direction long, horizon 15 trading days",
+  "Wrong if: financing slips again, or the cash is spent without a funding package"
+ ],
+ "objections": [
+  "SCOUT: the Traxys offtake was public on Oct 13; only the cash figure is new"
+ ],
+ "direction": "long",
+ "horizon_days": 15
+}

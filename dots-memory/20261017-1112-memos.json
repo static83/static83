@@ -1,0 +1,317 @@
+[
+  {
+    "case": 1,
+    "ticker": "NRUC",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: debt shelf renewals from a co-op with no common stock",
+        "reasoning": [
+          "Quote: 'may issue and sell, from time to time, an unlimited aggregate principal amount of its Member Capital Securities'",
+          "Quote: 'relating to the continuation of a program' for Medium-Term Notes, Series D and InterNotes",
+          "Nothing changed for the business: these are renewals of existing funding programs",
+          "NRUC is a cooperative finance company; the NRUC listing is a debt-like security, not common equity",
+          "Alpaca quote shows bid 14.84 and ask 0: there is no two-sided market to paper trade",
+          "Market cap is unknown because there are no common shares outstanding; the code filter let it through on a missing value"
+        ],
+        "objections": [
+          "SCOUT: routine financing renewal, no business change",
+          "SCOUT: no tradeable common equity and no ask on the quote"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 01 NRUC: no trade. SCOUT dropped it at the door.",
+        "reasoning": [
+          "SCOUT found three debt-program renewals: Member Capital Securities, MTN Series D, InterNotes",
+          "SCOUT objected: no business change, and no two-sided market (ask 0)",
+          "Spider ended the case at SCOUT; no other role spent time on it",
+          "Process note: the market-cap filter passes filings when cap is unknown; it should require a known cap"
+        ],
+        "objections": [
+          "SCOUT: routine financing renewal, no business change (case ended)",
+          "SCOUT: no tradeable common equity and no ask on the quote (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "GPRO",
+    "outcome": "no_trade",
+    "rounds": 2,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "GoPro restates 2025-26 books mid-merger; stock 1.04 vs 1.14 cash deal",
+        "reasoning": [
+          "Quote: 'The Company identified certain errors related to accounting for certain debt instruments' (warrants to Mateo Financing; convertible debentures with YA II PN)",
+          "Quote: 'These errors do not affect the Company's revenue, gross margin, operating loss, cash, operating cash flows, EBITDA'",
+          "Quote: errors found 'While preparing the proxy statement related to the transactions contemplated by the Agreement and Plan of Merger, dated as of September 1, 2026'",
+          "Deal terms (Sept 1 press release, Exhibit 99.1): 'aggregate cash payment of $285 million, or $1.14 per share, subject to potential adjustment based on GoPro's net working capital at closing' plus ~10% of the combined company; expected close by year-end 2026",
+          "What changed: three periods of financials are now non-reliable, and the proxy needed for the shareholder vote waits on restated filings",
+          "Timing: filing accepted 17:30 ET Friday, after the close; no press release found ahead of it",
+          "Friday tape: open 1.15, close 1.04 (-9.6%) on the highest volume of the month, before this filing went public"
+        ],
+        "objections": [
+          "SCOUT: the 9.6% drop happened during Friday's session, before the filing. Either something else moved it or the news leaked."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "agree",
+        "headline": "Long GPRO as merger arb: 10c cash spread plus stub, close by year-end",
+        "reasoning": [
+          "The restatement is non-cash by the company's own statement; deal economics are cash and working capital",
+          "Price 1.04 vs 1.14 cash leaves 0.10 (9.6%) before counting the 0.1 stub share in the combined company",
+          "If the deal closes by year-end, that is roughly 9.6% in about 10 weeks on the cash alone",
+          "What the market must believe for this to be mispriced: that the restatement threatens the deal. The filing says it does not touch cash or revenue",
+          "Direction long, holding period until close",
+          "I am wrong if: the proxy slips past the outside date, the working-capital adjustment cuts the cash, or the buyer walks"
+        ],
+        "objections": [
+          "SCOUT: the 9.6% drop happened before the filing (open)"
+        ],
+        "send_back_to": null,
+        "direction": "long",
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "SKEPTIC",
+        "verdict": "send_back",
+        "headline": "$1.14 is not fixed. $285M is. Count the shares before calling it a spread.",
+        "reasoning": [
+          "Quote from the deal release: 'aggregate cash payment of $285 million, or $1.14 per share'. The aggregate is fixed; per-share falls if the share count rises",
+          "GoPro has convertible debentures with YA II PN outstanding. Every conversion before closing adds shares and dilutes the 1.14",
+          "The restatement reclassifies those debentures as short-term debt. If the merger agreement's working-capital definition picks that up, the cash drops again",
+          "ANALYST's 'non-cash' line answers the accounting, not the deal. Cash per share is the only number that matters here",
+          "The proxy cannot go out until three periods are restated. Year-end close is now optimistic",
+          "Buyer is a private holding company; nothing in the packet shows committed financing for $285M plus $92M of debt repayment",
+          "Friday's 9.6% drop came before the filing. Somebody priced this in before we read it. priced_in_score 0.6"
+        ],
+        "objections": [
+          "SCOUT: the 9.6% drop happened before the filing (open)",
+          "SKEPTIC 1: aggregate cash is fixed; dilution from debenture conversions lowers per-share cash",
+          "SKEPTIC 2: working-capital adjustment may capture the reclassified debentures",
+          "SKEPTIC 3: restatement delays the proxy and the close",
+          "SKEPTIC 4: buyer financing not shown"
+        ],
+        "send_back_to": "ANALYST",
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": 0.6
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "agree",
+        "headline": "Conceded: the spread breaks even if share count rises 9.6%. Thesis holds, smaller.",
+        "reasoning": [
+          "SKEPTIC 1 answered with arithmetic: 285M / 1.14 implies about 250M shares today. Cash per share falls to the 1.04 price if about 24M new shares appear before closing",
+          "At a conversion price near 1.00, that is roughly 24M dollars of debenture conversions. Plausible, not certain; the packet does not contain the debenture balance",
+          "SKEPTIC 2 is open: the working-capital definition is in the merger agreement, which is not in the packet",
+          "SKEPTIC 3 accepted: close likely slips into 2027, which cuts the annualised return roughly in half",
+          "SKEPTIC 4 open: no financing commitment in the packet",
+          "Remaining edge is the 0.1 stub share, which I cannot value from the material given"
+        ],
+        "objections": [
+          "SCOUT: the 9.6% drop happened before the filing (open)",
+          "SKEPTIC 1: dilution lowers per-share cash (answered: breakeven at ~24M new shares)",
+          "SKEPTIC 2: working-capital adjustment (open)",
+          "SKEPTIC 3: restatement delays the close (accepted)",
+          "SKEPTIC 4: buyer financing not shown (open)"
+        ],
+        "send_back_to": null,
+        "direction": "long",
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "SKEPTIC",
+        "verdict": "object",
+        "headline": "The spread is the price of four open risks. We know nothing the market doesn't.",
+        "reasoning": [
+          "ANALYST's own breakeven (~24M new shares) is within reach of one convertible facility",
+          "Two of my four objections are still open and cannot be closed from public material tonight",
+          "With the close slipping and an unvalued stub, the 9.6% gross spread is ordinary compensation for deal risk, not a mispricing",
+          "If the deal breaks, a restating, cash-burning standalone company does not trade near 1.04",
+          "Friday's pre-filing drop means faster money already repriced this; we would be buying from people who read it first",
+          "Recommend no trade"
+        ],
+        "objections": [
+          "SCOUT: the 9.6% drop happened before the filing (open)",
+          "SKEPTIC 1: dilution lowers per-share cash (answered: breakeven at ~24M new shares)",
+          "SKEPTIC 2: working-capital adjustment (open)",
+          "SKEPTIC 3: restatement delays the close (accepted)",
+          "SKEPTIC 4: buyer financing not shown (open)",
+          "SKEPTIC 5: no informational edge"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": 0.85
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 02 GPRO: no trade. SKEPTIC sent it back once, then killed it.",
+        "reasoning": [
+          "SCOUT: restatement of 2025-26 debt accounting during a pending cash merger; stock 1.04 vs 1.14 cash",
+          "ANALYST: long merger arb, 9.6% gross spread to close",
+          "SKEPTIC round 1: cash is a fixed 285M aggregate, so dilution lowers per-share cash; sent back",
+          "ANALYST round 2: breakeven is about 24M new shares; two objections stayed open",
+          "SKEPTIC round 2: spread is fair pay for open risk; no edge; objected",
+          "Check Monday: GPRO open vs 1.04; any 10-K/A filing date; any debenture conversion notices"
+        ],
+        "objections": [
+          "SCOUT: the 9.6% drop happened before the filing (open)",
+          "SKEPTIC 1: dilution lowers per-share cash (answered)",
+          "SKEPTIC 2: working-capital adjustment (open)",
+          "SKEPTIC 3: restatement delays the close (accepted)",
+          "SKEPTIC 4: buyer financing not shown (open)",
+          "SKEPTIC 5: no informational edge (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "CIFR",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: settlement of a convert announced Monday and priced Tuesday",
+        "reasoning": [
+          "Quote: 'On October 16, 2026, the Company issued $850.0 million aggregate principal amount of its 0.00% Convertible Senior Notes due 2032'",
+          "Original source: proposed offering press release Oct 13, pricing press release Oct 14 (conversion price $15.31, capped call to $28.35, 40.7M shares issued to exchange 2030 notes)",
+          "Friday's 8-K reports settlement only; every number in it was public three days earlier",
+          "Tape already moved: close 11.34 on Oct 13, 8.98 on Oct 16 (-21%), consistent with convert-arb hedging and 40.7M new exchange shares",
+          "Nothing changed for the business on Friday"
+        ],
+        "objections": [
+          "SCOUT: late. The news was public on Oct 13 and Oct 14; the market has had three sessions to price it"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 03 CIFR: no trade. Old news, already 21% in the price.",
+        "reasoning": [
+          "SCOUT traced the filing back to press releases on Oct 13 and Oct 14",
+          "Friday's 8-K only confirms settlement of the $850M 0% notes",
+          "Stock fell from 11.34 to 8.98 across the three sessions after the announcement",
+          "Spider ended the case at SCOUT",
+          "Check Monday: whether the initial purchasers exercise the $150M option"
+        ],
+        "objections": [
+          "SCOUT: late, public since Oct 13-14 (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

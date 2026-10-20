@@ -1,0 +1,7 @@
+{"role":"SCOUT","verdict":"object","headline":"Routine unit-for-acres swap, about 2.5% dilution; DMLP does these every quarter",
+"reasoning":["Source: Benzinga headline 22:02 UTC reproducing Dorchester's release; no 8-K yet (EDGAR submissions show none since Aug 19), so the full terms are unconfirmed beyond the headline.",
+"Quoted: 'To Buy ~ 4,300 Net Royalty Acres In Williston Basin, North Dakota; Interests To Be Exchanged For 1,250,000 Common Units'.",
+"Size: 1.25M units x $30.08 close = about $37.6M against a $1.48B market cap (~49M units), so roughly 2.5% new units for an asset of similar value. Close to neutral per unit by construction.",
+"Pattern: DMLP signed the same kind of non-taxable contribution and exchange agreement on July 3, 2026 (8-K 0001437749-26-022814) and closed it July 31 (8-K 0001437749-26-025470). This is how the partnership grows; it is not a repricing event.",
+"No price signal to work with: no IEX after-hours trades, and the overnight quote (25.01 x 34.13) is meaningless; 30-day mean gap is 0.63%."],
+"objections":["Immaterial and routine for this issuer: a unit-for-acres swap worth ~2.5% of the partnership."]}

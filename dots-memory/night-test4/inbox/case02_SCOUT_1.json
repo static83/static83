@@ -1,0 +1,14 @@
+{
+ "role": "SCOUT",
+ "verdict": "object",
+ "headline": "Skip: Eaton re-cuts 2025 figures for a segment change made in Q1",
+ "reasoning": [
+  "Quote: 'filing this Current Report on Form 8-K solely to recast certain segment financial information'",
+  "Quote: 'The changes do not represent a restatement of previously issued financial statements'",
+  "The new Mobility segment was already reported in the 10-Qs filed May 5 and July 31",
+  "The stock fell from 428.35 to 391.20 this week, but nothing in this filing explains it; the move came before it"
+ ],
+ "objections": [
+  "SCOUT: no new information; a mechanical recast of numbers already public"
+ ]
+}

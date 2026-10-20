@@ -1,0 +1,18 @@
+{
+ "role": "JOURNAL",
+ "verdict": "agree",
+ "headline": "Case 03 EOSE: no trade. A real fade idea, killed for missing consensus.",
+ "reasoning": [
+  "SCOUT: Q3 revenue $82-83M, margins up, but full year guided to the lower half of an already-cut range",
+  "ANALYST: short the +15% pre-market pop, 5-day horizon",
+  "SKEPTIC: no consensus number, squeeze risk, thin pre-market entry; objected",
+  "Check: EOSE open versus 2.09 pre-market and 1.815 close; 5-day move. This scores SKEPTIC's kill directly",
+  "Process note: the crew needs a consensus estimate source to judge beats and misses"
+ ],
+ "objections": [
+  "SCOUT: the full-year outlook moved to the lower half of an already-cut range",
+  "SKEPTIC 1: consensus unknown (case ended)",
+  "SKEPTIC 2: squeeze risk",
+  "SKEPTIC 3: thin pre-market entry"
+ ]
+}

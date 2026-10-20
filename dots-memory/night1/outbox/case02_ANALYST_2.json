@@ -1,0 +1,116 @@
+{
+  "role": "ANALYST",
+  "packet": {
+    "case": 2,
+    "account": {
+      "equity_usd": 37.0,
+      "mode": "alpaca-paper"
+    },
+    "filing": {
+      "ticker": "GPRO",
+      "company": "GoPro, Inc.",
+      "cik": "1500435",
+      "accession": "0001500435-26-000064",
+      "items": [
+        "2.02",
+        "8.01"
+      ],
+      "filed_at": "2026-10-16T17:30:16-04:00",
+      "url": "https://www.sec.gov/Archives/edgar/data/1500435/000150043526000064/gpro-20261009.htm",
+      "source_excerpt": "Item 2.02. Results of Operations and Financial Condition. The information appearing below under Item 4.02(a) regarding certain previously reported financial information of GoPro, Inc. (the \u201cCompany\u201d) for the fiscal year ended December 31, 2025 and the fiscal quarter and year-to-date periods ended September 30, 2025, March 31, 2026, and June 30, 2026 is incorporated herein by reference into this Item 2.02. The information appearing below under Item 4.02(a) refers to certain financial statements that the Company intends to restate. The Company identified certain errors related to accounting for certain debt instruments. The errors related to (i) the initial measurement of the liability classified warrants issued to Mateo Financing, LLC (the \u201cWarrants\u201d) on August 4, 2025, (ii) recognition of changes in fair value of the warrant liability at each subsequent reporting period, (iii) the accounting for the November 5, 2025 Warrant repricing in connection with an amendment to the 2025 Credit Agreement, and (iv) debt discount amortization due to initial measurement errors. A separate error was identified related to the accounting for the Company's convertible debentures (the \"Convertible Debentures\") issued in 2026 as part of the Securities Purchase Agreement entered into with YA II PN, Ltd. In accounting for the bifurcation of the embedded conversion derivative from the Convertible Debentures, the Company used the fair value of the convertible debenture as the fair value of the embedded conversion derivative, rather than determining the fair value of the embedded conversion derivative using a with-and-without valuation approach and recognizing the combined instrument as short-term debt. As a result, the amounts initially allocated to the embedded conversion derivative and debt host at issuance, and the related debt discount and subsequent interest expense, were incorrectly recorded. These errors do not affect the Company's revenue, gross margin, operating loss, cash, operating cash flows, EBITDA or non-GAAP operating income (loss) in any of the restated periods. However, the corrections affect net loss and other non-cash adjustments within the adjustments to reconcile net loss to net cash used in operating activities, with offsetting adjustments such that net cash used in operating activities remains unchanged. Item 4.02. Non-Reliance on Previously Issued Financial Statements or a Related Audit Report or Completed Interim Review. (a) While preparing the proxy statement related to the transactions contemplated by the Agreement and Plan of Merger, dated as of September 1, 2026, by and among the Company, Action Acquisitions LLC and Starman Optical, Inc., and finalizing the financial records for the fiscal quarter ended September 30, 2026, the Company identified errors in the accounting for certain debt instruments. On October 9, 2026, the Audit Committee of the Board of Directors (the \"Audit Committee\") of the Company, in consultation with management, concluded that (i) the previously issued audited consolidated financial statements of the Company as of and for the fiscal year ended December 31, 2025 (the \u201c2025 Audited Financial Statements\u201d), included in the Company\u2019s Annual Report on Form 10-K filed on March 12, 2026 and subsequently updated in the Current Report on Form 8-K filed with the Securities and Exchange Commission (the \"SEC\") on June 1, 2026 (collectively, the \u201c2025 10-K\u201d), (ii) the unaudited condensed consolidated financial statements of the Company as of September 30, 2025 and for the three and nine months then ended (the \u201cQ3 2025 Financial Statements\u201d), included in the Company's Quarterly Report on Form 10-Q filed on November 6, 2025 and (iii) the unaudited condensed consolidated financial statements of the Company as of March 31, 2026 and June 30, 2026 and for the three-month periods then ended, and, with respect to June 30, 2026, the six months then ended (the \"2026 Financial Statements\"), included in the Company's Quarterly Reports on Form 10-Q filed on May 11, 2026 and August 10, 2026, respectively, were materially misstated due to the above described errors and should no longer be relied upon. The 2025 Audited Financial Statements, Q3 2025 Financial Statements and the 2026 Financial Statements are collectively referred to as the \u201cImpacted Financial Statements.\u201d Any previously furnished or filed reports, earnings releases, press releases, investor presentations or similar communications of the Company describing the Impacted Financial Statements should no longer be relied upon. The Company plans to restate the 2025 Audited Financial Statements and include them in an amendment to the 2025 10-K (the \u201c2025 10-K/A\u201d). The 2025 10-K/A will also include a restatement of the Q3 2025 Financial Statements. The Company also plans to restate its 2026 Financial Statements and include them in an amendment to each of its Quarterly Reports on Form 10-Q for the quarters ended March 31, 2026 (the \"Q1 2026 10-Q/A\") and June 30, 2026 (the \"Q2 2026 10-Q/A\"). The Company intends to file the 2025 10-K/A, Q1 2026 10-Q/A, and Q2 2026 10-Q/A with the SEC as soon as reasonably practicable. The restatements described in this paragraph are collectively referred to as the \"Restatements.\" The Company determined that incorrect valuation inputs and methodology were used in the initial and subsequent measurement of the Warrants, as the Black-Scholes valuations at initial measurement and at each subsequent measurement date incorrectly used an expected term shorter than the remaining contractual term through August 1, 2035, and incorrectly included an illiquidity discount. As a result, the warrant liability was understated, and long-term debt was overstated, by $8.1 million at initial measurement on August 4, 2025. The initial measurement error and the continued use of incorrect valuation inputs and methodology also caused an understatement of interest expense of approximately $0.5 million, $1.4 million and $0.6 mil",
+      "market_cap_usd": null,
+      "last_price": 1.04
+    },
+    "market": {
+      "quote": {
+        "ap": 1.05,
+        "as": 1000,
+        "ax": "V",
+        "bp": 1.03,
+        "bs": 1000,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-16T20:00:00.005255802Z",
+        "z": "C"
+      },
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 1.22,
+        "max_gap_pct": 7.37
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 0.3558,
+        "slippage_usd": 0.0185,
+        "spread_pct": 1.923
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "GoPro restates 2025-26 books mid-merger; stock 1.04 vs 1.14 cash deal",
+        "reasoning": [
+          "Quote: 'The Company identified certain errors related to accounting for certain debt instruments' (warrants to Mateo Financing; convertible debentures with YA II PN)",
+          "Quote: 'These errors do not affect the Company's revenue, gross margin, operating loss, cash, operating cash flows, EBITDA'",
+          "Quote: errors found 'While preparing the proxy statement related to the transactions contemplated by the Agreement and Plan of Merger, dated as of September 1, 2026'",
+          "Deal terms (Sept 1 press release, Exhibit 99.1): 'aggregate cash payment of $285 million, or $1.14 per share, subject to potential adjustment based on GoPro's net working capital at closing' plus ~10% of the combined company; expected close by year-end 2026",
+          "What changed: three periods of financials are now non-reliable, and the proxy needed for the shareholder vote waits on restated filings",
+          "Timing: filing accepted 17:30 ET Friday, after the close; no press release found ahead of it",
+          "Friday tape: open 1.15, close 1.04 (-9.6%) on the highest volume of the month, before this filing went public"
+        ],
+        "objections": [
+          "SCOUT: the 9.6% drop happened during Friday's session, before the filing. Either something else moved it or the news leaked."
+        ]
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "agree",
+        "headline": "Long GPRO as merger arb: 10c cash spread plus stub, close by year-end",
+        "reasoning": [
+          "The restatement is non-cash by the company's own statement; deal economics are cash and working capital",
+          "Price 1.04 vs 1.14 cash leaves 0.10 (9.6%) before counting the 0.1 stub share in the combined company",
+          "If the deal closes by year-end, that is roughly 9.6% in about 10 weeks on the cash alone",
+          "What the market must believe for this to be mispriced: that the restatement threatens the deal. The filing says it does not touch cash or revenue",
+          "Direction long, holding period until close",
+          "I am wrong if: the proxy slips past the outside date, the working-capital adjustment cuts the cash, or the buyer walks"
+        ],
+        "objections": [
+          "SCOUT: the 9.6% drop happened before the filing (open)"
+        ],
+        "direction": "long"
+      },
+      {
+        "role": "SKEPTIC",
+        "verdict": "send_back",
+        "headline": "$1.14 is not fixed. $285M is. Count the shares before calling it a spread.",
+        "reasoning": [
+          "Quote from the deal release: 'aggregate cash payment of $285 million, or $1.14 per share'. The aggregate is fixed; per-share falls if the share count rises",
+          "GoPro has convertible debentures with YA II PN outstanding. Every conversion before closing adds shares and dilutes the 1.14",
+          "The restatement reclassifies those debentures as short-term debt. If the merger agreement's working-capital definition picks that up, the cash drops again",
+          "ANALYST's 'non-cash' line answers the accounting, not the deal. Cash per share is the only number that matters here",
+          "The proxy cannot go out until three periods are restated. Year-end close is now optimistic",
+          "Buyer is a private holding company; nothing in the packet shows committed financing for $285M plus $92M of debt repayment",
+          "Friday's 9.6% drop came before the filing. Somebody priced this in before we read it. priced_in_score 0.6"
+        ],
+        "objections": [
+          "SCOUT: the 9.6% drop happened before the filing (open)",
+          "SKEPTIC 1: aggregate cash is fixed; dilution from debenture conversions lowers per-share cash",
+          "SKEPTIC 2: working-capital adjustment may capture the reclassified debentures",
+          "SKEPTIC 3: restatement delays the proxy and the close",
+          "SKEPTIC 4: buyer financing not shown"
+        ],
+        "send_back_to": "ANALYST",
+        "priced_in_score": 0.6
+      }
+    ],
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05
+    }
+  }
+}

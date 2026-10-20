@@ -1,0 +1,20 @@
+{
+ "role": "SKEPTIC",
+ "verdict": "object",
+ "headline": "Mega-grants usually draw governance fire. Direction is a coin flip.",
+ "reasoning": [
+  "ANALYST reads conviction. Proxy advisers and many holders read a 20M-share grant to a founder as overpay and entrenchment; recent mega-grants have drawn votes against and lawsuits",
+  "The first tranche is struck at $26.27, the Oct 14 close, after a slide. Setting the strike the day the stock was low is not conviction, it is a good price",
+  "The vote is not done; a contested vote is a headline risk before any upside",
+  "Thursday's +5.6% on twice normal volume before the filing is unexplained; ANALYST cannot say the news is fully fresh",
+  "Without a reliable sign on direction there is nothing for QUANT to size",
+  "Track record: 22 past cases, none with 5 days of history. No evidence that my kills are too strict yet"
+ ],
+ "objections": [
+  "SCOUT: Thursday's +5.6% on 2.1x volume came before this filing; cause unknown",
+  "SKEPTIC 1: market reaction to founder mega-grants is not reliably positive",
+  "SKEPTIC 2: first strike set at a local low",
+  "SKEPTIC 3: shareholder vote still to come"
+ ],
+ "priced_in_score": 0.4
+}

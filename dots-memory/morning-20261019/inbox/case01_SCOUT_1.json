@@ -1,0 +1,13 @@
+{
+ "role": "SCOUT",
+ "verdict": "object",
+ "headline": "Skip: Tamboran's 'new CEO' has run the company since January",
+ "reasoning": [
+  "News item (Benzinga, 08:40 ET): 'Tamboran Resources Appoints Todd Abbott CEO'",
+  "Primary sources: Todd Abbott has been CEO since January 15, 2026 (company management page, Q2 earnings call); the October change added the Managing Director title",
+  "The headline is stale; nothing changed for the business this morning"
+ ],
+ "objections": [
+  "SCOUT: not news; the CEO has been in place since January"
+ ]
+}

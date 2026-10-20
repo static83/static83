@@ -1,0 +1,12 @@
+{
+ "role": "JOURNAL",
+ "verdict": "agree",
+ "headline": "Case 02 WAFD: no trade. Earnings traded a full session first.",
+ "reasoning": [
+  "SCOUT skipped it as late",
+  "Process note: an earnings 8-K filed the day after the release is always late; a future filter could catch it"
+ ],
+ "objections": [
+  "SCOUT: late (case ended)"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "role": "JOURNAL",
+ "verdict": "agree",
+ "headline": "Case 04 ARI: no trade. Real discount, wrong tool. QUANT stopped it.",
+ "reasoning": [
+  "SCOUT: liquidation, $4.10 paid Oct 29, last trade Nov 6, estimated 7.75-8.50 total by 2028",
+  "ANALYST: long for a 21-33% gross discount to the estimate, realized only by holding into 2028",
+  "SKEPTIC: let it through with three objections; the discount is the price of illiquidity",
+  "QUANT: objected. The ex-date drop fires any stop, the paper account would book a fake loss, and nothing can be held past Nov 6",
+  "Lesson for SCOUT: skip liquidations with a large distribution or a delisting date inside the holding window",
+  "Check: ARI price into Oct 29 and Nov 6; size of the second liquidating distribution when declared"
+ ],
+ "objections": [
+  "SCOUT: only the delisting date is new (open)",
+  "SKEPTIC 1: estimate from August (open)",
+  "SKEPTIC 2: no catalyst inside 14 days (accepted)",
+  "SKEPTIC 3: stub illiquid after Nov 6 (accepted)",
+  "QUANT: cannot be expressed as a bracket order (case ended)"
+ ]
+}

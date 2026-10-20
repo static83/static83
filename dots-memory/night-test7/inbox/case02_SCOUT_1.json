@@ -1,0 +1,16 @@
+{
+ "role": "SCOUT",
+ "verdict": "agree",
+ "headline": "Copart: founder-CEO takes $1 salary and 20M options struck $26-$53",
+ "reasoning": [
+  "Quote: 'approved the grant to A. Jayson Adair, the Company's Chief Executive Officer, of a nonstatutory stock option to purchase 20,000,000 shares'",
+  "Quote: tranches at '$26.27 ... $35.03 ... $43.78 ... and $52.54 per share'; 'a salary of $1 each year' and no bonus or other equity for 10 years",
+  "Quote: 'subject to approval by the Company's stockholders'; vests on the 5th anniversary",
+  "New: filed Friday 16:02 after the close; first public account found is this filing. Not yet traded",
+  "Context: Adair returned as CEO July 31, 2026; he took a $1-salary option package once before, in 2009",
+  "Tape: 26.27 on Oct 14 (the grant-date strike), 27.75 on Oct 15 (+5.6%, 2.1x volume), 27.89 on Oct 16"
+ ],
+ "objections": [
+  "SCOUT: Thursday's +5.6% on 2.1x volume came before this filing; cause unknown"
+ ]
+}

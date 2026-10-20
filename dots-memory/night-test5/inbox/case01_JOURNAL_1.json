@@ -1,0 +1,20 @@
+{
+ "role": "JOURNAL",
+ "verdict": "agree",
+ "headline": "Case 01 NB: no trade. 'Trades near cash' fell apart against $1.85B capex.",
+ "reasoning": [
+  "SCOUT folded two filings: $405M cash (new) and the Traxys offtake (public since Oct 13)",
+  "ANALYST: long on ~$50M implied project value",
+  "SKEPTIC sent it back: the cash is a down payment on $1.85B of capex",
+  "ANALYST conceded the value case; only a dateless EXIM approval bet remained",
+  "SKEPTIC objected: no catalyst in the window",
+  "Check: any EXIM announcement; NB versus 3.12 after 5 and 20 days"
+ ],
+ "objections": [
+  "SCOUT: the Traxys offtake was public on Oct 13; only the cash figure is new",
+  "SKEPTIC 1: funding gap (accepted)",
+  "SKEPTIC 2: dilution (open)",
+  "SKEPTIC 3: non-cash income (accepted)",
+  "SKEPTIC 4: no catalyst in window (case ended)"
+ ]
+}

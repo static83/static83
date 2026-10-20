@@ -1,0 +1,57 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 100000.0,
+      "mode": "alpaca-paper"
+    },
+    "filing": {
+      "ticker": "NRUC",
+      "company": "NATIONAL RURAL UTILITIES COOPERATIVE FINANCE CORP /DC/",
+      "cik": "70502",
+      "accession": "0001104659-26-116660",
+      "items": [
+        "8.01"
+      ],
+      "filed_at": "2026-10-16T17:30:58-04:00",
+      "url": "https://www.sec.gov/Archives/edgar/data/70502/000110465926116660/tm2627273d8_8k.htm",
+      "source_excerpt": "Item 8.01 Other Events. Member Capital Securities, Series 2026 On October 16, 2026, National Rural Utilities Cooperative Finance Corporation (the \u201cCompany\u201d) filed a prospectus supplement with the Securities and Exchange Commission (the \u201cSEC\u201d) in connection a program through which the Company may issue and sell, from time to time, an unlimited aggregate principal amount of its Member Capital Securities, Series 2026 (the \u201cMember Capital Securities\u201d) to its voting members (the \u201cMember Capital Securities Prospectus Supplement\u201d). The forms of fixed and floating rate certificates for the Member Capital Securities are filed as Exhibits 4.1 and 4.2, respectively, and are incorporated by reference herein. Medium-Term Notes, Series D On October 16, 2026, the Company entered into an agency agreement (the \u201cMTN Agency Agreement\u201d) with RBC Capital Markets, LLC, BMO Capital Markets Corp., FNB America Securities LLC, Huntington Securities, Inc., J.P. Morgan Securities LLC, KeyBanc Capital Markets Inc., Mizuho Securities USA LLC, MUFG Securities Americas Inc., M&T Securities, Inc., PNC Capital Markets LLC, Regions Securities LLC, Truist Securities, Inc. and U.S. Bancorp Investments, Inc. (the \u201cMTN Agents\u201d) relating to the continuation of a program through which the Company may offer and sell, from time to time, an unlimited aggregate principal amount of its Medium-Term Notes, Series D (the \u201cMTNs\u201d). The Company has filed a prospectus supplement, dated October 16, 2026, with the SEC on October 16, 2026 related to the MTNs (the \u201cMTN Prospectus Supplement\u201d). In addition, the Company also filed a prospectus supplement, dated October 16, 2026, pursuant to which it may offer and sell, from time to time, an unlimited aggregate principal amount of its MTNs directly to its members and associates and the members, associates and affiliates of National Cooperative Services Corporation. Copies of the MTN Agency Agreement and the forms of fixed and floating rate MTNs are filed as Exhibits 1.1, 4.3 and 4.4, respectively, and are incorporated by reference herein. CFC InterNotes \u00ae On October 16, 2026, the Company entered into an agency agreement (the \u201cInterNotes \u00ae Agency Agreement\u201d) with InspereX LLC , Citigroup Global Markets Inc., RBC Capital Markets, LLC and Wells Fargo Clearing Services, LLC (the \u201cInterNotes \u00ae Agents\u201d) relating to the continuation of a program through which the Company may offer and sell, from time to time, an unlimited aggregate principal amount of its InterNotes \u00ae (the \u201cInterNotes \u00ae \u201d). The Company has filed a prospectus supplement, dated October 16, 2026, with the SEC on October 16, 2026 related to the InterNotes \u00ae (the \u201cInterNotes \u00ae Prospectus Supplement\u201d). Copies of the InterNotes \u00ae Agency Agreement and the forms of fixed and floating rate InterNotes \u00ae are filed as Exhibits 1.2, 4.5 and 4.6, respectively, and are incorporated by reference herein. Retail Subordinated Notes On October 16, 2026, the Company entered into an agency agreement (the \u201cRetail Subordinated Notes Agency Agreement\u201d) with InspereX LLC , Citigroup Global Markets Inc., RBC Capital Markets, LLC and Wells Fargo Clearing Services, LLC (the \u201cRetail Subordinated Notes Agents\u201d) relating to the continuation of a program through which the Company may offer and sell, from time to time, an unlimited aggregate principal amount of its Subordinated Notes (Subordinated Deferrable Interest Notes) (the \u201cRetail Subordinated Notes\u201d). The Company has filed a prospectus supplement, dated October 16, 2026, with the SEC on October 16, 2026 related to the Retail Subordinated Notes (the \u201cRetail Subordinated Notes Prospectus Supplement\u201d, and together with the Member Capital Securities Prospectus Supplement, the MTN Prospectus Supplement and the InterNotes \u00ae Prospectus Supplement, the \u201cProspectus Supplements\u201d). Copies of the Retail Subordinated Notes Agency Agreement and the forms of fixed and floating rate Retail Subordinated Notes are filed as Exhibits 1.3, 4.7 and 4.8, respectively, and are incorporated by reference herein. The Member Capital Securities, the MTNs, InterNotes \u00ae and the Retail Subordinated Notes will be issued pursuant to the shelf registration statement on Form S-3 (File No. 333-299452) filed by the Company with the SEC on October 14, 2026, a base prospectus, dated October 14, 2026, included as part of the registration statement, and the Prospectus Supplements. Item 9.01 Financial Statements and Exhibits. The following exhibits are filed as part of this report: Exhibit No. Description 1.1 Agency Agreement, dated October 16, 2026, by and among the Company and the MTN Agents. 1.2 Agency Agreement, dated October 16, 2026, by and among the Company and the InterNotes \u00ae Agents. 1.3 Agency Agreement, dated October 16, 2026, by and among the Company and the Retail Subordinated Notes Agents. 4.1 Form of Certificate for the Fixed Rate Member Capital Security. 4.2 Form of Certificate for the Floating Rate Member Capital Security. 4.3 Form of Fixed Rate MTN. 4.4 Form of Floating Rate MTN. 4.5 Form of Fixed Rate InterNotes \u00ae . 4.6 Form of Floating Rate InterNotes \u00ae . 4.7 Form of Fixed Rate Retail Subordinated Notes. 4.8 Form of Floating Rate Retail Subordinated Notes. 5.1 Opinion of Hogan Lovells Cadwalader US LLP regarding legality of the MTNs. 5.2 Opinion of Hogan Lovells Cadwalader US LLP regarding legality of the InterNotes \u00ae . 5.3 Opinion of Hogan Lovells Cadwalader US LLP regarding legality of the Retail Subordinated Notes. 5.4 Opinion of Hogan Lovells Cadwalader US LLP regarding legality of the Member Capital Securities. 8.1 Opinion of Hogan Lovells US LLP regarding certain tax matters in connection with the issuance and sale of the MTNs. 8.2 Opinion of Hogan Lovells US LLP regarding certain tax matters in connection with the issuance and sale of the InterNotes \u00ae . 8.3 Opinion of Hogan Lovells Cadwalader US LLP regarding certain tax matters in connection with the issuance and sale of the Retail Subordinated Notes. 8.4 Opinion of Hogan Lovell",
+      "market_cap_usd": null,
+      "last_price": 14.84
+    },
+    "market": {
+      "quote": {
+        "ap": 0,
+        "as": 0,
+        "ax": " ",
+        "bp": 14.84,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-16T20:00:03.085069428Z",
+        "z": "A"
+      },
+      "gap_stats_30d": {
+        "n": 0,
+        "mean_gap_pct": null,
+        "max_gap_pct": null
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 0.0,
+        "slippage_usd": 50.0,
+        "spread_pct": 0.0
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05
+    }
+  }
+}

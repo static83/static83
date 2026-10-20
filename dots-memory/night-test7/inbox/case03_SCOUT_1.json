@@ -1,0 +1,12 @@
+{
+ "role": "SCOUT",
+ "verdict": "object",
+ "headline": "Skip: Terex sets the date of its earnings call",
+ "reasoning": [
+  "Quote: 'announcing that it will host a conference call to review its third quarter 2026 financial results on Wednesday, October 28'",
+  "A calendar notice issued Oct 14; no results, no numbers"
+ ],
+ "objections": [
+  "SCOUT: no information, only a call date"
+ ]
+}

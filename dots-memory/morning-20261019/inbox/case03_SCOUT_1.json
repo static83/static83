@@ -1,0 +1,16 @@
+{
+ "role": "SCOUT",
+ "verdict": "agree",
+ "headline": "Eos: Q3 revenue $82-83M, but full year now 'lower half' of $300-350M",
+ "reasoning": [
+  "Primary source: Eos release, Oct 19, 'Announces Preliminary Third Quarter 2026 Revenue Growth'",
+  "Quote: 'Revenue of $82 to $83 million, representing approximately 19% to 21% sequential growth'",
+  "Quote: 'GAAP gross margin of (55)% to (53)%, representing an improvement of approximately 16 to 18 percentage points'",
+  "Quote: 'Total cash ... approximately $344 million as of September 30, 2026, compared to $364 million as of June 30'",
+  "Quote: 'The Company currently expects full-year 2026 revenue in the lower half of its $300 million to $350 million range' (the range itself was cut from $300-400M in August)",
+  "Fresh: released before the open; pre-market last 2.09 vs 1.815 close (+15%) on only 3,639 IEX shares"
+ ],
+ "objections": [
+  "SCOUT: the full-year outlook moved to the lower half of an already-cut range"
+ ]
+}

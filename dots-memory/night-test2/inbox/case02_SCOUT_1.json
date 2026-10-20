@@ -1,0 +1,14 @@
+{
+ "role": "SCOUT",
+ "verdict": "object",
+ "headline": "Skip: Enova formally ends a bank deal it abandoned on Sept 15",
+ "reasoning": [
+  "Quote: 'the Company and Grasshopper entered into the Mutual Termination Agreement ... the Company made a $4,000,000 cash payment'",
+  "Original source: Enova withdrew its OCC and Fed applications on Sept 14-15 (Banking Dive, Sept 15: 'Enova scraps Grasshopper deal')",
+  "The $4M fee is about 0.1% of a $4.4B market cap",
+  "Stock closed 177.61 Friday, flat on the week: the market priced the end of the deal a month ago"
+ ],
+ "objections": [
+  "SCOUT: late. The decision was public on Sept 15"
+ ]
+}

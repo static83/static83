@@ -1,0 +1,13 @@
+{
+ "role": "SCOUT",
+ "verdict": "object",
+ "headline": "Skip: CEO deferred pay of $2.3M funded with 0.5% of shares",
+ "reasoning": [
+  "Quote: 'the Company awarded Mr. Reitz deferred compensation in the amount of $2.3 million ... Payment ... will not commence until 2030'",
+  "Quote: the trust receives 'approximately 332,370 shares', about 0.5% of roughly 64M shares outstanding",
+  "Compensation housekeeping; nothing changed for the business"
+ ],
+ "objections": [
+  "SCOUT: routine compensation filing"
+ ]
+}

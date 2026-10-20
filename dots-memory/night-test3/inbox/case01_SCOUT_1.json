@@ -1,0 +1,16 @@
+{
+ "role": "SCOUT",
+ "verdict": "object",
+ "headline": "Skip: SentinelOne settles a convert and buyback announced Oct 13",
+ "reasoning": [
+  "Quote: 'the Company completed its previously announced private offering ... of $1,250,000,000 aggregate principal amount of 0.00% Convertible Senior Notes due 2031'",
+  "Quote: 'initial conversion price of approximately $31.21 per share ... a premium of approximately 30.0% over the last reported sale price of $24.01 ... on October 13, 2026'",
+  "Quote (Item 8.01): '$150.0 million ... to repurchase approximately 6.2 million shares ... equal to the closing price ... on October 13, 2026, which was $24.01'",
+  "Quote: 'On October 13, 2026, the Company issued a press release announcing' the offering. Every figure here was public four sessions ago",
+  "Tape: 25.65 on Oct 12, 24.01 on Oct 13, 21.585 on Oct 16 (-10% since pricing), the usual convert-hedge selling",
+  "Nothing changed for the business on Friday"
+ ],
+ "objections": [
+  "SCOUT: late. Priced and announced Oct 13; Friday's filing is settlement only"
+ ]
+}

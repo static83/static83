@@ -1,0 +1,12 @@
+{
+ "role": "JOURNAL",
+ "verdict": "agree",
+ "headline": "Case 03 POST: no trade. Temporary leave, routine code update.",
+ "reasoning": [
+  "SCOUT skipped it at the door",
+  "Check: whether the leave turns into a departure in a later 8-K"
+ ],
+ "objections": [
+  "SCOUT: routine; temporary leave covered by the CFO (case ended)"
+ ]
+}

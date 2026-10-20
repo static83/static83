@@ -1,0 +1,176 @@
+[
+  {
+    "case": 1,
+    "ticker": "S",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: SentinelOne settles a convert and buyback announced Oct 13",
+        "reasoning": [
+          "Quote: 'the Company completed its previously announced private offering ... of $1,250,000,000 aggregate principal amount of 0.00% Convertible Senior Notes due 2031'",
+          "Quote: 'initial conversion price of approximately $31.21 per share ... a premium of approximately 30.0% over the last reported sale price of $24.01 ... on October 13, 2026'",
+          "Quote (Item 8.01): '$150.0 million ... to repurchase approximately 6.2 million shares ... equal to the closing price ... on October 13, 2026, which was $24.01'",
+          "Quote: 'On October 13, 2026, the Company issued a press release announcing' the offering. Every figure here was public four sessions ago",
+          "Tape: 25.65 on Oct 12, 24.01 on Oct 13, 21.585 on Oct 16 (-10% since pricing), the usual convert-hedge selling",
+          "Nothing changed for the business on Friday"
+        ],
+        "objections": [
+          "SCOUT: late. Priced and announced Oct 13; Friday's filing is settlement only"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 01 S: no trade. Convert and buyback were public since Oct 13.",
+        "reasoning": [
+          "SCOUT traced every number to the Oct 13 pricing release",
+          "Stock already down 10% from the $24.01 reference price",
+          "This is the second convert settlement in two nights (Cipher was the first). The pattern is reliable: settlement 8-Ks are late by design",
+          "Check: S versus 24.01 over the next 5 days, to see whether the post-convert selling reverses"
+        ],
+        "objections": [
+          "SCOUT: late, public since Oct 13 (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "IONQ",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: IonQ's $2B share-and-warrant sale was priced Wednesday",
+        "reasoning": [
+          "Quote: 'On October 14, 2026, IonQ, Inc. ... entered into an underwriting agreement ... 20,500,000 shares ... 29,500,000 pre-funded warrants ... 100,000,000 warrants'",
+          "Quote: 'combined price to the public of $40.00', Series C warrants exercisable at $69.46",
+          "The underwriting agreement is dated Oct 14; the offering was public before Friday",
+          "Tape already moved: 34.73 on Oct 13, 31.26 on Oct 16"
+        ],
+        "objections": [
+          "SCOUT: late. Priced Oct 14"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 02 IONQ: no trade. Equity raise priced two days earlier.",
+        "reasoning": [
+          "SCOUT skipped it as late",
+          "Check: whether the 100M Series C warrants trade, and IONQ versus 31.26"
+        ],
+        "objections": [
+          "SCOUT: late, priced Oct 14 (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "WSBF",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: Waterstone director leaves for a new job, no disagreement",
+        "reasoning": [
+          "Quote: 'Derek L. Tyus has resigned from the Boards ... effective October 20, 2026'",
+          "Quote: 'His resignation did not result from any disagreement with the Company'",
+          "Nothing changed for the business"
+        ],
+        "objections": [
+          "SCOUT: routine board change"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 03 WSBF: no trade. Routine board resignation.",
+        "reasoning": [
+          "SCOUT skipped it at the door",
+          "Check: none needed"
+        ],
+        "objections": [
+          "SCOUT: routine board change (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

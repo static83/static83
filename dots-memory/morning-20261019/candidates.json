@@ -1,0 +1,47 @@
+[
+  {
+    "ticker": "TBN",
+    "company": "Tamboran Resources Corp",
+    "cik": "1997652",
+    "accession": "news:62436770",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-19T12:40:49Z",
+    "url": "https://www.benzinga.com/news/26/10/62436770/tamboran-resources-appoints-todd-abbott-ceo",
+    "source_excerpt": "[Benzinga news, 2026-10-19T12:40:49Z, by Benzinga Newsdesk] Tamboran Resources Appoints Todd Abbott CEO\n\n",
+    "market_cap_usd": 1093898587.74,
+    "last_price": 31.29,
+    "also_accessions": []
+  },
+  {
+    "ticker": "DRTS",
+    "company": "Alpha Tau Medical Ltd.",
+    "cik": "1871321",
+    "accession": "news:62436537",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-19T12:35:54Z",
+    "url": "https://www.benzinga.com/news/26/10/62436537/alpha-tau-medical-receives-fda-approval-investigational-device-exemption-supplement-expand-its-u-s-r",
+    "source_excerpt": "[Benzinga news, 2026-10-19T12:35:54Z, by Benzinga Newsdesk] Alpha Tau Medical Receives FDA Approval For Investigational Device Exemption Supplement To Expand Its U.S. REGAIN Study\n\n",
+    "market_cap_usd": 1083399862.47,
+    "last_price": 12.31,
+    "also_accessions": []
+  },
+  {
+    "ticker": "EOSE",
+    "company": "Eos Energy Enterprises, Inc.",
+    "cik": "1805077",
+    "accession": "news:62436426",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-19T12:33:35Z",
+    "url": "https://www.benzinga.com/news/26/10/62436426/eos-energy-enterprises-reports-preliminary-q3-revenue-82m-83m-representing-19-21-sequential-growth-a",
+    "source_excerpt": "[Benzinga news, 2026-10-19T12:33:35Z, by Benzinga Newsdesk] Eos Energy Enterprises Reports Preliminary Q3 Revenue Of $82M To $83M, Representing ~19% To 21% Sequential Growth And ~169% To 172% YoY Growth\n\n",
+    "market_cap_usd": 761110584.9599999,
+    "last_price": 2.09,
+    "also_accessions": []
+  }
+]

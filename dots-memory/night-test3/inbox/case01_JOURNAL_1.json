@@ -1,0 +1,14 @@
+{
+ "role": "JOURNAL",
+ "verdict": "agree",
+ "headline": "Case 01 S: no trade. Convert and buyback were public since Oct 13.",
+ "reasoning": [
+  "SCOUT traced every number to the Oct 13 pricing release",
+  "Stock already down 10% from the $24.01 reference price",
+  "This is the second convert settlement in two nights (Cipher was the first). The pattern is reliable: settlement 8-Ks are late by design",
+  "Check: S versus 24.01 over the next 5 days, to see whether the post-convert selling reverses"
+ ],
+ "objections": [
+  "SCOUT: late, public since Oct 13 (case ended)"
+ ]
+}

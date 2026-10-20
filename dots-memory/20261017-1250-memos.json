@@ -1,0 +1,171 @@
+[
+  {
+    "case": 1,
+    "ticker": "OCUL",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: Ocular's strategy chief leaves to run a private company",
+        "reasoning": [
+          "Quote: 'Sanjay Nayak ... Chief Strategy Officer ... notified the Company of his resignation ... to become the Chief Executive Officer of a privately-held company'",
+          "A strategy officer, not the CEO, CFO or COO, leaving for a promotion elsewhere; no disagreement, no change in leadership",
+          "It passed the routine filter only because the filing mentions a CEO title, for his new employer"
+        ],
+        "objections": [
+          "SCOUT: routine officer departure"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 01 OCUL: no trade. Strategy officer leaves for a CEO job elsewhere.",
+        "reasoning": [
+          "SCOUT skipped it at the door",
+          "Process note: the people filter lets this through by design when a CEO title appears; harmless, costs one slot"
+        ],
+        "objections": [
+          "SCOUT: routine officer departure (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "CGBD",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: Carlyle Secured Lending sets the date of its earnings call",
+        "reasoning": [
+          "Quote: 'issued a press release announcing that it will host a conference call ... on Friday, November 6, 2026 to announce its financial results'",
+          "A calendar notice; no results, no numbers"
+        ],
+        "objections": [
+          "SCOUT: no information, only a call date"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 02 CGBD: no trade. A conference-call notice.",
+        "reasoning": [
+          "SCOUT skipped it at the door",
+          "Check: results on Nov 6"
+        ],
+        "objections": [
+          "SCOUT: no information (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "FOXF",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: Fox Factory's cut and CEO exit traded all Friday: -18% open",
+        "reasoning": [
+          "Quote: 'issued a press release announcing preliminary unaudited financial results for the third quarter ... and updating its outlook for fiscal 2026'",
+          "Quote: 'Michael C. Dennison, the Company's Chief Executive Officer (\"CEO\"), is stepping down from his role as CEO'",
+          "Real news, but not new by tonight: pre-market trades at 14.50 at 9am ET, open 15.13 versus 18.49 Thursday (-18%), volume 6x normal",
+          "The stock recovered to 16.055 by the close; the market has had a full session to price both the cut and the CEO change",
+          "The 8-K was filed at 16:06, after that session; the earnings filter passed it only because it also reports the CEO change"
+        ],
+        "objections": [
+          "SCOUT: late. Released before Friday's open and traded the full session"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 03 FOXF: no trade. Big news, fully traded before we read it.",
+        "reasoning": [
+          "SCOUT traced the release to before Friday's open using the hourly tape",
+          "Check: whether the +6% intraday recovery from the open holds over 5 days; the interim CEO's first statements"
+        ],
+        "objections": [
+          "SCOUT: late (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

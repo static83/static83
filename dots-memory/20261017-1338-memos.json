@@ -1,0 +1,172 @@
+[
+  {
+    "case": 1,
+    "ticker": "UNP",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: Union Pacific's CFO retires next year; orderly, already traded",
+        "reasoning": [
+          "Quote: 'Jennifer L. Hamann plans to retire as Executive Vice President and Chief Financial Officer effective in early 2027'",
+          "Quote: 'she will continue to maintain her current responsibilities'; no successor named, no disagreement",
+          "Released before Friday's open (filed 09:01); the stock went 289.52 to 289.07 on normal volume. The market read it as routine",
+          "A planned retirement months away, at a $172B company, is succession housekeeping"
+        ],
+        "objections": [
+          "SCOUT: orderly planned retirement; a full session showed no reaction"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 01 UNP: no trade. Planned CFO retirement, no reaction.",
+        "reasoning": [
+          "SCOUT skipped it",
+          "Check: the successor announcement when it comes"
+        ],
+        "objections": [
+          "SCOUT: orderly retirement (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "ERAS",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: Erasca cuts its COO role; stock already fell 10% on Friday",
+        "reasoning": [
+          "Quote: 'the employment of Nicholas (Nik) Chetwyn, Ph.D., the Company's Chief Operating Officer, will terminate effective November 2, 2026'",
+          "Quote: responsibilities move to others 'to streamline the Company's reporting structure'",
+          "Filed before Friday's open (09:00). Friday: 14.875 to 13.395 (-10%) on about 1.7x normal volume, just under the already-traded threshold",
+          "Whatever this means for the company, the market has had a full session on it; nothing here is unread"
+        ],
+        "objections": [
+          "SCOUT: late; public before Friday's open and traded down 10% on the day"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 02 ERAS: no trade. COO exit traded a full session (-10%).",
+        "reasoning": [
+          "SCOUT skipped it as late",
+          "Process note: the move was 1.7x normal volume, below the 2x already-traded threshold; SCOUT caught it from the tape",
+          "Check: ERAS 5-day move from 13.395"
+        ],
+        "objections": [
+          "SCOUT: late (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "AN",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: AutoNation adds an independent director",
+        "reasoning": [
+          "Quote: 'increased the size of the Board to ten directors and appointed Mark Stewart as a member of the Board'",
+          "Quote: standard director retainer of $50,000; Item 7.01 only furnishes the press release",
+          "Routine board change; the people filter now skips this pairing from the next run"
+        ],
+        "objections": [
+          "SCOUT: routine board change"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 03 AN: no trade. New board member.",
+        "reasoning": [
+          "SCOUT skipped it at the door"
+        ],
+        "objections": [
+          "SCOUT: routine board change (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

@@ -1,0 +1,15 @@
+{
+ "role": "SCOUT",
+ "verdict": "agree",
+ "headline": "ARI liquidating: last NYSE trade Nov 6, $4.10 cash paid Oct 29, stock 6.39",
+ "reasoning": [
+  "Quote: 'intends to file a Form 25 ... relating to the delisting ... on or about October 27, 2026 ... the last day of trading on the NYSE will be November 6, 2026'",
+  "Original source (Oct 9 release): initial liquidating distribution of $4.10 per share payable Oct 29, record Oct 20, due bills until Oct 29, ex-date Oct 30",
+  "Original source (liquidation proxy): estimated total liquidating distributions $7.75-$8.50 per share, complete by first half of 2028",
+  "What changed Friday: a hard date after which the shares stop trading on an exchange",
+  "Stock 6.39 Friday; 30-day mean gap 0.34%, pinned"
+ ],
+ "objections": [
+  "SCOUT: the liquidation and the $4.10 were public; only the delisting date is new"
+ ]
+}

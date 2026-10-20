@@ -1,0 +1,13 @@
+{
+ "role": "SCOUT",
+ "verdict": "object",
+ "headline": "Skip: Ocular's strategy chief leaves to run a private company",
+ "reasoning": [
+  "Quote: 'Sanjay Nayak ... Chief Strategy Officer ... notified the Company of his resignation ... to become the Chief Executive Officer of a privately-held company'",
+  "A strategy officer, not the CEO, CFO or COO, leaving for a promotion elsewhere; no disagreement, no change in leadership",
+  "It passed the routine filter only because the filing mentions a CEO title, for his new employer"
+ ],
+ "objections": [
+  "SCOUT: routine officer departure"
+ ]
+}

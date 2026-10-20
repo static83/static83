@@ -1,0 +1,325 @@
+[
+  {
+    "case": 1,
+    "ticker": "LFST",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: one director leaves the board at year-end, no disagreement",
+        "reasoning": [
+          "Quote: 'Teresa DeLuca, M.D., notified the ... board of directors ... of her resignation ... effective as of December 31, 2026'",
+          "Quote: 'The resignation is not a result of any disagreement'",
+          "No officer, no guidance, no money: nothing changed for the business"
+        ],
+        "objections": [
+          "SCOUT: routine board change"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 01 LFST: no trade. Routine board resignation.",
+        "reasoning": [
+          "SCOUT skipped it at the door",
+          "Check: none needed"
+        ],
+        "objections": [
+          "SCOUT: routine board change (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "ENVA",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: Enova formally ends a bank deal it abandoned on Sept 15",
+        "reasoning": [
+          "Quote: 'the Company and Grasshopper entered into the Mutual Termination Agreement ... the Company made a $4,000,000 cash payment'",
+          "Original source: Enova withdrew its OCC and Fed applications on Sept 14-15 (Banking Dive, Sept 15: 'Enova scraps Grasshopper deal')",
+          "The $4M fee is about 0.1% of a $4.4B market cap",
+          "Stock closed 177.61 Friday, flat on the week: the market priced the end of the deal a month ago"
+        ],
+        "objections": [
+          "SCOUT: late. The decision was public on Sept 15"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 02 ENVA: no trade. A month-old decision, formally closed.",
+        "reasoning": [
+          "SCOUT traced it to the Sept 15 withdrawal of the bank applications",
+          "Check: none needed"
+        ],
+        "objections": [
+          "SCOUT: late (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "TWI",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: CEO deferred pay of $2.3M funded with 0.5% of shares",
+        "reasoning": [
+          "Quote: 'the Company awarded Mr. Reitz deferred compensation in the amount of $2.3 million ... Payment ... will not commence until 2030'",
+          "Quote: the trust receives 'approximately 332,370 shares', about 0.5% of roughly 64M shares outstanding",
+          "Compensation housekeeping; nothing changed for the business"
+        ],
+        "objections": [
+          "SCOUT: routine compensation filing"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 03 TWI: no trade. Executive pay housekeeping.",
+        "reasoning": [
+          "SCOUT skipped it at the door",
+          "Check: none needed"
+        ],
+        "objections": [
+          "SCOUT: routine compensation filing (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 4,
+    "ticker": "ARI",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "ARI liquidating: last NYSE trade Nov 6, $4.10 cash paid Oct 29, stock 6.39",
+        "reasoning": [
+          "Quote: 'intends to file a Form 25 ... relating to the delisting ... on or about October 27, 2026 ... the last day of trading on the NYSE will be November 6, 2026'",
+          "Original source (Oct 9 release): initial liquidating distribution of $4.10 per share payable Oct 29, record Oct 20, due bills until Oct 29, ex-date Oct 30",
+          "Original source (liquidation proxy): estimated total liquidating distributions $7.75-$8.50 per share, complete by first half of 2028",
+          "What changed Friday: a hard date after which the shares stop trading on an exchange",
+          "Stock 6.39 Friday; 30-day mean gap 0.34%, pinned"
+        ],
+        "objections": [
+          "SCOUT: the liquidation and the $4.10 were public; only the delisting date is new"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "agree",
+        "headline": "Long ARI: 6.39 buys an estimated 7.75-8.50 of cash, 21-33% gross",
+        "reasoning": [
+          "Buyer at 6.39 gets 4.10 on Oct 29, leaving a stub priced at 2.29 against an estimated 3.65-4.40 still to come",
+          "The first payout came in above the proxy's 3.70-4.00 range, which supports the top half of the estimate",
+          "What the market must believe: the stub is worth about 2.29, a 37-48% haircut to management's estimate, for illiquidity and CRE credit risk",
+          "Delisting forces index funds and exchange-only holders out by Nov 6, which can push the price lower into the deadline",
+          "Holding period: the edge is only realized by holding into the liquidation through 2028. A position inside this crew's reach ends by Nov 6",
+          "Wrong if: CRE asset sales come in below book, or the stub keeps trading at a discount through Nov 6"
+        ],
+        "objections": [
+          "SCOUT: only the delisting date is new (open)"
+        ],
+        "send_back_to": null,
+        "direction": "long",
+        "horizon_days": 14,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "SKEPTIC",
+        "verdict": "agree",
+        "headline": "The discount is real but it is the price of a two-year illiquid stub",
+        "reasoning": [
+          "ANALYST is right that 2.29 for an estimated 3.65-4.40 is a wide discount; I cannot call it obviously priced in",
+          "But the estimate dates from August and assumes asset sales into a market where CRE delinquencies are rising",
+          "After Nov 6 the stub cannot be sold on an exchange; holders wait until 2028 for the rest. That alone justifies a big discount",
+          "Inside the 14 trading days this crew can hold, the thesis has no catalyst: the stub's value is not decided before Nov 6",
+          "Track record: 3 past cases, none with 5 days of history. Nothing to lean on yet",
+          "I let it through to QUANT with objections on record, because the numbers decide this one"
+        ],
+        "objections": [
+          "SCOUT: only the delisting date is new (open)",
+          "SKEPTIC 1: the 7.75-8.50 estimate is from August and assumes CRE sales hold up",
+          "SKEPTIC 2: no catalyst inside a 14-day holding window",
+          "SKEPTIC 3: the stub becomes illiquid after Nov 6"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": 0.45
+      },
+      {
+        "role": "QUANT",
+        "verdict": "object",
+        "headline": "No bracket can hold this. The Oct 30 ex-date alone fires any stop.",
+        "reasoning": [
+          "Entry would be about 6.39 (Friday close; the weekend quote of 5.47/7.39 is not a real market)",
+          "On Oct 30 the stock goes ex the $4.10 payout and should open near 2.29. Any stop above that fires mechanically on that day",
+          "The paper account does not reliably pay out liquidating distributions, so that fill would book a fake loss of about 4.10 a share: about $3,200 on a $5,000 position",
+          "Exit before Oct 30 gives up the payout, and with no catalyst before then the expected move is near zero minus the spread",
+          "Holding past Nov 6 is impossible: the shares stop trading, and the time limit and bracket legs cannot close them",
+          "No size gives positive expectancy inside this crew's tools. p_strike near 1.0 for any stop placed before the ex-date"
+        ],
+        "objections": [
+          "SCOUT: only the delisting date is new (open)",
+          "SKEPTIC 1: estimate from August (open)",
+          "SKEPTIC 2: no catalyst inside 14 days (accepted)",
+          "SKEPTIC 3: stub illiquid after Nov 6 (accepted)",
+          "QUANT: a large distribution plus delisting cannot be expressed as a bracket order"
+        ],
+        "send_back_to": null,
+        "direction": "long",
+        "horizon_days": 14,
+        "entry_price": 6.39,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": 0.95,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 04 ARI: no trade. Real discount, wrong tool. QUANT stopped it.",
+        "reasoning": [
+          "SCOUT: liquidation, $4.10 paid Oct 29, last trade Nov 6, estimated 7.75-8.50 total by 2028",
+          "ANALYST: long for a 21-33% gross discount to the estimate, realized only by holding into 2028",
+          "SKEPTIC: let it through with three objections; the discount is the price of illiquidity",
+          "QUANT: objected. The ex-date drop fires any stop, the paper account would book a fake loss, and nothing can be held past Nov 6",
+          "Lesson for SCOUT: skip liquidations with a large distribution or a delisting date inside the holding window",
+          "Check: ARI price into Oct 29 and Nov 6; size of the second liquidating distribution when declared"
+        ],
+        "objections": [
+          "SCOUT: only the delisting date is new (open)",
+          "SKEPTIC 1: estimate from August (open)",
+          "SKEPTIC 2: no catalyst inside 14 days (accepted)",
+          "SKEPTIC 3: stub illiquid after Nov 6 (accepted)",
+          "QUANT: cannot be expressed as a bracket order (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

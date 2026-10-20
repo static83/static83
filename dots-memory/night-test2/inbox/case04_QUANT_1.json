@@ -1,0 +1,24 @@
+{
+ "role": "QUANT",
+ "verdict": "object",
+ "headline": "No bracket can hold this. The Oct 30 ex-date alone fires any stop.",
+ "reasoning": [
+  "Entry would be about 6.39 (Friday close; the weekend quote of 5.47/7.39 is not a real market)",
+  "On Oct 30 the stock goes ex the $4.10 payout and should open near 2.29. Any stop above that fires mechanically on that day",
+  "The paper account does not reliably pay out liquidating distributions, so that fill would book a fake loss of about 4.10 a share: about $3,200 on a $5,000 position",
+  "Exit before Oct 30 gives up the payout, and with no catalyst before then the expected move is near zero minus the spread",
+  "Holding past Nov 6 is impossible: the shares stop trading, and the time limit and bracket legs cannot close them",
+  "No size gives positive expectancy inside this crew's tools. p_strike near 1.0 for any stop placed before the ex-date"
+ ],
+ "objections": [
+  "SCOUT: only the delisting date is new (open)",
+  "SKEPTIC 1: estimate from August (open)",
+  "SKEPTIC 2: no catalyst inside 14 days (accepted)",
+  "SKEPTIC 3: stub illiquid after Nov 6 (accepted)",
+  "QUANT: a large distribution plus delisting cannot be expressed as a bracket order"
+ ],
+ "direction": "long",
+ "entry_price": 6.39,
+ "p_strike": 0.95,
+ "horizon_days": 14
+}

@@ -1,0 +1,16 @@
+{
+ "role": "SCOUT",
+ "verdict": "agree",
+ "headline": "NioCorp: $405M cash vs ~$456M market value; all output now contracted",
+ "reasoning": [
+  "Original source (Oct 16 release): 'As of September 30, 2026, the Company had a cash balance of $405.1 million'; preliminary net income $3.7M for the quarter",
+  "Second filing, same night: 15-year take-or-pay offtake with Traxys for 50% of ferroniobium, plus exclusive marketing of all other products",
+  "The Traxys deal was announced Oct 13 (Yahoo/company release, stock +1.8% that day); it is not new",
+  "What is new Friday: the cash balance. At 3.12 the stock is about 1.13x its cash",
+  "Quote (offtake): either party may terminate 'if, by December 31, 2027, the Export-Import Bank ... has not provided final approval of senior debt financing'",
+  "Tape: 3.35 on Oct 13, 3.12 on Oct 16; 30-day mean gap 1.6%"
+ ],
+ "objections": [
+  "SCOUT: the Traxys offtake was public on Oct 13; only the cash figure is new"
+ ]
+}

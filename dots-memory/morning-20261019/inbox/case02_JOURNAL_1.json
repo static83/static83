@@ -1,0 +1,12 @@
+{
+ "role": "JOURNAL",
+ "verdict": "agree",
+ "headline": "Case 02 DRTS: no trade. Study expansion, not an approval.",
+ "reasoning": [
+  "SCOUT skipped it",
+  "Process note: 'FDA approval for IDE supplement' reads like an approval; the news filter should treat IDE and IND clearances as procedural"
+ ],
+ "objections": [
+  "SCOUT: procedural (case ended)"
+ ]
+}

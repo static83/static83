@@ -1,0 +1,12 @@
+{
+ "role": "SCOUT",
+ "verdict": "object",
+ "headline": "Skip: Carlyle Secured Lending sets the date of its earnings call",
+ "reasoning": [
+  "Quote: 'issued a press release announcing that it will host a conference call ... on Friday, November 6, 2026 to announce its financial results'",
+  "A calendar notice; no results, no numbers"
+ ],
+ "objections": [
+  "SCOUT: no information, only a call date"
+ ]
+}

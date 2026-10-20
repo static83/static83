@@ -1,0 +1,13 @@
+{
+ "role": "SCOUT",
+ "verdict": "object",
+ "headline": "Skip: Maze swaps an investor's 2.8M shares for warrants",
+ "reasoning": [
+  "Quote: 'Maze exchanged an aggregate of 2,776,007 shares ... held by the Exchanging Stockholder for pre-funded warrants'",
+  "Quote: warrants cannot be exercised if the holder 'would beneficially own more than 9.99%'",
+  "Ownership housekeeping for a large holder; exercise price $0.001, so economically the same shares. Nothing changed for the business"
+ ],
+ "objections": [
+  "SCOUT: ownership housekeeping"
+ ]
+}

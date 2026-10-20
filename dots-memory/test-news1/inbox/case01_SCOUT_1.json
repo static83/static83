@@ -1,0 +1,14 @@
+{
+ "role": "SCOUT",
+ "verdict": "object",
+ "headline": "Skip: Lilly's ESMO slate is a footnote for a $1.2 trillion company",
+ "reasoning": [
+  "News item (Benzinga, Sunday): updated Phase 3 selpercatinib data in RET-mutant medullary thyroid cancer, plus other oncology presentations at ESMO 2026",
+  "Selpercatinib (Retevmo) is an approved drug in a niche indication; an update to its data does not move a company valued at about $1.18 trillion",
+  "No financial figures, guidance or regulatory decision in the item",
+  "Pre-market: no IEX trades yet at 04:00 ET"
+ ],
+ "objections": [
+  "SCOUT: immaterial at Lilly's size; conference data on an approved niche drug"
+ ]
+}

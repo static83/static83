@@ -1,0 +1,394 @@
+{
+  "title": "DOTS night run",
+  "fictional": false,
+  "mode": "alpaca-paper",
+  "model": "claude (in session)",
+  "router": "SPIDER",
+  "started_at": "2026-10-17T12:49:12.315167+00:00",
+  "start_balance": 5000.0,
+  "hours": 1,
+  "balance": [
+    [
+      0,
+      5000.0
+    ],
+    [
+      -26,
+      5000.0
+    ]
+  ],
+  "events": [
+    {
+      "m": 0,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 0,
+      "text": "track record: 16 past case(s) on file"
+    },
+    {
+      "m": 0,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 1,
+      "text": "case 01 opened: NB 8-K items 1.01, 2.02, 7.01"
+    },
+    {
+      "m": -26,
+      "role": "SCOUT",
+      "kind": "handoff",
+      "case": 1,
+      "text": "NioCorp: $405M cash vs ~$456M market value; all output now contracted"
+    },
+    {
+      "m": -26,
+      "role": "SCOUT",
+      "kind": "objection",
+      "case": 1,
+      "text": "SCOUT: the Traxys offtake was public on Oct 13; only the cash figure is new"
+    },
+    {
+      "m": -26,
+      "role": "ANALYST",
+      "kind": "handoff",
+      "case": 1,
+      "text": "Long NB: the project is priced at ~$50M above cash with sales fully contracted"
+    },
+    {
+      "m": -26,
+      "role": "ANALYST",
+      "kind": "objection",
+      "case": 1,
+      "text": "SCOUT: the Traxys offtake was public on Oct 13; only the cash figure is new"
+    },
+    {
+      "m": -26,
+      "role": "SKEPTIC",
+      "kind": "handoff",
+      "case": 1,
+      "text": "That cash isn't spare. It's the down payment on a $1.85B build. Size the gap."
+    },
+    {
+      "m": -26,
+      "role": "SKEPTIC",
+      "kind": "objection",
+      "case": 1,
+      "text": "SCOUT: the Traxys offtake was public on Oct 13; only the cash figure is new"
+    },
+    {
+      "m": -26,
+      "role": "SKEPTIC",
+      "kind": "objection",
+      "case": 1,
+      "text": "SKEPTIC 1: cash is committed to a $1.85B capex plan; ~$1.45B gap unfunded"
+    },
+    {
+      "m": -26,
+      "role": "SKEPTIC",
+      "kind": "objection",
+      "case": 1,
+      "text": "SKEPTIC 2: equity funding at current prices would dilute holders"
+    },
+    {
+      "m": -26,
+      "role": "SKEPTIC",
+      "kind": "objection",
+      "case": 1,
+      "text": "SKEPTIC 3: quarterly net income is likely non-cash"
+    },
+    {
+      "m": -26,
+      "role": "SPIDER",
+      "kind": "send_back",
+      "case": 1,
+      "text": "SKEPTIC sent the case back to ANALYST (round 2)"
+    },
+    {
+      "m": -26,
+      "role": "ANALYST",
+      "kind": "handoff",
+      "case": 1,
+      "text": "Gap is ~$1.45B; split unknown. Thesis now rests only on EXIM approval."
+    },
+    {
+      "m": -26,
+      "role": "ANALYST",
+      "kind": "objection",
+      "case": 1,
+      "text": "SCOUT: the Traxys offtake was public on Oct 13; only the cash figure is new"
+    },
+    {
+      "m": -26,
+      "role": "ANALYST",
+      "kind": "objection",
+      "case": 1,
+      "text": "SKEPTIC 1: ~$1.45B funding gap (accepted)"
+    },
+    {
+      "m": -26,
+      "role": "ANALYST",
+      "kind": "objection",
+      "case": 1,
+      "text": "SKEPTIC 2: dilution risk (open; split unknown)"
+    },
+    {
+      "m": -26,
+      "role": "ANALYST",
+      "kind": "objection",
+      "case": 1,
+      "text": "SKEPTIC 3: net income likely non-cash (accepted)"
+    },
+    {
+      "m": -26,
+      "role": "SKEPTIC",
+      "kind": "handoff",
+      "case": 1,
+      "text": "A dateless financing bet isn't an edge. No trade."
+    },
+    {
+      "m": -26,
+      "role": "SKEPTIC",
+      "kind": "objection",
+      "case": 1,
+      "text": "SCOUT: the Traxys offtake was public on Oct 13; only the cash figure is new"
+    },
+    {
+      "m": -26,
+      "role": "SKEPTIC",
+      "kind": "objection",
+      "case": 1,
+      "text": "SKEPTIC 1: ~$1.45B funding gap (accepted)"
+    },
+    {
+      "m": -26,
+      "role": "SKEPTIC",
+      "kind": "objection",
+      "case": 1,
+      "text": "SKEPTIC 2: dilution risk (open)"
+    },
+    {
+      "m": -26,
+      "role": "SKEPTIC",
+      "kind": "objection",
+      "case": 1,
+      "text": "SKEPTIC 3: net income likely non-cash (accepted)"
+    },
+    {
+      "m": -26,
+      "role": "SKEPTIC",
+      "kind": "objection",
+      "case": 1,
+      "text": "SKEPTIC 4: no catalyst inside the holding window"
+    },
+    {
+      "m": -26,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 1,
+      "text": "SKEPTIC objected: no trade"
+    },
+    {
+      "m": -26,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 1,
+      "text": "Case 01 NB: no trade. 'Trades near cash' fell apart against $1.85B capex."
+    },
+    {
+      "m": -26,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 2,
+      "text": "case 02 opened: WAFD 8-K items 2.02"
+    },
+    {
+      "m": -26,
+      "role": "SCOUT",
+      "kind": "handoff",
+      "case": 2,
+      "text": "Skip: WaFd's earnings came out Thursday; this is the paper copy"
+    },
+    {
+      "m": -26,
+      "role": "SCOUT",
+      "kind": "objection",
+      "case": 2,
+      "text": "SCOUT: late. Results were public a full session before this filing"
+    },
+    {
+      "m": -26,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 2,
+      "text": "Case 02 WAFD: no trade. Earnings traded a full session first."
+    },
+    {
+      "m": -26,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 3,
+      "text": "case 03 opened: GLP 8-K items 1.01"
+    },
+    {
+      "m": -26,
+      "role": "SCOUT",
+      "kind": "handoff",
+      "case": 3,
+      "text": "Skip: Global Partners pushes its credit line out to 2031, same limits"
+    },
+    {
+      "m": -26,
+      "role": "SCOUT",
+      "kind": "objection",
+      "case": 3,
+      "text": "SCOUT: routine refinancing"
+    },
+    {
+      "m": -26,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 3,
+      "text": "Case 03 GLP: no trade. Routine credit line extension."
+    }
+  ],
+  "cases": [
+    {
+      "id": 1,
+      "ticker": "NB",
+      "outcome": "no_trade",
+      "rounds": 2,
+      "entry": null,
+      "stop": null,
+      "target": null,
+      "size": null,
+      "p_strike": null,
+      "risk": "PENDING",
+      "objections": 20,
+      "order": null
+    },
+    {
+      "id": 2,
+      "ticker": "WAFD",
+      "outcome": "no_trade",
+      "rounds": 1,
+      "entry": null,
+      "stop": null,
+      "target": null,
+      "size": null,
+      "p_strike": null,
+      "risk": "PENDING",
+      "objections": 2,
+      "order": null
+    },
+    {
+      "id": 3,
+      "ticker": "GLP",
+      "outcome": "no_trade",
+      "rounds": 1,
+      "entry": null,
+      "stop": null,
+      "target": null,
+      "size": null,
+      "p_strike": null,
+      "risk": "PENDING",
+      "objections": 2,
+      "order": null
+    }
+  ],
+  "receipts": {
+    "SCOUT": 6,
+    "ANALYST": 7,
+    "SKEPTIC": 11,
+    "QUANT": 0,
+    "RISK": 0,
+    "JOURNAL": 4
+  },
+  "counts": {
+    "objections": 17,
+    "source_links": 3,
+    "send_backs": 1,
+    "restarts": 0
+  },
+  "track_record": {
+    "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+    "scorecard": [
+      "SCOUT skipped 15 case(s); none has a thesis direction with 5 trading days of history yet.",
+      "SKEPTIC killed 3 case(s); none has a thesis direction with 5 trading days of history yet.",
+      "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet."
+    ],
+    "recent_cases": [
+      {
+        "ticker": "GLP",
+        "night": "20261017-1222",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "GLP",
+        "night": "20261017-1249",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "WAFD",
+        "night": "20261017-1222",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "WAFD",
+        "night": "20261017-1249",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "NB",
+        "night": "20261017-1222",
+        "ended_by": "SKEPTIC",
+        "direction": "long",
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "NB",
+        "night": "20261017-1249",
+        "ended_by": "SKEPTIC",
+        "direction": "long",
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "POST",
+        "night": "20261017-1201",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "ETN",
+        "night": "20261017-1201",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      }
+    ],
+    "cases_on_file": 19
+  }
+}

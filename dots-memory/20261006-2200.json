@@ -1,0 +1,361 @@
+{
+  "title": "DOTS night run",
+  "fictional": false,
+  "mode": "dry-run",
+  "model": "offline-script",
+  "router": "SPIDER",
+  "started_at": "2026-10-06T22:00:00+00:00",
+  "start_balance": 37.0,
+  "hours": 8,
+  "balance": [
+    [
+      0,
+      37.0
+    ],
+    [
+      468,
+      5000.0
+    ],
+    [
+      468,
+      5000.0
+    ]
+  ],
+  "events": [
+    {
+      "m": 0,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 1,
+      "text": "case 01 opened: EXMP 8-K items 1.01, 8.01"
+    },
+    {
+      "m": 37,
+      "role": "SCOUT",
+      "kind": "handoff",
+      "case": 1,
+      "text": "18% customer locked through 2031. Press release beat the filing by 40 min"
+    },
+    {
+      "m": 37,
+      "role": "SCOUT",
+      "kind": "objection",
+      "case": 1,
+      "text": "SCOUT: public 40 minutes before the filing"
+    },
+    {
+      "m": 74,
+      "role": "ANALYST",
+      "kind": "handoff",
+      "case": 1,
+      "text": "Revenue floor through 2031 lowers the discount rate, not the growth"
+    },
+    {
+      "m": 74,
+      "role": "ANALYST",
+      "kind": "objection",
+      "case": 1,
+      "text": "SCOUT: public 40 minutes before the filing (open)"
+    },
+    {
+      "m": 111,
+      "role": "SKEPTIC",
+      "kind": "handoff",
+      "case": 1,
+      "text": "Obvious, late, and the after-hours tape already moved 6%"
+    },
+    {
+      "m": 111,
+      "role": "SKEPTIC",
+      "kind": "objection",
+      "case": 1,
+      "text": "SCOUT: public 40 minutes before the filing (open)"
+    },
+    {
+      "m": 111,
+      "role": "SKEPTIC",
+      "kind": "objection",
+      "case": 1,
+      "text": "SKEPTIC: 6% after-hours move already in the price"
+    },
+    {
+      "m": 111,
+      "role": "SKEPTIC",
+      "kind": "objection",
+      "case": 1,
+      "text": "SKEPTIC: thesis has no 10-day test"
+    },
+    {
+      "m": 148,
+      "role": "QUANT",
+      "kind": "handoff",
+      "case": 1,
+      "text": "Entry 43.70, stop 41.90, target 47.00, bad exit costs $3.10 on $37"
+    },
+    {
+      "m": 148,
+      "role": "QUANT",
+      "kind": "objection",
+      "case": 1,
+      "text": "SCOUT: public 40 minutes before the filing (open)"
+    },
+    {
+      "m": 148,
+      "role": "QUANT",
+      "kind": "objection",
+      "case": 1,
+      "text": "SKEPTIC: 6% after-hours move already in the price (open)"
+    },
+    {
+      "m": 148,
+      "role": "QUANT",
+      "kind": "objection",
+      "case": 1,
+      "text": "SKEPTIC: thesis has no 10-day test (open)"
+    },
+    {
+      "m": 185,
+      "role": "RISK",
+      "kind": "handoff",
+      "case": 1,
+      "text": "Full account on one name after a 6% gap. No."
+    },
+    {
+      "m": 185,
+      "role": "RISK",
+      "kind": "objection",
+      "case": 1,
+      "text": "SCOUT: public 40 minutes before the filing (open)"
+    },
+    {
+      "m": 185,
+      "role": "RISK",
+      "kind": "objection",
+      "case": 1,
+      "text": "SKEPTIC: 6% after-hours move already in the price (open)"
+    },
+    {
+      "m": 185,
+      "role": "RISK",
+      "kind": "objection",
+      "case": 1,
+      "text": "SKEPTIC: thesis has no 10-day test (open)"
+    },
+    {
+      "m": 185,
+      "role": "RISK",
+      "kind": "objection",
+      "case": 1,
+      "text": "RISK: size exceeds the bad-exit cap"
+    },
+    {
+      "m": 185,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 1,
+      "text": "RISK objected: no trade"
+    },
+    {
+      "m": 197,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 1,
+      "text": "Case 01: no trade. Four objections, none answered."
+    },
+    {
+      "m": 197,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 2,
+      "text": "case 02 opened: SMPL 8-K items 5.02"
+    },
+    {
+      "m": 234,
+      "role": "SCOUT",
+      "kind": "handoff",
+      "case": 2,
+      "text": "CFO out effective immediately, controller interim, no PR before filing"
+    },
+    {
+      "m": 271,
+      "role": "ANALYST",
+      "kind": "handoff",
+      "case": 2,
+      "text": "Sudden CFO exit before Q3 print: short, 5-day horizon"
+    },
+    {
+      "m": 308,
+      "role": "SKEPTIC",
+      "kind": "handoff",
+      "case": 2,
+      "text": "Base rate for 'effective immediately' CFO exits is not in the memo. Get it."
+    },
+    {
+      "m": 308,
+      "role": "SKEPTIC",
+      "kind": "objection",
+      "case": 2,
+      "text": "SKEPTIC: no base rate for the pattern"
+    },
+    {
+      "m": 308,
+      "role": "SPIDER",
+      "kind": "send_back",
+      "case": 2,
+      "text": "SKEPTIC sent the case back to ANALYST (round 2)"
+    },
+    {
+      "m": 345,
+      "role": "ANALYST",
+      "kind": "handoff",
+      "case": 2,
+      "text": "Base rate added: 1 in 4 such exits precede a negative surprise within 60 days"
+    },
+    {
+      "m": 345,
+      "role": "ANALYST",
+      "kind": "objection",
+      "case": 2,
+      "text": "SKEPTIC: no base rate for the pattern (answered: 1 in 4)"
+    },
+    {
+      "m": 382,
+      "role": "SKEPTIC",
+      "kind": "handoff",
+      "case": 2,
+      "text": "One in four is a bet, not a thesis. Objection stays on record."
+    },
+    {
+      "m": 382,
+      "role": "SKEPTIC",
+      "kind": "objection",
+      "case": 2,
+      "text": "SKEPTIC: no base rate for the pattern (answered: 1 in 4)"
+    },
+    {
+      "m": 382,
+      "role": "SKEPTIC",
+      "kind": "objection",
+      "case": 2,
+      "text": "SKEPTIC: 75% chance this is noise (open)"
+    },
+    {
+      "m": 419,
+      "role": "QUANT",
+      "kind": "handoff",
+      "case": 2,
+      "text": "Short 12.60, stop 13.30, target 11.40, bad exit $0.95 on $12 size"
+    },
+    {
+      "m": 419,
+      "role": "QUANT",
+      "kind": "objection",
+      "case": 2,
+      "text": "SKEPTIC: no base rate for the pattern (answered: 1 in 4)"
+    },
+    {
+      "m": 419,
+      "role": "QUANT",
+      "kind": "objection",
+      "case": 2,
+      "text": "SKEPTIC: 75% chance this is noise (open)"
+    },
+    {
+      "m": 456,
+      "role": "RISK",
+      "kind": "handoff",
+      "case": 2,
+      "text": "One share. Bad exit 2.6% of account. Approved."
+    },
+    {
+      "m": 456,
+      "role": "RISK",
+      "kind": "objection",
+      "case": 2,
+      "text": "SKEPTIC: no base rate for the pattern (answered: 1 in 4)"
+    },
+    {
+      "m": 456,
+      "role": "RISK",
+      "kind": "objection",
+      "case": 2,
+      "text": "SKEPTIC: 75% chance this is noise (open)"
+    },
+    {
+      "m": 456,
+      "role": "SPIDER",
+      "kind": "order",
+      "case": 2,
+      "text": "dry-run: sell 1 SMPL @ 12.60 stop 13.30 target 11.40, time limit 10 trading days"
+    },
+    {
+      "m": 468,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 2,
+      "text": "Case 02: one share short, one objection still open."
+    }
+  ],
+  "cases": [
+    {
+      "id": 1,
+      "ticker": "EXMP",
+      "outcome": "no_trade",
+      "rounds": 1,
+      "entry": 43.7,
+      "stop": 41.9,
+      "target": 47.0,
+      "size": 37.0,
+      "p_strike": 0.46,
+      "risk": "REJECTED",
+      "objections": 12,
+      "order": null
+    },
+    {
+      "id": 2,
+      "ticker": "SMPL",
+      "outcome": "paper_order",
+      "rounds": 2,
+      "entry": 12.6,
+      "stop": 13.3,
+      "target": 11.4,
+      "size": 12.6,
+      "p_strike": 0.38,
+      "risk": "APPROVED",
+      "objections": 8,
+      "order": {
+        "id": "dry-run",
+        "status": "not_sent",
+        "mode": "dry-run",
+        "symbol": "SMPL",
+        "qty": "1",
+        "side": "sell",
+        "type": "limit",
+        "limit_price": "12.60",
+        "time_in_force": "gtc",
+        "order_class": "bracket",
+        "take_profit": {
+          "limit_price": "11.40"
+        },
+        "stop_loss": {
+          "stop_price": "13.30"
+        }
+      }
+    }
+  ],
+  "receipts": {
+    "SCOUT": 3,
+    "ANALYST": 5,
+    "SKEPTIC": 9,
+    "QUANT": 7,
+    "RISK": 8,
+    "JOURNAL": 2
+  },
+  "counts": {
+    "objections": 20,
+    "source_links": 2,
+    "send_backs": 1,
+    "restarts": 0
+  },
+  "track_record": {}
+}

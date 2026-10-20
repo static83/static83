@@ -1,0 +1,13 @@
+{
+ "role": "SCOUT",
+ "verdict": "object",
+ "headline": "Skip: Alpha Tau gets FDA sign-off to enlarge an ongoing device study",
+ "reasoning": [
+  "News item (Benzinga, 08:35 ET): 'Receives FDA Approval For Investigational Device Exemption Supplement To Expand Its U.S. REGAIN Study'",
+  "An IDE supplement lets a trial enrol more patients or sites; it is not a product approval and carries no efficacy data",
+  "Incremental regulatory housekeeping for an ongoing study"
+ ],
+ "objections": [
+  "SCOUT: procedural regulatory step, no approval or data"
+ ]
+}

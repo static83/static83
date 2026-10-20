@@ -1,0 +1,254 @@
+{
+  "title": "DOTS night run",
+  "fictional": false,
+  "mode": "alpaca-paper",
+  "model": "claude (in session)",
+  "router": "SPIDER",
+  "started_at": "2026-10-17T12:01:29.348042+00:00",
+  "start_balance": 5000.0,
+  "hours": 1,
+  "balance": [
+    [
+      0,
+      5000.0
+    ],
+    [
+      0,
+      5000.0
+    ]
+  ],
+  "events": [
+    {
+      "m": 0,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 0,
+      "text": "track record: 13 past case(s) on file"
+    },
+    {
+      "m": 0,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 1,
+      "text": "case 01 opened: COST 8-K items 5.02"
+    },
+    {
+      "m": 0,
+      "role": "SCOUT",
+      "kind": "handoff",
+      "case": 1,
+      "text": "Skip: Costco sets fiscal 2027 executive bonus targets"
+    },
+    {
+      "m": 0,
+      "role": "SCOUT",
+      "kind": "objection",
+      "case": 1,
+      "text": "SCOUT: routine compensation filing"
+    },
+    {
+      "m": 0,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 1,
+      "text": "Case 01 COST: no trade. Annual bonus criteria."
+    },
+    {
+      "m": 0,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 2,
+      "text": "case 02 opened: ETN 8-K items 8.01"
+    },
+    {
+      "m": 0,
+      "role": "SCOUT",
+      "kind": "handoff",
+      "case": 2,
+      "text": "Skip: Eaton re-cuts 2025 figures for a segment change made in Q1"
+    },
+    {
+      "m": 0,
+      "role": "SCOUT",
+      "kind": "objection",
+      "case": 2,
+      "text": "SCOUT: no new information; a mechanical recast of numbers already public"
+    },
+    {
+      "m": 0,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 2,
+      "text": "Case 02 ETN: no trade. A paperwork recast, not news."
+    },
+    {
+      "m": 0,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 3,
+      "text": "case 03 opened: POST 8-K items 5.02"
+    },
+    {
+      "m": 0,
+      "role": "SCOUT",
+      "kind": "handoff",
+      "case": 3,
+      "text": "Skip: Post's accounting chief on medical leave; CFO covers"
+    },
+    {
+      "m": 0,
+      "role": "SCOUT",
+      "kind": "objection",
+      "case": 3,
+      "text": "SCOUT: routine; temporary leave covered by the CFO"
+    },
+    {
+      "m": 0,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 3,
+      "text": "Case 03 POST: no trade. Temporary leave, routine code update."
+    }
+  ],
+  "cases": [
+    {
+      "id": 1,
+      "ticker": "COST",
+      "outcome": "no_trade",
+      "rounds": 1,
+      "entry": null,
+      "stop": null,
+      "target": null,
+      "size": null,
+      "p_strike": null,
+      "risk": "PENDING",
+      "objections": 2,
+      "order": null
+    },
+    {
+      "id": 2,
+      "ticker": "ETN",
+      "outcome": "no_trade",
+      "rounds": 1,
+      "entry": null,
+      "stop": null,
+      "target": null,
+      "size": null,
+      "p_strike": null,
+      "risk": "PENDING",
+      "objections": 2,
+      "order": null
+    },
+    {
+      "id": 3,
+      "ticker": "POST",
+      "outcome": "no_trade",
+      "rounds": 1,
+      "entry": null,
+      "stop": null,
+      "target": null,
+      "size": null,
+      "p_strike": null,
+      "risk": "PENDING",
+      "objections": 2,
+      "order": null
+    }
+  ],
+  "receipts": {
+    "SCOUT": 6,
+    "ANALYST": 0,
+    "SKEPTIC": 0,
+    "QUANT": 0,
+    "RISK": 0,
+    "JOURNAL": 4
+  },
+  "counts": {
+    "objections": 3,
+    "source_links": 3,
+    "send_backs": 0,
+    "restarts": 0
+  },
+  "track_record": {
+    "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+    "scorecard": [
+      "SCOUT skipped 11 case(s); none has a thesis direction with 5 trading days of history yet.",
+      "SKEPTIC killed 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+      "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet."
+    ],
+    "recent_cases": [
+      {
+        "ticker": "POST",
+        "night": "20261017-1201",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "ETN",
+        "night": "20261017-1201",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "COST",
+        "night": "20261017-1201",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "WSBF",
+        "night": "20261017-1154",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "IONQ",
+        "night": "20261017-1154",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "S",
+        "night": "20261017-1154",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "ARI",
+        "night": "20261017-1143",
+        "ended_by": "QUANT",
+        "direction": "long",
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "TWI",
+        "night": "20261017-1143",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      }
+    ],
+    "cases_on_file": 13
+  }
+}

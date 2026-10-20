@@ -1,0 +1,19 @@
+{
+ "role": "SKEPTIC",
+ "verdict": "object",
+ "headline": "A dateless financing bet isn't an edge. No trade.",
+ "reasoning": [
+  "ANALYST has conceded the value case; what is left is 'EXIM might approve', with no date inside a 15-day window",
+  "The offtake that improves the odds was public on Oct 13 and the stock fell 7% since; the market has had it for four sessions",
+  "Dilution risk is open and unsized",
+  "Track record: 13 past cases, none with 5 days of history yet. No evidence that my kills are too strict"
+ ],
+ "objections": [
+  "SCOUT: the Traxys offtake was public on Oct 13; only the cash figure is new",
+  "SKEPTIC 1: ~$1.45B funding gap (accepted)",
+  "SKEPTIC 2: dilution risk (open)",
+  "SKEPTIC 3: net income likely non-cash (accepted)",
+  "SKEPTIC 4: no catalyst inside the holding window"
+ ],
+ "priced_in_score": 0.7
+}

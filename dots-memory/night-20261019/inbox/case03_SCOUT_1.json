@@ -1,0 +1,7 @@
+{"role":"SCOUT","verdict":"object","headline":"Stale: CEO change and preliminary Q3 were public at 7:36am and traded all day",
+"reasoning":["Filing 17:27 ET (items 2.02, 5.02, 7.01): 'Daniel Brown notified the Company of his decision to resign as President & Chief Executive Officer ... effective October 19, 2026, to pursue another professional opportunity'; 'the Board appointed and elected Michael Lou as President & Chief Executive Officer'. Lou was EVP and Chief Strategy/Commercial Officer, and CFO before that.",
+"The same news was public before today's open: Benzinga 11:36 UTC 'Chord Energy Appoints Michael Lou President, CEO, Effective Immediately, Succeeding Danny Brown' and 11:40 UTC 'Chord Energy Reports Preliminary Q3 Total Production 290.5K-290.9K Boe/d'. The filing itself says the release went out October 19.",
+"A full regular session has already traded it: Oct 19 opened 152.55 (-1.3% vs 154.59) and closed 154.46 (-0.1%) on 39,020 IEX shares against a 36,590 median. The market shrugged.",
+"What the 8-K adds is minor: Brown resigned without Good Reason, so no severance, and there was 'no disagreement'. An insider successor with CFO history makes a disorderly exit less likely.",
+"No consensus figure for Q3 production in hand, so we cannot even say whether the preliminary number beat; and after-hours IEX shows no trades."],
+"objections":["Stale: the press release went out before Monday's open, and a full session traded it with no reaction."]}

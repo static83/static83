@@ -1,0 +1,140 @@
+{
+  "role": "JOURNAL",
+  "packet": {
+    "case": 3,
+    "account": {
+      "equity_usd": 5000.0,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "CHRD",
+      "company": "Chord Energy Corp",
+      "cik": "1486159",
+      "accession": "0001486159-26-000037",
+      "items": [
+        "2.02",
+        "5.02",
+        "7.01"
+      ],
+      "filed_at": "2026-10-19T17:27:39-04:00",
+      "url": "https://www.sec.gov/Archives/edgar/data/1486159/000148615926000037/chrd-20261016.htm",
+      "source_excerpt": "Item 2.02 Results of Operations and Financial Condition. On October 19, 2026, Chord Energy Corporation (the \u201cCompany\u201d) issued a press release reporting certain preliminary financial results for the three-month period ended September 30, 2026. A copy of the press release is attached hereto as Exhibit 99.1 and incorporated by reference herein. Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. Departure of President & Chief Executive Officer On October 16, 2026, Daniel Brown notified the Company of his decision to resign as President & Chief Executive Officer, as a member of the Board of Directors of the Company (the \u201cBoard\u201d), and from all other positions he holds with the Company and its subsidiaries, effective October 19, 2026, to pursue another professional opportunity. Because Mr. Brown is resigning from his employment with the Company without Good Reason (as defined in the Company\u2019s Executive Severance Plan), he will not be entitled to any severance related payments or benefits. Mr. Brown\u2019s resignation was not the result of any disagreement with the Company on any matter relating to operations, policies, or practices. Appointment of President & Chief Executive Officer and Director On October 18, 2026, the Board appointed and elected Michael Lou as President & Chief Executive Officer of the Company and as principal executive officer under Section 16a-1(f) of the Securities Exchange Act of 1934, as amended (the \u201cExchange Act\u201d), effective as of October 19, 2026. In addition, the Board appointed Mr. Lou as a director of the Company, effective as of October 19, 2026, to fill the vacancy resulting from Mr. Brown\u2019s resignation from the Board. Currently, Mr. Lou will not serve on any committees of the Board. Mr. Lou, age 52, previously served as the Company\u2019s Executive Vice President, Chief Strategy Officer and Chief Commercial Officer from March 2024 through October 2026. Formerly, he was Executive Vice President and Chief Financial Officer of the Company from July 2022 to March 2024. Prior to the merger of Whiting Petroleum Corporation and Oasis Petroleum Inc., he served in roles including Chief Financial Officer and Executive Vice President for Oasis Petroleum Inc. and its subsidiaries, and President and Director of the general partner of Oasis Midstream Partners LP. Mr. Lou began his career in investment banking, where he spent 10 years holding positions of increasing responsibility at a number of global investment banks focused in the energy sector. Mr. Lou holds a Bachelor of Science in Electrical Engineering from Southern Methodist University. There are no arrangements or understandings between Mr. Lou and any other persons pursuant to which he was selected to serve as the Company\u2019s Chief Executive Officer. There are no family relationships between Mr. Lou and any director or executive officer of the Company, and Mr. Lou has no direct or indirect material interest in any transaction required to be disclosed pursuant to Item 404(a) of Regulation S-K. As of the date of filing of this Current Report on Form 8-K, the Company has not entered into any material plan, contract or arrangement or made any amendment thereto or made any grant or award with or to Mr. Lou in connection with Mr. Lou\u2019s appointment as President & Chief Executive Officer. Mr. Lou remains subject to the Company\u2019s Executive Severance Plan and Mr. Lou\u2019s previously reported compensatory arrangements, grants and awards remain in effect. The Company intends to file an amendment to this filing containing the information called for by Item 5.02(c)(3) and/or Item 5.02(d)(5) of Form 8-K within four business days after the information is determined or becomes available. Item 7.01 Regulation FD Disclosure. On October 19, 2026, the Company issued a press release announcing the leadership transition described in Item 5.02 of this Current Report on Form 8-K. A copy of the press release is furnished as Exhibit 99.2 to this Current Report on Form 8-K and is incorporated by reference into this Item 7.01. Item 9.01 Financial Statements and Exhibits. (d) Exhibits . Exhibit No. Description of Exhibit 99.1 Press release dated October 19, 2026, announcing select preliminary third quarter 2026 financial results. 99.2 Press release dated October 19, 2026, announcing leadership transition. 104 Cover Page Interactive Data File - the cover page interactive data file does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document. In accordance with General Instruction B.2 of Form 8-K, the information set forth in Items 2.02 and 7.01 of this Current Report on Form 8-K, including Exhibits 99.1 and 99.2 attached hereto, is being furnished and shall not be deemed \u201cfiled\u201d for purposes of Section 18 of the Exchange Act, or otherwise subject to the liabilities of that Section, nor shall it be deemed incorporated by reference into any filings under the Securities Act of 1933, as amended, or the Exchange Act, whether made before or after the date hereof and regardless of any general incorporation language in such filings, except to the extent expressly set forth by specific reference in any such filing. The filing of this Current Report on Form 8-K shall not be deemed an admission as to the materiality of any information herein that is or may be required to be disclosed solely by reason of Regulation FD. SIGNATURE Pursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized. CHORD ENERGY CORPORATION (Registrant) Date: October 19, 2026 By: /s/ Richard Robuck Richard Robuck Executive Vice President, Chief Financial Officer & Treasurer",
+      "market_cap_usd": 8448633309.120001,
+      "last_price": 154.46,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "outcome": "no_trade",
+      "order": null
+    },
+    "memos_so_far": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Stale: CEO change and preliminary Q3 were public at 7:36am and traded all day",
+        "reasoning": [
+          "Filing 17:27 ET (items 2.02, 5.02, 7.01): 'Daniel Brown notified the Company of his decision to resign as President & Chief Executive Officer ... effective October 19, 2026, to pursue another professional opportunity'; 'the Board appointed and elected Michael Lou as President & Chief Executive Officer'. Lou was EVP and Chief Strategy/Commercial Officer, and CFO before that.",
+          "The same news was public before today's open: Benzinga 11:36 UTC 'Chord Energy Appoints Michael Lou President, CEO, Effective Immediately, Succeeding Danny Brown' and 11:40 UTC 'Chord Energy Reports Preliminary Q3 Total Production 290.5K-290.9K Boe/d'. The filing itself says the release went out October 19.",
+          "A full regular session has already traded it: Oct 19 opened 152.55 (-1.3% vs 154.59) and closed 154.46 (-0.1%) on 39,020 IEX shares against a 36,590 median. The market shrugged.",
+          "What the 8-K adds is minor: Brown resigned without Good Reason, so no severance, and there was 'no disagreement'. An insider successor with CFO history makes a disorderly exit less likely.",
+          "No consensus figure for Q3 production in hand, so we cannot even say whether the preliminary number beat; and after-hours IEX shows no trades."
+        ],
+        "objections": [
+          "Stale: the press release went out before Monday's open, and a full session traded it with no reaction."
+        ]
+      }
+    ],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 30 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 5 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "MMM",
+          "night": "20261020-0216",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "DMLP",
+          "night": "20261020-0216",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "EOSE",
+          "night": "20261019-1247",
+          "ended_by": "SKEPTIC",
+          "direction": "short",
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "DRTS",
+          "night": "20261019-1247",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "TBN",
+          "night": "20261019-1247",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "NVDA",
+          "night": "20261019-0801",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "NTRA",
+          "night": "20261019-0801",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "LLY",
+          "night": "20261019-0801",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 36
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

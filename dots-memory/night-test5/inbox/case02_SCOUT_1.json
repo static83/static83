@@ -1,0 +1,13 @@
+{
+ "role": "SCOUT",
+ "verdict": "object",
+ "headline": "Skip: WaFd's earnings came out Thursday; this is the paper copy",
+ "reasoning": [
+  "Quote: 'On October 15, 2026, the Company announced by press release its earnings for the quarter and fiscal year ended September 30, 2026'",
+  "The 8-K was filed on Oct 16 at 16:34; the market traded the results for the whole Friday session (29.44 to 29.15)",
+  "Nothing in this filing is new beyond the attached release"
+ ],
+ "objections": [
+  "SCOUT: late. Results were public a full session before this filing"
+ ]
+}

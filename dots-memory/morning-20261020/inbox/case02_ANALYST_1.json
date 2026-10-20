@@ -1,0 +1,9 @@
+{"role":"ANALYST","verdict":"agree","headline":"Long HAS: a 2% pre-market pop prices the refund, not a 2-point higher margin for the year",
+"reasoning":["What changed: Hasbro lifted 2026 in all three guided lines. Revenue growth is now 7-9% (was 5-7%), adjusted operating margin 27-28% (was 25-26%), and adjusted EBITDA $1.575-1.625B (was $1.45-1.50B, +$125M at the midpoint, +8.5%).",
+"Strip the one-off: the ~$55M of tariff refunds sit inside that raise. Excluding them, EBITDA guidance still rises about $70M, roughly +4.7%, and that comes from Magic and mix, which recur.",
+"What the market must believe at +2% (Benzinga's pre-market print, $100.50): the beat was mostly the refund and timing. The release contradicts that. Wizards grew 31% with a 49% operating margin, and Magic topped $600M in a quarter for the first time.",
+"Mechanism: a raised full-year guide on recurring segment strength tends to drift as estimates move up over the following days. Sell-side models update after the 8:30 call, not before the open.",
+"Direction long, horizon_days 5: long enough for estimate revisions to land, and it exits before Hasbro's next catalyst.",
+"Proves me wrong: HAS trades back below Monday's $98.405 close at any point today; or the call reveals the raise is mostly Q3 timing, i.e. implied Q4 revenue growth below the 5-7% original pace."],
+"objections":["About $55M of the quarter's profit is tariff refunds, not repeatable."],
+"direction":"long","horizon_days":5}

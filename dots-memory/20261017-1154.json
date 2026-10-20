@@ -1,0 +1,254 @@
+{
+  "title": "DOTS night run",
+  "fictional": false,
+  "mode": "alpaca-paper",
+  "model": "claude (in session)",
+  "router": "SPIDER",
+  "started_at": "2026-10-17T11:54:51.966958+00:00",
+  "start_balance": 5000.0,
+  "hours": 1,
+  "balance": [
+    [
+      0,
+      5000.0
+    ],
+    [
+      0,
+      5000.0
+    ]
+  ],
+  "events": [
+    {
+      "m": 0,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 0,
+      "text": "track record: 7 past case(s) on file"
+    },
+    {
+      "m": 0,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 1,
+      "text": "case 01 opened: S 8-K items 1.01, 8.01"
+    },
+    {
+      "m": 0,
+      "role": "SCOUT",
+      "kind": "handoff",
+      "case": 1,
+      "text": "Skip: SentinelOne settles a convert and buyback announced Oct 13"
+    },
+    {
+      "m": 0,
+      "role": "SCOUT",
+      "kind": "objection",
+      "case": 1,
+      "text": "SCOUT: late. Priced and announced Oct 13; Friday's filing is settlement only"
+    },
+    {
+      "m": 0,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 1,
+      "text": "Case 01 S: no trade. Convert and buyback were public since Oct 13."
+    },
+    {
+      "m": 0,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 2,
+      "text": "case 02 opened: IONQ 8-K items 8.01"
+    },
+    {
+      "m": 0,
+      "role": "SCOUT",
+      "kind": "handoff",
+      "case": 2,
+      "text": "Skip: IonQ's $2B share-and-warrant sale was priced Wednesday"
+    },
+    {
+      "m": 0,
+      "role": "SCOUT",
+      "kind": "objection",
+      "case": 2,
+      "text": "SCOUT: late. Priced Oct 14"
+    },
+    {
+      "m": 0,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 2,
+      "text": "Case 02 IONQ: no trade. Equity raise priced two days earlier."
+    },
+    {
+      "m": 0,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 3,
+      "text": "case 03 opened: WSBF 8-K items 5.02"
+    },
+    {
+      "m": 0,
+      "role": "SCOUT",
+      "kind": "handoff",
+      "case": 3,
+      "text": "Skip: Waterstone director leaves for a new job, no disagreement"
+    },
+    {
+      "m": 0,
+      "role": "SCOUT",
+      "kind": "objection",
+      "case": 3,
+      "text": "SCOUT: routine board change"
+    },
+    {
+      "m": 0,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 3,
+      "text": "Case 03 WSBF: no trade. Routine board resignation."
+    }
+  ],
+  "cases": [
+    {
+      "id": 1,
+      "ticker": "S",
+      "outcome": "no_trade",
+      "rounds": 1,
+      "entry": null,
+      "stop": null,
+      "target": null,
+      "size": null,
+      "p_strike": null,
+      "risk": "PENDING",
+      "objections": 2,
+      "order": null
+    },
+    {
+      "id": 2,
+      "ticker": "IONQ",
+      "outcome": "no_trade",
+      "rounds": 1,
+      "entry": null,
+      "stop": null,
+      "target": null,
+      "size": null,
+      "p_strike": null,
+      "risk": "PENDING",
+      "objections": 2,
+      "order": null
+    },
+    {
+      "id": 3,
+      "ticker": "WSBF",
+      "outcome": "no_trade",
+      "rounds": 1,
+      "entry": null,
+      "stop": null,
+      "target": null,
+      "size": null,
+      "p_strike": null,
+      "risk": "PENDING",
+      "objections": 2,
+      "order": null
+    }
+  ],
+  "receipts": {
+    "SCOUT": 6,
+    "ANALYST": 0,
+    "SKEPTIC": 0,
+    "QUANT": 0,
+    "RISK": 0,
+    "JOURNAL": 4
+  },
+  "counts": {
+    "objections": 3,
+    "source_links": 3,
+    "send_backs": 0,
+    "restarts": 0
+  },
+  "track_record": {
+    "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+    "scorecard": [
+      "SCOUT skipped 8 case(s); none has a thesis direction with 5 trading days of history yet.",
+      "SKEPTIC killed 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+      "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet."
+    ],
+    "recent_cases": [
+      {
+        "ticker": "WSBF",
+        "night": "20261017-1154",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "IONQ",
+        "night": "20261017-1154",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "S",
+        "night": "20261017-1154",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "ARI",
+        "night": "20261017-1143",
+        "ended_by": "QUANT",
+        "direction": "long",
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "TWI",
+        "night": "20261017-1143",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "ENVA",
+        "night": "20261017-1143",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "LFST",
+        "night": "20261017-1143",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "CIFR",
+        "night": "20261017-1112",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      }
+    ],
+    "cases_on_file": 10
+  }
+}

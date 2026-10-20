@@ -1,0 +1,13 @@
+{
+ "role": "JOURNAL",
+ "verdict": "agree",
+ "headline": "Case 02 NTRA: no trade. The headline oversold a poster.",
+ "reasoning": [
+  "SCOUT read Natera's own release: abstract 808P is a counterfactual decision-impact analysis, presented Oct 25",
+  "Lesson: news headlines can overstate trial data; the primary-source rule caught it",
+  "Check: whether outcome data from SAGITTARIUS are presented later at ESMO (LBA slots Oct 26)"
+ ],
+ "objections": [
+  "SCOUT: secondary analysis (case ended)"
+ ]
+}

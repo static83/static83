@@ -1,0 +1,18 @@
+{
+ "role": "ANALYST",
+ "verdict": "agree",
+ "headline": "Long ARI: 6.39 buys an estimated 7.75-8.50 of cash, 21-33% gross",
+ "reasoning": [
+  "Buyer at 6.39 gets 4.10 on Oct 29, leaving a stub priced at 2.29 against an estimated 3.65-4.40 still to come",
+  "The first payout came in above the proxy's 3.70-4.00 range, which supports the top half of the estimate",
+  "What the market must believe: the stub is worth about 2.29, a 37-48% haircut to management's estimate, for illiquidity and CRE credit risk",
+  "Delisting forces index funds and exchange-only holders out by Nov 6, which can push the price lower into the deadline",
+  "Holding period: the edge is only realized by holding into the liquidation through 2028. A position inside this crew's reach ends by Nov 6",
+  "Wrong if: CRE asset sales come in below book, or the stub keeps trading at a discount through Nov 6"
+ ],
+ "objections": [
+  "SCOUT: only the delisting date is new (open)"
+ ],
+ "direction": "long",
+ "horizon_days": 14
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "ticker": "LLY",
+    "company": "ELI LILLY & Co",
+    "cik": "59478",
+    "accession": "news:62431016",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-19T06:53:13Z",
+    "url": "https://www.benzinga.com/news/26/10/62431016/reported-sunday-lilly-brings-updated-phase-3-selpercatinib-data-versus-cabozantinib-or-vandetanib-re",
+    "source_excerpt": "[Benzinga news, 2026-10-19T06:53:13Z, by Benzinga Newsdesk] Reported Sunday, Lilly Brings Updated Phase 3 Selpercatinib Data Versus Cabozantinib Or Vandetanib In RET-Mutant Medullary Thyroid Cancer To ESMO 2026, Alongside Sofetabart Mipitecan, Olomorasib And Abemaciclib Presentations\n\n",
+    "market_cap_usd": 1183587064965.8,
+    "last_price": 1257.32,
+    "also_accessions": []
+  },
+  {
+    "ticker": "NTRA",
+    "company": "Natera, Inc.",
+    "cik": "1604821",
+    "accession": "news:62430994",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-19T06:49:54Z",
+    "url": "https://www.benzinga.com/quote/NTRA",
+    "source_excerpt": "[Benzinga news, 2026-10-19T06:49:54Z, by Benzinga Newsdesk] Reported Sunday, Natera Will Unveil SAGITTARIUS Phase III Data At ESMO 2026 Showing Signatera Results Changed Treatment Plans For One In Three Colon Cancer Patients, Of Which 87% De-Escalated On MRD Negativity\n\n",
+    "market_cap_usd": 56696226386.1,
+    "last_price": 393.33,
+    "also_accessions": []
+  },
+  {
+    "ticker": "NVDA",
+    "company": "NVIDIA CORP",
+    "cik": "1045810",
+    "accession": "news:62430888",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-19T06:37:30Z",
+    "url": "https://www.benzinga.com/news/26/10/62430888/santander-agrees-three-year-collaboration-framework-nvidia-marking-new-ai-milestone-and-building-cap",
+    "source_excerpt": "[Benzinga news, 2026-10-19T06:37:30Z, by Benzinga Newsdesk] Santander Agrees Three-Year Collaboration Framework With Nvidia, Marking New AI Milestone And Building Capabilities On Nvidia AI Infrastructure\n\n",
+    "market_cap_usd": 5160412500000.0,
+    "last_price": 214.125,
+    "also_accessions": []
+  }
+]

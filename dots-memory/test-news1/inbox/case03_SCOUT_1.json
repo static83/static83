@@ -1,0 +1,13 @@
+{
+ "role": "SCOUT",
+ "verdict": "object",
+ "headline": "Skip: a Santander AI framework is noise for a $5 trillion Nvidia",
+ "reasoning": [
+  "News item: 'Santander Agrees Three-Year Collaboration Framework With Nvidia'",
+  "No contract value disclosed; one bank customer among thousands of AI infrastructure buyers",
+  "Immaterial to a company valued at about $5.2 trillion"
+ ],
+ "objections": [
+  "SCOUT: immaterial customer announcement"
+ ]
+}

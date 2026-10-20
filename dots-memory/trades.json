@@ -1,0 +1,16 @@
+{
+  "1a77807f-125c-4889-80dd-47f74de251e5": {
+    "order_id": "1a77807f-125c-4889-80dd-47f74de251e5",
+    "case_key": "test-order-path",
+    "symbol": "F",
+    "side": "buy",
+    "qty": 1,
+    "entry_limit": 12.3,
+    "stop": 11.93,
+    "target": 12.67,
+    "horizon_days": 1,
+    "status": "pending",
+    "opened_at": "2026-10-20T13:06:29.564951+00:00",
+    "test": true
+  }
+}

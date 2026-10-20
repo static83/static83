@@ -1,0 +1,173 @@
+[
+  {
+    "case": 1,
+    "ticker": "COST",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: Costco sets fiscal 2027 executive bonus targets",
+        "reasoning": [
+          "Quote: 'the Compensation Committee ... approved the fiscal 2027 criteria for bonuses to executive officers'",
+          "Quote: 'the Chief Executive Officer is eligible to receive a base bonus of $1.2 million' on a $435B company",
+          "Annual compensation housekeeping; nothing changed for the business"
+        ],
+        "objections": [
+          "SCOUT: routine compensation filing"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 01 COST: no trade. Annual bonus criteria.",
+        "reasoning": [
+          "SCOUT skipped it at the door",
+          "Check: none needed"
+        ],
+        "objections": [
+          "SCOUT: routine compensation filing (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "ETN",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: Eaton re-cuts 2025 figures for a segment change made in Q1",
+        "reasoning": [
+          "Quote: 'filing this Current Report on Form 8-K solely to recast certain segment financial information'",
+          "Quote: 'The changes do not represent a restatement of previously issued financial statements'",
+          "The new Mobility segment was already reported in the 10-Qs filed May 5 and July 31",
+          "The stock fell from 428.35 to 391.20 this week, but nothing in this filing explains it; the move came before it"
+        ],
+        "objections": [
+          "SCOUT: no new information; a mechanical recast of numbers already public"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 02 ETN: no trade. A paperwork recast, not news.",
+        "reasoning": [
+          "SCOUT skipped it: the segment change has been public since May",
+          "Separate note: ETN is down 8.7% on the week for reasons outside this filing; not this crew's case without a filing that explains it"
+        ],
+        "objections": [
+          "SCOUT: no new information (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "POST",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: Post's accounting chief on medical leave; CFO covers",
+        "reasoning": [
+          "Quote: 'Bradly A. Harper, the Company's Senior Vice President, Chief Accounting Officer, will be taking a temporary medical leave of absence'",
+          "Quote: the CFO 'will serve as Interim Chief Accounting Officer'",
+          "Quote (Item 5.05): the new Code of Conduct 'does not relate to, and its adoption will not result in, any waiver'",
+          "A temporary, medical, internally covered absence is not the pattern that precedes restatements (contrast: a sudden unexplained exit)",
+          "Stock 78.60, up on the week, 30-day mean gap 0.63%"
+        ],
+        "objections": [
+          "SCOUT: routine; temporary leave covered by the CFO"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 03 POST: no trade. Temporary leave, routine code update.",
+        "reasoning": [
+          "SCOUT skipped it at the door",
+          "Check: whether the leave turns into a departure in a later 8-K"
+        ],
+        "objections": [
+          "SCOUT: routine; temporary leave covered by the CFO (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

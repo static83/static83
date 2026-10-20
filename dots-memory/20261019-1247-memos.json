@@ -1,0 +1,235 @@
+[
+  {
+    "case": 1,
+    "ticker": "TBN",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: Tamboran's 'new CEO' has run the company since January",
+        "reasoning": [
+          "News item (Benzinga, 08:40 ET): 'Tamboran Resources Appoints Todd Abbott CEO'",
+          "Primary sources: Todd Abbott has been CEO since January 15, 2026 (company management page, Q2 earnings call); the October change added the Managing Director title",
+          "The headline is stale; nothing changed for the business this morning"
+        ],
+        "objections": [
+          "SCOUT: not news; the CEO has been in place since January"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 01 TBN: no trade. Misleading headline; CEO in place since January.",
+        "reasoning": [
+          "SCOUT checked the primary source and found the appointment is nine months old",
+          "Lesson: news-feed appointment headlines need checking against the company's own record"
+        ],
+        "objections": [
+          "SCOUT: not news (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "DRTS",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: Alpha Tau gets FDA sign-off to enlarge an ongoing device study",
+        "reasoning": [
+          "News item (Benzinga, 08:35 ET): 'Receives FDA Approval For Investigational Device Exemption Supplement To Expand Its U.S. REGAIN Study'",
+          "An IDE supplement lets a trial enrol more patients or sites; it is not a product approval and carries no efficacy data",
+          "Incremental regulatory housekeeping for an ongoing study"
+        ],
+        "objections": [
+          "SCOUT: procedural regulatory step, no approval or data"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 02 DRTS: no trade. Study expansion, not an approval.",
+        "reasoning": [
+          "SCOUT skipped it",
+          "Process note: 'FDA approval for IDE supplement' reads like an approval; the news filter should treat IDE and IND clearances as procedural"
+        ],
+        "objections": [
+          "SCOUT: procedural (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "EOSE",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "Eos: Q3 revenue $82-83M, but full year now 'lower half' of $300-350M",
+        "reasoning": [
+          "Primary source: Eos release, Oct 19, 'Announces Preliminary Third Quarter 2026 Revenue Growth'",
+          "Quote: 'Revenue of $82 to $83 million, representing approximately 19% to 21% sequential growth'",
+          "Quote: 'GAAP gross margin of (55)% to (53)%, representing an improvement of approximately 16 to 18 percentage points'",
+          "Quote: 'Total cash ... approximately $344 million as of September 30, 2026, compared to $364 million as of June 30'",
+          "Quote: 'The Company currently expects full-year 2026 revenue in the lower half of its $300 million to $350 million range' (the range itself was cut from $300-400M in August)",
+          "Fresh: released before the open; pre-market last 2.09 vs 1.815 close (+15%) on only 3,639 IEX shares"
+        ],
+        "objections": [
+          "SCOUT: the full-year outlook moved to the lower half of an already-cut range"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "agree",
+        "headline": "Short EOSE: a 15% pop on a release that trims the full year again",
+        "reasoning": [
+          "The headline is revenue growth; the substance is the second guidance trim in three months, to the lower half of $300-350M",
+          "Gross margin is still about minus 54%; the company loses money on every unit it ships, and cash fell $20M even with $87M of new DOE loan money",
+          "A 15% pre-market jump on 3,600 shares is a headline reaction, not considered buying",
+          "What the market must believe at 2.09: that the revenue ramp outweighs the trim and the burn",
+          "Direction short, horizon 5 trading days; wrong if the regular-session open confirms the move on heavy volume"
+        ],
+        "objections": [
+          "SCOUT: the full-year outlook moved to the lower half of an already-cut range"
+        ],
+        "send_back_to": null,
+        "direction": "short",
+        "horizon_days": 5,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "SKEPTIC",
+        "verdict": "object",
+        "headline": "Fading a squeeze-prone stock at the open, blind to consensus. No.",
+        "reasoning": [
+          "ANALYST calls the pop a misread, but we do not know what Q3 revenue the market expected. If consensus was near $75M, $82-83M is a clean beat and the trim may already be priced",
+          "'Lower half of $300-350M' still means $300M or more; whether that is a cut versus expectations depends on consensus we do not have",
+          "EOSE has a history of heavy short interest and violent squeezes; shorting it into an opening pop is where shorts get run over",
+          "The 15% is on 3,600 IEX shares. The real price discovery happens at 9:30, after this crew has to commit; QUANT would be setting an entry on a guess",
+          "Track record: 31 cases, none with 5 days of history. Nothing tells us fades like this work for this crew",
+          "Recommend no trade"
+        ],
+        "objections": [
+          "SCOUT: the full-year outlook moved to the lower half of an already-cut range",
+          "SKEPTIC 1: no consensus figure, so 'beat' or 'miss' is unknown",
+          "SKEPTIC 2: squeeze risk shorting a heavily shorted stock into strength",
+          "SKEPTIC 3: entry would be set on thin pre-market prints before the open"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": 0.5
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 03 EOSE: no trade. A real fade idea, killed for missing consensus.",
+        "reasoning": [
+          "SCOUT: Q3 revenue $82-83M, margins up, but full year guided to the lower half of an already-cut range",
+          "ANALYST: short the +15% pre-market pop, 5-day horizon",
+          "SKEPTIC: no consensus number, squeeze risk, thin pre-market entry; objected",
+          "Check: EOSE open versus 2.09 pre-market and 1.815 close; 5-day move. This scores SKEPTIC's kill directly",
+          "Process note: the crew needs a consensus estimate source to judge beats and misses"
+        ],
+        "objections": [
+          "SCOUT: the full-year outlook moved to the lower half of an already-cut range",
+          "SKEPTIC 1: consensus unknown (case ended)",
+          "SKEPTIC 2: squeeze risk",
+          "SKEPTIC 3: thin pre-market entry"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

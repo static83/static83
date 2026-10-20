@@ -1,0 +1,108 @@
+SCOUT scanning EDGAR 8-K feed...
+  skip NRUC: already judged on an earlier night
+  skip YHC: market cap 2M below floor
+  skip GPRO: already judged on an earlier night
+  skip OPNW: routine board or officer change, no top officer leaving or arriving
+  skip CNDT: market cap 217M below floor
+  skip GBFH: market cap 255M below floor
+  skip CIFR: already judged on an earlier night
+  skip LFST: already judged on an earlier night
+  skip ENVA: already judged on an earlier night
+  skip TWI: already judged on an earlier night
+  skip S: already judged on an earlier night
+  skip NRXP: market cap 113M below floor
+  skip XTIA: routine items only
+  skip NB: already judged on an earlier night
+  skip ADIL: market cap 9M below floor
+  skip SBMT: routine board or officer change, no top officer leaving or arriving
+  skip MEDS: market cap 8M below floor
+  skip FMHS: no price at Alpaca, so it cannot be paper traded
+  skip MOBX: market cap 7M below floor
+  skip ARI: already judged on an earlier night
+  skip IAM: no share count on file at the SEC, market cap unknown
+  skip BLIN: routine items only
+  skip NB: already judged on an earlier night
+  skip ROLR: routine items only
+  skip CGC: routine items only
+  skip ADBT: market cap 57M below floor
+  skip IONQ: already judged on an earlier night
+  skip ACAA: routine pay or award filing, no top officer leaving or arriving
+  skip HURA: routine items only
+  skip PMCB: routine items only
+  skip WSBF: already judged on an earlier night
+  skip MDCX: routine items only
+  skip LYV: settles a previously announced deal ('closed its previously announced')
+  skip LASE: market cap 36M below floor
+  skip COST: already judged on an earlier night
+  skip ETN: already judged on an earlier night
+  skip KINS: market cap 270M below floor
+  skip ALEC: underwritten offering, which is announced the day it is priced
+  skip CALC: market cap 39M below floor
+  skip TCRX: routine board or officer change, no top officer leaving or arriving
+  skip BHR: market cap 100M below floor
+  skip CRDO: routine items only
+  skip DAIC: market cap 3M below floor
+  skip POST: already judged on an earlier night
+  skip FRAF: market cap 286M below floor
+  skip WAFD: already judged on an earlier night
+  skip NKLR: routine items only
+  skip ACXP: routine items only
+  skip AENT: routine pay or award filing, no top officer leaving or arriving
+  skip ARAI: routine items only
+  skip LUCD: routine items only
+  skip POLA: routine items only
+  skip PEP: closing of a bond offering, which is announced when it is priced
+  skip HIT: routine items only
+  skip COCH: routine items only
+  skip KBR: routine items only
+  skip BMRC: routine board or officer change, no top officer leaving or arriving
+  skip SRV: no share count on file at the SEC, market cap unknown
+  skip REKR: routine items only
+  skip PG: routine items only
+  skip TOMZ: market cap 12M below floor
+  skip GLP: already judged on an earlier night
+  skip OCUL: already judged on an earlier night
+  skip ASUR: market cap 204M below floor
+  skip AMZE: market cap 2M below floor
+  skip QUCY: market cap 90M below floor
+  skip FFIN: earnings out Oct 15; the market has traded 1 full session(s) on them
+  skip CGBD: already judged on an earlier night
+  skip KRP: no share count on file at the SEC, market cap unknown
+  skip EHTH: routine items only
+  skip ATLO: market cap 283M below floor
+  skip CJMB: routine items only
+  skip AIMD: market cap 7M below floor
+  skip BTU: routine items only
+  skip AIBT: no price at Alpaca, so it cannot be paper traded
+  skip SMG: routine board or officer change, no top officer leaving or arriving
+  skip FOXF: already judged on an earlier night
+  skip ATHR: routine items only
+  skip BGMS: market cap 6M below floor
+  skip FIEE: market cap 31M below floor
+  skip VIVS: market cap 2M below floor
+  skip SITC: routine items only
+  pulled MAZE: items 1.01
+  skip T: routine board or officer change, no top officer leaving or arriving
+  skip EDGM: no price at Alpaca, so it cannot be paper traded
+  skip CCIF: no share count on file at the SEC, market cap unknown
+  skip ATYR: routine items only
+  pulled CPRT: items 5.02
+  skip PAYX: routine items only
+  skip WYY: market cap 62M below floor
+  skip GLXZ: no price at Alpaca, so it cannot be paper traded
+  skip AAME: market cap 22M below floor
+  skip HGIT: no price at Alpaca, so it cannot be paper traded
+  skip LCU: no price at Alpaca, so it cannot be paper traded
+  skip HWKE: no price at Alpaca, so it cannot be paper traded
+  skip DPLS: no price at Alpaca, so it cannot be paper traded
+  skip ASGI: no share count on file at the SEC, market cap unknown
+  skip CSBR: routine items only
+  pulled TEX: items 8.01
+  13:21  JOURNAL  track record: 22 past case(s) on file
+  record   SCOUT skipped 18 case(s); none has a thesis direction with 5 trading days of history yet.
+  record   SKEPTIC killed 3 case(s); none has a thesis direction with 5 trading days of history yet.
+  record   QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.
+  13:21  SPIDER   case 01 opened: MAZE 8-K items 1.01
+
+WAITING for memo case01_SCOUT_1
+  packet: runs/night-test7/outbox/case01_SCOUT_1.json

@@ -1,0 +1,174 @@
+[
+  {
+    "case": 1,
+    "ticker": "LLY",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: Lilly's ESMO slate is a footnote for a $1.2 trillion company",
+        "reasoning": [
+          "News item (Benzinga, Sunday): updated Phase 3 selpercatinib data in RET-mutant medullary thyroid cancer, plus other oncology presentations at ESMO 2026",
+          "Selpercatinib (Retevmo) is an approved drug in a niche indication; an update to its data does not move a company valued at about $1.18 trillion",
+          "No financial figures, guidance or regulatory decision in the item",
+          "Pre-market: no IEX trades yet at 04:00 ET"
+        ],
+        "objections": [
+          "SCOUT: immaterial at Lilly's size; conference data on an approved niche drug"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 01 LLY: no trade. Conference data, immaterial at this size.",
+        "reasoning": [
+          "SCOUT skipped it",
+          "Process note: big-company conference slates are a recurring news-feed false positive"
+        ],
+        "objections": [
+          "SCOUT: immaterial (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "NTRA",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: Natera's 'Phase III data' is a decision-impact poster, not outcomes",
+        "reasoning": [
+          "Primary source: Natera release, Oct 18, 6:10pm ET, 'ESMO 2026 Presentations Deepen the Evidence Base', announcing 20 abstracts",
+          "Quote: 'the analysis showed that Signatera results influenced a change to providers' pre-planned treatment for one in three patients, of which 87% were treatment de-escalated based on MRD negativity'",
+          "Quote: 'Poster: ctDNA negativity influences adjuvant treatment decisions: a paired counterfactual analysis from the SAGITTARIUS trial' (abstract 808P, Oct 25)",
+          "This measures how doctors changed plans, not whether patients did better. The trial's outcome results are not in it",
+          "Benzinga's headline overstates it; for a $57B company built on Signatera, supportive marketing evidence is expected, not news"
+        ],
+        "objections": [
+          "SCOUT: secondary analysis in a promotional preview; no outcome data"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 02 NTRA: no trade. The headline oversold a poster.",
+        "reasoning": [
+          "SCOUT read Natera's own release: abstract 808P is a counterfactual decision-impact analysis, presented Oct 25",
+          "Lesson: news headlines can overstate trial data; the primary-source rule caught it",
+          "Check: whether outcome data from SAGITTARIUS are presented later at ESMO (LBA slots Oct 26)"
+        ],
+        "objections": [
+          "SCOUT: secondary analysis (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "NVDA",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Skip: a Santander AI framework is noise for a $5 trillion Nvidia",
+        "reasoning": [
+          "News item: 'Santander Agrees Three-Year Collaboration Framework With Nvidia'",
+          "No contract value disclosed; one bank customer among thousands of AI infrastructure buyers",
+          "Immaterial to a company valued at about $5.2 trillion"
+        ],
+        "objections": [
+          "SCOUT: immaterial customer announcement"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "Case 03 NVDA: no trade. One customer framework, no figures.",
+        "reasoning": [
+          "SCOUT skipped it",
+          "Process note: partner announcements about mega-caps are a recurring news-feed false positive"
+        ],
+        "objections": [
+          "SCOUT: immaterial (case ended)"
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]
