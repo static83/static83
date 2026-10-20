@@ -149,10 +149,18 @@ Open `dashboard/index.html` through any static server (`python -m http.server -d
 press REPLAY. With no `runs/latest.json` present it replays a built-in sample night, labelled as
 fictional. After a real run, it replays that run's ledger instead.
 
+## How an order enters
+
+Every bracket's entry is a stop-limit, not a plain limit. It goes live only while the price is at
+least halfway from the stop to the entry, so an open that gaps through the stop does not fill the
+crew on top of its own stop (the first test order, on Ford, filled at 11.92 against an 11.93 stop
+and was stopped out 41 seconds later). If the entry fills better than planned, the next run moves
+the stop and target by the same amount, so the dollar risk stays what RISK approved.
+
 ## Checking the order path, and keeping the memory
 
 `python test_order.py` sends one small paper bracket order (1 share of F by default, stop and
-target 3% away, closed after one trading day). It is recorded in `runs/trades.json` marked as a
+target 3% away, closed after one trading day; `python test_order.py F 1 1 8` widens them to 8%). It is recorded in `runs/trades.json` marked as a
 test: the runs settle it like any trade, but it stays out of the crew's scorecard and never
 blocks a real case under the one-position rule.
 

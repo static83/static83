@@ -11,6 +11,9 @@ import requests
 from .config import RUNS_DIR, settings
 
 BASELINE_FILE = RUNS_DIR / "balance_baseline.json"
+# Share of the planned room between entry and stop that must still be there for the entry to fill.
+# A buy triggers only at or above entry - 0.5 x (entry - stop); a short only at or below the mirror level.
+ENTRY_GUARD = 0.5
 
 
 class PaperOnlyError(RuntimeError):
@@ -110,6 +113,14 @@ class PaperBroker:
         r = self.session.get(f"{self.base}/v2/orders/{order_id}", params={"nested": "true"}, timeout=20)
         return r.json() if r.status_code == 200 else None
 
+    def replace_order(self, order_id: str, **prices: float) -> Optional[dict]:
+        """Reprice a working order (a bracket's stop or target leg). Alpaca answers with the replacement."""
+        if self.dry_run:
+            return None
+        body = {k: f"{v:.2f}" for k, v in prices.items()}
+        r = self.session.patch(f"{self.base}/v2/orders/{order_id}", json=body, timeout=20)
+        return r.json() if r.status_code == 200 else None
+
     def cancel_order(self, order_id: str) -> bool:
         if self.dry_run:
             return False
@@ -136,11 +147,16 @@ class PaperBroker:
     ) -> dict:
         if qty < 1:
             raise ValueError("bracket orders need at least one whole share")
+        # The entry is a stop-limit: it only goes live while the price is on the entry's side of a
+        # trigger halfway between the stop and the entry. An open that gaps through the stop never
+        # triggers it, so the crew is not filled on top of its own stop (see ENTRY_GUARD).
+        trigger = entry - ENTRY_GUARD * (entry - stop)
         body = {
             "symbol": symbol,
             "qty": str(qty),
             "side": side,
-            "type": "limit",
+            "type": "stop_limit",
+            "stop_price": f"{trigger:.2f}",
             "limit_price": f"{entry:.2f}",
             # gtc so the stop-loss and take-profit legs stay live after the first session.
             # An entry that has not filled by the next night is cancelled by cancel_stale_entries().

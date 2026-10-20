@@ -186,6 +186,7 @@ def review_trades(broker, log) -> list[dict]:
             t.update(status="open", fill_price=float(parent["filled_avg_price"]), filled_at=parent["filled_at"])
             changed.append(t)
             log(f"{t['symbol']}: entry filled {t['qty']} @ {t['fill_price']:.2f}")
+            _reanchor(broker, t, parent, log)
 
         # A bracket leg that filled means the stop or the target did its job.
         for leg in parent.get("legs") or []:
@@ -224,6 +225,32 @@ def review_trades(broker, log) -> list[dict]:
                 log(f"{t['symbol']}: held {held} of {t['horizon_days']} trading days, time limit hit, closing at the next open")
     _save(TRADES, trades)
     return changed
+
+
+def _reanchor(broker, t: dict, parent: dict, log) -> None:
+    """Keep the stop and target the planned distance from the price actually paid.
+
+    A limit entry fills at its limit or better, so a fill below a long's limit leaves less room to
+    the stop than QUANT planned. Shift both legs by the gap; the dollar risk stays what RISK sized."""
+    gap = round(t["fill_price"] - t["entry_limit"], 2)
+    if abs(gap) < 0.01:
+        return
+    moved = {}
+    for leg in parent.get("legs") or []:
+        if leg.get("status") not in ("new", "accepted", "held", "pending_new"):
+            continue  # already filled or cancelled; nothing left to move
+        if leg.get("type") == "stop" and leg.get("stop_price"):
+            new = round(float(leg["stop_price"]) + gap, 2)
+            if broker.replace_order(leg["id"], stop_price=new):
+                moved["stop"] = new
+        elif leg.get("type") == "limit" and leg.get("limit_price"):
+            new = round(float(leg["limit_price"]) + gap, 2)
+            if broker.replace_order(leg["id"], limit_price=new):
+                moved["target"] = new
+    if moved:
+        t.update(moved, reanchored_by=gap)
+        log(f"{t['symbol']}: filled {gap:+.2f} from the planned entry, moved "
+            + ", ".join(f"{k} to {v:.2f}" for k, v in moved.items()))
 
 
 # ---- what happened next, for every case ---------------------------------------------------
