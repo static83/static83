@@ -1,0 +1,7 @@
+{"role":"SCOUT","verdict":"object","headline":"Small-bank beat of 7 cents, partly a lower provision; out pre-open, stock already +2.2% on thin trade",
+"reasoning":["Primary source: 8-K item 2.02 filed 11:14 ET, Exhibit 99.1 'Capital City Bank Group, Inc. Reports Third Quarter 2026 Results'. Benzinga had the numbers at 07:01 ET ('Q3 EPS $0.99 Beats $0.92 Estimate, Sales $64.394M Miss $65.400M Estimate'), so the release preceded the filing by four hours: late.",
+"Quoted: 'net income attributable to common shareowners of $16.9 million, or $0.99 per diluted share, for the third quarter of 2026 compared to $16.3 million, or $0.95 per diluted share, for the second quarter'.",
+"Quoted: 'Net interest margin increased 7 basis points to 4.42%'; 'Credit loss provision decreased $1.0 million'; 'Noninterest income decreased $1.2 million, or 5.9%'; 'Loan balances decreased $10.3 million, or 0.4% (average)'.",
+"What changed: little. Earnings rose 4 cents on the quarter, and part of that is a smaller provision; loans shrank and fee income fell. Revenue missed by Benzinga's estimate.",
+"Already traded: the release went out before the open and CCBG is +2.2% today (48.665 to 49.76), on 1,097 IEX shares; since the 11:14 filing there have been no IEX trades at all, so we cannot read the reaction or fill cleanly."],
+"objections":["Late: the release came out at 07:01 ET, four hours before the filing.","Routine quarter: a 7-cent beat helped by a lower provision, with a revenue miss; no outlook change.","Too thin on IEX to read or trade the reaction."]}

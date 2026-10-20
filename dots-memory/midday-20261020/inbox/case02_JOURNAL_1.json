@@ -1,0 +1,6 @@
+{"role":"JOURNAL","verdict":"agree","headline":"QGEN: no trade. Unconfirmed M&A-blog takeover rumor; the stock moved before the headline",
+"reasoning":["Benzinga relayed a rumor from an unnamed M&A blog; Qiagen has said nothing and no bidder is named.",
+"QGEN is +3.6% on the day, but only +0.9% since the headline: the tape moved first.",
+"Ranking note: 'takeover' in an explicitly unconfirmed headline scored weight 3. Unconfirmed rumors could weigh less than confirmed events.",
+"Check later: QGEN 5-day return. A fade would confirm leaving rumors alone; a confirmed bid would show what skipping costs."],
+"objections":["Unconfirmed rumor with no primary source; the price move preceded and prompted the headline."]}

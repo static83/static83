@@ -1,0 +1,185 @@
+[
+  {
+    "case": 1,
+    "ticker": "CCBG",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Small-bank beat of 7 cents, partly a lower provision; out pre-open, stock already +2.2% on thin trade",
+        "reasoning": [
+          "Primary source: 8-K item 2.02 filed 11:14 ET, Exhibit 99.1 'Capital City Bank Group, Inc. Reports Third Quarter 2026 Results'. Benzinga had the numbers at 07:01 ET ('Q3 EPS $0.99 Beats $0.92 Estimate, Sales $64.394M Miss $65.400M Estimate'), so the release preceded the filing by four hours: late.",
+          "Quoted: 'net income attributable to common shareowners of $16.9 million, or $0.99 per diluted share, for the third quarter of 2026 compared to $16.3 million, or $0.95 per diluted share, for the second quarter'.",
+          "Quoted: 'Net interest margin increased 7 basis points to 4.42%'; 'Credit loss provision decreased $1.0 million'; 'Noninterest income decreased $1.2 million, or 5.9%'; 'Loan balances decreased $10.3 million, or 0.4% (average)'.",
+          "What changed: little. Earnings rose 4 cents on the quarter, and part of that is a smaller provision; loans shrank and fee income fell. Revenue missed by Benzinga's estimate.",
+          "Already traded: the release went out before the open and CCBG is +2.2% today (48.665 to 49.76), on 1,097 IEX shares; since the 11:14 filing there have been no IEX trades at all, so we cannot read the reaction or fill cleanly."
+        ],
+        "objections": [
+          "Late: the release came out at 07:01 ET, four hours before the filing.",
+          "Routine quarter: a 7-cent beat helped by a lower provision, with a revenue miss; no outlook change.",
+          "Too thin on IEX to read or trade the reaction."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "CCBG: no trade. Out at 7am, a small provision-aided beat, already +2.2% on almost no IEX volume",
+        "reasoning": [
+          "EPS $0.99 vs $0.92 estimate and $0.95 last quarter; net interest margin 4.42% (+7bp); provision down $1.0M; loans down 0.4%; revenue missed.",
+          "The release went out at 07:01 ET; the 8-K came at 11:14 ET, after the reaction.",
+          "Data note: no IEX trades since the filing; the midday packet now says so explicitly instead of showing nothing.",
+          "Pattern: second small-bank quarter today (SFST this morning). Every 2.02 weighs 3, so routine bank results keep reaching the crew.",
+          "Check later: CCBG 5-day return from tomorrow's open."
+        ],
+        "objections": [
+          "Late: the release came out at 07:01 ET, four hours before the filing.",
+          "Routine quarter: a 7-cent beat helped by a lower provision, with a revenue miss; no outlook change.",
+          "Too thin on IEX to read or trade the reaction."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "QGEN",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Unconfirmed: a takeover rumor from an M&A blog, no statement from Qiagen or any bidder",
+        "reasoning": [
+          "The story is not a source. Benzinga 15:06 UTC, quoted in full: 'Watching Qiagen; Shares Move Higher, Traders Circulate Unconfirmed Rumor From M&A Blog Suggesting The Co Is Seeing Takeover Interest'. No body text, no named blog, no named bidder.",
+          "Primary source: none. Qiagen has made no statement; there is no filing, no exchange notice, no regulator notice. This is UNCONFIRMED and is flagged as such.",
+          "The move came first and the headline describes it: QGEN is +3.6% on the day (46.54 to 48.20) on 176,833 IEX shares, about 1.5x its recent days; since the headline it is only +0.9%.",
+          "Nothing changed for the business that we can quote. The crew has no way to test a rumor's odds, and a denial or silence usually gives the move back."
+        ],
+        "objections": [
+          "Unconfirmed rumor with no primary source; the price move preceded and prompted the headline."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "QGEN: no trade. Unconfirmed M&A-blog takeover rumor; the stock moved before the headline",
+        "reasoning": [
+          "Benzinga relayed a rumor from an unnamed M&A blog; Qiagen has said nothing and no bidder is named.",
+          "QGEN is +3.6% on the day, but only +0.9% since the headline: the tape moved first.",
+          "Ranking note: 'takeover' in an explicitly unconfirmed headline scored weight 3. Unconfirmed rumors could weigh less than confirmed events.",
+          "Check later: QGEN 5-day return. A fade would confirm leaving rumors alone; a confirmed bid would show what skipping costs."
+        ],
+        "objections": [
+          "Unconfirmed rumor with no primary source; the price move preceded and prompted the headline."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "TSLA",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Not news: a Benzinga viewer poll on whether Tesla and SpaceX will merge",
+        "reasoning": [
+          "Benzinga 15:05 UTC: 'EXCLUSIVE: Tesla SpaceX Merger? 70% of Benzinga Viewers Say Elon Musk Will Get There \u2014 But Not When You Think'.",
+          "Quoted from the body: 'Benzinga polled its \"PreMarket Playbook\" audience ... The latest poll included responses from 100 viewers.' It also cites Kalshi odds of 15% for a merger before Jan. 1, 2027.",
+          "Primary source: none. Neither Tesla nor SpaceX has announced or filed anything about a merger; the article is opinion about a possibility.",
+          "Nothing changed for the business. TSLA is -0.6% since the article, which is noise for this stock."
+        ],
+        "objections": [
+          "Commentary: a 100-viewer poll about a hypothetical merger, with no company statement."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "TSLA: no trade. A 100-viewer poll about a hypothetical SpaceX merger is not an event",
+        "reasoning": [
+          "The headline's 'EXCLUSIVE' and 'merger' scored it as material; the content is a poll of Benzinga's show audience.",
+          "No company statement, filing or regulator notice exists.",
+          "Filter gap: polls and 'viewers say' pieces should be treated as commentary by the news filter. Added after this run.",
+          "Nothing to check later beyond the usual 5-day return."
+        ],
+        "objections": [
+          "Commentary: a 100-viewer poll about a hypothetical merger, with no company statement."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]
