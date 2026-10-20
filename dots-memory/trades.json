@@ -18,5 +18,23 @@
     "exit_reason": "stop",
     "closed_at": "2026-10-20T13:31:09.854703117Z",
     "pnl": -0.02
+  },
+  "2f4628f4-fb80-4cd4-b20c-4241374d9f23": {
+    "order_id": "2f4628f4-fb80-4cd4-b20c-4241374d9f23",
+    "case_key": "test-order-path",
+    "symbol": "F",
+    "side": "buy",
+    "qty": 1,
+    "entry_limit": 11.97,
+    "stop": 10.96,
+    "target": 12.88,
+    "horizon_days": 1,
+    "status": "open",
+    "opened_at": "2026-10-20T13:34:08.552263+00:00",
+    "test": true,
+    "fill_price": 11.92,
+    "filled_at": "2026-10-20T13:34:09.84468844Z",
+    "reanchored_by": -0.05,
+    "days_held": 0
   }
 }
