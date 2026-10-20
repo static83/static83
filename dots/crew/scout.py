@@ -422,6 +422,17 @@ _HEAVY_ITEMS = {"1.03", "2.02", "3.01", "4.02"}
 _NOTABLE_ITEMS = {"1.01", "1.02", "2.01", "2.05", "2.06", "4.01", "5.01", "5.02"}
 
 
+# The standard 8-K item headings, which would otherwise read as events ('Delisting', 'Bankruptcy').
+_ITEM_TITLES = re.compile(
+    r"item\s+\d\.\d\d\.?\s*(entry into a material definitive agreement|termination of a material definitive agreement|"
+    r"bankruptcy or receivership|completion of acquisition or disposition of assets|"
+    r"results of operations and financial condition|notice of delisting or failure to satisfy a continued listing rule "
+    r"or standard; transfer of listing|departure of directors or certain officers;[^.]*|regulation fd disclosure|"
+    r"other events)?\.?",
+    re.IGNORECASE,
+)
+
+
 def filing_weight(items: list[str], body: str) -> int:
     """1-3, like news.weight. 'Other events' filings are weighed by what their text announces."""
     from .news import weight
@@ -429,6 +440,7 @@ def filing_weight(items: list[str], body: str) -> int:
     w = 3 if _HEAVY_ITEMS & set(items) else 2 if _NOTABLE_ITEMS & set(items) else 1
     if w < 3 and {"7.01", "8.01"} & set(items):
         said = re.split(r"\bitem\s+9\.01|\bsignatures?\b", body, maxsplit=1, flags=re.IGNORECASE)[0]
+        said = _ITEM_TITLES.sub(" ", said)  # 'Notice of Delisting...' is a form heading, not news
         w = max(w, weight(said[:800]))  # stop before the exhibit list and the signer's title
     return w
 
@@ -442,6 +454,7 @@ def find_candidates(
     log=print,
     skip: set[str] | None = None,
     recent_tickers: Iterable[str] = (),
+    news: Optional[dict[str, list[dict]]] = None,
 ) -> list[Candidate]:
     """Apply the SCOUT filters in order and hand back at most `limit` candidates.
 
@@ -488,7 +501,8 @@ def find_candidates(
             continue
         body = excerpt(text)
         prior = (settles_prior_news(items, body) or routine_people_filing(items, body)
-                 or late_earnings(items, body, entry["filed_at"]) or call_notice_only(items, body))
+                 or late_earnings(items, body, entry["filed_at"]) or call_notice_only(items, body)
+                 or told_by_news((news or {}).get(ticker, []), body, entry["company"]))
         if prior:
             log(f"  skip {ticker}: {prior}")
             continue
@@ -534,6 +548,64 @@ def find_candidates(
 
 
 # ---- second source: Benzinga news through Alpaca ------------------------------------------
+def news_subject(item: dict, by_ticker: dict) -> Optional[str]:
+    """The company the headline is about: of the tagged symbols, the one named first in it."""
+    tagged = [t for t in item["symbols"] if t in by_ticker]
+    head = item["headline"].lower()
+    best, best_pos = None, len(head) + 1
+    for t in tagged:
+        name = re.sub(r"[^a-z0-9 ]", " ", by_ticker[t][1].get("title", "").lower()).split()
+        spots = [m.start() for m in re.finditer(rf"\b{re.escape(t.lower())}\b", head)]
+        if name and name[0] in head:
+            spots.append(head.index(name[0]))
+        if spots and min(spots) < best_pos:
+            best, best_pos = t, min(spots)
+    return best or (tagged[0] if tagged else None)
+
+
+def material_news(edgar: Edgar, items: list[dict]) -> dict[str, list[dict]]:
+    """Material single-company items grouped by the company they are about, newest first."""
+    from .news import classify
+
+    by_ticker = {v["ticker"]: (cik, v) for cik, v in edgar.tickers().items()}
+    groups: dict[str, list[dict]] = {}
+    for item in items:
+        if classify(item):
+            continue
+        ticker = news_subject(item, by_ticker)
+        if ticker:  # else not a US-listed SEC registrant, nothing to paper trade
+            groups.setdefault(ticker, []).append(item)
+    return groups
+
+
+def _created(item: dict) -> datetime:
+    return datetime.fromisoformat(item["created_at"].replace("Z", "+00:00"))
+
+
+_GENERIC = set("""announces announced reports reported company corporation holdings group shares stock
+quarter results million billion effective with from into that this their after over under amid says
+inc corp ltd plc""".split())
+
+
+def told_by_news(news: list[dict], body: str, company: str, now: Optional[datetime] = None) -> Optional[str]:
+    """Why a filing is old news: a Benzinga headline on the same company and the same event went
+    out before a regular session that has since closed. Same event means at least two of the
+    headline's distinctive words (names, terms; not the company's own name) appear in the filing."""
+    now = now or datetime.now(timezone.utc)
+    text = body.lower()
+    own = set(re.findall(r"[a-z]{4,}", company.lower()))
+    for item in news:
+        created = _created(item)
+        if _sessions_closed(created, now) < 1:
+            continue
+        words = {w for w in re.findall(r"[a-z]{4,}", item["headline"].lower()) if w not in _GENERIC and w not in own}
+        hits = [w for w in words if w[:6] in text]
+        if len(hits) >= 2:
+            when = created.astimezone(NY).strftime("%b %d %H:%M ET")
+            return f"already public: Benzinga '{item['headline'][:70]}' at {when}, and a full session has traded since"
+    return None
+
+
 def find_news_candidates(
     edgar: Edgar,
     data,
@@ -542,50 +614,30 @@ def find_news_candidates(
     skip: set[str] | None = None,
     recent_tickers: set[str] | None = None,
     now: Optional[datetime] = None,
+    groups: Optional[dict[str, list[dict]]] = None,
 ) -> list[Candidate]:
     """Material single-company news no regular session has traded yet, through the same checks
     as filings: a price at Alpaca, a recent share count, the market-cap floor, and no visible
-    reaction already."""
-    from .news import classify, clean_text, fetch_news, first_public_session, weight
+    reaction already. A company with several headlines gets one case, on its heaviest fresh one."""
+    from .news import clean_text, fetch_news, first_public_session, weight
 
     now = now or datetime.now(timezone.utc)
+    if groups is None:
+        groups = material_news(edgar, fetch_news(data, now - timedelta(hours=since_hours), now))
     by_ticker = {v["ticker"]: (cik, v) for cik, v in edgar.tickers().items()}
     out: list[Candidate] = []
-    seen_tickers: set[str] = set()
     stale = 0
 
-    def subject(item: dict) -> Optional[str]:
-        """The company the headline is about: of the tagged symbols, the one named first in it."""
-        tagged = [t for t in item["symbols"] if t in by_ticker]
-        head = item["headline"].lower()
-        best, best_pos = None, len(head) + 1
-        for t in tagged:
-            name = re.sub(r"[^a-z0-9 ]", " ", by_ticker[t][1].get("title", "").lower()).split()
-            spots = [m.start() for m in re.finditer(rf"\b{re.escape(t.lower())}\b", head)]
-            if name and name[0] in head:
-                spots.append(head.index(name[0]))
-            if spots and min(spots) < best_pos:
-                best, best_pos = t, min(spots)
-        return best or (tagged[0] if tagged else None)
-
-    for item in fetch_news(data, now - timedelta(hours=since_hours), now):
-        if classify(item):
-            continue
-        ticker = subject(item)
-        if ticker is None:
-            continue  # not a US-listed SEC registrant, nothing to paper trade
-        if ticker in seen_tickers:
-            continue  # newest material item per company only
-        seen_tickers.add(ticker)
-        head = item["headline"]
-        created = datetime.fromisoformat(item["created_at"].replace("Z", "+00:00"))
-        if skip and f"news:{item['id']}" in skip:
-            log(f"  news skip {ticker}: already judged on an earlier run")
-            continue
+    for ticker, items in groups.items():
         if recent_tickers and ticker in recent_tickers:
             log(f"  news skip {ticker}: the crew judged this company in the last 3 days")
             continue
-        if _sessions_closed(created, now) >= 1:
+        fresh = [i for i in items if not (skip and f"news:{i['id']}" in skip)]
+        if not fresh:
+            log(f"  news skip {ticker}: already judged on an earlier run")
+            continue
+        live = [i for i in fresh if _sessions_closed(_created(i), now) < 1]
+        if not live:
             stale += 1  # already traded by a full session; counted, not logged one by one
             continue
         price = data.last_price(ticker)
@@ -606,19 +658,26 @@ def find_news_candidates(
         if thin:
             log(f"  news skip {ticker}: {thin}")
             continue
+        heaviest = max(weight(i["headline"], cap, price) for i in live)
+        item = next(i for i in live if weight(i["headline"], cap, price) == heaviest)  # newest of the heaviest
+        created = _created(item)
         traded = already_traded(bars, first_public_session(created), now)
         if traded:
             log(f"  news skip {ticker}: {traded}")
             continue
+        head = item["headline"]
         body = clean_text(item.get("content")) or clean_text(item.get("summary"))
+        others = [f"- {i['created_at']} {i['headline']}" for i in items if i is not item][:5]
+        also = ("\n[Other material headlines on this company in the window]\n" + "\n".join(others)) if others else ""
         excerpt_text = (f"[Benzinga news, {item['created_at']}, by {item.get('author') or 'staff'}] {head}\n"
-                        f"{clean_text(item.get('summary'))}\n{body}")[:EXCERPT_CHARS]
+                        f"{clean_text(item.get('summary'))}\n{body}{also}")[:EXCERPT_CHARS]
         out.append(Candidate(
             ticker=ticker, company=info.get("title", ticker), cik=cik, accession=f"news:{item['id']}",
             items=["news"], filed_at=item["created_at"], url=item.get("url") or "",
-            source_excerpt=excerpt_text, market_cap_usd=cap, last_price=price, weight=weight(head),
+            source_excerpt=excerpt_text, market_cap_usd=cap, last_price=price, weight=heaviest,
+            also_accessions=[f"news:{i['id']}" for i in live if i is not item],
         ))
-        log(f"  news pulled {ticker}: {head[:90]}")
+        log(f"  news pulled {ticker} (weight {heaviest}): {head[:90]}")
     if stale:
-        log(f"  news skip {stale} material item(s) a full session has already traded")
+        log(f"  news skip {stale} compan(ies) whose material news a full session has already traded")
     return out

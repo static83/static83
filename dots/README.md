@@ -78,13 +78,20 @@ source with an official timestamp, so "pull the original source" is literal. Fil
    folded into that company's case.
 12. At most `DOTS_MAX_CANDIDATES` handoffs a night (default 3). Depth, not volume. The heaviest
    events go first, and the newest breaks ties:
-   - weight 3: results (2.02), bankruptcy, delisting, restated accounts, or an "other events"
-     filing that announces a deal, a trial readout, a guidance change or a new CEO
-   - weight 2: material agreements, completed deals, impairments, officer changes, contracts,
-     lawsuits, buybacks
+   - weight 3: results (2.02), or an "other events" filing that announces a deal, a trial
+     readout, a guidance change or a new CEO (the standard item headings are ignored)
+   - weight 2: material agreements, completed deals, officer changes, contracts, lawsuits,
+     buybacks
    - weight 1: everything else.
 
+   A deal, contract, settlement or buyback is also weighed against the company: under 3% of
+   its market value counts 1 and under 10% counts 2, however big the verb. A minority stake in
+   another company, or a deal whose terms were not disclosed, counts 1.
+
    A company the crew judged in the last three days is skipped, whichever source it came from.
+13. Not already told by the news. If a Benzinga headline on the same company and the same event
+   (two or more of its distinctive words appear in the filing) went out before a regular session
+   that has since closed, the filing is old news even when the price did not react.
 
 SCOUT the model then quotes the sentences that matter and flags whether a press release beat the
 filing, which is SKEPTIC's "late" objection raised early.
@@ -98,7 +105,8 @@ only if:
 
 1. Its headline names a material event (a deal, FDA or trial result, guidance change, halt,
    lawsuit, bankruptcy, top-officer change, buyback...) and is not commentary, a price-target note,
-   a conference-presentation notice, a dosing milestone, an FDA go-ahead to start or widen a study
+   a prediction, a conference-presentation notice, a dosing milestone, an FDA go-ahead to start
+   or widen a study
    (IDE/IND) or a round-up of several companies.
 2. It tags one or two companies, and the company it is about (the one named first in the
    headline) is an SEC registrant with a price at Alpaca, a recent share count, a market cap
@@ -107,6 +115,8 @@ only if:
 4. The crew has not judged that company in the last three days, and no SEC filing about it is
    already a case tonight. Filings and news are ranked together by the same weights, one case
    per company.
+5. A company with several headlines gets one case, on its heaviest fresh headline; the others
+   ride along in the excerpt so SCOUT sees the whole night.
 
 SCOUT treats the story as a pointer: it quotes the primary source (the company's release, the
 regulator's notice) and flags unconfirmed reports as unconfirmed. `--no-news` turns the feed off.

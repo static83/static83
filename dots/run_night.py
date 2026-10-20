@@ -11,7 +11,7 @@ from __future__ import annotations
 
 import argparse
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 from crew.broker import PaperBroker
 from crew.config import settings
@@ -23,13 +23,19 @@ from crew.spider import Spider
 def gather(edgar, data, args):
     """SEC filings and material news, heaviest events first (newest breaks ties), one case per company."""
     from crew.learning import recently_judged_tickers, seen_filings
-    from crew.scout import find_candidates, find_news_candidates
+    from crew.news import fetch_news
+    from crew.scout import find_candidates, find_news_candidates, material_news
 
     skip, recent = seen_filings(), recently_judged_tickers()
+    now = datetime.now(timezone.utc)
+    # one pull of the news feed serves both sources: news cases, and spotting filings already told.
+    # It reaches 12 hours further back so a filing can be matched to the previous day's release.
+    groups = {} if args.no_news else material_news(
+        edgar, fetch_news(data, now - timedelta(hours=args.since_hours + 12), now))
     filings = find_candidates(edgar, data.last_price, data.daily_bars, limit=args.candidates * 5,
-                              since_hours=args.since_hours, skip=skip, recent_tickers=recent)
+                              since_hours=args.since_hours, skip=skip, recent_tickers=recent, news=groups)
     news = [] if args.no_news else find_news_candidates(
-        edgar, data, args.since_hours, skip=skip, recent_tickers=recent)
+        edgar, data, args.since_hours, skip=skip, recent_tickers=recent, now=now, groups=groups)
 
     def when(c):  # EDGAR stamps are New York time, Benzinga's are UTC: compare instants, not strings
         return datetime.fromisoformat(c.filed_at.replace("Z", "+00:00"))
