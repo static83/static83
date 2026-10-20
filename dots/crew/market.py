@@ -143,7 +143,8 @@ def move_since(data: "AlpacaData", symbol: str, since, now=None) -> Optional[dic
     stamp = lambda b: datetime.fromisoformat(b["t"].replace("Z", "+00:00"))
     after = [b for b in bars if stamp(b) + timedelta(minutes=5) > start]
     if not after:
-        return None
+        return {"since": since.isoformat(), "trades_seen": False,
+                "note": "no trades on the IEX feed since the news; the move cannot be measured here"}
     if ref is None:
         before = [b for b in bars if stamp(b) + timedelta(minutes=5) <= start]
         ref = float(before[-1]["c"]) if before else float(after[0]["o"])
@@ -158,6 +159,7 @@ def move_since(data: "AlpacaData", symbol: str, since, now=None) -> Optional[dic
         "low": min(float(b["l"]) for b in after),
         "volume": int(sum(float(b["v"]) for b in after)),
         "as_of": after[-1]["t"],
+        "trades_seen": True,
         "note": "IEX feed only: the move since the news went out, during today's session",
     }
 

@@ -93,7 +93,7 @@ source with an official timestamp, so "pull the original source" is literal. Fil
 
    A deal, contract, settlement or buyback is also weighed against the company: under 3% of
    its market value counts 1 and under 10% counts 2, however big the verb. A minority stake in
-   another company, or a deal whose terms were not disclosed, counts 1.
+   another company, a deal whose terms were not disclosed, or an unconfirmed rumor counts 1.
 
    A company the crew judged in the last three days is skipped, whichever source it came from.
 13. Not already told by the news. If a Benzinga headline on the same company and the same event
@@ -112,7 +112,7 @@ only if:
 
 1. Its headline names a material event (a deal, FDA or trial result, guidance change, halt,
    lawsuit, bankruptcy, top-officer change, buyback...) and is not commentary, a price-target note,
-   a prediction, a conference-presentation notice, a dosing milestone, an FDA go-ahead to start
+   a prediction, a poll, a conference-presentation notice, a dosing milestone, an FDA go-ahead to start
    or widen a study
    (IDE/IND) or a round-up of several companies.
 2. It tags one or two companies, and the company it is about (the one named first in the

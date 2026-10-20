@@ -32,7 +32,7 @@ _FILLER = re.compile(
     r"if you (had )?invested|would have made|invested in .{0,40} ago|how much .{0,40} (worth|invested)|"
     r"\bp/?e ratio|price over earnings|short interest|options activity|unusual options|whale|"
     r"what'?s going on with|why (is|are|did|does) .{0,40} (stock|shares|warrants|trending|moving|up|down)|\bpredicts?\b|"
-    r"\bcalls? for\b|\bexpects? .{0,30} to offer\b|stocks? (moving|to watch)|top (gainers|losers)|movers|"
+    r"\bcalls? for\b|\bexpects? .{0,30} to offer\b|benzinga (viewers|readers)|\bpoll(ed|s)?\b|stocks? (moving|to watch)|top (gainers|losers)|movers|"
     r"price target|(upgrade|downgrade|initiat|reiterat|maintain)s?\b.{0,40}\b(analyst|rating|buy|sell|hold|overweight|underweight|outperform)|"
     r"analyst ratings?|expert ratings|earnings (preview|outlook)|what to expect|ahead of earnings|"
     r"a look (at|into)|peering into|insight into|analyzing|technical|52-week|market clubhouse|"
@@ -134,10 +134,12 @@ def weight(text: str, market_cap: Optional[float] = None, price: Optional[float]
     """3 = can reprice the company (deal, trial readout, guidance change, CEO), 2 = notable, 1 = minor.
 
     A deal, contract or settlement is also weighed against the company: under 3% of its market
-    value counts 1, under 10% counts 2, whatever the verb. A minority stake in someone else, or a
-    deal whose terms were not disclosed, counts 1.
+    value counts 1, under 10% counts 2, whatever the verb. A minority stake in someone else, a deal
+    whose terms were not disclosed, or an unconfirmed rumor counts 1.
     """
     w = 3 if _TIER3.search(text) else 2 if _TIER2.search(text) else 1
+    if re.search(r"\bunconfirmed\b|\brumou?rs?\b|\bspeculation\b", text, re.IGNORECASE):
+        return 1  # still a case SCOUT can flag, but it ranks below anything confirmed
     if _UNSIZED.search(text) or not _SIZED.search(text):
         return w
     if _MINORITY.search(text) or re.search(r"terms (were )?not disclosed|undisclosed", text, re.IGNORECASE):

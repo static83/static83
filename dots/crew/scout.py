@@ -458,7 +458,7 @@ def _open_of(filed: datetime) -> datetime:
 
 def traded_since(move: Optional[dict]) -> Optional[str]:
     """Why intraday news is already priced: the stock moved INTRADAY_MOVE_PCT or more since it went out."""
-    if move and abs(move["move_pct"]) >= INTRADAY_MOVE_PCT:
+    if move and move.get("trades_seen") and abs(move["move_pct"]) >= INTRADAY_MOVE_PCT:
         return f"already traded since the news: {move['move_pct']:+.1f}% from {move['reference']:.2f} on the IEX feed"
     return None
 
