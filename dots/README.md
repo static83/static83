@@ -109,10 +109,12 @@ source with an official timestamp, so "pull the original source" is literal. Fil
    folded into that company's case.
 12. At most `DOTS_MAX_CANDIDATES` handoffs a night (default 3). Depth, not volume. The heaviest
    events go first, and the newest breaks ties:
-   - weight 3: results (2.02), or an "other events" filing that announces a deal, a trial
-     readout, a guidance change or a new CEO (the standard item headings are ignored)
-   - weight 2: material agreements, completed deals, officer changes, contracts, lawsuits,
-     buybacks
+   - weight 3: an "other events" filing that announces a deal, a trial readout, a guidance
+     change, preliminary results or a new CEO (the standard item headings are ignored), and the
+     same events in a Benzinga headline
+   - weight 2: results (2.02, whose numbers sit in the exhibit: a quarter that moves the stock
+     arrives as a weight-3 headline), material agreements, completed deals, officer changes,
+     contracts, lawsuits, buybacks
    - weight 1: everything else.
 
    A deal, contract, settlement or buyback is also weighed against the company: under 3% of

@@ -417,9 +417,11 @@ def excerpt(text: str) -> str:
 
 
 # Items that on their own can reprice a company, and items that usually matter.
-# 2.01 (deal completed) is only notable: the deal was nearly always announced earlier.
-_HEAVY_ITEMS = {"1.03", "2.02", "3.01", "4.02"}
-_NOTABLE_ITEMS = {"1.01", "1.02", "2.01", "2.05", "2.06", "4.01", "5.01", "5.02"}
+# 2.01 (deal completed) is only notable: the deal was nearly always announced earlier. A plain 2.02
+# (results) is notable too: its numbers sit in the exhibit, and a quarter that really moves the
+# stock arrives as a Benzinga headline ('raises guidance', 'misses') that weighs 3 on its own.
+_HEAVY_ITEMS = {"1.03", "3.01", "4.02"}
+_NOTABLE_ITEMS = {"1.01", "1.02", "2.01", "2.02", "2.05", "2.06", "4.01", "5.01", "5.02"}
 
 
 # The standard 8-K item headings, which would otherwise read as events ('Delisting', 'Bankruptcy').

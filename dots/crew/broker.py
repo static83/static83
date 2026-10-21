@@ -100,6 +100,10 @@ class PaperBroker:
         for o in r.json():
             if o.get("order_class") != "bracket" or float(o.get("filled_qty") or 0) > 0:
                 continue
+            if not o.get("legs"):
+                # After an entry fills, Alpaca lists its stop and target as orders of their own,
+                # still marked bracket and unfilled. They protect a live position: never cancel them.
+                continue
             created = datetime.fromisoformat(o["created_at"].replace("Z", "+00:00"))
             if (now - created).total_seconds() / 3600 >= max_age_hours:
                 d = self.session.delete(f"{self.base}/v2/orders/{o['id']}", timeout=20)

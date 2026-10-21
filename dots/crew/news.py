@@ -18,7 +18,7 @@ _MATERIAL = re.compile(
     r"acquir(e|es|ed|ing)|acquisition|merger|to (buy|be acquired)|buyout|takeover|tender offer|go(ing)? private|"
     r"definitive agreement|strategic (review|alternatives)|spin[- ]?off|"
     r"contract|award(ed)?|wins? .{0,30}(deal|order|contract)|partnership|collaboration|licens(e|ing)|warrants?|"
-    r"guidance|(raises|lowers|cuts|withdraws|reaffirms) .{0,25}(outlook|forecast|guidance)|preliminary|"
+    r"guidance|(raises|lowers|cuts|withdraws|reaffirms) .{0,25}(outlook|forecast|guidance)|preliminary (\w+ ){0,3}(results|revenue|sales|production|earnings|estimates?|figures|financial|q[1-4]|quarter)|"
     r"recall|lawsuit|sues|settle(s|ment)|investigation|probe|subpoena|charges|indict|"
     r"bankruptcy|chapter 11|default|delist(ed|ing)?|going concern|"
     r"(suspends|cuts|initiates|eliminates) .{0,20}dividend|special dividend|buyback|repurchase|"
@@ -55,7 +55,7 @@ _TIER3 = re.compile(
     r"\b(halt(ed)?|acquir(e|es|ed|ing)|acquisition|merger|to (buy|be acquired)|buyout|takeover|tender offer|"
     r"go(ing)? private|definitive agreement|strategic alternatives|fda approv\w*|approv(al|es|ed) .{0,30}(fda|ema)|"
     r"complete response|crl|topline|phase (3|iii)|primary endpoint|trial (results|data|met|fail)|"
-    r"(raises|lowers|cuts|withdraws|boosts|slashes) .{0,25}(outlook|forecast|guidance)|preliminary|"
+    r"(raises|lowers|cuts|withdraws|boosts|slashes) .{0,25}(outlook|forecast|guidance)|preliminary (\w+ ){0,3}(results|revenue|sales|production|earnings|estimates?|figures|financial|q[1-4]|quarter)|"
     r"bankruptcy|chapter 11|going concern|delist(ed|ing)?|special dividend|"
     r"(ceo|chief executive).{0,40}(resign|steps? down|depart|ousted|fired|retire|appoint|names?)|"
     r"(resign|steps? down|depart|ousted|fired|retire|appoint|names?).{0,40}(ceo|chief executive))\b",
@@ -100,7 +100,7 @@ _SIZED = re.compile(
 )
 # Events that matter whatever their size, or where the company itself is the target.
 _UNSIZED = re.compile(
-    r"\b(fda|ema|approv\w*|topline|phase|endpoint|trial|guidance|outlook|forecast|preliminary|halt\w*|"
+    r"\b(fda|ema|approv\w*|topline|phase|endpoint|trial|guidance|outlook|forecast|preliminary (\w+ ){0,3}(results|revenue|sales|production|earnings|estimates?|figures|financial|q[1-4]|quarter)|halt\w*|"
     r"bankruptcy|chapter 11|going concern|delist\w*|ceo|chief executive|to be acquired|buyout|takeover|"
     r"tender offer|go(ing)? private|strategic (alternatives|review)|recall|breach|cyber\w*)\b",
     re.IGNORECASE,
