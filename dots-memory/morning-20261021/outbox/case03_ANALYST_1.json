@@ -1,0 +1,159 @@
+{
+  "role": "ANALYST",
+  "packet": {
+    "case": 3,
+    "account": {
+      "equity_usd": 5000.22,
+      "mode": "alpaca-paper",
+      "open_positions": [
+        "F"
+      ],
+      "open_orders": [
+        "F",
+        "SMCI"
+      ]
+    },
+    "filing": {
+      "ticker": "TMO",
+      "company": "THERMO FISHER SCIENTIFIC INC.",
+      "cik": "97745",
+      "accession": "news:62492068",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-21T12:04:25Z",
+      "url": "https://www.benzinga.com/news/26/10/62492068/thermo-fisher-scientific-raises-fy2026-adj-eps-guidance-24-93-25-33-25-13-25-43-vs-25-14-est-raises-",
+      "source_excerpt": "[Benzinga news, 2026-10-21T12:04:25Z, by Benzinga Newsdesk] Thermo Fisher Scientific Raises FY2026 Adj EPS Guidance from $24.93-$25.33 to $25.13-$25.43 vs $25.14 Est; Raises FY2026 Sales Guidance from $47.400B-$48.100B to $47.700B-$48.200B vs $47.885B Est\n\n",
+      "market_cap_usd": 254275208582.2,
+      "last_price": 687.7,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "quote": null,
+      "extended_hours": null,
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.56,
+        "max_gap_pct": 1.39
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": null,
+        "slippage_usd": null
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "Thermo Fisher Q3 beat (EPS $6.68 vs $6.40) and a small full-year raise; -2.9% pre-market on thin trade",
+        "reasoning": [
+          "Sources: the Q3 release (Benzinga 10:00 and 10:31 UTC: 'Q3 Adj. EPS $6.68 Beats $6.40 Estimate, Sales $12.137B Beat $11.946B Estimate'), and the raised outlook from the earnings call (Benzinga 11:56 to 12:04 UTC). The release reached the wire at 06:00 ET, before the call; no session has traded it.",
+          "Quoted from the release summary: 'adjusted earnings per share of $6.68'; 'Adjusted operating income reached $2.97 billion, representing a 15% increase'; 'The adjusted operating margin improved to 24.5%, up from 23.3%'.",
+          "Quoted guidance: 'Raises FY2026 Adj EPS Guidance from $24.93-$25.33 to $25.13-$25.43 vs $25.14 Est; Raises FY2026 Sales Guidance from $47.400B-$48.100B to $47.700B-$48.200B'.",
+          "What changed: the year is a little better, by $0.20 at the midpoint of the EPS range. But Q3 alone beat consensus by $0.28, so the raise passes through less than the quarter's beat: the rest of the year was trimmed slightly.",
+          "Price: IEX shows 668.01 pre-market, -2.9% from 687.70, on 42 shares. Too thin to trust, but the direction is down on a beat."
+        ],
+        "objections": [
+          "The full-year raise (+$0.20 at the midpoint) is smaller than the Q3 beat (+$0.28): the rest of the year was trimmed.",
+          "Pre-market read is 42 IEX shares."
+        ]
+      }
+    ],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 39 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "Still open: SMCI (pending).",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closing."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "MLKN",
+          "night": "20261021-1250",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "UDR",
+          "night": "20261021-1250",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SMCI",
+          "night": "20261021-0217",
+          "ended_by": "TRADED",
+          "direction": "long",
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "KMB",
+          "night": "20261021-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SPCX",
+          "night": "20261021-0217",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "TSLA",
+          "night": "20261020-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "QGEN",
+          "night": "20261020-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CCBG",
+          "night": "20261020-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 48
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "role": "JOURNAL",
+  "packet": {
+    "case": 2,
+    "account": {
+      "equity_usd": 5000.23,
+      "mode": "alpaca-paper",
+      "open_positions": [
+        "F"
+      ],
+      "open_orders": [
+        "F",
+        "SMCI"
+      ]
+    },
+    "filing": {
+      "ticker": "MLKN",
+      "company": "MILLERKNOLL, INC.",
+      "cik": "66382",
+      "accession": "news:62492180",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-21T12:06:14Z",
+      "url": "https://www.benzinga.com/news/26/10/62492180/millerknoll-appoints-jeff-stutz-ceo-effective-immediately",
+      "source_excerpt": "[Benzinga news, 2026-10-21T12:06:14Z, by Benzinga Newsdesk] MillerKnoll Appoints Jeff Stutz As CEO, Effective Immediately\n\n",
+      "market_cap_usd": 1463371639.6499999,
+      "last_price": 21.27,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "outcome": "no_trade",
+      "order": null
+    },
+    "memos_so_far": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Not a change: the interim CEO since June 30 is made permanent",
+        "reasoning": [
+          "Primary source: 8-K items 5.02/7.01 accepted 12:00 UTC (08:00 ET), Exhibit 99.1. Benzinga's 12:06 UTC headline 'MillerKnoll Appoints Jeff Stutz As CEO, Effective Immediately' leaves out the context.",
+          "Quoted: 'the Board has unanimously appointed Jeff Stutz as Chief Executive Officer ... effective immediately. Stutz has served as Interim Chief Executive Officer since June 30, 2026.'",
+          "Quoted: 'Following a rigorous search process, the Board believes Jeff is the right leader'. The person running the company today is the person who ran it yesterday.",
+          "What changed: the 'interim' label is gone and the search is over. No strategy, guidance or financial change is announced. No IEX pre-market trades."
+        ],
+        "objections": [
+          "The interim CEO since June 30 made permanent; no change in who runs the company."
+        ]
+      }
+    ],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 38 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "Still open: SMCI (pending).",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closing."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "UDR",
+          "night": "20261021-1250",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SMCI",
+          "night": "20261021-0217",
+          "ended_by": "TRADED",
+          "direction": "long",
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "KMB",
+          "night": "20261021-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SPCX",
+          "night": "20261021-0217",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "TSLA",
+          "night": "20261020-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "QGEN",
+          "night": "20261020-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CCBG",
+          "night": "20261020-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SFST",
+          "night": "20261020-1247",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 47
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

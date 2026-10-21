@@ -1,0 +1,52 @@
+[
+  {
+    "ticker": "UDR",
+    "company": "UDR, Inc.",
+    "cik": "74208",
+    "accession": "news:62492266",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-21T12:08:42Z",
+    "url": "https://www.benzinga.com/news/26/10/62492266/udr-raises-q3-eps-outlook-0-13-0-15-0-67-expects-q4-eps-range-0-13-0-15-raises-fy26-eps-range-1-03-1",
+    "source_excerpt": "[Benzinga news, 2026-10-21T12:08:42Z, by Benzinga Newsdesk] UDR Raises Q3 EPS Outlook From $0.13 - $0.15 To $0.67; Expects Q4 EPS Range $0.13 - $0.15; Raises FY26 EPS Range From $1.03 - $1.11 To $1.58 - $1.60\n\n\n[Other material headlines on this company in the window]\n- 2026-10-21T12:04:17Z UDR Forms $2.0B Strategic Partnership With Apollo",
+    "market_cap_usd": 11180347619.73,
+    "last_price": 34.41,
+    "also_accessions": [
+      "news:62492059"
+    ],
+    "weight": 3
+  },
+  {
+    "ticker": "MLKN",
+    "company": "MILLERKNOLL, INC.",
+    "cik": "66382",
+    "accession": "news:62492180",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-21T12:06:14Z",
+    "url": "https://www.benzinga.com/news/26/10/62492180/millerknoll-appoints-jeff-stutz-ceo-effective-immediately",
+    "source_excerpt": "[Benzinga news, 2026-10-21T12:06:14Z, by Benzinga Newsdesk] MillerKnoll Appoints Jeff Stutz As CEO, Effective Immediately\n\n",
+    "market_cap_usd": 1463371639.6499999,
+    "last_price": 21.27,
+    "also_accessions": [],
+    "weight": 3
+  },
+  {
+    "ticker": "TMO",
+    "company": "THERMO FISHER SCIENTIFIC INC.",
+    "cik": "97745",
+    "accession": "news:62492068",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-21T12:04:25Z",
+    "url": "https://www.benzinga.com/news/26/10/62492068/thermo-fisher-scientific-raises-fy2026-adj-eps-guidance-24-93-25-33-25-13-25-43-vs-25-14-est-raises-",
+    "source_excerpt": "[Benzinga news, 2026-10-21T12:04:25Z, by Benzinga Newsdesk] Thermo Fisher Scientific Raises FY2026 Adj EPS Guidance from $24.93-$25.33 to $25.13-$25.43 vs $25.14 Est; Raises FY2026 Sales Guidance from $47.400B-$48.100B to $47.700B-$48.200B vs $47.885B Est\n\n",
+    "market_cap_usd": 254275208582.2,
+    "last_price": 687.7,
+    "also_accessions": [],
+    "weight": 3
+  }
+]

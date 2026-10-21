@@ -1,0 +1,7 @@
+{"role":"ANALYST","verdict":"object","headline":"No mispricing at a $254B name: a clean beat, a trimmed remainder, and a market already leaning down",
+"reasoning":["What changed: Q3 was strong (revenue +9% per the call summary, margin +120bp), and the full year moves up only $0.20, so the rest of the year is about $0.08 lower than the street had it.",
+"Long case fails: the beat is consumed by the trimmed remainder. This is the same arithmetic SKEPTIC used on HAS on Monday, and HAS rallied 11% anyway; one case, but a reason not to short on it either.",
+"Short case fails: a 0.6% raise against consensus and a 120bp margin gain is not bad news. The -2.9% pre-market is 42 shares, not a signal.",
+"What the market must believe for a mispricing: we would need to know whether the street reads Q4 as conservative or as a slowdown. The call transcript is long and widely read, and we have no edge on its tone over the analysts covering a $254B company.",
+"Proves me wrong: a sustained move beyond 5% either way today, which would show the market found something we did not."],
+"objections":["The full-year raise (+$0.20 at the midpoint) is smaller than the Q3 beat (+$0.28): the rest of the year was trimmed.","Pre-market read is 42 IEX shares.","No direction: the beat and the trimmed remainder roughly cancel for a heavily covered mega-cap."]}

@@ -29,13 +29,15 @@
     "stop": 10.96,
     "target": 12.88,
     "horizon_days": 1,
-    "status": "open",
+    "status": "closing",
     "opened_at": "2026-10-20T13:34:08.552263+00:00",
     "test": true,
     "fill_price": 11.92,
     "filled_at": "2026-10-20T13:34:09.84468844Z",
     "reanchored_by": -0.05,
-    "days_held": 0
+    "days_held": 1,
+    "close_order_id": "14cb85c2-ed00-497e-96fa-b36aa41ddae4",
+    "close_reason": "time limit"
   },
   "57809a75-5f43-4cd2-ab4d-2dd5f48bd30f": {
     "order_id": "57809a75-5f43-4cd2-ab4d-2dd5f48bd30f",

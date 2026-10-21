@@ -1,0 +1,214 @@
+[
+  {
+    "case": 1,
+    "ticker": "UDR",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "The EPS 'raise' is a property-sale gain; FFO as adjusted rises 2 cents, plain FFO falls 2",
+        "reasoning": [
+          "Primary source: 8-K items 2.02/7.01 accepted 12:05 UTC (08:05 ET), Exhibit 99.1 (preliminary Q3 and guidance) and Exhibit 99.2 (Apollo joint venture). Benzinga followed at 12:04 and 12:08 UTC.",
+          "Quoted: 'The Company expects Net Income per diluted share for the third quarter 2026 will be $0.67, which compares to the previously provided guidance range of $0.13 to $0.15'. The FFO reconciliation shows a '(190,069)' thousand net gain on the sale of depreciable real estate in the quarter: the jump is that gain.",
+          "Quoted guidance table: FFOA full-year '$2.49 to $2.57' becomes '$2.54 to $2.56', midpoint '$2.55 (+$0.02)'; FFO '$2.47 to $2.55' becomes '$2.48 to $2.50', midpoint '$2.49 (-$0.02)'. FFOA for Q3 'will be $0.65, which represents the high-end of the previously provided guidance range'.",
+          "The Apollo deal, quoted: 'The portfolio contributed by the Company comprises 19 communities totaling 7,059 apartment homes and is valued at approximately $2.0 billion'. The capitalization rate, UDR's retained stake and the use of proceeds are not in the excerpt we have, so whether it was struck above the value the stock implies cannot be judged.",
+          "What changed: a $2B portfolio moved into a joint venture, and recurring earnings power is roughly unchanged. The Benzinga headline overstates it. No IEX pre-market trades yet."
+        ],
+        "objections": [
+          "Headline EPS raise is a one-time sale gain; FFOA +$0.02, FFO -$0.02.",
+          "The joint venture's value versus UDR's implied value is not disclosed in the excerpt."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "UDR: no trade. A $1.58-1.60 EPS guide is mostly sale gains; FFOA moves +$0.02",
+        "reasoning": [
+          "UDR's 8-K: Q3 net income per share $0.67 against $0.13-0.15 guided, driven by a $190M gain on selling real estate.",
+          "The REIT metric barely moved: full-year FFOA midpoint $2.55 (+$0.02), FFO $2.49 (-$0.02).",
+          "The $2.0B Apollo joint venture (19 communities, 7,059 homes) is the real event; its price versus UDR's implied value is unknown to us.",
+          "Filter note: for REITs, 'raises EPS outlook' headlines are usually gains on sale; FFO is the number to weigh.",
+          "Check later: UDR 5-day return; a strong move would say the market read the JV price as a value signal."
+        ],
+        "objections": [
+          "Headline EPS raise is a one-time sale gain; FFOA +$0.02, FFO -$0.02.",
+          "The joint venture's value versus UDR's implied value is not disclosed in the excerpt."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "MLKN",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Not a change: the interim CEO since June 30 is made permanent",
+        "reasoning": [
+          "Primary source: 8-K items 5.02/7.01 accepted 12:00 UTC (08:00 ET), Exhibit 99.1. Benzinga's 12:06 UTC headline 'MillerKnoll Appoints Jeff Stutz As CEO, Effective Immediately' leaves out the context.",
+          "Quoted: 'the Board has unanimously appointed Jeff Stutz as Chief Executive Officer ... effective immediately. Stutz has served as Interim Chief Executive Officer since June 30, 2026.'",
+          "Quoted: 'Following a rigorous search process, the Board believes Jeff is the right leader'. The person running the company today is the person who ran it yesterday.",
+          "What changed: the 'interim' label is gone and the search is over. No strategy, guidance or financial change is announced. No IEX pre-market trades."
+        ],
+        "objections": [
+          "The interim CEO since June 30 made permanent; no change in who runs the company."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "MLKN: no trade. 'New CEO, effective immediately' is the interim CEO since June made permanent",
+        "reasoning": [
+          "The 8-K says Jeff Stutz has been interim CEO since June 30, 2026; the board ended its search by appointing him.",
+          "Filter note: CEO headlines that omit 'interim' look like changes of control. SCOUT should keep checking the release for 'interim' before passing a CEO case.",
+          "Nothing to check beyond the usual 5-day return."
+        ],
+        "objections": [
+          "The interim CEO since June 30 made permanent; no change in who runs the company."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "TMO",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "Thermo Fisher Q3 beat (EPS $6.68 vs $6.40) and a small full-year raise; -2.9% pre-market on thin trade",
+        "reasoning": [
+          "Sources: the Q3 release (Benzinga 10:00 and 10:31 UTC: 'Q3 Adj. EPS $6.68 Beats $6.40 Estimate, Sales $12.137B Beat $11.946B Estimate'), and the raised outlook from the earnings call (Benzinga 11:56 to 12:04 UTC). The release reached the wire at 06:00 ET, before the call; no session has traded it.",
+          "Quoted from the release summary: 'adjusted earnings per share of $6.68'; 'Adjusted operating income reached $2.97 billion, representing a 15% increase'; 'The adjusted operating margin improved to 24.5%, up from 23.3%'.",
+          "Quoted guidance: 'Raises FY2026 Adj EPS Guidance from $24.93-$25.33 to $25.13-$25.43 vs $25.14 Est; Raises FY2026 Sales Guidance from $47.400B-$48.100B to $47.700B-$48.200B'.",
+          "What changed: the year is a little better, by $0.20 at the midpoint of the EPS range. But Q3 alone beat consensus by $0.28, so the raise passes through less than the quarter's beat: the rest of the year was trimmed slightly.",
+          "Price: IEX shows 668.01 pre-market, -2.9% from 687.70, on 42 shares. Too thin to trust, but the direction is down on a beat."
+        ],
+        "objections": [
+          "The full-year raise (+$0.20 at the midpoint) is smaller than the Q3 beat (+$0.28): the rest of the year was trimmed.",
+          "Pre-market read is 42 IEX shares."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "object",
+        "headline": "No mispricing at a $254B name: a clean beat, a trimmed remainder, and a market already leaning down",
+        "reasoning": [
+          "What changed: Q3 was strong (revenue +9% per the call summary, margin +120bp), and the full year moves up only $0.20, so the rest of the year is about $0.08 lower than the street had it.",
+          "Long case fails: the beat is consumed by the trimmed remainder. This is the same arithmetic SKEPTIC used on HAS on Monday, and HAS rallied 11% anyway; one case, but a reason not to short on it either.",
+          "Short case fails: a 0.6% raise against consensus and a 120bp margin gain is not bad news. The -2.9% pre-market is 42 shares, not a signal.",
+          "What the market must believe for a mispricing: we would need to know whether the street reads Q4 as conservative or as a slowdown. The call transcript is long and widely read, and we have no edge on its tone over the analysts covering a $254B company.",
+          "Proves me wrong: a sustained move beyond 5% either way today, which would show the market found something we did not."
+        ],
+        "objections": [
+          "The full-year raise (+$0.20 at the midpoint) is smaller than the Q3 beat (+$0.28): the rest of the year was trimmed.",
+          "Pre-market read is 42 IEX shares.",
+          "No direction: the beat and the trimmed remainder roughly cancel for a heavily covered mega-cap."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "TMO: no trade. Beat and small raise; the raise is less than the beat, and no side has an edge",
+        "reasoning": [
+          "Q3 adjusted EPS $6.68 vs $6.40; revenue $12.14B vs $11.95B; adjusted operating margin 24.5% (+120bp).",
+          "Full-year EPS guide $25.13-25.43 (midpoint +$0.20) against a $0.28 Q3 beat: the remainder was trimmed by about $0.08.",
+          "IEX pre-market -2.9% on 42 shares: direction only, not size.",
+          "Check later: TMO 1- and 5-day return, next to HAS, for how the market treats 'beat, then a smaller raise'. Two cases now; the crew should not rule on that pattern until there are more."
+        ],
+        "objections": [
+          "The full-year raise (+$0.20 at the midpoint) is smaller than the Q3 beat (+$0.28): the rest of the year was trimmed.",
+          "Pre-market read is 42 IEX shares.",
+          "No direction: the beat and the trimmed remainder roughly cancel for a heavily covered mega-cap."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

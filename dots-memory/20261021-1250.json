@@ -1,0 +1,306 @@
+{
+  "title": "DOTS night run",
+  "fictional": false,
+  "mode": "alpaca-paper",
+  "model": "claude (in session)",
+  "router": "SPIDER",
+  "started_at": "2026-10-21T12:50:07.615377+00:00",
+  "start_balance": 5000.22,
+  "hours": 1,
+  "balance": [
+    [
+      0,
+      5000.22
+    ],
+    [
+      1,
+      5000.22
+    ]
+  ],
+  "events": [
+    {
+      "m": 0,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 0,
+      "text": "track record: 48 past case(s) on file"
+    },
+    {
+      "m": 0,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 1,
+      "text": "case 01 opened: UDR news"
+    },
+    {
+      "m": 1,
+      "role": "SCOUT",
+      "kind": "handoff",
+      "case": 1,
+      "text": "The EPS 'raise' is a property-sale gain; FFO as adjusted rises 2 cents, plain FFO falls 2"
+    },
+    {
+      "m": 1,
+      "role": "SCOUT",
+      "kind": "objection",
+      "case": 1,
+      "text": "Headline EPS raise is a one-time sale gain; FFOA +$0.02, FFO -$0.02."
+    },
+    {
+      "m": 1,
+      "role": "SCOUT",
+      "kind": "objection",
+      "case": 1,
+      "text": "The joint venture's value versus UDR's implied value is not disclosed in the excerpt."
+    },
+    {
+      "m": 1,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 1,
+      "text": "UDR: no trade. A $1.58-1.60 EPS guide is mostly sale gains; FFOA moves +$0.02"
+    },
+    {
+      "m": 1,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 2,
+      "text": "case 02 opened: MLKN news"
+    },
+    {
+      "m": 1,
+      "role": "SCOUT",
+      "kind": "handoff",
+      "case": 2,
+      "text": "Not a change: the interim CEO since June 30 is made permanent"
+    },
+    {
+      "m": 1,
+      "role": "SCOUT",
+      "kind": "objection",
+      "case": 2,
+      "text": "The interim CEO since June 30 made permanent; no change in who runs the company."
+    },
+    {
+      "m": 1,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 2,
+      "text": "MLKN: no trade. 'New CEO, effective immediately' is the interim CEO since June made permanent"
+    },
+    {
+      "m": 1,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 3,
+      "text": "case 03 opened: TMO news"
+    },
+    {
+      "m": 1,
+      "role": "SCOUT",
+      "kind": "handoff",
+      "case": 3,
+      "text": "Thermo Fisher Q3 beat (EPS $6.68 vs $6.40) and a small full-year raise; -2.9% pre-market on thin trade"
+    },
+    {
+      "m": 1,
+      "role": "SCOUT",
+      "kind": "objection",
+      "case": 3,
+      "text": "The full-year raise (+$0.20 at the midpoint) is smaller than the Q3 beat (+$0.28): the rest of the year was trimmed."
+    },
+    {
+      "m": 1,
+      "role": "SCOUT",
+      "kind": "objection",
+      "case": 3,
+      "text": "Pre-market read is 42 IEX shares."
+    },
+    {
+      "m": 1,
+      "role": "ANALYST",
+      "kind": "handoff",
+      "case": 3,
+      "text": "No mispricing at a $254B name: a clean beat, a trimmed remainder, and a market already leaning down"
+    },
+    {
+      "m": 1,
+      "role": "ANALYST",
+      "kind": "objection",
+      "case": 3,
+      "text": "The full-year raise (+$0.20 at the midpoint) is smaller than the Q3 beat (+$0.28): the rest of the year was trimmed."
+    },
+    {
+      "m": 1,
+      "role": "ANALYST",
+      "kind": "objection",
+      "case": 3,
+      "text": "Pre-market read is 42 IEX shares."
+    },
+    {
+      "m": 1,
+      "role": "ANALYST",
+      "kind": "objection",
+      "case": 3,
+      "text": "No direction: the beat and the trimmed remainder roughly cancel for a heavily covered mega-cap."
+    },
+    {
+      "m": 1,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 3,
+      "text": "ANALYST objected: no trade"
+    },
+    {
+      "m": 1,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 3,
+      "text": "TMO: no trade. Beat and small raise; the raise is less than the beat, and no side has an edge"
+    }
+  ],
+  "cases": [
+    {
+      "id": 1,
+      "ticker": "UDR",
+      "outcome": "no_trade",
+      "rounds": 1,
+      "entry": null,
+      "stop": null,
+      "target": null,
+      "size": null,
+      "p_strike": null,
+      "risk": "PENDING",
+      "objections": 4,
+      "order": null
+    },
+    {
+      "id": 2,
+      "ticker": "MLKN",
+      "outcome": "no_trade",
+      "rounds": 1,
+      "entry": null,
+      "stop": null,
+      "target": null,
+      "size": null,
+      "p_strike": null,
+      "risk": "PENDING",
+      "objections": 2,
+      "order": null
+    },
+    {
+      "id": 3,
+      "ticker": "TMO",
+      "outcome": "no_trade",
+      "rounds": 1,
+      "entry": null,
+      "stop": null,
+      "target": null,
+      "size": null,
+      "p_strike": null,
+      "risk": "PENDING",
+      "objections": 8,
+      "order": null
+    }
+  ],
+  "receipts": {
+    "SCOUT": 8,
+    "ANALYST": 4,
+    "SKEPTIC": 0,
+    "QUANT": 0,
+    "RISK": 0,
+    "JOURNAL": 4
+  },
+  "counts": {
+    "objections": 8,
+    "source_links": 3,
+    "send_backs": 0,
+    "restarts": 0
+  },
+  "track_record": {
+    "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+    "scorecard": [
+      "SCOUT skipped 39 case(s); none has a thesis direction with 5 trading days of history yet.",
+      "SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.",
+      "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+      "Still open: SMCI (pending).",
+      "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+      "Test order (plumbing check, not a crew call): buy 1 F, closing."
+    ],
+    "recent_cases": [
+      {
+        "ticker": "TMO",
+        "night": "20261021-1250",
+        "ended_by": "ANALYST",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "MLKN",
+        "night": "20261021-1250",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "UDR",
+        "night": "20261021-1250",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "SMCI",
+        "night": "20261021-0217",
+        "ended_by": "TRADED",
+        "direction": "long",
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "KMB",
+        "night": "20261021-0217",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "SPCX",
+        "night": "20261021-0217",
+        "ended_by": "ANALYST",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "TSLA",
+        "night": "20261020-1627",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "QGEN",
+        "night": "20261020-1627",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      }
+    ],
+    "cases_on_file": 49
+  }
+}
