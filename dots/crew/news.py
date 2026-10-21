@@ -135,7 +135,8 @@ def weight(text: str, market_cap: Optional[float] = None, price: Optional[float]
 
     A deal, contract or settlement is also weighed against the company: under 3% of its market
     value counts 1, under 10% counts 2, whatever the verb. A minority stake in someone else, a deal
-    whose terms were not disclosed, a subsidiary's deal, or an unconfirmed rumor counts 1.
+    whose terms were not disclosed, a subsidiary's deal, or an unconfirmed rumor counts 1, and a deal
+    with no price in the headline counts at most 2.
     """
     w = 3 if _TIER3.search(text) else 2 if _TIER2.search(text) else 1
     if re.search(r"\bunconfirmed\b|\brumou?rs?\b|\bspeculation\b", text, re.IGNORECASE):
@@ -146,7 +147,9 @@ def weight(text: str, market_cap: Optional[float] = None, price: Optional[float]
             or re.search(r", an? [^,]{2,40}\b(company|subsidiary|unit)\b,|\bsubsidiary\b", text, re.IGNORECASE)):
         return 1  # a slice of someone else, or a deal too small for the buyer to have to price it
     amount = largest_amount(text, price)
-    if amount and market_cap:
+    if amount is None:
+        return min(w, 2)  # a buyer-side deal with no price is rarely big: material ones are priced
+    if market_cap:
         share = amount / market_cap
         w = min(w, 1 if share < 0.03 else 2 if share < 0.10 else 3)
     return w
