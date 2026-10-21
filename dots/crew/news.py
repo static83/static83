@@ -107,7 +107,8 @@ _UNSIZED = re.compile(
 )
 # Buying a slice of another company: it matters to that company, hardly to the buyer.
 _MINORITY = re.compile(
-    r"\b(acquire|buy|take|purchase)s?\b.{0,30}\b\d+(\.\d+)?% (stake|of|interest)|minority stake|strategic investment",
+    r"\b(acquire|buy|take|purchase)s?\b.{0,30}\b\d+(\.\d+)?% (stake|of|interest)|minority stake|strategic investment|"
+    r"\bstakes? in\b",
     re.IGNORECASE,
 )
 _SCALE = {"k": 1e3, "thousand": 1e3, "m": 1e6, "mm": 1e6, "mn": 1e6, "million": 1e6,
@@ -145,6 +146,8 @@ def weight(text: str, market_cap: Optional[float] = None, price: Optional[float]
         w = min(w, 2)  # a deal for a unit, with no price: the parent's exposure is unknown and usually small
     if re.search(r"\bunconfirmed\b|\brumou?rs?\b|\bspeculation\b", text, re.IGNORECASE):
         return 1  # still a case SCOUT can flag, but it ranks below anything confirmed
+    if re.search(r"^\s*['\"\u2018\u201c].+['\"\u2019\u201d]\s*-\s*[A-Z][\w .&]{1,40}$", text.split("\n")[0]):
+        w = min(w, 2)  # "'...' - Bloomberg News": a relayed media report, not the company speaking
     if _UNSIZED.search(text) or not _SIZED.search(text):
         return w
     if (_MINORITY.search(text) or re.search(r"terms (were )?not disclosed|undisclosed", text, re.IGNORECASE)
