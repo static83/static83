@@ -139,6 +139,10 @@ def weight(text: str, market_cap: Optional[float] = None, price: Optional[float]
     with no price in the headline counts at most 2.
     """
     w = 3 if _TIER3.search(text) else 2 if _TIER2.search(text) else 1
+    if (re.search(r"\b(unit|subsidiary|division)\b", text, re.IGNORECASE)
+            and re.search(r"takeover|sale|sell|divest|acqui|deal|spin", text, re.IGNORECASE)
+            and largest_amount(text, price) is None):
+        w = min(w, 2)  # a deal for a unit, with no price: the parent's exposure is unknown and usually small
     if re.search(r"\bunconfirmed\b|\brumou?rs?\b|\bspeculation\b", text, re.IGNORECASE):
         return 1  # still a case SCOUT can flag, but it ranks below anything confirmed
     if _UNSIZED.search(text) or not _SIZED.search(text):
