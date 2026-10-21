@@ -35,6 +35,30 @@ Three crew runs and one check a weekday, New York time:
   already moved 3% or more is skipped as already traded.
 - **22:15, after the close**: the day's after-close news, with the after-hours move.
 
+Between 09:45 and 16:00 the **watcher** (`watch.py`) looks at the Benzinga feed and EDGAR once a
+minute. It neither trades nor judges; it exits with an alert, and the crew runs, when:
+
+- a heavy event (weight 3) passes every SCOUT filter and has not moved 3% yet, or
+- anything material, news or an 8-K, comes out about a stock the crew holds or is waiting to buy,
+  after the trade was opened.
+
+### When the watcher exits
+
+- `ALERT runs/watch-<stamp>`:
+  1. If that folder has `candidates.json`, run the crew on it:
+     `python run_night.py --manual runs/watch-<stamp>` (it finds the cases already there).
+  2. If it has `held.json`, read each item from its primary source and make the hold-or-exit call:
+     `python position_review.py SYMBOL hold|exit "reason" "headline"`. Exit only when the news
+     breaks the trade's thesis; noise is a hold. An exit sells at market (or cancels an unfilled
+     entry) and is recorded as a "crew exit".
+  3. Then start the watcher again.
+- `TIMEOUT`: it ran its 110 minutes; start it again while the market is open.
+- `CLOSED`: the session is over; nothing to do. `ALREADY RUNNING`: nothing to do.
+
+Start it in the background (`python watch.py &`, or as a background task); `python watch.py --status`
+says whether one is alive, and `python watch.py --dry-poll 60` shows what the last hour would have
+raised, at any time of day, without writing anything. Its log is `runs/watch/watch.log`.
+
 Orders are never placed outside regular hours: Alpaca only takes plain limit orders there, with no
 stop-loss or target attached. With cron:
 

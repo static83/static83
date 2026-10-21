@@ -201,30 +201,66 @@ def review_trades(broker, log) -> list[dict]:
         if t["status"] == "closing" and not t.get("close_order_id"):
             close = broker.close_position(t["symbol"])  # last night's close was refused; try again
             t["close_order_id"] = (close or {}).get("id")
-            log(f"{t['symbol']}: retrying time-limit close" + ("" if close else ", refused again"))
+            log(f"{t['symbol']}: retrying {t.get('close_reason', 'time limit')} close" + ("" if close else ", refused again"))
 
         if t["status"] == "closing" and t.get("close_order_id"):
             close = broker.get_order(t["close_order_id"])
             if close and close.get("status") == "filled":
                 exit_price = float(close["filled_avg_price"])
-                t.update(status="closed", exit_price=exit_price, exit_reason="time limit", closed_at=close["filled_at"],
+                reason = t.get("close_reason", "time limit")
+                t.update(status="closed", exit_price=exit_price, exit_reason=reason, closed_at=close["filled_at"],
                          pnl=_pnl(t["side"], t["qty"], t["fill_price"], exit_price))
                 changed.append(t)
-                log(f"{t['symbol']}: time-limit exit filled @ {exit_price:.2f}, P&L {t['pnl']:+.2f}")
+                log(f"{t['symbol']}: {reason} exit filled @ {exit_price:.2f}, P&L {t['pnl']:+.2f}")
 
         if t["status"] == "open":
             held = broker.trading_days_between(t["filled_at"][:10], today)
             t["days_held"] = held
             if held >= t["horizon_days"]:
-                for leg in parent.get("legs") or []:
-                    if leg.get("status") in ("new", "accepted", "held", "pending_new"):
-                        broker.cancel_order(leg["id"])
-                close = broker.close_position(t["symbol"])
-                t.update(status="closing", close_order_id=(close or {}).get("id"))
+                _close_now(broker, t, parent, "time limit")
                 changed.append(t)
                 log(f"{t['symbol']}: held {held} of {t['horizon_days']} trading days, time limit hit, closing at the next open")
     _save(TRADES, trades)
     return changed
+
+
+def _close_now(broker, t: dict, parent: dict, reason: str) -> None:
+    """Cancel the bracket's stop and target, then flatten at market (queued for the open if closed)."""
+    for leg in parent.get("legs") or []:
+        if leg.get("status") in ("new", "accepted", "held", "pending_new"):
+            broker.cancel_order(leg["id"])
+    close = broker.close_position(t["symbol"])
+    t.update(status="closing", close_order_id=(close or {}).get("id"), close_reason=reason)
+
+
+def review_position(broker, symbol: str, decision: str, reason: str, headline: str, log=print) -> Optional[dict]:
+    """The crew's call on news about a stock it holds or is waiting to buy: hold, or exit now.
+
+    An exit on a filled trade cancels the stop and target and sells at market ('crew exit'); on an
+    entry that has not filled, it cancels the order. Every call is kept in the trade's reviews.
+    """
+    if decision not in ("hold", "exit"):
+        raise ValueError("decision must be hold or exit")
+    review_trades(broker, log)  # sync first: the entry may have filled since the last check
+    trades = _load(TRADES)
+    t = next((t for t in trades.values() if t["symbol"] == symbol and not t.get("test")
+              and t["status"] in ("pending", "open")), None)
+    if t is None:
+        log(f"{symbol}: no open crew trade to review")
+        return None
+    t.setdefault("reviews", []).append({"at": datetime.now(timezone.utc).isoformat(), "headline": headline,
+                                        "decision": decision, "reason": reason})
+    if decision == "exit":
+        if t["status"] == "pending":
+            ok = broker.cancel_order(t["order_id"])
+            log(f"{symbol}: crew cancelled the unfilled entry ({reason})" + ("" if ok else ", cancel refused"))
+        else:
+            _close_now(broker, t, broker.get_order(t["order_id"]) or {}, "crew exit")
+            log(f"{symbol}: crew exit, selling {t['qty']} at market ({reason})")
+    else:
+        log(f"{symbol}: crew holds ({reason})")
+    _save(TRADES, trades)
+    return t
 
 
 def _reanchor(broker, t: dict, parent: dict, log) -> None:
@@ -349,10 +385,11 @@ def scorecard() -> dict:
     if closed:
         pnl = sum(t["pnl"] for t in closed)
         wins = sum(1 for t in closed if t["pnl"] > 0)
-        by = {k: sum(1 for t in closed if t.get("exit_reason") == k) for k in ("target", "stop", "time limit")}
+        by = {k: sum(1 for t in closed if t.get("exit_reason") == k) for k in ("target", "stop", "time limit", "crew exit")}
         lines.append(
             f"Trades closed: {len(closed)}, realized P&L {pnl:+.2f} USD, {wins} winners. "
-            f"Exits: {by['target']} at target, {by['stop']} at stop, {by['time limit']} on the time limit." + _caveat(len(closed))
+            f"Exits: {by['target']} at target, {by['stop']} at stop, {by['time limit']} on the time limit, "
+            f"{by['crew exit']} by the crew on news." + _caveat(len(closed))
         )
     open_ = [t for t in trades if t["status"] in ("pending", "open", "closing")]
     if open_:
