@@ -685,6 +685,11 @@ def find_news_candidates(
         heaviest = max(weight(i["headline"], cap, price) for i in live)
         item = next(i for i in live if weight(i["headline"], cap, price) == heaviest)  # newest of the heaviest
         created = _created(item)
+        repeat = told_by_news([i for i in items if i not in live], f"{item['headline']} {item.get('summary') or ''}",
+                              info.get("title", ticker), now)
+        if repeat:  # tonight's item rewrites a story a full session already traded
+            log(f"  news skip {ticker}: {repeat}")
+            continue
         traded = (already_traded(bars, first_public_session(created), now)
                   or traded_since(move_since(data, ticker, created, now)))
         if traded:

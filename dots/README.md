@@ -118,7 +118,8 @@ only if:
 2. It tags one or two companies, and the company it is about (the one named first in the
    headline) is an SEC registrant with a price at Alpaca, a recent share count, a market cap
    above the floor and enough daily trading.
-3. No regular session has closed since it was published, and the stock has not visibly reacted.
+3. No regular session has closed since it was published, it is not a rewrite of an earlier
+   headline on the same event that a session already traded, and the stock has not visibly reacted.
 4. The crew has not judged that company in the last three days, and no SEC filing about it is
    already a case tonight. Filings and news are ranked together by the same weights, one case
    per company.
@@ -155,6 +156,9 @@ dashboard/index.html  replay UI; loads runs/latest.json, else the built-in sampl
 Open `dashboard/index.html` through any static server (`python -m http.server -d dashboard`) and
 press REPLAY. With no `runs/latest.json` present it replays a built-in sample night, labelled as
 fictional. After a real run, it replays that run's ledger instead.
+
+IEX's own after-hours session ends at 5:00pm New York time, so the free feed shows no reaction to
+news released later in the evening; the crew is told when `trades_seen` is false.
 
 ## How an order enters
 

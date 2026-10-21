@@ -69,6 +69,17 @@ class OnceBroker:
     def __getattr__(self, name):
         return getattr(self.broker, name)
 
+    # A replay must see the account as it was when the run began. Without this, the second pass
+    # finds the order the first pass sent and the one-position rule blocks the very case that sent it.
+    def _own(self) -> set[str]:
+        return {o.get("symbol") for o in self.sent.values() if o.get("id") and o.get("status") != "not_sent"}
+
+    def open_orders(self) -> list[dict]:
+        return [o for o in self.broker.open_orders() if o.get("symbol") not in self._own()]
+
+    def open_positions(self) -> list[dict]:
+        return [p for p in self.broker.open_positions() if p.get("symbol") not in self._own()]
+
     def bracket_order(self, symbol, side, qty, entry, stop, target):
         key = f"{symbol}:{side}:{qty}:{entry:.2f}:{stop:.2f}:{target:.2f}"
         if key in self.sent:
