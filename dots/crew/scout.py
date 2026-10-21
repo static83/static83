@@ -609,20 +609,23 @@ quarter results million billion effective with from into that this their after o
 inc corp ltd plc""".split())
 
 
+def _same_event(headline: str, text: str, company: str) -> bool:
+    """Two or more of the headline's distinctive words (not the company's own name) appear in text."""
+    own = set(re.findall(r"[a-z]{4,}", company.lower()))
+    words = {w for w in re.findall(r"[a-z]{4,}", headline.lower()) if w not in _GENERIC and w not in own}
+    return sum(1 for w in words if w[:6] in text.lower()) >= 2
+
+
 def told_by_news(news: list[dict], body: str, company: str, now: Optional[datetime] = None) -> Optional[str]:
     """Why a filing is old news: a Benzinga headline on the same company and the same event went
     out before a regular session that has since closed. Same event means at least two of the
     headline's distinctive words (names, terms; not the company's own name) appear in the filing."""
     now = now or datetime.now(timezone.utc)
-    text = body.lower()
-    own = set(re.findall(r"[a-z]{4,}", company.lower()))
     for item in news:
         created = _created(item)
         if _sessions_closed(created, now) < 1:
             continue
-        words = {w for w in re.findall(r"[a-z]{4,}", item["headline"].lower()) if w not in _GENERIC and w not in own}
-        hits = [w for w in words if w[:6] in text]
-        if len(hits) >= 2:
+        if _same_event(item["headline"], body, company):
             when = created.astimezone(NY).strftime("%b %d %H:%M ET")
             return f"already public: Benzinga '{item['headline'][:70]}' at {when}, and a full session has traded since"
     return None
@@ -686,7 +689,10 @@ def find_news_candidates(
             continue
         heaviest = max(weight(i["headline"], cap, price) for i in live)
         item = next(i for i in live if weight(i["headline"], cap, price) == heaviest)  # newest of the heaviest
-        created = _created(item)
+        # measure the reaction from the first report of this event, not from a later rewrite
+        about = f"{item['headline']} {item.get('summary') or ''}"
+        created = min([_created(i) for i in live if _same_event(i["headline"], about, info.get("title", ticker))]
+                      + [_created(item)])
         repeat = told_by_news([i for i in items if i not in live], f"{item['headline']} {item.get('summary') or ''}",
                               info.get("title", ticker), now)
         if repeat:  # tonight's item rewrites a story a full session already traded

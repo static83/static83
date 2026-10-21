@@ -135,14 +135,15 @@ def weight(text: str, market_cap: Optional[float] = None, price: Optional[float]
 
     A deal, contract or settlement is also weighed against the company: under 3% of its market
     value counts 1, under 10% counts 2, whatever the verb. A minority stake in someone else, a deal
-    whose terms were not disclosed, or an unconfirmed rumor counts 1.
+    whose terms were not disclosed, a subsidiary's deal, or an unconfirmed rumor counts 1.
     """
     w = 3 if _TIER3.search(text) else 2 if _TIER2.search(text) else 1
     if re.search(r"\bunconfirmed\b|\brumou?rs?\b|\bspeculation\b", text, re.IGNORECASE):
         return 1  # still a case SCOUT can flag, but it ranks below anything confirmed
     if _UNSIZED.search(text) or not _SIZED.search(text):
         return w
-    if _MINORITY.search(text) or re.search(r"terms (were )?not disclosed|undisclosed", text, re.IGNORECASE):
+    if (_MINORITY.search(text) or re.search(r"terms (were )?not disclosed|undisclosed", text, re.IGNORECASE)
+            or re.search(r", an? [^,]{2,40}\b(company|subsidiary|unit)\b,|\bsubsidiary\b", text, re.IGNORECASE)):
         return 1  # a slice of someone else, or a deal too small for the buyer to have to price it
     amount = largest_amount(text, price)
     if amount and market_cap:
