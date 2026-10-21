@@ -1,0 +1,215 @@
+{
+  "title": "DOTS night run",
+  "fictional": false,
+  "mode": "alpaca-paper",
+  "model": "claude (in session)",
+  "router": "SPIDER",
+  "started_at": "2026-10-21T18:03:46.431756+00:00",
+  "start_balance": 4967.58,
+  "hours": 1,
+  "balance": [
+    [
+      0,
+      4967.58
+    ],
+    [
+      1,
+      4967.78
+    ]
+  ],
+  "events": [
+    {
+      "m": 0,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 0,
+      "text": "track record: 60 past case(s) on file"
+    },
+    {
+      "m": 0,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 1,
+      "text": "case 01 opened: GHC news"
+    },
+    {
+      "m": 1,
+      "role": "SCOUT",
+      "kind": "handoff",
+      "case": 1,
+      "text": "A new CEO at Slate, a small magazine Graham Holdings owns; not Graham's CEO"
+    },
+    {
+      "m": 1,
+      "role": "SCOUT",
+      "kind": "objection",
+      "case": 1,
+      "text": "The CEO change is at a small owned publication, not at Graham Holdings."
+    },
+    {
+      "m": 1,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 1,
+      "text": "GHC: no trade. Slate's new CEO is not Graham Holdings' CEO"
+    },
+    {
+      "m": 1,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 2,
+      "text": "case 02 opened: EW news"
+    },
+    {
+      "m": 1,
+      "role": "SCOUT",
+      "kind": "handoff",
+      "case": 2,
+      "text": "A device approval in one product line at a $50B company; no Edwards release found, stock flat"
+    },
+    {
+      "m": 1,
+      "role": "SCOUT",
+      "kind": "objection",
+      "case": 2,
+      "text": "No primary source in our feeds; an expected product-line approval at a large company; no reaction."
+    },
+    {
+      "m": 1,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 2,
+      "text": "EW: no trade. A tricuspid repair approval, reported second-hand; stock flat"
+    }
+  ],
+  "cases": [
+    {
+      "id": 1,
+      "ticker": "GHC",
+      "outcome": "no_trade",
+      "rounds": 1,
+      "entry": null,
+      "stop": null,
+      "target": null,
+      "size": null,
+      "p_strike": null,
+      "risk": "PENDING",
+      "objections": 2,
+      "order": null
+    },
+    {
+      "id": 2,
+      "ticker": "EW",
+      "outcome": "no_trade",
+      "rounds": 1,
+      "entry": null,
+      "stop": null,
+      "target": null,
+      "size": null,
+      "p_strike": null,
+      "risk": "PENDING",
+      "objections": 2,
+      "order": null
+    }
+  ],
+  "receipts": {
+    "SCOUT": 4,
+    "ANALYST": 0,
+    "SKEPTIC": 0,
+    "QUANT": 0,
+    "RISK": 0,
+    "JOURNAL": 3
+  },
+  "counts": {
+    "objections": 2,
+    "source_links": 2,
+    "send_backs": 0,
+    "restarts": 0
+  },
+  "track_record": {
+    "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+    "scorecard": [
+      "SCOUT skipped 51 case(s); none has a thesis direction with 5 trading days of history yet.",
+      "SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.",
+      "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+      "Still open: SMCI (open).",
+      "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+      "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22."
+    ],
+    "recent_cases": [
+      {
+        "ticker": "EW",
+        "night": "20261021-1803",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "GHC",
+        "night": "20261021-1803",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "MSCI",
+        "night": "20261021-1627",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "ADI",
+        "night": "20261021-1627",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "GSK",
+        "night": "20261021-1627",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "DHR",
+        "night": "20261021-1627",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "APO",
+        "night": "20261021-1622",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "MT",
+        "night": "20261021-1602",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      }
+    ],
+    "cases_on_file": 61
+  }
+}

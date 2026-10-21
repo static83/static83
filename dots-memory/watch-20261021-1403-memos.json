@@ -1,0 +1,118 @@
+[
+  {
+    "case": 1,
+    "ticker": "GHC",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A new CEO at Slate, a small magazine Graham Holdings owns; not Graham's CEO",
+        "reasoning": [
+          "Source: Benzinga 18:02 UTC citing Editor & Publisher, 'Slate Names Hillary Frey as New CEO'. Quoted: 'Slate, a digital news and culture magazine owned by Graham Holdings, has appointed editor-in-chief Hillary Frey as its new CEO.'",
+          "Quoted: 'The appointment was announced in a memo to staff from Tim O'Shaughnessy, CEO of Slate's parent company, Graham Holdings.' Graham's own CEO is unchanged.",
+          "What changed for Graham Holdings ($5.3B, spanning education, TV broadcasting, manufacturing, healthcare and autos): the head of one small digital publication. Immaterial.",
+          "Price: no IEX trades in GHC since the item (349 shares on the day)."
+        ],
+        "objections": [
+          "The CEO change is at a small owned publication, not at Graham Holdings."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "GHC: no trade. Slate's new CEO is not Graham Holdings' CEO",
+        "reasoning": [
+          "Benzinga tagged GHC on a story about Slate, a magazine Graham owns.",
+          "Filter gap: a headline that never names the tagged company is about someone else (a brand or subsidiary) and now weighs at most 2.",
+          "Nothing to check later."
+        ],
+        "objections": [
+          "The CEO change is at a small owned publication, not at Graham Holdings."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "EW",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A device approval in one product line at a $50B company; no Edwards release found, stock flat",
+        "reasoning": [
+          "Source: Benzinga 18:02 UTC citing MarketScreener, 'Edwards Lifesciences Receives FDA Approval for Tricuspid Valve Repair System'. No Edwards press release or 8-K is in our feeds; the device and its label are not named in the excerpt. Details UNCONFIRMED.",
+          "Quoted: 'This regulatory milestone expands the company's treatment options for patients suffering from structural heart disease, specifically targeting tricuspid valve conditions.'",
+          "What changed: one more approved device in Edwards' transcatheter range. Tricuspid therapy is a small and early part of a $50.5B company's sales, and FDA reviews of such devices are public and expected.",
+          "Price: EW -0.03% since the item (88.295 to 88.27), flat on the day."
+        ],
+        "objections": [
+          "No primary source in our feeds; an expected product-line approval at a large company; no reaction."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "EW: no trade. A tricuspid repair approval, reported second-hand; stock flat",
+        "reasoning": [
+          "The only text is MarketScreener's summary; no device name, label or Edwards statement.",
+          "The stock did not move.",
+          "Check later: if Edwards publishes the release with a sales outlook for the device, that would be a new case."
+        ],
+        "objections": [
+          "No primary source in our feeds; an expected product-line approval at a large company; no reaction."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

@@ -1130,7 +1130,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0,
+        "raw": 0.0011,
         "thesis": null
       }
     },
@@ -1158,7 +1158,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0029,
+        "raw": 0.0008,
         "thesis": null
       }
     },
@@ -1186,7 +1186,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.012,
+        "raw": 0.0122,
         "thesis": null
       }
     },
@@ -1219,7 +1219,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0114,
+        "raw": -0.0154,
         "thesis": null
       }
     },
@@ -1247,7 +1247,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0078,
+        "raw": -0.0085,
         "thesis": null
       }
     },
@@ -1277,11 +1277,12 @@
     "order_id": "57809a75-5f43-4cd2-ab4d-2dd5f48bd30f",
     "returns": {
       "1": {
-        "raw": -0.0283,
-        "thesis": -0.0283
+        "raw": -0.0257,
+        "thesis": -0.0257
       }
     },
-    "first_exit": null
+    "first_exit": null,
+    "source_head": "[Benzinga news, 2026-10-20T22:02:10Z, by staff] Supermicro Announces Preliminary Fiscal Q1 2027 Revenue Results\nSupermicro reported preliminary revenue for the first quarter of fiscal year 2027 in the range of $18.5 billion to $19.5 billion, significantly exceeding analyst expectations.\nSupermicro has released a preliminary business update for the first quarter of fiscal year 2027, projecting revenue between $18.5 billion and $19.5 billion. This figure significantly outperforms the FactSet consensus estimate of $14.94 billion. The announcement, made on October 20, 2026, indicates a strong fina"
   },
   "20261021-1250-01-UDR": {
     "key": "20261021-1250-01-UDR",
@@ -1307,7 +1308,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0097,
+        "raw": 0.0152,
         "thesis": null
       }
     },
@@ -1335,7 +1336,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0089,
+        "raw": -0.0072,
         "thesis": null
       }
     },
@@ -1363,7 +1364,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.052,
+        "raw": 0.0435,
         "thesis": null
       }
     },
@@ -1587,6 +1588,52 @@
     "filed_at": "2026-10-21T16:25:24Z",
     "decided_at": "2026-10-21T16:29:56.240423+00:00",
     "price_at_decision": 607.9549999999999,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261021-1803-01-GHC": {
+    "key": "20261021-1803-01-GHC",
+    "night": "20261021-1803",
+    "ticker": "GHC",
+    "accession": "news:100736110",
+    "also_accessions": [],
+    "filed_at": "2026-10-21T18:02:26Z",
+    "decided_at": "2026-10-21T18:05:03.324255+00:00",
+    "price_at_decision": 1222.5,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261021-1803-02-EW": {
+    "key": "20261021-1803-02-EW",
+    "night": "20261021-1803",
+    "ticker": "EW",
+    "accession": "news:100736109",
+    "also_accessions": [],
+    "filed_at": "2026-10-21T18:02:26Z",
+    "decided_at": "2026-10-21T18:05:18.904172+00:00",
+    "price_at_decision": 87.665,
     "outcome": "no_trade",
     "ended_by": "SCOUT",
     "rounds": 1,

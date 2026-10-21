@@ -1,0 +1,5 @@
+{"role":"JOURNAL","verdict":"agree","headline":"GHC: no trade. Slate's new CEO is not Graham Holdings' CEO",
+"reasoning":["Benzinga tagged GHC on a story about Slate, a magazine Graham owns.",
+"Filter gap: a headline that never names the tagged company is about someone else (a brand or subsidiary) and now weighs at most 2.",
+"Nothing to check later."],
+"objections":["The CEO change is at a small owned publication, not at Graham Holdings."]}

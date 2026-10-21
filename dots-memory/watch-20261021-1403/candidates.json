@@ -1,0 +1,34 @@
+[
+  {
+    "ticker": "GHC",
+    "company": "Graham Holdings Co",
+    "cik": "104889",
+    "accession": "news:100736110",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-21T18:02:26Z",
+    "url": "https://www.editorandpublisher.com/stories/slate-names-top-editor-hillary-frey-as-ceo,264095",
+    "source_excerpt": "[Benzinga news, 2026-10-21T18:02:26Z, by staff] Slate Names Hillary Frey as New CEO\nSlate, a digital news and culture magazine owned by Graham Holdings, has appointed editor-in-chief Hillary Frey as its new CEO.\nHillary Frey, who has served as editor-in-chief of Slate since 2022, has been named the company's new CEO, effective immediately. In this expanded role, Frey will oversee the business operations of the publication while continuing to lead its newsroom. The appointment was announced in a memo to staff from Tim O'Shaughnessy, CEO of Slate's parent company, Graham Holdings. This move reflects a broader industry trend of integrating editorial and revenue operations to support the sustainability of news organizations.",
+    "market_cap_usd": 5254305000.0,
+    "last_price": 1222.5,
+    "also_accessions": [],
+    "weight": 3
+  },
+  {
+    "ticker": "EW",
+    "company": "Edwards Lifesciences Corp",
+    "cik": "1099800",
+    "accession": "news:100736109",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-21T18:02:26Z",
+    "url": "https://www.marketscreener.com/news/edwards-lifesciences-gets-approval-for-tricuspid-valve-repair-system-from-us-fda-ce785cd9db8cf727",
+    "source_excerpt": "[Benzinga news, 2026-10-21T18:02:26Z, by staff] Edwards Lifesciences Receives FDA Approval for Tricuspid Valve Repair System\nEdwards Lifesciences has secured US FDA approval for its tricuspid valve repair system, marking a significant milestone for its structural heart disease portfolio.\nThe US Food and Drug Administration (FDA) has granted approval to Edwards Lifesciences for its tricuspid valve repair system. This regulatory milestone expands the company's treatment options for patients suffering from structural heart disease, specifically targeting tricuspid valve conditions. The approval represents a key development for the company's core business in transcatheter heart valve technologies. This new system is expected to strengthen the company's market position in the structural heart space.",
+    "market_cap_usd": 50530106000.0,
+    "last_price": 87.665,
+    "also_accessions": [],
+    "weight": 3
+  }
+]
