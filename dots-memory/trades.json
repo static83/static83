@@ -29,7 +29,7 @@
     "stop": 10.96,
     "target": 12.88,
     "horizon_days": 1,
-    "status": "closing",
+    "status": "closed",
     "opened_at": "2026-10-20T13:34:08.552263+00:00",
     "test": true,
     "fill_price": 11.92,
@@ -37,7 +37,11 @@
     "reanchored_by": -0.05,
     "days_held": 1,
     "close_order_id": "14cb85c2-ed00-497e-96fa-b36aa41ddae4",
-    "close_reason": "time limit"
+    "close_reason": "time limit",
+    "exit_price": 12.14,
+    "exit_reason": "time limit",
+    "closed_at": "2026-10-21T13:30:19.592097263Z",
+    "pnl": 0.22
   },
   "57809a75-5f43-4cd2-ab4d-2dd5f48bd30f": {
     "order_id": "57809a75-5f43-4cd2-ab4d-2dd5f48bd30f",
@@ -46,10 +50,14 @@
     "side": "buy",
     "qty": 40,
     "entry_limit": 36.5,
-    "stop": 34.1,
-    "target": 40.1,
+    "stop": 33.9,
+    "target": 39.9,
     "horizon_days": 5,
-    "status": "pending",
-    "opened_at": "2026-10-21T02:21:14.663067+00:00"
+    "status": "open",
+    "opened_at": "2026-10-21T02:21:14.663067+00:00",
+    "fill_price": 36.305,
+    "filled_at": "2026-10-21T13:42:35.610319626Z",
+    "reanchored_by": -0.2,
+    "days_held": 0
   }
 }
