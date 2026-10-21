@@ -36,5 +36,18 @@
     "filled_at": "2026-10-20T13:34:09.84468844Z",
     "reanchored_by": -0.05,
     "days_held": 0
+  },
+  "57809a75-5f43-4cd2-ab4d-2dd5f48bd30f": {
+    "order_id": "57809a75-5f43-4cd2-ab4d-2dd5f48bd30f",
+    "case_key": "20261021-0217-03-SMCI",
+    "symbol": "SMCI",
+    "side": "buy",
+    "qty": 40,
+    "entry_limit": 36.5,
+    "stop": 34.1,
+    "target": 40.1,
+    "horizon_days": 5,
+    "status": "pending",
+    "opened_at": "2026-10-21T02:21:14.663067+00:00"
   }
 }

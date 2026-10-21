@@ -1,0 +1,10 @@
+{"role":"RISK","verdict":"agree","headline":"Approved at 40 shares, $1,460. Bad exit $200, 4.0% of equity. Stop 34.10 confirmed.",
+"reasoning":["Equity 5,000.20. Cap per bad exit 5% = $250. QUANT's 50 shares sits at the cap. No margin for a worse gap. Cut.",
+"40 shares x 36.50 = $1,460. Gap to 31.50 costs 40 x 5.00 = $200. 4.0% of equity.",
+"Stop check: 34.10 is 5.3% under the 36.00 after-hours last and 6.6% under entry. SMCI's 30-day max gap is 6.61%. The stop can be jumped overnight. The $200 bad-exit figure already assumes it is.",
+"Entry guard: no fill below 35.30 or above 36.50. That band is acceptable.",
+"Concentration: the only open position is the 1-share F plumbing test, which the Spider ignores. One name, one case, one night.",
+"Expectancy at 40 shares: 40 x 0.48 - about $8.60 costs = +$10.60. Small, positive. The size is 29% of the account, not a token trade.",
+"Objections on record: six. The Spider's restart rule does not apply."],
+"objections":["1. Preliminary and unaudited; final numbers on Nov 3 may differ (SCOUT).","2. We saw only 13 minutes of after-hours trade; the overnight level is unknown (SCOUT).","3. The first spike already faded from 37.15 to 36.00; underreaction is not proven (SKEPTIC).","4. Mix-driven margin can reverse; one quarter is not a trend (SKEPTIC).","5. Crowded name: retail and options flow can overshoot at the open (SKEPTIC).","6. Expectancy is thin: +$14 on $1,825, about 0.3% of the account (QUANT)."],
+"direction":"long","position_size_usd":1460,"stop_price":34.10,"bad_exit_cost_usd":200}

@@ -1,0 +1,6 @@
+{"role":"SCOUT","verdict":"object","headline":"Stale repeat: China's approval (dated Oct 10) was on the wire at 10:16 ET and traded all session",
+"reasoning":["Tonight's item (22:02 UTC): 'Kimberly-Clark Receives China Antitrust Approval for Kenvue Acquisition', a rewrite of an earlier story.",
+"The same event was on Benzinga at 14:16 UTC (10:16 ET), during today's session: 'China Unconditionally Approves Kimberly-Clark’s Acquisition Of Kenvue On October 10, 2026, Clearing Key Antitrust Hurdle'. The approval itself is dated ten days ago.",
+"The session traded it: KMB opened 106.35 and closed 108.315 (+2.8% on the day, from 105.395), on 243,299 IEX shares, a normal day's volume.",
+"What changed tonight: nothing. One regulatory step on a $40B deal announced long ago, and 'other customary closing conditions and regulatory reviews' remain."],
+"objections":["Stale: a rewrite of a 10:16 ET story about an Oct 10 approval, already traded through a full session."]}

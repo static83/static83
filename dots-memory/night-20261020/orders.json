@@ -1,0 +1,21 @@
+{
+  "SMCI:buy:40:36.50:34.10:40.10": {
+    "id": "57809a75-5f43-4cd2-ab4d-2dd5f48bd30f",
+    "status": "accepted",
+    "mode": "alpaca-paper",
+    "symbol": "SMCI",
+    "qty": "40",
+    "side": "buy",
+    "type": "stop_limit",
+    "stop_price": "35.30",
+    "limit_price": "36.50",
+    "time_in_force": "gtc",
+    "order_class": "bracket",
+    "take_profit": {
+      "limit_price": "40.10"
+    },
+    "stop_loss": {
+      "stop_price": "34.10"
+    }
+  }
+}

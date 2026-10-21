@@ -1,0 +1,8 @@
+{"role":"JOURNAL","verdict":"agree","headline":"SMCI: paper order sent. Buy 40 at 36.50, stop 34.10, target 40.10, 5-day time limit",
+"reasoning":["Case: Supermicro pre-announced Q1 revenue of $18.5-19.5B against $14.5-15.5B guided and gross margin of 12.0-12.5% against 10.4-10.8%, about 46% more gross profit than guided. IEX after hours: +10.9% at 36.00 (peak 37.15) before its session closed at 17:00 ET.",
+"ANALYST: long for 5 days on estimate revisions before the Nov 3 call; the stock had fallen 17% in the week before.",
+"SKEPTIC let it through with five objections, and raised its bar after its HAS kill closed +11% today.",
+"QUANT: entry capped at 36.50 to avoid chasing; the order only arms at or above 35.30; expectancy +$0.48 per share before costs. RISK cut 50 shares to 40 so a gap to 31.50 costs $200 (4% of equity).",
+"Order at Alpaca: stop-limit entry (trigger 35.30, limit 36.50, good till cancelled) with a 40.10 target and a 34.10 stop held. If SMCI opens above 36.50 or below 35.30 there is no fill, and tomorrow night's run cancels it.",
+"What to check: the fill at tomorrow's open (09:45 check), then the first exit. Thesis right if SMCI holds above 35.30 and drifts toward 40 within 5 days; wrong if it gives back the after-hours gain."],
+"objections":["1. Preliminary and unaudited; final numbers on Nov 3 may differ (SCOUT).","2. We saw only 13 minutes of after-hours trade; the overnight level is unknown (SCOUT).","3. The first spike already faded from 37.15 to 36.00; underreaction is not proven (SKEPTIC).","4. Mix-driven margin can reverse; one quarter is not a trend (SKEPTIC).","5. Crowded name: retail and options flow can overshoot at the open (SKEPTIC).","6. Expectancy is thin: +$14 on $1,825, about 0.3% of the account (QUANT)."]}

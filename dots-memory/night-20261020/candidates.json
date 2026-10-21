@@ -1,0 +1,57 @@
+[
+  {
+    "ticker": "SPCX",
+    "company": "SPACE EXPLORATION TECHNOLOGIES CORP",
+    "cik": "1181412",
+    "accession": "news:100206306",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-20T23:01:37Z",
+    "url": "https://www.morningstar.com/news/marketwatch/20261020419/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger",
+    "source_excerpt": "[Benzinga news, 2026-10-20T23:01:37Z, by staff] SpaceX and Tesla Exploring Potential Merger\nSpaceX and Tesla have established special committees of independent board directors to evaluate a potential merger between the two companies.\nSpaceX and Tesla are in the early stages of exploring a potential merger, according to CEO Elon Musk. Both companies have formed special committees consisting of independent board directors to assess the feasibility and structure of a combination. Musk, who serves as CEO and is a major shareholder in both entities, noted that he is not directly involved in the deliberations. While the companies are actively evaluating the prospect, Musk emphasized that a merger is not guaranteed and that progress remains in the preliminary stages.\n[Other material headlines on this company in the window]\n- 2026-10-20T21:55:45Z Elon Musk Confirms SpaceX, Tesla Merger Committees, Calls Deal \u2018A Good Idea\u2019\n- 2026-10-20T21:25:54Z SpaceX CEO Musk Says He Thinks A Merger With Tesla Would Be A Good Idea\n- 2026-10-20T21:23:45Z SpaceX CEO Musk Says Co And Tesla Have Formed Special Committees To Discuss Merger\n- 2026-10-20T20:28:44Z SpaceX Says Deal To Acquire FCC Licenses Related To 800 MHz Spectrum Expected To Close In H1 Of 2027; Q3 Connectivity Segment Revenue $5.25B; As Of September 30, Reached 13.6M Starlink Consumer Subscribers; Q3 Income From Operations For Connectivity Segment $2.4B",
+    "market_cap_usd": 721555309999.9999,
+    "last_price": 147.89,
+    "also_accessions": [
+      "news:62484678",
+      "news:62484355",
+      "news:62484324",
+      "news:62482779"
+    ],
+    "weight": 3
+  },
+  {
+    "ticker": "KMB",
+    "company": "KIMBERLY CLARK CORP",
+    "cik": "55785",
+    "accession": "news:100102797",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-20T22:02:20Z",
+    "url": "https://ucapital.com/en/news/breaking/17664969",
+    "source_excerpt": "[Benzinga news, 2026-10-20T22:02:20Z, by staff] Kimberly-Clark Receives China Antitrust Approval for Kenvue Acquisition\nKimberly-Clark Corporation has secured antitrust approval from Chinese regulators for its proposed $40 billion acquisition of Kenvue Inc.\nKimberly-Clark Corporation has received regulatory clearance from Chinese authorities regarding its pending $40 billion acquisition of Kenvue Inc. This antitrust approval marks a critical milestone in the regulatory review process for the transaction. The acquisition, which is expected to close in the second half of 2026, remains subject to other customary closing conditions and regulatory reviews.\n[Other material headlines on this company in the window]\n- 2026-10-20T14:16:17Z China Unconditionally Approves Kimberly-Clark\u2019s Acquisition Of Kenvue On October 10, 2026, Clearing Key Antitrust Hurdle",
+    "market_cap_usd": 36023298500.97,
+    "last_price": 108.315,
+    "also_accessions": [],
+    "weight": 3
+  },
+  {
+    "ticker": "SMCI",
+    "company": "Super Micro Computer, Inc.",
+    "cik": "1375365",
+    "accession": "news:100102776",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-20T22:02:10Z",
+    "url": "https://www.marketscreener.com/news/super-micro-computer-reports-higher-fiscal-q1-preliminary-revenue-shares-rise-after-hours-ce785cd8dc88f220",
+    "source_excerpt": "[Benzinga news, 2026-10-20T22:02:10Z, by staff] Supermicro Announces Preliminary Fiscal Q1 2027 Revenue Results\nSupermicro reported preliminary revenue for the first quarter of fiscal year 2027 in the range of $18.5 billion to $19.5 billion, significantly exceeding analyst expectations.\nSupermicro has released a preliminary business update for the first quarter of fiscal year 2027, projecting revenue between $18.5 billion and $19.5 billion. This figure significantly outperforms the FactSet consensus estimate of $14.94 billion. The announcement, made on October 20, 2026, indicates a strong financial performance for the quarter. Following the disclosure, the company's share price experienced an increase in after-hours trading. This update provides a material, quantified revision to the company's financial outlook for the period.\n[Other material headlines on this company in the window]\n- 2026-10-20T20:42:46Z Super Micro Computer Raises Q1 Sales Guidance from $14.500B-$15.500B to $18.500B-$19.500B vs $14.916B Est",
+    "market_cap_usd": 23614620727.88,
+    "last_price": 35.945,
+    "also_accessions": [
+      "news:62483413"
+    ],
+    "weight": 3
+  }
+]

@@ -1,0 +1,224 @@
+{
+  "role": "QUANT",
+  "packet": {
+    "case": 3,
+    "account": {
+      "equity_usd": 5000.2,
+      "mode": "alpaca-paper",
+      "open_positions": [
+        "F"
+      ],
+      "open_orders": [
+        "F"
+      ]
+    },
+    "filing": {
+      "ticker": "SMCI",
+      "company": "Super Micro Computer, Inc.",
+      "cik": "1375365",
+      "accession": "news:100102776",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-20T22:02:10Z",
+      "url": "https://www.marketscreener.com/news/super-micro-computer-reports-higher-fiscal-q1-preliminary-revenue-shares-rise-after-hours-ce785cd8dc88f220",
+      "source_excerpt": "[Benzinga news, 2026-10-20T22:02:10Z, by staff] Supermicro Announces Preliminary Fiscal Q1 2027 Revenue Results\nSupermicro reported preliminary revenue for the first quarter of fiscal year 2027 in the range of $18.5 billion to $19.5 billion, significantly exceeding analyst expectations.\nSupermicro has released a preliminary business update for the first quarter of fiscal year 2027, projecting revenue between $18.5 billion and $19.5 billion. This figure significantly outperforms the FactSet consensus estimate of $14.94 billion. The announcement, made on October 20, 2026, indicates a strong financial performance for the quarter. Following the disclosure, the company's share price experienced an increase in after-hours trading. This update provides a material, quantified revision to the company's financial outlook for the period.\n[Other material headlines on this company in the window]\n- 2026-10-20T20:42:46Z Super Micro Computer Raises Q1 Sales Guidance from $14.500B-$15.500B to $18.500B-$19.500B vs $14.916B Est",
+      "market_cap_usd": 23614620727.88,
+      "last_price": 35.945,
+      "also_accessions": [
+        "news:62483413"
+      ],
+      "weight": 3
+    },
+    "market": {
+      "quote": {
+        "ap": 36.02,
+        "as": 100,
+        "ax": "V",
+        "bp": 35.87,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-20T20:52:39.568836621Z",
+        "z": "C"
+      },
+      "extended_hours": {
+        "session": "after-hours",
+        "reference_close": 32.46,
+        "last": 36.0,
+        "move_pct": 10.91,
+        "high": 37.15,
+        "low": 35.9,
+        "volume": 15747,
+        "as_of": "2026-10-20T20:55:00Z",
+        "trades_seen": true,
+        "note": "IEX feed only; extended-hours volume is thin, so a small print can move the last price"
+      },
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 2.04,
+        "max_gap_pct": 6.61
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 10.433,
+        "slippage_usd": 2.5001,
+        "spread_pct": 0.417
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "Supermicro pre-announces Q1: revenue ~$19B vs $15B guided, gross margin 12.0-12.5% vs 10.4-10.8%",
+        "reasoning": [
+          "Primary source: 8-K item 2.02 accepted 20:44 UTC (16:44 ET), Exhibit 99.1 'Supermicro Provides First Quarter of Fiscal Year 2027 Preliminary Business Update'. Benzinga's first headline was 20:42 UTC, two minutes earlier, so the filing was not late. Tonight's case item is a 22:02 UTC rewrite of the same news.",
+          "Quoted: 'Revenues for the first quarter of fiscal year 2027 are estimated to be in the range of $18.5 billion to $19.5 billion versus guidance of $14.5 billion to $15.5 billion, primarily due to increased demand for AI platforms.'",
+          "Quoted: 'Gross margins are estimated to be in the range of 12.0% to 12.5%, versus guidance of 10.4% to 10.8%, primarily due to customer and product mix.'",
+          "Caveat, quoted: 'the Company's independent registered public accounting firm has not audited, reviewed, compiled or performed any procedures with respect to the preliminary revenues and gross margins'. Full results and the call come November 3.",
+          "What changed: at the midpoints, quarterly gross profit is about $2.33B ($19.0B x 12.25%) against about $1.59B implied by guidance ($15.0B x 10.6%), roughly 46% more. Consensus revenue was $14.92B per Benzinga.",
+          "Price: IEX after hours peaked at 37.15 (+14.4%) and was 36.00 (+10.9% vs the 32.46 close) by 16:55 ET, on 15,747 shares. IEX's after-hours session ends at 17:00 ET, so nothing later is visible."
+        ],
+        "objections": [
+          "Preliminary and unaudited; final numbers on Nov 3 may differ.",
+          "We saw only 13 minutes of after-hours trade; the overnight level is unknown."
+        ]
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "agree",
+        "headline": "Long SMCI: a ~46% gross-profit beat repriced only +11% in 13 minutes of thin trade",
+        "reasoning": [
+          "What changed: revenue ~27% above the guidance midpoint and gross margin ~165bp above it. Together that is about $0.74B more gross profit in one quarter than Supermicro itself guided. That is a change in earnings power, not a rounding beat.",
+          "Why margin matters: SMCI's knock has been low and falling margins. A beat driven by 'customer and product mix' at 12%+ answers the bear case directly, and that is what sell-side models will now move.",
+          "What the market must believe at +11%: that the beat is one-off order timing with margins reverting. The release gives no sign of that. Demand is attributed to AI platforms, the same driver as the last several quarters.",
+          "Mechanism: large pre-announced beats on hardware names tend to keep re-rating for days as estimates reset. Here the reset happens before the Nov 3 call, which is 10 trading days away.",
+          "Direction long, horizon_days 5: catch the estimate revisions and exit well before the Nov 3 print.",
+          "Proves me wrong: SMCI opening and holding below 35.30 (it would have given back about half of the after-hours gain, a sign the market reads it as timing), or any follow-up that cuts the margin range."
+        ],
+        "objections": [
+          "Preliminary and unaudited; final numbers on Nov 3 may differ.",
+          "We saw only 13 minutes of after-hours trade; the overnight level is unknown."
+        ],
+        "direction": "long",
+        "horizon_days": 5
+      },
+      {
+        "role": "SKEPTIC",
+        "verdict": "agree",
+        "headline": "Survives, barely: the beat is real and the stock was down 17% into it, but the first spike already faded",
+        "reasoning": [
+          "Who read it first: SMCI is one of the most-traded retail and options names, and the release hit at 16:42 ET with the full after-hours session to price it. By the open, every desk has run the gross-profit arithmetic. Assume the easy part is gone.",
+          "Attack on 'repriced only +11% in 13 minutes': the only tape we have says the first buyers already backed off. IEX printed 37.15 (+14.4%) and then 36.00, a fade of a quarter of the move within minutes. 'Underreaction' is unproven; an overnight level of +15-20% is just as plausible, and the entry must not chase it.",
+          "Attack on quality: the numbers are preliminary, and the release says the auditor has done no procedures on them. Mix-driven margin gains in AI servers can reverse with the next big customer order. One quarter does not prove a margin step.",
+          "Where ANALYST holds: the stock fell from 39.07 (Oct 13) to 32.46 (Oct 20) into the release, so +11% only takes it back to about where it was a week ago, before ~46% more gross profit than guided. Positioning was leaning the wrong way.",
+          "Track record: my morning kill of HAS (raised outlook, +2% pre-market) closed +11.2% on the day and +6.5% from the open. That is one case and below any sample size that counts, but it is a kill of exactly this setup going wrong, so I raise my bar for objecting tonight.",
+          "priced_in_score 0.45. Conditions for QUANT: do not chase above the after-hours level, keep the stop below where half the gain is given back, and size for an SMCI-sized gap."
+        ],
+        "objections": [
+          "1. Preliminary and unaudited; final numbers on Nov 3 may differ (SCOUT).",
+          "2. We saw only 13 minutes of after-hours trade; the overnight level is unknown (SCOUT).",
+          "3. The first spike already faded from 37.15 to 36.00; underreaction is not proven.",
+          "4. Mix-driven margin can reverse; one quarter is not a trend.",
+          "5. Crowded name: retail and options flow can overshoot at the open."
+        ],
+        "priced_in_score": 0.45
+      }
+    ],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 37 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, open."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "KMB",
+          "night": "20261021-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SPCX",
+          "night": "20261021-0217",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "TSLA",
+          "night": "20261020-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "QGEN",
+          "night": "20261020-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CCBG",
+          "night": "20261020-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SFST",
+          "night": "20261020-1247",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "HAS",
+          "night": "20261020-1247",
+          "ended_by": "SKEPTIC",
+          "direction": "long",
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "RCUS",
+          "night": "20261020-1247",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 45
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}
