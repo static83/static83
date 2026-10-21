@@ -1,0 +1,144 @@
+{
+  "role": "JOURNAL",
+  "packet": {
+    "case": 2,
+    "account": {
+      "equity_usd": 5015.58,
+      "mode": "alpaca-paper",
+      "open_positions": [
+        "SMCI"
+      ],
+      "open_orders": [
+        "SMCI"
+      ]
+    },
+    "filing": {
+      "ticker": "CIGI",
+      "company": "Colliers International Group Inc.",
+      "cik": "913353",
+      "accession": "news:100448836",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-21T13:32:38Z",
+      "url": "https://smb.barrierestarjournal.com/article/Englobe-completes-acquisition-of-Calgary-based-Reinbold-Engineering-Group/6ad89c0ddba4ed9cc76d8621",
+      "source_excerpt": "[Benzinga news, 2026-10-21T13:32:38Z, by staff] Englobe, a Colliers Company, Completes Acquisition of Reinbold Engineering Group\nEnglobe, a subsidiary of Colliers International Group Inc., has finalized its acquisition of Calgary-based mechanical engineering firm Reinbold Engineering Group.\nEnglobe, a Canadian engineering and environmental services firm and a subsidiary of Colliers International Group Inc., has completed the acquisition of Reinbold Engineering Group. The transaction adds over 90 team members from Reinbold to Englobe's national platform, with offices in Calgary, Edmonton, Kelowna, Vancouver, and Toronto. This acquisition is intended to strengthen Englobe's capabilities in mechanical engineering, energy modelling, commissioning, and sustainable building design. Reinbold's clients will now have access to Englobe's broader national engineering and environmental services.",
+      "market_cap_usd": 4744507905.8,
+      "last_price": 93.425,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "outcome": "no_trade",
+      "order": null
+    },
+    "memos_so_far": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Immaterial: a Colliers subsidiary closes a 90-person engineering firm, terms not given",
+        "reasoning": [
+          "Source: the story (Benzinga 13:32 UTC, from a local news wire): 'Englobe, a Colliers Company, Completes Acquisition of Reinbold Engineering Group'. No Colliers release or filing.",
+          "Quoted: 'The transaction adds over 90 team members from Reinbold to Englobe's national platform, with offices in Calgary, Edmonton, Kelowna, Vancouver, and Toronto.'",
+          "What changed: a tuck-in at a subsidiary. Ninety people against a $4.7B parent is immaterial, and Colliers did not disclose a price, which it would have to for anything material.",
+          "Price: CIGI -0.2% since the item, on 572 IEX shares."
+        ],
+        "objections": [
+          "Immaterial subsidiary tuck-in; no terms, no parent filing."
+        ]
+      }
+    ],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 40 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "Still open: SMCI (open).",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "BCRX",
+          "night": "20261021-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "TMO",
+          "night": "20261021-1250",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MLKN",
+          "night": "20261021-1250",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "UDR",
+          "night": "20261021-1250",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SMCI",
+          "night": "20261021-0217",
+          "ended_by": "TRADED",
+          "direction": "long",
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "KMB",
+          "night": "20261021-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SPCX",
+          "night": "20261021-0217",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "TSLA",
+          "night": "20261020-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 50
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

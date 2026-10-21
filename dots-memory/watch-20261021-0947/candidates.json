@@ -1,0 +1,50 @@
+[
+  {
+    "ticker": "BCRX",
+    "company": "BIOCRYST PHARMACEUTICALS INC",
+    "cik": "882796",
+    "accession": "news:100449780",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-21T13:32:51Z",
+    "url": "https://www.globenewswire.com/news-release/2026/10/21/3385361/29446/en/biocryst-announces-u-s-fda-approval-of-orladeyo-150-mg-oral-pellets-for-adults-and-adolescents-with-hae.html",
+    "source_excerpt": "[Benzinga news, 2026-10-21T13:32:51Z, by staff] BioCryst Announces U.S. FDA Approval of ORLADEYO\u00ae 150 mg Oral Pellets\nBioCryst Pharmaceuticals received U.S. FDA approval for its new 150 mg oral pellet formulation of ORLADEYO (berotralstat) for the prevention of hereditary angioedema (HAE) attacks.\nBioCryst Pharmaceuticals, Inc. announced that the U.S. Food and Drug Administration (FDA) has approved its supplemental New Drug Application (sNDA) for an oral pellet formulation of ORLADEYO (berotralstat). This new 150 mg formulation is indicated for the prophylactic treatment of hereditary angioedema (HAE) in adults and adolescents aged 12 years and older. The company developed this alternative administration option to support patients who may have difficulty swallowing capsules or who prefer a different method of administration. This approval expands the available delivery options for the company's flagship HAE therapy.\n[Other material headlines on this company in the window]\n- 2026-10-21T11:08:02Z FDA Approves BioCryst Pharma\u2019s sNDA For Use Of Oral Pellet Formulation Of Once-Daily ORLADEYO For Prophylactic Therapy In Adults And Adolescents Aged 12 Years And Older",
+    "market_cap_usd": 2040447813.4250002,
+    "last_price": 7.985,
+    "also_accessions": [],
+    "weight": 3
+  },
+  {
+    "ticker": "CIGI",
+    "company": "Colliers International Group Inc.",
+    "cik": "913353",
+    "accession": "news:100448836",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-21T13:32:38Z",
+    "url": "https://smb.barrierestarjournal.com/article/Englobe-completes-acquisition-of-Calgary-based-Reinbold-Engineering-Group/6ad89c0ddba4ed9cc76d8621",
+    "source_excerpt": "[Benzinga news, 2026-10-21T13:32:38Z, by staff] Englobe, a Colliers Company, Completes Acquisition of Reinbold Engineering Group\nEnglobe, a subsidiary of Colliers International Group Inc., has finalized its acquisition of Calgary-based mechanical engineering firm Reinbold Engineering Group.\nEnglobe, a Canadian engineering and environmental services firm and a subsidiary of Colliers International Group Inc., has completed the acquisition of Reinbold Engineering Group. The transaction adds over 90 team members from Reinbold to Englobe's national platform, with offices in Calgary, Edmonton, Kelowna, Vancouver, and Toronto. This acquisition is intended to strengthen Englobe's capabilities in mechanical engineering, energy modelling, commissioning, and sustainable building design. Reinbold's clients will now have access to Englobe's broader national engineering and environmental services.",
+    "market_cap_usd": 4744507905.8,
+    "last_price": 93.425,
+    "also_accessions": [],
+    "weight": 3
+  },
+  {
+    "ticker": "PCG",
+    "company": "PG&E Corp",
+    "cik": "1004980",
+    "accession": "news:100448775",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-21T13:32:07Z",
+    "url": "https://www.prnewswire.com/news-releases/pge-submits-testimony-to-california-regulators-outlining-22-5-billion-cost-of-government-grid-takeover-in-san-francisco-302915200.html",
+    "source_excerpt": "[Benzinga news, 2026-10-21T13:32:07Z, by staff] PG&E Outlines Infrastructure Investments Amid San Francisco Takeover Bid\nPG&E detailed its ongoing and planned reliability upgrades in San Francisco to counter a municipal takeover proposal.\nPG&E reported that it has invested $3 billion in reliability upgrades over the past decade and plans to spend nearly $2 billion more over the next five years. For 2026, the company is investing $370 million in San Francisco for substation resilience and reliability projects, including 23 specific reliability initiatives and infrastructure modernization. The company emphasized its commitment to serving the city and argued that a municipal takeover would not be in the best interest of San Francisco, noting that its local workforce would be reassigned to other parts of the system if the assets were transferred.\n[Other material headlines on this company in the window]\n- 2026-10-21T13:07:04Z PG&E Submits Testimony To California Regulators, Values Potential San Francisco Grid Takeover At $22.5B, Including $8.6B In Severance And Separation Costs",
+    "market_cap_usd": 35230052469.92,
+    "last_price": 13.145,
+    "also_accessions": [],
+    "weight": 3
+  }
+]

@@ -1,0 +1,144 @@
+{
+  "role": "JOURNAL",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 5020.78,
+      "mode": "alpaca-paper",
+      "open_positions": [
+        "SMCI"
+      ],
+      "open_orders": [
+        "SMCI"
+      ]
+    },
+    "filing": {
+      "ticker": "BCRX",
+      "company": "BIOCRYST PHARMACEUTICALS INC",
+      "cik": "882796",
+      "accession": "news:100449780",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-21T13:32:51Z",
+      "url": "https://www.globenewswire.com/news-release/2026/10/21/3385361/29446/en/biocryst-announces-u-s-fda-approval-of-orladeyo-150-mg-oral-pellets-for-adults-and-adolescents-with-hae.html",
+      "source_excerpt": "[Benzinga news, 2026-10-21T13:32:51Z, by staff] BioCryst Announces U.S. FDA Approval of ORLADEYO\u00ae 150 mg Oral Pellets\nBioCryst Pharmaceuticals received U.S. FDA approval for its new 150 mg oral pellet formulation of ORLADEYO (berotralstat) for the prevention of hereditary angioedema (HAE) attacks.\nBioCryst Pharmaceuticals, Inc. announced that the U.S. Food and Drug Administration (FDA) has approved its supplemental New Drug Application (sNDA) for an oral pellet formulation of ORLADEYO (berotralstat). This new 150 mg formulation is indicated for the prophylactic treatment of hereditary angioedema (HAE) in adults and adolescents aged 12 years and older. The company developed this alternative administration option to support patients who may have difficulty swallowing capsules or who prefer a different method of administration. This approval expands the available delivery options for the company's flagship HAE therapy.\n[Other material headlines on this company in the window]\n- 2026-10-21T11:08:02Z FDA Approves BioCryst Pharma\u2019s sNDA For Use Of Oral Pellet Formulation Of Once-Daily ORLADEYO For Prophylactic Therapy In Adults And Adolescents Aged 12 Years And Older",
+      "market_cap_usd": 2040447813.4250002,
+      "last_price": 7.985,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "outcome": "no_trade",
+      "order": null
+    },
+    "memos_so_far": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Line extension: a pellet formulation of a drug already on the market; first on the wire at 07:08 ET",
+        "reasoning": [
+          "Primary source: BioCryst's press release on GlobeNewswire, 'BioCryst Announces U.S. FDA Approval of ORLADEYO 150 mg Oral Pellets'. The first report was at 07:08 ET (Benzinga 11:08 UTC: 'FDA Approves BioCryst Pharma\u2019s sNDA For Use Of Oral Pellet Formulation Of Once-Daily ORLADEYO'); the watcher's 09:32 item is a rewrite.",
+          "Quoted from the summary: an approved 'supplemental New Drug Application (sNDA) for an oral pellet formulation of ORLADEYO (berotralstat)' for 'patients who may have difficulty swallowing capsules or who prefer a different method of administration'.",
+          "What changed: a second way to take a drug BioCryst already sells, for the same disease and the same ages. It is a convenience option, not a new indication or a new market.",
+          "Price: BCRX is +0.6% against yesterday's close (7.935 to 7.985) since the 07:08 report. The market agrees it is small."
+        ],
+        "objections": [
+          "Immaterial line extension (new formulation, same indication); first reported before the open."
+        ]
+      }
+    ],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 39 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "Still open: SMCI (open).",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "TMO",
+          "night": "20261021-1250",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MLKN",
+          "night": "20261021-1250",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "UDR",
+          "night": "20261021-1250",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SMCI",
+          "night": "20261021-0217",
+          "ended_by": "TRADED",
+          "direction": "long",
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "KMB",
+          "night": "20261021-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SPCX",
+          "night": "20261021-0217",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "TSLA",
+          "night": "20261020-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "QGEN",
+          "night": "20261020-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 49
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

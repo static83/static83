@@ -1,0 +1,178 @@
+[
+  {
+    "case": 1,
+    "ticker": "BCRX",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Line extension: a pellet formulation of a drug already on the market; first on the wire at 07:08 ET",
+        "reasoning": [
+          "Primary source: BioCryst's press release on GlobeNewswire, 'BioCryst Announces U.S. FDA Approval of ORLADEYO 150 mg Oral Pellets'. The first report was at 07:08 ET (Benzinga 11:08 UTC: 'FDA Approves BioCryst Pharma\u2019s sNDA For Use Of Oral Pellet Formulation Of Once-Daily ORLADEYO'); the watcher's 09:32 item is a rewrite.",
+          "Quoted from the summary: an approved 'supplemental New Drug Application (sNDA) for an oral pellet formulation of ORLADEYO (berotralstat)' for 'patients who may have difficulty swallowing capsules or who prefer a different method of administration'.",
+          "What changed: a second way to take a drug BioCryst already sells, for the same disease and the same ages. It is a convenience option, not a new indication or a new market.",
+          "Price: BCRX is +0.6% against yesterday's close (7.935 to 7.985) since the 07:08 report. The market agrees it is small."
+        ],
+        "objections": [
+          "Immaterial line extension (new formulation, same indication); first reported before the open."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "BCRX: no trade. FDA approved a pellet form of ORLADEYO, same drug and indication; stock +0.6%",
+        "reasoning": [
+          "An sNDA for a new formulation of an approved drug is a line extension; 'FDA approves' in the headline made it weigh 3.",
+          "The 09:32 ET item was a rewrite of the 07:08 ET report.",
+          "Watcher note: the move since the news should be measured from the first report of the event, not from a rewrite. Here it made no difference (+0.6% either way).",
+          "Nothing to check beyond the usual 5-day return."
+        ],
+        "objections": [
+          "Immaterial line extension (new formulation, same indication); first reported before the open."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "CIGI",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Immaterial: a Colliers subsidiary closes a 90-person engineering firm, terms not given",
+        "reasoning": [
+          "Source: the story (Benzinga 13:32 UTC, from a local news wire): 'Englobe, a Colliers Company, Completes Acquisition of Reinbold Engineering Group'. No Colliers release or filing.",
+          "Quoted: 'The transaction adds over 90 team members from Reinbold to Englobe's national platform, with offices in Calgary, Edmonton, Kelowna, Vancouver, and Toronto.'",
+          "What changed: a tuck-in at a subsidiary. Ninety people against a $4.7B parent is immaterial, and Colliers did not disclose a price, which it would have to for anything material.",
+          "Price: CIGI -0.2% since the item, on 572 IEX shares."
+        ],
+        "objections": [
+          "Immaterial subsidiary tuck-in; no terms, no parent filing."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "CIGI: no trade. A subsidiary bought a 90-person engineering firm",
+        "reasoning": [
+          "Englobe, part of Colliers, closed a small Calgary engineering firm; no price was given.",
+          "Filter gap: 'X, a <Parent> Company, completes acquisition' is a subsidiary tuck-in and should weigh 1, like undisclosed terms. Fixed after this alert.",
+          "Nothing to check beyond the usual 5-day return."
+        ],
+        "objections": [
+          "Immaterial subsidiary tuck-in; no terms, no parent filing."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "PCG",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Regulatory testimony in a long-running fight over a San Francisco grid takeover; no decision",
+        "reasoning": [
+          "Primary source: PG&E's release on PR Newswire, 'PG&E Submits Testimony to California Regulators Outlining $22.5 Billion Cost of Government Grid Takeover in San Francisco' (Benzinga 13:07 UTC); the 09:32 ET item is a follow-up rewrite.",
+          "Quoted from the summary: PG&E 'has invested $3 billion in reliability upgrades over the past decade and plans to spend nearly $2 billion more over the next five years'; it 'argued that a municipal takeover would not be in the best interest of San Francisco'.",
+          "What changed: PG&E filed its side of a regulatory case and put a price on a takeover ($22.5B including $8.6B of severance and separation costs). Nothing was decided; the regulator has not ruled and the city has made no offer in this news.",
+          "'Takeover bid' in the headline is the city's long-running municipalisation effort, not an offer for PG&E's shares.",
+          "Price: PCG -0.2% against yesterday's close since 09:07 ET."
+        ],
+        "objections": [
+          "Advocacy testimony in an undecided regulatory proceeding; 'takeover' refers to municipalisation, not a bid for the company."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "PCG: no trade. PG&E's testimony against San Francisco's grid takeover; nothing decided",
+        "reasoning": [
+          "PG&E told California regulators a takeover of its San Francisco grid would cost $22.5B, $8.6B of it severance and separation.",
+          "The 'takeover bid' is municipalisation of local assets, not a bid for PG&E; the word made the headline weigh 3.",
+          "Nothing to check beyond the usual 5-day return; a ruling by the commission would be a new case."
+        ],
+        "objections": [
+          "Advocacy testimony in an undecided regulatory proceeding; 'takeover' refers to municipalisation, not a bid for the company."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

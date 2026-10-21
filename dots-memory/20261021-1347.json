@@ -1,0 +1,257 @@
+{
+  "title": "DOTS night run",
+  "fictional": false,
+  "mode": "alpaca-paper",
+  "model": "claude (in session)",
+  "router": "SPIDER",
+  "started_at": "2026-10-21T13:47:26.216758+00:00",
+  "start_balance": 5021.98,
+  "hours": 1,
+  "balance": [
+    [
+      0,
+      5021.98
+    ],
+    [
+      1,
+      5021.78
+    ]
+  ],
+  "events": [
+    {
+      "m": 0,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 0,
+      "text": "track record: 51 past case(s) on file"
+    },
+    {
+      "m": 0,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 1,
+      "text": "case 01 opened: BCRX news"
+    },
+    {
+      "m": 1,
+      "role": "SCOUT",
+      "kind": "handoff",
+      "case": 1,
+      "text": "Line extension: a pellet formulation of a drug already on the market; first on the wire at 07:08 ET"
+    },
+    {
+      "m": 1,
+      "role": "SCOUT",
+      "kind": "objection",
+      "case": 1,
+      "text": "Immaterial line extension (new formulation, same indication); first reported before the open."
+    },
+    {
+      "m": 1,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 1,
+      "text": "BCRX: no trade. FDA approved a pellet form of ORLADEYO, same drug and indication; stock +0.6%"
+    },
+    {
+      "m": 1,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 2,
+      "text": "case 02 opened: CIGI news"
+    },
+    {
+      "m": 1,
+      "role": "SCOUT",
+      "kind": "handoff",
+      "case": 2,
+      "text": "Immaterial: a Colliers subsidiary closes a 90-person engineering firm, terms not given"
+    },
+    {
+      "m": 1,
+      "role": "SCOUT",
+      "kind": "objection",
+      "case": 2,
+      "text": "Immaterial subsidiary tuck-in; no terms, no parent filing."
+    },
+    {
+      "m": 1,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 2,
+      "text": "CIGI: no trade. A subsidiary bought a 90-person engineering firm"
+    },
+    {
+      "m": 1,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 3,
+      "text": "case 03 opened: PCG news"
+    },
+    {
+      "m": 1,
+      "role": "SCOUT",
+      "kind": "handoff",
+      "case": 3,
+      "text": "Regulatory testimony in a long-running fight over a San Francisco grid takeover; no decision"
+    },
+    {
+      "m": 1,
+      "role": "SCOUT",
+      "kind": "objection",
+      "case": 3,
+      "text": "Advocacy testimony in an undecided regulatory proceeding; 'takeover' refers to municipalisation, not a bid for the company."
+    },
+    {
+      "m": 1,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 3,
+      "text": "PCG: no trade. PG&E's testimony against San Francisco's grid takeover; nothing decided"
+    }
+  ],
+  "cases": [
+    {
+      "id": 1,
+      "ticker": "BCRX",
+      "outcome": "no_trade",
+      "rounds": 1,
+      "entry": null,
+      "stop": null,
+      "target": null,
+      "size": null,
+      "p_strike": null,
+      "risk": "PENDING",
+      "objections": 2,
+      "order": null
+    },
+    {
+      "id": 2,
+      "ticker": "CIGI",
+      "outcome": "no_trade",
+      "rounds": 1,
+      "entry": null,
+      "stop": null,
+      "target": null,
+      "size": null,
+      "p_strike": null,
+      "risk": "PENDING",
+      "objections": 2,
+      "order": null
+    },
+    {
+      "id": 3,
+      "ticker": "PCG",
+      "outcome": "no_trade",
+      "rounds": 1,
+      "entry": null,
+      "stop": null,
+      "target": null,
+      "size": null,
+      "p_strike": null,
+      "risk": "PENDING",
+      "objections": 2,
+      "order": null
+    }
+  ],
+  "receipts": {
+    "SCOUT": 6,
+    "ANALYST": 0,
+    "SKEPTIC": 0,
+    "QUANT": 0,
+    "RISK": 0,
+    "JOURNAL": 4
+  },
+  "counts": {
+    "objections": 3,
+    "source_links": 3,
+    "send_backs": 0,
+    "restarts": 0
+  },
+  "track_record": {
+    "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+    "scorecard": [
+      "SCOUT skipped 42 case(s); none has a thesis direction with 5 trading days of history yet.",
+      "SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.",
+      "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+      "Still open: SMCI (open).",
+      "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+      "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22."
+    ],
+    "recent_cases": [
+      {
+        "ticker": "PCG",
+        "night": "20261021-1347",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "CIGI",
+        "night": "20261021-1347",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "BCRX",
+        "night": "20261021-1347",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "TMO",
+        "night": "20261021-1250",
+        "ended_by": "ANALYST",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "MLKN",
+        "night": "20261021-1250",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "UDR",
+        "night": "20261021-1250",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "SMCI",
+        "night": "20261021-0217",
+        "ended_by": "TRADED",
+        "direction": "long",
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "KMB",
+        "night": "20261021-0217",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      }
+    ],
+    "cases_on_file": 52
+  }
+}

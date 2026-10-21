@@ -1,0 +1,5 @@
+{"role":"JOURNAL","verdict":"agree","headline":"CIGI: no trade. A subsidiary bought a 90-person engineering firm",
+"reasoning":["Englobe, part of Colliers, closed a small Calgary engineering firm; no price was given.",
+"Filter gap: 'X, a <Parent> Company, completes acquisition' is a subsidiary tuck-in and should weigh 1, like undisclosed terms. Fixed after this alert.",
+"Nothing to check beyond the usual 5-day return."],
+"objections":["Immaterial subsidiary tuck-in; no terms, no parent filing."]}

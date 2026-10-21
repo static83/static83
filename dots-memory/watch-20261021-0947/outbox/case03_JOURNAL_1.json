@@ -1,0 +1,145 @@
+{
+  "role": "JOURNAL",
+  "packet": {
+    "case": 3,
+    "account": {
+      "equity_usd": 5018.78,
+      "mode": "alpaca-paper",
+      "open_positions": [
+        "SMCI"
+      ],
+      "open_orders": [
+        "SMCI"
+      ]
+    },
+    "filing": {
+      "ticker": "PCG",
+      "company": "PG&E Corp",
+      "cik": "1004980",
+      "accession": "news:100448775",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-21T13:32:07Z",
+      "url": "https://www.prnewswire.com/news-releases/pge-submits-testimony-to-california-regulators-outlining-22-5-billion-cost-of-government-grid-takeover-in-san-francisco-302915200.html",
+      "source_excerpt": "[Benzinga news, 2026-10-21T13:32:07Z, by staff] PG&E Outlines Infrastructure Investments Amid San Francisco Takeover Bid\nPG&E detailed its ongoing and planned reliability upgrades in San Francisco to counter a municipal takeover proposal.\nPG&E reported that it has invested $3 billion in reliability upgrades over the past decade and plans to spend nearly $2 billion more over the next five years. For 2026, the company is investing $370 million in San Francisco for substation resilience and reliability projects, including 23 specific reliability initiatives and infrastructure modernization. The company emphasized its commitment to serving the city and argued that a municipal takeover would not be in the best interest of San Francisco, noting that its local workforce would be reassigned to other parts of the system if the assets were transferred.\n[Other material headlines on this company in the window]\n- 2026-10-21T13:07:04Z PG&E Submits Testimony To California Regulators, Values Potential San Francisco Grid Takeover At $22.5B, Including $8.6B In Severance And Separation Costs",
+      "market_cap_usd": 35230052469.92,
+      "last_price": 13.145,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "outcome": "no_trade",
+      "order": null
+    },
+    "memos_so_far": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Regulatory testimony in a long-running fight over a San Francisco grid takeover; no decision",
+        "reasoning": [
+          "Primary source: PG&E's release on PR Newswire, 'PG&E Submits Testimony to California Regulators Outlining $22.5 Billion Cost of Government Grid Takeover in San Francisco' (Benzinga 13:07 UTC); the 09:32 ET item is a follow-up rewrite.",
+          "Quoted from the summary: PG&E 'has invested $3 billion in reliability upgrades over the past decade and plans to spend nearly $2 billion more over the next five years'; it 'argued that a municipal takeover would not be in the best interest of San Francisco'.",
+          "What changed: PG&E filed its side of a regulatory case and put a price on a takeover ($22.5B including $8.6B of severance and separation costs). Nothing was decided; the regulator has not ruled and the city has made no offer in this news.",
+          "'Takeover bid' in the headline is the city's long-running municipalisation effort, not an offer for PG&E's shares.",
+          "Price: PCG -0.2% against yesterday's close since 09:07 ET."
+        ],
+        "objections": [
+          "Advocacy testimony in an undecided regulatory proceeding; 'takeover' refers to municipalisation, not a bid for the company."
+        ]
+      }
+    ],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 41 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "Still open: SMCI (open).",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "CIGI",
+          "night": "20261021-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BCRX",
+          "night": "20261021-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "TMO",
+          "night": "20261021-1250",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MLKN",
+          "night": "20261021-1250",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "UDR",
+          "night": "20261021-1250",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SMCI",
+          "night": "20261021-0217",
+          "ended_by": "TRADED",
+          "direction": "long",
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "KMB",
+          "night": "20261021-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SPCX",
+          "night": "20261021-0217",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 51
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}
