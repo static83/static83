@@ -1,0 +1,18 @@
+[
+  {
+    "ticker": "ESLT",
+    "company": "ELBIT SYSTEMS LTD",
+    "cik": "1027664",
+    "accession": "news:100535131",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-21T15:01:43Z",
+    "url": "https://www.finanznachrichten.de/nachrichten-medien/cpm-defence-network.htm",
+    "source_excerpt": "[Benzinga news, 2026-10-21T15:01:43Z, by staff] Elbit Systems Acquires ISE\nElbit Systems has expanded its technical capabilities through the acquisition of ISE.\nElbit Systems has announced the acquisition of ISE, a move intended to expand the company's technical competence and capabilities. This acquisition represents a strategic development for the company as it seeks to enhance its existing portfolio. The integration of ISE is expected to contribute to the company's broader operational and technological goals.",
+    "market_cap_usd": 34343654880.48,
+    "last_price": 739.49,
+    "also_accessions": [],
+    "weight": 3
+  }
+]

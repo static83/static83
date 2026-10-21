@@ -1,0 +1,6 @@
+{"role":"SCOUT","verdict":"object","headline":"No terms, no primary source: 'Elbit Systems Acquires ISE' from a trade-news site",
+"reasoning":["Source: Benzinga 15:01 UTC, 'Elbit Systems Acquires ISE', citing finanznachrichten.de (a defence-network news page), not an Elbit release. No Elbit press release or SEC/TASE filing is in our feeds. UNCONFIRMED as to terms.",
+"Quoted in full: 'Elbit Systems has announced the acquisition of ISE, a move intended to expand the company's technical competence and capabilities.' No price, no description of ISE, no size.",
+"What changed: a bolt-on of unknown size at a $34B company. Elbit makes several of these a year; anything material would carry terms and a filing.",
+"Price: no IEX trades in ESLT since the item (623 shares on the day); it trades thinly on our feed."],
+"objections":["No primary source and no terms; an unpriced bolt-on at a $34B company."]}

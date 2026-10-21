@@ -1,0 +1,60 @@
+[
+  {
+    "case": 1,
+    "ticker": "ESLT",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "No terms, no primary source: 'Elbit Systems Acquires ISE' from a trade-news site",
+        "reasoning": [
+          "Source: Benzinga 15:01 UTC, 'Elbit Systems Acquires ISE', citing finanznachrichten.de (a defence-network news page), not an Elbit release. No Elbit press release or SEC/TASE filing is in our feeds. UNCONFIRMED as to terms.",
+          "Quoted in full: 'Elbit Systems has announced the acquisition of ISE, a move intended to expand the company's technical competence and capabilities.' No price, no description of ISE, no size.",
+          "What changed: a bolt-on of unknown size at a $34B company. Elbit makes several of these a year; anything material would carry terms and a filing.",
+          "Price: no IEX trades in ESLT since the item (623 shares on the day); it trades thinly on our feed."
+        ],
+        "objections": [
+          "No primary source and no terms; an unpriced bolt-on at a $34B company."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "ESLT: no trade. An unpriced bolt-on reported by a trade site; no Elbit release",
+        "reasoning": [
+          "The only text: Elbit 'announced the acquisition of ISE' to expand 'technical competence and capabilities'. No price or size.",
+          "Filter gap: an acquirer-side deal with no amount in the headline scored 3. Unpriced acquisitions by the buyer now weigh at most 2; deals where the company is the target still weigh 3.",
+          "Nothing to check beyond the usual 5-day return."
+        ],
+        "objections": [
+          "No primary source and no terms; an unpriced bolt-on at a $34B company."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]
