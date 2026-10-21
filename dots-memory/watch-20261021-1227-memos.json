@@ -1,0 +1,60 @@
+[
+  {
+    "case": 1,
+    "ticker": "MSCI",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Analyst commentary on results out since Tuesday; MSCI already +5% Tuesday and +2% today",
+        "reasoning": [
+          "The item is an analyst note write-up (Benzinga 16:25 UTC): 'MSCI Delivers Strong Q3 Sales; Investments Focus on Topline Growth Says Bullish Analyst'. Quoted: 'Shares of MSCI Inc (NYSE: MSCI) continued to rally on Wednesday, after the company Tuesday reported third-quarter revenue growth.'",
+          "The underlying event is Tuesday's Q3 release. Quoted from the note: 'net new subscription sales of $54.8 million, significantly higher than the consensus estimate of $42 million'. RBC 'reiterated an Outperform rating and price target of $655'; four other brokers raised targets this morning.",
+          "Already traded: MSCI rose from 563.18 to 591.71 on Tuesday (+5.1%) and is 605.22 today (+2.3%). A full session has traded the results.",
+          "What changed today: opinions about Tuesday's numbers, not new numbers."
+        ],
+        "objections": [
+          "Stale: results out Tuesday and traded through a full session; today's item is analyst commentary."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "MSCI: no trade. An analyst write-up of Tuesday's beat, already +7% over two days",
+        "reasoning": [
+          "Net new subscription sales $54.8M vs $42M consensus, reported Tuesday; the stock is +7.5% since Monday's close.",
+          "Filter gap: headlines ending 'says bullish/bearish analyst' are commentary. Fixed after this alert.",
+          "Nothing to check beyond the usual 5-day return."
+        ],
+        "objections": [
+          "Stale: results out Tuesday and traded through a full session; today's item is analyst commentary."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

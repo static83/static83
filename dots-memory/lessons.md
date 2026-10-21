@@ -1,8 +1,8 @@
 # DOTS track record
 
-Updated 2026-10-21 12:23 ET. 55 case(s) on file.
+Updated 2026-10-21 12:31 ET. 59 case(s) on file.
 
-- SCOUT skipped 45 case(s); none has a thesis direction with 5 trading days of history yet.
+- SCOUT skipped 49 case(s); none has a thesis direction with 5 trading days of history yet.
 - SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.
 - QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.
 - Still open: SMCI (open).

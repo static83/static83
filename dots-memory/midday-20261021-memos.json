@@ -1,0 +1,177 @@
+[
+  {
+    "case": 1,
+    "ticker": "DHR",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Already traded: out at 06:02 ET, opened -2.9%, now +2.9%; three hours of price discovery",
+        "reasoning": [
+          "Primary source: Danaher's Q3 release, first on the wire at 10:02 UTC (06:02 ET): 'Danaher Q3 Adj. EPS $2.11 Beats $1.92 Estimate, Sales $6.554B Miss $6.559B Estimate' and 'Danaher Raises FY2026 Adj EPS Guidance from $8.45-$8.60 to $8.57-$8.62 vs $8.51 Est'. The 15:24 UTC Benzinga article is a write-up of the same release.",
+          "Quoted from the write-up: 'Core revenue rose 3% year over year, in line with management's guidance of 2%-3%. Excluding respiratory testing revenue, core revenue increased 5.5%.' Q4 guide: core revenue excluding respiratory 'Up 4%-5% YoY'.",
+          "What changed: a 10% EPS beat with revenue in line, and the full-year midpoint up $0.07 (+0.8%). Real, but modest.",
+          "Already traded: DHR opened 217.55 (-2.9% vs 224.12), then rallied to 230.68 (+2.9%), on 320,960 IEX shares, about 1.2x a full normal day by midday. A 6% round trip off the open is the market pricing it. Since the write-up it is -1.0%."
+        ],
+        "objections": [
+          "Released at 06:02 ET; three hours of heavy trading and a 6% intraday swing have priced it."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "DHR: no trade. A beat and small raise, priced through a 6% swing off the open",
+        "reasoning": [
+          "Adjusted EPS $2.11 vs $1.92; revenue $6.554B vs $6.559B; FY EPS guide $8.57-8.62 (midpoint +$0.07).",
+          "The stock opened -2.9% and is +2.9% at midday on heavy volume.",
+          "Note: since_news measured from the 15:24 write-up (-1.0%) understates the session; from the first report it is +2.9%, just under the 3% filter. The filter would have passed it either way.",
+          "Check later: DHR 5-day return from tomorrow's open."
+        ],
+        "objections": [
+          "Released at 06:02 ET; three hours of heavy trading and a 6% intraday swing have priced it."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "GSK",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Stale: FDA approved Hibsago on Oct 20 at 15:50 ET; today's items are rewrites, and GSK is -1%",
+        "reasoning": [
+          "The event: FDA approval of Hibsago (bepirovirsen) for chronic hepatitis B. Benzinga reported it on Oct 20 at 15:50 ET ('FDA Approves First-Of-Its-Kind Chronic Hepatitis B Treatment'); yesterday's morning run skipped that item as already traded. Today's 08:32 and 10:14 ET items ('GSK Receives US FDA Approval for Hibsago', 'GSK Wins FDA Approval For Chronic Hepatitis B Drug') are rewrites.",
+          "Quoted from today's article: the FDA 'approved GSK plc's (NYSE: GSK) Hibsago (bepirovirsen) injection to treat adult chronic hepatitis B patients without cirrhosis', under 'priority review and Breakthrough Therapy Designation'.",
+          "The approval was public before Tuesday's close and expected (priority review). GSK closed Tuesday at 50.64 (+2.3%) and is -1.0% today.",
+          "What changed today: nothing."
+        ],
+        "objections": [
+          "Stale: approval reported Oct 20 at 15:50 ET; a full session has traded it."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "GSK: no trade. A rewrite of yesterday's 15:50 ET FDA approval",
+        "reasoning": [
+          "Hibsago's approval was on the wire at 15:50 ET on Oct 20; GSK rose 2.3% that day and is -1.0% today.",
+          "Filter gap: the scheduled runs keep only 16 hours of news history for the repeat check (since-hours + 12), so yesterday afternoon's report was out of reach at midday. Widened to 36 hours, as the watcher already uses. Fixed after this run.",
+          "Nothing to check beyond the usual 5-day return."
+        ],
+        "objections": [
+          "Stale: approval reported Oct 20 at 15:50 ET; a full session has traded it."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "ADI",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Routine: Analog Devices tells holders to reject a mini-tender for 100,000 shares",
+        "reasoning": [
+          "Primary source: ADI's release on PR Newswire, 'Analog Devices Recommends Shareholders Reject Mini-Tender Offer by Tutanota LLC' (Benzinga 13:08 UTC: 'Unsolicited Mini Tender Offer To Purchase Up To 100K Shares At $525/Share In Cash').",
+          "A mini-tender is an offer for under 5% of a company's shares that skips most tender-offer rules. 100,000 shares is about 0.02% of ADI. Companies routinely tell holders to reject them; these offers usually carry conditions and long delays that make the headline price hard to collect.",
+          "What changed for the business: nothing. 'Tender offer' in the headline scored it 3.",
+          "Price: ADI +1.9% on the day, with the market."
+        ],
+        "objections": [
+          "A mini-tender for 0.02% of the shares; no bearing on the company."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "ADI: no trade. A rejected mini-tender for 100,000 shares",
+        "reasoning": [
+          "Tutanota LLC offered $525 a share for up to 100,000 shares; ADI recommended rejection, as companies routinely do with mini-tenders.",
+          "Filter gap: mini-tender offers are now filtered as non-events. Fixed after this run.",
+          "Nothing to check later."
+        ],
+        "objections": [
+          "A mini-tender for 0.02% of the shares; no bearing on the company."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

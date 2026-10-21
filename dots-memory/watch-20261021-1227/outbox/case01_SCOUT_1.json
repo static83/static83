@@ -1,0 +1,166 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 4964.58,
+      "mode": "alpaca-paper",
+      "open_positions": [
+        "SMCI"
+      ],
+      "open_orders": [
+        "SMCI"
+      ]
+    },
+    "filing": {
+      "ticker": "MSCI",
+      "company": "MSCI Inc.",
+      "cik": "1408198",
+      "accession": "news:62503355",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-21T16:25:24Z",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62503355/msci-delivers-strong-q3-sales-investments-focus-on-topline-growth-says-bullish-analyst",
+      "source_excerpt": "[Benzinga news, 2026-10-21T16:25:24Z, by Priya Nigam] MSCI Delivers Strong Q3 Sales; Investments Focus on Topline Growth Says Bullish Analyst\nMSCI rallies after Q3 subscription sales beat estimates; RBC reiterates Outperform, citing strong momentum and growth investments.\nShares of MSCI Inc (NYSE: MSCI ) continued to rally on Wednesday, after the company Tuesday reported third-quarter revenue growth . The company\u2019s net new subscription sales significantly exceeded expectations for the third quarter, and the strong sales momentum is expected to continue, according to RBC Capital Markets. The MSCI Analyst: Analyst Ashish Sabadra reiterated an Outperform rating and price target of $655. The MSCI Thesis: The company reported net new subscription sales of $54.8 million, significantly higher than the consensus estimate of $42 million, Sabadra said in the note. Check out other analyst stock ratings . The beat is \"particularly meaningful given last quarter\u2019s stock pullback on weak sales,\" he added. The analyst stated that the following could be \"meaningful\" catalysts for the stock going forward: Strong beat, despite tough comparisons Healthy momentum Deepening client engagement across the franchise \"The company also pointed to robust demand spanning both its traditional and newer solution offerings,\" he further wrote. Focus on Growth: MSCI\u2019s investments are \"set to accelerate the flywheel,\" Sabadra said. With the strategy focusing on accelerating revenue growth rather than margin expansion, the company plans to reinvest incremental gains from operating leverage and improved operational efficiency into product development, client coverage, and innovation, the analyst stated. He added that the strategic investments include: Around $20 million in incremental expenses from four 2026 acquisitions About $15-$20 million in stock-based compensation Approximately $10-$15 million in additional severance costs reflecting accelerated efficiency initiatives and AI transformation \"Despite elevated expenses, headcount remained flat year-over-year, demonstrating the company\u2019s ability to leverage AI to accelerate innovation while managing expenses strategically,\" Sabadra wrote. While MSCI has the operating leverage needed to generate margin expansion, management continues to see \"ample near-term investment opportunities to drive revenue growth and position the company for continued growth in 2027 and beyond,\" he added. MSCI Stock Price Activity: MSCI shares are trading higher by 2.59% at $607.03 at the time of publication on Wednesday, according to Benzinga Pro data . Photo by Piotr Swat via Shutterstock",
+      "market_cap_usd": 43468782499.99999,
+      "last_price": 607.9549999999999,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "quote": {
+        "ap": 610,
+        "as": 80,
+        "ax": "V",
+        "bp": 604.81,
+        "bs": 40,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-21T16:29:47.560859792Z",
+        "z": "A"
+      },
+      "extended_hours": null,
+      "since_news": {
+        "since": "2026-10-21T16:25:24+00:00",
+        "reference": 607.1,
+        "reference_is": "last bar before the news",
+        "last": 605.22,
+        "move_pct": -0.31,
+        "high": 607.04,
+        "low": 605.22,
+        "volume": 934,
+        "as_of": "2026-10-21T16:25:00Z",
+        "trades_seen": true,
+        "note": "IEX feed only: the move since the news went out, during today's session"
+      },
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.72,
+        "max_gap_pct": 4.26
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 21.21,
+        "slippage_usd": 2.4823,
+        "spread_pct": 0.854
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 48 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "Still open: SMCI (open).",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "ADI",
+          "night": "20261021-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GSK",
+          "night": "20261021-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "DHR",
+          "night": "20261021-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "APO",
+          "night": "20261021-1622",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MT",
+          "night": "20261021-1602",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ESLT",
+          "night": "20261021-1502",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "PCG",
+          "night": "20261021-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CIGI",
+          "night": "20261021-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 58
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

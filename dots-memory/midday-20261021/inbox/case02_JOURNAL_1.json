@@ -1,0 +1,5 @@
+{"role":"JOURNAL","verdict":"agree","headline":"GSK: no trade. A rewrite of yesterday's 15:50 ET FDA approval",
+"reasoning":["Hibsago's approval was on the wire at 15:50 ET on Oct 20; GSK rose 2.3% that day and is -1.0% today.",
+"Filter gap: the scheduled runs keep only 16 hours of news history for the repeat check (since-hours + 12), so yesterday afternoon's report was out of reach at midday. Widened to 36 hours, as the watcher already uses. Fixed after this run.",
+"Nothing to check beyond the usual 5-day return."],
+"objections":["Stale: approval reported Oct 20 at 15:50 ET; a full session has traded it."]}
