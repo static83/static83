@@ -687,8 +687,16 @@ def find_news_candidates(
         if thin:
             log(f"  news skip {ticker}: {thin}")
             continue
-        heaviest = max(weight(i["headline"], cap, price) for i in live)
-        item = next(i for i in live if weight(i["headline"], cap, price) == heaviest)  # newest of the heaviest
+        title = re.sub(r"[^a-z0-9 ]", " ", info.get("title", "").lower()).split()
+
+        def wt(i: dict) -> int:
+            """The headline's weight; at most 2 when it never names this company (a brand or unit's news)."""
+            head = i["headline"].lower()
+            named = bool(re.search(rf"\b{re.escape(ticker.lower())}\b", head)) or bool(title and title[0] in head)
+            return weight(i["headline"], cap, price) if named else min(weight(i["headline"], cap, price), 2)
+
+        heaviest = max(wt(i) for i in live)
+        item = next(i for i in live if wt(i) == heaviest)  # newest of the heaviest
         # measure the reaction from the first report of this event, not from a later rewrite
         about = f"{item['headline']} {item.get('summary') or ''}"
         created = min([_created(i) for i in live if _same_event(i["headline"], about, info.get("title", ticker))]

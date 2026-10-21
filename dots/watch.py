@@ -96,6 +96,7 @@ def poll(edgar, data, broker, tickers, raw: dict, seen: set[str], since: datetim
     for sym in held:
         for item in groups.get(sym, []):
             key = f"news:{item['id']}"
+            # every item, rewrites included: for a stock the crew holds, a missed warning costs more than a repeat
             if after(sym, datetime.fromisoformat(item["created_at"].replace("Z", "+00:00"))) and key not in seen:
                 held_alerts.append({"symbol": sym, "key": key, "source": "Benzinga", "at": item["created_at"],
                                     "headline": item["headline"], "url": item.get("url")})

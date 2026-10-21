@@ -81,6 +81,7 @@ def record_case(night: str, result: CaseResult, cand: Candidate, decided_at: dat
         "accession": cand.accession,
         "also_accessions": cand.also_accessions,
         "filed_at": cand.filed_at,
+        "source_head": cand.source_excerpt[:600],
         "decided_at": decided_at.isoformat(),
         "price_at_decision": cand.last_price,
         "outcome": result.outcome,
