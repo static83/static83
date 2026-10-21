@@ -1,0 +1,18 @@
+[
+  {
+    "ticker": "APO",
+    "company": "Apollo Global Management, Inc.",
+    "cik": "1858681",
+    "accession": "news:62503160",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-21T16:20:23Z",
+    "url": "https://www.benzinga.com/news/26/10/62503160/apollo-blackstone-have-nfl-aspirations-seek-approval-buy-stakes-teams-bloomberg-news",
+    "source_excerpt": "[Benzinga news, 2026-10-21T16:20:23Z, by Benzinga Newsdesk] 'Apollo, Blackstone Have NFL Aspirations, Seek Approval To Buy Stakes In Teams' - Bloomberg News\n\n",
+    "market_cap_usd": 66436105387.5,
+    "last_price": 112.5,
+    "also_accessions": [],
+    "weight": 3
+  }
+]

@@ -1,0 +1,166 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 4963.58,
+      "mode": "alpaca-paper",
+      "open_positions": [
+        "SMCI"
+      ],
+      "open_orders": [
+        "SMCI"
+      ]
+    },
+    "filing": {
+      "ticker": "APO",
+      "company": "Apollo Global Management, Inc.",
+      "cik": "1858681",
+      "accession": "news:62503160",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-21T16:20:23Z",
+      "url": "https://www.benzinga.com/news/26/10/62503160/apollo-blackstone-have-nfl-aspirations-seek-approval-buy-stakes-teams-bloomberg-news",
+      "source_excerpt": "[Benzinga news, 2026-10-21T16:20:23Z, by Benzinga Newsdesk] 'Apollo, Blackstone Have NFL Aspirations, Seek Approval To Buy Stakes In Teams' - Bloomberg News\n\n",
+      "market_cap_usd": 66436105387.5,
+      "last_price": 112.5,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "quote": {
+        "ap": 112.62,
+        "as": 100,
+        "ax": "V",
+        "bp": 112.31,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-21T16:23:08.157190825Z",
+        "z": "A"
+      },
+      "extended_hours": null,
+      "since_news": {
+        "since": "2026-10-21T16:20:23+00:00",
+        "reference": 112.58,
+        "reference_is": "last bar before the news",
+        "last": 112.48,
+        "move_pct": -0.09,
+        "high": 112.59,
+        "low": 112.48,
+        "volume": 308,
+        "as_of": "2026-10-21T16:20:00Z",
+        "trades_seen": true,
+        "note": "IEX feed only: the move since the news went out, during today's session"
+      },
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.56,
+        "max_gap_pct": 1.68
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 6.8408,
+        "slippage_usd": 2.4818,
+        "spread_pct": 0.276
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 44 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "Still open: SMCI (open).",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "MT",
+          "night": "20261021-1602",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ESLT",
+          "night": "20261021-1502",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "PCG",
+          "night": "20261021-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CIGI",
+          "night": "20261021-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BCRX",
+          "night": "20261021-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "TMO",
+          "night": "20261021-1250",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MLKN",
+          "night": "20261021-1250",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "UDR",
+          "night": "20261021-1250",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 54
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

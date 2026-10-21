@@ -1,0 +1,5 @@
+{"role":"JOURNAL","verdict":"agree","headline":"APO: no trade. Bloomberg says Apollo wants NFL team stakes; immaterial and unconfirmed",
+"reasoning":["A relayed Bloomberg headline about seeking league approval for minority stakes; no terms, no company statement.",
+"Filter gaps: 'stakes in' is a minority stake and should weigh 1; a quoted headline attributed to a news outlet ('- Bloomberg News') is a second-hand report and should weigh at most 2. Fixed after this alert.",
+"Nothing to check beyond the usual 5-day return."],
+"objections":["Second-hand media report of a possible minority investment; immaterial to a $66B firm."]}

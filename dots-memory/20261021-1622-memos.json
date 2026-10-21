@@ -1,0 +1,59 @@
+[
+  {
+    "case": 1,
+    "ticker": "APO",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Media report, not an event: Apollo seeking NFL approval to buy minority team stakes",
+        "reasoning": [
+          "Source: Benzinga 16:20 UTC relaying Bloomberg: \"'Apollo, Blackstone Have NFL Aspirations, Seek Approval To Buy Stakes In Teams' - Bloomberg News\". No body text. No Apollo statement or filing: UNCONFIRMED by the company.",
+          "What changed for Apollo's business: possibly, eventually, small minority stakes in sports franchises, subject to league approval. Even several team stakes would be a rounding error against a $66.4B manager with hundreds of billions under management.",
+          "The weight-3 score came from 'buy' in the headline; the deal is a minority stake in someone else."
+        ],
+        "objections": [
+          "Second-hand media report of a possible minority investment; immaterial to a $66B firm."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "APO: no trade. Bloomberg says Apollo wants NFL team stakes; immaterial and unconfirmed",
+        "reasoning": [
+          "A relayed Bloomberg headline about seeking league approval for minority stakes; no terms, no company statement.",
+          "Filter gaps: 'stakes in' is a minority stake and should weigh 1; a quoted headline attributed to a news outlet ('- Bloomberg News') is a second-hand report and should weigh at most 2. Fixed after this alert.",
+          "Nothing to check beyond the usual 5-day return."
+        ],
+        "objections": [
+          "Second-hand media report of a possible minority investment; immaterial to a $66B firm."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

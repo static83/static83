@@ -1,0 +1,173 @@
+{
+  "title": "DOTS night run",
+  "fictional": false,
+  "mode": "alpaca-paper",
+  "model": "claude (in session)",
+  "router": "SPIDER",
+  "started_at": "2026-10-21T16:22:31.672449+00:00",
+  "start_balance": 4962.98,
+  "hours": 1,
+  "balance": [
+    [
+      0,
+      4962.98
+    ],
+    [
+      0,
+      4962.98
+    ]
+  ],
+  "events": [
+    {
+      "m": 0,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 0,
+      "text": "track record: 54 past case(s) on file"
+    },
+    {
+      "m": 0,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 1,
+      "text": "case 01 opened: APO news"
+    },
+    {
+      "m": 0,
+      "role": "SCOUT",
+      "kind": "handoff",
+      "case": 1,
+      "text": "Media report, not an event: Apollo seeking NFL approval to buy minority team stakes"
+    },
+    {
+      "m": 0,
+      "role": "SCOUT",
+      "kind": "objection",
+      "case": 1,
+      "text": "Second-hand media report of a possible minority investment; immaterial to a $66B firm."
+    },
+    {
+      "m": 0,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 1,
+      "text": "APO: no trade. Bloomberg says Apollo wants NFL team stakes; immaterial and unconfirmed"
+    }
+  ],
+  "cases": [
+    {
+      "id": 1,
+      "ticker": "APO",
+      "outcome": "no_trade",
+      "rounds": 1,
+      "entry": null,
+      "stop": null,
+      "target": null,
+      "size": null,
+      "p_strike": null,
+      "risk": "PENDING",
+      "objections": 2,
+      "order": null
+    }
+  ],
+  "receipts": {
+    "SCOUT": 2,
+    "ANALYST": 0,
+    "SKEPTIC": 0,
+    "QUANT": 0,
+    "RISK": 0,
+    "JOURNAL": 2
+  },
+  "counts": {
+    "objections": 1,
+    "source_links": 1,
+    "send_backs": 0,
+    "restarts": 0
+  },
+  "track_record": {
+    "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+    "scorecard": [
+      "SCOUT skipped 45 case(s); none has a thesis direction with 5 trading days of history yet.",
+      "SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.",
+      "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+      "Still open: SMCI (open).",
+      "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+      "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22."
+    ],
+    "recent_cases": [
+      {
+        "ticker": "APO",
+        "night": "20261021-1622",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "MT",
+        "night": "20261021-1602",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "ESLT",
+        "night": "20261021-1502",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "PCG",
+        "night": "20261021-1347",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "CIGI",
+        "night": "20261021-1347",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "BCRX",
+        "night": "20261021-1347",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "TMO",
+        "night": "20261021-1250",
+        "ended_by": "ANALYST",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "MLKN",
+        "night": "20261021-1250",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      }
+    ],
+    "cases_on_file": 55
+  }
+}
