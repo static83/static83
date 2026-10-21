@@ -1,0 +1,18 @@
+[
+  {
+    "ticker": "MT",
+    "company": "ArcelorMittal",
+    "cik": "1243429",
+    "accession": "news:100597563",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-21T16:01:32Z",
+    "url": "https://www.marketscreener.com/news/arcelormittal-reaches-initial-deal-for-south-african-unit-takeover-ce785cd9db8eff2d",
+    "source_excerpt": "[Benzinga news, 2026-10-21T16:01:32Z, by staff] ArcelorMittal Reaches Initial Deal for South African Unit Takeover\nArcelorMittal has reached an initial agreement to divest its South African subsidiary to the Industrial Development Corp. (IDC).\nArcelorMittal has entered into an initial agreement regarding the potential takeover of its South African subsidiary, ArcelorMittal South Africa Limited, by the Industrial Development Corp. (IDC). This development marks a significant shift in the ownership structure of the subsidiary. The agreement represents an early-stage deal, with further details regarding the transaction's terms and finalization expected to follow.",
+    "market_cap_usd": 48099346131.705,
+    "last_price": 63.195,
+    "also_accessions": [],
+    "weight": 3
+  }
+]

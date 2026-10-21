@@ -1,0 +1,62 @@
+[
+  {
+    "case": 1,
+    "ticker": "MT",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Early-stage sale of a small listed subsidiary; no terms; nothing for a $48B parent yet",
+        "reasoning": [
+          "Source: Benzinga 16:01 UTC citing MarketScreener, 'ArcelorMittal Reaches Initial Deal for South African Unit Takeover'. No ArcelorMittal release or 6-K is in our feeds; terms UNCONFIRMED.",
+          "Quoted: 'ArcelorMittal has entered into an initial agreement regarding the potential takeover of its South African subsidiary, ArcelorMittal South Africa Limited, by the Industrial Development Corp. (IDC).' And: 'The agreement represents an early-stage deal, with further details regarding the transaction's terms and finalization expected to follow.'",
+          "What changed: the parent is moving toward exiting a subsidiary. The 'takeover' in the headline is of the unit, not of ArcelorMittal; for the parent this is a divestiture of unknown price, with no binding agreement yet.",
+          "Scale: ArcelorMittal South Africa is a separately listed subsidiary that is tiny next to the $48.1B parent, so even a full exit at any plausible price is a small fraction of MT's value.",
+          "Price: no IEX trades in MT since the item; the stock is flat on the day (63.11 vs 63.175)."
+        ],
+        "objections": [
+          "Early-stage, unpriced divestiture of a small subsidiary; the 'takeover' is of the unit, not the company."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "MT: no trade. An initial, unpriced deal to sell its small South African unit",
+        "reasoning": [
+          "IDC, the South African state development lender, reached an initial agreement to take over ArcelorMittal South Africa; terms to follow.",
+          "For the parent, a divestiture of a small subsidiary with no price is not material; 'takeover' in the headline scored it 3.",
+          "Filter gap: a 'unit', 'subsidiary' or 'division' deal is now capped at 2 for the parent when no price is given. Fixed after this alert.",
+          "Check later: a binding agreement with a price would be a new case."
+        ],
+        "objections": [
+          "Early-stage, unpriced divestiture of a small subsidiary; the 'takeover' is of the unit, not the company."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]
