@@ -20,6 +20,14 @@ from crew.market import AlpacaData
 from crew.spider import Spider
 
 
+def ledger_path_for(manual_dir: str):
+    from pathlib import Path
+
+    from crew.config import RUNS_DIR
+
+    return RUNS_DIR / f"{Path(manual_dir).name}.json"
+
+
 def gather(edgar, data, args):
     """SEC filings and material news, heaviest events first (newest breaks ties), one case per company."""
     from crew.learning import recently_judged_tickers, seen_filings
@@ -30,9 +38,9 @@ def gather(edgar, data, args):
     skip, recent = seen_filings(), recently_judged_tickers()
     now = datetime.now(timezone.utc)
     # one pull of the news feed serves both sources: news cases, and spotting filings already told.
-    # It reaches 12 hours further back so a filing can be matched to the previous day's release.
+    # It reaches at least 36 hours back so a filing or a rewrite can be matched to an earlier report.
     groups = {} if args.no_news else material_news(
-        edgar, fetch_news(data, now - timedelta(hours=args.since_hours + 12), now))
+        edgar, fetch_news(data, now - timedelta(hours=max(args.since_hours + 12, 36)), now))
     filings = find_candidates(edgar, data.last_price, data.daily_bars, limit=args.candidates * 5,
                               since_hours=args.since_hours, skip=skip, recent_tickers=recent, news=groups,
                               move_of=lambda t, since: move_since(data, t, since, now))
@@ -150,7 +158,8 @@ def main() -> int:
 
         ledger.track_record = learning.scorecard()
         learning.write_lessons(ledger.track_record)
-    path = ledger.write()
+    # a manual run is named after its folder: the watcher and a scheduled run can start in the same minute
+    path = ledger.write(ledger_path_for(args.manual) if args.manual else None)
     outcomes = ", ".join(f"case {c.case:02d} {c.ticker} {c.outcome}" for c in ledger.cases)
     print(f"\nnight closed: {outcomes}\nledger: {path}\ndashboard: dashboard/runs/latest.json")
     return 0
