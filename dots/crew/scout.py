@@ -447,8 +447,10 @@ def filing_weight(items: list[str], body: str) -> int:
     return w
 
 
-# During the session a stock that has moved this much since its news has already reacted.
+# During the session a stock that has moved this much since its news has already reacted, and one
+# this far from yesterday's close is in play whatever the headline's time.
 INTRADAY_MOVE_PCT = 3.0
+DAY_MOVE_PCT = 10.0
 
 
 def _open_of(filed: datetime) -> datetime:
@@ -456,6 +458,13 @@ def _open_of(filed: datetime) -> datetime:
     which move_since reads as 'from the previous close'."""
     t = filed.astimezone(NY)
     return min(filed, datetime(t.year, t.month, t.day, 9, 29, tzinfo=NY))
+
+
+def moved_today(move: Optional[dict]) -> Optional[str]:
+    """Why a stock is already in play: DAY_MOVE_PCT or more from yesterday's close."""
+    if move and move.get("trades_seen") and abs(move["move_pct"]) >= DAY_MOVE_PCT:
+        return f"already moving today: {move['move_pct']:+.1f}% from yesterday's close on the IEX feed"
+    return None
 
 
 def traded_since(move: Optional[dict]) -> Optional[str]:
@@ -708,7 +717,8 @@ def find_news_candidates(
             log(f"  news skip {ticker}: {repeat}")
             continue
         traded = (already_traded(bars, first_public_session(created), now)
-                  or traded_since(move_since(data, ticker, created, now)))
+                  or traded_since(move_since(data, ticker, created, now))
+                  or moved_today(move_since(data, ticker, _open_of(now), now)))
         if traded:
             log(f"  news skip {ticker}: {traded}")
             continue
