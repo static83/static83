@@ -1392,7 +1392,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0065,
+        "raw": 0.0091,
         "thesis": null
       }
     },
@@ -1420,7 +1420,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0005,
+        "raw": 0.0197,
         "thesis": null
       }
     },
@@ -1448,7 +1448,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0062,
+        "raw": -0.0004,
         "thesis": null
       }
     },
@@ -1474,7 +1474,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": -0.0017,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261021-1602-01-MT": {
@@ -1499,7 +1504,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0074,
+        "raw": -0.0185,
         "thesis": null
       }
     },
@@ -1527,7 +1532,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0284,
+        "raw": 0.027,
         "thesis": null
       }
     },
@@ -1555,7 +1560,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0052,
+        "raw": -0.0009,
         "thesis": null
       }
     },
@@ -1583,7 +1588,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0004,
+        "raw": 0.0187,
         "thesis": null
       }
     },
@@ -1613,7 +1618,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0155,
+        "raw": -0.024,
         "thesis": null
       }
     },
@@ -1641,7 +1646,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0067,
+        "raw": 0.0262,
         "thesis": null
       }
     },
@@ -1667,7 +1672,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0001,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261021-1803-02-EW": {
@@ -1692,7 +1702,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0007,
+        "raw": 0.0126,
         "thesis": null
       }
     },
@@ -1723,7 +1733,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0022,
+        "raw": 0.0248,
         "thesis": null
       }
     },
@@ -1754,7 +1764,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0412,
+        "raw": -0.0319,
         "thesis": null
       }
     },
@@ -1786,7 +1796,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0177,
+        "raw": 0.0077,
         "thesis": null
       }
     },
@@ -1817,7 +1827,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0304,
+        "raw": 0.0584,
         "thesis": null
       }
     },
@@ -1850,7 +1860,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0227,
+        "raw": 0.0053,
         "thesis": null
       }
     },
@@ -1879,7 +1889,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0022,
+        "raw": 0.0051,
         "thesis": null
       }
     },
@@ -1921,6 +1931,30 @@
     "source_head": "[Benzinga news, 2026-10-22T13:31:55Z, by staff] AbbVie Announces Positive Phase 3 Results for Lutikizumab in Hidradenitis Suppurativa\nAbbVie reported topline results from the Phase 3 INTREPID trial, demonstrating that lutikizumab significantly improved signs and symptoms in patients with hidradenitis suppurativa.\nAbbVie announced positive topline data from its Phase 3 INTREPID clinical trial evaluating the efficacy and safety of lutikizumab for the treatment of hidradenitis suppurativa. The study met its primary endpoint, showing that patients treated with lutikizumab experienced significant i",
     "decided_at": "2026-10-22T13:48:58.796484+00:00",
     "price_at_decision": 282.07500000000005,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261022-1541-01-AVTX": {
+    "key": "20261022-1541-01-AVTX",
+    "night": "20261022-1541",
+    "ticker": "AVTX",
+    "accession": "news:62533738",
+    "also_accessions": [],
+    "filed_at": "2026-10-22T15:39:46Z",
+    "source_head": "[Benzinga news, 2026-10-22T15:39:46Z, by Benzinga Newsdesk] Watching Avalo Therapeutics; Shares Trading Lower After AbbVie Reports Phase 3 INTREPID Results For Lutikizumab; Avalo's Abdakibart Is A Competing Treatment For Hidradenitis Suppurativa\n\n",
+    "decided_at": "2026-10-22T15:42:09.780888+00:00",
+    "price_at_decision": 7.67,
     "outcome": "no_trade",
     "ended_by": "SCOUT",
     "rounds": 1,

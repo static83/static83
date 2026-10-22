@@ -1,0 +1,61 @@
+[
+  {
+    "case": 1,
+    "ticker": "AVTX",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A price-move note, not an event: AVTX is already -37.5% today on AbbVie's competing Phase 3 result",
+        "reasoning": [
+          "The item (Benzinga 15:39 UTC): 'Watching Avalo Therapeutics; Shares Trading Lower After AbbVie Reports Phase 3 INTREPID Results For Lutikizumab; Avalo's Abdakibart Is A Competing Treatment For Hidradenitis Suppurativa'. It describes a move; it reports no Avalo event.",
+          "The event behind it is AbbVie's 09:08 ET release (judged by the crew at 09:47 as immaterial for AbbVie): lutikizumab 'Met Primary Endpoint And 8 Ranked Secondary Endpoints' in hidradenitis suppurativa, where Avalo's abdakibart competes.",
+          "Already traded: AVTX opened 9.03 against 12.265 yesterday and is 7.66 now, -37.5%, on 564,982 IEX shares (about 10x a normal day). The market has repriced the competitive threat.",
+          "The watcher measured only from this note (-0.65%), because the triggering news sits under AbbVie's ticker, not Avalo's."
+        ],
+        "objections": [
+          "Price-move commentary; the stock is already -37.5% on the day."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "AVTX: no trade. Already -37.5% on AbbVie's competing Phase 3 win",
+        "reasoning": [
+          "AbbVie's lutikizumab met its Phase 3 endpoints in HS this morning; Avalo's abdakibart competes in the same disease.",
+          "An interesting second-order effect: the event was immaterial for AbbVie and decisive for a $411M competitor. The market priced it within the first hour.",
+          "Filter gaps, fixed after this alert: 'Watching X; shares trading lower/higher' headlines describe a move and are commentary; and a stock already 10% or more from yesterday's close is treated as already traded, whatever the time of the headline.",
+          "Check later: AVTX 5-day return; a rebound would show the selloff overshot."
+        ],
+        "objections": [
+          "Price-move commentary; the stock is already -37.5% on the day."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

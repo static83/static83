@@ -11518,3 +11518,1842 @@
 2026-10-22T13:49:25+00:00   news pulled MSFT (weight 1): Infragistics Announces Collaboration with Microsoft to Advance Blazor
 2026-10-22T13:49:26+00:00   news skip META: already traded since the news: -6.7% from 698.54 on the IEX feed
 2026-10-22T13:49:27+00:00   news pulled UNP (weight 3): Union Pacific Corporation Exec Says 2026 Reported Operating Ratio Remains Challenged By Hi
+2026-10-22T13:49:56+00:00 start: 1500 headlines of history, watching from 2026-10-22T13:48:05+00:00
+2026-10-22T13:49:58+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T13:49:58+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T13:49:58+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T13:49:58+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T13:49:58+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T13:49:58+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T13:49:58+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T13:49:58+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T13:49:58+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T13:49:58+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T13:49:58+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T13:49:58+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T13:49:58+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T13:49:58+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T13:50:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T13:50:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T13:50:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T13:50:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T13:50:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T13:50:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T13:50:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T13:50:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T13:50:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T13:50:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T13:50:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T13:50:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T13:50:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T13:50:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T13:51:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T13:51:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T13:51:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T13:51:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T13:51:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T13:51:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T13:51:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T13:51:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T13:51:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T13:51:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T13:51:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T13:51:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T13:51:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T13:51:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T13:52:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T13:52:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T13:52:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T13:52:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T13:52:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T13:52:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T13:52:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T13:52:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T13:52:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T13:52:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T13:52:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T13:52:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T13:52:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T13:52:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T13:53:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T13:53:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T13:53:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T13:53:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T13:53:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T13:53:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T13:53:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T13:53:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T13:53:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T13:53:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T13:53:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T13:53:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T13:53:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T13:53:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T13:54:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T13:54:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T13:54:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T13:54:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T13:54:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T13:54:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T13:54:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T13:54:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T13:54:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T13:54:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T13:54:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T13:54:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T13:54:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T13:54:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T13:55:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T13:55:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T13:55:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T13:55:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T13:55:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T13:55:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T13:55:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T13:55:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T13:55:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T13:55:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T13:55:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T13:55:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T13:55:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T13:55:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T13:56:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T13:56:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T13:56:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T13:56:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T13:56:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T13:56:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T13:56:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T13:56:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T13:56:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T13:56:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T13:56:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T13:56:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T13:56:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T13:56:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T13:57:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T13:57:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T13:57:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T13:57:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T13:57:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T13:57:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T13:57:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T13:57:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T13:57:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T13:57:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T13:57:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T13:57:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T13:57:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T13:57:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T13:58:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T13:58:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T13:58:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T13:58:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T13:58:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T13:58:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T13:58:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T13:58:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T13:58:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T13:58:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T13:58:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T13:58:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T13:58:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T13:58:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T13:59:59+00:00   skip NGTF: no price at Alpaca, so it cannot be paper traded
+2026-10-22T13:59:59+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T13:59:59+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T13:59:59+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T13:59:59+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T13:59:59+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T13:59:59+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T13:59:59+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T13:59:59+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T13:59:59+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T13:59:59+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T13:59:59+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T13:59:59+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T13:59:59+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T13:59:59+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:00:58+00:00   skip NGTF: no price at Alpaca, so it cannot be paper traded
+2026-10-22T14:00:58+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:00:58+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:00:58+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:00:58+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:00:58+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:00:58+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:00:58+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:00:58+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:00:58+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:00:58+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:00:58+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:00:58+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:00:58+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:00:58+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:01:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:01:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:01:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:01:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:01:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:01:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:01:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:01:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:01:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:01:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:01:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:01:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:01:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:01:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:02:58+00:00   news pulled TT (weight 2): Trane Technologies to Acquire Cancoil Thermal Corporation
+2026-10-22T14:02:58+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:02:58+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:02:58+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:02:58+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:02:58+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:02:58+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:02:58+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:02:58+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:02:58+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:02:58+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:02:58+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:02:58+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:02:58+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:02:58+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:03:58+00:00   news skip AUNA: no share count on file at the SEC
+2026-10-22T14:03:58+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:03:58+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:03:58+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:03:58+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:03:58+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:03:58+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:03:58+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:03:58+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:03:58+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:03:58+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:03:58+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:03:58+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:03:58+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:03:58+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:03:58+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:04:58+00:00   news skip AUNA: no share count on file at the SEC
+2026-10-22T14:04:58+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:04:58+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:04:58+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:04:58+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:04:58+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:04:58+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:04:58+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:04:58+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:04:58+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:04:58+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:04:58+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:04:58+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:04:58+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:04:58+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:04:58+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:05:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:05:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:05:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:05:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:05:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:05:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:05:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:05:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:05:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:05:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:05:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:05:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:05:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:05:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:05:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:06:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:06:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:06:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:06:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:06:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:06:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:06:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:06:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:06:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:06:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:06:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:06:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:06:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:06:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:06:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:07:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:07:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:07:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:07:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:07:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:07:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:07:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:07:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:07:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:07:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:07:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:07:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:07:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:07:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:07:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:08:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:08:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:08:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:08:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:08:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:08:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:08:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:08:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:08:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:08:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:08:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:08:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:08:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:08:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:08:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:09:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:09:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:09:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:09:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:09:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:09:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:09:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:09:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:09:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:09:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:09:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:09:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:09:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:09:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:09:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:10:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:10:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:10:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:10:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:10:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:10:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:10:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:10:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:10:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:10:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:10:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:10:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:10:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:10:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:10:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:11:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:11:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:11:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:11:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:11:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:11:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:11:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:11:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:11:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:11:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:11:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:11:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:11:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:11:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:11:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:12:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:12:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:12:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:12:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:12:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:12:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:12:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:12:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:12:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:12:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:12:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:12:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:12:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:12:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:12:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:13:59+00:00   skip GCBC: too thinly traded: about $13,129 a day on the IEX feed
+2026-10-22T14:13:59+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:13:59+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:13:59+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:13:59+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:13:59+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:13:59+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:13:59+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:13:59+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:13:59+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:13:59+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:13:59+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:13:59+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:13:59+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:13:59+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:13:59+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:14:58+00:00   skip GCBC: too thinly traded: about $13,129 a day on the IEX feed
+2026-10-22T14:14:58+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:14:58+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:14:58+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:14:58+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:14:58+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:14:58+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:14:58+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:14:58+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:14:58+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:14:58+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:14:58+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:14:58+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:14:58+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:14:58+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:14:58+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:15:59+00:00   skip GCBC: too thinly traded: about $13,129 a day on the IEX feed
+2026-10-22T14:15:59+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:15:59+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:15:59+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:15:59+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:15:59+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:15:59+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:15:59+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:15:59+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:15:59+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:15:59+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:15:59+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:15:59+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:15:59+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:15:59+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:15:59+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:16:59+00:00   skip JUVF: no price at Alpaca, so it cannot be paper traded
+2026-10-22T14:16:59+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:16:59+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:16:59+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:16:59+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:16:59+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:16:59+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:16:59+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:16:59+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:16:59+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:16:59+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:16:59+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:16:59+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:16:59+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:16:59+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:16:59+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:17:59+00:00   skip JUVF: no price at Alpaca, so it cannot be paper traded
+2026-10-22T14:17:59+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:17:59+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:17:59+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:17:59+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:17:59+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:17:59+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:17:59+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:17:59+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:17:59+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:17:59+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:17:59+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:17:59+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:17:59+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:17:59+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:17:59+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:18:59+00:00   skip JUVF: no price at Alpaca, so it cannot be paper traded
+2026-10-22T14:18:59+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:18:59+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:18:59+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:18:59+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:18:59+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:18:59+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:18:59+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:18:59+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:18:59+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:18:59+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:18:59+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:18:59+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:18:59+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:18:59+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:18:59+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:19:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:19:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:19:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:19:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:19:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:19:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:19:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:19:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:19:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:19:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:19:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:19:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:19:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:19:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:19:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:20:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:20:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:20:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:20:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:20:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:20:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:20:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:20:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:20:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:20:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:20:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:20:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:20:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:20:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:20:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:21:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:21:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:21:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:21:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:21:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:21:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:21:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:21:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:21:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:21:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:21:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:21:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:21:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:21:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:21:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:22:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:22:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:22:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:22:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:22:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:22:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:22:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:22:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:22:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:22:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:22:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:22:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:22:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:22:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:22:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:23:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:23:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:23:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:23:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:23:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:23:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:23:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:23:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:23:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:23:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:23:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:23:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:23:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:23:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:23:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:24:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:24:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:24:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:24:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:24:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:24:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:24:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:24:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:24:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:24:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:24:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:24:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:24:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:24:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:24:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:25:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:25:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:25:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:25:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:25:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:25:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:25:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:25:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:25:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:25:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:25:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:25:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:25:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:25:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:25:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:26:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:26:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:26:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:26:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:26:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:26:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:26:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:26:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:26:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:26:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:26:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:26:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:26:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:26:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:26:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:27:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:27:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:27:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:27:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:27:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:27:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:27:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:27:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:27:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:27:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:27:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:27:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:27:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:27:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:27:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:28:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:28:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:28:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:28:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:28:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:28:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:28:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:28:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:28:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:28:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:28:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:28:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:28:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:28:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:28:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:29:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:29:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:29:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:29:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:29:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:29:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:29:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:29:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:29:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:29:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:29:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:29:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:29:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:29:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:29:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:31:00+00:00   skip PG: already traded since the news: +5.4% from 156.84 on the IEX feed
+2026-10-22T14:31:00+00:00   news skip OPTU: market cap 145M below floor
+2026-10-22T14:31:00+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:31:00+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:31:00+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:31:00+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:31:00+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:31:00+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:31:00+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:31:00+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:31:00+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:31:00+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:31:00+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:31:00+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:31:00+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:31:00+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:31:00+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:31:59+00:00   skip PG: already traded since the news: +5.5% from 156.84 on the IEX feed
+2026-10-22T14:32:00+00:00   news skip OPTU: market cap 144M below floor
+2026-10-22T14:32:00+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:32:00+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:32:00+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:32:00+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:32:00+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:32:00+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:32:00+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:32:00+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:32:00+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:32:00+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:32:00+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:32:00+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:32:00+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:32:00+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:32:00+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:32:58+00:00   news pulled EQNR (weight 2): Wisting Oilfield Partnership Awards Engineering Contract for Production Vessel Topsides
+2026-10-22T14:32:59+00:00   news pulled ALV (weight 2): Stonepeak Completes Acquisition of Chicago Parking Meters, LLC
+2026-10-22T14:32:59+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:32:59+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:32:59+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:32:59+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:32:59+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:32:59+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:32:59+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:32:59+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:32:59+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:32:59+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:32:59+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:32:59+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:32:59+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:32:59+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:32:59+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:33:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:33:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:33:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:33:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:33:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:33:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:33:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:33:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:33:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:33:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:33:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:33:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:33:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:33:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:33:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:33:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:34:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:34:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:34:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:34:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:34:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:34:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:34:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:34:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:34:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:34:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:34:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:34:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:34:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:34:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:34:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:34:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:35:59+00:00   skip XXII: market cap 0M below floor
+2026-10-22T14:35:59+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:35:59+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:35:59+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:35:59+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:35:59+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:35:59+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:35:59+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:35:59+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:35:59+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:35:59+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:35:59+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:35:59+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:35:59+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:35:59+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:35:59+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:35:59+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:36:58+00:00   skip XXII: market cap 0M below floor
+2026-10-22T14:36:58+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:36:58+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:36:58+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:36:58+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:36:58+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:36:58+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:36:58+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:36:58+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:36:58+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:36:58+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:36:58+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:36:58+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:36:58+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:36:58+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:36:58+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:36:58+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:38:00+00:00   skip XXII: market cap 0M below floor
+2026-10-22T14:38:00+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:38:00+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:38:00+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:38:00+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:38:00+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:38:00+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:38:00+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:38:00+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:38:00+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:38:00+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:38:00+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:38:00+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:38:00+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:38:00+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:38:00+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:38:00+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:38:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:38:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:38:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:38:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:38:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:38:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:38:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:38:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:38:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:38:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:38:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:38:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:38:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:38:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:38:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:38:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:39:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:39:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:39:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:39:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:39:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:39:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:39:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:39:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:39:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:39:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:39:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:39:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:39:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:39:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:39:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:39:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:40:58+00:00   pulled CION: items 7.01
+2026-10-22T14:40:58+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:40:58+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:40:58+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:40:58+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:40:58+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:40:58+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:40:58+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:40:58+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:40:58+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:40:58+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:40:58+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:40:58+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:40:58+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:40:58+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:40:58+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:40:58+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:41:57+00:00   skip CION: already judged on an earlier night
+2026-10-22T14:41:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:41:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:41:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:41:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:41:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:41:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:41:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:41:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:41:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:41:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:41:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:41:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:41:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:41:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:41:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:41:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:42:57+00:00   skip CION: already judged on an earlier night
+2026-10-22T14:42:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:42:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:42:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:42:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:42:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:42:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:42:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:42:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:42:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:42:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:42:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:42:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:42:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:42:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:42:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:42:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:43:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:43:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:43:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:43:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:43:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:43:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:43:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:43:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:43:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:43:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:43:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:43:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:43:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:43:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:43:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:43:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:44:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:44:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:44:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:44:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:44:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:44:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:44:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:44:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:44:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:44:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:44:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:44:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:44:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:44:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:44:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:44:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:45:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:45:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:45:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:45:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:45:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:45:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:45:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:45:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:45:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:45:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:45:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:45:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:45:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:45:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:45:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:45:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:46:58+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:46:58+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:46:58+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:46:58+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:46:58+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:46:58+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:46:58+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:46:58+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:46:58+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:46:58+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:46:58+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:46:58+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:46:58+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:46:58+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:46:58+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:46:58+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:47:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:47:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:47:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:47:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:47:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:47:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:47:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:47:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:47:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:47:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:47:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:47:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:47:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:47:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:47:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:47:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:48:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:48:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:48:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:48:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:48:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:48:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:48:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:48:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:48:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:48:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:48:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:48:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:48:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:48:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:48:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:48:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:49:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:49:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:49:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:49:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:49:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:49:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:49:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:49:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:49:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:49:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:49:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:49:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:49:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:49:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:49:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:49:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:50:58+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:50:58+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:50:58+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:50:58+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:50:58+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:50:58+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:50:58+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:50:58+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:50:58+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:50:58+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:50:58+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:50:58+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:50:58+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:50:58+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:50:58+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:50:58+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:51:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:51:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:51:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:51:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:51:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:51:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:51:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:51:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:51:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:51:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:51:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:51:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:51:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:51:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:51:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:51:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:52:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:52:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:52:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:52:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:52:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:52:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:52:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:52:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:52:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:52:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:52:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:52:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:52:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:52:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:52:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:52:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:54:06+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:54:06+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:54:06+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:54:06+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:54:06+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:54:06+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:54:06+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:54:06+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:54:06+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:54:06+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:54:06+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:54:06+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:54:06+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:54:06+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:54:06+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:54:06+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:54:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:54:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:54:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:54:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:54:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:54:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:54:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:54:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:54:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:54:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:54:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:54:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:54:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:54:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:54:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:54:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:56:12+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:56:12+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:56:12+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:56:12+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:56:12+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:56:12+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:56:12+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:56:12+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:56:12+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:56:12+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:56:12+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:56:12+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:56:12+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:56:12+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:56:12+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:56:12+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:56:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:56:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:56:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:56:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:56:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:56:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:56:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:56:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:56:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:56:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:56:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:56:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:56:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:56:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:56:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:56:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:57:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:57:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:57:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:57:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:57:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:57:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:57:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:57:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:57:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:57:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:57:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:57:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:57:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:57:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:57:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:57:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:58:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:58:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:58:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:58:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:58:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:58:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:58:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:58:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:58:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:58:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:58:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:58:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:58:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:58:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:58:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:58:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T14:59:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T14:59:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T14:59:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T14:59:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T14:59:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T14:59:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T14:59:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T14:59:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T14:59:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T14:59:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T14:59:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T14:59:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T14:59:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T14:59:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T14:59:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T14:59:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:00:59+00:00   pulled TR: items 2.02
+2026-10-22T15:01:01+00:00   pulled FLUT: items 7.01
+2026-10-22T15:01:01+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:01:01+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:01:01+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:01:01+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:01:01+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:01:01+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:01:01+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:01:01+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:01:01+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:01:01+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:01:01+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:01:01+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:01:01+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:01:01+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:01:01+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:01:01+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:01:57+00:00   skip TR: already judged on an earlier night
+2026-10-22T15:01:57+00:00   skip FLUT: already judged on an earlier night
+2026-10-22T15:01:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:01:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:01:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:01:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:01:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:01:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:01:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:01:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:01:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:01:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:01:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:01:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:01:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:01:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:01:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:01:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:02:57+00:00   skip TR: already judged on an earlier night
+2026-10-22T15:02:57+00:00   skip FLUT: already judged on an earlier night
+2026-10-22T15:02:58+00:00   news pulled MSFT (weight 1): Microsoft and Boehringer Ingelheim Announce Strategic AI Collaboration
+2026-10-22T15:02:59+00:00   news pulled WIX (weight 1): Wix.com Ltd. and K Health Announce Strategic Partnership for PatientGPT
+2026-10-22T15:02:59+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:02:59+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:02:59+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:02:59+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:02:59+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:02:59+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:02:59+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:02:59+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:02:59+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:02:59+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:02:59+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:02:59+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:02:59+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:02:59+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:02:59+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:03:58+00:00   news skip BN: no share count on file at the SEC
+2026-10-22T15:03:58+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:03:58+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:03:58+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:03:58+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:03:58+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:03:58+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:03:58+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:03:58+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:03:58+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:03:58+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:03:58+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:03:58+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:03:58+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:03:58+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:03:58+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:03:58+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:03:58+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:04:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:04:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:04:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:04:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:04:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:04:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:04:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:04:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:04:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:04:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:04:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:04:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:04:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:04:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:04:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:04:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:04:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:05:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:05:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:05:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:05:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:05:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:05:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:05:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:05:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:05:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:05:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:05:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:05:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:05:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:05:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:05:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:05:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:05:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:06:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:06:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:06:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:06:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:06:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:06:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:06:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:06:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:06:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:06:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:06:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:06:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:06:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:06:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:06:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:06:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:06:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:07:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:07:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:07:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:07:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:07:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:07:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:07:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:07:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:07:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:07:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:07:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:07:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:07:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:07:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:07:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:07:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:07:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:08:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:08:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:08:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:08:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:08:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:08:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:08:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:08:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:08:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:08:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:08:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:08:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:08:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:08:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:08:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:08:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:08:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:09:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:09:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:09:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:09:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:09:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:09:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:09:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:09:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:09:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:09:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:09:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:09:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:09:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:09:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:09:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:09:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:09:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:10:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:10:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:10:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:10:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:10:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:10:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:10:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:10:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:10:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:10:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:10:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:10:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:10:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:10:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:10:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:10:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:10:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:11:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:11:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:11:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:11:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:11:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:11:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:11:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:11:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:11:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:11:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:11:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:11:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:11:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:11:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:11:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:11:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:11:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:12:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:12:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:12:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:12:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:12:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:12:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:12:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:12:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:12:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:12:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:12:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:12:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:12:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:12:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:12:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:12:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:12:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:13:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:13:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:13:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:13:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:13:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:13:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:13:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:13:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:13:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:13:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:13:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:13:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:13:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:13:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:13:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:13:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:13:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:14:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:14:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:14:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:14:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:14:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:14:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:14:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:14:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:14:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:14:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:14:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:14:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:14:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:14:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:14:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:14:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:14:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:15:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:15:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:15:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:15:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:15:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:15:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:15:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:15:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:15:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:15:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:15:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:15:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:15:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:15:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:15:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:15:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:15:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:16:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:16:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:16:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:16:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:16:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:16:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:16:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:16:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:16:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:16:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:16:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:16:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:16:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:16:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:16:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:16:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:16:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:17:58+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:17:58+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:17:58+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:17:58+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:17:58+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:17:58+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:17:58+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:17:58+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:17:58+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:17:58+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:17:58+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:17:58+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:17:58+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:17:58+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:17:58+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:17:58+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:17:58+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:18:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:18:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:18:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:18:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:18:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:18:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:18:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:18:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:18:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:18:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:18:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:18:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:18:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:18:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:18:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:18:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:18:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:19:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:19:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:19:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:19:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:19:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:19:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:19:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:19:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:19:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:19:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:19:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:19:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:19:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:19:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:19:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:19:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:19:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:20:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:20:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:20:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:20:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:20:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:20:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:20:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:20:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:20:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:20:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:20:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:20:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:20:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:20:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:20:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:20:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:20:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:21:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:21:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:21:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:21:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:21:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:21:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:21:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:21:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:21:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:21:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:21:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:21:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:21:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:21:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:21:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:21:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:21:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:22:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:22:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:22:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:22:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:22:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:22:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:22:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:22:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:22:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:22:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:22:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:22:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:22:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:22:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:22:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:22:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:22:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:23:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:23:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:23:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:23:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:23:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:23:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:23:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:23:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:23:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:23:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:23:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:23:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:23:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:23:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:23:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:23:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:23:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:24:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:24:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:24:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:24:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:24:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:24:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:24:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:24:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:24:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:24:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:24:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:24:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:24:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:24:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:24:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:24:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:24:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:25:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:25:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:25:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:25:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:25:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:25:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:25:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:25:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:25:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:25:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:25:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:25:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:25:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:25:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:25:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:25:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:25:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:27:16+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:27:16+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:27:16+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:27:16+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:27:16+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:27:16+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:27:16+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:27:16+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:27:16+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:27:16+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:27:16+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:27:16+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:27:16+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:27:16+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:27:16+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:27:16+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:27:16+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:27:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:27:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:27:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:27:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:27:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:27:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:27:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:27:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:27:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:27:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:27:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:27:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:27:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:27:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:27:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:27:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:27:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:28:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:28:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:28:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:28:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:28:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:28:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:28:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:28:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:28:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:28:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:28:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:28:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:28:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:28:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:28:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:28:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:28:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:29:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:29:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:29:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:29:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:29:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:29:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:29:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:29:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:29:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:29:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:29:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:29:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:29:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:29:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:29:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:29:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:29:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:30:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:30:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:30:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:30:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:30:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:30:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:30:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:30:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:30:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:30:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:30:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:30:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:30:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:30:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:30:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:30:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:30:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:31:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:31:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:31:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:31:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:31:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:31:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:31:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:31:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:31:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:31:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:31:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:31:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:31:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:31:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:31:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:31:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:31:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:32:58+00:00   news skip SNT: market cap 31M below floor
+2026-10-22T15:32:58+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:32:58+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:32:58+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:32:58+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:32:58+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:32:58+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:32:58+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:32:58+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:32:58+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:32:58+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:32:58+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:32:58+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:32:58+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:32:58+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:32:58+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:32:58+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:32:58+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:33:58+00:00   news skip NKLR: market cap 231M below floor
+2026-10-22T15:33:58+00:00   news skip SNT: market cap 31M below floor
+2026-10-22T15:33:58+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:33:58+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:33:58+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:33:58+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:33:58+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:33:58+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:33:58+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:33:58+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:33:58+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:33:58+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:33:58+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:33:58+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:33:58+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:33:58+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:33:58+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:33:58+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:33:58+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:34:58+00:00   news skip NKLR: market cap 231M below floor
+2026-10-22T15:34:58+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:34:58+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:34:58+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:34:58+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:34:58+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:34:58+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:34:58+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:34:58+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:34:58+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:34:58+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:34:58+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:34:58+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:34:58+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:34:58+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:34:58+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:34:58+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:34:58+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:35:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:35:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:35:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:35:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:35:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:35:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:35:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:35:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:35:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:35:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:35:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:35:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:35:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:35:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:35:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:35:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:35:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:36:58+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:36:58+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:36:58+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:36:58+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:36:58+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:36:58+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:36:58+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:36:58+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:36:58+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:36:58+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:36:58+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:36:58+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:36:58+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:36:58+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:36:58+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:36:58+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:36:58+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:37:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:37:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:37:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:37:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:37:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:37:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:37:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:37:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:37:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:37:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:37:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:37:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:37:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:37:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:37:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:37:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:37:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:38:57+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:38:57+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:38:57+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:38:57+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:38:57+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:38:57+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:38:57+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:38:57+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:38:57+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:38:57+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:38:57+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:38:57+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:38:57+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:38:57+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:38:57+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:38:57+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T15:38:57+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T15:40:09+00:00 start: 1500 headlines of history, watching from 2026-10-22T15:38:56+00:00
+2026-10-22T15:40:11+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:40:11+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:40:11+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:40:11+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:40:11+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:40:11+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:40:11+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:40:11+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:40:11+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:40:11+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:40:11+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:40:11+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:40:11+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:40:11+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:40:11+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:41:11+00:00   news pulled AVTX (weight 3): Watching Avalo Therapeutics; Shares Trading Lower After AbbVie Reports Phase 3 INTREPID Re
+2026-10-22T15:41:11+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:41:11+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:41:11+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:41:11+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:41:11+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:41:11+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:41:11+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:41:11+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:41:11+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:41:11+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:41:11+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:41:11+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:41:11+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:41:11+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:41:11+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:41:26+00:00 start: 1500 headlines of history, watching from 2026-10-22T15:41:09+00:00
+2026-10-22T15:41:27+00:00   news skip AVTX: already judged on an earlier run
+2026-10-22T15:41:27+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:41:27+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:41:27+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:41:27+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:41:27+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:41:27+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:41:27+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:41:27+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:41:27+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:41:27+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:41:27+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:41:27+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:41:27+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:41:27+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:41:27+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T15:42:26+00:00   news skip AVTX: the crew judged this company in the last 3 days
+2026-10-22T15:42:26+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T15:42:26+00:00   news skip WIX: already judged on an earlier run
+2026-10-22T15:42:26+00:00   news skip ALV: already judged on an earlier run
+2026-10-22T15:42:26+00:00   news skip TT: already judged on an earlier run
+2026-10-22T15:42:26+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T15:42:26+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T15:42:26+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T15:42:26+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T15:42:26+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T15:42:26+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T15:42:26+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T15:42:26+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T15:42:26+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T15:42:26+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T15:42:26+00:00   news skip HONA: the crew judged this company in the last 3 days

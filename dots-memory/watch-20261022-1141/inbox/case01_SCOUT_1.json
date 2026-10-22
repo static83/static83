@@ -1,0 +1,6 @@
+{"role":"SCOUT","verdict":"object","headline":"A price-move note, not an event: AVTX is already -37.5% today on AbbVie's competing Phase 3 result",
+"reasoning":["The item (Benzinga 15:39 UTC): 'Watching Avalo Therapeutics; Shares Trading Lower After AbbVie Reports Phase 3 INTREPID Results For Lutikizumab; Avalo's Abdakibart Is A Competing Treatment For Hidradenitis Suppurativa'. It describes a move; it reports no Avalo event.",
+"The event behind it is AbbVie's 09:08 ET release (judged by the crew at 09:47 as immaterial for AbbVie): lutikizumab 'Met Primary Endpoint And 8 Ranked Secondary Endpoints' in hidradenitis suppurativa, where Avalo's abdakibart competes.",
+"Already traded: AVTX opened 9.03 against 12.265 yesterday and is 7.66 now, -37.5%, on 564,982 IEX shares (about 10x a normal day). The market has repriced the competitive threat.",
+"The watcher measured only from this note (-0.65%), because the triggering news sits under AbbVie's ticker, not Avalo's."],
+"objections":["Price-move commentary; the stock is already -37.5% on the day."]}

@@ -1,0 +1,18 @@
+[
+  {
+    "ticker": "AVTX",
+    "company": "Avalo Therapeutics, Inc.",
+    "cik": "1534120",
+    "accession": "news:62533738",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-22T15:39:46Z",
+    "url": "https://www.benzinga.com/quote/AVTX",
+    "source_excerpt": "[Benzinga news, 2026-10-22T15:39:46Z, by Benzinga Newsdesk] Watching Avalo Therapeutics; Shares Trading Lower After AbbVie Reports Phase 3 INTREPID Results For Lutikizumab; Avalo's Abdakibart Is A Competing Treatment For Hidradenitis Suppurativa\n\n",
+    "market_cap_usd": 411342015.63,
+    "last_price": 7.67,
+    "also_accessions": [],
+    "weight": 3
+  }
+]
