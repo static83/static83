@@ -1,0 +1,18 @@
+[
+  {
+    "ticker": "MRK",
+    "company": "Merck & Co., Inc.",
+    "cik": "310158",
+    "accession": "news:62542805",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-22T19:05:15Z",
+    "url": "https://www.benzinga.com/general/biotech/26/10/62542805/merck-and-moderna-report-phase-3-melanoma-trial-results-personalized-mrna-cancer-therapy-intismeran-",
+    "source_excerpt": "[Benzinga news, 2026-10-22T19:05:15Z, by Benzinga Newsdesk] Merck And Moderna Report Phase 3 Melanoma Trial Results For Personalized mRNA Cancer Therapy; Intismeran Plus KEYTRUDA Cuts Melanoma Recurrence Or Death Risk By 42%\n\n",
+    "market_cap_usd": 364857677685.63,
+    "last_price": 147.885,
+    "also_accessions": [],
+    "weight": 3
+  }
+]

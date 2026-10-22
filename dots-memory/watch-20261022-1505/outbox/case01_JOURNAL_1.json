@@ -1,0 +1,142 @@
+{
+  "role": "JOURNAL",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 4905.07,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "MRK",
+      "company": "Merck & Co., Inc.",
+      "cik": "310158",
+      "accession": "news:62542805",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-22T19:05:15Z",
+      "url": "https://www.benzinga.com/general/biotech/26/10/62542805/merck-and-moderna-report-phase-3-melanoma-trial-results-personalized-mrna-cancer-therapy-intismeran-",
+      "source_excerpt": "[Benzinga news, 2026-10-22T19:05:15Z, by Benzinga Newsdesk] Merck And Moderna Report Phase 3 Melanoma Trial Results For Personalized mRNA Cancer Therapy; Intismeran Plus KEYTRUDA Cuts Melanoma Recurrence Or Death Risk By 42%\n\n",
+      "market_cap_usd": 364857677685.63,
+      "last_price": 147.885,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "outcome": "no_trade",
+      "order": null
+    },
+    "memos_so_far": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Confirms this morning's leak: HR 0.58 was already priced (MRNA -25% today); for Merck it is one Keytruda add-on",
+        "reasoning": [
+          "Source: Merck and Moderna's joint release (Benzinga 19:05 UTC): 'Intismeran Plus KEYTRUDA Cuts Melanoma Recurrence Or Death Risk By 42%'. Phase 3 INTerpath-001, adjuvant stage IIB-IV melanoma, full data at ESMO 2026.",
+          "The number was public hours earlier. Benzinga 18:47 UTC: 'Moderna Inc. stock plunged more than 25% Thursday after the alleged leak of an ESMO 2026 conference abstract'; 'The allegedly leaked data indicated that intismeran plus Keytruda reduced the risk of cancer recurrence or death by 42%, with a hazard ratio of 0.58 ... below the 49% risk reduction observed in an earlier Phase 2b study'.",
+          "So today's release confirms the leak rather than adding to it. Since 15:05 ET: MRK -0.1%, MRNA -0.3%.",
+          "For Merck ($365B), the case's company, a combination that extends Keytruda in adjuvant melanoma is a small increment. MRK is -1.2% on the day.",
+          "For Moderna (MRNA, 245.94 to 184.12, -25.1%, ~2x normal IEX volume), the repricing happened this morning on the leak. Whether -25% overshoots a positive Phase 3 is a fair question, but it is a call on an already-moved stock, and the same-day move filter excludes it by design."
+        ],
+        "objections": [
+          "The release confirms numbers leaked and traded hours earlier; immaterial for Merck."
+        ]
+      }
+    ],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 64 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "BX",
+          "night": "20261022-1804",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MKTX",
+          "night": "20261022-1722",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "HZO",
+          "night": "20261022-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GSBC",
+          "night": "20261022-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "UNP",
+          "night": "20261022-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "AVTX",
+          "night": "20261022-1541",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ABBV",
+          "night": "20261022-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "LMT",
+          "night": "20261022-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 75
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

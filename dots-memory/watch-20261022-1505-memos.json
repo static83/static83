@@ -1,0 +1,62 @@
+[
+  {
+    "case": 1,
+    "ticker": "MRK",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Confirms this morning's leak: HR 0.58 was already priced (MRNA -25% today); for Merck it is one Keytruda add-on",
+        "reasoning": [
+          "Source: Merck and Moderna's joint release (Benzinga 19:05 UTC): 'Intismeran Plus KEYTRUDA Cuts Melanoma Recurrence Or Death Risk By 42%'. Phase 3 INTerpath-001, adjuvant stage IIB-IV melanoma, full data at ESMO 2026.",
+          "The number was public hours earlier. Benzinga 18:47 UTC: 'Moderna Inc. stock plunged more than 25% Thursday after the alleged leak of an ESMO 2026 conference abstract'; 'The allegedly leaked data indicated that intismeran plus Keytruda reduced the risk of cancer recurrence or death by 42%, with a hazard ratio of 0.58 ... below the 49% risk reduction observed in an earlier Phase 2b study'.",
+          "So today's release confirms the leak rather than adding to it. Since 15:05 ET: MRK -0.1%, MRNA -0.3%.",
+          "For Merck ($365B), the case's company, a combination that extends Keytruda in adjuvant melanoma is a small increment. MRK is -1.2% on the day.",
+          "For Moderna (MRNA, 245.94 to 184.12, -25.1%, ~2x normal IEX volume), the repricing happened this morning on the leak. Whether -25% overshoots a positive Phase 3 is a fair question, but it is a call on an already-moved stock, and the same-day move filter excludes it by design."
+        ],
+        "objections": [
+          "The release confirms numbers leaked and traded hours earlier; immaterial for Merck."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "MRK: no trade. Phase 3 intismeran data confirmed what leaked this morning; Moderna already -25%",
+        "reasoning": [
+          "Intismeran plus Keytruda cut recurrence or death by 42% (HR 0.58), below the Phase 2b's 49%; an allegedly leaked ESMO abstract had the same numbers earlier today.",
+          "Moderna fell 25.1% on the leak; Merck 1.2%. Neither moved on the official release.",
+          "Worth watching: a 25% fall on a positive Phase 3 is the kind of overshoot a mean-reversion case could test. The crew's rules exclude stocks already moving 10% or more, so it would need a deliberate rule, not an accident.",
+          "Check later: MRNA 1-, 5- and 20-day returns from tomorrow's open."
+        ],
+        "objections": [
+          "The release confirms numbers leaked and traded hours earlier; immaterial for Merck."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

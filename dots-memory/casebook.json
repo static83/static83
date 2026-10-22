@@ -1392,7 +1392,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0006,
+        "raw": -0.0019,
         "thesis": null
       }
     },
@@ -1420,7 +1420,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0248,
+        "raw": 0.0273,
         "thesis": null
       }
     },
@@ -1448,7 +1448,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.014,
+        "raw": -0.0023,
         "thesis": null
       }
     },
@@ -1476,7 +1476,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0049,
+        "raw": -0.0025,
         "thesis": null
       }
     },
@@ -1504,7 +1504,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0171,
+        "raw": -0.0243,
         "thesis": null
       }
     },
@@ -1532,7 +1532,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0282,
+        "raw": 0.0332,
         "thesis": null
       }
     },
@@ -1560,7 +1560,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0171,
+        "raw": -0.0194,
         "thesis": null
       }
     },
@@ -1588,7 +1588,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0208,
+        "raw": 0.0222,
         "thesis": null
       }
     },
@@ -1618,7 +1618,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0254,
+        "raw": -0.0283,
         "thesis": null
       }
     },
@@ -1674,7 +1674,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0011,
+        "raw": -0.0023,
         "thesis": null
       }
     },
@@ -1702,7 +1702,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0077,
+        "raw": 0.0067,
         "thesis": null
       }
     },
@@ -1733,7 +1733,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0249,
+        "raw": 0.0678,
         "thesis": null
       }
     },
@@ -1764,7 +1764,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0174,
+        "raw": -0.0289,
         "thesis": null
       }
     },
@@ -1796,7 +1796,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0219,
+        "raw": -0.0194,
         "thesis": null
       }
     },
@@ -1827,7 +1827,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0779,
+        "raw": 0.0886,
         "thesis": null
       }
     },
@@ -1860,7 +1860,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0113,
+        "raw": 0.0227,
         "thesis": null
       }
     },
@@ -1889,7 +1889,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.006,
+        "raw": -0.0089,
         "thesis": null
       }
     },
@@ -2075,6 +2075,30 @@
     "source_head": "[Benzinga news, 2026-10-22T18:02:00Z, by staff] Blackstone Leads $300 Million Debt Financing for Gooch & Housego Buyout\nBlackstone has reportedly led a $300 million debt financing package to support the buyout of Gooch & Housego.\nBlackstone has led a $300 million debt package to facilitate the buyout of Gooch & Housego. This financing activity reflects the firm's ongoing involvement in private credit and debt markets. The transaction was reported on October 22, 2026.",
     "decided_at": "2026-10-22T18:05:09.965398+00:00",
     "price_at_decision": 116.46,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261022-1905-01-MRK": {
+    "key": "20261022-1905-01-MRK",
+    "night": "20261022-1905",
+    "ticker": "MRK",
+    "accession": "news:62542805",
+    "also_accessions": [],
+    "filed_at": "2026-10-22T19:05:15Z",
+    "source_head": "[Benzinga news, 2026-10-22T19:05:15Z, by Benzinga Newsdesk] Merck And Moderna Report Phase 3 Melanoma Trial Results For Personalized mRNA Cancer Therapy; Intismeran Plus KEYTRUDA Cuts Melanoma Recurrence Or Death Risk By 42%\n\n",
+    "decided_at": "2026-10-22T19:06:54.964571+00:00",
+    "price_at_decision": 147.885,
     "outcome": "no_trade",
     "ended_by": "SCOUT",
     "rounds": 1,
