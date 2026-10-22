@@ -1,0 +1,57 @@
+[
+  {
+    "ticker": "SLG",
+    "company": "SL GREEN REALTY CORP",
+    "cik": "1040971",
+    "accession": "news:101057124",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-21T22:02:14Z",
+    "url": "https://www.globenewswire.com/news-release/2026/10/21/3385944/0/en/sl-green-realty-corp-reports-third-quarter-2026-eps-of-1-01-per-share-and-ffo-of-1-59-per-share.html",
+    "source_excerpt": "[Benzinga news, 2026-10-21T22:02:14Z, by staff] SL Green Realty Corp. Reports Third Quarter 2026 Financial Results and Raises 2026 FFO Outlook\nSL Green Realty Corp. announced its Q3 2026 financial results, reporting net income of $72.2 million and FFO of $1.59 per share, while raising its full-year 2026 FFO guidance.\nSL Green Realty Corp. reported net income attributable to common stockholders of $72.2 million, or $1.01 per share, for the third quarter ended September 30, 2026, compared to $24.9 million, or $0.34 per share, in the same period of 2025. The company also reported quarterly revenue of $273.0 million. Alongside these results, SL Green raised its full-year 2026 Funds From Operations (FFO) outlook to a range of $6.50 to $6.70 per share. These figures reflect the company's performance as New York City's largest owner of commercial office properties.\n[Other material headlines on this company in the window]\n- 2026-10-21T20:42:20Z SL Green Realty Raises FY2026 FFO Guidance from $5.60-$5.90 to $6.50-$6.70 vs $5.32 Est",
+    "market_cap_usd": 3321513356.1000004,
+    "last_price": 46.7,
+    "also_accessions": [
+      "news:62512889"
+    ],
+    "weight": 3
+  },
+  {
+    "ticker": "WH",
+    "company": "WYNDHAM HOTELS & RESORTS, INC.",
+    "cik": "1722684",
+    "accession": "news:101057094",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-21T22:02:06Z",
+    "url": "https://www.tradingview.com/news/tradingview:be6e75958b16b:0-wyndham-hotels-resorts-wh-lifts-fy26-outlook-u-s-revpar-up-6-in-q3/",
+    "source_excerpt": "[Benzinga news, 2026-10-21T22:02:06Z, by staff] Wyndham Hotels & Resorts Reports Q3 Results and Raises Full-Year 2026 Outlook\nWyndham Hotels & Resorts reported a 6% year-over-year increase in U.S. RevPAR for the third quarter and raised its full-year 2026 guidance for RevPAR, adjusted EBITDA, and EPS, while also increasing its share repurchase authorization by $400 million.\nWyndham Hotels & Resorts announced its third-quarter 2026 financial results, highlighting a 6% year-over-year growth in U.S. RevPAR. Following these results, the company raised its full-year 2026 outlook for RevPAR, adjusted EBITDA, and earnings per share. Additionally, the board of directors authorized an increase of $400 million to the company's share repurchase program. The company reported $100 million in free cash flow for the quarter and noted that its development pipeline includes approximately 264,000 rooms across more than 2,200 hotels.\n[Other material headlines on this company in the window]\n- 2026-10-21T20:33:31Z Wyndham Hotels & Resorts Raises FY2026 Adj EPS Guidance from $4.71-$4.83 to $4.84-$4.92 vs $4.80 Est; Affirms FY2026 Sales Guidance of $1.480B-$1.500B vs $1.481B Est",
+    "market_cap_usd": 5813328241.87,
+    "last_price": 78.335,
+    "also_accessions": [
+      "news:62512508"
+    ],
+    "weight": 3
+  },
+  {
+    "ticker": "CACI",
+    "company": "CACI INTERNATIONAL INC /DE/",
+    "cik": "16058",
+    "accession": "news:101055529",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-21T22:01:48Z",
+    "url": "https://www.prnewswire.com/news-releases/caci-reports-results-for-its-fiscal-2027-first-quarter-302915933.html",
+    "source_excerpt": "[Benzinga news, 2026-10-21T22:01:48Z, by staff] CACI International Inc Reports Fiscal First Quarter 2027 Results and Raises Guidance\nCACI International Inc announced its fiscal first quarter 2027 financial results, reporting $2.5 billion in revenue and raising its full-year outlook for revenue, adjusted net income, and adjusted EPS.\nCACI International Inc reported revenue of $2.5 billion for the fiscal first quarter ended September 30, 2026, representing an 8.2% increase year-over-year. The company achieved net income of $130.4 million and adjusted net income of $171.0 million, with adjusted diluted EPS rising 11.8% to $7.66. CACI also reported strong operational performance, including $4.8 billion in contract awards and a 2.0x book-to-bill ratio. Driven by these results and a healthy pipeline, management raised its fiscal year 2027 guidance for revenue, adjusted net income, and adjusted EPS. CEO John Mengucci attributed the performance to the company's mission proximity, software-defined approach, and ability to invest ahead of customer needs.\n[Other material headlines on this company in the window]\n- 2026-10-21T20:21:50Z CACI International Raises FY2027 GAAP EPS Guidance from $25.74-$26.64 to $25.96-$26.86 vs $25.25 Est\n- 2026-10-21T20:19:07Z CACI International Raises FY2027 Adj EPS Guidance from $32.96-$33.86 to $33.18-$34.08 vs $33.64 Est; Raises FY2027 Sales Guidance from $10.650B-$10.850B to $10.700B-$10.900B vs $10.808B Est",
+    "market_cap_usd": 13705360603.935,
+    "last_price": 620.165,
+    "also_accessions": [
+      "news:62511977",
+      "news:62511781"
+    ],
+    "weight": 3
+  }
+]

@@ -1,0 +1,7 @@
+{"role":"SCOUT","verdict":"object","headline":"Can't verify what drives an $0.85 FFO raise; release unreachable, no 8-K yet, and the numbers point to one-offs",
+"reasoning":["Primary source: SL Green's release on GlobeNewswire (16:42 ET per Benzinga 20:42 UTC). GlobeNewswire refused our request (HTTP 403) and no 8-K is on EDGAR yet, so we have only Benzinga's summaries. Drivers of the raise: UNCONFIRMED.",
+"Quoted headlines: 'SL Green Realty Raises FY2026 FFO Guidance from $5.60-$5.90 to $6.50-$6.70 vs $5.32 Est'; 'SL Green Realty Q3 FFO $1.59 Beats $1.47 Estimate, Sales $165.552M Miss $176.394M Estimate'.",
+"The arithmetic says the raise is not mostly recurring business: the guide rose $0.85 at the midpoint while Q3 beat by only $0.12, so most of the raise must come from items in Q4 or already booked that the old guide excluded. Consensus at $5.32 sits below even the old guide, which means analysts already exclude items management counts in FFO (for an office REIT, often gains on debt extinguishment or one-time fees).",
+"Revenue missed ($165.6M vs $176.4M estimate, per Benzinga).",
+"Price: no IEX after-hours trades; the release came after the 16:00 close and IEX's session ends at 17:00."],
+"objections":["Primary source unreachable; the driver of a $0.85 FFO raise against a $0.12 beat is unverified and likely non-recurring."]}

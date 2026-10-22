@@ -1,0 +1,178 @@
+[
+  {
+    "case": 1,
+    "ticker": "SLG",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Can't verify what drives an $0.85 FFO raise; release unreachable, no 8-K yet, and the numbers point to one-offs",
+        "reasoning": [
+          "Primary source: SL Green's release on GlobeNewswire (16:42 ET per Benzinga 20:42 UTC). GlobeNewswire refused our request (HTTP 403) and no 8-K is on EDGAR yet, so we have only Benzinga's summaries. Drivers of the raise: UNCONFIRMED.",
+          "Quoted headlines: 'SL Green Realty Raises FY2026 FFO Guidance from $5.60-$5.90 to $6.50-$6.70 vs $5.32 Est'; 'SL Green Realty Q3 FFO $1.59 Beats $1.47 Estimate, Sales $165.552M Miss $176.394M Estimate'.",
+          "The arithmetic says the raise is not mostly recurring business: the guide rose $0.85 at the midpoint while Q3 beat by only $0.12, so most of the raise must come from items in Q4 or already booked that the old guide excluded. Consensus at $5.32 sits below even the old guide, which means analysts already exclude items management counts in FFO (for an office REIT, often gains on debt extinguishment or one-time fees).",
+          "Revenue missed ($165.6M vs $176.4M estimate, per Benzinga).",
+          "Price: no IEX after-hours trades; the release came after the 16:00 close and IEX's session ends at 17:00."
+        ],
+        "objections": [
+          "Primary source unreachable; the driver of a $0.85 FFO raise against a $0.12 beat is unverified and likely non-recurring."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "SLG: no trade. An $0.85 FFO raise we cannot trace to its source; it looks like one-offs",
+        "reasoning": [
+          "FFO guide $6.50-6.70 (was $5.60-5.90; consensus $5.32); Q3 FFO $1.59 vs $1.47; revenue missed.",
+          "GlobeNewswire blocked the fetch (403) and no 8-K is filed yet, so the driver of the raise is unverified.",
+          "Data limits tonight: Firecrawl is out of credits, and GlobeNewswire blocks direct requests. For releases not yet on EDGAR, the crew can only read Benzinga's summary.",
+          "Check later: SLG 1- and 5-day return; a big rally would mean the raise was recurring and the crew's caution cost something."
+        ],
+        "objections": [
+          "Primary source unreachable; the driver of a $0.85 FFO raise against a $0.12 beat is unverified and likely non-recurring."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "WH",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Small raise: EPS guide +$0.11 at the midpoint, sales guide unchanged; buyback is an authorization, not spending",
+        "reasoning": [
+          "Source: Wyndham's Q3 release (Benzinga 20:33 UTC, 16:33 ET): 'Wyndham Hotels & Resorts Raises FY2026 Adj EPS Guidance from $4.71-$4.83 to $4.84-$4.92 vs $4.80 Est; Affirms FY2026 Sales Guidance of $1.480B-$1.500B vs $1.481B Est'.",
+          "Quoted summary: 'a 6% year-over-year increase in U.S. RevPAR for the third quarter'; 'the board of directors authorized an increase of $400 million to the company's share repurchase program'; '$100 million in free cash flow for the quarter'.",
+          "What changed: EPS midpoint $4.88 from $4.77 (+2.3%), 1.7% above consensus; sales outlook unchanged. The $400M is permission to buy back, about 7% of the $5.8B market value, spread over years, not an announced purchase.",
+          "Price: no IEX after-hours trades. WH rose 1.3% in the session before the release."
+        ],
+        "objections": [
+          "Incremental: a 2% EPS raise on unchanged sales guidance; the buyback is an authorization."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "WH: no trade. A 2% EPS raise, sales guide unchanged, more buyback room",
+        "reasoning": [
+          "U.S. RevPAR +6% in Q3; FY adj EPS guide $4.84-4.92 vs $4.80 consensus; sales guide affirmed; buyback authorization +$400M.",
+          "No after-hours trades on IEX to read a reaction.",
+          "Check later: WH 5-day return."
+        ],
+        "objections": [
+          "Incremental: a 2% EPS raise on unchanged sales guidance; the buyback is an authorization."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "CACI",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Raise only to consensus: adj EPS guide midpoint $33.63 vs $33.64 estimate",
+        "reasoning": [
+          "Primary source: CACI's release on PR Newswire (Benzinga 20:19 UTC, 16:19 ET): 'CACI International Raises FY2027 Adj EPS Guidance from $32.96-$33.86 to $33.18-$34.08 vs $33.64 Est; Raises FY2027 Sales Guidance from $10.650B-$10.850B to $10.700B-$10.900B vs $10.808B Est'.",
+          "Quoted summary: revenue '$2.5 billion ... an 8.2% increase'; 'adjusted diluted EPS rising 11.8% to $7.66'; '$4.8 billion in contract awards and a 2.0x book-to-bill ratio'.",
+          "What changed: the guidance moved up to where analysts already were; the adj EPS midpoint ($33.63) equals consensus ($33.64), sales midpoint $10.80B vs $10.808B. Strong awards, but nothing the estimates did not already carry.",
+          "Price: no IEX after-hours trades; CACI rose 2.1% in the session."
+        ],
+        "objections": [
+          "The raise lands on consensus; no surprise to price."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "CACI: no trade. Guidance raised exactly to consensus",
+        "reasoning": [
+          "Q1 revenue +8.2%, adj EPS $7.66, book-to-bill 2.0x; FY adj EPS guide midpoint $33.63 vs $33.64 consensus.",
+          "Ranking note: 'raises guidance' weighs 3 even when the raise only reaches consensus; Benzinga's headline carries the estimate, so the weighting could compare the two.",
+          "Check later: CACI 5-day return."
+        ],
+        "objections": [
+          "The raise lands on consensus; no surprise to price."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

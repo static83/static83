@@ -1130,7 +1130,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0011,
+        "raw": 0.0,
         "thesis": null
       }
     },
@@ -1158,7 +1158,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0008,
+        "raw": 0.0371,
         "thesis": null
       }
     },
@@ -1186,7 +1186,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0122,
+        "raw": 0.0116,
         "thesis": null
       }
     },
@@ -1219,7 +1219,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0154,
+        "raw": -0.0078,
         "thesis": null
       }
     },
@@ -1247,7 +1247,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0085,
+        "raw": -0.0121,
         "thesis": null
       }
     },
@@ -1277,8 +1277,8 @@
     "order_id": "57809a75-5f43-4cd2-ab4d-2dd5f48bd30f",
     "returns": {
       "1": {
-        "raw": -0.0257,
-        "thesis": -0.0257
+        "raw": -0.0236,
+        "thesis": -0.0236
       }
     },
     "first_exit": null,
@@ -1308,7 +1308,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0152,
+        "raw": 0.0123,
         "thesis": null
       }
     },
@@ -1336,7 +1336,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0072,
+        "raw": -0.0295,
         "thesis": null
       }
     },
@@ -1364,7 +1364,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0435,
+        "raw": 0.0429,
         "thesis": null
       }
     },
@@ -1634,6 +1634,85 @@
     "filed_at": "2026-10-21T18:02:26Z",
     "decided_at": "2026-10-21T18:05:18.904172+00:00",
     "price_at_decision": 87.665,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261022-0217-01-SLG": {
+    "key": "20261022-0217-01-SLG",
+    "night": "20261022-0217",
+    "ticker": "SLG",
+    "accession": "news:101057124",
+    "also_accessions": [
+      "news:62512889"
+    ],
+    "filed_at": "2026-10-21T22:02:14Z",
+    "source_head": "[Benzinga news, 2026-10-21T22:02:14Z, by staff] SL Green Realty Corp. Reports Third Quarter 2026 Financial Results and Raises 2026 FFO Outlook\nSL Green Realty Corp. announced its Q3 2026 financial results, reporting net income of $72.2 million and FFO of $1.59 per share, while raising its full-year 2026 FFO guidance.\nSL Green Realty Corp. reported net income attributable to common stockholders of $72.2 million, or $1.01 per share, for the third quarter ended September 30, 2026, compared to $24.9 million, or $0.34 per share, in the same period of 2025. The company also reported quarterly revenu",
+    "decided_at": "2026-10-22T02:18:47.965983+00:00",
+    "price_at_decision": 46.7,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261022-0217-02-WH": {
+    "key": "20261022-0217-02-WH",
+    "night": "20261022-0217",
+    "ticker": "WH",
+    "accession": "news:101057094",
+    "also_accessions": [
+      "news:62512508"
+    ],
+    "filed_at": "2026-10-21T22:02:06Z",
+    "source_head": "[Benzinga news, 2026-10-21T22:02:06Z, by staff] Wyndham Hotels & Resorts Reports Q3 Results and Raises Full-Year 2026 Outlook\nWyndham Hotels & Resorts reported a 6% year-over-year increase in U.S. RevPAR for the third quarter and raised its full-year 2026 guidance for RevPAR, adjusted EBITDA, and EPS, while also increasing its share repurchase authorization by $400 million.\nWyndham Hotels & Resorts announced its third-quarter 2026 financial results, highlighting a 6% year-over-year growth in U.S. RevPAR. Following these results, the company raised its full-year 2026 outlook for RevPAR, adjuste",
+    "decided_at": "2026-10-22T02:18:58.159050+00:00",
+    "price_at_decision": 78.335,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261022-0217-03-CACI": {
+    "key": "20261022-0217-03-CACI",
+    "night": "20261022-0217",
+    "ticker": "CACI",
+    "accession": "news:101055529",
+    "also_accessions": [
+      "news:62511977",
+      "news:62511781"
+    ],
+    "filed_at": "2026-10-21T22:01:48Z",
+    "source_head": "[Benzinga news, 2026-10-21T22:01:48Z, by staff] CACI International Inc Reports Fiscal First Quarter 2027 Results and Raises Guidance\nCACI International Inc announced its fiscal first quarter 2027 financial results, reporting $2.5 billion in revenue and raising its full-year outlook for revenue, adjusted net income, and adjusted EPS.\nCACI International Inc reported revenue of $2.5 billion for the fiscal first quarter ended September 30, 2026, representing an 8.2% increase year-over-year. The company achieved net income of $130.4 million and adjusted net income of $171.0 million, with adjusted d",
+    "decided_at": "2026-10-22T02:19:08.085670+00:00",
+    "price_at_decision": 620.165,
     "outcome": "no_trade",
     "ended_by": "SCOUT",
     "rounds": 1,

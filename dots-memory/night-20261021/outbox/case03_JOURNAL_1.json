@@ -1,0 +1,147 @@
+{
+  "role": "JOURNAL",
+  "packet": {
+    "case": 3,
+    "account": {
+      "equity_usd": 4933.58,
+      "mode": "alpaca-paper",
+      "open_positions": [
+        "SMCI"
+      ],
+      "open_orders": [
+        "SMCI"
+      ]
+    },
+    "filing": {
+      "ticker": "CACI",
+      "company": "CACI INTERNATIONAL INC /DE/",
+      "cik": "16058",
+      "accession": "news:101055529",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-21T22:01:48Z",
+      "url": "https://www.prnewswire.com/news-releases/caci-reports-results-for-its-fiscal-2027-first-quarter-302915933.html",
+      "source_excerpt": "[Benzinga news, 2026-10-21T22:01:48Z, by staff] CACI International Inc Reports Fiscal First Quarter 2027 Results and Raises Guidance\nCACI International Inc announced its fiscal first quarter 2027 financial results, reporting $2.5 billion in revenue and raising its full-year outlook for revenue, adjusted net income, and adjusted EPS.\nCACI International Inc reported revenue of $2.5 billion for the fiscal first quarter ended September 30, 2026, representing an 8.2% increase year-over-year. The company achieved net income of $130.4 million and adjusted net income of $171.0 million, with adjusted diluted EPS rising 11.8% to $7.66. CACI also reported strong operational performance, including $4.8 billion in contract awards and a 2.0x book-to-bill ratio. Driven by these results and a healthy pipeline, management raised its fiscal year 2027 guidance for revenue, adjusted net income, and adjusted EPS. CEO John Mengucci attributed the performance to the company's mission proximity, software-defined approach, and ability to invest ahead of customer needs.\n[Other material headlines on this company in the window]\n- 2026-10-21T20:21:50Z CACI International Raises FY2027 GAAP EPS Guidance from $25.74-$26.64 to $25.96-$26.86 vs $25.25 Est\n- 2026-10-21T20:19:07Z CACI International Raises FY2027 Adj EPS Guidance from $32.96-$33.86 to $33.18-$34.08 vs $33.64 Est; Raises FY2027 Sales Guidance from $10.650B-$10.850B to $10.700B-$10.900B vs $10.808B Est",
+      "market_cap_usd": 13705360603.935,
+      "last_price": 620.165,
+      "also_accessions": [
+        "news:62511977",
+        "news:62511781"
+      ],
+      "weight": 3
+    },
+    "market": {
+      "outcome": "no_trade",
+      "order": null
+    },
+    "memos_so_far": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Raise only to consensus: adj EPS guide midpoint $33.63 vs $33.64 estimate",
+        "reasoning": [
+          "Primary source: CACI's release on PR Newswire (Benzinga 20:19 UTC, 16:19 ET): 'CACI International Raises FY2027 Adj EPS Guidance from $32.96-$33.86 to $33.18-$34.08 vs $33.64 Est; Raises FY2027 Sales Guidance from $10.650B-$10.850B to $10.700B-$10.900B vs $10.808B Est'.",
+          "Quoted summary: revenue '$2.5 billion ... an 8.2% increase'; 'adjusted diluted EPS rising 11.8% to $7.66'; '$4.8 billion in contract awards and a 2.0x book-to-bill ratio'.",
+          "What changed: the guidance moved up to where analysts already were; the adj EPS midpoint ($33.63) equals consensus ($33.64), sales midpoint $10.80B vs $10.808B. Strong awards, but nothing the estimates did not already carry.",
+          "Price: no IEX after-hours trades; CACI rose 2.1% in the session."
+        ],
+        "objections": [
+          "The raise lands on consensus; no surprise to price."
+        ]
+      }
+    ],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 53 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "Still open: SMCI (open).",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "WH",
+          "night": "20261022-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SLG",
+          "night": "20261022-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "EW",
+          "night": "20261021-1803",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GHC",
+          "night": "20261021-1803",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MSCI",
+          "night": "20261021-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ADI",
+          "night": "20261021-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GSK",
+          "night": "20261021-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "DHR",
+          "night": "20261021-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 63
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

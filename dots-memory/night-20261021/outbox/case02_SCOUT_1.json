@@ -1,0 +1,161 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 2,
+    "account": {
+      "equity_usd": 4933.58,
+      "mode": "alpaca-paper",
+      "open_positions": [
+        "SMCI"
+      ],
+      "open_orders": [
+        "SMCI"
+      ]
+    },
+    "filing": {
+      "ticker": "WH",
+      "company": "WYNDHAM HOTELS & RESORTS, INC.",
+      "cik": "1722684",
+      "accession": "news:101057094",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-21T22:02:06Z",
+      "url": "https://www.tradingview.com/news/tradingview:be6e75958b16b:0-wyndham-hotels-resorts-wh-lifts-fy26-outlook-u-s-revpar-up-6-in-q3/",
+      "source_excerpt": "[Benzinga news, 2026-10-21T22:02:06Z, by staff] Wyndham Hotels & Resorts Reports Q3 Results and Raises Full-Year 2026 Outlook\nWyndham Hotels & Resorts reported a 6% year-over-year increase in U.S. RevPAR for the third quarter and raised its full-year 2026 guidance for RevPAR, adjusted EBITDA, and EPS, while also increasing its share repurchase authorization by $400 million.\nWyndham Hotels & Resorts announced its third-quarter 2026 financial results, highlighting a 6% year-over-year growth in U.S. RevPAR. Following these results, the company raised its full-year 2026 outlook for RevPAR, adjusted EBITDA, and earnings per share. Additionally, the board of directors authorized an increase of $400 million to the company's share repurchase program. The company reported $100 million in free cash flow for the quarter and noted that its development pipeline includes approximately 264,000 rooms across more than 2,200 hotels.\n[Other material headlines on this company in the window]\n- 2026-10-21T20:33:31Z Wyndham Hotels & Resorts Raises FY2026 Adj EPS Guidance from $4.71-$4.83 to $4.84-$4.92 vs $4.80 Est; Affirms FY2026 Sales Guidance of $1.480B-$1.500B vs $1.481B Est",
+      "market_cap_usd": 5813328241.87,
+      "last_price": 78.335,
+      "also_accessions": [
+        "news:62512508"
+      ],
+      "weight": 3
+    },
+    "market": {
+      "quote": {
+        "ap": 83.64,
+        "as": 100,
+        "ax": "V",
+        "bp": 69.35,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-21T20:00:01.233740526Z",
+        "z": "A"
+      },
+      "extended_hours": {
+        "session": "after-hours",
+        "reference_close": 78.335,
+        "trades_seen": false,
+        "note": "no extended-hours trades on the IEX feed yet"
+      },
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.82,
+        "max_gap_pct": 3.42
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 460.82,
+        "slippage_usd": 2.4668,
+        "spread_pct": 18.681
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 51 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "Still open: SMCI (open).",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "EW",
+          "night": "20261021-1803",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GHC",
+          "night": "20261021-1803",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MSCI",
+          "night": "20261021-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ADI",
+          "night": "20261021-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GSK",
+          "night": "20261021-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "DHR",
+          "night": "20261021-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "APO",
+          "night": "20261021-1622",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MT",
+          "night": "20261021-1602",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 61
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}
