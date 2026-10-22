@@ -1,0 +1,141 @@
+{
+  "role": "JOURNAL",
+  "packet": {
+    "case": 2,
+    "account": {
+      "equity_usd": 4905.07,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "GSBC",
+      "company": "GREAT SOUTHERN BANCORP, INC.",
+      "cik": "854560",
+      "accession": "news:101403829",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-22T13:02:20Z",
+      "url": "https://www.globenewswire.com/news-release/2026/10/21/3385974/0/en/great-southern-bancorp-inc-reports-preliminary-third-quarter-earnings-of-1-27-per-diluted-common-share-earnings-negatively-impacted-in-this-period-by-non-cash-hedge-accounting-adju.html",
+      "source_excerpt": "[Benzinga news, 2026-10-22T13:02:20Z, by staff] Great Southern Bancorp, Inc. Reports Preliminary Third Quarter 2026 Financial Results\nGreat Southern Bancorp, Inc. announced preliminary earnings of $1.27 per diluted common share for the third quarter ended September 30, 2026, noting an impact from non-cash hedge accounting adjustments.\nGreat Southern Bancorp, Inc. reported preliminary net income of $14.0 million, or $1.27 per diluted common share, for the third quarter ended September 30, 2026, compared to $17.8 million, or $1.56 per diluted common share, in the same period of 2025. The company stated that results were negatively affected by non-cash cash flow hedge accounting adjustments. When excluding these specific adjustments, net income for the quarter was $16.5 million, with earnings per diluted common share of $1.50. The company also reported an annualized return on average common equity of 8.68% and an annualized return on average assets of 0.99%. Net interest income for the quarter was $50.3 million, a slight decrease from $50.8 million in the third quarter of 2025, which the company attributed largely to the completion of interest income accretion from a previously terminated interest rate swap.",
+      "market_cap_usd": 849133745.44,
+      "last_price": 77.92,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "outcome": "no_trade",
+      "order": null
+    },
+    "memos_so_far": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Small bank's Q3 out last evening; 646 IEX shares today, too thin to read or trade",
+        "reasoning": [
+          "Primary source: Great Southern Bancorp's release on GlobeNewswire, dated October 21 (per the URL), 'Reports Preliminary Third Quarter Earnings of $1.27 per Diluted Common Share; Earnings Negatively Impacted in this Period by Non-Cash Hedge Accounting Adjustments'. The 09:02 ET item is a rewrite.",
+          "Quoted: 'preliminary net income of $14.0 million, or $1.27 per diluted common share ... compared to $17.8 million, or $1.56 per diluted common share, in the same period of 2025'; excluding the hedge adjustments, '$1.50'. 'Net interest income for the quarter was $50.3 million, a slight decrease from $50.8 million'.",
+          "What changed: a weaker year-on-year quarter, partly a non-cash accounting item. No consensus figure in our sources.",
+          "Tradeability: GSBC ($849M) traded 646 shares on IEX today; -0.4% against yesterday's close."
+        ],
+        "objections": [
+          "Routine small-bank quarter released last evening; too thin on IEX."
+        ]
+      }
+    ],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 60 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "UNP",
+          "night": "20261022-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "AVTX",
+          "night": "20261022-1541",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ABBV",
+          "night": "20261022-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "LMT",
+          "night": "20261022-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "HONA",
+          "night": "20261022-1255",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "R",
+          "night": "20261022-1255",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CURB",
+          "night": "20261022-1255",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CACI",
+          "night": "20261022-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 71
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

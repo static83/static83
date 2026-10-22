@@ -1392,7 +1392,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0091,
+        "raw": 0.0084,
         "thesis": null
       }
     },
@@ -1420,7 +1420,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0197,
+        "raw": 0.0187,
         "thesis": null
       }
     },
@@ -1448,7 +1448,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0004,
+        "raw": 0.0082,
         "thesis": null
       }
     },
@@ -1476,7 +1476,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0017,
+        "raw": -0.0033,
         "thesis": null
       }
     },
@@ -1504,7 +1504,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0185,
+        "raw": -0.0128,
         "thesis": null
       }
     },
@@ -1532,7 +1532,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.027,
+        "raw": 0.0387,
         "thesis": null
       }
     },
@@ -1560,7 +1560,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0009,
+        "raw": -0.0105,
         "thesis": null
       }
     },
@@ -1588,7 +1588,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0187,
+        "raw": 0.0213,
         "thesis": null
       }
     },
@@ -1618,7 +1618,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.024,
+        "raw": -0.0198,
         "thesis": null
       }
     },
@@ -1646,7 +1646,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0262,
+        "raw": 0.0281,
         "thesis": null
       }
     },
@@ -1674,7 +1674,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0001,
+        "raw": 0.0022,
         "thesis": null
       }
     },
@@ -1702,7 +1702,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0126,
+        "raw": 0.0128,
         "thesis": null
       }
     },
@@ -1733,7 +1733,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0248,
+        "raw": 0.0108,
         "thesis": null
       }
     },
@@ -1764,7 +1764,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0319,
+        "raw": -0.0287,
         "thesis": null
       }
     },
@@ -1796,7 +1796,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0077,
+        "raw": -0.021,
         "thesis": null
       }
     },
@@ -1827,7 +1827,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0584,
+        "raw": 0.0676,
         "thesis": null
       }
     },
@@ -1860,7 +1860,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0053,
+        "raw": 0.0111,
         "thesis": null
       }
     },
@@ -1889,7 +1889,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0051,
+        "raw": 0.0089,
         "thesis": null
       }
     },
@@ -1955,6 +1955,78 @@
     "source_head": "[Benzinga news, 2026-10-22T15:39:46Z, by Benzinga Newsdesk] Watching Avalo Therapeutics; Shares Trading Lower After AbbVie Reports Phase 3 INTREPID Results For Lutikizumab; Avalo's Abdakibart Is A Competing Treatment For Hidradenitis Suppurativa\n\n",
     "decided_at": "2026-10-22T15:42:09.780888+00:00",
     "price_at_decision": 7.67,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261022-1628-01-UNP": {
+    "key": "20261022-1628-01-UNP",
+    "night": "20261022-1628",
+    "ticker": "UNP",
+    "accession": "news:62526002",
+    "also_accessions": [],
+    "filed_at": "2026-10-22T13:19:57Z",
+    "source_head": "[Benzinga news, 2026-10-22T13:19:57Z, by Benzinga Newsdesk] Union Pacific Corporation Exec Says 2026 Reported Operating Ratio Remains Challenged By Higher Fuel Prices; Union Pacific CFO Says Our Fuel Price Per Gallon Increased From $2.56 To $4.21 YoY; Union Pacific CEO Says Confident In Merger Application, High Fuel Prices Weighing On Margins\n\n",
+    "decided_at": "2026-10-22T16:28:56.839818+00:00",
+    "price_at_decision": 295.605,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261022-1628-02-GSBC": {
+    "key": "20261022-1628-02-GSBC",
+    "night": "20261022-1628",
+    "ticker": "GSBC",
+    "accession": "news:101403829",
+    "also_accessions": [],
+    "filed_at": "2026-10-22T13:02:20Z",
+    "source_head": "[Benzinga news, 2026-10-22T13:02:20Z, by staff] Great Southern Bancorp, Inc. Reports Preliminary Third Quarter 2026 Financial Results\nGreat Southern Bancorp, Inc. announced preliminary earnings of $1.27 per diluted common share for the third quarter ended September 30, 2026, noting an impact from non-cash hedge accounting adjustments.\nGreat Southern Bancorp, Inc. reported preliminary net income of $14.0 million, or $1.27 per diluted common share, for the third quarter ended September 30, 2026, compared to $17.8 million, or $1.56 per diluted common share, in the same period of 2025. The company",
+    "decided_at": "2026-10-22T16:29:11.280288+00:00",
+    "price_at_decision": 77.92,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261022-1628-03-HZO": {
+    "key": "20261022-1628-03-HZO",
+    "night": "20261022-1628",
+    "ticker": "HZO",
+    "accession": "news:101403811",
+    "also_accessions": [],
+    "filed_at": "2026-10-22T13:02:03Z",
+    "source_head": "[Benzinga news, 2026-10-22T13:02:03Z, by staff] MarineMax to be Acquired by Francisco Partners\nMarineMax, Inc. has entered into a definitive agreement to be acquired by Francisco Partners in an all-cash transaction valued at approximately $1.5 billion.\nMarineMax, Inc. announced a definitive agreement to be acquired by the investment firm Francisco Partners. Under the terms of the proposed transaction, MarineMax shareholders are set to receive $53.00 per share in cash. The deal is valued at approximately $1.5 billion. This acquisition represents a significant change of control for the recreatio",
+    "decided_at": "2026-10-22T16:29:24.311886+00:00",
+    "price_at_decision": 52.605000000000004,
     "outcome": "no_trade",
     "ended_by": "SCOUT",
     "rounds": 1,

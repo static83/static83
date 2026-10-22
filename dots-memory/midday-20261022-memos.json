@@ -1,0 +1,176 @@
+[
+  {
+    "case": 1,
+    "ticker": "UNP",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Call commentary on results out at 07:45 ET; UNP swung -1.5% to +2.6% and is priced",
+        "reasoning": [
+          "Source: Union Pacific's Q3 release (Benzinga 11:45 UTC, 07:45 ET: 'Union Pacific Q3 Adj. EPS $3.53 Beats $3.47 Estimate, Sales $7.197B Beat $7.125B Estimate') and call remarks (13:19 UTC).",
+          "Quoted from the call headline: 'Exec Says 2026 Reported Operating Ratio Remains Challenged By Higher Fuel Prices; Union Pacific CFO Says Our Fuel Price Per Gallon Increased From $2.56 To $4.21 YoY; Union Pacific CEO Says Confident In Merger Application'.",
+          "What changed: a small beat, fuel pressure on margins, and confidence in a merger application already before regulators. No new decision.",
+          "Already traded: UNP opened 283.58 (-1.5% vs 287.91) and is 295.54 (+2.6%), a 4% intraday swing over three hours. Just under the 3% filter, but the reaction is visible and done."
+        ],
+        "objections": [
+          "Released at 07:45 ET and traded through a 4% intraday swing; the call adds commentary, not news."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "UNP: no trade. A small beat and fuel headwinds, priced through a 4% swing",
+        "reasoning": [
+          "Q3 adj EPS $3.53 vs $3.47; revenue $7.197B vs $7.125B; fuel cost per gallon up from $2.56 to $4.21.",
+          "Midday cases keep landing on morning earnings that have traded for hours. Measuring from the previous close catches the move only when it holds; an intraday range (open to now) would catch swings like this one.",
+          "Check later: UNP 5-day return."
+        ],
+        "objections": [
+          "Released at 07:45 ET and traded through a 4% intraday swing; the call adds commentary, not news."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "GSBC",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Small bank's Q3 out last evening; 646 IEX shares today, too thin to read or trade",
+        "reasoning": [
+          "Primary source: Great Southern Bancorp's release on GlobeNewswire, dated October 21 (per the URL), 'Reports Preliminary Third Quarter Earnings of $1.27 per Diluted Common Share; Earnings Negatively Impacted in this Period by Non-Cash Hedge Accounting Adjustments'. The 09:02 ET item is a rewrite.",
+          "Quoted: 'preliminary net income of $14.0 million, or $1.27 per diluted common share ... compared to $17.8 million, or $1.56 per diluted common share, in the same period of 2025'; excluding the hedge adjustments, '$1.50'. 'Net interest income for the quarter was $50.3 million, a slight decrease from $50.8 million'.",
+          "What changed: a weaker year-on-year quarter, partly a non-cash accounting item. No consensus figure in our sources.",
+          "Tradeability: GSBC ($849M) traded 646 shares on IEX today; -0.4% against yesterday's close."
+        ],
+        "objections": [
+          "Routine small-bank quarter released last evening; too thin on IEX."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "GSBC: no trade. A soft small-bank quarter, released last night, untradeable on IEX",
+        "reasoning": [
+          "EPS $1.27 ($1.50 excluding hedge accounting) vs $1.56 a year ago.",
+          "646 IEX shares today: the liquidity floor ($25k a day median) passed on past days, but intraday the feed is nearly empty.",
+          "Check later: GSBC 5-day return."
+        ],
+        "objections": [
+          "Routine small-bank quarter released last evening; too thin on IEX."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "HZO",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Stale deal: the $53 cash takeover was already priced; HZO has sat at $52.0-52.6 all week",
+        "reasoning": [
+          "The item (Benzinga 13:02 UTC) links a law firm's PR Newswire 'Shareholder Alert ... investigating the merger' of several companies including HZO, not MarineMax's own announcement. Quoted summary: 'shareholders are set to receive $53.00 per share in cash. The deal is valued at approximately $1.5 billion.'",
+          "The price says the deal was public before this week: HZO closed between 52.015 and 52.43 every day since Oct 16 and is 52.605 now, a 0.75% discount to $53. An unannounced takeover would not trade pinned under the offer price.",
+          "What changed today: a law-firm solicitation, nothing about the deal.",
+          "A 0.75% merger spread is a deal-completion bet, not the crew's kind of trade."
+        ],
+        "objections": [
+          "Stale: the $53 deal was already priced; today's item is a law-firm alert."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "HZO: no trade. A law-firm alert about a takeover already priced at a 0.75% spread",
+        "reasoning": [
+          "MarineMax trades at 52.605 against a $53.00 cash offer from Francisco Partners; it has been pinned near the offer since at least Oct 16.",
+          "Filter gaps: law-firm 'shareholder alert ... investigating' items are solicitations, and a stock trading pinned just under an offer price shows the deal is old. The first is fixed after this run.",
+          "Nothing to check later."
+        ],
+        "objections": [
+          "Stale: the $53 deal was already priced; today's item is a law-firm alert."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

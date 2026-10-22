@@ -1,0 +1,50 @@
+[
+  {
+    "ticker": "UNP",
+    "company": "UNION PACIFIC CORP",
+    "cik": "100885",
+    "accession": "news:62526002",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-22T13:19:57Z",
+    "url": "https://www.benzinga.com/news/26/10/62526002/union-pacific-corporation-exec-says-2026-reported-operating-ratio-remains-challenged-higher-fuel-pri",
+    "source_excerpt": "[Benzinga news, 2026-10-22T13:19:57Z, by Benzinga Newsdesk] Union Pacific Corporation Exec Says 2026 Reported Operating Ratio Remains Challenged By Higher Fuel Prices; Union Pacific CFO Says Our Fuel Price Per Gallon Increased From $2.56 To $4.21 YoY; Union Pacific CEO Says Confident In Merger Application, High Fuel Prices Weighing On Margins\n\n",
+    "market_cap_usd": 175611687586.29,
+    "last_price": 295.605,
+    "also_accessions": [],
+    "weight": 3
+  },
+  {
+    "ticker": "GSBC",
+    "company": "GREAT SOUTHERN BANCORP, INC.",
+    "cik": "854560",
+    "accession": "news:101403829",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-22T13:02:20Z",
+    "url": "https://www.globenewswire.com/news-release/2026/10/21/3385974/0/en/great-southern-bancorp-inc-reports-preliminary-third-quarter-earnings-of-1-27-per-diluted-common-share-earnings-negatively-impacted-in-this-period-by-non-cash-hedge-accounting-adju.html",
+    "source_excerpt": "[Benzinga news, 2026-10-22T13:02:20Z, by staff] Great Southern Bancorp, Inc. Reports Preliminary Third Quarter 2026 Financial Results\nGreat Southern Bancorp, Inc. announced preliminary earnings of $1.27 per diluted common share for the third quarter ended September 30, 2026, noting an impact from non-cash hedge accounting adjustments.\nGreat Southern Bancorp, Inc. reported preliminary net income of $14.0 million, or $1.27 per diluted common share, for the third quarter ended September 30, 2026, compared to $17.8 million, or $1.56 per diluted common share, in the same period of 2025. The company stated that results were negatively affected by non-cash cash flow hedge accounting adjustments. When excluding these specific adjustments, net income for the quarter was $16.5 million, with earnings per diluted common share of $1.50. The company also reported an annualized return on average common equity of 8.68% and an annualized return on average assets of 0.99%. Net interest income for the quarter was $50.3 million, a slight decrease from $50.8 million in the third quarter of 2025, which the company attributed largely to the completion of interest income accretion from a previously terminated interest rate swap.",
+    "market_cap_usd": 849133745.44,
+    "last_price": 77.92,
+    "also_accessions": [],
+    "weight": 3
+  },
+  {
+    "ticker": "HZO",
+    "company": "MARINEMAX INC",
+    "cik": "1057060",
+    "accession": "news:101403811",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-22T13:02:03Z",
+    "url": "https://www.prnewswire.com/news-releases/shareholder-alert---the-ma-class-action-firm-is-investigating-the-merger--bwmn-dv-vrex-and-hzo---is-it-a-fair-deal-for-you-302915565.html",
+    "source_excerpt": "[Benzinga news, 2026-10-22T13:02:03Z, by staff] MarineMax to be Acquired by Francisco Partners\nMarineMax, Inc. has entered into a definitive agreement to be acquired by Francisco Partners in an all-cash transaction valued at approximately $1.5 billion.\nMarineMax, Inc. announced a definitive agreement to be acquired by the investment firm Francisco Partners. Under the terms of the proposed transaction, MarineMax shareholders are set to receive $53.00 per share in cash. The deal is valued at approximately $1.5 billion. This acquisition represents a significant change of control for the recreational boat and yacht retailer.",
+    "market_cap_usd": 1161873273.3300002,
+    "last_price": 52.605000000000004,
+    "also_accessions": [],
+    "weight": 3
+  }
+]

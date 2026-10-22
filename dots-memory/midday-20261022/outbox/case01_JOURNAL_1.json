@@ -1,0 +1,141 @@
+{
+  "role": "JOURNAL",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 4905.07,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "UNP",
+      "company": "UNION PACIFIC CORP",
+      "cik": "100885",
+      "accession": "news:62526002",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-22T13:19:57Z",
+      "url": "https://www.benzinga.com/news/26/10/62526002/union-pacific-corporation-exec-says-2026-reported-operating-ratio-remains-challenged-higher-fuel-pri",
+      "source_excerpt": "[Benzinga news, 2026-10-22T13:19:57Z, by Benzinga Newsdesk] Union Pacific Corporation Exec Says 2026 Reported Operating Ratio Remains Challenged By Higher Fuel Prices; Union Pacific CFO Says Our Fuel Price Per Gallon Increased From $2.56 To $4.21 YoY; Union Pacific CEO Says Confident In Merger Application, High Fuel Prices Weighing On Margins\n\n",
+      "market_cap_usd": 175611687586.29,
+      "last_price": 295.605,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "outcome": "no_trade",
+      "order": null
+    },
+    "memos_so_far": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Call commentary on results out at 07:45 ET; UNP swung -1.5% to +2.6% and is priced",
+        "reasoning": [
+          "Source: Union Pacific's Q3 release (Benzinga 11:45 UTC, 07:45 ET: 'Union Pacific Q3 Adj. EPS $3.53 Beats $3.47 Estimate, Sales $7.197B Beat $7.125B Estimate') and call remarks (13:19 UTC).",
+          "Quoted from the call headline: 'Exec Says 2026 Reported Operating Ratio Remains Challenged By Higher Fuel Prices; Union Pacific CFO Says Our Fuel Price Per Gallon Increased From $2.56 To $4.21 YoY; Union Pacific CEO Says Confident In Merger Application'.",
+          "What changed: a small beat, fuel pressure on margins, and confidence in a merger application already before regulators. No new decision.",
+          "Already traded: UNP opened 283.58 (-1.5% vs 287.91) and is 295.54 (+2.6%), a 4% intraday swing over three hours. Just under the 3% filter, but the reaction is visible and done."
+        ],
+        "objections": [
+          "Released at 07:45 ET and traded through a 4% intraday swing; the call adds commentary, not news."
+        ]
+      }
+    ],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 59 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "AVTX",
+          "night": "20261022-1541",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ABBV",
+          "night": "20261022-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "LMT",
+          "night": "20261022-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "HONA",
+          "night": "20261022-1255",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "R",
+          "night": "20261022-1255",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CURB",
+          "night": "20261022-1255",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CACI",
+          "night": "20261022-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "WH",
+          "night": "20261022-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 70
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

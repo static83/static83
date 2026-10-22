@@ -1,0 +1,6 @@
+{"role":"SCOUT","verdict":"object","headline":"Small bank's Q3 out last evening; 646 IEX shares today, too thin to read or trade",
+"reasoning":["Primary source: Great Southern Bancorp's release on GlobeNewswire, dated October 21 (per the URL), 'Reports Preliminary Third Quarter Earnings of $1.27 per Diluted Common Share; Earnings Negatively Impacted in this Period by Non-Cash Hedge Accounting Adjustments'. The 09:02 ET item is a rewrite.",
+"Quoted: 'preliminary net income of $14.0 million, or $1.27 per diluted common share ... compared to $17.8 million, or $1.56 per diluted common share, in the same period of 2025'; excluding the hedge adjustments, '$1.50'. 'Net interest income for the quarter was $50.3 million, a slight decrease from $50.8 million'.",
+"What changed: a weaker year-on-year quarter, partly a non-cash accounting item. No consensus figure in our sources.",
+"Tradeability: GSBC ($849M) traded 646 shares on IEX today; -0.4% against yesterday's close."],
+"objections":["Routine small-bank quarter released last evening; too thin on IEX."]}
