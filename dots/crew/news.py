@@ -156,8 +156,9 @@ def weight(text: str, market_cap: Optional[float] = None, price: Optional[float]
         return 1  # still a case SCOUT can flag, but it ranks below anything confirmed
     if re.search(r"^\s*['\"\u2018\u201c].+['\"\u2019\u201d]\s*-\s*[A-Z][\w .&]{1,40}$", text.split("\n")[0]):
         w = min(w, 2)  # "'...' - Bloomberg News": a relayed media report, not the company speaking
-    if _UNSIZED.search(text) or not _SIZED.search(text):
-        return w
+    financing = re.search(r"\b(debt|loan|financing|credit facility|notes offering)\b", text, re.IGNORECASE)
+    if not financing and (_UNSIZED.search(text) or not _SIZED.search(text)):
+        return w  # a lender's or underwriter's role in someone else's deal is weighed by its size below
     if (_MINORITY.search(text) or re.search(r"terms (were )?not disclosed|undisclosed", text, re.IGNORECASE)
             or re.search(r", an? [^,]{2,40}\b(company|subsidiary|unit)\b,|\bsubsidiary\b", text, re.IGNORECASE)):
         return 1  # a slice of someone else, or a deal too small for the buyer to have to price it
