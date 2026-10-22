@@ -1,0 +1,161 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 4907.96,
+      "mode": "alpaca-paper",
+      "open_positions": [
+        "SMCI"
+      ],
+      "open_orders": [
+        "SMCI"
+      ]
+    },
+    "filing": {
+      "ticker": "CURB",
+      "company": "Curbline Properties Corp.",
+      "cik": "2027317",
+      "accession": "news:101355218",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-22T11:32:47Z",
+      "url": "https://www.marketscreener.com/news/curbline-properties-q3-operating-ffo-revenue-increase-2026-operating-ffo-outlook-raised-ce785cded98dff2c",
+      "source_excerpt": "[Benzinga news, 2026-10-22T11:32:47Z, by staff] Curbline Properties Reports Q3 2026 Financial Results and Raises 2026 Outlook\nCurbline Properties announced its third-quarter 2026 financial results, reporting revenue of $71.1 million and operating FFO of $0.32 per share, while raising its full-year 2026 operating FFO outlook.\nCurbline Properties reported third-quarter 2026 revenue of $71.1 million, exceeding the FactSet consensus estimate of $66.5 million. The company posted operating FFO of $0.32 per share, which was in line with analyst expectations. Additionally, the company raised its full-year 2026 operating FFO per share guidance to a range of $1.25 to $1.27. These results reflect the company's performance as a self-managed REIT focused on convenience shopping centers.\n[Other material headlines on this company in the window]\n- 2026-10-22T10:31:22Z Curbline Properties Raises FY2026 FFO Guidance from $1.24-$1.26 to $1.25-$1.27 vs $1.25 Est",
+      "market_cap_usd": 2843229927.36,
+      "last_price": 26.94,
+      "also_accessions": [
+        "news:62519780"
+      ],
+      "weight": 3
+    },
+    "market": {
+      "quote": {
+        "ap": 32.71,
+        "as": 100,
+        "ax": "V",
+        "bp": 21.65,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-21T20:00:00.706848211Z",
+        "z": "A"
+      },
+      "extended_hours": {
+        "session": "pre-market",
+        "reference_close": 26.94,
+        "trades_seen": false,
+        "note": "no extended-hours trades on the IEX feed yet"
+      },
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.65,
+        "max_gap_pct": 2.9
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 998.5658,
+        "slippage_usd": 2.454,
+        "spread_pct": 40.692
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 54 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "Still open: SMCI (open).",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "CACI",
+          "night": "20261022-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "WH",
+          "night": "20261022-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SLG",
+          "night": "20261022-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "EW",
+          "night": "20261021-1803",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GHC",
+          "night": "20261021-1803",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MSCI",
+          "night": "20261021-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ADI",
+          "night": "20261021-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GSK",
+          "night": "20261021-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 64
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

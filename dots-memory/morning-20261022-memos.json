@@ -1,0 +1,205 @@
+[
+  {
+    "case": 1,
+    "ticker": "CURB",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "In line: Q3 FFO $0.32 as expected; the guide moves a cent, to a midpoint $0.01 above consensus",
+        "reasoning": [
+          "Source: Curbline's Q3 release (Benzinga 10:31 UTC: 'Curbline Properties Raises FY2026 FFO Guidance from $1.24-$1.26 to $1.25-$1.27 vs $1.25 Est'; 11:32 UTC write-up via MarketScreener).",
+          "Quoted: 'operating FFO of $0.32 per share, which was in line with analyst expectations'; revenue '$71.1 million, exceeding the FactSet consensus estimate of $66.5 million'.",
+          "What changed: the full-year FFO midpoint moves from $1.25 to $1.26, $0.01 above consensus. For a REIT, FFO is the number that counts, and it is in line.",
+          "Price: no IEX pre-market trades."
+        ],
+        "objections": [
+          "In-line FFO and a one-cent guidance raise; no surprise."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "CURB: no trade. FFO in line; guidance up a cent",
+        "reasoning": [
+          "Q3 operating FFO $0.32, in line; FY guide $1.25-1.27 vs $1.25 consensus; revenue beat.",
+          "Ranking note: 'raises guidance' weighs 3 even when the raise is a cent; comparing the new range with the estimate in Benzinga's headline would rank these lower.",
+          "Check later: CURB 5-day return."
+        ],
+        "objections": [
+          "In-line FFO and a one-cent guidance raise; no surprise."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "R",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "Ryder beats and raises adjusted EPS, but cuts GAAP EPS guidance by about $3.85 a share",
+        "reasoning": [
+          "Source: Ryder's Q3 release (Benzinga 10:57-11:00 UTC, 06:57-07:00 ET). No session has traded it.",
+          "Quoted: 'Ryder System Raises FY2026 Adj EPS Guidance from $14.40-$14.80 to $14.85-$15.05 vs $14.65 Est'; 'Ryder System Lowers FY2026 GAAP EPS Guidance from $13.50-$13.90 to $9.75-$9.95'; Q3 'adjusted earnings per share of $4.33 exceeded the FactSet consensus estimate of $4.15'.",
+          "Contradictory sales headlines: 'Raises FY2026 Sales Guidance from $13.045B to $13.298B' against 'Affirms FY2026 Sales Guidance of $10.718B vs $13.265B Est' (likely two definitions of revenue). Flagged, not resolved.",
+          "What changed: adjusted EPS +$0.35 at the midpoint (+2.4%), 2% above consensus. The GAAP cut implies roughly $3.85 a share of charges this year, whose nature is not in the summaries we have.",
+          "Price: no IEX pre-market trades."
+        ],
+        "objections": [
+          "The GAAP guidance cut (~$3.85/share of charges) is unexplained in our sources."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "object",
+        "headline": "No mispricing to name: a 2% adjusted raise next to unexplained multi-dollar charges",
+        "reasoning": [
+          "The adjusted numbers are a modest beat and raise: Q3 +$0.18 vs consensus, FY midpoint $14.95 vs $14.65 (+2%).",
+          "The GAAP cut is large (about $160M of charges at ~41M shares) and unexplained in what we have. If it is an impairment of the leasing fleet or a business exit, it may matter more than the adjusted beat; if it is a one-off non-cash write-down, it does not. We cannot tell which.",
+          "With no pre-market price and two readings of the charge pointing opposite ways, there is no direction to defend.",
+          "Proves me wrong: a sustained move of more than 5% today; that would mean the market resolved the charge question in a way we could not."
+        ],
+        "objections": [
+          "The GAAP guidance cut (~$3.85/share of charges) is unexplained in our sources.",
+          "No direction: a small adjusted raise against an unexplained GAAP charge."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "R: no trade. Adjusted beat and 2% raise; GAAP guide cut by ~$3.85 a share for reasons not in our sources",
+        "reasoning": [
+          "Q3 adj EPS $4.33 vs $4.15; FY adj EPS guide $14.85-15.05 vs $14.65 consensus; FY GAAP EPS guide cut to $9.75-9.95 from $13.50-13.90.",
+          "The two sales-guidance headlines contradict each other; the release itself would settle it.",
+          "Check later: R 1- and 5-day return, to see whether the market weighed the adjusted beat or the GAAP charge."
+        ],
+        "objections": [
+          "The GAAP guidance cut (~$3.85/share of charges) is unexplained in our sources.",
+          "No direction: a small adjusted raise against an unexplained GAAP charge."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "HONA",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Wrong company: Benzinga tagged Honeywell Aerospace (HONA) on Honeywell's (HON) own results",
+        "reasoning": [
+          "The item (Benzinga 11:32 UTC, via StreetInsider): 'Honeywell Technologies Reports Third Quarter 2026 Results and Raises Full-Year Outlook', tagged HONA. Quoted: 'citing strong performance in its first quarter as an independent company'; full-year sales '$20.0 billion to $20.1 billion' from '$19.8 billion to $20.0 billion'.",
+          "Those are the remaining Honeywell's numbers, already published under HON at 06:02 ET: 'Honeywell Intl Q3 Adj. EPS $2.27 Beats $2.17 Estimate, Sales $4.994B Miss $5.007B Estimate'; 'Raises FY2026 Adj EPS Guidance from $8.05-$8.35 to $8.40-$8.45 vs $8.30 Est; Raises FY2026 Sales Guidance from $19.800B-$20.0...'.",
+          "So for HONA, the stock this case is about, nothing happened. The HON news is an hour old in this rewrite and its own headlines are in the HON feed.",
+          "Price: no IEX pre-market trades in HONA or HON."
+        ],
+        "objections": [
+          "Mis-tagged: the results belong to HON, not HONA."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "HONA: no trade. A rewrite of Honeywell's (HON) results tagged to the aerospace spin-off",
+        "reasoning": [
+          "The release is HON's Q3: adj EPS $2.27 vs $2.17, sales $4.994B vs $5.007B, FY adj EPS guide $8.40-8.45 vs $8.30.",
+          "Benzinga tagged the 11:32 rewrite to HONA, the newly separate Honeywell Aerospace.",
+          "Filter idea: when the tagged company's name differs from the reporter's in the headline ('Honeywell Technologies' vs 'Honeywell Aerospace'), the item is likely mis-tagged. Not changed tonight; the unnamed-company rule does not catch it because both names start with 'Honeywell'.",
+          "Check later: HON's own results remain unjudged by the crew; they may come up at midday if not yet priced."
+        ],
+        "objections": [
+          "Mis-tagged: the results belong to HON, not HONA."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

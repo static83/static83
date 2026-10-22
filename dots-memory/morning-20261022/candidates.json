@@ -1,0 +1,56 @@
+[
+  {
+    "ticker": "CURB",
+    "company": "Curbline Properties Corp.",
+    "cik": "2027317",
+    "accession": "news:101355218",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-22T11:32:47Z",
+    "url": "https://www.marketscreener.com/news/curbline-properties-q3-operating-ffo-revenue-increase-2026-operating-ffo-outlook-raised-ce785cded98dff2c",
+    "source_excerpt": "[Benzinga news, 2026-10-22T11:32:47Z, by staff] Curbline Properties Reports Q3 2026 Financial Results and Raises 2026 Outlook\nCurbline Properties announced its third-quarter 2026 financial results, reporting revenue of $71.1 million and operating FFO of $0.32 per share, while raising its full-year 2026 operating FFO outlook.\nCurbline Properties reported third-quarter 2026 revenue of $71.1 million, exceeding the FactSet consensus estimate of $66.5 million. The company posted operating FFO of $0.32 per share, which was in line with analyst expectations. Additionally, the company raised its full-year 2026 operating FFO per share guidance to a range of $1.25 to $1.27. These results reflect the company's performance as a self-managed REIT focused on convenience shopping centers.\n[Other material headlines on this company in the window]\n- 2026-10-22T10:31:22Z Curbline Properties Raises FY2026 FFO Guidance from $1.24-$1.26 to $1.25-$1.27 vs $1.25 Est",
+    "market_cap_usd": 2843229927.36,
+    "last_price": 26.94,
+    "also_accessions": [
+      "news:62519780"
+    ],
+    "weight": 3
+  },
+  {
+    "ticker": "R",
+    "company": "RYDER SYSTEM INC",
+    "cik": "85961",
+    "accession": "news:101355186",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-22T11:32:15Z",
+    "url": "https://www.marketscreener.com/news/ryder-system-q3-comparable-earnings-revenue-rise-raises-2026-comparable-earnings-guidance-ce785cded981f225",
+    "source_excerpt": "[Benzinga news, 2026-10-22T11:32:15Z, by staff] Ryder System Reports Q3 2026 Earnings and Raises Full-Year Guidance\nRyder System, Inc. reported an increase in third-quarter comparable earnings and revenue, leading the company to raise its 2026 comparable earnings guidance.\nRyder System, Inc. announced its third-quarter 2026 financial results, highlighting growth in both comparable earnings and revenue. Following these results, the company increased its full-year 2026 comparable earnings guidance. The reported adjusted earnings per share of $4.33 exceeded the FactSet consensus estimate of $4.15. Additionally, the company's updated non-GAAP earnings per share guidance range of $14.85 to $15.05 is above the previously expected FactSet estimate of $14.67.\n[Other material headlines on this company in the window]\n- 2026-10-22T11:00:02Z Ryder System Raises FY2026 Adj EPS Guidance from $14.40-$14.80 to $14.85-$15.05 vs $14.65 Est; Affirms FY2026 Sales Guidance of $10.718B vs $13.265B Est\n- 2026-10-22T10:59:11Z Ryder System Raises FY2026 Sales Guidance from $13.045B to $13.298B\n- 2026-10-22T10:57:13Z Ryder System Lowers FY2026 GAAP EPS Guidance from $13.50-$13.90 to $9.75-$9.95",
+    "market_cap_usd": 9217436661.16,
+    "last_price": 240.37,
+    "also_accessions": [
+      "news:62520557",
+      "news:62520514",
+      "news:62520443"
+    ],
+    "weight": 3
+  },
+  {
+    "ticker": "HONA",
+    "company": "Honeywell Aerospace Inc.",
+    "cik": "2089271",
+    "accession": "news:101355185",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-22T11:32:15Z",
+    "url": "https://www.streetinsider.com/Press+Releases?before_id=27218487",
+    "source_excerpt": "[Benzinga news, 2026-10-22T11:32:15Z, by staff] Honeywell Technologies Reports Third Quarter 2026 Results and Raises Full-Year Outlook\nHoneywell Technologies announced its third-quarter 2026 financial results and increased its full-year sales guidance, citing strong performance in its first quarter as an independent company.\nHoneywell Technologies reported its third-quarter 2026 financial results and raised its full-year sales outlook to a range of $20.0 billion to $20.1 billion. This updated guidance represents an increase from the company's previous expectation of $19.8 billion to $20.0 billion. The company projects organic sales growth of 4 percent to 5 percent for the full year, with an anticipated 5 percent to 6 percent organic growth in the fourth quarter. CEO Vimal Kapur attributed the positive results to strong performance during the company's first quarter operating as a standalone entity following its spin-off.",
+    "market_cap_usd": 51507987339.75,
+    "last_price": 162.51,
+    "also_accessions": [],
+    "weight": 3
+  }
+]

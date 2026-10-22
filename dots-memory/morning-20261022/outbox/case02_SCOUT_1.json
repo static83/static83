@@ -1,0 +1,163 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 2,
+    "account": {
+      "equity_usd": 4909.96,
+      "mode": "alpaca-paper",
+      "open_positions": [
+        "SMCI"
+      ],
+      "open_orders": [
+        "SMCI"
+      ]
+    },
+    "filing": {
+      "ticker": "R",
+      "company": "RYDER SYSTEM INC",
+      "cik": "85961",
+      "accession": "news:101355186",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-22T11:32:15Z",
+      "url": "https://www.marketscreener.com/news/ryder-system-q3-comparable-earnings-revenue-rise-raises-2026-comparable-earnings-guidance-ce785cded981f225",
+      "source_excerpt": "[Benzinga news, 2026-10-22T11:32:15Z, by staff] Ryder System Reports Q3 2026 Earnings and Raises Full-Year Guidance\nRyder System, Inc. reported an increase in third-quarter comparable earnings and revenue, leading the company to raise its 2026 comparable earnings guidance.\nRyder System, Inc. announced its third-quarter 2026 financial results, highlighting growth in both comparable earnings and revenue. Following these results, the company increased its full-year 2026 comparable earnings guidance. The reported adjusted earnings per share of $4.33 exceeded the FactSet consensus estimate of $4.15. Additionally, the company's updated non-GAAP earnings per share guidance range of $14.85 to $15.05 is above the previously expected FactSet estimate of $14.67.\n[Other material headlines on this company in the window]\n- 2026-10-22T11:00:02Z Ryder System Raises FY2026 Adj EPS Guidance from $14.40-$14.80 to $14.85-$15.05 vs $14.65 Est; Affirms FY2026 Sales Guidance of $10.718B vs $13.265B Est\n- 2026-10-22T10:59:11Z Ryder System Raises FY2026 Sales Guidance from $13.045B to $13.298B\n- 2026-10-22T10:57:13Z Ryder System Lowers FY2026 GAAP EPS Guidance from $13.50-$13.90 to $9.75-$9.95",
+      "market_cap_usd": 9217436661.16,
+      "last_price": 240.37,
+      "also_accessions": [
+        "news:62520557",
+        "news:62520514",
+        "news:62520443"
+      ],
+      "weight": 3
+    },
+    "market": {
+      "quote": {
+        "ap": 264.64,
+        "as": 100,
+        "ax": "V",
+        "bp": 214.65,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-21T20:00:01.396351645Z",
+        "z": "A"
+      },
+      "extended_hours": {
+        "session": "pre-market",
+        "reference_close": 240.37,
+        "trades_seen": false,
+        "note": "no extended-hours trades on the IEX feed yet"
+      },
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.73,
+        "max_gap_pct": 2.52
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 512.1094,
+        "slippage_usd": 2.455,
+        "spread_pct": 20.86
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 54 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "Still open: SMCI (open).",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "CACI",
+          "night": "20261022-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "WH",
+          "night": "20261022-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SLG",
+          "night": "20261022-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "EW",
+          "night": "20261021-1803",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GHC",
+          "night": "20261021-1803",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MSCI",
+          "night": "20261021-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ADI",
+          "night": "20261021-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GSK",
+          "night": "20261021-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 64
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

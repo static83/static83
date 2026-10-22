@@ -1,0 +1,144 @@
+{
+  "role": "JOURNAL",
+  "packet": {
+    "case": 3,
+    "account": {
+      "equity_usd": 4909.96,
+      "mode": "alpaca-paper",
+      "open_positions": [
+        "SMCI"
+      ],
+      "open_orders": [
+        "SMCI"
+      ]
+    },
+    "filing": {
+      "ticker": "HONA",
+      "company": "Honeywell Aerospace Inc.",
+      "cik": "2089271",
+      "accession": "news:101355185",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-22T11:32:15Z",
+      "url": "https://www.streetinsider.com/Press+Releases?before_id=27218487",
+      "source_excerpt": "[Benzinga news, 2026-10-22T11:32:15Z, by staff] Honeywell Technologies Reports Third Quarter 2026 Results and Raises Full-Year Outlook\nHoneywell Technologies announced its third-quarter 2026 financial results and increased its full-year sales guidance, citing strong performance in its first quarter as an independent company.\nHoneywell Technologies reported its third-quarter 2026 financial results and raised its full-year sales outlook to a range of $20.0 billion to $20.1 billion. This updated guidance represents an increase from the company's previous expectation of $19.8 billion to $20.0 billion. The company projects organic sales growth of 4 percent to 5 percent for the full year, with an anticipated 5 percent to 6 percent organic growth in the fourth quarter. CEO Vimal Kapur attributed the positive results to strong performance during the company's first quarter operating as a standalone entity following its spin-off.",
+      "market_cap_usd": 51507987339.75,
+      "last_price": 162.51,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "outcome": "no_trade",
+      "order": null
+    },
+    "memos_so_far": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Wrong company: Benzinga tagged Honeywell Aerospace (HONA) on Honeywell's (HON) own results",
+        "reasoning": [
+          "The item (Benzinga 11:32 UTC, via StreetInsider): 'Honeywell Technologies Reports Third Quarter 2026 Results and Raises Full-Year Outlook', tagged HONA. Quoted: 'citing strong performance in its first quarter as an independent company'; full-year sales '$20.0 billion to $20.1 billion' from '$19.8 billion to $20.0 billion'.",
+          "Those are the remaining Honeywell's numbers, already published under HON at 06:02 ET: 'Honeywell Intl Q3 Adj. EPS $2.27 Beats $2.17 Estimate, Sales $4.994B Miss $5.007B Estimate'; 'Raises FY2026 Adj EPS Guidance from $8.05-$8.35 to $8.40-$8.45 vs $8.30 Est; Raises FY2026 Sales Guidance from $19.800B-$20.0...'.",
+          "So for HONA, the stock this case is about, nothing happened. The HON news is an hour old in this rewrite and its own headlines are in the HON feed.",
+          "Price: no IEX pre-market trades in HONA or HON."
+        ],
+        "objections": [
+          "Mis-tagged: the results belong to HON, not HONA."
+        ]
+      }
+    ],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 55 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "Still open: SMCI (open).",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "R",
+          "night": "20261022-1255",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CURB",
+          "night": "20261022-1255",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CACI",
+          "night": "20261022-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "WH",
+          "night": "20261022-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SLG",
+          "night": "20261022-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "EW",
+          "night": "20261021-1803",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GHC",
+          "night": "20261021-1803",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MSCI",
+          "night": "20261021-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 66
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{"role":"SCOUT","verdict":"agree","headline":"Ryder beats and raises adjusted EPS, but cuts GAAP EPS guidance by about $3.85 a share",
+"reasoning":["Source: Ryder's Q3 release (Benzinga 10:57-11:00 UTC, 06:57-07:00 ET). No session has traded it.",
+"Quoted: 'Ryder System Raises FY2026 Adj EPS Guidance from $14.40-$14.80 to $14.85-$15.05 vs $14.65 Est'; 'Ryder System Lowers FY2026 GAAP EPS Guidance from $13.50-$13.90 to $9.75-$9.95'; Q3 'adjusted earnings per share of $4.33 exceeded the FactSet consensus estimate of $4.15'.",
+"Contradictory sales headlines: 'Raises FY2026 Sales Guidance from $13.045B to $13.298B' against 'Affirms FY2026 Sales Guidance of $10.718B vs $13.265B Est' (likely two definitions of revenue). Flagged, not resolved.",
+"What changed: adjusted EPS +$0.35 at the midpoint (+2.4%), 2% above consensus. The GAAP cut implies roughly $3.85 a share of charges this year, whose nature is not in the summaries we have.",
+"Price: no IEX pre-market trades."],
+"objections":["The GAAP guidance cut (~$3.85/share of charges) is unexplained in our sources."]}

@@ -1,0 +1,6 @@
+{"role":"SCOUT","verdict":"object","headline":"Wrong company: Benzinga tagged Honeywell Aerospace (HONA) on Honeywell's (HON) own results",
+"reasoning":["The item (Benzinga 11:32 UTC, via StreetInsider): 'Honeywell Technologies Reports Third Quarter 2026 Results and Raises Full-Year Outlook', tagged HONA. Quoted: 'citing strong performance in its first quarter as an independent company'; full-year sales '$20.0 billion to $20.1 billion' from '$19.8 billion to $20.0 billion'.",
+"Those are the remaining Honeywell's numbers, already published under HON at 06:02 ET: 'Honeywell Intl Q3 Adj. EPS $2.27 Beats $2.17 Estimate, Sales $4.994B Miss $5.007B Estimate'; 'Raises FY2026 Adj EPS Guidance from $8.05-$8.35 to $8.40-$8.45 vs $8.30 Est; Raises FY2026 Sales Guidance from $19.800B-$20.0...'.",
+"So for HONA, the stock this case is about, nothing happened. The HON news is an hour old in this rewrite and its own headlines are in the HON feed.",
+"Price: no IEX pre-market trades in HONA or HON."],
+"objections":["Mis-tagged: the results belong to HON, not HONA."]}
