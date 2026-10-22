@@ -67,6 +67,12 @@ _TIER2 = re.compile(
     r"cfo|chief financial|default|spin[- ]?off|strategic review|approv(al|es|ed))\b",
     re.IGNORECASE,
 )
+# Plaintiff-firm notices ('shareholder alert', 'investigating the merger'): they repeat old news to find clients.
+_SOLICITATION = re.compile(
+    r"law firm|class[- ]action (firm|lawsuit filed|deadline)|shareholder[- ]alert|investor[- ]alert|"
+    r"\binvestigat\w* (the )?(merger|claims|on behalf)|deadline reminder|lead plaintiff",
+    re.IGNORECASE,
+)
 _TAGS = re.compile(r"<[^>]+>")
 _WS = re.compile(r"\s+")
 
@@ -85,6 +91,8 @@ def classify(item: dict) -> Optional[str]:
         return "round-up of several companies"
     if _FILLER.search(head):
         return "commentary, not an event"
+    if _SOLICITATION.search(head) or _SOLICITATION.search(item.get("url") or ""):
+        return "law-firm solicitation, not company news"
     if _PROCEDURAL.search(head):
         return "procedural FDA step (IDE/IND), not a result"
     if not _MATERIAL.search(head):
