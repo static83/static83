@@ -1,0 +1,60 @@
+[
+  {
+    "case": 1,
+    "ticker": "MKTX",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A closing step on a deal announced in July: HSR early termination for ICE's MarketAxess takeover",
+        "reasoning": [
+          "Primary source: 8-K item 8.01 filed 13:21 ET. Quoted: 'As previously disclosed, on July 29, 2026, MarketAxess Holdings Inc. entered into an Agreement and Plan of Merger with Intercontinental Exchange, Inc.'",
+          "Quoted: 'On October 21, 2026, the Department of Justice and the Federal Trade Commission granted early termination of the waiting period under the HSR Act ... satisfying the HSR Act condition to close the Merger. The Merger remains subject to ... approval by the stockholders of MarketAxess and the receipt of other required regulatory approvals.'",
+          "What changed: one expected regulatory box is ticked. The price and terms were set in July.",
+          "Price: MKTX trades pinned at 165.18 (164.28-164.59 for days), the pattern of a stock held near a cash offer. A merger-spread bet is not the crew's trade."
+        ],
+        "objections": [
+          "Routine closing step on a merger announced July 29; already priced as merger arbitrage."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "MKTX: no trade. Antitrust early termination on ICE's July deal; the stock sits at the deal price",
+        "reasoning": [
+          "The HSR waiting period ended early on Oct 21; stockholder and other approvals remain.",
+          "Filter gap: SCOUT's 'previously announced' rule covered only completed deals (2.01). A filing that says 'as previously disclosed ... merger' and reports a waiting period, regulatory approval or stockholder vote is now filtered too.",
+          "Nothing to check later."
+        ],
+        "objections": [
+          "Routine closing step on a merger announced July 29; already priced as merger arbitrage."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

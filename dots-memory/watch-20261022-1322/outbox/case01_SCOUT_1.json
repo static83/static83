@@ -1,0 +1,163 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 4905.07,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "MKTX",
+      "company": "MARKETAXESS HOLDINGS INC",
+      "cik": "1278021",
+      "accession": "0001193125-26-428689",
+      "items": [
+        "8.01"
+      ],
+      "filed_at": "2026-10-22T13:21:09-04:00",
+      "url": "https://www.sec.gov/Archives/edgar/data/1278021/000119312526428689/d157425d8k.htm",
+      "source_excerpt": "Item 8.01. Other Events. As previously disclosed, on July 29, 2026, MarketAxess Holdings Inc. (\u201c MarketAxess \u201d) entered into an Agreement and Plan of Merger with Intercontinental Exchange, Inc. (\u201c Parent \u201d) and Igloo Merger Sub II, Inc. (\u201c Merger Sub \u201d), providing for the merger of Merger Sub with and into MarketAxess (the \u201c Merger \u201d), with MarketAxess surviving as a wholly owned subsidiary of Parent. The Merger is conditioned on, among other things, the expiration or early termination of the statutory waiting period under the Hart-Scott-Rodino Antitrust Improvements Act of 1976, as amended (the \u201c HSR Act \u201d), and other required regulatory approvals. On October 21, 2026, the Department of Justice and the Federal Trade Commission granted early termination of the waiting period under the HSR Act effective as of October 21, 2026, satisfying the HSR Act condition to close the Merger. The Merger remains subject to the remaining customary closing conditions and approvals, including approval by the stockholders of MarketAxess and the receipt of other required regulatory approvals. 2 Cautionary Statement Regarding Forward-Looking Statements This Current Report on Form 8-K contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended (\u201cSection 27A\u201d), and Section 21E of the Securities Exchange Act of 1934, as amended (\u201cSection 21E\u201d). We intend such forward-looking statements to be covered by the safe harbor provisions for forward-looking statements contained in Section 27A and Section 21E. Such forward-looking statements relate to, without limitation, the proposed transaction, our future economic performance, plans and objectives for future operations, and projections of revenue and other financial items. Forward-looking statements can be identified by the use of words such as \u201cmay,\u201d \u201cwill,\u201d \u201cassume,\u201d \u201cbelieve,\u201d \u201ccontemplate,\u201d \u201ccould,\u201d \u201cintend,\u201d \u201cpredict,\u201d \u201cwould,\u201d \u201cplan,\u201d \u201cpotential,\u201d \u201cprojected,\u201d \u201cshould,\u201d \u201cexpect,\u201d \u201canticipate,\u201d \u201cestimate,\u201d \u201ctarget,\u201d \u201ccontinue\u201d, \u201ctrend\u201d, \u201cobjective\u201d, \u201cmight\u201d or comparable terminology, although not all forward-looking statements contain these identifying words. Forward-looking statements are inherently subject to certain risks, trends, changes in circumstances and uncertainties, many of which we cannot predict with accuracy and some of which we may not anticipate, including, but not limited to: (i) historical financial information may not be representative of future results; (ii) the completion of the proposed transaction on the anticipated terms and timing, or at all, including obtaining the approval of the proposed transaction by the holders of a majority of the outstanding shares of common stock of MarketAxess, the receipt of the remaining required regulatory approvals, and the satisfaction of other conditions to the completion of the proposed transaction as well as the failure to realize anticipated benefits of the proposed transaction; (iii) there may be significant transaction costs in connection with the proposed transaction and the proposed transaction may be more expensive to complete than anticipated, including as a result of unexpected factors or events; (iv) there may be liabilities that are not known, probable or estimable at this time or unexpected costs, charges or expenses; (v) the occurrence of any event, change or other circumstance that could give rise to the termination of the proposed transaction, including in circumstances requiring MarketAxess to pay a termination fee; (vi) any effect of the announcement of the proposed transaction on MarketAxess\u2019 ability to operate its business and retain and hire key personnel and to maintain favorable business relationships; (vii) the proposed transaction may result in the diversion of management\u2019s time and attention from ordinary course business operations to issues relating to the proposed transaction; (viii) certain restrictions during the pendency of the proposed transaction that may impact MarketAxess\u2019 ability to pursue certain business opportunities or strategic transactions; (ix) unfavorable outcome of legal proceedings related to the proposed transaction; (x) the risk that MarketAxess\u2019 share price may decline significantly if the proposed transaction is not consummated; (xi) legislative, regulatory and economic developments; (xii) unpredictability and severity of catastrophic events, including, but not limited to, acts of terrorism, outbreaks of war or hostilities or public health issues, as well as management\u2019s response to any of the aforementioned factors; (xiii) other risks and uncertainties detailed in periodic reports that MarketAxess files with the Securities and Exchange Commission (\u201c SEC \u201d); (xiv) actions by third parties, including government agencies; (xv) reputational risk and potential adverse reactions of MarketAxess\u2019 or Parent\u2019s customers, employees or other business partners, including those resulting from the announcement or completion of the proposed transaction; (xvi) the ability to promptly and effectively integrate MarketAxess\u2019 business with Parent\u2019s business and realize the anticipated cost savings, synergies, and other financial benefits of the proposed transaction within the expected time period or at all; and (xvii) Parent\u2019s ability to obtain the contemplated debt financing on a timely basis, on favorable terms or at all. There can be no assurance that the proposed transaction will be completed, or if it is completed, that it will close within the anticipated time period. While the list of factors presented here, and the list of factors presented in the proxy statement, in preliminary and definitive form, on Schedule 14A (the \u201c Proxy Statement \u201d) is considered representative, no such list should be considered to be a complete statement of all potential risks and uncertainties and should be read in conjunction with the other forward-looking statements. Unlisted factors may present significant additional obstacles to the real",
+      "market_cap_usd": 5810698233.01,
+      "last_price": 165.11,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "quote": {
+        "ap": 165.04,
+        "as": 200,
+        "ax": "V",
+        "bp": 164.98,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-22T17:22:59.646847034Z",
+        "z": "C"
+      },
+      "extended_hours": null,
+      "since_news": {
+        "since": "2026-10-22T13:21:09-04:00",
+        "reference": 164.77,
+        "reference_is": "last bar before the news",
+        "last": 165.04,
+        "move_pct": 0.16,
+        "high": 165.185,
+        "low": 164.8,
+        "volume": 6682,
+        "as_of": "2026-10-22T17:20:00Z",
+        "trades_seen": true,
+        "note": "IEX feed only: the move since the news went out, during today's session"
+      },
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.05,
+        "max_gap_pct": 0.21
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 0.8918,
+        "slippage_usd": 2.4525,
+        "spread_pct": 0.036
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 62 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "HZO",
+          "night": "20261022-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GSBC",
+          "night": "20261022-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "UNP",
+          "night": "20261022-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "AVTX",
+          "night": "20261022-1541",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ABBV",
+          "night": "20261022-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "LMT",
+          "night": "20261022-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "HONA",
+          "night": "20261022-1255",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "R",
+          "night": "20261022-1255",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 73
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}
