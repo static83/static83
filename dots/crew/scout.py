@@ -697,10 +697,11 @@ def find_news_candidates(
 
         heaviest = max(wt(i) for i in live)
         item = next(i for i in live if wt(i) == heaviest)  # newest of the heaviest
-        # measure the reaction from the first report of this event, not from a later rewrite
+        # measure the reaction from the first report of this event, not from a later rewrite: search all
+        # of the company's news, since the watcher's window is only minutes wide
         about = f"{item['headline']} {item.get('summary') or ''}"
-        created = min([_created(i) for i in live if _same_event(i["headline"], about, info.get("title", ticker))]
-                      + [_created(item)])
+        created = min([_created(i) for i in items if _same_event(i["headline"], about, info.get("title", ticker))
+                       and _sessions_closed(_created(i), now) < 1] + [_created(item)])
         repeat = told_by_news([i for i in items if i not in live], f"{item['headline']} {item.get('summary') or ''}",
                               info.get("title", ticker), now)
         if repeat:  # tonight's item rewrites a story a full session already traded
