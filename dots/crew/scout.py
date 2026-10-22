@@ -172,6 +172,17 @@ _UNDERWRITTEN = re.compile(r"\bentered into an underwriting agreement\b", re.IGN
 _FINANCING_ONLY_ITEMS = {"1.01", "7.01", "8.01"}
 
 
+# Steps every announced merger passes through; the terms were priced when the deal was announced.
+_DEAL_STEP = re.compile(
+    r"(waiting period|HSR Act|Hart-Scott-Rodino|early termination|antitrust (approval|clearance)|"
+    r"regulatory approvals? (was|were|has been|have been) (received|obtained)|"
+    r"(stockholders|shareholders) (approved|voted)|special meeting)",
+    re.IGNORECASE,
+)
+_NEW_TERMS = re.compile(r"amend\w* (to )?the (merger )?agreement|increase\w* the (offer|merger consideration)|terminat\w* the (merger )?agreement",
+                        re.IGNORECASE)
+
+
 def settles_prior_news(items: list[str], body: str) -> Optional[str]:
     """Why this filing only settles something announced earlier, or None if it may be new."""
     head = body[:3000]
@@ -180,6 +191,8 @@ def settles_prior_news(items: list[str], body: str) -> Optional[str]:
         return f"settles a previously announced deal ('{m.group(0)[:70]}')"
     if "2.01" in items and "2.02" not in items and _AS_PREVIOUSLY.search(head) and _COMPLETED_DEAL.search(head):
         return "completes a previously disclosed acquisition or sale"
+    if "2.02" not in items and _AS_PREVIOUSLY.search(head) and _DEAL_STEP.search(head) and not _NEW_TERMS.search(head):
+        return "a routine step (waiting period, approval or vote) on a previously announced deal"
     if set(items) <= _FINANCING_ONLY_ITEMS:
         if all(p.search(head) for p in _NOTES_CLOSING):
             kind = "convertible bond" if _CONVERTIBLE.search(head) else "bond"

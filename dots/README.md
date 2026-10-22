@@ -79,7 +79,9 @@ source with an official timestamp, so "pull the original source" is literal. Fil
 2. A listed ticker (EDGAR's own CIK to ticker map).
 3. Not just the paperwork for news that is already public: a filing that says it completed, closed,
    settled or priced something "previously announced", a completed acquisition or sale the filing
-   says was previously disclosed, the closing of a bond or convertible bond offering,
+   says was previously disclosed, a routine step on a previously disclosed merger (waiting period,
+   regulatory approval, shareholder vote; amended terms still count as news), the closing of a bond
+   or convertible bond offering,
    or an underwriting agreement (signed the day an offering is priced). The last two only apply when
    the filing reports nothing else. "As previously disclosed" alone is not enough: filings often use
    it to introduce something genuinely new.
