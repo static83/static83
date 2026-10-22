@@ -1,0 +1,59 @@
+[
+  {
+    "case": 1,
+    "ticker": "BX",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Blackstone is the lender, not the target: $300M of debt for someone else's buyout, 0.3% of BX",
+        "reasoning": [
+          "Source: Benzinga 18:02 UTC citing MarketScreener, 'Blackstone Leads $300 Million Debt Financing for Gooch & Housego Buyout'. Quoted: 'Blackstone has reportedly led a $300 million debt financing package to support the buyout of Gooch & Housego.' 'Reportedly': no Blackstone release; UNCONFIRMED.",
+          "What changed for Blackstone: one private-credit loan of $300M, against an $87.4B market value and a credit business that writes deals like this every week.",
+          "'Buyout' in the headline scored it 3 under the rule for companies being bought; here the buyout is of Gooch & Housego, a UK company, by someone else."
+        ],
+        "objections": [
+          "Immaterial: a reported $300M loan by a $87B asset manager; the buyout target is another company."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "BX: no trade. A reported $300M buyout loan led by Blackstone's credit arm",
+        "reasoning": [
+          "Blackstone lends; Gooch & Housego is being bought. Immaterial at Blackstone's size.",
+          "Filter gap: 'buyout' or 'takeover' in a financing headline is someone else's deal. Financing headlines are now weighed by their size against the company, like any other deal. Fixed after this alert.",
+          "Nothing to check later."
+        ],
+        "objections": [
+          "Immaterial: a reported $300M loan by a $87B asset manager; the buyout target is another company."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

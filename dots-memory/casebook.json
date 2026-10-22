@@ -1392,7 +1392,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0019,
+        "raw": -0.0006,
         "thesis": null
       }
     },
@@ -1420,7 +1420,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0187,
+        "raw": 0.0248,
         "thesis": null
       }
     },
@@ -1448,7 +1448,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0019,
+        "raw": -0.014,
         "thesis": null
       }
     },
@@ -1476,7 +1476,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0063,
+        "raw": -0.0049,
         "thesis": null
       }
     },
@@ -1504,7 +1504,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0138,
+        "raw": -0.0171,
         "thesis": null
       }
     },
@@ -1532,7 +1532,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0335,
+        "raw": 0.0282,
         "thesis": null
       }
     },
@@ -1560,7 +1560,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0163,
+        "raw": -0.0171,
         "thesis": null
       }
     },
@@ -1588,7 +1588,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0153,
+        "raw": 0.0208,
         "thesis": null
       }
     },
@@ -1618,7 +1618,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0212,
+        "raw": -0.0254,
         "thesis": null
       }
     },
@@ -1646,7 +1646,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0256,
+        "raw": 0.024,
         "thesis": null
       }
     },
@@ -1674,7 +1674,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0032,
+        "raw": -0.0011,
         "thesis": null
       }
     },
@@ -1702,7 +1702,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0073,
+        "raw": 0.0077,
         "thesis": null
       }
     },
@@ -1733,7 +1733,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0181,
+        "raw": 0.0249,
         "thesis": null
       }
     },
@@ -1764,7 +1764,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0192,
+        "raw": -0.0174,
         "thesis": null
       }
     },
@@ -1796,7 +1796,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0243,
+        "raw": -0.0219,
         "thesis": null
       }
     },
@@ -1827,7 +1827,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0841,
+        "raw": 0.0779,
         "thesis": null
       }
     },
@@ -1860,7 +1860,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0102,
+        "raw": 0.0113,
         "thesis": null
       }
     },
@@ -1889,7 +1889,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0006,
+        "raw": -0.006,
         "thesis": null
       }
     },
@@ -2051,6 +2051,30 @@
     "source_head": "Item 8.01. Other Events. As previously disclosed, on July 29, 2026, MarketAxess Holdings Inc. (\u201c MarketAxess \u201d) entered into an Agreement and Plan of Merger with Intercontinental Exchange, Inc. (\u201c Parent \u201d) and Igloo Merger Sub II, Inc. (\u201c Merger Sub \u201d), providing for the merger of Merger Sub with and into MarketAxess (the \u201c Merger \u201d), with MarketAxess surviving as a wholly owned subsidiary of Parent. The Merger is conditioned on, among other things, the expiration or early termination of the statutory waiting period under the Hart-Scott-Rodino Antitrust Improvements Act of 1976, as amended (t",
     "decided_at": "2026-10-22T17:23:12.693474+00:00",
     "price_at_decision": 165.11,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261022-1804-01-BX": {
+    "key": "20261022-1804-01-BX",
+    "night": "20261022-1804",
+    "ticker": "BX",
+    "accession": "news:101795772",
+    "also_accessions": [],
+    "filed_at": "2026-10-22T18:02:00Z",
+    "source_head": "[Benzinga news, 2026-10-22T18:02:00Z, by staff] Blackstone Leads $300 Million Debt Financing for Gooch & Housego Buyout\nBlackstone has reportedly led a $300 million debt financing package to support the buyout of Gooch & Housego.\nBlackstone has led a $300 million debt package to facilitate the buyout of Gooch & Housego. This financing activity reflects the firm's ongoing involvement in private credit and debt markets. The transaction was reported on October 22, 2026.",
+    "decided_at": "2026-10-22T18:05:09.965398+00:00",
+    "price_at_decision": 116.46,
     "outcome": "no_trade",
     "ended_by": "SCOUT",
     "rounds": 1,

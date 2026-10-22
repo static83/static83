@@ -1,8 +1,8 @@
 # DOTS track record
 
-Updated 2026-10-22 13:23 ET. 74 case(s) on file.
+Updated 2026-10-22 14:05 ET. 75 case(s) on file.
 
-- SCOUT skipped 63 case(s); none has a thesis direction with 5 trading days of history yet.
+- SCOUT skipped 64 case(s); none has a thesis direction with 5 trading days of history yet.
 - SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.
 - QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.
 - Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.
