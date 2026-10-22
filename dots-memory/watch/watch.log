@@ -11453,3 +11453,68 @@
 2026-10-21T19:59:47+00:00   news skip NVDA: the crew judged this company in the last 3 days
 2026-10-21T19:59:47+00:00   news skip TMO: the crew judged this company in the last 3 days
 2026-10-21T19:59:47+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T13:47:41+00:00 start: 1500 headlines of history, watching from 2026-10-22T13:32:38+00:00
+2026-10-22T13:47:44+00:00   skip MAYS: market cap 81M below floor
+2026-10-22T13:47:45+00:00   news pulled LMT (weight 3): Defense Giant Lockheed Martin Raises 2026 Outlook, Backlog Hits Record $292 Billion
+2026-10-22T13:47:45+00:00   news skip POM: market cap 19M below floor
+2026-10-22T13:47:46+00:00   news pulled SMG (weight 1): Northwest Bank Announces Partnership with Columbus Crew at ScottsMiracle-Gro Field
+2026-10-22T13:47:47+00:00   news pulled MSA (weight 1): MSA Safety Secures $10.6M Contract for ALTAIR io 6 Gas Detectors
+2026-10-22T13:47:48+00:00   news pulled CNC (weight 1): Home State Health Announces Collaboration to Support Preservation Square Families
+2026-10-22T13:47:49+00:00   news skip ARES: no share count on file at the SEC
+2026-10-22T13:47:49+00:00   news pulled ABBV (weight 3): AbbVie Announces Positive Phase 3 Results for Lutikizumab in Hidradenitis Suppurativa
+2026-10-22T13:47:50+00:00   news skip V: no share count on file at the SEC
+2026-10-22T13:47:50+00:00   news pulled ADBE (weight 1): Adobe and BWT Alpine Formula One Team Announce Global Partnership
+2026-10-22T13:47:51+00:00   news skip BN: no share count on file at the SEC
+2026-10-22T13:47:51+00:00   news pulled ABNB (weight 1): American Express and Airbnb Announce Strategic Partnership
+2026-10-22T13:47:52+00:00   news pulled MSFT (weight 1): Infragistics Announces Collaboration with Microsoft to Advance Blazor
+2026-10-22T13:47:52+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T13:47:52+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T13:47:52+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T13:47:52+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T13:47:52+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T13:47:52+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T13:48:05+00:00 start: 1500 headlines of history, watching from 2026-10-22T13:47:41+00:00
+2026-10-22T13:48:06+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T13:48:06+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T13:48:06+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T13:48:06+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T13:48:06+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T13:48:06+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T13:48:06+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T13:48:06+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T13:48:06+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T13:48:06+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T13:48:06+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T13:48:06+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T13:49:06+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T13:49:06+00:00   news skip SMG: already judged on an earlier run
+2026-10-22T13:49:06+00:00   news skip MSA: already judged on an earlier run
+2026-10-22T13:49:06+00:00   news skip CNC: already judged on an earlier run
+2026-10-22T13:49:06+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T13:49:06+00:00   news skip ADBE: already judged on an earlier run
+2026-10-22T13:49:06+00:00   news skip ABNB: already judged on an earlier run
+2026-10-22T13:49:06+00:00   news skip MSFT: already judged on an earlier run
+2026-10-22T13:49:06+00:00   news skip QGEN: the crew judged this company in the last 3 days
+2026-10-22T13:49:06+00:00   news skip CURB: the crew judged this company in the last 3 days
+2026-10-22T13:49:06+00:00   news skip R: the crew judged this company in the last 3 days
+2026-10-22T13:49:06+00:00   news skip HONA: the crew judged this company in the last 3 days
+2026-10-22T13:49:06+00:00   news skip PCG: the crew judged this company in the last 3 days
+2026-10-22T13:49:06+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-22T13:49:13+00:00   skip MAYS: market cap 81M below floor
+2026-10-22T13:49:13+00:00   skip FBP: earnings out Sep 23; the market has traded 20 full session(s) on them
+2026-10-22T13:49:15+00:00   skip POOL: already traded since the news: +9.6% from 172.50 on the IEX feed
+2026-10-22T13:49:16+00:00   skip KFII: no share count on file at the SEC, market cap unknown
+2026-10-22T13:49:16+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-22T13:49:17+00:00   news skip POM: market cap 19M below floor
+2026-10-22T13:49:18+00:00   news pulled SMG (weight 1): Northwest Bank Announces Partnership with Columbus Crew at ScottsMiracle-Gro Field
+2026-10-22T13:49:19+00:00   news pulled MSA (weight 1): MSA Safety Secures $10.6M Contract for ALTAIR io 6 Gas Detectors
+2026-10-22T13:49:20+00:00   news pulled CNC (weight 1): Home State Health Announces Collaboration to Support Preservation Square Families
+2026-10-22T13:49:21+00:00   news skip ARES: no share count on file at the SEC
+2026-10-22T13:49:21+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-22T13:49:22+00:00   news skip V: no share count on file at the SEC
+2026-10-22T13:49:23+00:00   news pulled ADBE (weight 1): Adobe and BWT Alpine Formula One Team Announce Global Partnership
+2026-10-22T13:49:24+00:00   news skip BN: no share count on file at the SEC
+2026-10-22T13:49:24+00:00   news pulled ABNB (weight 1): American Express and Airbnb Announce Strategic Partnership
+2026-10-22T13:49:25+00:00   news pulled MSFT (weight 1): Infragistics Announces Collaboration with Microsoft to Advance Blazor
+2026-10-22T13:49:26+00:00   news skip META: already traded since the news: -6.7% from 698.54 on the IEX feed
+2026-10-22T13:49:27+00:00   news pulled UNP (weight 3): Union Pacific Corporation Exec Says 2026 Reported Operating Ratio Remains Challenged By Hi

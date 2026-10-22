@@ -1281,7 +1281,7 @@
         "thesis": -0.0236
       }
     },
-    "first_exit": null,
+    "first_exit": "stop",
     "source_head": "[Benzinga news, 2026-10-20T22:02:10Z, by staff] Supermicro Announces Preliminary Fiscal Q1 2027 Revenue Results\nSupermicro reported preliminary revenue for the first quarter of fiscal year 2027 in the range of $18.5 billion to $19.5 billion, significantly exceeding analyst expectations.\nSupermicro has released a preliminary business update for the first quarter of fiscal year 2027, projecting revenue between $18.5 billion and $19.5 billion. This figure significantly outperforms the FactSet consensus estimate of $14.94 billion. The announcement, made on October 20, 2026, indicates a strong fina"
   },
   "20261021-1250-01-UDR": {
@@ -1390,7 +1390,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0065,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261021-1347-02-CIGI": {
@@ -1413,7 +1418,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": -0.0005,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261021-1347-03-PCG": {
@@ -1436,7 +1446,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": -0.0062,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261021-1502-01-ESLT": {
@@ -1482,7 +1497,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": -0.0074,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261021-1622-01-APO": {
@@ -1505,7 +1525,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0284,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261021-1627-01-DHR": {
@@ -1528,7 +1553,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0052,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261021-1627-02-GSK": {
@@ -1551,7 +1581,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0004,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261021-1627-03-ADI": {
@@ -1576,7 +1611,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": -0.0155,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261021-1627-01-MSCI": {
@@ -1599,7 +1639,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0067,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261021-1803-01-GHC": {
@@ -1645,7 +1690,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0007,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261022-0217-01-SLG": {
@@ -1671,7 +1721,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0022,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261022-0217-02-WH": {
@@ -1697,7 +1752,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": -0.0412,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261022-0217-03-CACI": {
@@ -1724,7 +1784,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": -0.0177,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261022-1255-01-CURB": {
@@ -1750,7 +1815,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0304,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261022-1255-02-R": {
@@ -1778,7 +1848,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0227,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261022-1255-03-HONA": {
@@ -1791,6 +1866,61 @@
     "source_head": "[Benzinga news, 2026-10-22T11:32:15Z, by staff] Honeywell Technologies Reports Third Quarter 2026 Results and Raises Full-Year Outlook\nHoneywell Technologies announced its third-quarter 2026 financial results and increased its full-year sales guidance, citing strong performance in its first quarter as an independent company.\nHoneywell Technologies reported its third-quarter 2026 financial results and raised its full-year sales outlook to a range of $20.0 billion to $20.1 billion. This updated guidance represents an increase from the company's previous expectation of $19.8 billion to $20.0 bill",
     "decided_at": "2026-10-22T12:57:11.039445+00:00",
     "price_at_decision": 162.51,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {
+      "1": {
+        "raw": -0.0022,
+        "thesis": null
+      }
+    },
+    "first_exit": null
+  },
+  "20261022-1347-01-LMT": {
+    "key": "20261022-1347-01-LMT",
+    "night": "20261022-1347",
+    "ticker": "LMT",
+    "accession": "news:62527374",
+    "also_accessions": [
+      "news:101433948"
+    ],
+    "filed_at": "2026-10-22T13:44:45Z",
+    "source_head": "[Benzinga news, 2026-10-22T13:44:45Z, by Akanksha Bakshi] Defense Giant Lockheed Martin Raises 2026 Outlook, Backlog Hits Record $292 Billion\nLockheed Martin beats Q3 estimates with $7.97 EPS and $20.71B revenue, raising its 2026 outlook on strong defense demand.\nLockheed Martin Corp. (NYSE: LMT ) stock rose Thursday after the defense contractor reported better-than-expected third-quarter results, driven by sales growth across all four business segments, and raised its full-year outlook . Lockheed Martin reported earnings of $7.97 per share, beating analysts\u2019 consensus estimate of $7.42 and ri",
+    "decided_at": "2026-10-22T13:48:43.635468+00:00",
+    "price_at_decision": 594.93,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261022-1347-02-ABBV": {
+    "key": "20261022-1347-02-ABBV",
+    "night": "20261022-1347",
+    "ticker": "ABBV",
+    "accession": "news:101433945",
+    "also_accessions": [],
+    "filed_at": "2026-10-22T13:31:55Z",
+    "source_head": "[Benzinga news, 2026-10-22T13:31:55Z, by staff] AbbVie Announces Positive Phase 3 Results for Lutikizumab in Hidradenitis Suppurativa\nAbbVie reported topline results from the Phase 3 INTREPID trial, demonstrating that lutikizumab significantly improved signs and symptoms in patients with hidradenitis suppurativa.\nAbbVie announced positive topline data from its Phase 3 INTREPID clinical trial evaluating the efficacy and safety of lutikizumab for the treatment of hidradenitis suppurativa. The study met its primary endpoint, showing that patients treated with lutikizumab experienced significant i",
+    "decided_at": "2026-10-22T13:48:58.796484+00:00",
+    "price_at_decision": 282.07500000000005,
     "outcome": "no_trade",
     "ended_by": "SCOUT",
     "rounds": 1,

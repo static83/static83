@@ -1,0 +1,5 @@
+{"role":"JOURNAL","verdict":"agree","headline":"LMT: no trade. Strong quarter and record backlog, but the stock is already +7.9%",
+"reasoning":["Q3 EPS $7.97 vs $7.42; revenue $20.71B vs $20.50B; GAAP EPS guide midpoint $30.55 vs $30.41; backlog $292B; multiyear F-35 framework for 850 aircraft.",
+"Watcher bug: the move since the news was measured from the 09:44 rewrite, because the watcher only looked for the first report inside its 15-minute window. Fixed after this alert: the first report is searched across all of the company's news.",
+"Check later: LMT 5-day return from today's open, as a large-cap post-earnings drift data point."],
+"objections":["Already priced: +7.9% since the 06:22 ET release."]}

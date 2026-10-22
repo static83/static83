@@ -1,0 +1,118 @@
+[
+  {
+    "case": 1,
+    "ticker": "LMT",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Already traded: results out at 06:22 ET; LMT is +7.9% on the day",
+        "reasoning": [
+          "Primary source: Lockheed's Q3 release, first on the wire at 10:22 UTC (06:22 ET): 'Lockheed Martin Q3 EPS $7.97 Beats $7.42 Estimate, Sales $20.711B Beat $20.495B Estimate' and 'Raises FY2026 GAAP EPS Guidance from $29.95-$30.65 to $30.35-$30.75 vs $30.41 Est'. Also at 06:15 ET: a multiyear F-35 framework 'Including 850 Aircraft Over 10 Years'. The 09:44 ET item is a write-up.",
+          "Quoted from the write-up: 'order backlog reached a record $292 billion, including $52.5 billion tied to a multiyear PAC-3 MSE interceptor contract'; 'book-to-bill ratio of 4'.",
+          "What changed: a clean beat, a record backlog and F-35 visibility. Real news.",
+          "Already traded: LMT is 595.37 against 551.97 yesterday, +7.9%, 17 minutes into the session. The watcher missed this because it measured from the 09:44 rewrite."
+        ],
+        "objections": [
+          "Already priced: +7.9% since the 06:22 ET release."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "LMT: no trade. Strong quarter and record backlog, but the stock is already +7.9%",
+        "reasoning": [
+          "Q3 EPS $7.97 vs $7.42; revenue $20.71B vs $20.50B; GAAP EPS guide midpoint $30.55 vs $30.41; backlog $292B; multiyear F-35 framework for 850 aircraft.",
+          "Watcher bug: the move since the news was measured from the 09:44 rewrite, because the watcher only looked for the first report inside its 15-minute window. Fixed after this alert: the first report is searched across all of the company's news.",
+          "Check later: LMT 5-day return from today's open, as a large-cap post-earnings drift data point."
+        ],
+        "objections": [
+          "Already priced: +7.9% since the 06:22 ET release."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "ABBV",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Positive Phase 3 for one pipeline drug at a $498B company; out at 09:08 ET, ABBV -1.1%",
+        "reasoning": [
+          "Primary source: AbbVie's release (Benzinga 13:08 UTC, 09:08 ET): 'AbbVie Reports Topline Results From Phase 3 INTREPID Study Evaluating Lutikizumab ... In Hidradenitis Suppurativa; Study Met Primary Endpoint And 8 Ranked Secondary Endpoints'. The 09:31 ET item is a rewrite.",
+          "Quoted: 'The study met its primary endpoint, showing that patients treated with lutikizumab experienced significant improvements in the signs and symptoms of the disease compared to those receiving a placebo.' No effect sizes are given in our sources.",
+          "What changed: one more late-stage immunology asset is likely to be filed, in a disease with several approved and late-stage drugs. Against a $498B company, it does not move the total.",
+          "Price: ABBV -1.1% against yesterday's close, in a weak market open."
+        ],
+        "objections": [
+          "Immaterial at AbbVie's size; no effect sizes to judge competitiveness; no reaction."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "ABBV: no trade. Lutikizumab met its Phase 3 endpoints in HS; too small for a $498B company",
+        "reasoning": [
+          "INTREPID met the primary and 8 ranked secondary endpoints; effect sizes were not given.",
+          "ABBV is -1.1% on the day.",
+          "Check later: if the data are presented with effect sizes that beat existing HS drugs, that could be a case for a smaller competitor rather than AbbVie."
+        ],
+        "objections": [
+          "Immaterial at AbbVie's size; no effect sizes to judge competitiveness; no reaction."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

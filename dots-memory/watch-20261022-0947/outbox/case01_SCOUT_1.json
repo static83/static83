@@ -1,0 +1,165 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 4905.07,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "LMT",
+      "company": "LOCKHEED MARTIN CORP",
+      "cik": "936468",
+      "accession": "news:62527374",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-22T13:44:45Z",
+      "url": "https://www.benzinga.com/markets/earnings/26/10/62527374/defense-giant-lockheed-martin-raises-2026-outlook-backlog-hits-record-292-billion",
+      "source_excerpt": "[Benzinga news, 2026-10-22T13:44:45Z, by Akanksha Bakshi] Defense Giant Lockheed Martin Raises 2026 Outlook, Backlog Hits Record $292 Billion\nLockheed Martin beats Q3 estimates with $7.97 EPS and $20.71B revenue, raising its 2026 outlook on strong defense demand.\nLockheed Martin Corp. (NYSE: LMT ) stock rose Thursday after the defense contractor reported better-than-expected third-quarter results, driven by sales growth across all four business segments, and raised its full-year outlook . Lockheed Martin reported earnings of $7.97 per share, beating analysts\u2019 consensus estimate of $7.42 and rising from $6.95 a year earlier . Revenue increased 11% year over year to $20.711 billion, exceeding the $20.495 billion consensus estimate. Net earnings climbed 14% to $1.845 billion. Lockheed Martin Reports Growth Across All Four Segments Business segment operating profit rose 10% to $2.229 billion, while consolidated operating profit increased 7% to $2.443 billion. Business segment operating margin narrowed to 10.8% from 10.9% a year earlier. Aeronautics revenue climbed 13% to $8.214 billion, driven by higher F-35 production and sustainment activity and C-130 pre-contract cost recovery. The segment\u2019s operating profit rose 9% to $743 million, although its operating margin narrowed to 9% from 9.4%. Lockheed Martin delivered 43 F-35 fighter jets during the quarter, down from 46 a year earlier. Missiles and Fire Control posted the strongest segment growth, with revenue and operating profit both increasing 24% to $4.501 billion and $631 million, respectively. Higher production of PAC-3, THAAD, GMLRS and Precision Strike Missiles fueled the increase. Rotary and Mission Systems revenue rose 3% to $4.511 billion, while Space revenue increased 4% to $3.485 billion. See More: Top Value Stocks Lockheed Martin\u2019s Record $292 Billion Backlog Signals Strong Demand Lockheed Martin\u2019s order backlog reached a record $292 billion, including $52.5 billion tied to a multiyear PAC-3 MSE interceptor contract. The company reported a book-to-bill ratio of 4, indicating that new orders significantly exceeded quarterly sales. Operating cash flow totaled $3.438 billion, while free cash flow reached $2.999 billion. Lockheed Martin ended the quarter with $5.960 billion in cash and equivalents and $20.498 billion in long-term debt. Lockheed Martin Raises 2026 Earnings And Revenue Forecasts Lockheed Martin raised its full-year earnings forecast to $30.35-$30.75 per share from $29.95-$30.65, compared with analysts\u2019 consensus estimate of $30.41 . The company increased its revenue outlook to $80 billion-$82 billion from $79.75 billion-$81.75 billion, compared with the $80.963 billion consensus estimate. Lockheed Martin also raised its free cash flow forecast to $7.8 billion-$8 billion. However, the company warned that costs associated with F-35 Lot 20 have exceeded existing contractual authorization and funding. Lockheed said insufficient additional U.S. government funding could affect its future operating results, cash flows and financial condition. CEO Jim Taiclet highlighted the company\u2019s efforts to combine established defense systems, including the F-35, Aegis and Hellfire, with emerging technologies such as artificial intelligence and autonomous systems. Taiclet said Lockheed Martin is working with startups, new industry entrants and commercial technology companies to accelerate innovation and improve military capabilities. New F-35 Framework Covers 850 Fighter Jets Over 10 Years Separately, Lockheed Martin and the U.S. Department of Defense announced a framework agreement covering 850 U.S. F-35 fighter jets over 10 years . The framework also includes spare parts, modification kits, sustainment services and international orders across production Lots 21 through 30. The agreement targets annual production of 156 aircraft, potentially providing greater visibility into long-term manufacturing demand and investment requirements. However, final pricing, production schedules and contract awards remain subject to congressional authorization, funding appropriations and final negotiations. \u201cThis multiyear framework strengthens the way we can plan and invest in the F-35 enterprise,\u201d Taiclet said. LMT Price Action: Lockheed Martin shares rose 3.63% to $571.55 in premarket trading Thursday, according to Benzinga Pro data . Image via Shutterstock Read Also: Lockheed Martin Q3 Preview: Shares Down 20% From Highs, Another Record Backlog Could Change Things\n[Other material headlines on this company in the window]\n- 2026-10-22T13:31:56Z Lockheed Martin Raises Fiscal Year Outlook as Backlog Hits Record\n- 2026-10-22T10:22:10Z Lockheed Martin Raises FY2026 GAAP EPS Guidance from $29.95-$30.65 to $30.35-$30.75 vs $30.41 Est; Raises FY2026 Sales Guidance from $79.750B-$81.750B to $80.000B-$82.000B vs $80.963B Est",
+      "market_cap_usd": 137304342682.29,
+      "last_price": 594.93,
+      "also_accessions": [
+        "news:101433948"
+      ],
+      "weight": 3
+    },
+    "market": {
+      "quote": {
+        "ap": 594.85,
+        "as": 40,
+        "ax": "V",
+        "bp": 562.4,
+        "bs": 40,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-22T13:48:34.691473615Z",
+        "z": "A"
+      },
+      "extended_hours": null,
+      "since_news": {
+        "since": "2026-10-22T13:44:45+00:00",
+        "reference": 606.1,
+        "reference_is": "last bar before the news",
+        "last": 595.37,
+        "move_pct": -1.77,
+        "high": 606.25,
+        "low": 590.63,
+        "volume": 9760,
+        "as_of": "2026-10-22T13:45:00Z",
+        "trades_seen": true,
+        "note": "IEX feed only: the move since the news went out, during today's session"
+      },
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.63,
+        "max_gap_pct": 4.99
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 137.5412,
+        "slippage_usd": 2.4525,
+        "spread_pct": 5.608
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 56 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "HONA",
+          "night": "20261022-1255",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "R",
+          "night": "20261022-1255",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CURB",
+          "night": "20261022-1255",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CACI",
+          "night": "20261022-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "WH",
+          "night": "20261022-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SLG",
+          "night": "20261022-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "EW",
+          "night": "20261021-1803",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GHC",
+          "night": "20261021-1803",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 67
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}
