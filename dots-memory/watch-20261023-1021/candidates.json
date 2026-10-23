@@ -1,0 +1,34 @@
+[
+  {
+    "ticker": "IOVA",
+    "company": "IOVANCE BIOTHERAPEUTICS, INC.",
+    "cik": "1425205",
+    "accession": "news:62561147",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-23T14:18:44Z",
+    "url": "https://www.benzinga.com/news/26/10/62561147/iovance-s-phase-2-lifileucel-plus-pembrolizumab-delivers-62-5-orr-and-29-2-complete-response-rate-fr",
+    "source_excerpt": "[Benzinga news, 2026-10-23T14:18:44Z, by Benzinga Newsdesk] Iovance's Phase 2 Lifileucel Plus Pembrolizumab Delivers 62.5% ORR And 29.2% Complete Response Rate In Frontline Advanced Melanoma, With Median OS Not Yet Reached At 50.9 Months\n\n",
+    "market_cap_usd": 6169470903.84,
+    "last_price": 13.620000000000001,
+    "also_accessions": [],
+    "weight": 3
+  },
+  {
+    "ticker": "ONC",
+    "company": "BeOne Medicines Ltd.",
+    "cik": "1651308",
+    "accession": "news:62561133",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-23T14:18:35Z",
+    "url": "https://www.benzinga.com/general/biotech/26/10/62561133/beone-medicines-announces-its-data-phase-3-herizon-gea-01-study-confirms-benefits-tevimbra-ziihera-t",
+    "source_excerpt": "[Benzinga news, 2026-10-23T14:18:35Z, by Benzinga Newsdesk] BeOne Medicines Announces Its Data From Phase 3 HERIZON-GEA-01 Study Confirms Benefits Of TEVIMBRA + ZIIHERA To Treat Patients With HER2-Positive Locally Advanced Or Metastatic Gastroesophageal Adenocarcinoma\n\n",
+    "market_cap_usd": 553210230437.325,
+    "last_price": 374.265,
+    "also_accessions": [],
+    "weight": 3
+  }
+]

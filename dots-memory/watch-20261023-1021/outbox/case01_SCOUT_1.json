@@ -1,0 +1,166 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": [
+        "LKQ"
+      ]
+    },
+    "filing": {
+      "ticker": "IOVA",
+      "company": "IOVANCE BIOTHERAPEUTICS, INC.",
+      "cik": "1425205",
+      "accession": "news:62561147",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-23T14:18:44Z",
+      "url": "https://www.benzinga.com/news/26/10/62561147/iovance-s-phase-2-lifileucel-plus-pembrolizumab-delivers-62-5-orr-and-29-2-complete-response-rate-fr",
+      "source_excerpt": "[Benzinga news, 2026-10-23T14:18:44Z, by Benzinga Newsdesk] Iovance's Phase 2 Lifileucel Plus Pembrolizumab Delivers 62.5% ORR And 29.2% Complete Response Rate In Frontline Advanced Melanoma, With Median OS Not Yet Reached At 50.9 Months\n\n",
+      "market_cap_usd": 6169470903.84,
+      "last_price": 13.620000000000001,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "quote": {
+        "ap": 13.63,
+        "as": 300,
+        "ax": "V",
+        "bp": 13.61,
+        "bs": 1000,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-23T14:22:01.48354834Z",
+        "z": "C"
+      },
+      "extended_hours": null,
+      "since_news": {
+        "since": "2026-10-23T14:18:44+00:00",
+        "reference": 13.955,
+        "reference_is": "last bar before the news",
+        "last": 13.64,
+        "move_pct": -2.26,
+        "high": 13.955,
+        "low": 13.54,
+        "volume": 37678,
+        "as_of": "2026-10-23T14:20:00Z",
+        "trades_seen": true,
+        "note": "IEX feed only: the move since the news went out, during today's session"
+      },
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 1.67,
+        "max_gap_pct": 16.34
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 3.6013,
+        "slippage_usd": 2.4525,
+        "spread_pct": 0.147
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 72 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 5 case(s) with a thesis. Five days later the thesis averaged -1.5%, right 2 of 5 times. Positive means this gate is stopping trades that would have worked. Only 5 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged -0.3%, right 0 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Still open: LKQ (pending).",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "IDYA",
+          "night": "20261023-1348",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "AMR",
+          "night": "20261023-1348",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ACA",
+          "night": "20261023-1348",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "LKQ",
+          "night": "20261023-1248",
+          "ended_by": "TRADED",
+          "direction": "short",
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "UWMC",
+          "night": "20261023-1248",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "LYTS",
+          "night": "20261023-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "AXON",
+          "night": "20261023-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "REXR",
+          "night": "20261023-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 84
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

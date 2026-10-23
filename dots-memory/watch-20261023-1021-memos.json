@@ -1,0 +1,116 @@
+[
+  {
+    "case": 1,
+    "ticker": "IOVA",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Long follow-up of a Phase 2 cohort at ESMO; the market is selling it (IOVA -2.8% since)",
+        "reasoning": [
+          "Source: Benzinga 14:18 UTC: 'Iovance's Phase 2 Lifileucel Plus Pembrolizumab Delivers 62.5% ORR And 29.2% Complete Response Rate In Frontline Advanced Melanoma, With Median OS Not Yet Reached At 50.9 Months'. Company release not in our feeds; no body text.",
+          "What changed: more follow-up on a single-arm Phase 2 cohort in a setting where Iovance's registrational Phase 3 is the trial that matters. Durable responses at 51 months are good news for the drug's profile, but they extend an existing data set.",
+          "Price: IOVA 13.955 to 13.56 since the item (-2.8%), and -4.2% on the day: sold on the news."
+        ],
+        "objections": [
+          "Incremental update of a Phase 2 cohort; the stock is falling on it."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "IOVA: no trade. ESMO update of a Phase 2 cohort; stock -2.8% on it",
+        "reasoning": [
+          "62.5% response rate, 29.2% complete responses, median survival not reached at 50.9 months, in frontline melanoma with pembrolizumab.",
+          "Pattern this week: conference updates of known trials (casdatifan, IDE849, lutikizumab, lifileucel) rarely move stocks up; several fell.",
+          "Check later: IOVA 5-day return."
+        ],
+        "objections": [
+          "Incremental update of a Phase 2 cohort; the stock is falling on it."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "ONC",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "'Confirms': full Phase 3 data for a combination whose topline was already reported; ONC flat",
+        "reasoning": [
+          "Source: Benzinga 14:18 UTC: 'BeOne Medicines Announces Its Data From Phase 3 HERIZON-GEA-01 Study Confirms Benefits Of TEVIMBRA + ZIIHERA ... HER2-Positive Locally Advanced Or Metastatic Gastroesophageal Adenocarcinoma'. No body text.",
+          "'Confirms benefits' means the topline result was already public; this is the detailed presentation (ESMO week). Ziihera is partnered in, and Tevimbra is one of BeOne's marketed drugs: for a $553B company, one combination label is small.",
+          "Price: ONC -0.1% since the item, on 704 IEX shares."
+        ],
+        "objections": [
+          "Detailed data for an already-reported Phase 3; immaterial at BeOne's size."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "ONC: no trade. HERIZON-GEA-01 full data confirm an earlier topline",
+        "reasoning": [
+          "Conference-week presentations of trials whose topline is already out are confirmations, not news.",
+          "Filter idea for later: during a major medical congress, headlines that 'confirm' or 'present data from' a named trial could weigh 2. Not changed today; one case.",
+          "Nothing to check beyond the usual 5-day return."
+        ],
+        "objections": [
+          "Detailed data for an already-reported Phase 3; immaterial at BeOne's size."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]
