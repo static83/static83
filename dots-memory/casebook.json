@@ -1392,7 +1392,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0019,
+        "raw": 0.0065,
         "thesis": null
       }
     },
@@ -1420,7 +1420,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0273,
+        "raw": 0.0304,
         "thesis": null
       }
     },
@@ -1448,7 +1448,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0023,
+        "raw": 0.0078,
         "thesis": null
       }
     },
@@ -1476,7 +1476,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0025,
+        "raw": -0.0004,
         "thesis": null
       }
     },
@@ -1504,7 +1504,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0243,
+        "raw": -0.0216,
         "thesis": null
       }
     },
@@ -1532,7 +1532,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0332,
+        "raw": 0.0424,
         "thesis": null
       }
     },
@@ -1560,7 +1560,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0194,
+        "raw": -0.0175,
         "thesis": null
       }
     },
@@ -1588,7 +1588,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0222,
+        "raw": 0.0187,
         "thesis": null
       }
     },
@@ -1618,7 +1618,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0283,
+        "raw": -0.0327,
         "thesis": null
       }
     },
@@ -1646,7 +1646,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.024,
+        "raw": 0.0256,
         "thesis": null
       }
     },
@@ -1674,7 +1674,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0023,
+        "raw": 0.0036,
         "thesis": null
       }
     },
@@ -1702,7 +1702,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0067,
+        "raw": 0.0181,
         "thesis": null
       }
     },
@@ -1733,7 +1733,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0678,
+        "raw": 0.0589,
         "thesis": null
       }
     },
@@ -1764,7 +1764,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0289,
+        "raw": -0.0415,
         "thesis": null
       }
     },
@@ -1796,7 +1796,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0194,
+        "raw": -0.015,
         "thesis": null
       }
     },
@@ -1827,7 +1827,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0886,
+        "raw": 0.0847,
         "thesis": null
       }
     },
@@ -1860,7 +1860,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0227,
+        "raw": 0.047,
         "thesis": null
       }
     },
@@ -1889,7 +1889,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0089,
+        "raw": 0.0057,
         "thesis": null
       }
     },
@@ -2099,6 +2099,80 @@
     "source_head": "[Benzinga news, 2026-10-22T19:05:15Z, by Benzinga Newsdesk] Merck And Moderna Report Phase 3 Melanoma Trial Results For Personalized mRNA Cancer Therapy; Intismeran Plus KEYTRUDA Cuts Melanoma Recurrence Or Death Risk By 42%\n\n",
     "decided_at": "2026-10-22T19:06:54.964571+00:00",
     "price_at_decision": 147.885,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261023-0217-01-REXR": {
+    "key": "20261023-0217-01-REXR",
+    "night": "20261023-0217",
+    "ticker": "REXR",
+    "accession": "news:102195348",
+    "also_accessions": [
+      "news:62545854"
+    ],
+    "filed_at": "2026-10-22T22:02:17Z",
+    "source_head": "[Benzinga news, 2026-10-22T22:02:17Z, by staff] Rexford Industrial Realty, Inc. Reports Q3 2026 Results and Raises Core FFO Guidance\nRexford Industrial Realty, Inc. reported its third-quarter 2026 financial results, highlighting a Core FFO per share of $0.60 and an upward revision to its full-year 2026 Core FFO guidance.\nRexford Industrial Realty, Inc. announced its Q3 2026 financial results, reporting Core FFO per share of $0.60, which was flat year-over-year, and net income per share of $0.07. The company's GAAP results were impacted by $71.8 million in impairments. Despite softer same-prope",
+    "decided_at": "2026-10-23T02:18:24.839455+00:00",
+    "price_at_decision": 36.26,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261023-0217-02-AXON": {
+    "key": "20261023-0217-02-AXON",
+    "night": "20261023-0217",
+    "ticker": "AXON",
+    "accession": "news:102193400",
+    "also_accessions": [],
+    "filed_at": "2026-10-22T22:01:57Z",
+    "source_head": "[Benzinga news, 2026-10-22T22:01:57Z, by staff] Advocacy Group Demands Axon Halt Weapon Shipments to Israel Following Torture Allegations\nThe Council on American-Islamic Relations (CAIR) has called on Axon Enterprise to cease supplying electroshock weapons to Israel, citing reports of their use in the abuse of detainees.\nThe Council on American-Islamic Relations (CAIR) has formally demanded that Axon Enterprise, Inc. stop the shipment and servicing of its electroshock weapons to Israeli authorities. This demand follows an investigative report published by The Guardian and Arab Reporters for In",
+    "decided_at": "2026-10-23T02:18:35.447455+00:00",
+    "price_at_decision": 414.37,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261023-0217-03-LYTS": {
+    "key": "20261023-0217-03-LYTS",
+    "night": "20261023-0217",
+    "ticker": "LYTS",
+    "accession": "news:102140102",
+    "also_accessions": [],
+    "filed_at": "2026-10-22T21:32:28Z",
+    "source_head": "[Benzinga news, 2026-10-22T21:32:28Z, by staff] LSI Industries President and CEO Jim Clark Named CEO of the Year\nLSI Industries President and CEO Jim Clark has been recognized as CEO of the Year at the Cincinnati Business Courier's C-Suite Awards.\nJim Clark, the President and CEO of LSI Industries, was honored as CEO of the Year at the Cincinnati Business Courier C-Suite Awards. The award recognizes his leadership and contributions to the company. This recognition highlights the executive leadership at the helm of the organization as it continues its operations in the commercial lighting and r",
+    "decided_at": "2026-10-23T02:18:46.894528+00:00",
+    "price_at_decision": 19.94,
     "outcome": "no_trade",
     "ended_by": "SCOUT",
     "rounds": 1,

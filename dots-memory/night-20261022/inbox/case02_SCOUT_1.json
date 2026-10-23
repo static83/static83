@@ -1,0 +1,6 @@
+{"role":"SCOUT","verdict":"object","headline":"An advocacy group's demand, not a company event; 'halt' is not a trading halt",
+"reasoning":["Source: Common Dreams newswire (CAIR's statement), relayed by Benzinga 22:01 UTC: 'Advocacy Group Demands Axon Halt Weapon Shipments to Israel Following Torture Allegations'.",
+"Quoted: 'CAIR has formally demanded that Axon Enterprise, Inc. stop the shipment and servicing of its electroshock weapons to Israeli authorities', following 'an investigative report published by The Guardian and Arab Reporters for Investigative Journalism'.",
+"What changed for Axon: nothing yet. No government action, contract change or company statement. Reputational and export-control risk exist, but this item reports a demand, not a decision.",
+"The headline weighed 3 because 'halt' matched the trading-halt rule."],
+"objections":["Advocacy demand with no regulatory or company action; mis-scored on the word 'halt'."]}

@@ -1,0 +1,5 @@
+{"role":"SCOUT","verdict":"object","headline":"An award, not a change: LSI's CEO named a local business paper's 'CEO of the Year'",
+"reasoning":["Source: StreetInsider press release relayed by Benzinga 21:32 UTC: 'LSI Industries President and CEO Jim Clark Named CEO of the Year'.",
+"Quoted: 'Jim Clark ... was honored as CEO of the Year at the Cincinnati Business Courier C-Suite Awards.' The CEO is unchanged.",
+"The headline weighed 3 because 'named' next to 'CEO' matched the CEO-change rule."],
+"objections":["A business award; no change at the company."]}

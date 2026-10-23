@@ -1,0 +1,141 @@
+{
+  "role": "JOURNAL",
+  "packet": {
+    "case": 2,
+    "account": {
+      "equity_usd": 4905.07,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "AXON",
+      "company": "AXON ENTERPRISE, INC.",
+      "cik": "1069183",
+      "accession": "news:102193400",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-22T22:01:57Z",
+      "url": "https://www.commondreams.org/newswire/cair-demands-u-s-firm-halt-shipment-of-electroshock-weapons-to-israel-for-use-in-torture-against-palestinian-detainees",
+      "source_excerpt": "[Benzinga news, 2026-10-22T22:01:57Z, by staff] Advocacy Group Demands Axon Halt Weapon Shipments to Israel Following Torture Allegations\nThe Council on American-Islamic Relations (CAIR) has called on Axon Enterprise to cease supplying electroshock weapons to Israel, citing reports of their use in the abuse of detainees.\nThe Council on American-Islamic Relations (CAIR) has formally demanded that Axon Enterprise, Inc. stop the shipment and servicing of its electroshock weapons to Israeli authorities. This demand follows an investigative report published by The Guardian and Arab Reporters for Investigative Journalism, which alleged that Axon's devices have been used by Israeli security forces to inflict physical abuse and torture on Palestinian detainees. The report included accounts from former detainees describing the use of these weapons in detention facilities. CAIR also urged the U.S. Department of Commerce to enforce stricter export oversight regarding the transfer of such technologies to governments implicated in human rights violations.",
+      "market_cap_usd": 33662347653.55,
+      "last_price": 414.37,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "outcome": "no_trade",
+      "order": null
+    },
+    "memos_so_far": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "An advocacy group's demand, not a company event; 'halt' is not a trading halt",
+        "reasoning": [
+          "Source: Common Dreams newswire (CAIR's statement), relayed by Benzinga 22:01 UTC: 'Advocacy Group Demands Axon Halt Weapon Shipments to Israel Following Torture Allegations'.",
+          "Quoted: 'CAIR has formally demanded that Axon Enterprise, Inc. stop the shipment and servicing of its electroshock weapons to Israeli authorities', following 'an investigative report published by The Guardian and Arab Reporters for Investigative Journalism'.",
+          "What changed for Axon: nothing yet. No government action, contract change or company statement. Reputational and export-control risk exist, but this item reports a demand, not a decision.",
+          "The headline weighed 3 because 'halt' matched the trading-halt rule."
+        ],
+        "objections": [
+          "Advocacy demand with no regulatory or company action; mis-scored on the word 'halt'."
+        ]
+      }
+    ],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 66 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "REXR",
+          "night": "20261023-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MRK",
+          "night": "20261022-1905",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BX",
+          "night": "20261022-1804",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MKTX",
+          "night": "20261022-1722",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "HZO",
+          "night": "20261022-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GSBC",
+          "night": "20261022-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "UNP",
+          "night": "20261022-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "AVTX",
+          "night": "20261022-1541",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 77
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

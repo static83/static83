@@ -1,0 +1,5 @@
+{"role":"JOURNAL","verdict":"agree","headline":"AXON: no trade. CAIR demands Axon stop shipments to Israel; no action by Axon or regulators",
+"reasoning":["The item is a statement by an advocacy group after a Guardian investigation.",
+"Filter gap: 'halt' now counts only as a trading halt ('trading halt', 'halted', 'resumes trading'). Fixed after this run.",
+"Check later: a Commerce Department export action or a contract cancellation would be a new case."],
+"objections":["Advocacy demand with no regulatory or company action; mis-scored on the word 'halt'."]}

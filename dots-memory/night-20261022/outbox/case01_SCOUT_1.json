@@ -1,0 +1,158 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 4905.07,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "REXR",
+      "company": "Rexford Industrial Realty, Inc.",
+      "cik": "1571283",
+      "accession": "news:102195348",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-22T22:02:17Z",
+      "url": "https://www.tradingview.com/news/tradingview:973e34f9500d5:0-rexford-industrial-realty-inc-rexr-posts-q3-results-raises-2026-core-ffo-guidance/",
+      "source_excerpt": "[Benzinga news, 2026-10-22T22:02:17Z, by staff] Rexford Industrial Realty, Inc. Reports Q3 2026 Results and Raises Core FFO Guidance\nRexford Industrial Realty, Inc. reported its third-quarter 2026 financial results, highlighting a Core FFO per share of $0.60 and an upward revision to its full-year 2026 Core FFO guidance.\nRexford Industrial Realty, Inc. announced its Q3 2026 financial results, reporting Core FFO per share of $0.60, which was flat year-over-year, and net income per share of $0.07. The company's GAAP results were impacted by $71.8 million in impairments. Despite softer same-property trends, including a 2.6% year-over-year decline in Same Property NOI, the company raised its 2026 Core FFO per share guidance. Year-to-date, Rexford has completed $1.5 billion in asset dispositions to improve liquidity and de-leveraging capacity, while also repurchasing $708.7 million of its common stock.\n[Other material headlines on this company in the window]\n- 2026-10-22T20:07:29Z Rexford Industrial Realty Raises FY2026 FFO Guidance from $2.38-$2.43 to $2.41-$2.44 vs $2.41 Est",
+      "market_cap_usd": 8085549376.24,
+      "last_price": 36.26,
+      "also_accessions": [
+        "news:62545854"
+      ],
+      "weight": 3
+    },
+    "market": {
+      "quote": {
+        "ap": 41,
+        "as": 100,
+        "ax": "V",
+        "bp": 34.68,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-22T20:00:02.070531412Z",
+        "z": "A"
+      },
+      "extended_hours": {
+        "session": "after-hours",
+        "reference_close": 36.26,
+        "trades_seen": false,
+        "note": "no extended-hours trades on the IEX feed yet"
+      },
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.55,
+        "max_gap_pct": 2.2
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 409.62,
+        "slippage_usd": 2.4525,
+        "spread_pct": 16.702
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 65 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "MRK",
+          "night": "20261022-1905",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BX",
+          "night": "20261022-1804",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MKTX",
+          "night": "20261022-1722",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "HZO",
+          "night": "20261022-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GSBC",
+          "night": "20261022-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "UNP",
+          "night": "20261022-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "AVTX",
+          "night": "20261022-1541",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ABBV",
+          "night": "20261022-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 76
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

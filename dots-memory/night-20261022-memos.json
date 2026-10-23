@@ -1,0 +1,173 @@
+[
+  {
+    "case": 1,
+    "ticker": "REXR",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Raise to just above consensus on a soft quarter: Core FFO flat, same-property NOI -2.6%, $71.8M impairments",
+        "reasoning": [
+          "Source: Rexford's Q3 release (Benzinga 20:07 UTC, 16:07 ET: 'Rexford Industrial Realty Raises FY2026 FFO Guidance from $2.38-$2.43 to $2.41-$2.44 vs $2.41 Est'; TradingView write-up 22:02 UTC).",
+          "Quoted: 'Core FFO per share of $0.60, which was flat year-over-year'; 'GAAP results were impacted by $71.8 million in impairments'; 'a 2.6% year-over-year decline in Same Property NOI'; '$1.5 billion in asset dispositions'; 'repurchasing $708.7 million of its common stock'.",
+          "What changed: the FFO midpoint moves from $2.405 to $2.425, $0.015 above consensus, while the property-level business shrank. Buybacks funded by asset sales lift per-share FFO without the portfolio improving.",
+          "Price: no IEX after-hours trades."
+        ],
+        "objections": [
+          "A small raise to around consensus on deteriorating same-property results."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "REXR: no trade. FFO guide +$0.02 to about consensus; same-property NOI -2.6%",
+        "reasoning": [
+          "Core FFO $0.60 flat; guide $2.41-2.44 vs $2.41 consensus; $71.8M impairments; $1.5B of assets sold and $708.7M of stock bought back this year.",
+          "Check later: REXR 5-day return."
+        ],
+        "objections": [
+          "A small raise to around consensus on deteriorating same-property results."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "AXON",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "An advocacy group's demand, not a company event; 'halt' is not a trading halt",
+        "reasoning": [
+          "Source: Common Dreams newswire (CAIR's statement), relayed by Benzinga 22:01 UTC: 'Advocacy Group Demands Axon Halt Weapon Shipments to Israel Following Torture Allegations'.",
+          "Quoted: 'CAIR has formally demanded that Axon Enterprise, Inc. stop the shipment and servicing of its electroshock weapons to Israeli authorities', following 'an investigative report published by The Guardian and Arab Reporters for Investigative Journalism'.",
+          "What changed for Axon: nothing yet. No government action, contract change or company statement. Reputational and export-control risk exist, but this item reports a demand, not a decision.",
+          "The headline weighed 3 because 'halt' matched the trading-halt rule."
+        ],
+        "objections": [
+          "Advocacy demand with no regulatory or company action; mis-scored on the word 'halt'."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "AXON: no trade. CAIR demands Axon stop shipments to Israel; no action by Axon or regulators",
+        "reasoning": [
+          "The item is a statement by an advocacy group after a Guardian investigation.",
+          "Filter gap: 'halt' now counts only as a trading halt ('trading halt', 'halted', 'resumes trading'). Fixed after this run.",
+          "Check later: a Commerce Department export action or a contract cancellation would be a new case."
+        ],
+        "objections": [
+          "Advocacy demand with no regulatory or company action; mis-scored on the word 'halt'."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "LYTS",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "An award, not a change: LSI's CEO named a local business paper's 'CEO of the Year'",
+        "reasoning": [
+          "Source: StreetInsider press release relayed by Benzinga 21:32 UTC: 'LSI Industries President and CEO Jim Clark Named CEO of the Year'.",
+          "Quoted: 'Jim Clark ... was honored as CEO of the Year at the Cincinnati Business Courier C-Suite Awards.' The CEO is unchanged.",
+          "The headline weighed 3 because 'named' next to 'CEO' matched the CEO-change rule."
+        ],
+        "objections": [
+          "A business award; no change at the company."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "LYTS: no trade. 'CEO of the Year' is an award, not a CEO change",
+        "reasoning": [
+          "Filter gap: awards and honours ('of the year', 'honored', 'recognized as') are now filtered as non-events. Fixed after this run.",
+          "Nothing to check later."
+        ],
+        "objections": [
+          "A business award; no change at the company."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

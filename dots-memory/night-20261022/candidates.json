@@ -1,0 +1,52 @@
+[
+  {
+    "ticker": "REXR",
+    "company": "Rexford Industrial Realty, Inc.",
+    "cik": "1571283",
+    "accession": "news:102195348",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-22T22:02:17Z",
+    "url": "https://www.tradingview.com/news/tradingview:973e34f9500d5:0-rexford-industrial-realty-inc-rexr-posts-q3-results-raises-2026-core-ffo-guidance/",
+    "source_excerpt": "[Benzinga news, 2026-10-22T22:02:17Z, by staff] Rexford Industrial Realty, Inc. Reports Q3 2026 Results and Raises Core FFO Guidance\nRexford Industrial Realty, Inc. reported its third-quarter 2026 financial results, highlighting a Core FFO per share of $0.60 and an upward revision to its full-year 2026 Core FFO guidance.\nRexford Industrial Realty, Inc. announced its Q3 2026 financial results, reporting Core FFO per share of $0.60, which was flat year-over-year, and net income per share of $0.07. The company's GAAP results were impacted by $71.8 million in impairments. Despite softer same-property trends, including a 2.6% year-over-year decline in Same Property NOI, the company raised its 2026 Core FFO per share guidance. Year-to-date, Rexford has completed $1.5 billion in asset dispositions to improve liquidity and de-leveraging capacity, while also repurchasing $708.7 million of its common stock.\n[Other material headlines on this company in the window]\n- 2026-10-22T20:07:29Z Rexford Industrial Realty Raises FY2026 FFO Guidance from $2.38-$2.43 to $2.41-$2.44 vs $2.41 Est",
+    "market_cap_usd": 8085549376.24,
+    "last_price": 36.26,
+    "also_accessions": [
+      "news:62545854"
+    ],
+    "weight": 3
+  },
+  {
+    "ticker": "AXON",
+    "company": "AXON ENTERPRISE, INC.",
+    "cik": "1069183",
+    "accession": "news:102193400",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-22T22:01:57Z",
+    "url": "https://www.commondreams.org/newswire/cair-demands-u-s-firm-halt-shipment-of-electroshock-weapons-to-israel-for-use-in-torture-against-palestinian-detainees",
+    "source_excerpt": "[Benzinga news, 2026-10-22T22:01:57Z, by staff] Advocacy Group Demands Axon Halt Weapon Shipments to Israel Following Torture Allegations\nThe Council on American-Islamic Relations (CAIR) has called on Axon Enterprise to cease supplying electroshock weapons to Israel, citing reports of their use in the abuse of detainees.\nThe Council on American-Islamic Relations (CAIR) has formally demanded that Axon Enterprise, Inc. stop the shipment and servicing of its electroshock weapons to Israeli authorities. This demand follows an investigative report published by The Guardian and Arab Reporters for Investigative Journalism, which alleged that Axon's devices have been used by Israeli security forces to inflict physical abuse and torture on Palestinian detainees. The report included accounts from former detainees describing the use of these weapons in detention facilities. CAIR also urged the U.S. Department of Commerce to enforce stricter export oversight regarding the transfer of such technologies to governments implicated in human rights violations.",
+    "market_cap_usd": 33662347653.55,
+    "last_price": 414.37,
+    "also_accessions": [],
+    "weight": 3
+  },
+  {
+    "ticker": "LYTS",
+    "company": "LSI INDUSTRIES INC",
+    "cik": "763532",
+    "accession": "news:102140102",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-22T21:32:28Z",
+    "url": "https://www.streetinsider.com/Press+Releases?before_id=27222088",
+    "source_excerpt": "[Benzinga news, 2026-10-22T21:32:28Z, by staff] LSI Industries President and CEO Jim Clark Named CEO of the Year\nLSI Industries President and CEO Jim Clark has been recognized as CEO of the Year at the Cincinnati Business Courier's C-Suite Awards.\nJim Clark, the President and CEO of LSI Industries, was honored as CEO of the Year at the Cincinnati Business Courier C-Suite Awards. The award recognizes his leadership and contributions to the company. This recognition highlights the executive leadership at the helm of the organization as it continues its operations in the commercial lighting and retail display sectors.",
+    "market_cap_usd": 742991039.84,
+    "last_price": 19.94,
+    "also_accessions": [],
+    "weight": 3
+  }
+]
