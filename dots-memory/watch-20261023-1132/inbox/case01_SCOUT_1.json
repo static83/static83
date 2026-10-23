@@ -1,0 +1,5 @@
+{"role":"SCOUT","verdict":"object","headline":"A closed purchase of a small private Oklahoma bank; no price given; $867M is its assets, not the cost",
+"reasoning":["Primary source: 8-K item 7.01 filed 11:31 ET. Quoted: 'On October 22, 2026, BancFirst Corporation acquired Spirit BankCorp, Inc. ... a privately held community bank headquartered in Tulsa, Oklahoma. Spirit has approximately $866.8 million in total assets, $584.6 million in loans, and $776.4 million in deposits.' 'Spirit was merged into BancFirst upon acquisition.'",
+"What changed: the deal closed yesterday; the price is not disclosed. $866.8M is the target's balance sheet, not the purchase price; a community bank of that size typically sells for roughly a tenth of its assets, i.e. a small fraction of BancFirst's $3.7B market value.",
+"Price: BANF 111.325, flat on the day (-0.8% from 112.18), 2,401 IEX shares."],
+"objections":["A small, already-closed acquisition; no price disclosed; mis-weighted on the target's total assets."]}

@@ -81,7 +81,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.144,
+        "raw": -0.1429,
         "thesis": null
       }
     },
@@ -113,7 +113,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0631,
+        "raw": 0.0758,
         "thesis": null
       }
     },
@@ -144,7 +144,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0328,
+        "raw": -0.0393,
         "thesis": null
       }
     },
@@ -175,7 +175,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0098,
+        "raw": 0.0241,
         "thesis": null
       }
     },
@@ -206,8 +206,8 @@
         "thesis": -0.0047
       },
       "5": {
-        "raw": -0.0031,
-        "thesis": -0.0031
+        "raw": 0.0031,
+        "thesis": 0.0031
       }
     },
     "first_exit": null
@@ -237,7 +237,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0525,
+        "raw": 0.0726,
         "thesis": null
       }
     },
@@ -268,7 +268,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0518,
+        "raw": -0.0399,
         "thesis": null
       }
     },
@@ -326,7 +326,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0251,
+        "raw": 0.0218,
         "thesis": null
       }
     },
@@ -357,7 +357,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0915,
+        "raw": -0.0747,
         "thesis": null
       }
     },
@@ -388,7 +388,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0567,
+        "raw": 0.0514,
         "thesis": null
       }
     },
@@ -450,7 +450,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0109,
+        "raw": 0.0189,
         "thesis": null
       }
     },
@@ -478,6 +478,10 @@
     "returns": {
       "1": {
         "raw": -0.001,
+        "thesis": null
+      },
+      "5": {
+        "raw": -0.0078,
         "thesis": null
       }
     },
@@ -543,7 +547,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0109,
+        "raw": 0.0189,
         "thesis": null
       }
     },
@@ -572,6 +576,10 @@
     "returns": {
       "1": {
         "raw": -0.001,
+        "thesis": null
+      },
+      "5": {
+        "raw": -0.0078,
         "thesis": null
       }
     },
@@ -603,7 +611,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.1062,
+        "raw": -0.1027,
         "thesis": null
       }
     },
@@ -635,7 +643,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0232,
+        "raw": -0.0169,
         "thesis": null
       }
     },
@@ -667,7 +675,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0658,
+        "raw": -0.0423,
         "thesis": null
       }
     },
@@ -699,7 +707,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0968,
+        "raw": 0.0979,
         "thesis": null
       }
     },
@@ -731,8 +739,8 @@
         "thesis": -0.0088
       },
       "5": {
-        "raw": 0.0434,
-        "thesis": 0.0434
+        "raw": 0.0411,
+        "thesis": 0.0411
       }
     },
     "first_exit": null
@@ -763,7 +771,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0272,
+        "raw": -0.006,
         "thesis": null
       }
     },
@@ -795,7 +803,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0082,
+        "raw": 0.0184,
         "thesis": null
       }
     },
@@ -827,7 +835,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0153,
+        "raw": 0.008,
         "thesis": null
       }
     },
@@ -859,7 +867,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0244,
+        "raw": -0.0146,
         "thesis": null
       }
     },
@@ -891,7 +899,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.027,
+        "raw": 0.0316,
         "thesis": null
       }
     },
@@ -923,7 +931,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0195,
+        "raw": -0.012,
         "thesis": null
       }
     },
@@ -955,7 +963,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0246,
+        "raw": -0.0236,
         "thesis": null
       }
     },
@@ -987,7 +995,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0544,
+        "raw": -0.0056,
         "thesis": null
       }
     },
@@ -1016,6 +1024,10 @@
     "returns": {
       "1": {
         "raw": -0.0012,
+        "thesis": null
+      },
+      "5": {
+        "raw": 0.0321,
         "thesis": null
       }
     },
@@ -1047,8 +1059,8 @@
         "thesis": 0.1042
       },
       "5": {
-        "raw": -0.1911,
-        "thesis": 0.1911
+        "raw": -0.1588,
+        "thesis": 0.1588
       }
     },
     "first_exit": null
@@ -2036,7 +2048,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0142,
+        "raw": 0.0131,
         "thesis": null
       }
     },
@@ -2065,7 +2077,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0043,
+        "raw": 0.0016,
         "thesis": null
       }
     },
@@ -2094,7 +2106,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0646,
+        "raw": -0.0846,
         "thesis": null
       }
     },
@@ -2123,7 +2135,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0224,
+        "raw": -0.0126,
         "thesis": null
       }
     },
@@ -2152,7 +2164,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0,
+        "raw": -0.0048,
         "thesis": null
       }
     },
@@ -2181,7 +2193,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0012,
+        "raw": -0.0007,
         "thesis": null
       }
     },
@@ -2239,7 +2251,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0084,
+        "raw": -0.0021,
         "thesis": null
       }
     },
@@ -2268,7 +2280,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0064,
+        "raw": -0.0027,
         "thesis": null
       }
     },
@@ -2299,7 +2311,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0248,
+        "raw": 0.0165,
         "thesis": null
       }
     },
@@ -2328,7 +2340,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0085,
+        "raw": 0.0111,
         "thesis": null
       }
     },
@@ -2357,7 +2369,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0046,
+        "raw": 0.0145,
         "thesis": null
       }
     },
@@ -2386,7 +2398,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0644,
+        "raw": 0.0773,
         "thesis": null
       }
     },
@@ -2415,8 +2427,8 @@
     "order_id": "99d03361-ee9e-4430-badd-f09a50e91319",
     "returns": {
       "1": {
-        "raw": -0.0052,
-        "thesis": 0.0052
+        "raw": -0.0008,
+        "thesis": 0.0008
       }
     },
     "first_exit": null
@@ -2527,6 +2539,30 @@
     "source_head": "[Benzinga news, 2026-10-23T14:18:35Z, by Benzinga Newsdesk] BeOne Medicines Announces Its Data From Phase 3 HERIZON-GEA-01 Study Confirms Benefits Of TEVIMBRA + ZIIHERA To Treat Patients With HER2-Positive Locally Advanced Or Metastatic Gastroesophageal Adenocarcinoma\n\n",
     "decided_at": "2026-10-23T14:22:36.540331+00:00",
     "price_at_decision": 374.265,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261023-1532-01-BANF": {
+    "key": "20261023-1532-01-BANF",
+    "night": "20261023-1532",
+    "ticker": "BANF",
+    "accession": "0001193125-26-429812",
+    "also_accessions": [],
+    "filed_at": "2026-10-23T11:31:08-04:00",
+    "source_head": "Item 7.01 Regulation FD Disclosure. BancFirst Corporation Announces Acquisition of SpiritBank On October 22, 2026, BancFirst Corporation acquired Spirit BankCorp, Inc., an Oklahoma corporation and SpiritBank (Spirit), a privately held community bank headquartered in Tulsa, Oklahoma. Spirit has approximately $866.8 million in total assets, $584.6 million in loans, and $776.4 million in deposits. Spirit has the following banking locations: four locations in Tulsa, Oklahoma, one location in Sapulpa, Oklahoma, and one location in Bristow, Oklahoma. Spirit was merged into BancFirst upon acquisition",
+    "decided_at": "2026-10-23T15:33:03.783555+00:00",
+    "price_at_decision": 111.325,
     "outcome": "no_trade",
     "ended_by": "SCOUT",
     "rounds": 1,

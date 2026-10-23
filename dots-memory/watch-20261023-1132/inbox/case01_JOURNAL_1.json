@@ -1,0 +1,5 @@
+{"role":"JOURNAL","verdict":"agree","headline":"BANF: no trade. BancFirst closed a small private-bank purchase; the $867M is assets, not price",
+"reasoning":["SpiritBank: $866.8M assets, $776.4M deposits, six branches; merged into BancFirst on Oct 22.",
+"Filter gaps, fixed after this alert: balance-sheet figures ('in total assets', 'in deposits', 'in loans') are not deal prices; and 'On <date>, X acquired ...' is a completed deal, weighed like 'completes'.",
+"Nothing to check later."],
+"objections":["A small, already-closed acquisition; no price disclosed; mis-weighted on the target's total assets."]}

@@ -1,0 +1,59 @@
+[
+  {
+    "case": 1,
+    "ticker": "BANF",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A closed purchase of a small private Oklahoma bank; no price given; $867M is its assets, not the cost",
+        "reasoning": [
+          "Primary source: 8-K item 7.01 filed 11:31 ET. Quoted: 'On October 22, 2026, BancFirst Corporation acquired Spirit BankCorp, Inc. ... a privately held community bank headquartered in Tulsa, Oklahoma. Spirit has approximately $866.8 million in total assets, $584.6 million in loans, and $776.4 million in deposits.' 'Spirit was merged into BancFirst upon acquisition.'",
+          "What changed: the deal closed yesterday; the price is not disclosed. $866.8M is the target's balance sheet, not the purchase price; a community bank of that size typically sells for roughly a tenth of its assets, i.e. a small fraction of BancFirst's $3.7B market value.",
+          "Price: BANF 111.325, flat on the day (-0.8% from 112.18), 2,401 IEX shares."
+        ],
+        "objections": [
+          "A small, already-closed acquisition; no price disclosed; mis-weighted on the target's total assets."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "BANF: no trade. BancFirst closed a small private-bank purchase; the $867M is assets, not price",
+        "reasoning": [
+          "SpiritBank: $866.8M assets, $776.4M deposits, six branches; merged into BancFirst on Oct 22.",
+          "Filter gaps, fixed after this alert: balance-sheet figures ('in total assets', 'in deposits', 'in loans') are not deal prices; and 'On <date>, X acquired ...' is a completed deal, weighed like 'completes'.",
+          "Nothing to check later."
+        ],
+        "objections": [
+          "A small, already-closed acquisition; no price disclosed; mis-weighted on the target's total assets."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

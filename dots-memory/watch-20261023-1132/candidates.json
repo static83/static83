@@ -1,0 +1,18 @@
+[
+  {
+    "ticker": "BANF",
+    "company": "BANCFIRST CORP /OK/",
+    "cik": "760498",
+    "accession": "0001193125-26-429812",
+    "items": [
+      "7.01"
+    ],
+    "filed_at": "2026-10-23T11:31:08-04:00",
+    "url": "https://www.sec.gov/Archives/edgar/data/760498/000119312526429812/banf-20261023.htm",
+    "source_excerpt": "Item 7.01 Regulation FD Disclosure. BancFirst Corporation Announces Acquisition of SpiritBank On October 22, 2026, BancFirst Corporation acquired Spirit BankCorp, Inc., an Oklahoma corporation and SpiritBank (Spirit), a privately held community bank headquartered in Tulsa, Oklahoma. Spirit has approximately $866.8 million in total assets, $584.6 million in loans, and $776.4 million in deposits. Spirit has the following banking locations: four locations in Tulsa, Oklahoma, one location in Sapulpa, Oklahoma, and one location in Bristow, Oklahoma. Spirit was merged into BancFirst upon acquisition. SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized. BancFirst Corporation Date: October 23, 2026 By: /s/ Hannah Andrus Hannah Andrus Executive Vice President Chief Financial Officer",
+    "market_cap_usd": 3740380287.125,
+    "last_price": 111.325,
+    "also_accessions": [],
+    "weight": 3
+  }
+]
