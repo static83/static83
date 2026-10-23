@@ -13,7 +13,7 @@ from typing import Optional
 
 # Headlines that name an event that changes something for the business.
 _MATERIAL = re.compile(
-    r"\b(halt(ed)?|resum(es|ed) trading|fda|approv(al|es|ed)|clearance|complete response|crl|"
+    r"\b(trading halt|halt(ed|s)? (trading|pending|for news)|halted|resum(es|ed) trading|fda|approv(al|es|ed)|clearance|complete response|crl|"
     r"phase (1|2|3|i|ii|iii)|topline|trial (results|data|met|fail)|primary endpoint|"
     r"acquir(e|es|ed|ing)|acquisition|merger|to (buy|be acquired)|buyout|takeover|tender offer|go(ing)? private|"
     r"definitive agreement|strategic (review|alternatives)|spin[- ]?off|"
@@ -32,7 +32,7 @@ _FILLER = re.compile(
     r"if you (had )?invested|would have made|invested in .{0,40} ago|how much .{0,40} (worth|invested)|"
     r"\bp/?e ratio|price over earnings|short interest|options activity|unusual options|whale|"
     r"what'?s going on with|why (is|are|did|does) .{0,40} (stock|shares|warrants|trending|moving|up|down)|\bpredicts?\b|"
-    r"\bcalls? for\b|\bexpects? .{0,30} to offer\b|benzinga (viewers|readers)|\bpoll(ed|s)?\b|\bsays? (bullish|bearish|top) analysts?\b|\banalysts? (says?|sees?|thinks?)\b|\bmini[- ]?tender\b|^watching\b|\bshares (are )?trading (lower|higher)\b|\bshares (are )?(up|down|falling|rising|sliding|surging)\b|stocks? (moving|to watch)|top (gainers|losers)|movers|"
+    r"\bcalls? for\b|\bexpects? .{0,30} to offer\b|benzinga (viewers|readers)|\bpoll(ed|s)?\b|\bsays? (bullish|bearish|top) analysts?\b|\banalysts? (says?|sees?|thinks?)\b|\bmini[- ]?tender\b|\bof the year\b|\bhonou?red\b|\brecogni[sz]ed (as|by|for)\b|\bawards? (winner|recipient)\b|^watching\b|\bshares (are )?trading (lower|higher)\b|\bshares (are )?(up|down|falling|rising|sliding|surging)\b|stocks? (moving|to watch)|top (gainers|losers)|movers|"
     r"price target|(upgrade|downgrade|initiat|reiterat|maintain)s?\b.{0,40}\b(analyst|rating|buy|sell|hold|overweight|underweight|outperform)|"
     r"analyst ratings?|expert ratings|earnings (preview|outlook)|what to expect|ahead of earnings|"
     r"a look (at|into)|peering into|insight into|analyzing|technical|52-week|market clubhouse|"
@@ -52,7 +52,7 @@ _PROCEDURAL = re.compile(
 )
 # How much an event can move a stock, used to pick which cases the crew sees first.
 _TIER3 = re.compile(
-    r"\b(halt(ed)?|acquir(e|es|ed|ing)|acquisition|merger|to (buy|be acquired)|buyout|takeover|tender offer|"
+    r"\b(trading halt|halt(ed|s)? (trading|pending|for news)|halted|acquir(e|es|ed|ing)|acquisition|merger|to (buy|be acquired)|buyout|takeover|tender offer|"
     r"go(ing)? private|definitive agreement|strategic alternatives|fda approv\w*|approv(al|es|ed) .{0,30}(fda|ema)|"
     r"complete response|crl|topline|phase (3|iii)|primary endpoint|trial (results|data|met|fail)|"
     r"(raises|lowers|cuts|withdraws|boosts|slashes) .{0,25}(outlook|forecast|guidance)|preliminary (\w+ ){0,3}(results|revenue|sales|production|earnings|estimates?|figures|financial|q[1-4]|quarter)|"
@@ -108,7 +108,7 @@ _SIZED = re.compile(
 )
 # Events that matter whatever their size, or where the company itself is the target.
 _UNSIZED = re.compile(
-    r"\b(fda|ema|approv\w*|topline|phase|endpoint|trial|guidance|outlook|forecast|preliminary (\w+ ){0,3}(results|revenue|sales|production|earnings|estimates?|figures|financial|q[1-4]|quarter)|halt\w*|"
+    r"\b(fda|ema|approv\w*|topline|phase|endpoint|trial|guidance|outlook|forecast|preliminary (\w+ ){0,3}(results|revenue|sales|production|earnings|estimates?|figures|financial|q[1-4]|quarter)|trading halt|halted|"
     r"bankruptcy|chapter 11|going concern|delist\w*|ceo|chief executive|to be acquired|buyout|takeover|"
     r"tender offer|go(ing)? private|strategic (alternatives|review)|recall|breach|cyber\w*)\b",
     re.IGNORECASE,
