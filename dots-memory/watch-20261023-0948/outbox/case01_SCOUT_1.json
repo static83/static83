@@ -1,0 +1,158 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": [
+        "LKQ"
+      ]
+    },
+    "filing": {
+      "ticker": "ACA",
+      "company": "Arcosa, Inc.",
+      "cik": "1739445",
+      "accession": "news:102584340",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-23T13:33:28Z",
+      "url": "https://www.businesswire.com/newsroom?industry=1000044",
+      "source_excerpt": "[Benzinga news, 2026-10-23T13:33:28Z, by staff] CRH Completes $8.5B Acquisition of Arcosa\nCRH has finalized its acquisition of Arcosa, Inc., a provider of infrastructure-related products and solutions, in an all-cash transaction valued at approximately $8.5 billion.\nCRH (NYSE: CRH) announced the completion of its acquisition of Arcosa, Inc. (NYSE: ACA) for a total enterprise value of approximately $8.5 billion. The deal, which was originally announced on June 22, 2026, involves an all-cash purchase at $150 per share. Arcosa stockholders approved the transaction at a special meeting held on September 4, 2026. The acquisition is intended to complement CRH's existing portfolio of building materials and infrastructure products. The transaction was subject to customary closing conditions, including regulatory approvals, which included requirements for the divestiture of certain asphalt plants in New Jersey to preserve market competition.",
+      "market_cap_usd": 7324771630.44,
+      "last_price": 149.16,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "quote": {
+        "ap": 217.59,
+        "as": 100,
+        "ax": "V",
+        "bp": 127.36,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-22T20:00:01.188847031Z",
+        "z": "A"
+      },
+      "extended_hours": null,
+      "since_news": {
+        "since": "2026-10-23T13:33:28+00:00",
+        "trades_seen": false,
+        "note": "no trades on the IEX feed since the news; the move cannot be measured here"
+      },
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.09,
+        "max_gap_pct": 1.04
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 1283.029,
+        "slippage_usd": 2.4525,
+        "spread_pct": 52.315
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 69 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 5 case(s) with a thesis. Five days later the thesis averaged -0.9%, right 2 of 5 times. Positive means this gate is stopping trades that would have worked. Only 5 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged -0.8%, right 0 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Still open: LKQ (pending).",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "LKQ",
+          "night": "20261023-1248",
+          "ended_by": "TRADED",
+          "direction": "short",
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "UWMC",
+          "night": "20261023-1248",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "LYTS",
+          "night": "20261023-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "AXON",
+          "night": "20261023-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "REXR",
+          "night": "20261023-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MRK",
+          "night": "20261022-1905",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BX",
+          "night": "20261022-1804",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MKTX",
+          "night": "20261022-1722",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 81
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

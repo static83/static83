@@ -20885,3 +20885,62 @@
 2026-10-22T19:59:19+00:00   news skip CNC: already judged on an earlier run
 2026-10-22T19:59:19+00:00   news skip ADBE: already judged on an earlier run
 2026-10-22T19:59:19+00:00   news skip ABNB: already judged on an earlier run
+2026-10-23T13:48:14+00:00 start: 1500 headlines of history, watching from 2026-10-23T13:33:11+00:00
+2026-10-23T13:48:16+00:00   news skip BOLT: market cap 8M below floor
+2026-10-23T13:48:17+00:00   news pulled ACA (weight 3): CRH Completes $8.5B Acquisition of Arcosa
+2026-10-23T13:48:18+00:00   news pulled WCC (weight 2): Wesco International Earns Brandon Hall Group Gold HCM Excellence Award
+2026-10-23T13:48:20+00:00   news pulled ALSN (weight 2): Allison Transmission Announces Unified Brand Strategy Following Dana Off-Highway Acquisiti
+2026-10-23T13:48:21+00:00   news pulled AMR (weight 3): Alpha Metallurgical Resources Announces Preliminary Third Quarter 2026 Financial Results
+2026-10-23T13:48:22+00:00   news pulled IDYA (weight 3): IDEAYA Biosciences Announces Updated Clinical Results for IDE849 and Plans for Phase 3 Reg
+2026-10-23T13:48:22+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T13:48:23+00:00   news skip FCNCA: already traded since the news: +6.8% from 2195.80 on the IEX feed
+2026-10-23T13:48:24+00:00   news pulled NSC (weight 2): Union Pacific and Norfolk Southern CEOs Address Rival Railroads' Merger Concession Request
+2026-10-23T13:48:28+00:00   news pulled NDSN (weight 2): Nordson Corporation Completes Acquisition of Contrinex
+2026-10-23T13:48:29+00:00   news pulled WAT (weight 1): Waters Corporation and Labcorp Announce Partnership for HPV Screening
+2026-10-23T13:48:30+00:00   news pulled JNJ (weight 2): UK Regulator Approves Johnson & Johnson's Oral Psoriasis Treatment
+2026-10-23T13:48:30+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T13:48:30+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T13:48:30+00:00   news skip REXR: the crew judged this company in the last 3 days
+2026-10-23T13:48:30+00:00   news skip MKTX: the crew judged this company in the last 3 days
+2026-10-23T13:48:47+00:00 start: 1500 headlines of history, watching from 2026-10-23T13:48:14+00:00
+2026-10-23T13:48:48+00:00   news skip ACA: already judged on an earlier run
+2026-10-23T13:48:48+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T13:48:48+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T13:48:48+00:00   news skip AMR: already judged on an earlier run
+2026-10-23T13:48:48+00:00   news skip IDYA: already judged on an earlier run
+2026-10-23T13:48:48+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T13:48:48+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T13:48:48+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T13:48:48+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T13:48:48+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T13:48:48+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T13:48:48+00:00   news skip REXR: the crew judged this company in the last 3 days
+2026-10-23T13:48:48+00:00   news skip MKTX: the crew judged this company in the last 3 days
+2026-10-23T13:49:49+00:00   skip SBFG: market cap 191M below floor
+2026-10-23T13:49:49+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T13:49:49+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T13:49:49+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T13:49:49+00:00   news skip AMR: already judged on an earlier run
+2026-10-23T13:49:49+00:00   news skip IDYA: already judged on an earlier run
+2026-10-23T13:49:49+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T13:49:49+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T13:49:49+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T13:49:49+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T13:49:49+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T13:49:49+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T13:49:49+00:00   news skip REXR: the crew judged this company in the last 3 days
+2026-10-23T13:49:49+00:00   news skip MKTX: the crew judged this company in the last 3 days
+2026-10-23T13:50:49+00:00   skip SBFG: market cap 191M below floor
+2026-10-23T13:50:49+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T13:50:49+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T13:50:49+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T13:50:49+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T13:50:49+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T13:50:49+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T13:50:49+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T13:50:49+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T13:50:49+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T13:50:49+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T13:50:49+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T13:50:49+00:00   news skip REXR: the crew judged this company in the last 3 days
+2026-10-23T13:50:49+00:00   news skip MKTX: the crew judged this company in the last 3 days

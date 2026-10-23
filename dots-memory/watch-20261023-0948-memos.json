@@ -1,0 +1,172 @@
+[
+  {
+    "case": 1,
+    "ticker": "ACA",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Stale: CRH closing a $150-a-share deal announced in June; ACA has traded at the deal price for weeks",
+        "reasoning": [
+          "Source: CRH's release on Business Wire (Benzinga 13:33 UTC): 'CRH Completes $8.5B Acquisition of Arcosa'. Quoted: 'The deal, which was originally announced on June 22, 2026, involves an all-cash purchase at $150 per share. Arcosa stockholders approved the transaction at a special meeting held on September 4, 2026.'",
+          "What changed: the deal closed. ACA will stop trading; holders receive $150 cash. Nothing is left to price.",
+          "ACA closed 147.33 to 149.16 this week against the $150 offer."
+        ],
+        "objections": [
+          "A completed, long-announced cash deal; nothing left to trade."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "ACA: no trade. CRH closed its $150-a-share takeover of Arcosa",
+        "reasoning": [
+          "Announced June 22, approved by holders Sept 4, closed today.",
+          "Filter gap: news headlines that a deal 'completes' or 'closes' are settlements, like the equivalent 8-K rule, and now weigh 1. Fixed after this alert.",
+          "Nothing to check later."
+        ],
+        "objections": [
+          "A completed, long-announced cash deal; nothing left to trade."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "AMR",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Preliminary Q3 loss for a coal miner, no consensus to compare; AMR -1.8%",
+        "reasoning": [
+          "Primary source: Alpha's release on PR Newswire (first on Benzinga 12:07 UTC, 08:07 ET). Quoted: 'an expected net loss of $9.3 million, or $0.73 per diluted share, with total Adjusted EBITDA projected at $29.4 million'; 'total liquidity of $443.4 million'; the CEO 'noted that while volumes were stronger than in the first half of the year, the results were impacted by continued cost pressures and market volatility'.",
+          "What changed: a small loss with adequate liquidity; no guidance change and no consensus figure in our sources, so no measurable surprise. Final results Nov 6.",
+          "Price: AMR 157.08 vs 160.00, -1.8%, on 1,150 IEX shares."
+        ],
+        "objections": [
+          "No consensus to measure a surprise; small move; thin on IEX."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "AMR: no trade. A small preliminary Q3 loss; nothing to measure against",
+        "reasoning": [
+          "Net loss $9.3M ($0.73/share), adjusted EBITDA $29.4M, liquidity $443.4M; volumes up, costs up.",
+          "Check later: AMR 5-day return."
+        ],
+        "objections": [
+          "No consensus to measure a surprise; small move; thin on IEX."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "IDYA",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Updated Phase 1 data and Phase 3 plans at ESMO; incremental, IDYA -2.1%",
+        "reasoning": [
+          "Primary source: IDEAYA's release on PR Newswire: 'IDE849 (SHR-4849), DLL3 TOP1 ADC, Updated Phase 1 Results at ESMO 2026 Demonstrates Promising Anti-Tumor Activity and Preliminary Overall Survival Results in Relapsed Small Cell Lung Cancer and Neuroendocrine Carcinomas'.",
+          "Quoted summary: 'Following successful Type C meetings with the U.S. FDA, the company is planning to initiate two global Phase 3 registrational trials for IDE849 in ES-SCLC and NEC.' No response rates or survival figures are in the excerpt we have.",
+          "What changed: more follow-up on an in-licensed Phase 1 asset and a plan to start Phase 3. That is progress on the timeline the company had signalled, not a readout that decides the drug.",
+          "Price: IDYA 35.355 vs 36.125, -2.1%."
+        ],
+        "objections": [
+          "Incremental Phase 1 update and trial plans; figures not in our sources."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "IDYA: no trade. Updated Phase 1 ADC data and two Phase 3 plans",
+        "reasoning": [
+          "ESMO update for IDE849 in small cell lung cancer and neuroendocrine carcinomas; Phase 3 trials planned after FDA meetings.",
+          "Check later: IDYA 5-day return."
+        ],
+        "objections": [
+          "Incremental Phase 1 update and trial plans; figures not in our sources."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

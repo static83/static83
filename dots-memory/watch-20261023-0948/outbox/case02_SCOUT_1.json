@@ -1,0 +1,166 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 2,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": [
+        "LKQ"
+      ]
+    },
+    "filing": {
+      "ticker": "AMR",
+      "company": "Alpha Metallurgical Resources, Inc.",
+      "cik": "1704715",
+      "accession": "news:102583418",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-23T13:32:48Z",
+      "url": "https://www.prnewswire.com/news-releases/alpha-announces-preliminary-financial-results-for-third-quarter-2026-302917499.html",
+      "source_excerpt": "[Benzinga news, 2026-10-23T13:32:48Z, by staff] Alpha Metallurgical Resources Announces Preliminary Third Quarter 2026 Financial Results\nAlpha Metallurgical Resources reported preliminary financial results for the third quarter of 2026, including an expected net loss of $9.3 million and Adjusted EBITDA of $29.4 million.\nAlpha Metallurgical Resources, Inc. announced preliminary financial results for the third quarter ending September 30, 2026. The company expects to report a net loss of $9.3 million, or $0.73 per diluted share, with total Adjusted EBITDA projected at $29.4 million. As of September 30, 2026, the company maintained total liquidity of $443.4 million, consisting of $334.1 million in cash and cash equivalents and $184.3 million in unused availability under its asset-based revolving credit facility. CEO Andy Eidson noted that while volumes were stronger than in the first half of the year, the results were impacted by continued cost pressures and market volatility. The company is scheduled to release its definitive third quarter financial results on November 6, 2026.",
+      "market_cap_usd": 1984967889.9750001,
+      "last_price": 156.555,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "quote": {
+        "ap": 157.63,
+        "as": 100,
+        "ax": "V",
+        "bp": 155.49,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-23T13:49:38.832833561Z",
+        "z": "A"
+      },
+      "extended_hours": null,
+      "since_news": {
+        "since": "2026-10-23T13:32:48+00:00",
+        "reference": 155.38,
+        "reference_is": "last bar before the news",
+        "last": 157.08,
+        "move_pct": 1.09,
+        "high": 157.08,
+        "low": 153.41,
+        "volume": 1037,
+        "as_of": "2026-10-23T13:40:00Z",
+        "trades_seen": true,
+        "note": "IEX feed only: the move since the news went out, during today's session"
+      },
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 1.5,
+        "max_gap_pct": 5.25
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 33.5231,
+        "slippage_usd": 2.4525,
+        "spread_pct": 1.367
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 69 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 5 case(s) with a thesis. Five days later the thesis averaged -0.9%, right 2 of 5 times. Positive means this gate is stopping trades that would have worked. Only 5 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged -0.8%, right 0 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Still open: LKQ (pending).",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "LKQ",
+          "night": "20261023-1248",
+          "ended_by": "TRADED",
+          "direction": "short",
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "UWMC",
+          "night": "20261023-1248",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "LYTS",
+          "night": "20261023-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "AXON",
+          "night": "20261023-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "REXR",
+          "night": "20261023-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MRK",
+          "night": "20261022-1905",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BX",
+          "night": "20261022-1804",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MKTX",
+          "night": "20261022-1722",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 81
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

@@ -89,6 +89,14 @@
     "target": 16.15,
     "horizon_days": 5,
     "status": "pending",
-    "opened_at": "2026-10-23T12:51:13.801663+00:00"
+    "opened_at": "2026-10-23T12:51:13.801663+00:00",
+    "reviews": [
+      {
+        "at": "2026-10-23T13:49:12.415738+00:00",
+        "headline": "LKQ Corporation Announces Preliminary Q3 2026 Results, Leadership Changes, and Withdrawal of Full-Year Guidance (09:32 ET)",
+        "decision": "hold",
+        "reason": "Rewrite of the 08:06 ET release the trade was built on (Taiwan News); entry not filled, stock below the 19.00 limit"
+      }
+    ]
   }
 }

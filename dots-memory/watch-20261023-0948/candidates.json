@@ -1,0 +1,50 @@
+[
+  {
+    "ticker": "ACA",
+    "company": "Arcosa, Inc.",
+    "cik": "1739445",
+    "accession": "news:102584340",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-23T13:33:28Z",
+    "url": "https://www.businesswire.com/newsroom?industry=1000044",
+    "source_excerpt": "[Benzinga news, 2026-10-23T13:33:28Z, by staff] CRH Completes $8.5B Acquisition of Arcosa\nCRH has finalized its acquisition of Arcosa, Inc., a provider of infrastructure-related products and solutions, in an all-cash transaction valued at approximately $8.5 billion.\nCRH (NYSE: CRH) announced the completion of its acquisition of Arcosa, Inc. (NYSE: ACA) for a total enterprise value of approximately $8.5 billion. The deal, which was originally announced on June 22, 2026, involves an all-cash purchase at $150 per share. Arcosa stockholders approved the transaction at a special meeting held on September 4, 2026. The acquisition is intended to complement CRH's existing portfolio of building materials and infrastructure products. The transaction was subject to customary closing conditions, including regulatory approvals, which included requirements for the divestiture of certain asphalt plants in New Jersey to preserve market competition.",
+    "market_cap_usd": 7324771630.44,
+    "last_price": 149.16,
+    "also_accessions": [],
+    "weight": 3
+  },
+  {
+    "ticker": "AMR",
+    "company": "Alpha Metallurgical Resources, Inc.",
+    "cik": "1704715",
+    "accession": "news:102583418",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-23T13:32:48Z",
+    "url": "https://www.prnewswire.com/news-releases/alpha-announces-preliminary-financial-results-for-third-quarter-2026-302917499.html",
+    "source_excerpt": "[Benzinga news, 2026-10-23T13:32:48Z, by staff] Alpha Metallurgical Resources Announces Preliminary Third Quarter 2026 Financial Results\nAlpha Metallurgical Resources reported preliminary financial results for the third quarter of 2026, including an expected net loss of $9.3 million and Adjusted EBITDA of $29.4 million.\nAlpha Metallurgical Resources, Inc. announced preliminary financial results for the third quarter ending September 30, 2026. The company expects to report a net loss of $9.3 million, or $0.73 per diluted share, with total Adjusted EBITDA projected at $29.4 million. As of September 30, 2026, the company maintained total liquidity of $443.4 million, consisting of $334.1 million in cash and cash equivalents and $184.3 million in unused availability under its asset-based revolving credit facility. CEO Andy Eidson noted that while volumes were stronger than in the first half of the year, the results were impacted by continued cost pressures and market volatility. The company is scheduled to release its definitive third quarter financial results on November 6, 2026.",
+    "market_cap_usd": 1984967889.9750001,
+    "last_price": 156.555,
+    "also_accessions": [],
+    "weight": 3
+  },
+  {
+    "ticker": "IDYA",
+    "company": "IDEAYA Biosciences, Inc.",
+    "cik": "1676725",
+    "accession": "news:102583417",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-23T13:32:44Z",
+    "url": "https://www.prnewswire.com/news-releases/ide849-shr-4849-dll3-top1-adc-updated-phase-1-results-at-esmo-2026-demonstrates-promising-anti-tumor-activity-and-preliminary-overall-survival-results-in-relapsed-small-cell-lung-cancer-and-neuroendocrine-carcinomas-302917466.html",
+    "source_excerpt": "[Benzinga news, 2026-10-23T13:32:44Z, by staff] IDEAYA Biosciences Announces Updated Clinical Results for IDE849 and Plans for Phase 3 Registrational Trials\nIDEAYA Biosciences reported updated clinical results for its DLL3-targeting ADC, IDE849, and announced plans to initiate two global Phase 3 registrational trials following successful FDA meetings.\nIDEAYA Biosciences, Inc. announced updated clinical results for IDE849 (SHR-4849), an investigational antibody-drug conjugate (ADC) targeting DLL3, which is being developed in partnership with Jiangsu Hengrui Pharmaceuticals Co., Ltd. The data, presented at the ESMO Congress 2026, demonstrated promising anti-tumor activity and preliminary overall survival results in patients with relapsed small cell lung cancer (SCLC) and other neuroendocrine carcinomas (NECs). Following successful Type C meetings with the U.S. FDA, the company is planning to initiate two global Phase 3 registrational trials for IDE849 in ES-SCLC and NEC. Additionally, IDEAYA is evaluating a potential Phase 3 study design for first-line ES-SCLC while continuing to generate data from ongoing clinical combinations.",
+    "market_cap_usd": 3411385706.8199997,
+    "last_price": 35.355,
+    "also_accessions": [],
+    "weight": 3
+  }
+]

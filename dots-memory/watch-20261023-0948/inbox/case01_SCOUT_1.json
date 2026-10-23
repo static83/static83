@@ -1,0 +1,5 @@
+{"role":"SCOUT","verdict":"object","headline":"Stale: CRH closing a $150-a-share deal announced in June; ACA has traded at the deal price for weeks",
+"reasoning":["Source: CRH's release on Business Wire (Benzinga 13:33 UTC): 'CRH Completes $8.5B Acquisition of Arcosa'. Quoted: 'The deal, which was originally announced on June 22, 2026, involves an all-cash purchase at $150 per share. Arcosa stockholders approved the transaction at a special meeting held on September 4, 2026.'",
+"What changed: the deal closed. ACA will stop trading; holders receive $150 cash. Nothing is left to price.",
+"ACA closed 147.33 to 149.16 this week against the $150 offer."],
+"objections":["A completed, long-announced cash deal; nothing left to trade."]}

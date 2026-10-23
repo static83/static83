@@ -1,0 +1,144 @@
+{
+  "role": "JOURNAL",
+  "packet": {
+    "case": 3,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": [
+        "LKQ"
+      ]
+    },
+    "filing": {
+      "ticker": "IDYA",
+      "company": "IDEAYA Biosciences, Inc.",
+      "cik": "1676725",
+      "accession": "news:102583417",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-23T13:32:44Z",
+      "url": "https://www.prnewswire.com/news-releases/ide849-shr-4849-dll3-top1-adc-updated-phase-1-results-at-esmo-2026-demonstrates-promising-anti-tumor-activity-and-preliminary-overall-survival-results-in-relapsed-small-cell-lung-cancer-and-neuroendocrine-carcinomas-302917466.html",
+      "source_excerpt": "[Benzinga news, 2026-10-23T13:32:44Z, by staff] IDEAYA Biosciences Announces Updated Clinical Results for IDE849 and Plans for Phase 3 Registrational Trials\nIDEAYA Biosciences reported updated clinical results for its DLL3-targeting ADC, IDE849, and announced plans to initiate two global Phase 3 registrational trials following successful FDA meetings.\nIDEAYA Biosciences, Inc. announced updated clinical results for IDE849 (SHR-4849), an investigational antibody-drug conjugate (ADC) targeting DLL3, which is being developed in partnership with Jiangsu Hengrui Pharmaceuticals Co., Ltd. The data, presented at the ESMO Congress 2026, demonstrated promising anti-tumor activity and preliminary overall survival results in patients with relapsed small cell lung cancer (SCLC) and other neuroendocrine carcinomas (NECs). Following successful Type C meetings with the U.S. FDA, the company is planning to initiate two global Phase 3 registrational trials for IDE849 in ES-SCLC and NEC. Additionally, IDEAYA is evaluating a potential Phase 3 study design for first-line ES-SCLC while continuing to generate data from ongoing clinical combinations.",
+      "market_cap_usd": 3411385706.8199997,
+      "last_price": 35.355,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "outcome": "no_trade",
+      "order": null
+    },
+    "memos_so_far": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Updated Phase 1 data and Phase 3 plans at ESMO; incremental, IDYA -2.1%",
+        "reasoning": [
+          "Primary source: IDEAYA's release on PR Newswire: 'IDE849 (SHR-4849), DLL3 TOP1 ADC, Updated Phase 1 Results at ESMO 2026 Demonstrates Promising Anti-Tumor Activity and Preliminary Overall Survival Results in Relapsed Small Cell Lung Cancer and Neuroendocrine Carcinomas'.",
+          "Quoted summary: 'Following successful Type C meetings with the U.S. FDA, the company is planning to initiate two global Phase 3 registrational trials for IDE849 in ES-SCLC and NEC.' No response rates or survival figures are in the excerpt we have.",
+          "What changed: more follow-up on an in-licensed Phase 1 asset and a plan to start Phase 3. That is progress on the timeline the company had signalled, not a readout that decides the drug.",
+          "Price: IDYA 35.355 vs 36.125, -2.1%."
+        ],
+        "objections": [
+          "Incremental Phase 1 update and trial plans; figures not in our sources."
+        ]
+      }
+    ],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 71 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 5 case(s) with a thesis. Five days later the thesis averaged -0.9%, right 2 of 5 times. Positive means this gate is stopping trades that would have worked. Only 5 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged -0.8%, right 0 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Still open: LKQ (pending).",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "AMR",
+          "night": "20261023-1348",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ACA",
+          "night": "20261023-1348",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "LKQ",
+          "night": "20261023-1248",
+          "ended_by": "TRADED",
+          "direction": "short",
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "UWMC",
+          "night": "20261023-1248",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "LYTS",
+          "night": "20261023-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "AXON",
+          "night": "20261023-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "REXR",
+          "night": "20261023-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MRK",
+          "night": "20261022-1905",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 83
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}
