@@ -1,0 +1,173 @@
+[
+  {
+    "case": 1,
+    "ticker": "JAZZ",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "The same HERIZON-GEA-01 trial judged this morning under BeOne; a congress presentation of known results",
+        "reasoning": [
+          "Source: Jazz's release (Benzinga 14:20 UTC): 'Jazz Pharmaceuticals Presents Data From Its Phase 3 HERIZON-GEA-01 Study Of Ziihera In Combination With Chemotherapy At ESMO Congress 2026'. The crew judged BeOne's release on the same trial at 10:21 ET ('Confirms Benefits Of TEVIMBRA + ZIIHERA').",
+          "What changed: the full data are presented at ESMO; the topline was public earlier. For Jazz ($13.9B), Ziihera matters more than for BeOne, but the market has had the topline for some time.",
+          "Price: JAZZ 213.865 vs 214.595 (-0.3%), opened 215."
+        ],
+        "objections": [
+          "Congress presentation of an already-reported Phase 3; no reaction."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "JAZZ: no trade. ESMO presentation of HERIZON-GEA-01; JAZZ -0.3%",
+        "reasoning": [
+          "Second case today on the same trial (BeOne this morning).",
+          "ESMO week has produced eight conference-update cases this week; none moved its stock up meaningfully.",
+          "Check later: JAZZ 5-day return."
+        ],
+        "objections": [
+          "Congress presentation of an already-reported Phase 3; no reaction."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "ORIC",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Phase 1b data out at 03:17 ET; ORIC opened -3.8% and is -2.9%: the market did not buy 'best-in-class'",
+        "reasoning": [
+          "Primary source: ORIC's release on GlobeNewswire, 'ORIC Pharmaceuticals Presents Potential Best-in-Class Data for Enozertinib in 1L NSCLC Patients with EGFR Atypical Mutations at ESMO Congress 2026 and Plans to Advance Enozertinib to Phase 3'. First on Benzinga at 07:17 UTC.",
+          "Quoted: 'an 84% confirmed systemic objective response rate (ORR) by investigator and 80% by blinded independent central review'; '65% of patients had baseline brain metastases'; Phase 3 'Redwood-1' planned for 1H 2027.",
+          "What changed: strong single-arm response rates in a niche (atypical EGFR mutations) and a Phase 3 that starts next year. Response rates are not survival, and the registrational readout is years away.",
+          "Already traded: ORIC opened 13.10 (-3.8% vs 13.62) and is 13.225 (-2.9%) on 46,020 IEX shares by midday."
+        ],
+        "objections": [
+          "Phase 1b data released before the open; the market sold it."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "ORIC: no trade. 84% response rate in Phase 1b; stock -2.9% on it",
+        "reasoning": [
+          "Enozertinib, first-line NSCLC with atypical EGFR mutations: 84% investigator / 80% BICR confirmed ORR; Phase 3 in 1H 2027.",
+          "Same pattern as the other ESMO updates: early data with high response rates are sold, not bought, on the day.",
+          "Check later: ORIC 5-day return."
+        ],
+        "objections": [
+          "Phase 1b data released before the open; the market sold it."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "CRSP",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Stale: a commentary piece on a CFO change CRISPR announced on Oct 20",
+        "reasoning": [
+          "The item (Benzinga 16:01 UTC) comes from a Barchart opinion piece: 'The Outlook of CRISPR Therapeutics Stock Does Not Look Strong After Its CFO Resigns'. Quoted summary: 'CRISPR Therapeutics AG reported the resignation of its Chief Financial Officer.'",
+          "The change was public on Oct 20: 'CRISPR Therapeutics Appoints A. J. Silver CFO, Effective Immediately, Succeeding Raju Pras...' (Benzinga, Oct 20 evening). Three sessions have traded it.",
+          "Price: CRSP 49.165, -1.6% on the day, flat across the week."
+        ],
+        "objections": [
+          "Stale: a commentary rewrite of an Oct 20 announcement."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "CRSP: no trade. A Barchart opinion piece on a CFO change from Oct 20",
+        "reasoning": [
+          "The repeat check missed it because the Oct 20 headline ('Appoints A. J. Silver CFO') and today's ('Resignation of CRISPR Therapeutics CFO') share too few distinctive words, and the Oct 20 item is now outside the 36-hour window.",
+          "Nothing to check later."
+        ],
+        "objections": [
+          "Stale: a commentary rewrite of an Oct 20 announcement."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

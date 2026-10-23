@@ -1,0 +1,144 @@
+{
+  "role": "JOURNAL",
+  "packet": {
+    "case": 2,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": [
+        "LKQ"
+      ]
+    },
+    "filing": {
+      "ticker": "ORIC",
+      "company": "Oric Pharmaceuticals, Inc.",
+      "cik": "1796280",
+      "accession": "news:102558615",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-23T13:01:58Z",
+      "url": "https://www.globenewswire.com/news-release/2026/10/23/3387076/0/en/oric-pharmaceuticals-presents-potential-best-in-class-data-for-enozertinib-in-1l-nsclc-patients-with-egfr-atypical-mutations-at-esmo-congress-2026-and-plans-to-advance-enozertinib-.html",
+      "source_excerpt": "[Benzinga news, 2026-10-23T13:01:58Z, by staff] ORIC Pharmaceuticals Announces Plans to Advance Enozertinib to Phase 3 Trial\nORIC Pharmaceuticals reported positive clinical data for enozertinib in first-line NSCLC patients with EGFR atypical mutations and announced plans to initiate a global Phase 3 trial.\nORIC Pharmaceuticals presented data at the ESMO Congress 2026 showing enozertinib's efficacy in first-line non-small cell lung cancer (NSCLC) patients with EGFR atypical mutations. The results, based on a September 4, 2026, data cutoff, demonstrated an 84% confirmed systemic objective response rate (ORR) by investigator and 80% by blinded independent central review (BICR). The company noted that 65% of patients had baseline brain metastases, a rate significantly higher than competitor datasets. Following these results, the company announced its intention to advance enozertinib into a global Phase 3 clinical trial.\n[Other material headlines on this company in the window]\n- 2026-10-23T07:17:44Z ORIC Plans Global Phase 3 Redwood-1 Trial Of Enozertinib In 1L EGFR Atypical NSCLC In 1H 2027 After Phase 1b Showing 84% Confirmed Systemic ORR, 70% Confirmed Intracranial ORR",
+      "market_cap_usd": 1371324638.88,
+      "last_price": 13.23,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "outcome": "no_trade",
+      "order": null
+    },
+    "memos_so_far": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Phase 1b data out at 03:17 ET; ORIC opened -3.8% and is -2.9%: the market did not buy 'best-in-class'",
+        "reasoning": [
+          "Primary source: ORIC's release on GlobeNewswire, 'ORIC Pharmaceuticals Presents Potential Best-in-Class Data for Enozertinib in 1L NSCLC Patients with EGFR Atypical Mutations at ESMO Congress 2026 and Plans to Advance Enozertinib to Phase 3'. First on Benzinga at 07:17 UTC.",
+          "Quoted: 'an 84% confirmed systemic objective response rate (ORR) by investigator and 80% by blinded independent central review'; '65% of patients had baseline brain metastases'; Phase 3 'Redwood-1' planned for 1H 2027.",
+          "What changed: strong single-arm response rates in a niche (atypical EGFR mutations) and a Phase 3 that starts next year. Response rates are not survival, and the registrational readout is years away.",
+          "Already traded: ORIC opened 13.10 (-3.8% vs 13.62) and is 13.225 (-2.9%) on 46,020 IEX shares by midday."
+        ],
+        "objections": [
+          "Phase 1b data released before the open; the market sold it."
+        ]
+      }
+    ],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 76 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 5 case(s) with a thesis. Five days later the thesis averaged -1.5%, right 2 of 5 times. Positive means this gate is stopping trades that would have worked. Only 5 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +0.6%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Still open: LKQ (pending).",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "JAZZ",
+          "night": "20261023-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BANF",
+          "night": "20261023-1532",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ONC",
+          "night": "20261023-1421",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "IOVA",
+          "night": "20261023-1421",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "IDYA",
+          "night": "20261023-1348",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "AMR",
+          "night": "20261023-1348",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ACA",
+          "night": "20261023-1348",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "LKQ",
+          "night": "20261023-1248",
+          "ended_by": "TRADED",
+          "direction": "short",
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 88
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

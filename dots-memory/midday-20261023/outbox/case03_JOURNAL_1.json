@@ -1,0 +1,143 @@
+{
+  "role": "JOURNAL",
+  "packet": {
+    "case": 3,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": [
+        "LKQ"
+      ]
+    },
+    "filing": {
+      "ticker": "CRSP",
+      "company": "CRISPR Therapeutics AG",
+      "cik": "1674416",
+      "accession": "news:102725550",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-23T16:01:56Z",
+      "url": "https://www.barchart.com/story/news/8361393/the-outlook-of-crispr-therapeutics-stock-does-not-look-strong-after-its-cfo-resigns",
+      "source_excerpt": "[Benzinga news, 2026-10-23T16:01:56Z, by staff] Resignation of CRISPR Therapeutics CFO\nCRISPR Therapeutics AG has experienced a change in its executive leadership with the recent resignation of its Chief Financial Officer.\nCRISPR Therapeutics AG reported the resignation of its Chief Financial Officer. This executive departure represents a significant change in the company's core management team. The event was noted in recent financial commentary regarding the company's leadership and stock outlook.",
+      "market_cap_usd": 4753894284.745,
+      "last_price": 49.165,
+      "also_accessions": [],
+      "weight": 2
+    },
+    "market": {
+      "outcome": "no_trade",
+      "order": null
+    },
+    "memos_so_far": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Stale: a commentary piece on a CFO change CRISPR announced on Oct 20",
+        "reasoning": [
+          "The item (Benzinga 16:01 UTC) comes from a Barchart opinion piece: 'The Outlook of CRISPR Therapeutics Stock Does Not Look Strong After Its CFO Resigns'. Quoted summary: 'CRISPR Therapeutics AG reported the resignation of its Chief Financial Officer.'",
+          "The change was public on Oct 20: 'CRISPR Therapeutics Appoints A. J. Silver CFO, Effective Immediately, Succeeding Raju Pras...' (Benzinga, Oct 20 evening). Three sessions have traded it.",
+          "Price: CRSP 49.165, -1.6% on the day, flat across the week."
+        ],
+        "objections": [
+          "Stale: a commentary rewrite of an Oct 20 announcement."
+        ]
+      }
+    ],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 77 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 5 case(s) with a thesis. Five days later the thesis averaged -1.5%, right 2 of 5 times. Positive means this gate is stopping trades that would have worked. Only 5 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +0.6%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Still open: LKQ (pending).",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "ORIC",
+          "night": "20261023-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "JAZZ",
+          "night": "20261023-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BANF",
+          "night": "20261023-1532",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ONC",
+          "night": "20261023-1421",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "IOVA",
+          "night": "20261023-1421",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "IDYA",
+          "night": "20261023-1348",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "AMR",
+          "night": "20261023-1348",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ACA",
+          "night": "20261023-1348",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 89
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

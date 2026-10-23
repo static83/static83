@@ -1,0 +1,50 @@
+[
+  {
+    "ticker": "JAZZ",
+    "company": "Jazz Pharmaceuticals plc",
+    "cik": "1232524",
+    "accession": "news:62561229",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-23T14:20:18Z",
+    "url": "https://www.benzinga.com/general/biotech/26/10/62561229/jazz-pharmaceuticals-presents-data-its-phase-3-herizon-gea-01-study-ziihera-combination-chemotherapy",
+    "source_excerpt": "[Benzinga news, 2026-10-23T14:20:18Z, by Benzinga Newsdesk] Jazz Pharmaceuticals Presents Data From Its Phase 3 HERIZON-GEA-01 Study Of Ziihera In Combination With Chemotherapy At ESMO Congress 2026 To Treat Patients With HER2-Positive Locally Advanced Or Metastatic Gastroesophageal Adenocarcinoma\n\n",
+    "market_cap_usd": 13854069023.34,
+    "last_price": 213.42000000000002,
+    "also_accessions": [],
+    "weight": 3
+  },
+  {
+    "ticker": "ORIC",
+    "company": "Oric Pharmaceuticals, Inc.",
+    "cik": "1796280",
+    "accession": "news:102558615",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-23T13:01:58Z",
+    "url": "https://www.globenewswire.com/news-release/2026/10/23/3387076/0/en/oric-pharmaceuticals-presents-potential-best-in-class-data-for-enozertinib-in-1l-nsclc-patients-with-egfr-atypical-mutations-at-esmo-congress-2026-and-plans-to-advance-enozertinib-.html",
+    "source_excerpt": "[Benzinga news, 2026-10-23T13:01:58Z, by staff] ORIC Pharmaceuticals Announces Plans to Advance Enozertinib to Phase 3 Trial\nORIC Pharmaceuticals reported positive clinical data for enozertinib in first-line NSCLC patients with EGFR atypical mutations and announced plans to initiate a global Phase 3 trial.\nORIC Pharmaceuticals presented data at the ESMO Congress 2026 showing enozertinib's efficacy in first-line non-small cell lung cancer (NSCLC) patients with EGFR atypical mutations. The results, based on a September 4, 2026, data cutoff, demonstrated an 84% confirmed systemic objective response rate (ORR) by investigator and 80% by blinded independent central review (BICR). The company noted that 65% of patients had baseline brain metastases, a rate significantly higher than competitor datasets. Following these results, the company announced its intention to advance enozertinib into a global Phase 3 clinical trial.\n[Other material headlines on this company in the window]\n- 2026-10-23T07:17:44Z ORIC Plans Global Phase 3 Redwood-1 Trial Of Enozertinib In 1L EGFR Atypical NSCLC In 1H 2027 After Phase 1b Showing 84% Confirmed Systemic ORR, 70% Confirmed Intracranial ORR",
+    "market_cap_usd": 1371324638.88,
+    "last_price": 13.23,
+    "also_accessions": [],
+    "weight": 3
+  },
+  {
+    "ticker": "CRSP",
+    "company": "CRISPR Therapeutics AG",
+    "cik": "1674416",
+    "accession": "news:102725550",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-23T16:01:56Z",
+    "url": "https://www.barchart.com/story/news/8361393/the-outlook-of-crispr-therapeutics-stock-does-not-look-strong-after-its-cfo-resigns",
+    "source_excerpt": "[Benzinga news, 2026-10-23T16:01:56Z, by staff] Resignation of CRISPR Therapeutics CFO\nCRISPR Therapeutics AG has experienced a change in its executive leadership with the recent resignation of its Chief Financial Officer.\nCRISPR Therapeutics AG reported the resignation of its Chief Financial Officer. This executive departure represents a significant change in the company's core management team. The event was noted in recent financial commentary regarding the company's leadership and stock outlook.",
+    "market_cap_usd": 4753894284.745,
+    "last_price": 49.165,
+    "also_accessions": [],
+    "weight": 2
+  }
+]
