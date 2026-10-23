@@ -1,0 +1,8 @@
+{"role":"ANALYST","verdict":"agree","headline":"Short LKQ: a multi-quarter European repair with no guidance; estimates get cut after the gap, not before",
+"reasoning":["What changed: Europe, about a third of sales, went from a 10% to a ~4.6% EBITDA margin in a year on an ERP failure plus volume declines; the CEO is out with no successor until Dec 15; the board hired Alvarez & Marsal. That combination describes a fix measured in quarters, not weeks.",
+"What the market must believe for the opening gap to be enough: that this is one bad quarter. The release says otherwise: guidance withdrawn, advisers 'with an initial focus on improving customer service levels, stabilizing operations'. Sell-side models cannot be rebuilt until the Oct 29 full report and call, so estimate cuts land over the following days.",
+"Mechanism: large negative surprises that also remove guidance and management tend to keep drifting as holders who own LKQ for steady execution leave over several days.",
+"Direction short, horizon_days 5: covers the Oct 29 report and the first estimate cuts, out before any new CEO plan.",
+"Proves me wrong: LKQ opening down and then reclaiming more than half the gap during the first sessions (the market reading it as a one-off), or the Oct 29 report showing Europe already recovering in October."],
+"objections":["No pre-market price on our feed: the size of the opening gap is unknown.","The Oct 29 full report falls inside the horizon and could surprise either way."],
+"direction":"short","horizon_days":5}

@@ -1,0 +1,50 @@
+[
+  {
+    "ticker": "UWMC",
+    "company": "UWM Holdings Corp",
+    "cik": "1783398",
+    "accession": "news:62556312",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-23T12:35:48Z",
+    "url": "https://www.benzinga.com/news/26/10/62556312/uwm-holdings-reports-preliminary-q3-net-income-205m-220m-and-sales-800m-825m-lowers-fy26-total-sales",
+    "source_excerpt": "[Benzinga news, 2026-10-23T12:35:48Z, by Benzinga Newsdesk] UWM Holdings Reports Preliminary Q3 Net Income Of $205M-$220M And Sales Of $800M-$825M; Lowers FY26 Total Sales Guidance To ~$3.35B-$3.50B Due To Lower Origination Volume Throughout The Industry\n\n",
+    "market_cap_usd": 359042045.82,
+    "last_price": 1.14,
+    "also_accessions": [],
+    "weight": 3
+  },
+  {
+    "ticker": "LKQ",
+    "company": "LKQ CORP",
+    "cik": "1065696",
+    "accession": "news:62555737",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-23T12:08:54Z",
+    "url": "https://www.benzinga.com/news/26/10/62555737/lkq-reports-preliminary-q3-adjusted-eps-0-47-0-53-and-sales-3-32b-results-primarily-reflect-underper",
+    "source_excerpt": "[Benzinga news, 2026-10-23T12:08:54Z, by Benzinga Newsdesk] LKQ Reports Preliminary Q3 Adjusted EPS Of $0.47-$0.53 And Sales Of $3.32B; Results Primarily Reflect Underperformance In Europe; Withdraws FY26 Guidance; Appoints Interim Co-CEOs And Salvatore A. Abbate As Future President And CEO, Effective December 15, Replacing Justin Jude, Who Steps Down Immediate\n\n",
+    "market_cap_usd": 5683691861.99,
+    "last_price": 22.465,
+    "also_accessions": [],
+    "weight": 3
+  },
+  {
+    "ticker": "NVS",
+    "company": "NOVARTIS AG",
+    "cik": "1114448",
+    "accession": "news:62555229",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-23T11:53:33Z",
+    "url": "https://www.benzinga.com/news/26/10/62555229/novartis-announces-its-data-phase-iii-natalee-study-demonstrates-kisqali-eliminates-risk-death-20-pa",
+    "source_excerpt": "[Benzinga news, 2026-10-23T11:53:33Z, by Benzinga Newsdesk] Novartis Announces Its Data From Phase III NATALEE Study Demonstrates Kisqali Eliminates Risk Of Death By ~20% In Patients With Stage II And III HR+/Her2- Early Breast Cancer\n\n",
+    "market_cap_usd": 297671661924.0,
+    "last_price": 156.0,
+    "also_accessions": [],
+    "weight": 3
+  }
+]

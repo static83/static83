@@ -1,0 +1,21 @@
+{
+  "LKQ:sell:60:19.00:21.00:16.15": {
+    "id": "99d03361-ee9e-4430-badd-f09a50e91319",
+    "status": "pending_new",
+    "mode": "alpaca-paper",
+    "symbol": "LKQ",
+    "qty": "60",
+    "side": "sell",
+    "type": "stop_limit",
+    "stop_price": "20.00",
+    "limit_price": "19.00",
+    "time_in_force": "gtc",
+    "order_class": "bracket",
+    "take_profit": {
+      "limit_price": "16.15"
+    },
+    "stop_loss": {
+      "stop_price": "21.00"
+    }
+  }
+}

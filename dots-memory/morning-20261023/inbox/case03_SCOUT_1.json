@@ -1,0 +1,6 @@
+{"role":"SCOUT","verdict":"object","headline":"An expected overall-survival read-out for a drug already approved in this setting; NVS -0.3% pre-market",
+"reasoning":["Source: Novartis's release (Benzinga 11:53 UTC, 07:53 ET): 'Novartis Announces Its Data From Phase III NATALEE Study Demonstrates Kisqali Eliminates Risk Of Death By ~20% In Patients With Stage II And III HR+/Her2- Early Breast Cancer'.",
+"What changed: NATALEE already showed an invasive-disease-free survival benefit, which is why Kisqali is approved in early breast cancer. An overall-survival benefit of about 20% confirms that label and helps uptake, but it was the expected direction and the drug is already sold for this use.",
+"Scale: Kisqali is one of Novartis's largest drugs, but the incremental effect of a confirmatory OS result on a $298B company is small.",
+"Price: IEX pre-market 155.83 vs 156.265 (-0.3%) on 120 shares."],
+"objections":["Confirmatory survival data for an approved indication; small at Novartis's size; no reaction."]}

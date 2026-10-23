@@ -1,0 +1,11 @@
+{"role":"QUANT","verdict":"agree","headline":"Short 60 LKQ at 19.00 or better (arms at 20.00), stop 21.00, target 16.15: about +$7 expected, thin",
+"reasoning":["Entry 19.00, a -15.4% gap from 22.465. The stop-limit arms only when LKQ trades at or below 20.00 (19.00 + 0.5 x 2.00) and sells only at 19.00 or better. A small gap waits for weakness to 20.00; a gap far below 19.00 does not fill unless it bounces back to 19. We never chase the gap down.",
+"Stop 21.00 (+10.5% from entry): above the band, so a bounce that retakes most of the gap closes the trade. Target 16.15 (-15%): a second leg as estimate cuts land. Risk 2.00 per share, reward 2.85.",
+"Volatility: normally 1.3% a day (30-day mean absolute move); after a shock like this, assume 3-4% a day, about 1.5 per share over 5 days.",
+"Odds over 5 days with a modest 2% drift in our favour: stop first 0.36, target first 0.27, time-limit exit 0.37 at about +0.30. That stop-out figure is raised from my first estimate of 0.31 because my only calibrated case so far (SMCI) predicted 38% and was stopped. One case is too few to rely on, so the correction is small. p_strike 0.36.",
+"EV per share: 0.27 x 2.85 + 0.37 x 0.30 - 0.36 x 2.00 = 0.770 + 0.111 - 0.720 = +0.16.",
+"Fees for 60 shares (~$1,140): commission 0; spread on a $5.3M-a-day name at an open after news, ~0.2% = $2.30; slippage $2.50; borrow (easy to borrow) ~$0.10 for 5 days. About $4.90. Net expectancy 60 x 0.16 - 4.90 = +$4.70.",
+"Bad-exit cost: a squeeze or new-CEO rally gapping through the stop back to the 22.465 pre-news close costs 60 x 3.465 = $208, 4.2% of equity."],
+"objections":["1. No pre-market price on our feed: the size of the opening gap is unknown (SCOUT).","2. The Oct 29 full report falls inside the horizon and could surprise either way (ANALYST).","3. Analysts can cut on the preliminary numbers today; drift may be shorter than ANALYST assumes (SKEPTIC).","4. Squeeze risk on a rebound or a well-received new CEO (SKEPTIC).","5. Expectancy is thin: about +$5 on $1,140 after costs."],
+"direction":"short","horizon_days":5,"entry_price":19.00,"stop_price":21.00,"target_price":16.15,
+"position_size_usd":1140,"fee_estimate_usd":4.90,"bad_exit_cost_usd":208,"p_strike":0.36}

@@ -1,0 +1,8 @@
+{"role":"SKEPTIC","verdict":"agree","headline":"Survives: the gap will be big, but chasing is capped; my last two kills of this kind were wrong",
+"reasoning":["Who read it first: an 8-K at 08:06 ET with a CEO exit and withdrawn guidance is read by every desk before the open. Expect a large gap, perhaps -15% to -25%. The question is only whether there is drift after it.",
+"Attack on 'estimates get cut after the gap': analysts can cut immediately on preliminary numbers; the full report on Oct 29 may already be in the price by then. And a stock that falls 20% on a CEO change sometimes rallies on the new CEO's name (Abbate is named, starting Dec 15).",
+"Attack on squeeze risk: shorts after a gap face rebound days; a short is exposed to an outsized move against it if the new CEO is well received.",
+"Track record, which I must weigh: my kills of HAS (long) and EOSE (short) both went on to work (+13.8% and -17.9% respectively). Two cases are below any sample that counts, but both kills of post-news drift trades were wrong, so I raise my bar for objecting.",
+"priced_in_score 0.6. Conditions: the entry must not chase the gap (QUANT's band), and size for a squeeze above the stop."],
+"objections":["1. No pre-market price on our feed: the size of the opening gap is unknown (SCOUT).","2. The Oct 29 full report falls inside the horizon and could surprise either way (ANALYST).","3. Analysts can cut on the preliminary numbers today; drift may be shorter than ANALYST assumes.","4. Squeeze risk on a rebound or a well-received new CEO."],
+"priced_in_score":0.6}

@@ -1,0 +1,9 @@
+{"role":"RISK","verdict":"agree","headline":"Approved at 60 shares short, $1,140. Bad exit $208, 4.2% of equity. Stop 21.00 confirmed.",
+"reasoning":["Equity 4,905.03. Cap per bad exit 5% = $245. QUANT's 60 shares: gap back to 22.465 costs $208. 4.2%. Within the cap. No cut.",
+"Stop check: 21.00 is 10.5% above entry. After a shock, assume 3-4% daily moves. Three bad days to reach it. Not a round-number stop; it sits above the entry band and below the pre-news close.",
+"Short-specific: LKQ is shortable and easy to borrow at Alpaca. Loss on a short is open-ended; the stop and the $208 gap figure bound it for any move short of a full reversal plus.",
+"Concentration: no open positions. One name, one case.",
+"Expectancy is thin (+$4.70). This is QUANT's call and QUANT agreed. Size is 23% of the account, not a token.",
+"Objections on record: five. The Spider's restart rule does not apply."],
+"objections":["1. No pre-market price on our feed: the size of the opening gap is unknown (SCOUT).","2. The Oct 29 full report falls inside the horizon and could surprise either way (ANALYST).","3. Analysts can cut on the preliminary numbers today; drift may be shorter than ANALYST assumes (SKEPTIC).","4. Squeeze risk on a rebound or a well-received new CEO (SKEPTIC).","5. Expectancy is thin: about +$5 on $1,140 after costs (QUANT)."],
+"direction":"short","position_size_usd":1140,"stop_price":21.00,"bad_exit_cost_usd":208}

@@ -1,0 +1,7 @@
+{"role":"JOURNAL","verdict":"agree","headline":"LKQ: paper order sent. Short 60 at 19.00 or better (arms at 20.00), stop 21.00, target 16.15, 5-day limit",
+"reasoning":["Case: LKQ pre-announced Q3 adj EPS of $0.47-0.53 vs $0.84 a year ago; Europe EBITDA margin 4.1-5.1% vs 10.0% after an ERP failure in Germany; CEO and Europe head out today; Alvarez & Marsal hired; full-year guidance withdrawn. 8-K at 08:06 ET.",
+"ANALYST: short for 5 days on the drift that follows a guidance withdrawal and a leadership exit. SKEPTIC let it through with four objections, raising its bar after its two wrong kills (HAS, EOSE).",
+"QUANT: an entry band of 19.00-20.00 so the crew does not chase the gap; expectancy about +$5 after costs, thin. RISK: 60 shares, $208 bad exit (4.2%).",
+"Order at Alpaca: sell stop-limit, trigger 20.00, limit 19.00, good till cancelled, with a 16.15 take-profit and a 21.00 stop, both held until the entry fills.",
+"What to check: the fill at or after the open (09:45 check), and whether LKQ holds below 20 into Oct 29. Wrong if it reclaims half the gap."],
+"objections":["1. No pre-market price on our feed: the size of the opening gap is unknown (SCOUT).","2. The Oct 29 full report falls inside the horizon and could surprise either way (ANALYST).","3. Analysts can cut on the preliminary numbers today; drift may be shorter than ANALYST assumes (SKEPTIC).","4. Squeeze risk on a rebound or a well-received new CEO (SKEPTIC).","5. Expectancy is thin: about +$5 on $1,140 after costs (QUANT)."]}

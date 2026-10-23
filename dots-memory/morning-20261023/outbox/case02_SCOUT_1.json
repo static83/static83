@@ -1,0 +1,156 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 2,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "LKQ",
+      "company": "LKQ CORP",
+      "cik": "1065696",
+      "accession": "news:62555737",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-23T12:08:54Z",
+      "url": "https://www.benzinga.com/news/26/10/62555737/lkq-reports-preliminary-q3-adjusted-eps-0-47-0-53-and-sales-3-32b-results-primarily-reflect-underper",
+      "source_excerpt": "[Benzinga news, 2026-10-23T12:08:54Z, by Benzinga Newsdesk] LKQ Reports Preliminary Q3 Adjusted EPS Of $0.47-$0.53 And Sales Of $3.32B; Results Primarily Reflect Underperformance In Europe; Withdraws FY26 Guidance; Appoints Interim Co-CEOs And Salvatore A. Abbate As Future President And CEO, Effective December 15, Replacing Justin Jude, Who Steps Down Immediate\n\n",
+      "market_cap_usd": 5683691861.99,
+      "last_price": 22.465,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "quote": {
+        "ap": 23.73,
+        "as": 100,
+        "ax": "V",
+        "bp": 20.14,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-22T20:00:02.291635429Z",
+        "z": "C"
+      },
+      "extended_hours": {
+        "session": "pre-market",
+        "reference_close": 22.465,
+        "trades_seen": false,
+        "note": "no extended-hours trades on the IEX feed yet"
+      },
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.68,
+        "max_gap_pct": 2.73
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 401.3918,
+        "slippage_usd": 2.4525,
+        "spread_pct": 16.367
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 68 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "QUANT rejected 1 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "LYTS",
+          "night": "20261023-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "AXON",
+          "night": "20261023-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "REXR",
+          "night": "20261023-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MRK",
+          "night": "20261022-1905",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BX",
+          "night": "20261022-1804",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MKTX",
+          "night": "20261022-1722",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "HZO",
+          "night": "20261022-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GSBC",
+          "night": "20261022-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 79
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}
