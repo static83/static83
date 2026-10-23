@@ -20,6 +20,22 @@ class PaperOnlyError(RuntimeError):
     pass
 
 
+def _closes_between(after, until) -> int:
+    """Weekday 4pm New York closes strictly after `after` and at or before `until` (holidays aside)."""
+    from datetime import datetime, time, timedelta
+    from zoneinfo import ZoneInfo
+
+    ny = ZoneInfo("America/New_York")
+    a, b = after.astimezone(ny), until.astimezone(ny)
+    n, day = 0, a.date()
+    while day <= b.date():
+        close = datetime.combine(day, time(16), ny)
+        if day.weekday() < 5 and a < close <= b:
+            n += 1
+        day += timedelta(days=1)
+    return n
+
+
 class PaperBroker:
     def __init__(self, dry_run: bool = False):
         if not settings.paper_only:
@@ -87,8 +103,12 @@ class PaperBroker:
         a = r.json()
         return bool(a.get("shortable") and a.get("easy_to_borrow"))
 
-    def cancel_stale_entries(self, max_age_hours: float = 20) -> list[str]:
-        """Cancel bracket entries that never filled. Cancelling the parent cancels its legs."""
+    def cancel_stale_entries(self) -> list[str]:
+        """Cancel bracket entries that sat through a regular-session close without filling.
+
+        That is the rule's 'not filled by the next night': an order from the morning or midday run
+        goes at that night's run, one from the night run at the next night's. Cancelling the parent
+        cancels its legs."""
         if self.dry_run:
             return []
         from datetime import datetime, timezone
@@ -105,7 +125,7 @@ class PaperBroker:
                 # still marked bracket and unfilled. They protect a live position: never cancel them.
                 continue
             created = datetime.fromisoformat(o["created_at"].replace("Z", "+00:00"))
-            if (now - created).total_seconds() / 3600 >= max_age_hours:
+            if _closes_between(created, now) >= 1:
                 d = self.session.delete(f"{self.base}/v2/orders/{o['id']}", timeout=20)
                 if d.status_code in (200, 204):
                     cancelled.append(f"{o['symbol']} {o['side']} {o['qty']} @ {o.get('limit_price')}")
@@ -163,7 +183,7 @@ class PaperBroker:
             "stop_price": f"{trigger:.2f}",
             "limit_price": f"{entry:.2f}",
             # gtc so the stop-loss and take-profit legs stay live after the first session.
-            # An entry that has not filled by the next night is cancelled by cancel_stale_entries().
+            # An entry still unfilled after a regular-session close is cancelled by cancel_stale_entries().
             "time_in_force": "gtc",
             "order_class": "bracket",
             "take_profit": {"limit_price": f"{target:.2f}"},
