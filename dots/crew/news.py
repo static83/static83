@@ -158,6 +158,8 @@ def weight(text: str, market_cap: Optional[float] = None, price: Optional[float]
                   text, re.IGNORECASE)
             or re.search(r"\bon \w+ \d{1,2}, \d{4},? .{0,80}\b(acquired|completed the acquisition|closed the acquisition)\b", text, re.IGNORECASE)):
         return 1  # a closing: the deal was priced when it was announced
+    if re.search(r"\bpublished (in|by) (the )?(new england|nejm|lancet|nature|jama|science|journal)", text, re.IGNORECASE):
+        return 1  # the paper of a trial whose result was announced when it read out
     if re.search(r"\bunconfirmed\b|\brumou?rs?\b|\bspeculation\b", text, re.IGNORECASE):
         return 1  # still a case SCOUT can flag, but it ranks below anything confirmed
     if re.search(r"^\s*['\"\u2018\u201c].+['\"\u2019\u201d]\s*-\s*[A-Z][\w .&]{1,40}$", text.split("\n")[0]):
