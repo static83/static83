@@ -131,6 +131,8 @@ def largest_amount(text: str, price: Optional[float] = None) -> Optional[float]:
     for m in _DOLLARS.finditer(text):
         if re.match(r"\s*(per|a|/)\s*(share|unit)", text[m.end():], re.IGNORECASE):
             continue  # a price, not the size of the deal
+        if re.match(r"\s*(in|of)\s+(total\s+)?(assets|deposits|loans|revenue|sales|annual)", text[m.end():], re.IGNORECASE):
+            continue  # the target's balance sheet or revenue, not the price paid
         num, unit = m.groups()
         found.append(float(num.replace(",", "")) * _SCALE.get((unit or "").lower(), 1))
     if price:
@@ -152,8 +154,9 @@ def weight(text: str, market_cap: Optional[float] = None, price: Optional[float]
             and re.search(r"takeover|sale|sell|divest|acqui|deal|spin", text, re.IGNORECASE)
             and largest_amount(text, price) is None):
         w = min(w, 2)  # a deal for a unit, with no price: the parent's exposure is unknown and usually small
-    if re.search(r"\b(completes?|completed|closes?|closed|completion of|finali[sz]es?)\b.{0,40}\b(acquisition|merger|sale|divestiture|deal)\b",
-                 text, re.IGNORECASE):
+    if (re.search(r"\b(completes?|completed|closes?|closed|completion of|finali[sz]es?)\b.{0,40}\b(acquisition|merger|sale|divestiture|deal)\b",
+                  text, re.IGNORECASE)
+            or re.search(r"\bon \w+ \d{1,2}, \d{4},? .{0,80}\b(acquired|completed the acquisition|closed the acquisition)\b", text, re.IGNORECASE)):
         return 1  # a closing: the deal was priced when it was announced
     if re.search(r"\bunconfirmed\b|\brumou?rs?\b|\bspeculation\b", text, re.IGNORECASE):
         return 1  # still a case SCOUT can flag, but it ranks below anything confirmed
