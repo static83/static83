@@ -1,0 +1,18 @@
+[
+  {
+    "ticker": "NVS",
+    "company": "NOVARTIS AG",
+    "cik": "1114448",
+    "accession": "news:62567426",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-23T16:44:46Z",
+    "url": "https://www.benzinga.com/general/biotech/26/10/62567426/novartis-announces-remibrutinib-lowers-annualized-relapse-rate-35-2-31-2-phase-iii-remodel-1-remodel",
+    "source_excerpt": "[Benzinga news, 2026-10-23T16:44:46Z, by Benzinga Newsdesk] Novartis Announces Remibrutinib Lowers Annualized Relapse Rate By 35.2%, 31.2% In  Phase III REMODEL-1, REMODEL-2 Studies To Treat Relapsing Multiple Sclerosis\n\n\n[Other material headlines on this company in the window]\n- 2026-10-23T11:53:33Z Novartis Announces Its Data From Phase III NATALEE Study Demonstrates Kisqali Eliminates Risk Of Death By ~20% In Patients With Stage II And III HR+/Her2- Early Breast Cancer",
+    "market_cap_usd": 288875082683.81,
+    "last_price": 151.39,
+    "also_accessions": [],
+    "weight": 3
+  }
+]

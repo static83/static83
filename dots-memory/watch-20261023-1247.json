@@ -1,0 +1,175 @@
+{
+  "title": "DOTS night run",
+  "fictional": false,
+  "mode": "alpaca-paper",
+  "model": "claude (in session)",
+  "router": "SPIDER",
+  "started_at": "2026-10-23T16:48:02.291408+00:00",
+  "start_balance": 4905.03,
+  "hours": 1,
+  "balance": [
+    [
+      0,
+      4905.03
+    ],
+    [
+      1,
+      4905.03
+    ]
+  ],
+  "events": [
+    {
+      "m": 0,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 0,
+      "text": "track record: 90 past case(s) on file"
+    },
+    {
+      "m": 0,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 1,
+      "text": "case 01 opened: NVS news"
+    },
+    {
+      "m": 1,
+      "role": "SCOUT",
+      "kind": "handoff",
+      "case": 1,
+      "text": "Phase 3 relapse reductions of 35% and 31% with no comparator stated; no reaction at a $289B company"
+    },
+    {
+      "m": 1,
+      "role": "SCOUT",
+      "kind": "objection",
+      "case": 1,
+      "text": "Comparator not disclosed; effect size ambiguous; immaterial at Novartis's size; no reaction."
+    },
+    {
+      "m": 1,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 1,
+      "text": "NVS: no trade. Remibrutinib cut MS relapses 31-35% in Phase 3; comparator unknown, no reaction"
+    }
+  ],
+  "cases": [
+    {
+      "id": 1,
+      "ticker": "NVS",
+      "outcome": "no_trade",
+      "rounds": 1,
+      "entry": null,
+      "stop": null,
+      "target": null,
+      "size": null,
+      "p_strike": null,
+      "risk": "PENDING",
+      "objections": 2,
+      "order": null
+    }
+  ],
+  "receipts": {
+    "SCOUT": 2,
+    "ANALYST": 0,
+    "SKEPTIC": 0,
+    "QUANT": 0,
+    "RISK": 0,
+    "JOURNAL": 2
+  },
+  "counts": {
+    "objections": 1,
+    "source_links": 1,
+    "send_backs": 0,
+    "restarts": 0
+  },
+  "track_record": {
+    "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+    "scorecard": [
+      "SCOUT skipped 79 case(s); none has a thesis direction with 5 trading days of history yet.",
+      "SKEPTIC killed 5 case(s) with a thesis. Five days later the thesis averaged -1.7%, right 2 of 5 times. Positive means this gate is stopping trades that would have worked. Only 5 so far, too few to act on.",
+      "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +0.7%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+      "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+      "Still open: LKQ (pending).",
+      "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+      "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+      "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+    ],
+    "recent_cases": [
+      {
+        "ticker": "NVS",
+        "night": "20261023-1648",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "CRSP",
+        "night": "20261023-1628",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "ORIC",
+        "night": "20261023-1628",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "JAZZ",
+        "night": "20261023-1628",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "BANF",
+        "night": "20261023-1532",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "ONC",
+        "night": "20261023-1421",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "IOVA",
+        "night": "20261023-1421",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "IDYA",
+        "night": "20261023-1348",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      }
+    ],
+    "cases_on_file": 91
+  }
+}

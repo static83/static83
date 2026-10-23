@@ -1,0 +1,59 @@
+[
+  {
+    "case": 1,
+    "ticker": "NVS",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Phase 3 relapse reductions of 35% and 31% with no comparator stated; no reaction at a $289B company",
+        "reasoning": [
+          "Source: Novartis's release (Benzinga 16:44 UTC): 'Novartis Announces Remibrutinib Lowers Annualized Relapse Rate By 35.2%, 31.2% In Phase III REMODEL-1, REMODEL-2 Studies To Treat Relapsing Multiple Sclerosis'. No body text; the comparator arm is not in our sources.",
+          "Without the comparator, the size cannot be judged: a 31-35% relative cut against an active oral drug is modest next to existing high-efficacy MS therapies, while against placebo it would be weak. Either way it is not an obvious win, and MS is one market among many for a $289B company.",
+          "Price: NVS +0.1% since the item (151.195 to 151.39). It is -3.1% on the day from 156.265, but that move came before this release."
+        ],
+        "objections": [
+          "Comparator not disclosed; effect size ambiguous; immaterial at Novartis's size; no reaction."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "NVS: no trade. Remibrutinib cut MS relapses 31-35% in Phase 3; comparator unknown, no reaction",
+        "reasoning": [
+          "REMODEL-1 and REMODEL-2 met on annualized relapse rate (35.2% and 31.2% reductions).",
+          "Novartis was already -3.1% on the day before the release; IEX shows no reaction to it.",
+          "Check later: NVS 5-day return; if the comparator turns out to be an active drug and the market reads the effect as weak, a delayed decline would show."
+        ],
+        "objections": [
+          "Comparator not disclosed; effect size ambiguous; immaterial at Novartis's size; no reaction."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]
