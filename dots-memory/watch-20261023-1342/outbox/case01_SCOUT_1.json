@@ -1,0 +1,167 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": [
+        "LKQ"
+      ]
+    },
+    "filing": {
+      "ticker": "IONS",
+      "company": "IONIS PHARMACEUTICALS INC",
+      "cik": "874015",
+      "accession": "0001140361-26-040631",
+      "items": [
+        "7.01",
+        "8.01"
+      ],
+      "filed_at": "2026-10-23T13:41:58-04:00",
+      "url": "https://www.sec.gov/Archives/edgar/data/874015/000114036126040631/ef20084325_8k.htm",
+      "source_excerpt": "Item 7.01 Regulation FD Disclosure. On October 23, 2026, Ionis Pharmaceuticals, Inc. (\u201c Ionis \u201d) issued a press release reporting that its partner, Roche, announced late-breaking oral presentation data from the ongoing Phase 3 IMAgINATION study in adults with primary IgA nephropathy (\u201c IgAN \u201d) receiving optimized standard of care, demonstrating that investigational sefaxersen achieved a statistically significant and clinically meaningful 43.1% reduction in proteinuria (95% confidence interval [CI]: 32.5 - 52.0, P<0.0001), relative to placebo at 37 weeks, as measured by 24-hour urine protein-to-creatinine ratio (\u201c UPCR \u201d). The information in this Item 7.01 and the exhibit attached hereto shall not be deemed \u201cfiled\u201d for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the \u201c Exchange Act \u201d), or otherwise subject to the liabilities of that section, nor shall it be deemed incorporated by reference in any filing under the Securities Act of 1933, as amended, or the Exchange Act, regardless of any general incorporation language in such filing. Item 8.01 Other Events. On October 23, 2026, Ionis\u2019 partner, Roche, announced late-breaking oral presentation data from the ongoing Phase 3 IMAgINATION study in adults with primary IgAN receiving optimized standard of care, demonstrating that investigational sefaxersen achieved a statistically significant and clinically meaningful 43.1% reduction in proteinuria (95% confidence interval [CI]: 32.5 - 52.0, P<0.0001), relative to placebo at 37 weeks, as measured by 24-hour UPCR. Proteinuria is a key indicator of kidney damage and a reduction in UPCR is strongly associated with the preservation of long-term kidney function. Results presented at the American Society of Nephrology Kidney Week 2026 also showed that, among patients with baseline hematuria (blood in urine), a greater proportion of patients achieved hematuria resolution at Week 37 with sefaxersen versus placebo. The treatment effect in all prespecified subgroups was consistent with the clinically meaningful reductions in proteinuria shown in the primary endpoint results. Sefaxersen was well tolerated with a safety profile consistent with the previously reported Phase 2 study, exhibiting no new safety signals. Sefaxersen is an investigational once-monthly subcutaneous injection designed to enable self-administration for people with IgAN. The IMAgINATION study will continue as a blinded study to evaluate the change in kidney function over two years, as measured by estimated glomerular filtration rate (eGFR) at week 105. Roche will share data with health authorities , with the goal of bringing this treatment to patients as soon as possible. Typically diagnosed before the age of 40, IgAN affects at least 25 adults per million worldwide each year. IgAN, also known as Berger\u2019s disease, is a chronic and progressive autoimmune disease that leads to end-stage kidney disease in up to 50% of patients within 20 years of diagnosis. It is the most common form of primary glomerulonephritis (inflammation of the tiny filters, glomeruli, in the kidneys) and is a major cause of chronic kidney disease as well as kidney failure. Roche licensed sefaxersen from Ionis for the treatment of complement-mediated diseases. Under the terms of the agreement, Ionis received an upfront payment, license fee and development milestone payments and is eligible to receive regulatory and sales milestone payments as well as tiered royalties on net sales of sefaxersen. Forward-Looking Statements This report includes forward-looking statements regarding Ionis\u2019 business and the therapeutic and commercial potential of sefaxersen, our commercial medicines, additional medicines in development and technologies and our expectations regarding development and regulatory milestones. Any statement describing Ionis\u2019 goals, expectations, financial or other projections, intentions or beliefs is a forward-looking statement and should be considered an at-risk statement. Such statements are subject to certain risks and uncertainties including those inherent in the process of discovering, developing and commercializing medicines that are safe and effective for use as human therapeutics, and in the endeavor of building a business around such medicines. Ionis\u2019 forward-looking statements also involve assumptions that, if they never materialize or prove correct, could cause its results to differ materially from those expressed or implied by such forward-looking statements. Although Ionis\u2019 forward-looking statements reflect the good faith judgment of its management, these statements are based only on facts and factors currently known by Ionis. Except as required by law, we undertake no obligation to update any forward-looking statements for any reason. As a result, you are cautioned not to rely on these forward-looking statements. These and other risks concerning Ionis\u2019 programs are described in additional detail in Ionis\u2019 annual report on Form 10-K for the year ended December 31, 2025 and most recent Form 10-Q, which are on file with the Securities and Exchange Commission. Copies of these and other documents are available from Ionis. Item 9.01 Financial Statements and Exhibits. (d) Exhibits. Exhibit No. Description 99.1 Press Release dated October 23, 2026. 104 Cover Page Interactive Data File (embedded within the Inline XBRL document). SIGNATURE Pursuant to the requirements of the Securities Exchange Act of 1934, as amended, the registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized. Ionis Pharmaceuticals, Inc. Dated: October 23, 2026 By: /s/ Patrick R. O\u2019Neil Patrick R. O\u2019Neil Executive Vice President, Chief Legal Officer and General Counsel",
+      "market_cap_usd": 7106872530.33,
+      "last_price": 42.765,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "quote": {
+        "ap": 42.84,
+        "as": 200,
+        "ax": "V",
+        "bp": 42.61,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-23T17:43:26.472326683Z",
+        "z": "C"
+      },
+      "extended_hours": null,
+      "since_news": {
+        "since": "2026-10-23T13:41:58-04:00",
+        "reference": 42.84,
+        "reference_is": "last bar before the news",
+        "last": 42.84,
+        "move_pct": 0.0,
+        "high": 42.91,
+        "low": 42.83,
+        "volume": 835,
+        "as_of": "2026-10-23T17:40:00Z",
+        "trades_seen": true,
+        "note": "IEX feed only: the move since the news went out, during today's session"
+      },
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.78,
+        "max_gap_pct": 3.8
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 13.2025,
+        "slippage_usd": 2.4525,
+        "spread_pct": 0.538
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 79 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 5 case(s) with a thesis. Five days later the thesis averaged -1.7%, right 2 of 5 times. Positive means this gate is stopping trades that would have worked. Only 5 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +0.7%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Still open: LKQ (pending).",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "NVS",
+          "night": "20261023-1648",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CRSP",
+          "night": "20261023-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ORIC",
+          "night": "20261023-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "JAZZ",
+          "night": "20261023-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BANF",
+          "night": "20261023-1532",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ONC",
+          "night": "20261023-1421",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "IOVA",
+          "night": "20261023-1421",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "IDYA",
+          "night": "20261023-1348",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 91
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

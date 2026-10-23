@@ -24045,3 +24045,1295 @@
 2026-10-23T16:48:45+00:00   news skip ORIC: the crew judged this company in the last 3 days
 2026-10-23T16:48:45+00:00   news skip UWMC: the crew judged this company in the last 3 days
 2026-10-23T16:48:45+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T16:50:05+00:00 poll failed: ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='www.sec.gov', port=443): Read timed out. (read timeout=30)"))
+2026-10-23T16:51:09+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T16:51:09+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T16:51:09+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T16:51:09+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T16:51:09+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T16:51:09+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T16:51:09+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T16:51:09+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T16:51:09+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T16:51:09+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T16:51:09+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T16:51:09+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T16:51:09+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T16:51:09+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T16:51:09+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T16:51:09+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T16:51:09+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T16:51:09+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T16:51:09+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T16:51:09+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T16:51:09+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T16:51:09+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T16:51:09+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T16:52:24+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T16:52:24+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T16:52:24+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T16:52:24+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T16:52:24+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T16:52:24+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T16:52:24+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T16:52:24+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T16:52:24+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T16:52:24+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T16:52:24+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T16:52:24+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T16:52:24+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T16:52:24+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T16:52:24+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T16:52:24+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T16:52:24+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T16:52:24+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T16:52:24+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T16:52:24+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T16:52:24+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T16:52:24+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T16:52:24+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T16:53:36+00:00 poll failed: ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='www.sec.gov', port=443): Read timed out. (read timeout=30)"))
+2026-10-23T16:54:43+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T16:54:43+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T16:54:43+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T16:54:43+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T16:54:43+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T16:54:43+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T16:54:43+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T16:54:43+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T16:54:43+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T16:54:43+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T16:54:43+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T16:54:43+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T16:54:43+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T16:54:43+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T16:54:43+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T16:54:43+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T16:54:43+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T16:54:43+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T16:54:43+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T16:54:43+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T16:54:43+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T16:54:43+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T16:54:43+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T16:55:36+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T16:55:36+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T16:55:36+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T16:55:36+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T16:55:36+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T16:55:36+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T16:55:36+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T16:55:36+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T16:55:36+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T16:55:36+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T16:55:36+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T16:55:36+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T16:55:36+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T16:55:36+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T16:55:36+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T16:55:36+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T16:55:36+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T16:55:36+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T16:55:36+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T16:55:36+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T16:55:36+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T16:55:36+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T16:55:36+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T16:56:36+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T16:56:36+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T16:56:36+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T16:56:36+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T16:56:36+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T16:56:36+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T16:56:36+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T16:56:36+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T16:56:36+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T16:56:36+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T16:56:36+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T16:56:36+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T16:56:36+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T16:56:36+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T16:56:36+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T16:56:36+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T16:56:36+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T16:56:36+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T16:56:36+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T16:56:36+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T16:56:36+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T16:56:36+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T16:56:36+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T16:57:37+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T16:57:37+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T16:57:37+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T16:57:37+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T16:57:37+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T16:57:37+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T16:57:37+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T16:57:37+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T16:57:37+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T16:57:37+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T16:57:37+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T16:57:37+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T16:57:37+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T16:57:37+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T16:57:37+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T16:57:37+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T16:57:37+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T16:57:37+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T16:57:37+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T16:57:37+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T16:57:37+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T16:57:37+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T16:57:37+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T16:58:36+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T16:58:36+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T16:58:36+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T16:58:36+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T16:58:36+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T16:58:36+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T16:58:36+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T16:58:36+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T16:58:36+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T16:58:36+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T16:58:36+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T16:58:36+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T16:58:36+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T16:58:36+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T16:58:36+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T16:58:36+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T16:58:36+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T16:58:36+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T16:58:36+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T16:58:36+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T16:58:36+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T16:58:36+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T16:58:36+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T16:59:50+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T16:59:50+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T16:59:50+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T16:59:50+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T16:59:50+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T16:59:50+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T16:59:50+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T16:59:50+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T16:59:50+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T16:59:50+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T16:59:50+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T16:59:50+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T16:59:50+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T16:59:50+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T16:59:50+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T16:59:50+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T16:59:50+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T16:59:50+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T16:59:50+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T16:59:50+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T16:59:50+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T16:59:50+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T16:59:50+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:00:38+00:00   news pulled TM (weight 2): Lexus Is Conducting A Noncompliance Safety Recall Involving Certain Model Years 2022-2024 
+2026-10-23T17:00:38+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:00:38+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:00:38+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:00:38+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:00:38+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:00:38+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:00:38+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:00:38+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:00:38+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:00:38+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:00:38+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:00:38+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:00:38+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:00:38+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:00:38+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:00:38+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:00:38+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:00:38+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:00:38+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:00:38+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:00:38+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:00:38+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:00:38+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:01:38+00:00   skip SBFG: market cap 191M below floor
+2026-10-23T17:01:38+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:01:38+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:01:38+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:01:38+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:01:38+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:01:38+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:01:38+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:01:38+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:01:38+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:01:38+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:01:38+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:01:38+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:01:38+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:01:38+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:01:38+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:01:38+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:01:38+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:01:38+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:01:38+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:01:38+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:01:38+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:01:38+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:01:38+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:01:38+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:02:39+00:00   skip SBFG: market cap 191M below floor
+2026-10-23T17:02:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:02:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:02:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:02:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:02:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:02:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:02:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:02:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:02:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:02:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:02:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:02:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:02:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:02:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:02:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:02:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:02:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:02:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:02:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:02:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:02:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:02:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:02:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:02:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:03:38+00:00 poll failed: ProxyError(MaxRetryError("HTTPSConnectionPool(host='paper-api.alpaca.markets', port=443): Max retries exceeded with url: /v2/positions (Caused by ProxyError('Unable to connect to proxy', ConnectionResetError(104, 'Connection reset by peer')))"))
+2026-10-23T17:04:39+00:00   news skip BBD: no share count on file at the SEC
+2026-10-23T17:04:40+00:00   news pulled TSCO (weight 2): Tesco PLC Executes Share Buyback
+2026-10-23T17:04:40+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:04:40+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:04:40+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:04:40+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:04:40+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:04:40+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:04:40+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:04:40+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:04:40+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:04:40+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:04:40+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:04:40+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:04:40+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:04:40+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:04:40+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:04:40+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:04:40+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:04:40+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:04:40+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:04:40+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:04:40+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:04:40+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:04:40+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:04:40+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:05:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:05:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:05:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:05:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:05:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:05:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:05:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:05:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:05:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:05:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:05:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:05:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:05:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:05:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:05:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:05:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:05:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:05:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:05:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:05:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:05:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:05:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:05:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:05:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:05:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:06:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:06:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:06:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:06:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:06:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:06:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:06:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:06:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:06:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:06:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:06:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:06:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:06:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:06:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:06:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:06:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:06:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:06:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:06:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:06:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:06:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:06:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:06:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:06:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:06:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:07:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:07:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:07:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:07:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:07:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:07:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:07:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:07:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:07:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:07:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:07:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:07:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:07:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:07:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:07:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:07:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:07:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:07:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:07:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:07:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:07:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:07:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:07:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:07:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:07:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:08:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:08:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:08:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:08:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:08:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:08:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:08:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:08:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:08:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:08:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:08:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:08:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:08:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:08:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:08:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:08:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:08:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:08:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:08:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:08:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:08:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:08:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:08:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:08:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:08:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:09:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:09:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:09:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:09:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:09:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:09:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:09:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:09:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:09:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:09:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:09:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:09:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:09:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:09:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:09:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:09:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:09:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:09:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:09:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:09:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:09:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:09:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:09:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:09:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:09:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:10:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:10:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:10:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:10:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:10:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:10:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:10:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:10:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:10:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:10:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:10:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:10:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:10:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:10:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:10:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:10:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:10:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:10:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:10:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:10:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:10:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:10:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:10:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:10:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:10:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:11:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:11:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:11:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:11:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:11:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:11:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:11:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:11:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:11:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:11:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:11:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:11:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:11:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:11:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:11:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:11:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:11:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:11:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:11:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:11:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:11:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:11:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:11:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:11:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:11:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:12:40+00:00   skip PROV: market cap 113M below floor
+2026-10-23T17:12:40+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:12:40+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:12:40+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:12:40+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:12:40+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:12:40+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:12:40+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:12:40+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:12:40+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:12:40+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:12:40+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:12:40+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:12:40+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:12:40+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:12:40+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:12:40+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:12:40+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:12:40+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:12:40+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:12:40+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:12:40+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:12:40+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:12:40+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:12:40+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:12:40+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:13:40+00:00   skip PROV: market cap 113M below floor
+2026-10-23T17:13:40+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:13:40+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:13:40+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:13:40+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:13:40+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:13:40+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:13:40+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:13:40+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:13:40+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:13:40+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:13:40+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:13:40+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:13:40+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:13:40+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:13:40+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:13:40+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:13:40+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:13:40+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:13:40+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:13:40+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:13:40+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:13:40+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:13:40+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:13:40+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:13:40+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:14:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:14:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:14:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:14:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:14:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:14:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:14:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:14:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:14:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:14:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:14:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:14:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:14:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:14:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:14:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:14:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:14:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:14:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:14:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:14:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:14:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:14:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:14:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:14:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:14:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:15:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:15:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:15:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:15:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:15:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:15:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:15:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:15:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:15:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:15:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:15:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:15:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:15:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:15:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:15:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:15:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:15:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:15:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:15:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:15:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:15:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:15:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:15:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:15:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:15:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:16:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:16:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:16:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:16:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:16:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:16:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:16:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:16:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:16:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:16:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:16:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:16:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:16:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:16:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:16:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:16:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:16:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:16:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:16:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:16:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:16:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:16:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:16:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:16:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:16:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:17:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:17:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:17:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:17:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:17:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:17:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:17:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:17:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:17:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:17:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:17:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:17:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:17:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:17:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:17:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:17:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:17:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:17:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:17:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:17:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:17:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:17:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:17:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:17:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:17:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:18:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:18:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:18:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:18:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:18:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:18:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:18:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:18:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:18:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:18:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:18:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:18:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:18:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:18:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:18:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:18:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:18:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:18:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:18:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:18:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:18:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:18:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:18:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:18:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:18:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:19:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:19:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:19:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:19:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:19:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:19:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:19:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:19:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:19:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:19:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:19:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:19:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:19:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:19:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:19:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:19:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:19:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:19:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:19:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:19:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:19:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:19:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:19:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:19:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:19:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:20:40+00:00   news pulled GM (weight 2): QUICK SPARK: GM Stock Heads for Worst Week Since 2023 Despite $20 Billion Buyback
+2026-10-23T17:20:40+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:20:40+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:20:40+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:20:40+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:20:40+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:20:40+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:20:40+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:20:40+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:20:40+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:20:40+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:20:40+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:20:40+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:20:40+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:20:40+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:20:40+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:20:40+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:20:40+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:20:40+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:20:40+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:20:40+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:20:40+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:20:40+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:20:40+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:20:40+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:20:40+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:21:39+00:00   news skip GM: already judged on an earlier run
+2026-10-23T17:21:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:21:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:21:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:21:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:21:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:21:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:21:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:21:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:21:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:21:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:21:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:21:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:21:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:21:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:21:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:21:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:21:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:21:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:21:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:21:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:21:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:21:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:21:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:21:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:21:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:22:39+00:00   news skip GM: already judged on an earlier run
+2026-10-23T17:22:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:22:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:22:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:22:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:22:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:22:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:22:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:22:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:22:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:22:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:22:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:22:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:22:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:22:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:22:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:22:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:22:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:22:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:22:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:22:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:22:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:22:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:22:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:22:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:22:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:23:39+00:00   news skip GM: already judged on an earlier run
+2026-10-23T17:23:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:23:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:23:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:23:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:23:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:23:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:23:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:23:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:23:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:23:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:23:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:23:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:23:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:23:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:23:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:23:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:23:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:23:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:23:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:23:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:23:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:23:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:23:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:23:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:23:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:24:39+00:00   news skip GM: already judged on an earlier run
+2026-10-23T17:24:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:24:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:24:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:24:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:24:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:24:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:24:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:24:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:24:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:24:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:24:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:24:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:24:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:24:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:24:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:24:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:24:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:24:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:24:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:24:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:24:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:24:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:24:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:24:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:24:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:25:41+00:00   news skip GM: already judged on an earlier run
+2026-10-23T17:25:41+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:25:41+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:25:41+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:25:41+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:25:41+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:25:41+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:25:41+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:25:41+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:25:41+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:25:41+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:25:41+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:25:41+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:25:41+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:25:41+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:25:41+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:25:41+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:25:41+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:25:41+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:25:41+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:25:41+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:25:41+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:25:41+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:25:41+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:25:41+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:25:41+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:26:40+00:00   skip PRXA: no price at Alpaca, so it cannot be paper traded
+2026-10-23T17:26:40+00:00   news skip GM: already judged on an earlier run
+2026-10-23T17:26:40+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:26:40+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:26:40+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:26:40+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:26:40+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:26:40+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:26:40+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:26:40+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:26:40+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:26:40+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:26:40+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:26:40+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:26:40+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:26:40+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:26:40+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:26:40+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:26:40+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:26:40+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:26:40+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:26:40+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:26:40+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:26:40+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:26:40+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:26:40+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:26:40+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:27:39+00:00   news skip GM: already judged on an earlier run
+2026-10-23T17:27:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:27:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:27:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:27:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:27:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:27:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:27:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:27:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:27:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:27:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:27:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:27:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:27:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:27:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:27:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:27:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:27:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:27:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:27:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:27:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:27:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:27:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:27:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:27:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:27:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:28:39+00:00   news skip GM: already judged on an earlier run
+2026-10-23T17:28:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:28:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:28:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:28:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:28:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:28:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:28:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:28:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:28:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:28:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:28:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:28:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:28:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:28:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:28:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:28:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:28:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:28:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:28:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:28:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:28:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:28:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:28:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:28:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:28:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:29:39+00:00   news skip GM: already judged on an earlier run
+2026-10-23T17:29:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:29:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:29:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:29:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:29:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:29:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:29:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:29:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:29:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:29:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:29:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:29:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:29:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:29:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:29:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:29:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:29:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:29:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:29:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:29:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:29:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:29:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:29:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:29:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:29:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:30:42+00:00   news skip GM: already judged on an earlier run
+2026-10-23T17:30:42+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:30:42+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:30:42+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:30:42+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:30:42+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:30:42+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:30:42+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:30:42+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:30:42+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:30:42+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:30:42+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:30:42+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:30:42+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:30:42+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:30:42+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:30:42+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:30:42+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:30:42+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:30:42+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:30:42+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:30:42+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:30:42+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:30:42+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:30:42+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:30:42+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:31:39+00:00   news skip GM: already judged on an earlier run
+2026-10-23T17:31:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:31:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:31:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:31:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:31:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:31:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:31:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:31:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:31:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:31:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:31:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:31:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:31:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:31:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:31:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:31:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:31:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:31:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:31:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:31:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:31:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:31:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:31:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:31:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:31:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:32:39+00:00   news skip GM: already judged on an earlier run
+2026-10-23T17:32:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:32:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:32:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:32:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:32:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:32:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:32:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:32:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:32:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:32:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:32:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:32:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:32:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:32:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:32:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:32:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:32:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:32:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:32:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:32:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:32:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:32:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:32:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:32:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:32:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:33:39+00:00   news skip GM: already judged on an earlier run
+2026-10-23T17:33:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:33:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:33:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:33:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:33:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:33:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:33:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:33:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:33:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:33:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:33:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:33:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:33:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:33:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:33:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:33:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:33:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:33:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:33:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:33:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:33:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:33:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:33:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:33:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:33:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:34:39+00:00   news skip GM: already judged on an earlier run
+2026-10-23T17:34:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:34:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:34:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:34:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:34:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:34:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:34:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:34:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:34:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:34:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:34:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:34:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:34:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:34:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:34:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:34:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:34:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:34:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:34:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:34:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:34:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:34:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:34:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:34:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:34:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:35:39+00:00   news skip GM: already judged on an earlier run
+2026-10-23T17:35:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:35:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:35:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:35:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:35:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:35:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:35:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:35:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:35:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:35:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:35:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:35:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:35:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:35:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:35:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:35:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:35:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:35:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:35:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:35:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:35:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:35:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:35:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:35:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:35:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:36:39+00:00   news skip GM: already judged on an earlier run
+2026-10-23T17:36:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:36:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:36:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:36:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:36:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:36:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:36:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:36:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:36:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:36:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:36:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:36:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:36:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:36:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:36:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:36:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:36:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:36:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:36:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:36:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:36:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:36:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:36:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:36:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:36:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:37:39+00:00   news skip GM: already judged on an earlier run
+2026-10-23T17:37:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:37:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:37:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:37:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:37:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:37:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:37:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:37:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:37:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:37:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:37:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:37:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:37:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:37:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:37:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:37:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:37:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:37:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:37:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:37:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:37:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:37:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:37:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:37:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:37:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:38:39+00:00   news skip GM: already judged on an earlier run
+2026-10-23T17:38:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:38:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:38:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:38:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:38:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:38:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:38:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:38:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:38:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:38:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:38:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:38:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:38:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:38:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:38:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:38:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:38:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:38:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:38:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:38:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:38:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:38:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:38:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:38:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:38:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:39:39+00:00   news skip GM: already judged on an earlier run
+2026-10-23T17:39:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:39:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:39:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:39:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:39:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:39:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:39:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:39:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:39:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:39:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:39:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:39:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:39:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:39:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:39:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:39:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:39:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:39:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:39:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:39:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:39:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:39:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:39:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:39:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:39:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:40:39+00:00   news skip GM: already judged on an earlier run
+2026-10-23T17:40:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:40:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:40:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:40:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:40:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:40:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:40:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:40:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:40:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:40:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:40:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:40:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:40:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:40:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:40:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:40:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:40:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:40:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:40:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:40:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:40:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:40:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:40:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:40:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:40:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:41:39+00:00   news skip GM: already judged on an earlier run
+2026-10-23T17:41:39+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:41:39+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:41:39+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:41:39+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:41:39+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:41:39+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:41:39+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:41:39+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:41:39+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:41:39+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:41:39+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:41:39+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:41:39+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:41:39+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:41:39+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:41:39+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:41:39+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:41:39+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:41:39+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:41:39+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:41:39+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:41:39+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:41:39+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:41:39+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:41:39+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:42:41+00:00   pulled IONS: items 7.01, 8.01
+2026-10-23T17:42:41+00:00   news skip GM: already judged on an earlier run
+2026-10-23T17:42:41+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:42:41+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:42:41+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:42:41+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:42:41+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:42:41+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:42:41+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:42:41+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:42:41+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:42:41+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:42:41+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:42:41+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:42:41+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:42:41+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:42:41+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:42:41+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:42:41+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:42:41+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:42:41+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:42:41+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:42:41+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:42:41+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:42:41+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:42:41+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:42:41+00:00   news skip SPCX: the crew judged this company in the last 3 days
+2026-10-23T17:42:59+00:00 start: 1500 headlines of history, watching from 2026-10-23T17:42:38+00:00
+2026-10-23T17:43:11+00:00   skip IONS: already judged on an earlier night
+2026-10-23T17:43:11+00:00   news skip GM: already judged on an earlier run
+2026-10-23T17:43:11+00:00   news skip TSCO: already judged on an earlier run
+2026-10-23T17:43:11+00:00   news skip TM: already judged on an earlier run
+2026-10-23T17:43:11+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-23T17:43:11+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-23T17:43:11+00:00   news skip AAL: already judged on an earlier run
+2026-10-23T17:43:11+00:00   news skip CRH: already judged on an earlier run
+2026-10-23T17:43:11+00:00   news skip RSG: already judged on an earlier run
+2026-10-23T17:43:11+00:00   news skip TGTX: already judged on an earlier run
+2026-10-23T17:43:11+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-23T17:43:11+00:00   news skip DEO: already judged on an earlier run
+2026-10-23T17:43:11+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-23T17:43:11+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-23T17:43:11+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-23T17:43:11+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-23T17:43:11+00:00   news skip WCC: already judged on an earlier run
+2026-10-23T17:43:11+00:00   news skip ALSN: already judged on an earlier run
+2026-10-23T17:43:11+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-23T17:43:11+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-23T17:43:11+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-23T17:43:11+00:00   news skip NSC: already judged on an earlier run
+2026-10-23T17:43:11+00:00   news skip NDSN: already judged on an earlier run
+2026-10-23T17:43:11+00:00   news skip WAT: already judged on an earlier run
+2026-10-23T17:43:11+00:00   news skip ORIC: the crew judged this company in the last 3 days
+2026-10-23T17:43:11+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-23T17:43:11+00:00   news skip SPCX: the crew judged this company in the last 3 days

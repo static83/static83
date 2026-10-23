@@ -1,0 +1,60 @@
+[
+  {
+    "case": 1,
+    "ticker": "IONS",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Partner Roche's congress data on a royalty asset in a crowded disease; IONS -2.4% today",
+        "reasoning": [
+          "Primary source: 8-K items 7.01/8.01 filed 13:41 ET. Quoted: 'its partner, Roche, announced late-breaking oral presentation data from the ongoing Phase 3 IMAgINATION study in adults with primary IgA nephropathy ... sefaxersen achieved a statistically significant and clinically meaningful 43.1% reduction in proteinuria (95% CI: 32.5 - 52.0, P<0.0001), relative to placebo at 37 weeks'.",
+          "What changed: an interim surrogate-endpoint result (proteinuria at 37 weeks) presented at Kidney Week; the trial is 'ongoing', so the kidney-function readout that supports full approval is still to come. Roche develops and sells; Ionis's economics are milestones and royalties.",
+          "Context: IgA nephropathy already has several approved or late-stage drugs with proteinuria reductions in a similar range; 43% is competitive, not clearly differentiating.",
+          "Price: IONS 42.84 vs 43.91 (-2.4%) on the day; no positive reaction."
+        ],
+        "objections": [
+          "Interim surrogate data on a partnered royalty asset in a crowded indication; no positive reaction."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "IONS: no trade. Sefaxersen cut proteinuria 43% in IgAN (Roche's trial); IONS -2.4%",
+        "reasoning": [
+          "Phase 3 IMAgINATION interim: -43.1% UPCR vs placebo at 37 weeks; ongoing study.",
+          "Another conference readout that did not lift its stock (ESMO and Kidney Week this week).",
+          "Check later: IONS 5-day return."
+        ],
+        "objections": [
+          "Interim surrogate data on a partnered royalty asset in a crowded indication; no positive reaction."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

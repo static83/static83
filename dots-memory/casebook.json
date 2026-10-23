@@ -81,7 +81,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.1435,
+        "raw": -0.1514,
         "thesis": null
       }
     },
@@ -113,7 +113,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0801,
+        "raw": 0.0817,
         "thesis": null
       }
     },
@@ -144,7 +144,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.037,
+        "raw": -0.0647,
         "thesis": null
       }
     },
@@ -175,7 +175,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0195,
+        "raw": 0.012,
         "thesis": null
       }
     },
@@ -237,7 +237,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0742,
+        "raw": 0.0799,
         "thesis": null
       }
     },
@@ -268,7 +268,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0374,
+        "raw": -0.0365,
         "thesis": null
       }
     },
@@ -361,7 +361,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0759,
+        "raw": -0.0771,
         "thesis": null
       }
     },
@@ -392,7 +392,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0391,
+        "raw": 0.0365,
         "thesis": null
       }
     },
@@ -423,8 +423,8 @@
         "thesis": -0.0587
       },
       "5": {
-        "raw": -0.0881,
-        "thesis": -0.0881
+        "raw": -0.0927,
+        "thesis": -0.0927
       }
     },
     "first_exit": null
@@ -454,7 +454,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.021,
+        "raw": 0.0213,
         "thesis": null
       }
     },
@@ -519,8 +519,8 @@
         "thesis": -0.0587
       },
       "5": {
-        "raw": -0.0881,
-        "thesis": -0.0881
+        "raw": -0.0927,
+        "thesis": -0.0927
       }
     },
     "first_exit": null
@@ -551,7 +551,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.021,
+        "raw": 0.0213,
         "thesis": null
       }
     },
@@ -615,7 +615,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.097,
+        "raw": -0.0956,
         "thesis": null
       }
     },
@@ -647,7 +647,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0145,
+        "raw": -0.0193,
         "thesis": null
       }
     },
@@ -679,7 +679,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0287,
+        "raw": -0.0348,
         "thesis": null
       }
     },
@@ -711,7 +711,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0904,
+        "raw": 0.1004,
         "thesis": null
       }
     },
@@ -743,8 +743,8 @@
         "thesis": -0.0088
       },
       "5": {
-        "raw": 0.04,
-        "thesis": 0.04
+        "raw": 0.0404,
+        "thesis": 0.0404
       }
     },
     "first_exit": null
@@ -775,7 +775,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0063,
+        "raw": -0.0089,
         "thesis": null
       }
     },
@@ -807,7 +807,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0197,
+        "raw": 0.0147,
         "thesis": null
       }
     },
@@ -839,7 +839,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0262,
+        "raw": 0.0317,
         "thesis": null
       }
     },
@@ -871,7 +871,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0089,
+        "raw": -0.0063,
         "thesis": null
       }
     },
@@ -903,7 +903,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0277,
+        "raw": 0.022,
         "thesis": null
       }
     },
@@ -935,7 +935,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0068,
+        "raw": -0.0059,
         "thesis": null
       }
     },
@@ -967,7 +967,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0267,
+        "raw": -0.0288,
         "thesis": null
       }
     },
@@ -999,7 +999,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.001,
+        "raw": 0.0007,
         "thesis": null
       }
     },
@@ -1031,7 +1031,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0392,
+        "raw": 0.0368,
         "thesis": null
       }
     },
@@ -1063,8 +1063,8 @@
         "thesis": 0.1042
       },
       "5": {
-        "raw": -0.1464,
-        "thesis": 0.1464
+        "raw": -0.1563,
+        "thesis": 0.1563
       }
     },
     "first_exit": null
@@ -2052,7 +2052,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0249,
+        "raw": 0.0268,
         "thesis": null
       }
     },
@@ -2081,7 +2081,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0036,
+        "raw": 0.0072,
         "thesis": null
       }
     },
@@ -2110,7 +2110,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0475,
+        "raw": -0.066,
         "thesis": null
       }
     },
@@ -2139,7 +2139,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0113,
+        "raw": -0.0161,
         "thesis": null
       }
     },
@@ -2197,7 +2197,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.001,
+        "raw": -0.0016,
         "thesis": null
       }
     },
@@ -2255,7 +2255,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0027,
+        "raw": -0.0084,
         "thesis": null
       }
     },
@@ -2284,7 +2284,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0026,
+        "raw": -0.0004,
         "thesis": null
       }
     },
@@ -2315,7 +2315,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0255,
+        "raw": 0.0292,
         "thesis": null
       }
     },
@@ -2344,7 +2344,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0144,
+        "raw": 0.0114,
         "thesis": null
       }
     },
@@ -2373,7 +2373,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0178,
+        "raw": 0.0239,
         "thesis": null
       }
     },
@@ -2402,7 +2402,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.1202,
+        "raw": 0.133,
         "thesis": null
       }
     },
@@ -2431,8 +2431,8 @@
     "order_id": "99d03361-ee9e-4430-badd-f09a50e91319",
     "returns": {
       "1": {
-        "raw": -0.0351,
-        "thesis": 0.0351
+        "raw": -0.024,
+        "thesis": 0.024
       }
     },
     "first_exit": null
@@ -2663,6 +2663,30 @@
     "source_head": "[Benzinga news, 2026-10-23T16:44:46Z, by Benzinga Newsdesk] Novartis Announces Remibrutinib Lowers Annualized Relapse Rate By 35.2%, 31.2% In  Phase III REMODEL-1, REMODEL-2 Studies To Treat Relapsing Multiple Sclerosis\n\n\n[Other material headlines on this company in the window]\n- 2026-10-23T11:53:33Z Novartis Announces Its Data From Phase III NATALEE Study Demonstrates Kisqali Eliminates Risk Of Death By ~20% In Patients With Stage II And III HR+/Her2- Early Breast Cancer",
     "decided_at": "2026-10-23T16:49:14.809135+00:00",
     "price_at_decision": 151.39,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261023-1742-01-IONS": {
+    "key": "20261023-1742-01-IONS",
+    "night": "20261023-1742",
+    "ticker": "IONS",
+    "accession": "0001140361-26-040631",
+    "also_accessions": [],
+    "filed_at": "2026-10-23T13:41:58-04:00",
+    "source_head": "Item 7.01 Regulation FD Disclosure. On October 23, 2026, Ionis Pharmaceuticals, Inc. (\u201c Ionis \u201d) issued a press release reporting that its partner, Roche, announced late-breaking oral presentation data from the ongoing Phase 3 IMAgINATION study in adults with primary IgA nephropathy (\u201c IgAN \u201d) receiving optimized standard of care, demonstrating that investigational sefaxersen achieved a statistically significant and clinically meaningful 43.1% reduction in proteinuria (95% confidence interval [CI]: 32.5 - 52.0, P<0.0001), relative to placebo at 37 weeks, as measured by 24-hour urine protein-to",
+    "decided_at": "2026-10-23T17:43:43.029048+00:00",
+    "price_at_decision": 42.765,
     "outcome": "no_trade",
     "ended_by": "SCOUT",
     "rounds": 1,
