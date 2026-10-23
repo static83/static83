@@ -1,0 +1,18 @@
+[
+  {
+    "ticker": "VRTX",
+    "company": "VERTEX PHARMACEUTICALS INC / MA",
+    "cik": "875320",
+    "accession": "news:62569798",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-23T17:43:13Z",
+    "url": "https://www.benzinga.com/news/26/10/62569798/phase-3-rainier-results-supporting-potential-of-povetacicept-in-iga-nephropathy-published-in-the-new-england-journal-of-medicine-vertexs-povetacicept-shows-49-8-greater-proteinuria-reduction",
+    "source_excerpt": "[Benzinga news, 2026-10-23T17:43:13Z, by Benzinga News-desk] Vertex Pharmaceuticals Announces Phase 3 RAINIER Results Supporting Potential Of Povetacicept In IgA Nephropathy Published In The New England Journal Of Medicine; Vertex\u2019s Povetacicept Shows 49.8% Greater Proteinuria Reduction vs. Placebo In Phase 3 IgAN Trial; FDA Decision Expected November 30\n\n",
+    "market_cap_usd": 133129083026.38,
+    "last_price": 525.245,
+    "also_accessions": [],
+    "weight": 3
+  }
+]

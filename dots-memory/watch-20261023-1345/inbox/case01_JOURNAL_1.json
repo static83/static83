@@ -1,0 +1,5 @@
+{"role":"JOURNAL","verdict":"agree","headline":"VRTX: no trade. NEJM paper on RAINIER (-49.8% proteinuria vs placebo); FDA decision Nov 30",
+"reasoning":["Peer-reviewed publication of interim Phase 3 data already in an FDA filing.",
+"Filter gap: a headline that results were 'published in' a journal is a publication of known data; now capped at weight 1. Fixed after this alert.",
+"Check later: the Nov 30 FDA decision would be a new case (a binary event the crew could judge on the day)."],
+"objections":["Publication of previously announced Phase 3 results; no reaction."]}
