@@ -1,0 +1,159 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 3,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": [
+        "LKQ"
+      ]
+    },
+    "filing": {
+      "ticker": "BHF",
+      "company": "Brighthouse Financial, Inc.",
+      "cik": "1685040",
+      "accession": "news:103157543",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-23T22:02:09Z",
+      "url": "https://insurancenewsnet.com/oarticle/have-you-owned-a-brighthouse-life-insurance-policy-you-may-qualify-for-a-settlement-payment",
+      "source_excerpt": "[Benzinga news, 2026-10-23T22:02:09Z, by staff] Notice of Potential Settlement Payment for Brighthouse Life Insurance Policyholders\nA legal notice has been issued regarding potential settlement payments available to individuals who have owned a Brighthouse life insurance policy.\nA notification has been released regarding a potential settlement payment for individuals who have held a life insurance policy issued by Brighthouse. The notice informs policyholders that they may qualify for compensation related to their policy ownership. Further details regarding the eligibility criteria and the settlement process are directed toward those who have maintained such coverage. The announcement serves as a formal alert for potentially affected customers to review their eligibility for the settlement.",
+      "market_cap_usd": 2612750307.09,
+      "last_price": 45.43,
+      "also_accessions": [],
+      "weight": 2
+    },
+    "market": {
+      "quote": {
+        "ap": 47.91,
+        "as": 100,
+        "ax": "V",
+        "bp": 43.17,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-23T20:00:00.020777362Z",
+        "z": "C"
+      },
+      "extended_hours": {
+        "session": "after-hours",
+        "reference_close": 45.43,
+        "trades_seen": false,
+        "note": "no extended-hours trades on the IEX feed yet"
+      },
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.45,
+        "max_gap_pct": 1.48
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 255.2684,
+        "slippage_usd": 2.4525,
+        "spread_pct": 10.408
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 82 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 5 case(s) with a thesis. Five days later the thesis averaged -1.6%, right 2 of 5 times. Positive means this gate is stopping trades that would have worked. Only 5 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Still open: LKQ (pending).",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "MRNA",
+          "night": "20261024-0218",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "VRTX",
+          "night": "20261023-1746",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "IONS",
+          "night": "20261023-1742",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "NVS",
+          "night": "20261023-1648",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CRSP",
+          "night": "20261023-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ORIC",
+          "night": "20261023-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "JAZZ",
+          "night": "20261023-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BANF",
+          "night": "20261023-1532",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 94
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

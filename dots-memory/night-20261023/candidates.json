@@ -1,0 +1,50 @@
+[
+  {
+    "ticker": "MRNA",
+    "company": "Moderna, Inc.",
+    "cik": "1682852",
+    "accession": "news:103332220",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-24T02:01:53Z",
+    "url": "https://www.morningstar.com/news/marketwatch/20261023151/the-real-test-for-modernas-cancer-vaccine-isnt-about-beating-keytruda-its-keeping-cancer-from-coming-back-in-the-long-term",
+    "source_excerpt": "[Benzinga news, 2026-10-24T02:01:53Z, by staff] Moderna and Merck Release Phase 3 Data for Cancer Vaccine Candidate Intismeran Autogene\nModerna and Merck released Phase 3 trial results for their investigational mRNA cancer vaccine, intismeran autogene, following an embargo breach.\nModerna and Merck released topline results from the Phase 3 INTerpath-001 trial evaluating intismeran autogene, an investigational individualized mRNA cancer therapy, in combination with KEYTRUDA for patients with resected stage IIB-IV melanoma. The data showed that the combination therapy reduced the risk of cancer recurrence or death by 42% compared to KEYTRUDA alone after approximately two years. The results were released early due to an embargo breach by the European Society for Medical Oncology (ESMO). While the clinical data indicates a meaningful advance, the unexpected release led to significant volatility in Moderna's stock price.",
+    "market_cap_usd": 79897082286.125,
+    "last_price": 200.125,
+    "also_accessions": [],
+    "weight": 3
+  },
+  {
+    "ticker": "ICE",
+    "company": "Intercontinental Exchange, Inc.",
+    "cik": "1571949",
+    "accession": "news:103332219",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-24T02:01:53Z",
+    "url": "https://www.marketscreener.com/news/marketaxess-says-shareholder-complaints-over-planned-intercontinental-exchange-merger-without-merit-ce785cdfdc8dfe22",
+    "source_excerpt": "[Benzinga news, 2026-10-24T02:01:53Z, by staff] MarketAxess Addresses Shareholder Complaints Regarding Planned ICE Merger\nMarketAxess has publicly dismissed shareholder complaints concerning its planned merger with Intercontinental Exchange as being without merit.\nMarketAxess Holdings Inc. has stated that shareholder complaints regarding its planned merger with Intercontinental Exchange (ICE) are \"without merit.\" The statement follows reports of formal objections raised by shareholders concerning the acquisition. The merger remains a significant pending transaction involving ICE's strategic expansion.",
+    "market_cap_usd": 91341690007.335,
+    "last_price": 162.705,
+    "also_accessions": [],
+    "weight": 2
+  },
+  {
+    "ticker": "BHF",
+    "company": "Brighthouse Financial, Inc.",
+    "cik": "1685040",
+    "accession": "news:103157543",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-23T22:02:09Z",
+    "url": "https://insurancenewsnet.com/oarticle/have-you-owned-a-brighthouse-life-insurance-policy-you-may-qualify-for-a-settlement-payment",
+    "source_excerpt": "[Benzinga news, 2026-10-23T22:02:09Z, by staff] Notice of Potential Settlement Payment for Brighthouse Life Insurance Policyholders\nA legal notice has been issued regarding potential settlement payments available to individuals who have owned a Brighthouse life insurance policy.\nA notification has been released regarding a potential settlement payment for individuals who have held a life insurance policy issued by Brighthouse. The notice informs policyholders that they may qualify for compensation related to their policy ownership. Further details regarding the eligibility criteria and the settlement process are directed toward those who have maintained such coverage. The announcement serves as a formal alert for potentially affected customers to review their eligibility for the settlement.",
+    "market_cap_usd": 2612750307.09,
+    "last_price": 45.43,
+    "also_accessions": [],
+    "weight": 2
+  }
+]

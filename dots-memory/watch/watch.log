@@ -29921,3 +29921,79 @@
 2026-10-23T20:00:04+00:00   news skip WAT: already judged on an earlier run
 2026-10-23T20:00:04+00:00   news skip ORIC: the crew judged this company in the last 3 days
 2026-10-23T20:00:04+00:00   news skip UWMC: the crew judged this company in the last 3 days
+2026-10-24T02:22:35+00:00   skip GWAV: market cap 2M below floor
+2026-10-24T02:22:37+00:00   skip INV: routine items only
+2026-10-24T02:22:39+00:00   skip ANDE: routine board or officer change, no top officer leaving or arriving
+2026-10-24T02:22:41+00:00   pulled CLYM: items 7.01, 8.01
+2026-10-24T02:22:43+00:00   skip EDSA: routine pay or award filing, no top officer leaving or arriving
+2026-10-24T02:22:46+00:00   skip XXII: market cap 0M below floor
+2026-10-24T02:22:48+00:00   skip AZIO: market cap 16M below floor
+2026-10-24T02:22:50+00:00   skip HCTI: routine items only
+2026-10-24T02:22:51+00:00   skip HLSQ: routine board or officer change, no top officer leaving or arriving
+2026-10-24T02:22:53+00:00   skip AMSS: market cap 4M below floor
+2026-10-24T02:22:54+00:00   skip XPON: routine items only
+2026-10-24T02:22:55+00:00   skip CGC: routine items only
+2026-10-24T02:22:57+00:00   skip TRAW: market cap 5M below floor
+2026-10-24T02:22:58+00:00   skip RMXI: no price at Alpaca, so it cannot be paper traded
+2026-10-24T02:23:00+00:00   skip TGL: market cap 1M below floor
+2026-10-24T02:23:02+00:00   skip MDCX: market cap 167M below floor
+2026-10-24T02:23:05+00:00   pulled WULF: items 1.01
+2026-10-24T02:23:07+00:00   skip SBMT: market cap 191M below floor
+2026-10-24T02:23:09+00:00   skip PINE: market cap 289M below floor
+2026-10-24T02:23:11+00:00   skip XPON: market cap 4M below floor
+2026-10-24T02:23:13+00:00   pulled RIG: items 8.01
+2026-10-24T02:23:15+00:00   skip PREM: no price at Alpaca, so it cannot be paper traded
+2026-10-24T02:23:18+00:00   skip CPIX: market cap 129M below floor
+2026-10-24T02:23:20+00:00   skip GRDX: routine board or officer change, no top officer leaving or arriving
+2026-10-24T02:23:21+00:00   skip PHAT: already traded: on Oct 23 it opened -4% and closed -18% on 4.7x normal volume
+2026-10-24T02:23:23+00:00   pulled VAL: items 8.01
+2026-10-24T02:23:25+00:00   skip APCX: no price at Alpaca, so it cannot be paper traded
+2026-10-24T02:23:27+00:00   pulled INSW: items 1.01
+2026-10-24T02:23:27+00:00   news pulled CRWD (weight 1): SailPoint Expands Partnership with CrowdStrike for Identity Intelligence Integration
+2026-10-24T02:23:27+00:00   news skip MRNA: the crew judged this company in the last 3 days
+2026-10-24T02:23:27+00:00   news skip LMT: the crew judged this company in the last 3 days
+2026-10-24T02:23:27+00:00   news skip MRK: the crew judged this company in the last 3 days
+2026-10-24T02:23:28+00:00   news skip PERF: no share count on file at the SEC
+2026-10-24T02:23:28+00:00   news skip VRTX: the crew judged this company in the last 3 days
+2026-10-24T02:23:28+00:00   news skip TNMG: market cap 9M below floor
+2026-10-24T02:23:29+00:00   news skip TSLA: already public: Benzinga 'Elon Musk's Tesla-SpaceX Merger Could Face Antitrust Hurdles Over Star' at Oct 23 11:58 ET, and a full session has traded since
+2026-10-24T02:23:29+00:00   news skip GCTK: market cap 4M below floor
+2026-10-24T02:23:29+00:00   news skip IMMP: too thinly traded: about $503 a day on the IEX feed
+2026-10-24T02:23:30+00:00   news pulled PII (weight 1): Polaris Expands Call of Duty Collaboration with In-Game DAGOR Vehicle
+2026-10-24T02:23:30+00:00   news pulled PENG (weight 1): Penguin Solutions Shares Rise Amid Takeover Speculation
+2026-10-24T02:23:31+00:00   news pulled TNL (weight 2): Travel + Leisure Co. Acquires The Cedars Ranch in Texas
+2026-10-24T02:23:31+00:00   news pulled ESTC (weight 1): Elastic Announces Multi-Year Partnership with Audi Revolut F1 Team
+2026-10-24T02:23:31+00:00   news skip FWONA: no share count on file at the SEC
+2026-10-24T02:23:32+00:00   news pulled CRCL (weight 2): Circle Shareholder Files Derivative Lawsuit Against Trump and World Liberty Financial
+2026-10-24T02:23:33+00:00   news pulled RL (weight 2): Ralph Lauren and Other Major Companies File Lawsuit Against UnitedHealthcare Over 'Cross-P
+2026-10-24T02:23:33+00:00   news skip TTMI: already in play before the first report: on 2026-10-22 it closed -28% on 4.5x normal volume
+2026-10-24T02:23:34+00:00   news skip CATX: market cap 183M below floor
+2026-10-24T02:23:34+00:00   news skip IHRT: market cap 9M below floor
+2026-10-24T02:23:35+00:00   news skip KYTX: already public: Benzinga 'Kyverna Therapeutics Presents Updated Results From Its Phase 1 Trial O' at Oct 23 10:31 ET, and a full session has traded since
+2026-10-24T02:23:35+00:00   news pulled GDRX (weight 2): California Court Preliminarily Approves $32 Million GoodRx Privacy Settlement
+2026-10-24T02:23:36+00:00   news skip NSC: already public: Benzinga 'Union Pacific and Norfolk Southern CEOs Address Rival Railroads' Merge' at Oct 23 09:32 ET, and a full session has traded since
+2026-10-24T02:23:36+00:00   news pulled PUBM (weight 1): PubMatic Reports Q2 Earnings and Guidance Beat
+2026-10-24T02:23:36+00:00   news pulled CTS (weight 1): CTS Corporation Completes Acquisition of Millar Holdings, Inc.
+2026-10-24T02:23:37+00:00   news pulled ABX (weight 1): GFG Resources Inc. Closes Financing and Highlights Partnership with Barrick
+2026-10-24T02:23:37+00:00   news skip AMSS: market cap 4M below floor
+2026-10-24T02:23:37+00:00   news skip CIRC: market cap 32M below floor
+2026-10-24T02:23:38+00:00   news pulled META (weight 2): 'Meta acquires AI data platform Sundial'- Axios
+2026-10-24T02:23:38+00:00   news skip ABBV: the crew judged this company in the last 3 days
+2026-10-24T02:23:38+00:00   news skip MMT: no share count on file at the SEC
+2026-10-24T02:23:39+00:00   news pulled WYNN (weight 1): Wynn Macau Enters Subscription Agreement, Commits Up To MOP1.365 Billion To Macau Governme
+2026-10-24T02:23:39+00:00   news pulled PURR (weight 2): Hyperliquid Strategies Announces Increase In Buyback Plan From $30M To $100M Through 2027 
+2026-10-24T02:23:39+00:00   news skip OPAD: market cap 12M below floor
+2026-10-24T02:23:40+00:00   news skip CPIX: market cap 129M below floor
+2026-10-24T02:23:40+00:00   news skip ELME: market cap 157M below floor
+2026-10-24T02:23:40+00:00   news skip NVO: no share count on file at the SEC
+2026-10-24T02:23:40+00:00   news skip UNP: the crew judged this company in the last 3 days
+2026-10-24T02:23:40+00:00   news skip NVS: the crew judged this company in the last 3 days
+2026-10-24T02:23:40+00:00   news skip CRSP: the crew judged this company in the last 3 days
+2026-10-24T02:23:40+00:00   news skip JAZZ: the crew judged this company in the last 3 days
+2026-10-24T02:23:40+00:00   news skip IOVA: the crew judged this company in the last 3 days
+2026-10-24T02:23:40+00:00   news skip ONC: the crew judged this company in the last 3 days
+2026-10-24T02:23:40+00:00   news skip ACA: the crew judged this company in the last 3 days
+2026-10-24T02:23:40+00:00   news skip AMR: the crew judged this company in the last 3 days
+2026-10-24T02:23:40+00:00   news skip IDYA: the crew judged this company in the last 3 days
+2026-10-24T02:23:40+00:00   news skip LKQ: the crew judged this company in the last 3 days
+2026-10-24T02:23:40+00:00   news skip 23 compan(ies) whose material news a full session has already traded

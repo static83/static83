@@ -1,0 +1,171 @@
+[
+  {
+    "case": 1,
+    "ticker": "MRNA",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Already traded: the INTerpath-001 data leaked on 10/22 and MRNA fell 17.5% that day",
+        "reasoning": [
+          "Source: Benzinga 02:01 UTC 10/24, relaying a MarketWatch piece dated 10/23: 'Moderna and Merck Release Phase 3 Data for Cancer Vaccine Candidate Intismeran Autogene'.",
+          "Quoted: 'The results were released early due to an embargo breach by the European Society for Medical Oncology (ESMO) ... the unexpected release led to significant volatility in Moderna's stock price.' The item itself says the market has already seen the data.",
+          "Daily bars: 10/21 close 245.94; 10/22 open 240.13, low 181.10, close 202.91 (-17.5%) on 1.47M shares, about 3x normal; 10/23 close 200.13 (-1.4%). Two full sessions have priced the 42% recurrence-risk reduction.",
+          "This is the first Benzinga item tagged MRNA in six days, so told_by_news had nothing earlier to match; the leak was reported elsewhere first."
+        ],
+        "objections": [
+          "Stale: the event broke on 10/22 and two sessions have traded it. Nothing new tonight."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "MRNA: no trade. The Phase 3 leak hit on 10/22 (-17.5%); tonight's item retells it",
+        "reasoning": [
+          "Filter gap: when the first report came from outside Benzinga (an ESMO embargo breach), the crew had no earlier headline to match, and moved_today looks at the current session only. A 10%+ day in the sessions just before the news now marks it as already traded. Fixed after this run.",
+          "Worth noting: a 42% cut in recurrence risk still sent the stock down 17.5%. 'Good data, stock falls' fits the conference-readout pattern already in the record."
+        ],
+        "objections": [
+          "Stale: priced by two full sessions before tonight."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "ICE",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A routine merger step: MarketAxess calls shareholder complaints about the ICE deal 'without merit'",
+        "reasoning": [
+          "Source: MarketScreener, relayed by Benzinga 02:01 UTC: 'MarketAxess Addresses Shareholder Complaints Regarding Planned ICE Merger'.",
+          "Quoted: 'shareholder complaints regarding its planned merger with Intercontinental Exchange (ICE) are \"without merit.\"' The deal terms are unchanged and nothing has been withdrawn.",
+          "Pre-vote disclosure complaints are routine on almost every public merger. For ICE, the buyer at a $91B market cap, this changes nothing."
+        ],
+        "objections": [
+          "No new information about either company; the deal's path is unchanged."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "ICE: no trade. Shareholder complaints about a pending merger are a routine deal step",
+        "reasoning": [
+          "Filter gap: shareholder complaints, merger suits and their dismissal are now among the routine merger steps. Fixed after this run.",
+          "Nothing to check later."
+        ],
+        "objections": [
+          "No change to the deal."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "BHF",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A class-member notice, not a new settlement: Brighthouse policyholders told they may qualify for a payment",
+        "reasoning": [
+          "Source: InsuranceNewsNet, relayed by Benzinga 22:02 UTC: 'Notice of Potential Settlement Payment for Brighthouse Life Insurance Policyholders'.",
+          "Quoted: 'The notice informs policyholders that they may qualify for compensation related to their policy ownership.' No amount, no court, no date. It is a claims-administration notice for a settlement already reached.",
+          "Any cost would already be reserved; the notice adds no figure to weigh against a $2.6B market cap."
+        ],
+        "objections": [
+          "No size and no new event. A consumer notice about a settlement already on the books."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "BHF: no trade. A 'you may qualify for a settlement payment' notice to class members",
+        "reasoning": [
+          "Filter gap: class-member notices ('you may qualify', 'settlement payment', 'notice of ... settlement') join the settlement filter. Fixed after this run.",
+          "Nothing to check later."
+        ],
+        "objections": [
+          "No size, no new event."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

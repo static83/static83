@@ -1,0 +1,159 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": [
+        "LKQ"
+      ]
+    },
+    "filing": {
+      "ticker": "MRNA",
+      "company": "Moderna, Inc.",
+      "cik": "1682852",
+      "accession": "news:103332220",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-24T02:01:53Z",
+      "url": "https://www.morningstar.com/news/marketwatch/20261023151/the-real-test-for-modernas-cancer-vaccine-isnt-about-beating-keytruda-its-keeping-cancer-from-coming-back-in-the-long-term",
+      "source_excerpt": "[Benzinga news, 2026-10-24T02:01:53Z, by staff] Moderna and Merck Release Phase 3 Data for Cancer Vaccine Candidate Intismeran Autogene\nModerna and Merck released Phase 3 trial results for their investigational mRNA cancer vaccine, intismeran autogene, following an embargo breach.\nModerna and Merck released topline results from the Phase 3 INTerpath-001 trial evaluating intismeran autogene, an investigational individualized mRNA cancer therapy, in combination with KEYTRUDA for patients with resected stage IIB-IV melanoma. The data showed that the combination therapy reduced the risk of cancer recurrence or death by 42% compared to KEYTRUDA alone after approximately two years. The results were released early due to an embargo breach by the European Society for Medical Oncology (ESMO). While the clinical data indicates a meaningful advance, the unexpected release led to significant volatility in Moderna's stock price.",
+      "market_cap_usd": 79897082286.125,
+      "last_price": 200.125,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "quote": {
+        "ap": 209.53,
+        "as": 100,
+        "ax": "V",
+        "bp": 189.2,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-23T20:00:00.017152905Z",
+        "z": "C"
+      },
+      "extended_hours": {
+        "session": "after-hours",
+        "reference_close": 200.125,
+        "trades_seen": false,
+        "note": "no extended-hours trades on the IEX feed yet"
+      },
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 1.52,
+        "max_gap_pct": 8.08
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 250.0922,
+        "slippage_usd": 2.4525,
+        "spread_pct": 10.197
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 81 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 5 case(s) with a thesis. Five days later the thesis averaged -1.6%, right 2 of 5 times. Positive means this gate is stopping trades that would have worked. Only 5 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Still open: LKQ (pending).",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "VRTX",
+          "night": "20261023-1746",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "IONS",
+          "night": "20261023-1742",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "NVS",
+          "night": "20261023-1648",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CRSP",
+          "night": "20261023-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ORIC",
+          "night": "20261023-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "JAZZ",
+          "night": "20261023-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BANF",
+          "night": "20261023-1532",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ONC",
+          "night": "20261023-1421",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 93
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

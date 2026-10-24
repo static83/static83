@@ -1,0 +1,4 @@
+{"role":"JOURNAL","verdict":"agree","headline":"BHF: no trade. A 'you may qualify for a settlement payment' notice to class members",
+"reasoning":["Filter gap: class-member notices ('you may qualify', 'settlement payment', 'notice of ... settlement') join the settlement filter. Fixed after this run.",
+"Nothing to check later."],
+"objections":["No size, no new event."]}

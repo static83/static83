@@ -1,0 +1,159 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 2,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": [
+        "LKQ"
+      ]
+    },
+    "filing": {
+      "ticker": "ICE",
+      "company": "Intercontinental Exchange, Inc.",
+      "cik": "1571949",
+      "accession": "news:103332219",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-24T02:01:53Z",
+      "url": "https://www.marketscreener.com/news/marketaxess-says-shareholder-complaints-over-planned-intercontinental-exchange-merger-without-merit-ce785cdfdc8dfe22",
+      "source_excerpt": "[Benzinga news, 2026-10-24T02:01:53Z, by staff] MarketAxess Addresses Shareholder Complaints Regarding Planned ICE Merger\nMarketAxess has publicly dismissed shareholder complaints concerning its planned merger with Intercontinental Exchange as being without merit.\nMarketAxess Holdings Inc. has stated that shareholder complaints regarding its planned merger with Intercontinental Exchange (ICE) are \"without merit.\" The statement follows reports of formal objections raised by shareholders concerning the acquisition. The merger remains a significant pending transaction involving ICE's strategic expansion.",
+      "market_cap_usd": 91341690007.335,
+      "last_price": 162.705,
+      "also_accessions": [],
+      "weight": 2
+    },
+    "market": {
+      "quote": {
+        "ap": 0,
+        "as": 0,
+        "ax": " ",
+        "bp": 149.01,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-23T20:00:02.686178294Z",
+        "z": "A"
+      },
+      "extended_hours": {
+        "session": "after-hours",
+        "reference_close": 162.705,
+        "trades_seen": false,
+        "note": "no extended-hours trades on the IEX feed yet"
+      },
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.46,
+        "max_gap_pct": 2.3
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 0.0,
+        "slippage_usd": 2.4525,
+        "spread_pct": 0.0
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 81 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 5 case(s) with a thesis. Five days later the thesis averaged -1.6%, right 2 of 5 times. Positive means this gate is stopping trades that would have worked. Only 5 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Still open: LKQ (pending).",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "VRTX",
+          "night": "20261023-1746",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "IONS",
+          "night": "20261023-1742",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "NVS",
+          "night": "20261023-1648",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CRSP",
+          "night": "20261023-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ORIC",
+          "night": "20261023-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "JAZZ",
+          "night": "20261023-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BANF",
+          "night": "20261023-1532",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ONC",
+          "night": "20261023-1421",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 93
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

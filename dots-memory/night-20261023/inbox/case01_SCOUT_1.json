@@ -1,0 +1,6 @@
+{"role":"SCOUT","verdict":"object","headline":"Already traded: the INTerpath-001 data leaked on 10/22 and MRNA fell 17.5% that day",
+"reasoning":["Source: Benzinga 02:01 UTC 10/24, relaying a MarketWatch piece dated 10/23: 'Moderna and Merck Release Phase 3 Data for Cancer Vaccine Candidate Intismeran Autogene'.",
+"Quoted: 'The results were released early due to an embargo breach by the European Society for Medical Oncology (ESMO) ... the unexpected release led to significant volatility in Moderna's stock price.' The item itself says the market has already seen the data.",
+"Daily bars: 10/21 close 245.94; 10/22 open 240.13, low 181.10, close 202.91 (-17.5%) on 1.47M shares, about 3x normal; 10/23 close 200.13 (-1.4%). Two full sessions have priced the 42% recurrence-risk reduction.",
+"This is the first Benzinga item tagged MRNA in six days, so told_by_news had nothing earlier to match; the leak was reported elsewhere first."],
+"objections":["Stale: the event broke on 10/22 and two sessions have traded it. Nothing new tonight."]}
