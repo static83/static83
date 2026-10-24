@@ -80,7 +80,8 @@ source with an official timestamp, so "pull the original source" is literal. Fil
 3. Not just the paperwork for news that is already public: a filing that says it completed, closed,
    settled or priced something "previously announced", a completed acquisition or sale the filing
    says was previously disclosed, a routine step on a previously disclosed merger (waiting period,
-   regulatory approval, shareholder vote; amended terms still count as news), the closing of a bond
+   regulatory approval, shareholder vote, shareholder complaints about the deal; amended terms still
+   count as news), the closing of a bond
    or convertible bond offering,
    or an underwriting agreement (signed the day an offering is priced). The last two only apply when
    the filing reports nothing else. "As previously disclosed" alone is not enough: filings often use
@@ -140,14 +141,18 @@ only if:
 
 1. Its headline names a material event (a deal, FDA or trial result, guidance change, halt,
    lawsuit, bankruptcy, top-officer change, buyback...) and is not commentary, a price-target note,
-   a prediction, a poll, a conference-presentation notice, a dosing milestone, an FDA go-ahead to start
-   or widen a study
+   a prediction, a poll, a conference-presentation notice, a dosing milestone, shareholder
+   complaints about a pending merger, a 'you may qualify for a settlement payment' notice to class
+   members, an FDA go-ahead to start or widen a study
    (IDE/IND) or a round-up of several companies.
 2. It tags one or two companies, and the company it is about (the one named first in the
    headline) is an SEC registrant with a price at Alpaca, a recent share count, a market cap
    above the floor and enough daily trading.
 3. No regular session has closed since it was published, it is not a rewrite of an earlier
    headline on the same event that a session already traded, and the stock has not visibly reacted.
+   A 10% day on heavy volume in the two sessions before the first Benzinga item also counts as
+   already traded: the news most likely came out elsewhere first (MRNA's leaked trial data fell 17%
+   the day before Benzinga carried it).
 4. The crew has not judged that company in the last three days, and no SEC filing about it is
    already a case tonight. Filings and news are ranked together by the same weights, one case
    per company.

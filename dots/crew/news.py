@@ -41,7 +41,8 @@ _FILLER = re.compile(
     r"\bsays? .{0,40}(has become|is|are) (obvious|likely|inevitable)|\bwarns? .{0,30}against|"
     r"\bto present\b|\bwill present\b|\bpresents?\b.{0,40}\bat\b|"
     r"\b(doses|dosed|dosing|enrolls|enrolled|enrollment)\b|first patient|last patient|\bon track\b|"
-    r"(stockholders|shareholders)'? (approv|vote)|ipo security released",
+    r"(stockholders|shareholders)'? (approv|vote)|(stockholder|shareholder) (complaints?|demands?)|ipo security released|"
+    r"\byou may (qualify|be eligible)\b|\bsettlement payments?\b|\bnotice of (proposed |potential |pending )?(class action )?settlement\b|\bclaims? deadline\b",
     re.IGNORECASE,
 )
 # FDA permission to start or widen a study: a step on the way, not a result.

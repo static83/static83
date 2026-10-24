@@ -176,7 +176,8 @@ _FINANCING_ONLY_ITEMS = {"1.01", "7.01", "8.01"}
 _DEAL_STEP = re.compile(
     r"(waiting period|HSR Act|Hart-Scott-Rodino|early termination|antitrust (approval|clearance)|"
     r"regulatory approvals? (was|were|has been|have been) (received|obtained)|"
-    r"(stockholders|shareholders) (approved|voted)|special meeting)",
+    r"(stockholders|shareholders) (approved|voted)|special meeting|"
+    r"(stockholder|shareholder) (complaints?|demands?|lawsuits?|suits?)|disclosure (claims|complaints))",
     re.IGNORECASE,
 )
 _NEW_TERMS = re.compile(r"amend\w* (to )?the (merger )?agreement|increase\w* the (offer|merger consideration)|terminat\w* the (merger )?agreement",
@@ -377,6 +378,25 @@ def already_traded(bars: list[dict], first_day: date, now: Optional[datetime] = 
         vol = float(b["v"]) / median_vol if median_vol else 0
         if max(abs(gap), abs(move)) >= REACTION_MOVE and vol >= REACTION_VOLUME:
             return (f"already traded: on {day:%b %d} it opened {gap:+.0%} and closed {move:+.0%} "
+                    f"on {vol:.1f}x normal volume")
+    return None
+
+
+def moved_before(bars: list[dict], first_day: date, look: int = 2) -> Optional[str]:
+    """Why news first seen on Benzinga was likely out elsewhere already: a DAY_MOVE_PCT day on heavy
+    volume in the `look` sessions just before it (MRNA: a leaked trial readout fell 17% the day before
+    the first Benzinga item)."""
+    idx = [i for i, b in enumerate(bars) if b["t"][:10] < first_day.isoformat()]
+    for i in idx[-look:]:
+        if i == 0:
+            continue
+        b, prev = bars[i], bars[i - 1]
+        base = sorted(float(x["v"]) for x in bars[max(0, i - 20):i])
+        median_vol = base[len(base) // 2] if base else 0
+        move = float(b["c"]) / float(prev["c"]) - 1
+        vol = float(b["v"]) / median_vol if median_vol else 0
+        if abs(move) * 100 >= DAY_MOVE_PCT and vol >= REACTION_VOLUME:
+            return (f"already in play before the first report: on {b['t'][:10]} it closed {move:+.0%} "
                     f"on {vol:.1f}x normal volume")
     return None
 
@@ -730,6 +750,7 @@ def find_news_candidates(
             log(f"  news skip {ticker}: {repeat}")
             continue
         traded = (already_traded(bars, first_public_session(created), now)
+                  or moved_before(bars, first_public_session(created))
                   or traded_since(move_since(data, ticker, created, now))
                   or moved_today(move_since(data, ticker, _open_of(now), now)))
         if traded:
