@@ -761,6 +761,11 @@ def find_news_candidates(
         if repeat:  # tonight's item rewrites a story a full session already traded
             log(f"  news skip {ticker}: {repeat}")
             continue
+        judged = next((i for i in items if skip and f"news:{i['id']}" in skip and i is not item
+                       and _same_event(i["headline"], about, info.get("title", ticker))), None)
+        if judged:  # a rewrite that names the company where the first report did not, or adds a detail
+            log(f"  news skip {ticker}: rewrites '{judged['headline'][:50]}', already judged at {judged['created_at']}")
+            continue
         traded = (already_traded(bars, first_public_session(created), now)
                   or moved_before(bars, first_public_session(created))
                   or traded_since(move_since(data, ticker, created, now))
