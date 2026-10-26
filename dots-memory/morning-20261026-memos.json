@@ -1,0 +1,172 @@
+[
+  {
+    "case": 1,
+    "ticker": "CRML",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A routine deal step: an Australian court signs off on CRML's already-announced European Lithium acquisition",
+        "reasoning": [
+          "Source: Benzinga Newsdesk 12:34 UTC, a headline-only item: 'Critical Metals Announces Supreme Court Of Western Australia Approves Proposed Acquisition Of European Lithium'. It has no body text.",
+          "The acquisition is described as 'proposed', meaning announced earlier. Court approval of the scheme is a standard step before closing, and the terms were priced when the deal was first announced.",
+          "Pre-market: IEX shows no trades yet against Friday's 6.35 close. The stock's 30-day gaps run up to 29%, so a court step is noise beside its usual swings."
+        ],
+        "objections": [
+          "No new terms; the court approval was expected and is a formality of the scheme."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "CRML: no trade. Court approval of an announced acquisition is a routine deal step",
+        "reasoning": [
+          "Filter gap: court approval of a proposed acquisition or scheme now counts as a routine merger step, like the HSR waiting period and shareholder votes. Fixed after this run.",
+          "Nothing to check later."
+        ],
+        "objections": [
+          "Expected step on a known deal."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "HRI",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A planned handover, not a shock: Herc's president becomes CEO in January 2027, the CEO moves to executive chairman",
+        "reasoning": [
+          "Source: Benzinga Newsdesk 12:32 UTC, headline only: 'Herc Holdings Appoints President Aaron Birnbaum As CEO, Effective Jan. 1, 2027, Succeeding Larry Silber, Who Will Become Executive Chairman'.",
+          "An internal successor, already president, takes over in 14 months. The outgoing CEO stays on as executive chairman. Strategy continuity is the explicit message, and no departure is forced.",
+          "Pre-market: no IEX trades yet against Friday's 128.28 close."
+        ],
+        "objections": [
+          "An orderly succession gives no directional thesis; the stock's next move will come from results, not from this."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "HRI: no trade. A planned CEO succession with the old CEO staying on as chairman",
+        "reasoning": [
+          "Filter gap: a CEO change where the outgoing CEO becomes (executive) chairman, or that is called a succession plan, now weighs 2 rather than 3. Fixed after this run.",
+          "Nothing to check later."
+        ],
+        "objections": [
+          "Orderly succession; no thesis."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "VZ",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A mixed print with no edge: Verizon beat on EPS, missed on revenue, and raised guidance only to consensus",
+        "reasoning": [
+          "Sources: Verizon's release on GlobeNewswire, 11:31 UTC ('Verizon delivers another record-breaking quarter...'), its 2.02 8-K filed this morning, and Benzinga's 11:00 UTC figures.",
+          "Quoted figures: 'Q3 Adj. EPS $1.31 Beats $1.27 Estimate, Sales $34.313B Miss $34.744B Estimate'. 'Raises FY2026 Adj EPS Guidance from $4.99-$5.04 to $5.04-$5.06 vs $5.04 Est': the new range's midpoint, $5.05, is within a cent of consensus. The release cites the 'strongest postpaid phone net additions in five years' and raises the net-adds outlook to 1.1-1.2M.",
+          "Also this morning: an AWS AI-infrastructure deal worth '$2B+'. That is about 1% of a $185B market cap, so it weighs little.",
+          "Pre-market on IEX: one print of 195 shares at 44.25, -0.8% against Friday's 44.605 close. Too thin to read.",
+          "Context: on Friday telecoms fell on a report that SpaceX is negotiating access to cell sites (Benzinga preview, 11:00 UTC). That overhang is not resolved by the quarter."
+        ],
+        "objections": [
+          "A beat on one line and a miss on the other, plus a guidance raise to consensus: the reaction is a coin flip for a $185B telecom. No thesis direction with an edge."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "VZ: no trade. EPS beat, revenue miss, guidance raised to consensus",
+        "reasoning": [
+          "Filter gap: a guidance raise whose new range brackets the consensus figure in the same headline ('vs $5.04 Est') now weighs 2, not 3. The raise only catches up with what analysts already expected. Fixed after this run.",
+          "Check later: VZ's close today against 44.605, as a datapoint for mixed telecom prints."
+        ],
+        "objections": [
+          "No edge in a mixed print."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

@@ -29997,3 +29997,83 @@
 2026-10-24T02:23:40+00:00   news skip IDYA: the crew judged this company in the last 3 days
 2026-10-24T02:23:40+00:00   news skip LKQ: the crew judged this company in the last 3 days
 2026-10-24T02:23:40+00:00   news skip 23 compan(ies) whose material news a full session has already traded
+2026-10-26T12:52:25+00:00   pulled BOH: items 2.02
+2026-10-26T12:52:26+00:00   skip AZTR: market cap 4M below floor
+2026-10-26T12:52:26+00:00   pulled MSTR: items 8.01, 7.01
+2026-10-26T12:52:27+00:00   pulled BMNR: items 7.01
+2026-10-26T12:52:28+00:00   skip BOC: completes a previously disclosed acquisition or sale
+2026-10-26T12:52:29+00:00   skip LVWR: too thinly traded: about $11,809 a day on the IEX feed
+2026-10-26T12:52:30+00:00   skip CZWI: market cap 207M below floor
+2026-10-26T12:52:30+00:00   skip HRI: the crew judged this company in the last 3 days
+2026-10-26T12:52:31+00:00   skip AASP: no price at Alpaca, so it cannot be paper traded
+2026-10-26T12:52:32+00:00   pulled BFST: items 2.02, 7.01
+2026-10-26T12:52:32+00:00   skip EMPD: market cap 77M below floor
+2026-10-26T12:52:33+00:00   skip SSII: too thinly traded: about $2,356 a day on the IEX feed
+2026-10-26T12:52:34+00:00   skip SHFS: market cap 2M below floor
+2026-10-26T12:52:35+00:00   skip KFII: routine items only
+2026-10-26T12:52:35+00:00   skip ASPI: market cap 298M below floor
+2026-10-26T12:52:36+00:00   skip APVO: market cap 3M below floor
+2026-10-26T12:52:37+00:00   skip MED: market cap 133M below floor
+2026-10-26T12:52:38+00:00   skip DFDV: market cap 115M below floor
+2026-10-26T12:52:39+00:00   skip SLE: market cap 10M below floor
+2026-10-26T12:52:40+00:00   skip GAME: market cap 240M below floor
+2026-10-26T12:52:41+00:00   skip ADGM: routine items only
+2026-10-26T12:52:42+00:00   skip MNSB: market cap 176M below floor
+2026-10-26T12:52:42+00:00   skip ORKA: only a date for an upcoming call, results or shareholder meeting, no figures
+2026-10-26T12:52:43+00:00   pulled ARLP: items 2.02
+2026-10-26T12:52:44+00:00   news skip DRIO: market cap 36M below floor
+2026-10-26T12:52:44+00:00   news skip XTND: no share count on file at the SEC
+2026-10-26T12:52:46+00:00   news skip IQST: market cap 10M below floor
+2026-10-26T12:52:46+00:00   news pulled MBC (weight 2): MasterBrand Appoints Mark Young As VP And Interim CFO, Effective Immediately, Succeeding A
+2026-10-26T12:52:46+00:00   news skip STRR: market cap 37M below floor
+2026-10-26T12:52:46+00:00   news skip HRI: the crew judged this company in the last 3 days
+2026-10-26T12:52:47+00:00   news pulled AYI (weight 2): Acuity Agrees To Acquire Parameter Technologies For $675M
+2026-10-26T12:52:47+00:00   news skip RNW: no share count on file at the SEC
+2026-10-26T12:52:48+00:00   news skip FTEK: market cap 42M below floor
+2026-10-26T12:52:49+00:00   news pulled CACI (weight 1): CACI International Receives Five-Year, $281M U.S. Navy Contract For Electromagnetic Warfar
+2026-10-26T12:52:49+00:00   news pulled SGRY (weight 2): Trading Halt: Halted at 8:16:53 a.m. ET - Trading Halt: Halt News Pending
+2026-10-26T12:52:50+00:00   news skip CORT: already in play before the first report: on 2026-10-23 it closed -20% on 4.9x normal volume
+2026-10-26T12:52:50+00:00   news skip GIX: market cap 70M below floor
+2026-10-26T12:52:51+00:00   news skip MED: market cap 133M below floor
+2026-10-26T12:52:51+00:00   news skip ESLA: market cap 42M below floor
+2026-10-26T12:52:52+00:00   news skip CVM: market cap 28M below floor
+2026-10-26T12:52:52+00:00   news skip STEM: market cap 29M below floor
+2026-10-26T12:52:53+00:00   news skip ADIL: market cap 11M below floor
+2026-10-26T12:52:53+00:00   news skip VBIO: market cap 22M below floor
+2026-10-26T12:52:53+00:00   news skip BTCS: market cap 57M below floor
+2026-10-26T12:52:53+00:00   news skip LAES: market cap 297M below floor
+2026-10-26T12:52:54+00:00   news pulled LAR (weight 2): Lithium Argentina AG Announces Repurchase of $200 Million in Convertible Senior Notes
+2026-10-26T12:52:54+00:00   news pulled APO (weight 1): Apollo Finalizing Deal to Buy Nearly 10% Stake in Mubadala Capital
+2026-10-26T12:52:55+00:00   news pulled FDX (weight 2): FedEx Appoints Jamere Jackson as Chief Financial Officer
+2026-10-26T12:52:56+00:00   news pulled ESLT (weight 1): Elbit Systems Awarded $200 Million Contracts for Airborne ISTAR and Training Solutions in 
+2026-10-26T12:52:56+00:00   news pulled VRT (weight 1): Vertiv Completes Acquisition of King Environmental Services Ltd.
+2026-10-26T12:52:57+00:00   news pulled REGN (weight 1): Regeneron Secures $270 Million U.S. Contract Extension for Ebola Treatment Inmazeb
+2026-10-26T12:52:58+00:00   news skip OPTT: market cap 6M below floor
+2026-10-26T12:52:58+00:00   news skip DAVI: market cap 150M below floor
+2026-10-26T12:52:58+00:00   news pulled OVV (weight 2): Ovintiv Inc. Announces Agreement to Acquire Logan Energy Corp.
+2026-10-26T12:52:59+00:00   news pulled GXO (weight 1): GXO Logistics and Agility Robotics Expand Partnership to Deploy Humanoid Robots
+2026-10-26T12:52:59+00:00   news pulled RRC (weight 2): EQT Corporation Announces Definitive Agreement to Acquire Range Resources Corporation
+2026-10-26T12:52:59+00:00   news skip VZ: the crew judged this company in the last 3 days
+2026-10-26T12:53:00+00:00   news pulled EVR (weight 2): Evercore Serves as Lead Financial Advisor in EQT and Range Resources Merger
+2026-10-26T12:53:00+00:00   news pulled EQT (weight 3): EQT Corporation To Acquire Range Resources In All-Stock Deal Valuing One RRC Share At 0.98
+2026-10-26T12:53:01+00:00   news pulled AZO (weight 2): AutoZone Announces Resignation of Chief Financial Officer Jamere Jackson
+2026-10-26T12:53:02+00:00   news pulled MDLN (weight 1): Medline Celebrates 10 Years of Partnership with WRAP
+2026-10-26T12:53:02+00:00   news skip GMAB: no share count on file at the SEC
+2026-10-26T12:53:03+00:00   news skip SEED: market cap 11M below floor
+2026-10-26T12:53:03+00:00   news skip FATE: market cap 252M below floor
+2026-10-26T12:53:04+00:00   news skip AZN: no share count on file at the SEC
+2026-10-26T12:53:04+00:00   news pulled RELX (weight 2): RELX PLC Announces Share Repurchase Transactions
+2026-10-26T12:53:04+00:00   news pulled TSLA (weight 2): Tesla Says Latvia Has Approved The Company's Full Self-Driving (Supervised) Technology
+2026-10-26T12:53:05+00:00   news pulled BMY (weight 3): Bristol Myers Squibb and SystImmune Announce Positive Phase 3 Results for Izalontamab Bren
+2026-10-26T12:53:06+00:00   news pulled C (weight 2): Citi Acts as Financial Advisor in EQT's Acquisition of Range
+2026-10-26T12:53:06+00:00   news pulled AMZN (weight 1): fileAI Enters Strategic Collaboration with Amazon Web Services
+2026-10-26T12:53:07+00:00   news pulled DEA (weight 2): Easterly Government Props Raises FY2026 FFO Guidance from $3.07-$3.13 to $3.08-$3.13 vs $3
+2026-10-26T12:53:07+00:00   news skip AMAN: no share count on file at the SEC
+2026-10-26T12:53:08+00:00   news pulled DB (weight 1): Deutsche Bank and DWS Extend Partnership with Zurich
+2026-10-26T12:53:08+00:00   news skip HCM: too thinly traded: about $17,604 a day on the IEX feed
+2026-10-26T12:53:09+00:00   news pulled BNTX (weight 3): BioNTech, DualityBio Say DYNASTY-Breast02 Phase 3 Trial Met Primary Endpoint, Showing Stat
+2026-10-26T12:53:09+00:00   news skip GNS: market cap 21M below floor
+2026-10-26T12:53:10+00:00   news skip NOK: already in play before the first report: on 2026-10-22 it closed -15% on 3.2x normal volume
+2026-10-26T12:53:10+00:00   news pulled EYE (weight 2): Eagle Eye Solutions Group PLC Announces Share Buyback Programme
+2026-10-26T12:53:11+00:00   news skip GROW: market cap 28M below floor
+2026-10-26T12:53:11+00:00   news skip ONC: the crew judged this company in the last 3 days

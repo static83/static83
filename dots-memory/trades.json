@@ -88,7 +88,7 @@
     "stop": 21.0,
     "target": 16.15,
     "horizon_days": 5,
-    "status": "pending",
+    "status": "unfilled",
     "opened_at": "2026-10-23T12:51:13.801663+00:00",
     "reviews": [
       {

@@ -1,0 +1,157 @@
+{
+  "role": "JOURNAL",
+  "packet": {
+    "case": 2,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "RRC",
+      "company": "RANGE RESOURCES CORP",
+      "cik": "315852",
+      "accession": "0001193125-26-431025",
+      "items": [
+        "1.01",
+        "7.01",
+        "8.01"
+      ],
+      "filed_at": "2026-10-26T07:07:28-04:00",
+      "url": "https://www.sec.gov/Archives/edgar/data/315852/000119312526431025/d161989d8k.htm",
+      "source_excerpt": "Item 1.01. Entry into a Material Definitive Agreement. On October 25, 2026, Range Resources Corporation, a Delaware corporation (\u201c Range \u201d), entered into an Agreement and Plan of Merger (the \u201c Merger Agreement \u201d) with EQT Corporation, a Pennsylvania corporation (\u201c EQT \u201d), EQT Holdings LLC, a Delaware limited liability company and an indirect wholly owned subsidiary of EQT, Rhino Merger Sub Inc., a Delaware corporation and an indirect wholly owned subsidiary of EQT (\u201c Merger Sub \u201d), and Rhino Merger Sub LLC, a Delaware limited liability company and an indirect wholly owned subsidiary of EQT (\u201c LLC Sub \u201d). Upon the terms and subject to the conditions set forth in the Merger Agreement, which has been unanimously approved by the board of directors of Range and the board of directors of EQT (the \u201c EQT Board \u201d), Merger Sub will merge with and into Range (the \u201c First Merger \u201d), with Range surviving as an indirect wholly owned subsidiary of EQT (the \u201c First Step Surviving Corporation \u201d), and as the second step in a single integrated transaction with the First Merger, the First Step Surviving Corporation will merge with and into LLC Sub (the \u201c Second Merger \u201d and, together with the First Merger, the \u201c Mergers \u201d), with LLC Sub surviving the Second Merger as an indirect wholly owned subsidiary of EQT. At the effective time of the First Merger (the \u201c Effective Time \u201d), among other things, each share of common stock, par value $0.01 per share, of Range (\u201c Range Common Stock \u201d) that is issued and outstanding immediately prior to the Effective Time (including Range restricted stock awards but excluding Excluded Shares (as defined in the Merger Agreement)) will be converted into the right to receive, without interest, 0.987 (the \u201c Exchange Ratio \u201d) shares of common stock, no par value, of EQT (\u201c EQT Common Stock \u201d). Cash will be paid in lieu of any fractional shares of EQT Common Stock that otherwise would have been issued to any Range stockholder in the Mergers. Following the closing of the Mergers (the \u201c Closing \u201d), Range\u2019s existing stockholders and EQT\u2019s existing stockholders will own approximately 27% and 73%, respectively, of the combined company on a fully diluted basis. Governance In the Merger Agreement, EQT has agreed to increase the size of the EQT Board to 12 members and appoint Dennis L. Degner and one other individual selected by Range (who shall satisfy the independence requirements of the New York Stock Exchange (the \u201c NYSE \u201d) with respect to service on the EQT Board), after reasonable consultation with EQT and with the consent of EQT (not to be unreasonably withheld, conditioned or delayed) (the \u201c Range Designees \u201d), to the EQT Board at the Effective Time. EQT has also agreed that, following the Closing, EQT will take all necessary action to nominate the Range Designees for election to the EQT Board at the first annual meeting of shareholders of EQT thereafter. Conditions to the Mergers The completion of the First Merger is subject to the satisfaction or waiver of certain closing conditions, including (i) the adoption of the Merger Agreement by the holders of a majority of the voting power of the outstanding shares of Range Common Stock entitled to vote thereon (the \u201c Range Stockholder Approval \u201d) at a special meeting of Range stockholders to be held in connection with the Mergers (including any adjournments or postponements thereof, the \u201c Range Stockholders\u2019 Meeting \u201d), (ii) the approval of the issuance of the shares of EQT Common Stock in connection with the First Merger (such shares, the \u201c EQT Shares \u201d and such issuance, the \u201c Share Issuance \u201d) by a majority of the votes cast (the \u201c EQT Shareholder Approval \u201d) at a special meeting of EQT shareholders to be held in connection with the Mergers (including any adjournments or postponements thereof, the \u201c EQT Shareholders\u2019 Meeting \u201d), (iii) the EQT Shares being approved for listing on the NYSE, (iv) there being no law, injunction, order or decree prohibiting consummation of the transactions contemplated by the Merger Agreement (the \u201c Transactions \u201d), (v) the expiration or termination of (a) all waiting periods (and any extensions thereof) applicable to the Transactions under the Hart-Scott-Rodino Antitrust Improvements Act of 1976, as amended, and (b) any commitment to, or any agreement with, any governmental entity to delay the consummation of the Transactions or to not consummate the Transactions before a certain date (such condition, the \u201c HSR Act Condition \u201d), (vi) the effectiveness of the registration statement on Form S-4 to be filed by EQT with the U.S. Securities and Exchange Commission (the \u201c SEC \u201d) pursuant to which the EQT Shares will be registered, (vii) no Company Material Adverse Effect and no Parent Material Adverse Effect (each as defined in the Merger Agreement) having occurred since the date of the Merger Agreement, and (viii) subject to certain materiality qualifications and exceptions, the accuracy of each party\u2019s representations and warranties and each party\u2019s compliance with, or waiver of its obligations under, if permissible, its covenants in the Merger Agreement. Non-Solicitation of Competing or Alternative Proposals Each of Range and EQT has agreed, subject to certain exceptions with respect to unsolicited proposals, not to directly or indirectly solicit competing acquisition proposals or to enter into discussions concerning, or provide confidential information in connection with, any alternative acquisition proposals. However, if, after the date of the Merger Agreement but prior to obtaining its requisite shareholder approval relating to the Mergers, Range or EQT receives an unsolicited, bona fide written acquisition proposal from a third party that did not result from a material breach of the non-solicitation provisions of the Merger Agreement and its board of directors concludes in good faith, after consultation with its financial advisors and outside legal counsel, that such unsolicited, bona fide written acqui",
+      "market_cap_usd": 10640596715.525,
+      "last_price": 45.535,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "outcome": "no_trade",
+      "order": null
+    },
+    "memos_so_far": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "Range Resources agrees to be acquired by EQT, all stock, 0.987 EQT share per RRC share; RRC holders get 27% of the combined company",
+        "reasoning": [
+          "Source: Range's 8-K filed 07:07 ET, item 1.01. Quoted: 'each share of common stock ... of Range ... will be converted into the right to receive, without interest, 0.987 (the \"Exchange Ratio\") shares of common stock, no par value, of EQT'. Also: 'Range's existing stockholders and EQT's existing stockholders will own approximately 27% and 73%, respectively, of the combined company'.",
+          "Approvals: 'unanimously approved by the board of directors of Range and the board of directors of EQT'. Conditions include votes at both companies and no injunction. Benzinga gives expected closing as Q1 2027.",
+          "Timing: the first Benzinga report was at 06:03 ET (10:03 UTC), about an hour before the 8-K. Both came before the open, and no session has traded it. There was no earlier rumor in Benzinga's last ten days.",
+          "What changed: Range stops being an independent Appalachian gas producer. Its share value is now tied to EQT's share price at a fixed ratio.",
+          "Pre-market on IEX: RRC has no prints yet against its 45.535 close. EQT trades at 51.52, -7.4% from 55.62, on 6,327 shares. At that price the ratio is worth 50.85 per RRC share, +11.7%; at Friday's EQT close it was 54.90."
+        ],
+        "objections": []
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "object",
+        "headline": "No mispricing to trade: RRC's price is now set mechanically at 0.987 x EQT less an arbitrage spread",
+        "reasoning": [
+          "What changed: Range's value no longer depends on its own gas output. It is 0.987 EQT shares, payable in about five months (Q1 2027 close) if both votes pass and there is no injunction.",
+          "Long RRC: at the open RRC will gap to the ratio's value less the usual arbitrage spread, a few percent for an all-stock deal with antitrust review between two large Appalachian producers. From an entry after that gap, the upside is the spread narrowing over months, not 5-10 trading days. The downside is EQT falling further or the deal breaking. No edge at our horizon.",
+          "Short EQT, the acquirer: the market has already marked it down 7.4% pre-market (6,327 IEX shares, a real volume for pre-market). Arbitrage funds shorting EQT against long RRC add pressure, but that is the known mechanism and it is in the pre-market price. Betting on more downside is guessing the size of a reaction that has already happened.",
+          "What the market would have to be wrong about: either the deal's completion odds (no information to say so) or EQT's fair value after issuing about 27% of the combined company (the 7.4% drop is close to what a full-premium, all-stock deal usually costs a buyer). Neither gives a thesis I can defend.",
+          "Would prove this wrong: RRC trading well below 0.987 x EQT through the week (a spread of 8% or more) with no deal-risk news. That would mean the market doubts the close, which would be a separate case."
+        ],
+        "objections": [
+          "Merger-arbitrage pricing, not mispricing; any edge is a months-long spread, outside a 10-day horizon."
+        ]
+      }
+    ],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 88 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 5 case(s) with a thesis. Five days later the thesis averaged -1.6%, right 2 of 5 times. Positive means this gate is stopping trades that would have worked. Only 5 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "MSTR",
+          "night": "20261026-1254",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "VZ",
+          "night": "20261026-1250",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "HRI",
+          "night": "20261026-1250",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CRML",
+          "night": "20261026-1250",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BHF",
+          "night": "20261024-0218",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ICE",
+          "night": "20261024-0218",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MRNA",
+          "night": "20261024-0218",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "VRTX",
+          "night": "20261023-1746",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 100
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 3,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "VZ",
+      "company": "VERIZON COMMUNICATIONS INC",
+      "cik": "732712",
+      "accession": "news:103899087",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-26T11:31:58Z",
+      "url": "https://www.globenewswire.com/news-release/2026/10/26/3387961/0/en/verizon-delivers-another-record-breaking-quarter-with-3q-2026-results-driven-by-strong-postpaid-phone-and-account-additions.html",
+      "source_excerpt": "[Benzinga news, 2026-10-26T11:31:58Z, by staff] Verizon Reports Third-Quarter 2026 Results and Raises Full-Year Guidance\nVerizon announced strong third-quarter 2026 financial results, highlighted by significant postpaid phone net additions and account growth, while raising its full-year outlook for net additions and adjusted earnings per share.\nVerizon reported its third-quarter 2026 results, achieving its strongest postpaid phone net additions in five years and its best quarterly net account growth in over a decade. The company also reported lower year-over-year churn, attributing the performance to its ongoing multi-year transformation strategy. Reflecting this momentum, Verizon increased its full-year forecast for postpaid phone net additions to a range of 1.1 million to 1.2 million, up from its previous outlook. Additionally, the company now expects adjusted earnings per share to grow by 7% to 7.5% for the full year.\n[Other material headlines on this company in the window]\n- 2026-10-26T11:06:17Z Verizon and Amazon Web Services Expand Strategic Partnership With $2B+ AI Infrastructure Deal\n- 2026-10-26T11:00:31Z Verizon Communications Raises FY2026 Adj EPS Guidance from $4.99-$5.04 to $5.04-$5.06 vs $5.04 Est",
+      "market_cap_usd": 185323747885.21,
+      "last_price": 44.605,
+      "also_accessions": [
+        "news:62584854",
+        "news:62584698"
+      ],
+      "weight": 3
+    },
+    "market": {
+      "quote": null,
+      "extended_hours": null,
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.94,
+        "max_gap_pct": 7.56
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": null,
+        "slippage_usd": null
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 85 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 5 case(s) with a thesis. Five days later the thesis averaged -1.6%, right 2 of 5 times. Positive means this gate is stopping trades that would have worked. Only 5 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "CRML",
+          "night": "20261026-1250",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BHF",
+          "night": "20261024-0218",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ICE",
+          "night": "20261024-0218",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MRNA",
+          "night": "20261024-0218",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "VRTX",
+          "night": "20261023-1746",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "IONS",
+          "night": "20261023-1742",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "NVS",
+          "night": "20261023-1648",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CRSP",
+          "night": "20261023-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 97
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

@@ -1,0 +1,220 @@
+[
+  {
+    "case": 1,
+    "ticker": "MSTR",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Strategy's weekly ATM and bitcoin update: no shares sold, no bitcoin bought, $205M of its own preferred repurchased",
+        "reasoning": [
+          "Source: Strategy's 8-K filed 08:49 ET, items 8.01 and 7.01. Quoted: 'did not sell any shares under its at-the-market offering program and did not purchase or sell any bitcoin'; it holds 'approximately 848,517 bitcoin'.",
+          "The only activity was 2,068,459 STRC preferred shares repurchased for $204.9M from USD Cash. That is preferred stock, not MSTR common, and under 1% of the company.",
+          "Strategy files this update every Monday, so it is routine. Pre-market: -1.7% on a single 140-share IEX print, which tracks bitcoin, not this filing."
+        ],
+        "objections": [
+          "A routine weekly disclosure with nothing new for the common stock."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "MSTR: no trade. Its routine Monday ATM/bitcoin update",
+        "reasoning": [
+          "Filter gap: Strategy's weekly 'ATM and BTC Update' 8-K weighed 3 because 'repurchase' figures sit in it. It is now treated as routine paperwork. Fixed after this run.",
+          "Nothing to check later."
+        ],
+        "objections": [
+          "Routine weekly filing."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "RRC",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "Range Resources agrees to be acquired by EQT, all stock, 0.987 EQT share per RRC share; RRC holders get 27% of the combined company",
+        "reasoning": [
+          "Source: Range's 8-K filed 07:07 ET, item 1.01. Quoted: 'each share of common stock ... of Range ... will be converted into the right to receive, without interest, 0.987 (the \"Exchange Ratio\") shares of common stock, no par value, of EQT'. Also: 'Range's existing stockholders and EQT's existing stockholders will own approximately 27% and 73%, respectively, of the combined company'.",
+          "Approvals: 'unanimously approved by the board of directors of Range and the board of directors of EQT'. Conditions include votes at both companies and no injunction. Benzinga gives expected closing as Q1 2027.",
+          "Timing: the first Benzinga report was at 06:03 ET (10:03 UTC), about an hour before the 8-K. Both came before the open, and no session has traded it. There was no earlier rumor in Benzinga's last ten days.",
+          "What changed: Range stops being an independent Appalachian gas producer. Its share value is now tied to EQT's share price at a fixed ratio.",
+          "Pre-market on IEX: RRC has no prints yet against its 45.535 close. EQT trades at 51.52, -7.4% from 55.62, on 6,327 shares. At that price the ratio is worth 50.85 per RRC share, +11.7%; at Friday's EQT close it was 54.90."
+        ],
+        "objections": [],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "object",
+        "headline": "No mispricing to trade: RRC's price is now set mechanically at 0.987 x EQT less an arbitrage spread",
+        "reasoning": [
+          "What changed: Range's value no longer depends on its own gas output. It is 0.987 EQT shares, payable in about five months (Q1 2027 close) if both votes pass and there is no injunction.",
+          "Long RRC: at the open RRC will gap to the ratio's value less the usual arbitrage spread, a few percent for an all-stock deal with antitrust review between two large Appalachian producers. From an entry after that gap, the upside is the spread narrowing over months, not 5-10 trading days. The downside is EQT falling further or the deal breaking. No edge at our horizon.",
+          "Short EQT, the acquirer: the market has already marked it down 7.4% pre-market (6,327 IEX shares, a real volume for pre-market). Arbitrage funds shorting EQT against long RRC add pressure, but that is the known mechanism and it is in the pre-market price. Betting on more downside is guessing the size of a reaction that has already happened.",
+          "What the market would have to be wrong about: either the deal's completion odds (no information to say so) or EQT's fair value after issuing about 27% of the combined company (the 7.4% drop is close to what a full-premium, all-stock deal usually costs a buyer). Neither gives a thesis I can defend.",
+          "Would prove this wrong: RRC trading well below 0.987 x EQT through the week (a spread of 8% or more) with no deal-risk news. That would mean the market doubts the close, which would be a separate case."
+        ],
+        "objections": [
+          "Merger-arbitrage pricing, not mispricing; any edge is a months-long spread, outside a 10-day horizon."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "RRC: no trade. A real all-stock takeover, but the target's price is pinned to the ratio",
+        "reasoning": [
+          "Filter note: this case first lost its slot to three newer, trivial items (CRML, HRI, VZ) under the 3-case limit, where ties go to the newest. Those three now weigh less, so a heavy deal outranks them.",
+          "Check later: RRC's close against 0.987 x EQT's close today and on 11/02. A spread above 8% would mean the market doubts the deal. Also check EQT's 5-day move from the 55.62 Friday close, to see whether the acquirer kept drifting."
+        ],
+        "objections": [
+          "Merger arbitrage, not mispricing."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "BMY",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "BMY and SystImmune: Iza-Bren met its primary endpoint at a Phase 3 interim in EGFR-mutated lung cancer, median PFS 11.1 vs 5.7 months",
+        "reasoning": [
+          "Source: the companies' joint press release (relayed via Barchart; Benzinga 03:54 ET and 06:31 ET). Quoted: 'Iza-Bren Hits Primary Endpoint In Phase 3 PANKU-Lung01 Interim Analysis, Median PFS 11.1 Versus 5.7 Months (HR 0.40) Over Platinum Chemotherapy In EGFR-Mutated NSCLC'.",
+          "What changed: the first Phase 3 readout for an EGFRxHER3 antibody-drug conjugate that BMY licensed from SystImmune, a Sichuan Biokin subsidiary. It now has a registrational result in previously treated EGFR-mutated NSCLC.",
+          "Timing: published before the open, no session has traded it. A separate item on 10/25 (BioNTech/BMY pumitamig Phase 2) is a different drug.",
+          "Pre-market: no IEX prints for BMY yet against the 61.49 close."
+        ],
+        "objections": [],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "object",
+        "headline": "Good data, small lever: one partnered asset in one second-line indication barely moves a $125B company",
+        "reasoning": [
+          "What changed: Iza-Bren now has Phase 3 support in previously treated EGFR-mutated NSCLC. HR 0.40 for progression-free survival is strong, but the comparison is against platinum chemotherapy, the weakest standard arm in this setting.",
+          "Size: BMY's market cap is about $125B. BMY shares the asset with SystImmune: it has ex-China rights, and the profit split is not stated in the release. Peak sales in this one line of therapy are a fraction of BMY's revenue base, which is about $48B a year. For BMY to reprice by 5% or more, the market must have assigned near-zero odds to Iza-Bren. Sichuan Biokin's earlier China data made success the expected case.",
+          "The crew's own record points the same way: conference and interim readouts on large caps have rarely moved the stock in the cases on file (ESMO pattern).",
+          "Would prove this wrong: BMY up more than 4% at today's close with no other news. That would mean the market had priced Iza-Bren much lower than I assume."
+        ],
+        "objections": [
+          "No mispricing large enough to clear costs on a 10-day horizon; likely a 1-2% move that the open will price."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "BMY: no trade. Strong Phase 3 interim for Iza-Bren, too small for a $125B company",
+        "reasoning": [
+          "Check later: BMY's close today and in 5 days against 61.49. If it rises 4% or more on this, ANALYST's 'small lever' view on big-pharma readouts needs revisiting.",
+          "Pattern: the third large-cap readout this month judged as too small to move the stock."
+        ],
+        "objections": [
+          "Small lever on a large cap."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

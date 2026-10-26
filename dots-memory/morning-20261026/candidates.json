@@ -1,0 +1,53 @@
+[
+  {
+    "ticker": "CRML",
+    "company": "Critical Metals Corp.",
+    "cik": "1951089",
+    "accession": "news:62587191",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-26T12:34:29Z",
+    "url": "https://www.benzinga.com/m/26/10/62587191/critical-metals-announces-supreme-court-western-australia-approves-proposed-acquisition-european-lit",
+    "source_excerpt": "[Benzinga news, 2026-10-26T12:34:29Z, by Benzinga Newsdesk] Critical Metals Announces Supreme Court Of Western Australia Approves Proposed Acquisition Of European Lithium\n\n",
+    "market_cap_usd": 933410331.55,
+    "last_price": 6.35,
+    "also_accessions": [],
+    "weight": 3
+  },
+  {
+    "ticker": "HRI",
+    "company": "HERC HOLDINGS INC",
+    "cik": "1364479",
+    "accession": "news:62587150",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-26T12:32:53Z",
+    "url": "https://www.benzinga.com/news/26/10/62587150/herc-holdings-appoints-president-aaron-birnbaum-ceo-effective-jan-1-2027-succeeding-larry-silber-who",
+    "source_excerpt": "[Benzinga news, 2026-10-26T12:32:53Z, by Benzinga Newsdesk] Herc Holdings Appoints President Aaron Birnbaum As CEO, Effective Jan. 1, 2027, Succeeding Larry Silber, Who Will Become Executive Chairman\n\n",
+    "market_cap_usd": 4288585636.32,
+    "last_price": 128.28,
+    "also_accessions": [],
+    "weight": 3
+  },
+  {
+    "ticker": "VZ",
+    "company": "VERIZON COMMUNICATIONS INC",
+    "cik": "732712",
+    "accession": "news:103899087",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-26T11:31:58Z",
+    "url": "https://www.globenewswire.com/news-release/2026/10/26/3387961/0/en/verizon-delivers-another-record-breaking-quarter-with-3q-2026-results-driven-by-strong-postpaid-phone-and-account-additions.html",
+    "source_excerpt": "[Benzinga news, 2026-10-26T11:31:58Z, by staff] Verizon Reports Third-Quarter 2026 Results and Raises Full-Year Guidance\nVerizon announced strong third-quarter 2026 financial results, highlighted by significant postpaid phone net additions and account growth, while raising its full-year outlook for net additions and adjusted earnings per share.\nVerizon reported its third-quarter 2026 results, achieving its strongest postpaid phone net additions in five years and its best quarterly net account growth in over a decade. The company also reported lower year-over-year churn, attributing the performance to its ongoing multi-year transformation strategy. Reflecting this momentum, Verizon increased its full-year forecast for postpaid phone net additions to a range of 1.1 million to 1.2 million, up from its previous outlook. Additionally, the company now expects adjusted earnings per share to grow by 7% to 7.5% for the full year.\n[Other material headlines on this company in the window]\n- 2026-10-26T11:06:17Z Verizon and Amazon Web Services Expand Strategic Partnership With $2B+ AI Infrastructure Deal\n- 2026-10-26T11:00:31Z Verizon Communications Raises FY2026 Adj EPS Guidance from $4.99-$5.04 to $5.04-$5.06 vs $5.04 Est",
+    "market_cap_usd": 185323747885.21,
+    "last_price": 44.605,
+    "also_accessions": [
+      "news:62584854",
+      "news:62584698"
+    ],
+    "weight": 3
+  }
+]

@@ -1,0 +1,166 @@
+{
+  "role": "ANALYST",
+  "packet": {
+    "case": 3,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "BMY",
+      "company": "BRISTOL MYERS SQUIBB CO",
+      "cik": "14272",
+      "accession": "news:103882000",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-26T10:31:56Z",
+      "url": "https://www.barchart.com/press-releases/8448846/izalontamab-brengitecan-iza-bren-doubles-median-progression-free-survival-in-patients-with-previously-treated-egfr-mutated-non-small-cell-lung-cancer-compared-to-chemotherapy-in-the-phase-3-panku-lung01-study",
+      "source_excerpt": "[Benzinga news, 2026-10-26T10:31:56Z, by staff] Bristol Myers Squibb and SystImmune Announce Positive Phase 3 Results for Izalontamab Brengitecan in NSCLC\nBristol Myers Squibb and partner SystImmune reported positive interim results from the Phase 3 PANKU-Lung01 study, showing that the drug candidate izalontamab brengitecan (Iza-Bren) doubled median progression-free survival in patients with previously-treated EGFR-mutated non-small cell lung cancer.\nBristol Myers Squibb and SystImmune, a subsidiary of Sichuan Biokin Pharmaceutical, announced positive interim analysis results from the Phase 3 PANKU-Lung01 clinical trial. The study evaluated izalontamab brengitecan (Iza-Bren), an EGFRxHER3 bispecific antibody-drug conjugate, in patients with previously-treated EGFR-mutated non-small cell lung cancer (NSCLC). Results indicated that the treatment doubled median progression-free survival compared to chemotherapy. Bristol Myers Squibb management highlighted the findings as an important inflection point for the asset, noting its potential to address significant unmet needs across multiple tumor types. The company is currently advancing the development of Iza-Bren as part of its oncology portfolio.\n[Other material headlines on this company in the window]\n- 2026-10-26T07:54:53Z Bristol Myers Squibb, SystImmune\u2019s Iza-Bren Hits Primary Endpoint In Phase 3 PANKU-Lung01 Interim Analysis, Median PFS 11.1 Versus 5.7 Months (HR 0.40) Over Platinum Chemotherapy In EGFR-Mutated NSCLC\n- 2026-10-25T13:01:50Z BioNTech and Bristol Myers Squibb Report Encouraging Phase 2 Data for Pumitamig in Advanced NSCLC",
+      "market_cap_usd": 125606524197.44,
+      "last_price": 61.49,
+      "also_accessions": [
+        "news:62582443"
+      ],
+      "weight": 3
+    },
+    "market": {
+      "quote": {
+        "ap": 65.25,
+        "as": 100,
+        "ax": "V",
+        "bp": 57.95,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-23T20:00:01.094420513Z",
+        "z": "A"
+      },
+      "extended_hours": null,
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 0,
+        "mean_gap_pct": null,
+        "max_gap_pct": null
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 290.639,
+        "slippage_usd": 2.4525,
+        "spread_pct": 11.851
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "BMY and SystImmune: Iza-Bren met its primary endpoint at a Phase 3 interim in EGFR-mutated lung cancer, median PFS 11.1 vs 5.7 months",
+        "reasoning": [
+          "Source: the companies' joint press release (relayed via Barchart; Benzinga 03:54 ET and 06:31 ET). Quoted: 'Iza-Bren Hits Primary Endpoint In Phase 3 PANKU-Lung01 Interim Analysis, Median PFS 11.1 Versus 5.7 Months (HR 0.40) Over Platinum Chemotherapy In EGFR-Mutated NSCLC'.",
+          "What changed: the first Phase 3 readout for an EGFRxHER3 antibody-drug conjugate that BMY licensed from SystImmune, a Sichuan Biokin subsidiary. It now has a registrational result in previously treated EGFR-mutated NSCLC.",
+          "Timing: published before the open, no session has traded it. A separate item on 10/25 (BioNTech/BMY pumitamig Phase 2) is a different drug.",
+          "Pre-market: no IEX prints for BMY yet against the 61.49 close."
+        ],
+        "objections": []
+      }
+    ],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 88 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 5 case(s) with a thesis. Five days later the thesis averaged -1.6%, right 2 of 5 times. Positive means this gate is stopping trades that would have worked. Only 5 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "RRC",
+          "night": "20261026-1254",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MSTR",
+          "night": "20261026-1254",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "VZ",
+          "night": "20261026-1250",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "HRI",
+          "night": "20261026-1250",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CRML",
+          "night": "20261026-1250",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BHF",
+          "night": "20261024-0218",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ICE",
+          "night": "20261024-0218",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MRNA",
+          "night": "20261024-0218",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 101
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "MSTR",
+      "company": "Strategy Inc",
+      "cik": "1050446",
+      "accession": "0001193125-26-431146",
+      "items": [
+        "8.01",
+        "7.01"
+      ],
+      "filed_at": "2026-10-26T08:49:15-04:00",
+      "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526431146/mstr-20261026.htm",
+      "source_excerpt": "Item 8.01 Other Events. ATM and BTC Update On October 26, 2026, Strategy Inc (\"Strategy\") announced that, during the period from October 19, 2026 to October 25, 2026, Strategy did not sell any shares under its at-the-market offering program and did not purchase or sell any bitcoin. As of October 25, 2026, Strategy holds approximately 848,517 bitcoin that were acquired at an aggregate purchase price of $64.02 billion and an average purchase price of approximately $75,446 per bitcoin, inclusive of fees and expenses. Repurchase Program Updates On October 26, 2026, Strategy announced the following update with respect to its share repurchase programs of the following securities: During Period October 19, 2026 to October 25, 2026 Security Shares Repurchased Aggregate Purchase Price (in millions) STRF Stock (1) - $ - 10.00% Series A Perpetual Strife Preferred Stock STRC Stock (1) 2,068,459 $ 204.9 Variable Rate Series A Perpetual Stretch Preferred Stock STRK Stock (1) - $ - 8.00% Series A Perpetual Strike Preferred Stock STRD Stock (1) - $ - 10.00% Series A Perpetual Stride Preferred Stock MSTR Stock (2) - $ - Class A Common Stock Total 2,068,459 $ 204.9 (1) $956.8 million aggregate purchase price of Strategy's preferred stock remains available under its digital credit securities repurchase program. (2) $1.0 billion aggregate purchase price of MSTR Stock remains available under Strategy's MSTR Stock repurchase program. USD Reserve and USD Cash Updates As part of its capital framework, Strategy maintains: (i) a U.S. dollar reserve (the \"USD Reserve\"), which is intended to support the payment of dividends on Strategy's preferred stock and interest on its outstanding indebtedness, and (ii) \"USD Cash\", which management maintains to deploy for broader general Bitcoin Treasury Company purposes, which may include acquiring bitcoin, expanding the USD Reserve, broader capital management uses, and other similar purposes. During the period from October 19, 2026 to October 25, 2026, Strategy used $204.9 million of USD Cash to fund repurchases of STRC Stock. As of October 25, 2026, the balances of the USD Reserve and USD Cash were $4.83 billion and $242.4 million, respectively. Item 7.01 Regulation FD Disclosure. Strategy Dashboard Strategy also maintains a dashboard on its website (www.strategy.com) as a disclosure channel for providing broad, non-exclusionary distribution of information regarding Strategy to the public, including information regarding market prices of its outstanding securities, bitcoin purchases and holdings, certain key performance indicator metrics and other supplemental information, and as one means of disclosing non-public information in compliance with its disclosure obligations under Regulation FD. Investors and others are encouraged to regularly review the information that Strategy makes public via the website dashboard. Furnished Information The information disclosed pursuant to Item 7.01 in this Current Report on Form 8-K shall not be deemed \"filed\" for purposes of Section 18 of the Exchange Act, or otherwise subject to the liabilities of that section, nor shall it be deemed incorporated by reference in any filing under the Securities Act of 1933, as amended, or the Exchange Act, except as expressly set forth by specific reference in such a filing. SIGNATURE Pursuant to the requirements of the Securities Exchange Act of 1934, as amended, the Registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. Date: October 26, 2026 Strategy Inc (Registrant) By: /s/ Thomas C. Chow Name: Thomas C. Chow Title: Executive Vice President & General Counsel",
+      "market_cap_usd": 50135313750.00001,
+      "last_price": 146.05,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "quote": {
+        "ap": 155.33,
+        "as": 100,
+        "ax": "V",
+        "bp": 140.09,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-23T20:00:00.125971353Z",
+        "z": "C"
+      },
+      "extended_hours": {
+        "session": "pre-market",
+        "reference_close": 146.05,
+        "last": 143.57,
+        "move_pct": -1.7,
+        "high": 143.57,
+        "low": 143.57,
+        "volume": 140,
+        "as_of": "2026-10-26T12:50:00Z",
+        "trades_seen": true,
+        "note": "IEX feed only; extended-hours volume is thin, so a small print can move the last price"
+      },
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 2.14,
+        "max_gap_pct": 6.93
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 253.0386,
+        "slippage_usd": 2.4525,
+        "spread_pct": 10.318
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 87 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 5 case(s) with a thesis. Five days later the thesis averaged -1.6%, right 2 of 5 times. Positive means this gate is stopping trades that would have worked. Only 5 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "VZ",
+          "night": "20261026-1250",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "HRI",
+          "night": "20261026-1250",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CRML",
+          "night": "20261026-1250",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BHF",
+          "night": "20261024-0218",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ICE",
+          "night": "20261024-0218",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MRNA",
+          "night": "20261024-0218",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "VRTX",
+          "night": "20261023-1746",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "IONS",
+          "night": "20261023-1742",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 99
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}
