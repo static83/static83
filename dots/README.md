@@ -146,7 +146,8 @@ only if:
    lawsuit, bankruptcy, top-officer change, buyback...) and is not commentary, a price-target note,
    a prediction, a poll, a conference-presentation notice, a dosing milestone, shareholder
    complaints about a pending merger, a 'you may qualify for a settlement payment' notice to class
-   members, a court's approval of an announced acquisition, an FDA go-ahead to start or widen a study
+   members, a court's approval of an announced acquisition, a forecast for an index, commodity or
+   economy, an item whose source is an earnings preview, an FDA go-ahead to start or widen a study
    (IDE/IND) or a round-up of several companies.
 2. It tags one or two companies, and the company it is about (the one named first in the
    headline) is an SEC registrant with a price at Alpaca, a recent share count, a market cap

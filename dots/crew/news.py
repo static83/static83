@@ -42,6 +42,7 @@ _FILLER = re.compile(
     r"\bto present\b|\bwill present\b|\bpresents?\b.{0,40}\bat\b|"
     r"\b(doses|dosed|dosing|enrolls|enrolled|enrollment)\b|first patient|last patient|\bon track\b|"
     r"(stockholders|shareholders)'? (approv|vote)|(stockholder|shareholder) (complaints?|demands?)|ipo security released|"
+    r"\b(index|indices|oil|crude|gold|copper|gdp|inflation|rates?|yields?|s&p( 500)?|kospi|nikkei|nasdaq|dow|currency|dollar|yuan|yen) (price )?(forecasts?|targets?|outlook)\b|"
     r"\bcourt\b.{0,40}\b(approv|sanction)\w*\b.{0,40}\b(acquisition|merger|scheme|arrangement)\b|"
     r"\byou may (qualify|be eligible)\b|\bsettlement payments?\b|\bnotice of (proposed |potential |pending )?(class action )?settlement\b|\bclaims? deadline\b",
     re.IGNORECASE,
@@ -75,6 +76,8 @@ _SOLICITATION = re.compile(
     r"\binvestigat\w* (the )?(merger|claims|on behalf)|deadline reminder|lead plaintiff",
     re.IGNORECASE,
 )
+# Earnings previews recap last quarter's news under a summary that can read as new.
+_PREVIEW_URL = re.compile(r"what-to-expect|earnings-preview|ahead-of-(its-)?earnings|earnings-on-deck|before-earnings", re.IGNORECASE)
 _TAGS = re.compile(r"<[^>]+>")
 _WS = re.compile(r"\s+")
 
@@ -95,6 +98,8 @@ def classify(item: dict) -> Optional[str]:
         return "commentary, not an event"
     if _SOLICITATION.search(head) or _SOLICITATION.search(item.get("url") or ""):
         return "law-firm solicitation, not company news"
+    if _PREVIEW_URL.search(item.get("url") or ""):
+        return "earnings preview, which recaps earlier news"
     if _PROCEDURAL.search(head):
         return "procedural FDA step (IDE/IND), not a result"
     if not _MATERIAL.search(head):
