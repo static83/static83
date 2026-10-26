@@ -1,0 +1,34 @@
+[
+  {
+    "ticker": "CMI",
+    "company": "CUMMINS INC",
+    "cik": "26172",
+    "accession": "news:104211830",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-26T18:02:20Z",
+    "url": "https://www.barchart.com/story/news/8455013/what-to-expect-from-cummins-q3-2026-earnings-report",
+    "source_excerpt": "[Benzinga news, 2026-10-26T18:02:20Z, by staff] Cummins Announces Multiyear Hyperscaler Supply Agreement and Raises 2026 Revenue Outlook\nCEO Jennifer Rumsey announced a significant multiyear supply agreement with a hyperscaler and expanded plant capacity, leading to an upward revision of the company's 2026 revenue growth guidance.\nCummins CEO Jennifer Rumsey disclosed a major multiyear supply agreement with a hyperscaler, supported by expanded manufacturing capacity. Following these developments, the company has upgraded its full-year 2026 revenue growth outlook to a range of 10% to 13%. Additionally, management provided clarity regarding upcoming EPA emissions regulations, which is expected to facilitate a smoother, staggered rollout of engines through 2027.",
+    "market_cap_usd": 72060475720.15001,
+    "last_price": 523.45,
+    "also_accessions": [],
+    "weight": 3
+  },
+  {
+    "ticker": "GS",
+    "company": "GOLDMAN SACHS GROUP INC",
+    "cik": "886982",
+    "accession": "news:104211782",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-26T18:01:54Z",
+    "url": "https://www.morningstar.com/news/marketwatch/2026102626/the-kospi-index-is-the-leading-indicator-for-the-global-ai-trade-and-goldman-just-slashed-its-forecast-by-25",
+    "source_excerpt": "[Benzinga news, 2026-10-26T18:01:54Z, by staff] Goldman Sachs Lowers Kospi Index Forecast by 25%\nGoldman Sachs has reduced its 12-month forecast for the South Korean Kospi index from 12,000 to 9,000, citing a need for more conservative assumptions regarding market fundamentals.\nGoldman Sachs, led by chief equity strategist for Asia Tim Moe, has cut its 12-month forecast for the Kospi index by 25%, moving the target from 12,000 to 9,000. The firm stated that the downgrade is intended to incorporate more conservative assumptions about how the market prices underlying fundamentals rather than a decline in corporate earnings. Despite the reduction, the firm maintains a bullish outlook on Korea's long-term prospects, noting that the market remains significantly undervalued relative to historical pricing and corporate return on equity. The Kospi index is viewed by the firm as a key indicator for global sentiment regarding the artificial intelligence trade.",
+    "market_cap_usd": 261927607637.52002,
+    "last_price": 899.565,
+    "also_accessions": [],
+    "weight": 3
+  }
+]
