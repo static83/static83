@@ -32,7 +32,7 @@ _FILLER = re.compile(
     r"if you (had )?invested|would have made|invested in .{0,40} ago|how much .{0,40} (worth|invested)|"
     r"\bp/?e ratio|price over earnings|short interest|options activity|unusual options|whale|"
     r"what'?s going on with|why (is|are|did|does) .{0,40} (stock|shares|warrants|trending|moving|up|down)|\bpredicts?\b|"
-    r"\bcalls? for\b|\bexpects? .{0,30} to offer\b|benzinga (viewers|readers)|\bpoll(ed|s)?\b|\bsays? (bullish|bearish|top) analysts?\b|\banalysts? (says?|sees?|thinks?)\b|\bmini[- ]?tender\b|\bof the year\b|\bhonou?red\b|\brecogni[sz]ed (as|by|for)\b|\bawards? (winner|recipient)\b|^watching\b|\bshares (are )?trading (lower|higher)\b|\bshares (are )?(up|down|falling|rising|sliding|surging)\b|stocks? (moving|to watch)|top (gainers|losers)|movers|"
+    r"\bcalls? for\b|\bexpects? .{0,30} to offer\b|benzinga (viewers|readers)|\bpoll(ed|s)?\b|\bsays? (bullish|bearish|top) analysts?\b|\banalysts? (says?|sees?|thinks?|updates?|revises?|raises?|lowers?|cuts?)\b|\bmini[- ]?tender\b|\bof the year\b|\bhonou?red\b|\brecogni[sz]ed (as|by|for)\b|\bawards? (winner|recipient)\b|^watching\b|\bshares (are )?trading (lower|higher)\b|\bshares (are )?(up|down|falling|rising|sliding|surging)\b|stocks? (moving|to watch)|top (gainers|losers)|movers|"
     r"price target|(upgrade|downgrade|initiat|reiterat|maintain)s?\b.{0,40}\b(analyst|rating|buy|sell|hold|overweight|underweight|outperform)|"
     r"analyst ratings?|expert ratings|earnings (preview|outlook)|what to expect|ahead of earnings|"
     r"a look (at|into)|peering into|insight into|analyzing|technical|52-week|market clubhouse|"
