@@ -1,0 +1,58 @@
+[
+  {
+    "case": 1,
+    "ticker": "PFE",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A rewrite of a 12:46 ET item, and a small label expansion: FDA approves Talzenna plus Xtandi in HRR-mutated earlier-stage prostate cancer",
+        "reasoning": [
+          "Source: Pfizer's announcement via MarketScreener, relayed by Benzinga 15:02 ET. The FDA approval itself was on Benzinga at 12:46 ET: 'FDA Approves Talazoparib With Enzalutamide For Metastatic Androgen Pathway Modulation-Naive Or -Sensitive Prostate Cancer With HRR Gene Mutations'.",
+          "What changed: an existing combination, already approved in later-stage HRR-mutated prostate cancer, gains an earlier-line label in the same genetic subset. Talzenna is a small product for a $170B company.",
+          "Move: -0.07% since the 15:02 rewrite. The first report has had over two hours of trading without a reaction."
+        ],
+        "objections": [
+          "Old by two hours, and immaterial in size."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "PFE: no trade. A rewrite of an FDA label expansion already out at 12:46 ET",
+        "reasoning": [
+          "Filter gap: the 12:46 item never named Pfizer, so it weighed 2 and passed quietly. The 15:02 rewrite named Pfizer, weighed 3 and alerted as if new. A headline that repeats an event the crew or watcher already judged earlier (same company, same event) is now skipped as a rewrite. Fixed after this run.",
+          "Nothing to check later."
+        ],
+        "objections": [
+          "Rewrite; immaterial."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

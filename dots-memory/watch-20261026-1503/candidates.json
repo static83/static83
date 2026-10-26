@@ -1,0 +1,18 @@
+[
+  {
+    "ticker": "PFE",
+    "company": "PFIZER INC",
+    "cik": "78003",
+    "accession": "news:104283957",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-26T19:02:03Z",
+    "url": "https://www.marketscreener.com/news/pfizer-secures-fda-approval-for-talazoparib-combination-for-mapmn-s-prostate-cancer-with-hrr-gene-mu-ce785cdcdf8af223",
+    "source_excerpt": "[Benzinga news, 2026-10-26T19:02:03Z, by staff] Pfizer Receives FDA Approval for TALZENNA Combination Therapy\nThe U.S. FDA has approved the use of Pfizer's TALZENNA (talazoparib) in combination with XTANDI for the treatment of specific prostate cancer patients.\nPfizer announced that the U.S. Food and Drug Administration (FDA) has granted approval for the use of TALZENNA (talazoparib) in combination with XTANDI for the treatment of patients with mAPMN/S prostate cancer harboring HRR gene mutations. TALZENNA is an oral PARP inhibitor designed to block enzyme activity involved in DNA damage repair. This regulatory approval expands the therapeutic options available for patients with this specific genetic profile, marking a significant development for Pfizer's oncology portfolio.\n[Other material headlines on this company in the window]\n- 2026-10-26T16:46:31Z FDA Approves Talazoparib With Enzalutamide For Metastatic Androgen Pathway Modulation-Naive Or -Sensitive Prostate Cancer With HRR Gene Mutations",
+    "market_cap_usd": 169593787640.695,
+    "last_price": 29.755000000000003,
+    "also_accessions": [],
+    "weight": 3
+  }
+]
