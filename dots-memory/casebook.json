@@ -1097,6 +1097,10 @@
       "1": {
         "raw": 0.0156,
         "thesis": null
+      },
+      "5": {
+        "raw": 0.0312,
+        "thesis": null
       }
     },
     "first_exit": null
@@ -1124,6 +1128,10 @@
     "returns": {
       "1": {
         "raw": 0.0498,
+        "thesis": null
+      },
+      "5": {
+        "raw": 0.0631,
         "thesis": null
       }
     },
@@ -1153,6 +1161,10 @@
       "1": {
         "raw": -0.0222,
         "thesis": null
+      },
+      "5": {
+        "raw": 0.0089,
+        "thesis": null
       }
     },
     "first_exit": null
@@ -1180,6 +1192,10 @@
     "returns": {
       "1": {
         "raw": 0.0995,
+        "thesis": null
+      },
+      "5": {
+        "raw": -0.1681,
         "thesis": null
       }
     },
@@ -1212,6 +1228,10 @@
       "1": {
         "raw": 0.0649,
         "thesis": 0.0649
+      },
+      "5": {
+        "raw": 0.1492,
+        "thesis": 0.1492
       }
     },
     "first_exit": null
@@ -1239,6 +1259,10 @@
     "returns": {
       "1": {
         "raw": -0.0172,
+        "thesis": null
+      },
+      "5": {
+        "raw": 0.0055,
         "thesis": null
       }
     },
@@ -2486,7 +2510,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0161,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261023-1348-03-IDYA": {
@@ -2510,7 +2539,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": -0.0746,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261023-1421-01-IOVA": {
@@ -2534,7 +2568,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": -0.0216,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261023-1421-02-ONC": {
@@ -2558,7 +2597,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0028,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261023-1532-01-BANF": {
@@ -2606,7 +2650,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": -0.0253,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261023-1628-02-ORIC": {
@@ -2630,7 +2679,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": -0.2335,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261023-1628-03-CRSP": {
@@ -2654,7 +2708,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0075,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261023-1648-01-NVS": {
@@ -2678,7 +2737,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0016,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261023-1742-01-IONS": {
@@ -2702,7 +2766,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0057,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261023-1746-01-VRTX": {
@@ -2726,7 +2795,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": -0.0257,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261024-0218-01-MRNA": {
@@ -2750,7 +2824,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0543,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261024-0218-02-ICE": {
@@ -2774,7 +2853,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": -0.0114,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261024-0218-03-BHF": {
@@ -2798,7 +2882,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0022,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261026-1250-01-CRML": {
@@ -2822,7 +2911,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0264,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261026-1250-02-HRI": {
@@ -2846,7 +2940,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0409,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261026-1250-03-VZ": {
@@ -2873,7 +2972,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0018,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261026-1254-01-MSTR": {
@@ -2897,7 +3001,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0256,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261026-1254-02-RRC": {
@@ -2921,7 +3030,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0389,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261026-1254-03-BMY": {
@@ -2936,6 +3050,35 @@
     "source_head": "[Benzinga news, 2026-10-26T10:31:56Z, by staff] Bristol Myers Squibb and SystImmune Announce Positive Phase 3 Results for Izalontamab Brengitecan in NSCLC\nBristol Myers Squibb and partner SystImmune reported positive interim results from the Phase 3 PANKU-Lung01 study, showing that the drug candidate izalontamab brengitecan (Iza-Bren) doubled median progression-free survival in patients with previously-treated EGFR-mutated non-small cell lung cancer.\nBristol Myers Squibb and SystImmune, a subsidiary of Sichuan Biokin Pharmaceutical, announced positive interim analysis results from the Phase 3 ",
     "decided_at": "2026-10-26T12:57:16.712536+00:00",
     "price_at_decision": 61.49,
+    "outcome": "no_trade",
+    "ended_by": "ANALYST",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {
+      "1": {
+        "raw": -0.0074,
+        "thesis": null
+      }
+    },
+    "first_exit": null
+  },
+  "20261026-1537-01-MRK": {
+    "key": "20261026-1537-01-MRK",
+    "night": "20261026-1537",
+    "ticker": "MRK",
+    "accession": "news:62594546",
+    "also_accessions": [],
+    "filed_at": "2026-10-26T15:36:16Z",
+    "source_head": "[Benzinga news, 2026-10-26T15:36:16Z, by Benzinga Newsdesk] Merck\u2019s Phase 3 KEYNOTE-C93 Trial Meets Primary Endpoint Of Progression-Free Survival, Reducing Risk Of Progression Or Death By 43% With KEYTRUDA Monotherapy vs. Platinum Doublet Chemotherapy In dMMR Advanced Or Recurrent Endometrial Cancer\n\n",
+    "decided_at": "2026-10-26T15:38:31.684114+00:00",
+    "price_at_decision": 142.12,
     "outcome": "no_trade",
     "ended_by": "ANALYST",
     "rounds": 1,

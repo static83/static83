@@ -1,0 +1,81 @@
+[
+  {
+    "case": 1,
+    "ticker": "MRK",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "Merck: Keytruda alone beat platinum chemotherapy in first-line dMMR endometrial cancer, cutting progression or death risk by 43% (Phase 3 KEYNOTE-C93)",
+        "reasoning": [
+          "Source: Merck's announcement, as relayed by Benzinga Newsdesk at 11:36 ET (headline only). Quoted: 'Phase 3 KEYNOTE-C93 Trial Meets Primary Endpoint Of Progression-Free Survival, Reducing Risk Of Progression Or Death By 43% With KEYTRUDA Monotherapy vs. Platinum Doublet Chemotherapy In dMMR Advanced Or Recurrent Endometrial Cancer'.",
+          "What changed: Keytruda alone, with no chemotherapy, has a positive Phase 3 result in mismatch-repair-deficient endometrial cancer. That supports a chemo-free first-line label in a subset of one cancer.",
+          "Timing: published mid-session; MRK at 142.10 vs 142.04 in the bar before, +0.04% on 4,477 IEX shares two minutes in. Nothing earlier on this trial in the news window."
+        ],
+        "objections": [],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "object",
+        "headline": "A positive label-expansion trial in a small subset; it cannot reprice a $350B company",
+        "reasoning": [
+          "What changed: a chemo-free option for dMMR endometrial cancer, which is roughly a quarter to a third of endometrial cases. Keytruda is already approved there in combination with chemotherapy, so much of this is a shift within Keytruda's own use rather than new patients.",
+          "Size: Keytruda sells about $30B a year. One extra subset is low single-digit percent of that at best, and the drug faces its main US patent expiry in 2028, which caps how long new indications earn at full price. Against a $350B market cap, that is well under 1% of value.",
+          "The market's first two minutes agree: +0.04%. For a mispricing, the market would have to be ignoring a material change, and this is not one.",
+          "Would prove this wrong: MRK up more than 3% by Wednesday's close with no other news."
+        ],
+        "objections": [
+          "Too small for the company; no thesis that clears costs within 10 days."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "MRK: no trade. A positive Keytruda subset trial, immaterial at $350B",
+        "reasoning": [
+          "Pattern: the fourth big-pharma readout this month that weighed 3 on the headline's words ('Phase 3', 'primary endpoint') but is tiny against market cap. Worth a filter later: weigh trial readouts from companies above about $100B as 2. Left for the two-week review, since a 3 does no harm when ANALYST screens it out.",
+          "Check later: MRK's close on Wednesday against 142.04."
+        ],
+        "objections": [
+          "Immaterial for the company."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

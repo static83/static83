@@ -1,0 +1,18 @@
+[
+  {
+    "ticker": "MRK",
+    "company": "Merck & Co., Inc.",
+    "cik": "310158",
+    "accession": "news:62594546",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-26T15:36:16Z",
+    "url": "https://www.benzinga.com/general/biotech/26/10/62594546/merck-s-phase-3-keynote-c93-trial-meets-primary-endpoint-progression-free-survival-reducing-risk-pro",
+    "source_excerpt": "[Benzinga news, 2026-10-26T15:36:16Z, by Benzinga Newsdesk] Merck\u2019s Phase 3 KEYNOTE-C93 Trial Meets Primary Endpoint Of Progression-Free Survival, Reducing Risk Of Progression Or Death By 43% With KEYTRUDA Monotherapy vs. Platinum Doublet Chemotherapy In dMMR Advanced Or Recurrent Endometrial Cancer\n\n",
+    "market_cap_usd": 350634433192.56,
+    "last_price": 142.12,
+    "also_accessions": [],
+    "weight": 3
+  }
+]

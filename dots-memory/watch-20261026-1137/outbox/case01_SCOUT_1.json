@@ -1,0 +1,163 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "MRK",
+      "company": "Merck & Co., Inc.",
+      "cik": "310158",
+      "accession": "news:62594546",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-26T15:36:16Z",
+      "url": "https://www.benzinga.com/general/biotech/26/10/62594546/merck-s-phase-3-keynote-c93-trial-meets-primary-endpoint-progression-free-survival-reducing-risk-pro",
+      "source_excerpt": "[Benzinga news, 2026-10-26T15:36:16Z, by Benzinga Newsdesk] Merck\u2019s Phase 3 KEYNOTE-C93 Trial Meets Primary Endpoint Of Progression-Free Survival, Reducing Risk Of Progression Or Death By 43% With KEYTRUDA Monotherapy vs. Platinum Doublet Chemotherapy In dMMR Advanced Or Recurrent Endometrial Cancer\n\n",
+      "market_cap_usd": 350634433192.56,
+      "last_price": 142.12,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "quote": {
+        "ap": 144.2,
+        "as": 200,
+        "ax": "V",
+        "bp": 142.07,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "?"
+        ],
+        "t": "2026-10-26T15:38:13.512484168Z",
+        "z": "A"
+      },
+      "extended_hours": null,
+      "since_news": {
+        "since": "2026-10-26T15:36:16+00:00",
+        "reference": 142.04,
+        "reference_is": "last bar before the news",
+        "last": 142.1,
+        "move_pct": 0.04,
+        "high": 142.175,
+        "low": 141.645,
+        "volume": 4477,
+        "as_of": "2026-10-26T15:35:00Z",
+        "trades_seen": true,
+        "note": "IEX feed only: the move since the news went out, during today's session"
+      },
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.56,
+        "max_gap_pct": 2.34
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 36.496,
+        "slippage_usd": 2.4525,
+        "spread_pct": 1.488
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 88 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.2%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "BMY",
+          "night": "20261026-1254",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "RRC",
+          "night": "20261026-1254",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "MSTR",
+          "night": "20261026-1254",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "VZ",
+          "night": "20261026-1250",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "HRI",
+          "night": "20261026-1250",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CRML",
+          "night": "20261026-1250",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BHF",
+          "night": "20261024-0218",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ICE",
+          "night": "20261024-0218",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 102
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}
