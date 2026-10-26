@@ -80,9 +80,9 @@ source with an official timestamp, so "pull the original source" is literal. Fil
 3. Not just the paperwork for news that is already public: a filing that says it completed, closed,
    settled or priced something "previously announced", a completed acquisition or sale the filing
    says was previously disclosed, a routine step on a previously disclosed merger (waiting period,
-   regulatory approval, shareholder vote, shareholder complaints about the deal; amended terms still
+   regulatory or court approval, shareholder vote, shareholder complaints about the deal; amended terms still
    count as news), the closing of a bond
-   or convertible bond offering,
+   or convertible bond offering, a weekly at-the-market or crypto-treasury update ('ATM and BTC Update'),
    or an underwriting agreement (signed the day an offering is priced). The last two only apply when
    the filing reports nothing else. "As previously disclosed" alone is not enough: filings often use
    it to introduce something genuinely new.
@@ -120,6 +120,9 @@ source with an official timestamp, so "pull the original source" is literal. Fil
      contracts, lawsuits, buybacks
    - weight 1: everything else.
 
+   A planned CEO succession (the outgoing CEO becomes chair) weighs 2, and so does a guidance
+   raise whose new range lands on the consensus figure in the same or a sibling headline
+   ('to $5.04-$5.06 vs $5.04 Est').
    A deal, contract, settlement or buyback is also weighed against the company: under 3% of
    its market value counts 1 and under 10% counts 2, however big the verb. A minority stake in
    another company, a deal whose terms were not disclosed, or an unconfirmed rumor counts 1.
@@ -143,7 +146,7 @@ only if:
    lawsuit, bankruptcy, top-officer change, buyback...) and is not commentary, a price-target note,
    a prediction, a poll, a conference-presentation notice, a dosing milestone, shareholder
    complaints about a pending merger, a 'you may qualify for a settlement payment' notice to class
-   members, an FDA go-ahead to start or widen a study
+   members, a court's approval of an announced acquisition, an FDA go-ahead to start or widen a study
    (IDE/IND) or a round-up of several companies.
 2. It tags one or two companies, and the company it is about (the one named first in the
    headline) is an SEC registrant with a price at Alpaca, a recent share count, a market cap

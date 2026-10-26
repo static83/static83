@@ -168,6 +168,12 @@ _COMPLETED_DEAL = re.compile(
     r"\b(completed|consummated|closed)\b.{0,60}?\b(acquisition|merger|sale|disposition|purchase)\b", re.IGNORECASE
 )
 _UNDERWRITTEN = re.compile(r"\bentered into an underwriting agreement\b", re.IGNORECASE)
+# Weekly 'ATM and BTC Update' style filings: shares sold and coins bought over the past period.
+_TREASURY_UPDATE = re.compile(
+    r"\bATM (and \w+ )?updates?\b|\b(BTC|bitcoin|ETH|ether|crypto) (holdings? )?updates?\b|"
+    r"during the period from \w+ \d{1,2}, \d{4},? (to|through) \w+ \d{1,2}, \d{4},? [^.]{0,80}\bat-the-market\b",
+    re.IGNORECASE,
+)
 # Offering paperwork is only skipped when the filing reports nothing else.
 _FINANCING_ONLY_ITEMS = {"1.01", "7.01", "8.01"}
 
@@ -176,7 +182,7 @@ _FINANCING_ONLY_ITEMS = {"1.01", "7.01", "8.01"}
 _DEAL_STEP = re.compile(
     r"(waiting period|HSR Act|Hart-Scott-Rodino|early termination|antitrust (approval|clearance)|"
     r"regulatory approvals? (was|were|has been|have been) (received|obtained)|"
-    r"(stockholders|shareholders) (approved|voted)|special meeting|"
+    r"(stockholders|shareholders) (approved|voted)|special meeting|court (approv|sanction)\w*|"
     r"(stockholder|shareholder) (complaints?|demands?|lawsuits?|suits?)|disclosure (claims|complaints))",
     re.IGNORECASE,
 )
@@ -194,6 +200,8 @@ def settles_prior_news(items: list[str], body: str) -> Optional[str]:
         return "completes a previously disclosed acquisition or sale"
     if "2.02" not in items and _AS_PREVIOUSLY.search(head) and _DEAL_STEP.search(head) and not _NEW_TERMS.search(head):
         return "a routine step (waiting period, approval or vote) on a previously announced deal"
+    if set(items) <= _FINANCING_ONLY_ITEMS and _TREASURY_UPDATE.search(head):
+        return "a routine periodic update of an at-the-market program or crypto treasury"
     if set(items) <= _FINANCING_ONLY_ITEMS:
         if all(p.search(head) for p in _NOTES_CLOSING):
             kind = "convertible bond" if _CONVERTIBLE.search(head) else "bond"
@@ -687,7 +695,7 @@ def find_news_candidates(
     as filings: a price at Alpaca, a recent share count, the market-cap floor, and no visible
     reaction already. A company with several headlines gets one case, on its heaviest fresh one."""
     from .market import move_since
-    from .news import clean_text, fetch_news, first_public_session, weight
+    from .news import _GUIDANCE, clean_text, fetch_news, first_public_session, guidance_to_consensus, weight
 
     now = now or datetime.now(timezone.utc)
     if groups is None:
@@ -731,11 +739,15 @@ def find_news_candidates(
             continue
         title = re.sub(r"[^a-z0-9 ]", " ", info.get("title", "").lower()).split()
 
+        catch_up = any(guidance_to_consensus(i["headline"]) for i in items)
+
         def wt(i: dict) -> int:
             """The headline's weight; at most 2 when it never names this company (a brand or unit's news)."""
             head = i["headline"].lower()
             named = bool(re.search(rf"\b{re.escape(ticker.lower())}\b", head)) or bool(title and title[0] in head)
-            return weight(i["headline"], cap, price) if named else min(weight(i["headline"], cap, price), 2)
+            w = weight(i["headline"], cap, price) if named else min(weight(i["headline"], cap, price), 2)
+            # a rewrite of a guidance raise that a sibling headline shows only reaches consensus
+            return min(w, 2) if catch_up and _GUIDANCE.search(i["headline"]) else w
 
         heaviest = max(wt(i) for i in live)
         item = next(i for i in live if wt(i) == heaviest)  # newest of the heaviest

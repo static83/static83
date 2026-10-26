@@ -22,8 +22,8 @@ _MATERIAL = re.compile(
     r"recall|lawsuit|sues|settle(s|ment)|investigation|probe|subpoena|charges|indict|"
     r"bankruptcy|chapter 11|default|delist(ed|ing)?|going concern|"
     r"(suspends|cuts|initiates|eliminates) .{0,20}dividend|special dividend|buyback|repurchase|"
-    r"(ceo|cfo|chief executive|chief financial).{0,40}(resign|steps? down|depart|ousted|fired|retire|appoint|names?)|"
-    r"(resign|steps? down|depart|ousted|fired|retire|appoint|names?).{0,40}(ceo|cfo|chief executive|chief financial)|"
+    r"(ceo|cfo|chief executive|chief financial).{0,40}(resign\w*|steps? down|depart\w*|ousted|fired|retire\w*|appoint\w*|names?)|"
+    r"(resign\w*|steps? down|depart\w*|ousted|fired|retire\w*|appoint\w*|names?).{0,40}(ceo|cfo|chief executive|chief financial)|"
     r"cyber(attack| ?security incident)|breach|outage|explosion|fire at)\b",
     re.IGNORECASE,
 )
@@ -42,6 +42,7 @@ _FILLER = re.compile(
     r"\bto present\b|\bwill present\b|\bpresents?\b.{0,40}\bat\b|"
     r"\b(doses|dosed|dosing|enrolls|enrolled|enrollment)\b|first patient|last patient|\bon track\b|"
     r"(stockholders|shareholders)'? (approv|vote)|(stockholder|shareholder) (complaints?|demands?)|ipo security released|"
+    r"\bcourt\b.{0,40}\b(approv|sanction)\w*\b.{0,40}\b(acquisition|merger|scheme|arrangement)\b|"
     r"\byou may (qualify|be eligible)\b|\bsettlement payments?\b|\bnotice of (proposed |potential |pending )?(class action )?settlement\b|\bclaims? deadline\b",
     re.IGNORECASE,
 )
@@ -58,8 +59,8 @@ _TIER3 = re.compile(
     r"complete response|crl|topline|phase (3|iii)|primary endpoint|trial (results|data|met|fail)|"
     r"(raises|lowers|cuts|withdraws|boosts|slashes) .{0,25}(outlook|forecast|guidance)|preliminary (\w+ ){0,3}(results|revenue|sales|production|earnings|estimates?|figures|financial|q[1-4]|quarter)|"
     r"bankruptcy|chapter 11|going concern|delist(ed|ing)?|special dividend|"
-    r"(ceo|chief executive).{0,40}(resign|steps? down|depart|ousted|fired|retire|appoint|names?)|"
-    r"(resign|steps? down|depart|ousted|fired|retire|appoint|names?).{0,40}(ceo|chief executive))\b",
+    r"(ceo|chief executive).{0,40}(resign\w*|steps? down|depart\w*|ousted|fired|retire\w*|appoint\w*|names?)|"
+    r"(resign\w*|steps? down|depart\w*|ousted|fired|retire\w*|appoint\w*|names?).{0,40}(ceo|chief executive))\b",
     re.IGNORECASE,
 )
 _TIER2 = re.compile(
@@ -142,6 +143,22 @@ def largest_amount(text: str, price: Optional[float] = None) -> Optional[float]:
     return max(found) if found else None
 
 
+_GUIDANCE_TO = re.compile(
+    r"\b(raises|boosts|lifts|increases)\b.{0,40}\bguidance\b.{0,40}\bto \$(\d+\.?\d*)(?:\s*-\s*\$(\d+\.?\d*))?\s+vs\.? \$(\d+\.?\d*) est",
+    re.IGNORECASE,
+)
+_GUIDANCE = re.compile(r"\b(outlook|forecast|guidance)\b", re.IGNORECASE)
+
+
+def guidance_to_consensus(text: str) -> bool:
+    """A raise that only reaches what analysts expected: 'Raises ... Guidance ... to $5.04-$5.06 vs $5.04 Est'."""
+    m = _GUIDANCE_TO.search(text)
+    if not m:
+        return False
+    low, high, est = float(m.group(2)), float(m.group(3) or m.group(2)), float(m.group(4))
+    return est > 0 and abs((low + high) / 2 / est - 1) <= 0.01
+
+
 def weight(text: str, market_cap: Optional[float] = None, price: Optional[float] = None) -> int:
     """3 = can reprice the company (deal, trial readout, guidance change, CEO), 2 = notable, 1 = minor.
 
@@ -159,6 +176,11 @@ def weight(text: str, market_cap: Optional[float] = None, price: Optional[float]
                   text, re.IGNORECASE)
             or re.search(r"\bon \w+ \d{1,2}, \d{4},? .{0,80}\b(acquired|completed the acquisition|closed the acquisition)\b", text, re.IGNORECASE)):
         return 1  # a closing: the deal was priced when it was announced
+    if re.search(r"(will become|to become|becomes?|named|transition\w* to) (executive |non-executive )?chair|succession plan",
+                 text, re.IGNORECASE):
+        w = min(w, 2)  # a planned handover, the outgoing CEO staying on as chair: continuity, not a shock
+    if guidance_to_consensus(text):
+        w = min(w, 2)  # the raise lands on the analysts' number
     if re.search(r"\bpublished (in|by) (the )?(new england|nejm|lancet|nature|jama|science|journal)", text, re.IGNORECASE):
         return 1  # the paper of a trial whose result was announced when it read out
     if re.search(r"\bunconfirmed\b|\brumou?rs?\b|\bspeculation\b", text, re.IGNORECASE):
