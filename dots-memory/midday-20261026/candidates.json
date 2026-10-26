@@ -1,0 +1,50 @@
+[
+  {
+    "ticker": "GSK",
+    "company": "GSK plc",
+    "cik": "1131399",
+    "accession": "news:62594470",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-26T15:34:21Z",
+    "url": "https://www.benzinga.com/general/biotech/26/10/62594470/gsk-s-ris-rez-meets-primary-endpoint-phase-iii-artemis-011-trial-reducing-risk-progression-or-death-",
+    "source_excerpt": "[Benzinga news, 2026-10-26T15:34:21Z, by Benzinga Newsdesk] GSK\u2019s Ris-Rez Meets Primary Endpoint In Phase III ARTEMIS-011 Trial, Reducing Risk Of Progression Or Death By 67%, Improving Median Progression-Free Survival To 5.5 Months Vs. 1.4 Months With Chemotherapy In Relapsed Or Refractory Osteosarcoma\n\n\n[Other material headlines on this company in the window]\n- 2026-10-26T07:32:16Z Reported Saturday, GSK\u2019s Jemperli Monotherapy Shows Generally Consistent Safety, With Serious Adverse Reactions In 20% And Discontinuations In 3%, Alongside 76% Complete Response In Phase II AZUR-1 MSI-H/dMMR Rectal Cancer Trial",
+    "market_cap_usd": 220627126954.25,
+    "last_price": 51.125,
+    "also_accessions": [],
+    "weight": 3
+  },
+  {
+    "ticker": "ATKR",
+    "company": "Atkore Inc.",
+    "cik": "1666138",
+    "accession": "news:103957807",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-26T13:32:45Z",
+    "url": "https://www.milanofinanza.it/news/prysmian-citi-vede-l-ebitda-a-5-2-miliardi-nel-2030-cosa-aspettarsi-dal-capital-markets-day-2027-202610260854158521",
+    "source_excerpt": "[Benzinga news, 2026-10-26T13:32:45Z, by staff] Citi Analysts Update Prysmian Outlook Following Atkore Acquisition\nCiti analysts have updated their financial projections for Prysmian, citing the positive contribution of the Atkore acquisition to future earnings.\nCiti analysts have revised their financial outlook for Prysmian, incorporating the impact of the Atkore acquisition into their models. The firm expects the acquisition to be accretive to Prysmian's adjusted earnings per share (EPS). Citi projects that Atkore's organic growth could reach +10% in 2027 and +9% in 2028, supported by commercial synergies. While noting a higher execution risk associated with these synergies, the bank maintains a positive view on the contribution of Atkore to Prysmian's long-term performance.",
+    "market_cap_usd": 3207210210.75,
+    "last_price": 94.965,
+    "also_accessions": [],
+    "weight": 3
+  },
+  {
+    "ticker": "BNTX",
+    "company": "BioNTech SE",
+    "cik": "1776985",
+    "accession": "news:103936232",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-26T13:01:56Z",
+    "url": "https://www.globenewswire.com/news/heathcare/biotechnology",
+    "source_excerpt": "[Benzinga news, 2026-10-26T13:01:56Z, by staff] BioNTech and DualityBio Announce Positive Topline Results from Phase 3 DYNASTY-Breast02 Trial\nBioNTech SE and DualityBiologics announced that their global Phase 3 clinical trial, DYNASTY-Breast02, evaluating trastuzumab pamirtecan in patients with HR+/HER2-low metastatic breast cancer, has met its primary endpoint.\nBioNTech SE and its partner DualityBiologics (Suzhou) Co., Ltd. reported that the global Phase 3 clinical trial DYNASTY-Breast02 (NCT06018337) successfully met its primary endpoint. The study evaluated the efficacy and safety of trastuzumab pamirtecan in patients diagnosed with HR+/HER2-low metastatic breast cancer. This development marks a significant milestone in the companies' collaborative oncology pipeline. Further details regarding the trial data and subsequent regulatory steps are expected to be disclosed as the program progresses.\n[Other material headlines on this company in the window]\n- 2026-10-26T09:52:45Z BioNTech, DualityBio Say DYNASTY-Breast02 Phase 3 Trial Met Primary Endpoint, Showing Statistically Significant Yet Modest PFS Improvement For Trastuzumab Pamirtecan; Higher ILD Rate, OS Data Not Mature, Benefit Limited",
+    "market_cap_usd": 21867340060.3,
+    "last_price": 87.05,
+    "also_accessions": [],
+    "weight": 3
+  }
+]

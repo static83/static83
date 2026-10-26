@@ -1,0 +1,170 @@
+[
+  {
+    "case": 1,
+    "ticker": "GSK",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Real but tiny for GSK: Ris-Rez beat chemotherapy in relapsed osteosarcoma, a rare cancer, at a $220B company",
+        "reasoning": [
+          "Source: GSK's announcement, relayed by Benzinga Newsdesk at 11:34 ET (headline only). Quoted: 'Ris-Rez Meets Primary Endpoint In Phase III ARTEMIS-011 Trial, Reducing Risk Of Progression Or Death By 67%, Improving Median Progression-Free Survival To 5.5 Months Vs. 1.4 Months With Chemotherapy In Relapsed Or Refractory Osteosarcoma'.",
+          "What changed: a positive registrational result in relapsed osteosarcoma, which affects a few thousand patients a year worldwide. Against GSK's revenue base this is immaterial.",
+          "Move since the news: GSK +0.42% (50.915 to 51.13 on 64,927 IEX shares) in 50 minutes."
+        ],
+        "objections": [
+          "An orphan indication; cannot move a $220B company. Not worth the crew's time."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "GSK: no trade. Positive Phase III in a rare cancer, immaterial at $220B",
+        "reasoning": [
+          "Second big-pharma readout today (after MRK) that weighed 3 on its words. The pattern stands for the two-week review.",
+          "Nothing to check later."
+        ],
+        "objections": [
+          "Immaterial."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "ATKR",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "An analyst note about the buyer, not news about Atkore: Citi updates its Prysmian model for the Atkore deal",
+        "reasoning": [
+          "Source: Milano Finanza, relayed by Benzinga 09:32 ET: 'Citi Analysts Update Prysmian Outlook Following Atkore Acquisition'. Quoted: 'Citi projects that Atkore's organic growth could reach +10% in 2027 and +9% in 2028, supported by commercial synergies.'",
+          "Nothing happened at Atkore: the acquisition by Prysmian was already announced. This is a broker's forecast for the acquirer.",
+          "IEX shows no ATKR trades since the note, so the move cannot be measured."
+        ],
+        "objections": [
+          "Commentary on an announced deal, not an event."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "ATKR: no trade. A Citi model update on the acquirer",
+        "reasoning": [
+          "Filter gap: 'Analysts Update/Revise ... Outlook' joins the analyst-commentary filter. Fixed after this run.",
+          "Nothing to check later."
+        ],
+        "objections": [
+          "Commentary."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "BNTX",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Priced since before the open: BioNTech's DYNASTY-Breast02 met its endpoint, but the companies themselves call the benefit modest",
+        "reasoning": [
+          "Sources: BioNTech and DualityBio's release (GlobeNewswire), first relayed by Benzinga at 05:52 ET. Quoted: 'Met Primary Endpoint, Showing Statistically Significant Yet Modest PFS Improvement For Trastuzumab Pamirtecan; Higher ILD Rate, OS Data Not Mature, Benefit Limited'.",
+          "What changed: a positive but modest Phase 3 in HR+/HER2-low metastatic breast cancer, a crowded setting where Enhertu is already established, with a higher rate of interstitial lung disease (ILD).",
+          "Move since the news: BNTX 87.05 vs 88.105 Friday close, -1.2% on 26,846 IEX shares, with a 86.41-88.77 range over a full morning. The market has had seven hours, including two and a half of regular trading, to read a release that sets its own expectations low."
+        ],
+        "objections": [
+          "Already traded through a full morning session; mixed data the company framed as limited."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "BNTX: no trade. A modest Phase 3 the market has traded since the open",
+        "reasoning": [
+          "Check later: BNTX's 5-day move from 88.105. A further fall would show the 'modest, higher ILD' framing still being digested.",
+          "Nothing else."
+        ],
+        "objections": [
+          "Priced."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

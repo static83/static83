@@ -1131,7 +1131,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0631,
+        "raw": 0.0607,
         "thesis": null
       }
     },
@@ -1163,7 +1163,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0089,
+        "raw": 0.0069,
         "thesis": null
       }
     },
@@ -1195,7 +1195,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.1681,
+        "raw": -0.1662,
         "thesis": null
       }
     },
@@ -1230,8 +1230,8 @@
         "thesis": 0.0649
       },
       "5": {
-        "raw": 0.1492,
-        "thesis": 0.1492
+        "raw": 0.1388,
+        "thesis": 0.1388
       }
     },
     "first_exit": null
@@ -2541,7 +2541,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0746,
+        "raw": -0.0626,
         "thesis": null
       }
     },
@@ -2599,7 +2599,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0028,
+        "raw": 0.0036,
         "thesis": null
       }
     },
@@ -2652,7 +2652,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0253,
+        "raw": -0.025,
         "thesis": null
       }
     },
@@ -2681,7 +2681,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.2335,
+        "raw": -0.2524,
         "thesis": null
       }
     },
@@ -2710,7 +2710,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0075,
+        "raw": 0.009,
         "thesis": null
       }
     },
@@ -2739,7 +2739,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0016,
+        "raw": 0.0027,
         "thesis": null
       }
     },
@@ -2768,7 +2768,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0057,
+        "raw": 0.0065,
         "thesis": null
       }
     },
@@ -2797,7 +2797,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0257,
+        "raw": -0.0265,
         "thesis": null
       }
     },
@@ -2826,7 +2826,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0543,
+        "raw": 0.0427,
         "thesis": null
       }
     },
@@ -2855,7 +2855,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0114,
+        "raw": -0.0134,
         "thesis": null
       }
     },
@@ -2884,7 +2884,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0022,
+        "raw": 0.0058,
         "thesis": null
       }
     },
@@ -2913,7 +2913,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0264,
+        "raw": 0.0192,
         "thesis": null
       }
     },
@@ -2942,7 +2942,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0409,
+        "raw": 0.05,
         "thesis": null
       }
     },
@@ -2974,7 +2974,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0018,
+        "raw": -0.0054,
         "thesis": null
       }
     },
@@ -3003,7 +3003,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0256,
+        "raw": 0.0079,
         "thesis": null
       }
     },
@@ -3032,7 +3032,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0389,
+        "raw": 0.038,
         "thesis": null
       }
     },
@@ -3063,7 +3063,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0074,
+        "raw": -0.0058,
         "thesis": null
       }
     },
@@ -3081,6 +3081,78 @@
     "price_at_decision": 142.12,
     "outcome": "no_trade",
     "ended_by": "ANALYST",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261026-1627-01-GSK": {
+    "key": "20261026-1627-01-GSK",
+    "night": "20261026-1627",
+    "ticker": "GSK",
+    "accession": "news:62594470",
+    "also_accessions": [],
+    "filed_at": "2026-10-26T15:34:21Z",
+    "source_head": "[Benzinga news, 2026-10-26T15:34:21Z, by Benzinga Newsdesk] GSK\u2019s Ris-Rez Meets Primary Endpoint In Phase III ARTEMIS-011 Trial, Reducing Risk Of Progression Or Death By 67%, Improving Median Progression-Free Survival To 5.5 Months Vs. 1.4 Months With Chemotherapy In Relapsed Or Refractory Osteosarcoma\n\n\n[Other material headlines on this company in the window]\n- 2026-10-26T07:32:16Z Reported Saturday, GSK\u2019s Jemperli Monotherapy Shows Generally Consistent Safety, With Serious Adverse Reactions In 20% And Discontinuations In 3%, Alongside 76% Complete Response In Phase II AZUR-1 MSI-H/dMMR Recta",
+    "decided_at": "2026-10-26T16:28:26.809369+00:00",
+    "price_at_decision": 51.125,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261026-1627-02-ATKR": {
+    "key": "20261026-1627-02-ATKR",
+    "night": "20261026-1627",
+    "ticker": "ATKR",
+    "accession": "news:103957807",
+    "also_accessions": [],
+    "filed_at": "2026-10-26T13:32:45Z",
+    "source_head": "[Benzinga news, 2026-10-26T13:32:45Z, by staff] Citi Analysts Update Prysmian Outlook Following Atkore Acquisition\nCiti analysts have updated their financial projections for Prysmian, citing the positive contribution of the Atkore acquisition to future earnings.\nCiti analysts have revised their financial outlook for Prysmian, incorporating the impact of the Atkore acquisition into their models. The firm expects the acquisition to be accretive to Prysmian's adjusted earnings per share (EPS). Citi projects that Atkore's organic growth could reach +10% in 2027 and +9% in 2028, supported by commer",
+    "decided_at": "2026-10-26T16:28:26.813370+00:00",
+    "price_at_decision": 94.965,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261026-1627-03-BNTX": {
+    "key": "20261026-1627-03-BNTX",
+    "night": "20261026-1627",
+    "ticker": "BNTX",
+    "accession": "news:103936232",
+    "also_accessions": [],
+    "filed_at": "2026-10-26T13:01:56Z",
+    "source_head": "[Benzinga news, 2026-10-26T13:01:56Z, by staff] BioNTech and DualityBio Announce Positive Topline Results from Phase 3 DYNASTY-Breast02 Trial\nBioNTech SE and DualityBiologics announced that their global Phase 3 clinical trial, DYNASTY-Breast02, evaluating trastuzumab pamirtecan in patients with HR+/HER2-low metastatic breast cancer, has met its primary endpoint.\nBioNTech SE and its partner DualityBiologics (Suzhou) Co., Ltd. reported that the global Phase 3 clinical trial DYNASTY-Breast02 (NCT06018337) successfully met its primary endpoint. The study evaluated the efficacy and safety of trastu",
+    "decided_at": "2026-10-26T16:28:26.817369+00:00",
+    "price_at_decision": 87.05,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
     "rounds": 1,
     "objections": 2,
     "direction": null,
