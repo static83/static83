@@ -1,0 +1,18 @@
+[
+  {
+    "ticker": "UBS",
+    "company": "UBS Group AG",
+    "cik": "1610520",
+    "accession": "news:104118261",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-26T16:31:37Z",
+    "url": "https://www.marketscreener.com/news/saudi-regulator-oks-ubs-credit-suisse-units-merger-ce785cdcdc8af42c",
+    "source_excerpt": "[Benzinga news, 2026-10-26T16:31:37Z, by staff] Saudi Regulator Approves Merger of UBS and Credit Suisse Units\nThe Saudi Arabian regulatory authority has granted approval for the merger of local units belonging to UBS and Credit Suisse.\nOn October 26, 2026, it was reported that the Saudi Arabian regulator has approved the merger of the local business units of UBS and Credit Suisse. This regulatory clearance marks a step in the ongoing integration of the two entities following UBS's acquisition of Credit Suisse. The approval facilitates the consolidation of their operations within the Saudi market.",
+    "market_cap_usd": 156035158135.23,
+    "last_price": 46.695,
+    "also_accessions": [],
+    "weight": 3
+  }
+]

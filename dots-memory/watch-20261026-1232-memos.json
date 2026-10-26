@@ -1,0 +1,58 @@
+[
+  {
+    "case": 1,
+    "ticker": "UBS",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Integration paperwork: Saudi regulator approves merging UBS's and Credit Suisse's local units, three years after the takeover",
+        "reasoning": [
+          "Source: MarketScreener, relayed by Benzinga 12:31 ET: 'Saudi Regulator Approves Merger of UBS and Credit Suisse Units'. Quoted: 'This regulatory clearance marks a step in the ongoing integration of the two entities following UBS's acquisition of Credit Suisse.'",
+          "What changed: two Saudi subsidiaries of the same group may now combine. UBS already owns both, so the group's assets and earnings do not change.",
+          "Move since the news: UBS 46.67 vs 46.665, +0.01% on 12,467 IEX shares."
+        ],
+        "objections": [
+          "A subsidiary-level integration step for a $156B bank; no change to the company."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "UBS: no trade. A regulator approving the merger of two units UBS already owns",
+        "reasoning": [
+          "Filter gap: the 'unit/subsidiary deal' cap missed the plural 'Units'. Plurals now count, so this weighs 2 and the watcher would not alert on it. Fixed after this run.",
+          "Nothing to check later."
+        ],
+        "objections": [
+          "Internal reorganization."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]
