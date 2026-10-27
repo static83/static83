@@ -35335,3 +35335,76 @@
 2026-10-26T19:59:34+00:00   news skip HRI: the crew judged this company in the last 3 days
 2026-10-26T19:59:34+00:00   news skip RRC: the crew judged this company in the last 3 days
 2026-10-26T19:59:34+00:00   news skip VZ: the crew judged this company in the last 3 days
+2026-10-27T13:09:31+00:00   skip BAER: market cap 27M below floor
+2026-10-27T13:09:33+00:00   skip CFBK: market cap 218M below floor
+2026-10-27T13:09:36+00:00   pulled LECO: items 2.02
+2026-10-27T13:09:37+00:00   skip ATYR: routine items only
+2026-10-27T13:09:37+00:00   skip BWIN: already judged on an earlier night
+2026-10-27T13:09:39+00:00   pulled BX: items 8.01
+2026-10-27T13:09:42+00:00   pulled THFF: items 2.02
+2026-10-27T13:09:43+00:00   skip GOVX: market cap 1M below floor
+2026-10-27T13:09:45+00:00   pulled CBU: items 2.02
+2026-10-27T13:09:49+00:00   skip TTGT: market cap 275M below floor
+2026-10-27T13:09:50+00:00   skip PULM: routine items only
+2026-10-27T13:09:51+00:00   skip RNA: market cap 137M below floor
+2026-10-27T13:09:52+00:00   skip LFWD: market cap 20M below floor
+2026-10-27T13:09:54+00:00   skip AIAI: market cap 133M below floor
+2026-10-27T13:09:54+00:00   skip COCH: a routine step (waiting period, approval or vote) on a previously announced deal
+2026-10-27T13:09:57+00:00   pulled ITRI: items 2.02
+2026-10-27T13:09:57+00:00   news skip PEW: market cap 61M below floor
+2026-10-27T13:09:57+00:00   news skip RVP: market cap 17M below floor
+2026-10-27T13:09:57+00:00   news skip BWIN: the crew judged this company in the last 3 days
+2026-10-27T13:09:58+00:00   news skip AEC: no share count on file at the SEC
+2026-10-27T13:09:58+00:00   news skip SGRP: market cap 8M below floor
+2026-10-27T13:09:59+00:00   news skip MCHX: no share count on file at the SEC
+2026-10-27T13:09:59+00:00   news skip SKIN: too thinly traded: about $7,402 a day on the IEX feed
+2026-10-27T13:10:00+00:00   news skip BOLT: market cap 13M below floor
+2026-10-27T13:10:00+00:00   news skip FBDT: market cap 46M below floor
+2026-10-27T13:10:01+00:00   news skip CTOR: market cap 52M below floor
+2026-10-27T13:10:01+00:00   news skip CLRB: market cap 12M below floor
+2026-10-27T13:10:02+00:00   news skip BEEM: market cap 21M below floor
+2026-10-27T13:10:02+00:00   news skip DVLT: market cap 126M below floor
+2026-10-27T13:10:03+00:00   news skip FFR: market cap 22M below floor
+2026-10-27T13:10:03+00:00   news skip STEM: market cap 30M below floor
+2026-10-27T13:10:04+00:00   news skip CTXR: market cap 12M below floor
+2026-10-27T13:10:04+00:00   news skip FRMM: market cap 43M below floor
+2026-10-27T13:10:05+00:00   news pulled NOW (weight 1): ServiceNow And Google Cloud Expand Partnership Connecting Industry-Specific Operational Co
+2026-10-27T13:10:05+00:00   news skip SWMR: market cap 109M below floor
+2026-10-27T13:10:06+00:00   news skip CAMP: market cap 201M below floor
+2026-10-27T13:10:06+00:00   news skip BNC: market cap 220M below floor
+2026-10-27T13:10:07+00:00   news skip ELDN: market cap 179M below floor
+2026-10-27T13:10:07+00:00   news pulled CVLT (weight 1): Conference call:
+CommVault Systems Affirms FY2027 Sales Guidance of $1.300B-$1.310B vs $1.
+2026-10-27T13:10:08+00:00   news skip AEYE: market cap 95M below floor
+2026-10-27T13:10:08+00:00   news pulled ARTV (weight 2): Artiva Biotherapeutics Discontinues Development of Lead Candidate AlloNK and Initiates Str
+2026-10-27T13:10:09+00:00   news skip VNDA: market cap 239M below floor
+2026-10-27T13:10:09+00:00   news pulled IMSR (weight 2): Terrestrial Energy Announces Share Repurchase Program
+2026-10-27T13:10:10+00:00   news pulled DSGR (weight 1): Distribution Solutions Group Completes Strategic Acquisition of Winzer and FastServ Supply
+2026-10-27T13:10:10+00:00   news pulled HLLY (weight 1): Holley Performance Brands and Amotiv Limited Announce Strategic Collaboration
+2026-10-27T13:10:11+00:00   news skip SORN: market cap 74M below floor
+2026-10-27T13:10:11+00:00   news pulled NMFC (weight 2): New Mountain Finance Extends Stock Repurchase Program to $150 Million
+2026-10-27T13:10:12+00:00   news pulled MFIC (weight 2): Ares Capital Corporation to Acquire MidCap Financial Investment Corporation
+2026-10-27T13:10:12+00:00   news skip VBNK: no share count on file at the SEC
+2026-10-27T13:10:12+00:00   news pulled CGEM (weight 1): Cullinan Therapeutics Receives Regulatory Clearance for Global Phase 1b/2a Trial of Velino
+2026-10-27T13:10:13+00:00   news skip ELE: no share count on file at the SEC
+2026-10-27T13:10:13+00:00   news pulled BDX (weight 2): Budimex S.A. Signs Contract for Ełk Station Expansion
+2026-10-27T13:10:13+00:00   news skip INIO: the crew judged this company in the last 3 days
+2026-10-27T13:10:14+00:00   news pulled AIR (weight 2): Airbus Awarded Contract for Two Additional Galileo Satellites
+2026-10-27T13:10:15+00:00   news pulled COTY (weight 1): Coty And Brandlight Announce Strategic Partnership To Unleash Potential Of Brand Discovery
+2026-10-27T13:10:15+00:00   news skip AMT: the crew judged this company in the last 3 days
+2026-10-27T13:10:16+00:00   news pulled CNC (weight 1): Centene Exec Says Exec Expects 2027 Earnings Growth Off Updated Baseline, Guidance; Says A
+2026-10-27T13:10:16+00:00   news skip SCAG: market cap 12M below floor
+2026-10-27T13:10:17+00:00   news pulled FUL (weight 3): Ancora Holdings Urges H.B. Fuller To Explore Strategic Alternatives Following Rejection Of
+2026-10-27T13:10:17+00:00   news skip MSGR: no price at Alpaca
+2026-10-27T13:10:18+00:00   news pulled ITRI (weight 3): Itron Raises FY2026 Adj EPS Guidance from $6.30-$6.50 to $6.72-$6.82 vs $6.27 Est; Narrows
+2026-10-27T13:10:18+00:00   news skip CODX: market cap 3M below floor
+2026-10-27T13:10:19+00:00   news skip CMND: market cap 1M below floor
+2026-10-27T13:10:20+00:00   news pulled NNE (weight 1): NANO Nuclear Energy, Hyundai Engineering Ink MoU To Create Framework For Partnership Over 
+2026-10-27T13:10:20+00:00   news pulled CACI (weight 1): CACI International Receives Four-Year, $145M U.S. Navy Contract To Develop, Integrate Tech
+2026-10-27T13:10:21+00:00   news pulled CTSH (weight 1): Cognizant And Travelport Expand Strategic Partnership To Build AI-Native Global Travel Ret
+2026-10-27T13:10:21+00:00   news pulled ACLS (weight 2): Axcelis Technologies Appoints Jeroen Delsman CFO, Effective Nov. 12, Succeeding David Ryzh
+2026-10-27T13:10:22+00:00   news pulled ABBV (weight 1): AbbVie Submits BLA To FDA For Etentamig, Second-Gen BCMA X CD3 Bispecific Antibody T-Cell 
+2026-10-27T13:10:22+00:00   news pulled BNY (weight 1): Ripple And BNY Expand Strategic Collaboration To Broaden Institutional Digital Asset Custo
+2026-10-27T13:10:22+00:00   news skip HRI: the crew judged this company in the last 3 days
+2026-10-27T13:10:22+00:00   news skip PFE: the crew judged this company in the last 3 days
+2026-10-27T13:10:22+00:00   news skip MRK: the crew judged this company in the last 3 days

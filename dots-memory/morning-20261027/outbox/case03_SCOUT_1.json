@@ -1,0 +1,153 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 3,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "AMT",
+      "company": "AMERICAN TOWER CORP /MA/",
+      "cik": "1053507",
+      "accession": "news:62617793",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-27T12:59:10Z",
+      "url": "https://www.benzinga.com/markets/earnings/26/10/62617793/american-tower-raises-its-2026-outlook-for-third-time",
+      "source_excerpt": "[Benzinga news, 2026-10-27T12:59:10Z, by Kaustubh Bagalkote] American Tower Raises Its 2026 Outlook For Third Time\nAmerican Tower (AMT) beats Q3 estimates with $2.87 AFFO/share, delivers $2.78B in revenue, and raises its full-year 2026 outlook.\nAmerican Tower Corp. (NYSE: AMT ) reported third-quarter earnings Tuesday that topped Wall Street estimates for earnings and revenue . The company also raised the midpoint of its 2026 outlook for property revenue and adjusted funds from operations (AFFO) per share. American Tower reported adjusted funds from operations (AFFO) of $2.87 per share, above the analyst consensus estimate of $2.68 and up from $2.78 per share a year earlier . GAAP diluted earnings per share were $1.64, down from $1.82 in the year-ago period. Revenue rose 2.5% to $2.785 billion from $2.717 billion a year earlier, exceeding the consensus estimate of $2.761 billion, according to Benzinga Pro . Revised 2026 Guidance American Tower narrowed its full-year AFFO per-share guidance to $11.04 to $11.16 from $11 to $11.17. Analysts had expected $10.85 per share . The company attributed the 2-cent increase in the midpoint primarily to capital allocation decisions. The company raised the midpoint of its property revenue outlook by $55 million, citing performance in its data centers segment, while leaving its adjusted EBITDA midpoint unchanged. American Tower lowered the midpoint of its net income outlook by $30 million, primarily due to unrealized losses on equity securities. See More: Top Value Stocks Cash Flow and Balance Sheet AFFO attributable to common stockholders, a cash-based earnings measure, rose 2.4% to $1.335 billion. The company reported $1.872 billion in cash and cash equivalents. Its net leverage ratio, calculated as net debt divided by annualized adjusted EBITDA, stood at 4.9 times. Third-Quarter Operating Results Total property revenue rose 4.5% to $2.734 billion, driven by 1.1% organic tenant billings growth and a 16.3% increase in cash revenue from its data centers segment. Adjusted EBITDA, a profitability measure that excludes certain expenses, rose 0.9% to $1.832 billion. Net income fell 14.4% to $781 million, while net income attributable to common stockholders declined 10.3% to $766 million. The company said unrealized losses on equity investments of approximately $71.5 million, compared with gains of about $10.9 million a year earlier, weighed on the year-over-year net income comparison. Stock Repurchase Expansion American Tower repurchased approximately $315 million of its shares during the quarter and an additional $68 million through Oct. 20. On Oct. 23, the company\u2019s board authorized up to $2 billion in additional share repurchases, supplementing approximately $1.1 billion remaining under its existing program. The company also declared a quarterly distribution of $1.79 per share, up 5.3% from a year earlier. American Tower expects to complete the sale of its Canadian subsidiaries for approximately $202 million in the fourth quarter. Management Commentary \u201cWe delivered another solid quarter, supported by consistent leasing demand across our global tower portfolio and continued outperformance from CoreSite ,\u201d CEO Steve Vondran said in the earnings release. Vondran said the company has raised its full-year outlook three times in 2026. AMT Price Action: American Tower shares were down 1.69% at $185.10 during premarket trading on Tuesday, according to Benzinga Pro data . Photo via Shutterstock Read Also: Ed Yardeni Says AI Bubble Is Deflating Without Bursting Amid Increasing Funding Scrutiny Around CRWV, NBIS: \u2018The Bond Market Is Going To Regulate'\n[Other material headlines on this company in the window]\n- 2026-10-27T11:02:06Z American Tower Narrows FY2026 FFO Guidance from $11.00-$11.17 to $11.04-$11.16 vs $10.85 Est",
+      "market_cap_usd": 87814830646.08,
+      "last_price": 188.46,
+      "also_accessions": [
+        "news:62613325"
+      ],
+      "weight": 3
+    },
+    "market": {
+      "quote": {
+        "ap": 0,
+        "as": 0,
+        "ax": " ",
+        "bp": 179.07,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-26T20:00:05.116129202Z",
+        "z": "A"
+      },
+      "extended_hours": null,
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 0,
+        "mean_gap_pct": null,
+        "max_gap_pct": null
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 0.0,
+        "slippage_usd": 2.4525,
+        "spread_pct": 0.0
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 99 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "BWIN",
+          "night": "20261027-1306",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "WEAV",
+          "night": "20261027-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "NE",
+          "night": "20261027-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CLW",
+          "night": "20261027-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "PFE",
+          "night": "20261026-1903",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GS",
+          "night": "20261026-1804",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CMI",
+          "night": "20261026-1804",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "UBS",
+          "night": "20261026-1632",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 114
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

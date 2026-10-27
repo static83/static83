@@ -1,0 +1,220 @@
+[
+  {
+    "case": 1,
+    "ticker": "BWIN",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Results don't matter here: Baldwin is being taken private at $32.50 cash and trades at $31.99",
+        "reasoning": [
+          "Source: Baldwin's 8-K filed 09:02 ET, Exhibit 99.1. Quoted: 'Third Quarter Total Revenue Growth of 31% to $480.3 Million ... Net Loss of $81.6 Million; Adjusted EBITDA Growth of 47%'. The same release says: 'an investor group led by Sequence Holdings and DFO Management, LLC has agreed to acquire the Company in an all-cash take-private transaction ... stockholders will receive $32.50 per share in cash' (agreement of September 14, 2026; close expected Q1 2027).",
+          "What changed: nothing that sets the share price. The price is pinned to the $32.50 cash offer; Friday's close was 31.985, a 1.6% merger-arbitrage spread. Pre-market: no IEX trades."
+        ],
+        "objections": [
+          "A stock under a pending cash buyout; quarterly results cannot move it."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "BWIN: no trade. Results from a company under a pending $32.50 cash takeover",
+        "reasoning": [
+          "Filter gap: a filing that states the company has agreed to be acquired for cash ('will receive $X per share in cash', 'all-cash take-private') now marks the stock as pinned to the deal and is skipped, unless the deal itself changes. Fixed after this run.",
+          "Nothing to check later."
+        ],
+        "objections": [
+          "Pinned to the deal price."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "INIO",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "Innio beat Q3 sales by 12% and raised its 2026 revenue range above consensus on data-center engine demand",
+        "reasoning": [
+          "Source: INNIO N.V.'s release on GlobeNewswire ('INNIO Reports Record Third Quarter 2026 Financial Results with Revenue up 57%, Net Income up 176% and Adjusted EBITDA up 70%; Raises 2026 Full-Year Guidance'), relayed by Benzinga 09:02 ET; figures first on Benzinga at 06:31 ET.",
+          "Quoted: 'Q3 Adj. EPS $0.15 Beats $0.12 Estimate, Sales $1.168B Beat $1.046B Estimate'. 'Raises FY2026 Sales Guidance from $3.800B-$3.900B to $3.900B-$4.000B vs $3.874B Est'. The release: 'Adjusted EBITDA grew 70% to $245.4 million' and 'over $6 billion in equipment order intake year-to-date', driven by 'data center deliveries and services'.",
+          "What changed: revenue is running well ahead of what analysts modeled, about 12% over for the quarter. The full-year midpoint, $3.95B, moves 2% above consensus.",
+          "Timing and price: released before the open; no session has traded it. Pre-market: one IEX print, 200 shares at 18.59, +11.8% vs Monday's 16.625 close. Monday itself was +9.3% (15.21 to 16.625) on 920,581 shares, about 2x normal, the day before the report. The headlines do not explain Monday's move."
+        ],
+        "objections": [],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "agree",
+        "headline": "Long INIO for 5 days: a 12% revenue beat on data-center orders tends to drift for days in a stock that had fallen 24% in two weeks",
+        "reasoning": [
+          "What changed: revenue is outrunning the model by about 12% a quarter, from gas engines sold for data-center power. The $6B of order intake year to date is about 1.5x the full-year revenue guide, so the backlog supports more raises. Q4 will be guided from a higher base.",
+          "What the market must believe for this to be mispriced: the stock fell from 19.79 (10/09) to 15.11 (10/22), -24%, pricing a slowdown in AI-infrastructure orders. The quarter says the opposite. The guidance raise (+2% at the midpoint) looks conservative next to a 12% beat, so estimates should rise by more than the guide.",
+          "Direction: long. horizon_days: 5. Large revenue beats in recently listed AI-infrastructure names have tended to keep drifting after the first day, as analysts revise estimates.",
+          "Would prove this wrong: INIO closing below 16.625, Monday's close, within 5 days, which would mean the whole beat was priced by the gap; or the Q4 guide on the call implying deceleration (implied Q4 below Q3's $1.168B)."
+        ],
+        "objections": [
+          "Monday's +9.3% on 2x volume the day before results is unexplained and may be early positioning. SKEPTIC should weigh it."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "SKEPTIC",
+        "verdict": "object",
+        "headline": "The 'fell 24%, so it's mispriced' link is gone: Monday plus pre-market already put back +22%",
+        "reasoning": [
+          "priced_in_score: 0.7.",
+          "Weakest link, quoted: 'the stock fell from 19.79 (10/09) to 15.11 (10/22), -24%, pricing a slowdown'. From Friday's 15.21, the stock was +9.3% Monday (16.625, on 2x volume, before any results) and is +11.8% more pre-market (18.59). That is +22% in two sessions, back to the 10/13 level (18.30). The selloff ANALYST wants to reverse has largely reversed already.",
+          "Who acted first: the results crossed at 06:31 ET. Every quant screen that reads 'Sales $1.168B Beat $1.046B' had three hours. And Monday's unexplained +9.3% on 2x volume means someone positioned before the print.",
+          "The entry: our only pre-market price is one 200-share IEX print. QUANT would be setting a long entry at the open of a +12% gap with a 30-day max gap of 12.8%, the largest in the sample. A fade after a gap that size is as likely as drift, and our stop would sit inside the opening noise.",
+          "Track record: my 6 kills averaged +1.1% five days later, right 3 of 6. That says raise my bar a little, not that this case passes. The crew's one trade so far (SMCI) was a long on good news after a run, stopped out.",
+          "Objections: 1) Priced: +22% in two sessions against a 2% guidance raise. 2) Unexplained pre-report move (Monday). 3) No usable pre-market price for an entry. 4) ANALYST's own invalidation level (16.625) is 10.6% below the pre-market price, so the stop is wide relative to a 5-day drift thesis."
+        ],
+        "objections": [
+          "Priced in: +22% in two sessions; no reliable entry; the thesis's reversal link has already played out."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "INIO: SKEPTIC killed a long after a 12% revenue beat; the stock was already +22% in two sessions",
+        "reasoning": [
+          "Check later (scored automatically in 5 days): INIO's close on 11/03 against 18.59, the pre-market print, and against Monday's 16.625. If it keeps rising, this joins the kills that went on to work, which bears on the two-week SKEPTIC review.",
+          "Worth recording: the thesis was 'drift after a big beat'. SKEPTIC's case was 'already priced'. That is exactly the disagreement the review needs data on."
+        ],
+        "objections": [
+          "Killed by SKEPTIC as priced in."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "AMT",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A quarter beat with a full year that barely moves: American Tower lifted its AFFO midpoint by 2 cents",
+        "reasoning": [
+          "Source: American Tower's Q3 release, as reported by Benzinga at 08:59 ET. Quoted: 'adjusted funds from operations (AFFO) of $2.87 per share, above the analyst consensus estimate of $2.68'; revenue '$2.785 billion ... exceeding the consensus estimate of $2.761 billion'; 'narrowed its full-year AFFO per-share guidance to $11.04 to $11.16 from $11 to $11.17 ... The company attributed the 2-cent increase in the midpoint primarily to capital allocation decisions'; 'lowered the midpoint of its net income outlook by $30 million'.",
+          "What changed: a 7% quarterly AFFO beat, but the full year rises only 0.2%. The beat looks like timing taken from Q4, not a higher run-rate. The full-year guide was already above consensus ($10.85) before today.",
+          "Pre-market: no IEX trades against the 188.46 close. A 'third raise of the year' that is 2 cents is not an event for an $88B tower REIT."
+        ],
+        "objections": [
+          "Full-year outlook essentially unchanged; the quarterly beat is timing."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "AMT: no trade. A 7% AFFO beat with a 2-cent full-year raise",
+        "reasoning": [
+          "Pattern for the review: the word 'raises' in the headline gave weight 3, but the raise was 0.2% at the midpoint. A guidance rule that weighs the size of the change would help. That needs numbers the headline does not carry, so it is left for the two-week review.",
+          "Check later: AMT's 5-day move from 188.46."
+        ],
+        "objections": [
+          "Timing beat."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

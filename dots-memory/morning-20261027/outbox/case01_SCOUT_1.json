@@ -1,0 +1,152 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "BWIN",
+      "company": "Baldwin Insurance Group, Inc.",
+      "cik": "1781755",
+      "accession": "0001781755-26-000062",
+      "items": [
+        "2.02",
+        "7.01"
+      ],
+      "filed_at": "2026-10-27T09:02:44-04:00",
+      "url": "https://www.sec.gov/Archives/edgar/data/1781755/000178175526000062/bwin-20261027.htm",
+      "source_excerpt": "Item 2.02 Results of Operations and Financial Condition. On October 27, 2026, The Baldwin Insurance Group, Inc. (the \u201cCompany\u201d) issued a press release announcing selected preliminary financial results for the quarter ended September 30, 2026. A copy of the press release is furnished as Exhibit 99.1 to this Current Report on Form 8-K. In addition, on October 27, 2026, the Company posted on its website a preliminary earnings supplement disclosing certain additional selected preliminary financial results for the quarter ended September 30, 2026. A copy of the preliminary earnings supplement is furnished as Exhibit 99.2 to this Current Report on Form 8-K. Item 7.01 Regulation FD Disclosure. The information set forth in Item 2.02 of this Form 8-K, including Exhibits 99.1 and 99.2 to this Current Report on Form 8-K, is hereby incorporated by reference into this Item 7.01. The information contained in this Current Report on Form 8-K, including Exhibits 99.1 and 99.2 attached hereto, is being furnished and shall not be deemed \u201cfiled\u201d for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the \u201cExchange Act\u201d), and shall not be deemed incorporated by reference in any filing under the Securities Act of 1933, as amended, or the Exchange Act, except as expressly set forth by specific reference in such filing. Item 9.01 Financial Statements and Exhibits. (d) Exhibits Exhibit No. Description 99.1 Press release issued by The Baldwin Insurance Group, Inc. on October 27, 2026 99.2 Q3 2026 Preliminary Earnings Supplement 104 Cover Page Interactive Data File (embedded within the inline XBRL document) SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. The Baldwin Insurance Group, Inc. Date: October 27, 2026 By: /s/ Bradford L. Hale Name: Bradford L. Hale Title: Chief Financial Officer",
+      "market_cap_usd": 2983496830.0,
+      "last_price": 31.985,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "quote": {
+        "ap": 36.7,
+        "as": 100,
+        "ax": "V",
+        "bp": 27.43,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-26T20:00:00.021747741Z",
+        "z": "C"
+      },
+      "extended_hours": null,
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 0,
+        "mean_gap_pct": null,
+        "max_gap_pct": null
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 709.0227,
+        "slippage_usd": 2.4525,
+        "spread_pct": 28.91
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 98 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "WEAV",
+          "night": "20261027-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "NE",
+          "night": "20261027-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CLW",
+          "night": "20261027-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "PFE",
+          "night": "20261026-1903",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GS",
+          "night": "20261026-1804",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CMI",
+          "night": "20261026-1804",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "UBS",
+          "night": "20261026-1632",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BNTX",
+          "night": "20261026-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 113
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 2,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "INIO",
+      "company": "INNIO N.V.",
+      "cik": "2109150",
+      "accession": "news:104808065",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-27T13:02:01Z",
+      "url": "https://www.globenewswire.com/news-release/2026/10/27/3388791/0/en/innio-reports-record-third-quarter-2026-financial-results-with-revenue-up-57-net-income-up-176-and-adjusted-ebitda-up-70-raises-2026-full-year-guidance.html",
+      "source_excerpt": "[Benzinga news, 2026-10-27T13:02:01Z, by staff] INNIO N.V. Reports Record Q3 2026 Financial Results and Raises Full-Year Guidance\nINNIO N.V. announced record third-quarter 2026 financial results, featuring a 57% year-over-year revenue increase to $1.2 billion and a 176% rise in net income, while raising its full-year 2026 outlook.\nINNIO N.V. reported record quarterly revenue of $1.2 billion for the third quarter ended September 30, 2026, representing a 57% increase compared to the same period last year. Net income reached $109.2 million, up 176% year-over-year, while Adjusted EBITDA grew 70% to $245.4 million. Driven by strong performance in data center deliveries and services, the company raised its fiscal 2026 guidance, now expecting total revenue between $3.9 billion and $4.0 billion and Adjusted EBITDA between $780 million and $800 million. CFO Dr. Dennis Schulze attributed the growth to accelerating demand for AI infrastructure, noting that the company has achieved over $6 billion in equipment order intake year-to-date.\n[Other material headlines on this company in the window]\n- 2026-10-27T10:37:31Z Innio Raises FY2026 Sales Guidance from $3.800B-$3.900B to $3.900B-$4.000B vs $3.874B Est",
+      "market_cap_usd": 12468750000.0,
+      "last_price": 16.625,
+      "also_accessions": [
+        "news:62612488"
+      ],
+      "weight": 3
+    },
+    "market": {
+      "quote": {
+        "ap": 17.62,
+        "as": 100,
+        "ax": "V",
+        "bp": 15.78,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-26T20:00:01.115346636Z",
+        "z": "C"
+      },
+      "extended_hours": {
+        "session": "pre-market",
+        "reference_close": 16.625,
+        "last": 18.59,
+        "move_pct": 11.82,
+        "high": 18.59,
+        "low": 18.59,
+        "volume": 200,
+        "as_of": "2026-10-27T12:20:00Z",
+        "trades_seen": true,
+        "note": "IEX feed only; extended-hours volume is thin, so a small print can move the last price"
+      },
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 2.37,
+        "max_gap_pct": 12.83
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 270.2172,
+        "slippage_usd": 2.4525,
+        "spread_pct": 11.018
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 98 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "WEAV",
+          "night": "20261027-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "NE",
+          "night": "20261027-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CLW",
+          "night": "20261027-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "PFE",
+          "night": "20261026-1903",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GS",
+          "night": "20261026-1804",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CMI",
+          "night": "20261026-1804",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "UBS",
+          "night": "20261026-1632",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BNTX",
+          "night": "20261026-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 113
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}
