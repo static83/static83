@@ -118,8 +118,14 @@ def poll(edgar, data, broker, tickers, raw: dict, seen: set[str], since: datetim
     found += find_news_candidates(edgar, data, hours, log=log, skip=skip, recent_tickers=recent, now=now,
                                   groups=groups)
     heavy, names = [], set()
+    day = now.astimezone(NY)
+    open_ = day.replace(hour=9, minute=30, second=0, microsecond=0)
     for c in sorted(found, key=lambda c: c.weight, reverse=True):
         seen.add(c.accession)  # judged by the watcher either way; the window moves on
+        first = datetime.fromisoformat((c.first_report or c.filed_at).replace("Z", "+00:00"))
+        if first < open_:  # a recap of pre-open news: the open priced it, and the 08:45 run judged it
+            log(f"  skip {c.ticker}: first reported {first.astimezone(NY):%H:%M} ET, before today's open")
+            continue
         if c.weight >= 3 and c.ticker not in names:
             heavy.append(c)
             names.add(c.ticker)

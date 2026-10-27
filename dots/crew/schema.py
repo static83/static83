@@ -25,6 +25,7 @@ class Candidate(BaseModel):
     last_price: Optional[float] = None
     also_accessions: list[str] = Field(default_factory=list)  # other filings folded into this case
     weight: int = 1  # how material the event is, 1-3; the night takes the heaviest cases first
+    first_report: Optional[str] = None  # news: when this event first went out, if an earlier item told it
 
 
 class Memo(BaseModel):

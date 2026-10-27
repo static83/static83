@@ -38,7 +38,8 @@ Three crew runs and one check a weekday, New York time:
 Between 09:45 and 16:00 the **watcher** (`watch.py`) looks at the Benzinga feed and EDGAR once a
 minute. It neither trades nor judges; it exits with an alert, and the crew runs, when:
 
-- a heavy event (weight 3) passes every SCOUT filter and has not moved 3% yet, or
+- a heavy event (weight 3) first reported during today's session passes every SCOUT filter and
+  has not moved 3% yet (a recap of pre-open news is the 08:45 run's, and the open has priced it), or
 - anything material, news or an 8-K, comes out about a stock the crew holds or is waiting to buy,
   after the trade was opened.
 

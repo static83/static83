@@ -823,6 +823,7 @@ def find_news_candidates(
             ticker=ticker, company=info.get("title", ticker), cik=cik, accession=f"news:{item['id']}",
             items=["news"], filed_at=item["created_at"], url=item.get("url") or "",
             source_excerpt=excerpt_text, market_cap_usd=cap, last_price=price, weight=heaviest,
+            first_report=created.isoformat(),
             also_accessions=[f"news:{i['id']}" for i in live if i is not item],
         ))
         log(f"  news pulled {ticker} (weight {heaviest}): {head[:90]}")
