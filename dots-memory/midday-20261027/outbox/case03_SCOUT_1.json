@@ -1,0 +1,156 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 3,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "KO",
+      "company": "COCA COLA CO",
+      "cik": "21344",
+      "accession": "news:62626508",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-27T16:00:09Z",
+      "url": "https://www.benzinga.com/markets/earnings/26/10/62626508/coca-cola-raises-profit-outlook-but-warns-consumer-pressures-could-persist-into-2027",
+      "source_excerpt": "[Benzinga news, 2026-10-27T16:00:09Z, by Neeraj Jain] Coca-Cola Raises Profit Outlook, but Warns Consumer Pressures Could Persist Into 2027\nCoca-Cola beats Q3 Wall Street forecasts, boosts full-year EPS outlook to $3.33, and plans key asset moves in Africa and India.\nCoca-Cola Co. (NYSE: KO ) stock edged lower Tuesday even after the beverage giant reported better-than-expected third-quarter financial results and raised its full-year guidance, supported by strong organic revenue growth . The company reported adjusted earnings of 91 cents per share, topping analysts\u2019 consensus estimate of 88 cents . Revenue rose 7% year over year to $13.4 billion, beating Wall Street\u2019s estimate of $12.92 billion. Coca-Cola Reports Strong Organic Revenue, Volume Growth Organic revenue increased 7%, driven by a 7% rise in concentrate sales and a 1% gain in price and mix. Concentrate sales growth outpaced unit case volume growth by 2 percentage points, reflecting the timing of concentrate shipments. Price and mix increased 1%, primarily driven by pricing actions across markets, partially offset by an unfavorable product mix. Unit case volume rose 5%, led by strong performance in India, China, Mexico and Brazil. The company also gained value share in the nonalcoholic ready-to-drink beverage market. Adjusted operating margin expanded to 32.9% from 31.9% a year earlier, benefiting from organic revenue growth and favorable currency movements. Higher marketing investments and operating expenses partially offset those gains. Coca-Cola Zero Sugar Leads Brand Growth Trademark Coca-Cola volume increased 5%, while Coca-Cola Zero Sugar surged 16%, with both brands recording growth across all geographic operating segments. Diet Coke and Coca-Cola Light volume rose 6%. Sparkling soft drinks posted 5% volume growth, while sparkling flavors increased 3%. The water, sports drinks, coffee and tea category recorded 5% volume growth, while juice, value-added dairy and plant-based beverage volumes remained flat. Latin America and Asia Pacific led regional performance, each reporting 6% unit case volume growth, followed by Europe, the Middle East and Africa, which posted 5% growth. North American unit case volume was flat, as growth in Trademark Coca-Cola was offset by declines in water, sports drinks, coffee and tea. Management highlighted particularly strong momentum in India, where each of the company\u2019s top 10 brands delivered double-digit volume growth. See More: Top Value Stocks Coca-Cola Raises 2026 Earnings and Revenue Outlook Coca-Cola raised its full-year comparable earnings-per-share growth forecast to at least 11%, up from its previous projection of 9% to 10% . The company increased its adjusted earnings-per-share outlook to $3.33 from its previous range of $3.27 to $3.30, exceeding analysts\u2019 estimate of $3.31. For 2026, Coca-Cola expects currency movements to provide a roughly 1% tailwind to comparable net revenue and a 3% tailwind to comparable earnings per share. The company also raised its organic revenue growth forecast to at least 5%, compared with its previous outlook of approximately 5%. The updated guidance accounts for modest inventory reductions and six fewer days in the fourth quarter. Coca-Cola increased its free cash flow forecast to at least $13 billion from $12.4 billion. Management expects consumers across markets and income groups to remain focused on value. CEO Henrique Braun emphasized the company\u2019s revenue growth management strategy, which balances affordability and premiumization based on market conditions. During the earnings call, executives said overall commodity exposure remains manageable but warned of elevated cost pressures, particularly from rising logistics and transportation expenses . CFO John Murphy said Coca-Cola continues to address cost pressures through productivity improvements, disciplined spending and procurement efficiencies while maintaining investments in its brand portfolio. Murphy also warned that broader consumer spending pressures could persist through the remainder of 2026 and into 2027. He pointed to weakness in the restaurant industry, which slightly weighed on Coca-Cola\u2019s North American beverage volumes. Coca-Cola Advances Refranchising and Portfolio Strategy Coca-Cola expects the planned sale of Coca-Cola Beverages Africa to create additional headwinds for comparable revenue and earnings per share in 2027. The company is also exploring a potential initial public offering of its Indian bottling operations as part of its broader asset-light strategy. KO Stock Price Action KO Price Action: Coca-Cola shares were down 0.58% at $92.16 at the time of publication on Tuesday, according to Benzinga Pro data . Image via Shutterstock Read Also: PayPal Cuts Thousands of Jobs, Bets on AI and Lifts Profit Outlook\n[Other material headlines on this company in the window]\n- 2026-10-27T11:31:39Z The Coca-Cola Company Reports Q3 2026 Earnings and Raises Full-Year Outlook\n- 2026-10-27T10:57:53Z Coca-Cola Raises FY2026 Adj EPS Guidance from $3.27-$3.30 to $3.33 vs $3.31 Est",
+      "market_cap_usd": 395849894868.08997,
+      "last_price": 92.005,
+      "also_accessions": [],
+      "weight": 2,
+      "first_report": "2026-10-27T11:31:39+00:00"
+    },
+    "market": {
+      "quote": {
+        "ap": 92.03,
+        "as": 600,
+        "ax": "V",
+        "bp": 92.01,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-27T16:36:43.840037962Z",
+        "z": "A"
+      },
+      "extended_hours": null,
+      "since_news": {
+        "since": "2026-10-27T16:00:09+00:00",
+        "trades_seen": false,
+        "note": "no trades on the IEX feed since the news; the move cannot be measured here"
+      },
+      "gap_stats_30d": {
+        "n": 0,
+        "mean_gap_pct": null,
+        "max_gap_pct": null
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 0.533,
+        "slippage_usd": 2.4525,
+        "spread_pct": 0.022
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 101 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "FUL",
+          "night": "20261027-1635",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "UPS",
+          "night": "20261027-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "AMT",
+          "night": "20261027-1306",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "INIO",
+          "night": "20261027-1306",
+          "ended_by": "SKEPTIC",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BWIN",
+          "night": "20261027-1306",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "WEAV",
+          "night": "20261027-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "NE",
+          "night": "20261027-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CLW",
+          "night": "20261027-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 118
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

@@ -1,0 +1,191 @@
+[
+  {
+    "case": 1,
+    "ticker": "FUL",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "Activist Ancora publicly urges H.B. Fuller to explore a sale after the board rejected a cash offer for its building-adhesives segment",
+        "reasoning": [
+          "Source: Benzinga Newsdesk 08:37 ET, relaying Ancora Holdings' public statement: 'Ancora Holdings Urges H.B. Fuller To Explore Strategic Alternatives Following Rejection Of All-Cash Offer For Building Adhesive Solutions Segment'. I could not retrieve Ancora's letter itself: the web search tool is out of credits, and Benzinga carried only the headline. The bidder, the offer price and Ancora's stake are therefore unknown.",
+          "What changed: two facts are now public. Someone offered cash for the Building Adhesive Solutions segment and the board said no, and an activist is pressing for a sale or other options. Neither had been reported on Benzinga in the last 30 days.",
+          "Move: FUL 49.65 vs 49.16 Monday close, +1.0% on 2,243 IEX shares, range 49.20-49.88, eight hours after the headline and through the open."
+        ],
+        "objections": [
+          "Primary source not retrieved; offer size and bidder unknown."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "object",
+        "headline": "No thesis within 10 days: an activist letter starts a campaign; the payoff, if any, is months away",
+        "reasoning": [
+          "What changed for the business: nothing yet. An offer for one segment was rejected. Ancora's letter is pressure, not a transaction.",
+          "What the market must believe for a mispricing: that a sale of H.B. Fuller or the segment is unlikely. At +1.0% after the open, the market is pricing low odds. Without the offer price (unknown, see SCOUT) I cannot say those odds are wrong, or what a sale would be worth against a $2.67B market cap.",
+          "Activist campaigns play out over proxy seasons, and H.B. Fuller's annual meeting is in the spring. A 5-10 day long would bet on the board reversing within days, which rarely happens.",
+          "Would prove this wrong: the board announcing a strategic review, or the bidder going public with a price, within 10 days. Either would be a new case."
+        ],
+        "objections": [
+          "No near-term catalyst; offer terms unknown."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "FUL: no trade. An activist letter after a rejected segment bid; offer terms unknown",
+        "reasoning": [
+          "Check later: FUL's 5-day move from 49.16, and any board response or bidder disclosure.",
+          "Source gap: the web search tool is out of credits, so Ancora's letter could not be read."
+        ],
+        "objections": [
+          "No near-term catalyst."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "TEVA",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Immaterial: Teva buys BioXcel's BXCL501 rights out of bankruptcy for $57.5M upfront, about 0.1% of a $47B company",
+        "reasoning": [
+          "Source: Teva's release on GlobeNewswire ('Teva Acquires Worldwide Rights to BXCL501, Further Expanding Innovative Neuroscience Pipeline'), first on Benzinga at 08:03 ET. Quoted: 'an upfront payment of $57.5 million and up to $67.5 million in potential contingent payments'; 'The deal received approval from the U.S. Bankruptcy Court'.",
+          "Move: TEVA 40.37 vs 39.97 Monday close, +1.0% through the morning."
+        ],
+        "objections": [
+          "Too small to matter for Teva."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "TEVA: no trade. A $57.5M asset buy at a $47B company",
+        "reasoning": [
+          "Nothing to check later."
+        ],
+        "objections": [
+          "Immaterial."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "KO",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Priced through the open: Coca-Cola's beat and small raise came out at 07:31 ET; the stock is -0.75%",
+        "reasoning": [
+          "Source: Coca-Cola's Q3 release (first on Benzinga at 07:31 ET), as summarized by Benzinga at 12:00 ET. Quoted: 'adjusted earnings of 91 cents per share, topping analysts' consensus estimate of 88 cents'; 'Revenue rose 7% year over year to $13.4 billion'; guidance 'boosts full-year EPS outlook to $3.33'; the headline adds 'Warns Consumer Pressures Could Persist Into 2027'.",
+          "Move: KO 92.015 vs 92.71 Monday close, -0.75% on 639,294 IEX shares, range 91.00-92.94. The market has traded it for three hours and read it as neutral to slightly negative."
+        ],
+        "objections": [
+          "Old news the session has priced; a 12:00 ET recap."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "KO: no trade. A recap of pre-open results the session priced at -0.75%",
+        "reasoning": [
+          "Check later: KO's 5-day move from 92.71."
+        ],
+        "objections": [
+          "Priced."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]
