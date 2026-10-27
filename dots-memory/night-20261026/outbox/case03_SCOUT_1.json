@@ -1,0 +1,141 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 3,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "WEAV",
+      "company": "Weave Communications, Inc.",
+      "cik": "1609151",
+      "accession": "0001609151-26-000120",
+      "items": [
+        "1.01",
+        "2.01",
+        "5.02",
+        "8.01"
+      ],
+      "filed_at": "2026-10-26T16:40:03-04:00",
+      "url": "https://www.sec.gov/Archives/edgar/data/1609151/000160915126000120/weav-20261026.htm",
+      "source_excerpt": "Item 1.01. Entry into a Material Definitive Agreement. The information set forth in the Introductory Note of this Current Report on Form 8-K is incorporated by reference into this Item 1.01. New Credit Agreement On the Closing Date, the Company, as borrower, entered into that certain Credit Agreement, dated as of October 26, 2026 (the \u201cCredit Agreement\u201d), by and among the Company, Merger Sub, as initial borrower, Parent, as a guarantor, Hercules Capital, Inc., as the administrative agent and the collateral agent, and each lender from time to time party thereto, which provides for an initial term loan facility in an aggregate principal amount of $190,000,000, an initial delayed draw term loan facility in an aggregate principal amount of $25,000,000 and a revolving credit facility of $25,000,000. The obligations under the Credit Agreement are secured on a first priority basis by substantially all assets of the borrowers and the guarantors (subject to certain exclusions and exceptions). The Credit Agreement includes representations and warranties, covenants, events of default, and other provisions that are customary for facilities comparative thereto. Item 1.02. Termination of a Material Definitive Agreement. The information set forth in the Introductory Note of this Current Report on Form 8-K is incorporated by reference into this Item 1.02. Termination of Existing Credit Facility In connection with entering into the Credit Agreement described in Item 1.01 of this Current Report on Form 8-K, the Company\u2019s existing revolving line of credit (the \u201cExisting Credit Facility\u201d) under that certain Second Amended and Restated Loan and Security Agreement, dated as of April 9, 2020, by and among First-Citizens Bank & Trust Company (successor by purchase to the Federal Deposit Insurance Corporation as Receiver for Silicon Valley Bridge Bank, N.A. (as successor to Silicon Valley Bank)), the Company, and Weave Communications Canada, Inc., as amended, was repaid in full, including all amounts owed thereunder, and terminated effective as of the Closing Date. Termination of Cooperation Agreement Effective as of the Closing Date, the Company and Engine Capital L.P. and certain of its affiliates (collectively, \u201cEngine Capital\u201d), and 2717 Partners LP and certain of its affiliates (collectively, \u201c2717 Partners\u201d) mutually agreed to terminate that certain Cooperation Agreement, dated as of March 28, 2026, by and among the parties thereto (the \u201cCooperation Agreement\u201d). Pursuant to the Cooperation Agreement, effective March 28, 2026, the Company agreed to (i) increase the size of its board of directors (the \u201cBoard\u201d) by two directorships to consist of a total of ten directors, (ii) appoint H. Edward Robson II (\u201cMr. Robson\u201d) and Ryan Dubin (\u201cMr. Dubin\u201d) to the Board, effective immediately, each as a Class III director, with an initial term expiring at the Company\u2019s 2027 annual meeting of stockholders, and (iii) as promptly as practicable, commence a search for an independent director and use its reasonable best efforts to appoint at least one suitable candidate within six months following the date of the Cooperation Agreement (the \u201cAdditional Independent Director\u201d), and appoint the Additional Independent Director to the Board as a Class II director, with an initial term expiring at the Company\u2019s 2029 annual meeting of stockholders, promptly following identification of the Additional Independent Director. The Company further agreed that the Board\u2019s size will be no greater than ten members without the written consent of Engine Capital and 2717 Partners from the conclusion of the Company\u2019s 2026 annual meeting of stockholders, which was held on June 10, 2026, until the Termination Date (as defined in the Cooperation Agreement). As a result of its termination, the Cooperation Agreement is of no further force or effect, and all rights and obligations of the Company, Engine Capital and 2717 Partners thereunder have been terminated. The foregoing description of the Cooperation Agreement does not purport to be complete and is qualified in its entirety by reference to the full text of the Cooperation Agreement, a copy of which was previously filed as Exhibit 10.1 to the Current Report on Form 8-K filed by the Company with the U.S. Securities and Exchange Commission (the \u201cSEC\u201d) on March 30, 2026, which is incorporated herein by reference. Item 2.01. Completion of Acquisition or Disposition of Assets. The information set forth in the Introductory Note of this Current Report on Form 8-K is incorporated by reference into this Item 2.01. On the Closing Date, Parent completed the acquisition of the Company through the Merger. Pursuant to the Merger Agreement, at the time the Merger became effective (the \u201cEffective Time\u201d), each share of the Company\u2019s common stock, par value $0.00001 per share (\u201cCompany Common Stock\u201d), issued and outstanding as of immediately prior to the Effective Time (other than shares owned by the Company as treasury shares, owned by any subsidiary of the Company, held by Parent or Merger Sub or any of their wholly owned subsidiaries or held by stockholders of the Company who were entitled to exercise, and properly exercised and did not withdraw, appraisal rights and otherwise complied in all respects with the provisions of Section 262 of the General Corporation Law of the State of Delaware (the \u201cDGCL\u201d)) ceased to be outstanding, was automatically canceled and was automatically converted into the right to receive $7.40 in cash, without interest (the \u201cMerger Consideration\u201d), less any applicable withholding taxes. In addition, pursuant to the Merger Agreement, at the Effective Time, by virtue of the Merger and without any further action on the part of the holders thereof, the Company, Parent, Merger Sub or any other party: (a) each Company stock option granted under the Company\u2019s equity compensation plans (each, a \u201cCompany Option\u201d) that was outstanding and vested under its terms as of immediately prior to the Effec",
+      "market_cap_usd": 591993480.6,
+      "last_price": 7.4,
+      "also_accessions": [],
+      "weight": 3
+    },
+    "market": {
+      "quote": null,
+      "extended_hours": null,
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.08,
+        "max_gap_pct": 0.34
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": null,
+        "slippage_usd": null
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 96 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "CLW",
+          "night": "20261027-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "PFE",
+          "night": "20261026-1903",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GS",
+          "night": "20261026-1804",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CMI",
+          "night": "20261026-1804",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "UBS",
+          "night": "20261026-1632",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BNTX",
+          "night": "20261026-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ATKR",
+          "night": "20261026-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GSK",
+          "night": "20261026-1627",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 111
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

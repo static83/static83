@@ -1,0 +1,169 @@
+[
+  {
+    "case": 1,
+    "ticker": "CLW",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A loss-making quarter with sales guidance narrowed to consensus: Clearwater Paper missed on EPS and sales",
+        "reasoning": [
+          "Sources: Clearwater Paper's Q3 2026 release ('Clearwater Paper Reports Q3 2026 Financial Results', 17:32 ET) and Benzinga Newsdesk's figures. Quoted: 'Q3 Adj. EPS $(0.23) Misses $(0.14) Estimate, Sales $385.000M Miss $387.387M Estimate' (16:06 ET) and 'Raises FY2026 Sales Guidance from $1.400B-$1.500B to $1.500B vs $1.495B Est' (17:05 ET).",
+          "What changed: a wider loss than expected and a slight sales miss. The 'raise' moves the range to its old top, $1.500B, which is the consensus figure ($1.495B). Analysts already expected the top of the range.",
+          "After hours: no IEX trades against the 19.08 close, so I cannot see the reaction."
+        ],
+        "objections": [
+          "Guidance raised only to consensus, next to an EPS and sales miss. No clean event for the crew."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "CLW: no trade. EPS and sales miss; guidance moved to consensus",
+        "reasoning": [
+          "Filter gap: the guidance-to-consensus rule missed figures with a 'B' or 'M' suffix ('$1.500B vs $1.495B Est'). It reads them now, so this weighs 2. Fixed after this run.",
+          "Check later: CLW's 5-day move from 19.08."
+        ],
+        "objections": [
+          "Mixed results."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "NE",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Noble narrows its sales range to consensus while posting a loss against an expected profit",
+        "reasoning": [
+          "Sources: Noble Corporation plc's Q3 2026 release (18:01 ET) and Benzinga Newsdesk's figures. Quoted: 'Raises FY2026 Sales Guidance from $2.800B-$2.900B to $2.850B-$2.900B vs $2.877B Est' (16:49 ET) and 'Q3 Adj. EPS $(0.57) Misses $0.20 Estimate, Sales $728.764M Beat $709.380M Estimate' (16:50 ET).",
+          "What changed: revenue beat by about 3%, but adjusted EPS swung to a loss of $0.57 against an expected $0.20 profit. The headline does not give the cause, which could be an impairment or a one-off. The sales 'raise' moves the low end up. The new midpoint, $2.875B, equals consensus ($2.877B).",
+          "After hours: no IEX trades against the 47.91 close."
+        ],
+        "objections": [
+          "A guidance raise to consensus with an unexplained EPS miss. The heavy weight came from the word 'raises', not from new information."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "NE: no trade. Sales range narrowed to consensus; a large unexplained EPS miss",
+        "reasoning": [
+          "Same filter gap as CLW ('B' suffix); fixed.",
+          "Check later: NE's 5-day move from 47.91. A sharp fall would mean the EPS miss mattered more than SCOUT allowed."
+        ],
+        "objections": [
+          "Mixed results."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "WEAV",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Weave no longer trades: its buyout closed today, and the 8-K is the closing paperwork",
+        "reasoning": [
+          "Source: Weave Communications' 8-K filed 16:40 ET, items 1.01, 2.01, 5.02, 8.01. Quoted: 'On the Closing Date, Parent completed the acquisition of the Company through the Merger.' It also covers the new owner's $190M term loan from Hercules Capital, repayment of the old credit line and the end of the Engine Capital cooperation agreement.",
+          "What changed: each share has been converted into the merger consideration and the stock will be delisted. The deal was priced when it was announced."
+        ],
+        "objections": [
+          "A completed take-private; there is no stock left to trade."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "WEAV: no trade. The 8-K closing a take-private of the company itself",
+        "reasoning": [
+          "Filter gap: a 2.01 filing that says the parent 'completed the acquisition of the Company' (the filer itself was bought) is now skipped as a completed deal, even without the words 'previously announced'. Fixed after this run.",
+          "Nothing to check later."
+        ],
+        "objections": [
+          "Delisting."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]
