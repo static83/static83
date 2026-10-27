@@ -118,6 +118,22 @@ class Edgar:
         url = "https://www.sec.gov" + chosen
         return url, _clean(self._get(url).text)
 
+    def exhibit_text(self, index_url: str, kind: str = "EX-99.1") -> str:
+        """Plain text of one exhibit (the press release, by default), or '' if the filing has none."""
+        try:
+            page = self._get(index_url).text
+        except requests.RequestException:
+            return ""
+        for row in re.findall(r"<tr[^>]*>(.*?)</tr>", page, flags=re.S | re.I):
+            href = re.search(r'href="(?:/ix\?doc=)?(/Archives/[^"]+\.htm[l]?)"', row)
+            cells = [_clean(c) for c in re.findall(r"<td[^>]*>(.*?)</td>", row, flags=re.S | re.I)]
+            if href and any(c.upper() == kind for c in cells):
+                try:
+                    return _clean(self._get("https://www.sec.gov" + href.group(1)).text)
+                except requests.RequestException:
+                    return ""
+        return ""
+
     def tickers(self) -> dict[str, dict]:
         if self._tickers is None:
             data = self._get(EDGAR_TICKERS).json()
@@ -186,6 +202,13 @@ _TAKEN_PRIVATE = re.compile(
 )
 
 
+# Results from a company already agreed to be bought for cash: the offer, not the quarter, sets the price.
+_PENDING_CASH_DEAL = re.compile(
+    r"\b(stockholders|shareholders) will receive \$\d[\d.,]* per share in cash\b|\ball-cash take-private\b",
+    re.IGNORECASE,
+)
+
+
 # Steps every announced merger passes through; the terms were priced when the deal was announced.
 _DEAL_STEP = re.compile(
     r"(waiting period|HSR Act|Hart-Scott-Rodino|early termination|antitrust (approval|clearance)|"
@@ -204,6 +227,8 @@ def settles_prior_news(items: list[str], body: str) -> Optional[str]:
     m = _COMPLETES_PRIOR.search(head)
     if m:
         return f"settles a previously announced deal ('{m.group(0)[:70]}')"
+    if "1.01" not in items and _PENDING_CASH_DEAL.search(body[:30000]) and not _NEW_TERMS.search(body[:30000]):
+        return "the company is under a pending cash takeover; its price is pinned to the offer"
     if "2.01" in items and _TAKEN_PRIVATE.search(body[:20000]):
         return "the company itself has been acquired; its shares stop trading"
     if "2.01" in items and "2.02" not in items and _AS_PREVIOUSLY.search(head) and _COMPLETED_DEAL.search(head):
@@ -584,6 +609,11 @@ def find_candidates(
         prior = (settles_prior_news(items, body) or routine_people_filing(items, body)
                  or late_earnings(items, body, entry["filed_at"]) or call_notice_only(items, body)
                  or told_by_news((news or {}).get(ticker, []), body, entry["company"]))
+        if not prior and "2.02" in items and "1.01" not in items:
+            # results 8-Ks keep the release in an exhibit; a pending cash buyout is only mentioned there
+            release = edgar.exhibit_text(entry["index_url"])
+            if _PENDING_CASH_DEAL.search(release) and not _NEW_TERMS.search(release):
+                prior = "the company is under a pending cash takeover; its price is pinned to the offer"
         if prior:
             log(f"  skip {ticker}: {prior}")
             continue
