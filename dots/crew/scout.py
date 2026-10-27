@@ -178,6 +178,14 @@ _TREASURY_UPDATE = re.compile(
 _FINANCING_ONLY_ITEMS = {"1.01", "7.01", "8.01"}
 
 
+# The filer itself was bought: the closing 8-K of its own acquisition.
+_TAKEN_PRIVATE = re.compile(
+    r"\b(Parent|Purchaser|Buyer) completed (the|its) acquisition of the Company\b|"
+    r"\bthe Company (became|is now|continued as) an? (direct |indirect )?wholly[- ]owned subsidiary of\b",
+    re.IGNORECASE,
+)
+
+
 # Steps every announced merger passes through; the terms were priced when the deal was announced.
 _DEAL_STEP = re.compile(
     r"(waiting period|HSR Act|Hart-Scott-Rodino|early termination|antitrust (approval|clearance)|"
@@ -196,6 +204,8 @@ def settles_prior_news(items: list[str], body: str) -> Optional[str]:
     m = _COMPLETES_PRIOR.search(head)
     if m:
         return f"settles a previously announced deal ('{m.group(0)[:70]}')"
+    if "2.01" in items and _TAKEN_PRIVATE.search(body[:20000]):
+        return "the company itself has been acquired; its shares stop trading"
     if "2.01" in items and "2.02" not in items and _AS_PREVIOUSLY.search(head) and _COMPLETED_DEAL.search(head):
         return "completes a previously disclosed acquisition or sale"
     if "2.02" not in items and _AS_PREVIOUSLY.search(head) and _DEAL_STEP.search(head) and not _NEW_TERMS.search(head):

@@ -149,7 +149,7 @@ def largest_amount(text: str, price: Optional[float] = None) -> Optional[float]:
 
 
 _GUIDANCE_TO = re.compile(
-    r"\b(raises|boosts|lifts|increases)\b.{0,40}\bguidance\b.{0,40}\bto \$(\d+\.?\d*)(?:\s*-\s*\$(\d+\.?\d*))?\s+vs\.? \$(\d+\.?\d*) est",
+    r"\b(raises|boosts|lifts|increases)\b.{0,40}\bguidance\b.{0,40}\bto \$(\d+\.?\d*)[BMK]?(?:\s*-\s*\$(\d+\.?\d*)[BMK]?)?\s+vs\.? \$(\d+\.?\d*)[BMK]? est",
     re.IGNORECASE,
 )
 _GUIDANCE = re.compile(r"\b(outlook|forecast|guidance)\b", re.IGNORECASE)

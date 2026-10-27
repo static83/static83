@@ -79,7 +79,8 @@ source with an official timestamp, so "pull the original source" is literal. Fil
 2. A listed ticker (EDGAR's own CIK to ticker map).
 3. Not just the paperwork for news that is already public: a filing that says it completed, closed,
    settled or priced something "previously announced", a completed acquisition or sale the filing
-   says was previously disclosed, a routine step on a previously disclosed merger (waiting period,
+   says was previously disclosed, the closing of the filer's own buyout (its shares stop trading),
+   a routine step on a previously disclosed merger (waiting period,
    regulatory or court approval, shareholder vote, shareholder complaints about the deal; amended terms still
    count as news), the closing of a bond
    or convertible bond offering, a weekly at-the-market or crypto-treasury update ('ATM and BTC Update'),
