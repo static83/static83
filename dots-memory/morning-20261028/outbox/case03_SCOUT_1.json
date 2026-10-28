@@ -1,0 +1,146 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 3,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "FELE",
+      "company": "FRANKLIN ELECTRIC CO INC",
+      "cik": "38725",
+      "accession": "news:62650850",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-28T12:06:52Z",
+      "url": "https://www.benzinga.com/news/26/10/62650850/franklin-electric-raises-fy2026-adj-eps-guidance-4-50-4-70-4-62-4-82-vs-4-66-est-raises-fy2026-sales",
+      "source_excerpt": "[Benzinga news, 2026-10-28T12:06:52Z, by Benzinga Newsdesk] Franklin Electric Raises FY2026 Adj EPS Guidance from $4.50-$4.70 to $4.62-$4.82 vs $4.66 Est; Raises FY2026 Sales Guidance from $2.210B-$2.290B to $2.230B-$2.300B vs $2.276B Est\n\n\n[Other material headlines on this company in the window]\n- 2026-10-28T11:32:44Z Franklin Electric to Acquire Challenge Pumps for Up to $195 Million",
+      "market_cap_usd": 4326324157.440001,
+      "last_price": 97.92,
+      "also_accessions": [
+        "news:105852713"
+      ],
+      "weight": 3,
+      "first_report": "2026-10-28T12:06:52+00:00"
+    },
+    "market": {
+      "quote": null,
+      "extended_hours": {
+        "session": "pre-market",
+        "reference_close": 97.92,
+        "trades_seen": false,
+        "note": "no extended-hours trades on the IEX feed yet"
+      },
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.73,
+        "max_gap_pct": 1.93
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": null,
+        "slippage_usd": null
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 105 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "FCBC",
+          "night": "20261028-1257",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GSAT",
+          "night": "20261028-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "EXLS",
+          "night": "20261028-0217",
+          "ended_by": "QUANT",
+          "direction": "long",
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SLDE",
+          "night": "20261028-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "KO",
+          "night": "20261027-1635",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "TEVA",
+          "night": "20261027-1635",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "FUL",
+          "night": "20261027-1635",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "UPS",
+          "night": "20261027-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 124
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

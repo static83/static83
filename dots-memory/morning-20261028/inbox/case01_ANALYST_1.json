@@ -1,0 +1,15 @@
+{
+ "role": "ANALYST",
+ "verdict": "object",
+ "headline": "No mispricing to trade: a buyer-side bank deal at 1.8x book usually costs the buyer a little at the open, and that is not an edge",
+ "reasoning": [
+  "What changed: FCBC grows about 50% in assets ($1.6B onto roughly $3.3B) and issues about 27% more shares. It pays 1.8x book, a full price for a community bank. The 8-K gives no EPS accretion or tangible-book dilution figures to weigh.",
+  "Bank-acquirer reactions are usually a small dip (a few percent) that markets price at the open. Shorting that dip after the open is betting on more than the usual reaction with no evidence.",
+  "Long: there is no basis without accretion numbers; the investor presentation is not in the filing.",
+  "Would prove this wrong: FCBC moving more than 5% either way by Friday, which would mean the market saw something in the terms that I cannot."
+ ],
+ "objections": [
+  "No accretion data; buyer-side reactions are small and quickly priced."
+ ],
+ "direction": "none"
+}

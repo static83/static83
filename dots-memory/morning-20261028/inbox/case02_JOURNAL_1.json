@@ -1,0 +1,3 @@
+{"role":"JOURNAL","verdict":"agree","headline":"SLS: no trade. An event-count milestone, not trial data",
+"reasoning":["Filter gap: trial event-count milestones ('surpasses ... event', 'reaches ... events', 'triggers final analysis') are now treated like dosing and enrollment milestones. Fixed after this run.","Check later: watch for the actual REGAL topline. That will be a real case."],
+"objections":["No data."]}

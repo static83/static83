@@ -1,0 +1,221 @@
+[
+  {
+    "case": 1,
+    "ticker": "FCBC",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "First Community will buy Main Street Financial in an all-stock deal worth about $243M, about 27% of its own value",
+        "reasoning": [
+          "Source: First Community's 8-K filed 08:53 ET, item 1.01: 'First Community Bankshares, Inc. entered into an Agreement and Plan of Merger ... with Main Street Financial Services Corp. ... under which First Community will acquire Main Street.' Main Street has 'total assets of approximately $1.6 billion ... total shareholders' equity of approximately $137 million'. The exchange ratio 'represents approximately $30.14 per share of Main Street Common Stock and an aggregate transaction value of approximately $243 million.' Benzinga 08:22 ET: '0.6174 FCBC Shares Per MSWV Share'.",
+          "What changed: FCBC, a $0.9B bank, will issue roughly 27% more stock to buy a bank with $1.6B of assets in Ohio and West Virginia. It pays about 1.8x Main Street's book equity ($243M vs $137M).",
+          "Timing: before the open; no session has traded it. Pre-market: no IEX trades against the 47.46 close."
+        ],
+        "objections": [
+          "Buyer-side, all-stock: the price effect on FCBC is dilution against synergies, and the filing gives no accretion figures."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "object",
+        "headline": "No mispricing to trade: a buyer-side bank deal at 1.8x book usually costs the buyer a little at the open, and that is not an edge",
+        "reasoning": [
+          "What changed: FCBC grows about 50% in assets ($1.6B onto roughly $3.3B) and issues about 27% more shares. It pays 1.8x book, a full price for a community bank. The 8-K gives no EPS accretion or tangible-book dilution figures to weigh.",
+          "Bank-acquirer reactions are usually a small dip (a few percent) that markets price at the open. Shorting that dip after the open is betting on more than the usual reaction with no evidence.",
+          "Long: there is no basis without accretion numbers; the investor presentation is not in the filing.",
+          "Would prove this wrong: FCBC moving more than 5% either way by Friday, which would mean the market saw something in the terms that I cannot."
+        ],
+        "objections": [
+          "No accretion data; buyer-side reactions are small and quickly priced."
+        ],
+        "send_back_to": null,
+        "direction": "none",
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "FCBC: no trade. An all-stock bank acquisition with no accretion figures",
+        "reasoning": [
+          "Check later: FCBC's 5-day move from 47.46, a datapoint for buyer-side bank deals."
+        ],
+        "objections": [
+          "No edge."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "SLS",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "No data yet: SELLAS's Phase 3 REGAL trial passed its 80th event, which triggers the final analysis; results are still to come",
+        "reasoning": [
+          "Source: SELLAS's announcement, relayed by Benzinga Newsdesk 08:37 ET (headline only): 'Pivotal Phase 3 Study Of Galinpepimut-S In Acute Myeloid Leukemia Participants Surpasses Pre-Specified 80th Event'.",
+          "What changed: the trial reached the number of events at which its final analysis is run. That is a timing milestone. It says nothing about whether the drug works, and SELLAS has been expected to reach this point.",
+          "Pre-market: no IEX trades against the 12.15 close."
+        ],
+        "objections": [
+          "A trial-timing milestone, not a result; the readout itself would be the event."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "SLS: no trade. An event-count milestone, not trial data",
+        "reasoning": [
+          "Filter gap: trial event-count milestones ('surpasses ... event', 'reaches ... events', 'triggers final analysis') are now treated like dosing and enrollment milestones. Fixed after this run.",
+          "Check later: watch for the actual REGAL topline. That will be a real case."
+        ],
+        "objections": [
+          "No data."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "FELE",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "Franklin Electric beat Q3 and nudged its 2026 EPS range up; it also agreed to buy Challenge Pumps for up to $195M",
+        "reasoning": [
+          "Sources: Franklin Electric's Q3 release, with figures on Benzinga Newsdesk at 08:06-08:12 ET: 'Q3 Adj. EPS $1.50 Beats $1.41 Estimate, Sales $633.615M Beat $610.606M Estimate'. 'Raises FY2026 Adj EPS Guidance from $4.50-$4.70 to $4.62-$4.82 vs $4.66 Est; Raises FY2026 Sales Guidance from $2.210B-$2.290B to $2.230B-$2.300B vs $2.276B Est'. And its acquisition release: 'to Acquire Challenge Pumps for ~$181M Cash Plus Up To $14M Contingent' (first reported 02:15 ET).",
+          "What changed: Q3 beat by 6% on EPS and 4% on sales. The full-year EPS midpoint ($4.72) is 1.3% above consensus. The sales midpoint ($2.265B) is still below consensus ($2.276B) even after the beat, so the implied Q4 is soft. The deal is about 4.5% of the $4.3B market cap.",
+          "Pre-market: no IEX trades against the 97.92 close."
+        ],
+        "objections": [
+          "Mixed guide: EPS a little above consensus, sales below it."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "object",
+        "headline": "No thesis: a Q3 beat with a full-year sales range that still sits below consensus implies a soft Q4",
+        "reasoning": [
+          "What changed: Q3 sales of $633.6M against $610.6M expected. Yet the new full-year sales midpoint, $2.265B, is $11M below consensus ($2.276B). With Q3's $23M beat inside it, the implied Q4 is about $34M below what analysts model. The beat is pulled forward, not added.",
+          "EPS: the midpoint rises $0.12, against a $0.09 Q3 beat, so the rest of the year is roughly unchanged.",
+          "Challenge Pumps adds mine-dewatering exposure for about 4.5% of market cap; the price/sales multiple is not given.",
+          "For a long, the market would have to be underpricing a company whose own guide implies a weaker Q4. For a short, it would have to be overpricing a clean Q3 beat. Neither is a defensible edge.",
+          "Would prove this wrong: FELE moving more than 5% either way by Friday."
+        ],
+        "objections": [
+          "Q3 beat offset by a soft implied Q4.",
+          "Mixed guide: EPS a little above consensus, sales below it (SCOUT)."
+        ],
+        "send_back_to": null,
+        "direction": "none",
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "FELE: no trade. A Q3 beat with a soft implied Q4",
+        "reasoning": [
+          "Check later: FELE's 5-day move from 97.92.",
+          "Pattern: the third 'beat and raise' this week where the raise was mostly the beat carried through (AMT, FELE; VZ to consensus)."
+        ],
+        "objections": [
+          "Mixed."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]
