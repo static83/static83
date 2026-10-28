@@ -159,6 +159,8 @@ only if:
 3. No regular session has closed since it was published, it is not a rewrite of an earlier
    headline on the same event that a session already traded or that the crew or watcher already
    judged, and the stock has not visibly reacted.
+   A results or guidance headline published during the session is dated to before that day's
+   open (companies report outside market hours), so its move counts from the previous close.
    A 10% day on heavy volume in the two sessions before the first Benzinga item also counts as
    already traded: the news most likely came out elsewhere first (MRNA's leaked trial data fell 17%
    the day before Benzinga carried it).

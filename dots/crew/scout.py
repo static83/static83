@@ -706,6 +706,25 @@ def _same_event(headline: str, text: str, company: str) -> bool:
     return sum(1 for w in words if w[:6] in text.lower()) >= 2
 
 
+# Results and guidance: companies release them outside market hours, so a results headline that
+# appears during the session relays news from before the open.
+_RESULTS_HEADLINE = re.compile(
+    r"\b(reports?|posts?|announces?)\b.{0,40}\b(q[1-4]|(first|second|third|fourth)[- ]quarter|quarterly|full[- ]year)\b.{0,30}\b(results|earnings)\b|"
+    r"\bq[1-4] (\d{4} )?(adj\.? )?(eps|sales|revenue|earnings|results)\b|"
+    r"\b(raises|lowers|cuts|boosts|reaffirms|lifts|slashes)\b.{0,30}\b(outlook|forecast|guidance)\b|\bbeats?\b.{0,30}\bestimates?\b",
+    re.IGNORECASE,
+)
+
+
+def results_released_before(headline: str, created: datetime) -> datetime:
+    """A results headline published during regular hours dates from before that day's open."""
+    from .market import in_regular_session
+
+    if _RESULTS_HEADLINE.search(headline) and in_regular_session(created):
+        return min(created, created.astimezone(NY).replace(hour=9, minute=29, second=0, microsecond=0))
+    return created
+
+
 def told_by_news(news: list[dict], body: str, company: str, now: Optional[datetime] = None) -> Optional[str]:
     """Why a filing is old news: a Benzinga headline on the same company and the same event went
     out before a regular session that has since closed. Same event means at least two of the
@@ -796,6 +815,7 @@ def find_news_candidates(
         about = f"{item['headline']} {item.get('summary') or ''}"
         created = min([_created(i) for i in items if _same_event(i["headline"], about, info.get("title", ticker))
                        and _sessions_closed(_created(i), now) < 1] + [_created(item)])
+        created = results_released_before(item["headline"], created)
         repeat = told_by_news([i for i in items if i not in live], f"{item['headline']} {item.get('summary') or ''}",
                               info.get("title", ticker), now)
         if repeat:  # tonight's item rewrites a story a full session already traded
