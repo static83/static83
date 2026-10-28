@@ -43,7 +43,8 @@ _FILLER = re.compile(
     r"\b(doses|dosed|dosing|enrolls|enrolled|enrollment)\b|first patient|last patient|\bon track\b|"
     r"(stockholders|shareholders)'? (approv|vote)|(stockholder|shareholder) (complaints?|demands?)|ipo security released|"
     r"\b(index|indices|oil|crude|gold|copper|gdp|inflation|rates?|yields?|s&p( 500)?|kospi|nikkei|nasdaq|dow|currency|dollar|yuan|yen) (price )?(forecasts?|targets?|outlook)\b|"
-    r"\bcourt\b.{0,40}\b(approv|sanction)\w*\b.{0,40}\b(acquisition|merger|scheme|arrangement)\b|"
+    r"\b(court|fcc|ftc|doj|cfius|regulators?|commission|ministry|authority)\b.{0,40}\b(approv|sanction|clear)\w*\b.{0,40}\b(acquisition|merger|scheme|arrangement|takeover|deal)\b|"
+    r"\b(acquisition|merger|takeover|deal)\b.{0,40}\b(receives?|wins?|gets?|secures?)\b.{0,30}\b(approval|clearance)\b|"
     r"\byou may (qualify|be eligible)\b|\bsettlement payments?\b|\bnotice of (proposed |potential |pending )?(class action )?settlement\b|\bclaims? deadline\b",
     re.IGNORECASE,
 )
