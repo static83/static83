@@ -1,0 +1,5 @@
+{"role":"SCOUT","verdict":"object","headline":"A $1.50 special dividend is cash moving from the company to holders; the share price drops by it on the ex-date",
+"reasoning":["Source: Slide Insurance's release on GlobeNewswire (18:02 ET): 'declared a quarterly dividend of $0.07 per share and a one-time special dividend of $1.50 per common share ... payable on November 30, 2026, to shareholders of record as of the close of business on November 23, 2026'. First on Benzinga at 16:11 ET.",
+"The same evening: 'Q3 EPS $1.09 Beats $0.59 Estimate, Sales $361.100M Miss $390.663M Estimate' and a new $1.07B credit facility.",
+"What changed: $1.50 per share (5.3% of the 28.39 close) leaves the company's balance sheet; holders on 11/23 receive it, and the stock goes ex-dividend by the same amount. The EPS beat against a sales miss is the actual earnings news, and it is mixed. After hours: no IEX trades."],
+"objections":["A special dividend is not mispricing; the earnings beside it are mixed (EPS beat, sales miss)."]}

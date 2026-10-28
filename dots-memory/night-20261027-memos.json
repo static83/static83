@@ -1,0 +1,263 @@
+[
+  {
+    "case": 1,
+    "ticker": "SLDE",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A $1.50 special dividend is cash moving from the company to holders; the share price drops by it on the ex-date",
+        "reasoning": [
+          "Source: Slide Insurance's release on GlobeNewswire (18:02 ET): 'declared a quarterly dividend of $0.07 per share and a one-time special dividend of $1.50 per common share ... payable on November 30, 2026, to shareholders of record as of the close of business on November 23, 2026'. First on Benzinga at 16:11 ET.",
+          "The same evening: 'Q3 EPS $1.09 Beats $0.59 Estimate, Sales $361.100M Miss $390.663M Estimate' and a new $1.07B credit facility.",
+          "What changed: $1.50 per share (5.3% of the 28.39 close) leaves the company's balance sheet; holders on 11/23 receive it, and the stock goes ex-dividend by the same amount. The EPS beat against a sales miss is the actual earnings news, and it is mixed. After hours: no IEX trades."
+        ],
+        "objections": [
+          "A special dividend is not mispricing; the earnings beside it are mixed (EPS beat, sales miss)."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "SLDE: no trade. A special dividend plus mixed earnings",
+        "reasoning": [
+          "Filter note: 'special dividend' weighs 3 by rule. That is right for the event's size, but it is not a mispricing signal. Left as is: SCOUT handles it in one memo.",
+          "Check later: SLDE's 5-day move from 28.39."
+        ],
+        "objections": [
+          "Mechanical payout."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "EXLS",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "EXL beat Q3 EPS by 11% and raised full-year EPS guidance 2.6% above consensus, after the close",
+        "reasoning": [
+          "Source: EXL's release on GlobeNewswire ('EXL Reports 2026 Third Quarter Results', 18:01 ET); figures first on Benzinga at 16:02 ET.",
+          "Quoted: 'Q3 Adj. EPS $0.62 Beats $0.56 Estimate, Sales $634.000M Beat $615.431M Estimate'. 'Raises FY2026 Adj EPS Guidance from $2.25-$2.29 to $2.34-$2.36 vs $2.29 Est; Raises FY2026 Sales Guidance from $2.390B-$2.415B to $2.430B-$2.440B vs $2.410B Est'. The release: revenue 'a 19.7% increase year-over-year'; CEO Rohit Kapoor says 'momentum has accelerated throughout the year'.",
+          "What changed: the year is running ahead of both the company's own plan and analysts'. The new EPS range's bottom ($2.34) sits above the old range's top ($2.29) and above consensus ($2.29).",
+          "Timing: after the close; no session has traded it. After hours: no IEX trades against the 40.86 close, so the reaction is unknown. The stock fell 4.8% over the three sessions before the report (42.91 on 10/22 to 40.86), on 311,667 shares Tuesday, about 2x its recent volume."
+        ],
+        "objections": [
+          "No after-hours price on IEX: we cannot see how much of this the market has already priced."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "agree",
+        "headline": "Long EXLS, 5 trading days: a beat-and-raise of this size usually forces estimates up, and the stock sold off into the print",
+        "reasoning": [
+          "What changed: revenue +19.7% y/y, adjusted EPS +28.5% y/y, and a full-year EPS guide raised ~3% at the midpoint (2.27 to 2.35), now 2.6% above consensus. With one quarter left, the raise implies a Q4 at or above Q3's run-rate.",
+          "What the market must believe for a mispricing: going into the print, the stock dropped 4.8% in three sessions on rising volume, which priced a soft quarter or AI-disruption fears for IT services. The print says the opposite: growth is accelerating, and management credits its data-and-AI work.",
+          "Mechanism: analysts move 2026-27 EPS estimates up about 3-5% over the next days. At an unchanged multiple that is worth +3-5%, plus the reversal of the pre-print selloff (+4.8% back to 42.91).",
+          "Direction: long. horizon_days: 5.",
+          "Would prove this wrong: EXLS trading back below 40.86, Tuesday's pre-report close, after the entry. That would mean the market reads the quarter as already priced or the guide as low quality."
+        ],
+        "objections": [
+          "The opening gap will capture part of the move; the edge depends on the entry QUANT sets.",
+          "Thesis rests on estimate revisions that I cannot see yet."
+        ],
+        "send_back_to": null,
+        "direction": "long",
+        "horizon_days": 5,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "SKEPTIC",
+        "verdict": "agree",
+        "headline": "Survives, barely: fresh news no session has traded, but the entry will be filled by the sellers",
+        "reasoning": [
+          "priced_in_score: 0.35. No regular session has traded it, and IEX shows no after-hours prints. But every earnings screen read 'Beats $0.56 Estimate' at 16:02 ET, and the gap at tomorrow's open will take most of the first move.",
+          "Weakest link, quoted: 'plus the reversal of the pre-print selloff (+4.8% back to 42.91)'. The selloff may have been funds de-risking IT services on AI fears, and a single quarter does not answer that worry. If the selloff was sector-wide, a beat reverses less of it.",
+          "Adverse selection: QUANT's limit buy fills only if EXLS opens at or below the entry, or comes back to it. On the strong days, when the thesis is right, we likely do not fill. We fill on the days the market shrugs. That cuts the real win rate below what the beat suggests.",
+          "Track record: the crew's only real trade (SMCI, 10/20) was this exact setup, a long the night after a guided beat with entry near the after-hours price, and it was stopped out for -$95. One case is not a rule, but it is the only evidence we have. On the other side, my kills went on to average +1.1% (3 of 6 right), which says I have been too strict, so I raise my bar for killing.",
+          "Why the market might still miss it: the EPS guide's new floor ($2.34) clears the old ceiling ($2.29) by 2%. That is a real raise, not a nudge to consensus, so estimates must move. And mid-cap IT services names are thinly covered at night."
+        ],
+        "objections": [
+          "1. No after-hours price: reaction unknown (SCOUT).",
+          "2. The opening gap captures part of the move (ANALYST).",
+          "3. Estimate revisions are inferred, not seen (ANALYST).",
+          "4. Adverse selection: the limit fills mainly when the reaction is weak.",
+          "5. The crew's only comparable trade (SMCI) stopped out.",
+          "6. The pre-print selloff may be sector-wide AI fear, which one quarter does not reverse."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": 0.35
+      },
+      {
+        "role": "QUANT",
+        "verdict": "object",
+        "headline": "No positive size: once the fill odds and my calibration are counted, expectancy is about zero or below",
+        "reasoning": [
+          "Setup tried: long at 42.90 (+5.0% from 40.86, back to the 10/22 close), stop 40.80 (below Tuesday's pre-report close: if it trades there, the market has rejected the quarter), target 45.50 (+6.1%). Risk 2.10 a share, reward 2.60. The entry guard arms at 41.85 (42.90 - 0.5 x 2.10).",
+          "Volatility: EXLS's 60-day mean absolute daily move is 1.46%, its max 6.0%, its max gap 3.18%. Post-earnings volatility runs higher, so a 5-day spread of about 5%. A +6.1% target in 5 days is a stretch, not a base case.",
+          "Conditional on a fill: the order fills only if the open is at or below 42.90, or the stock fades back to it (SKEPTIC #4). In the worlds where it fills, the reaction is +5% or less, a lukewarm read of a strong quarter. Odds in those worlds: stop first 0.38, target first 0.28, time-limit exit 0.34 at +0.30.",
+          "Calibration: my one past call predicted 0.38 stop-out and it was stopped (1 of 1). One case is weak evidence, so I move p_strike up modestly to 0.42 and take the target-first odds down to 0.26 and the time exit to 0.32.",
+          "Expected value per share: 0.26 x 2.60 + 0.32 x 0.30 - 0.42 x 2.10 = 0.676 + 0.096 - 0.882 = -0.11. With a wider target (46.00, reward 3.10, target-first 0.22, time exit 0.36 at +0.5): 0.682 + 0.18 - 0.882 = -0.02. Before costs of about 0.05 a share.",
+          "Costs: commission 0; spread unknown after hours (no quote), assumed 0.05% = about $1 for $2,000; slippage about $2.50. Bad-exit cost: a gap through the stop to 39.50 at 46 shares = 46 x 3.40 = $156, 3.2% of $4,905.03 equity.",
+          "horizon_days 5, kept from ANALYST. The sign of the expectancy does not change with size, so no size helps."
+        ],
+        "objections": [
+          "1. No after-hours price: reaction unknown (SCOUT).",
+          "2. The opening gap captures part of the move (ANALYST).",
+          "3. Estimate revisions are inferred, not seen (ANALYST).",
+          "4. Adverse selection: the limit fills mainly when the reaction is weak (SKEPTIC).",
+          "5. The crew's only comparable trade (SMCI) stopped out (SKEPTIC).",
+          "6. The pre-print selloff may be sector-wide AI fear (SKEPTIC).",
+          "7. Expectancy -0.02 to -0.11 a share before costs: negative at any size."
+        ],
+        "send_back_to": null,
+        "direction": "long",
+        "horizon_days": 5,
+        "entry_price": 42.9,
+        "stop_price": 40.8,
+        "target_price": 45.5,
+        "position_size_usd": 0.0,
+        "fee_estimate_usd": 3.5,
+        "bad_exit_cost_usd": 156.0,
+        "p_strike": 0.42,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "EXLS: QUANT rejected a long after a real beat-and-raise; the fill would come mainly when the market shrugs",
+        "reasoning": [
+          "The first case in a while that SCOUT, ANALYST and SKEPTIC all passed. QUANT ended it on arithmetic: a limit entry below the expected gap fills mostly on weak reactions, and that, plus the SMCI stop-out, makes the expectancy about zero or negative.",
+          "Check later (scored in 5 days): EXLS's close on 11/03 against 42.90 (the entry) and 40.86 (the pre-report close). If it ran well above 45.50 without coming back to 42.90, the call was right that we would not have filled. If it came back to 42.90 and then rose, QUANT was too cautious.",
+          "For the two-week review: this is the first QUANT rejection driven by adverse selection at the entry. It is a structural issue with how the crew enters after-close news, not with this name."
+        ],
+        "objections": [
+          "Killed by QUANT on expectancy."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "GSAT",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A routine deal step, already out at 14:41 ET: the FCC approved the license transfers for Amazon's Globalstar purchase",
+        "reasoning": [
+          "Source: the FCC's grant, reported by MarketScreener and relayed by Benzinga 18:01 ET. Benzinga's own item at 14:41 ET was headed 'Reported Earlier: FCC Approves Amazon Leo's Acquisition Of Globalstar'. Quoted: 'The FCC has granted authorization for the transfer of various Globalstar, Inc. licenses to Amazon, including space station licenses, earth station licenses, and domestic and international section 214 authorizations.'",
+          "What changed: one of the regulatory conditions for an already-announced acquisition is met. The deal price was set when it was announced. The approval was public during Tuesday's session, so the close at 83.87 already includes it."
+        ],
+        "objections": [
+          "A regulatory step on an announced deal, and it was public before the close."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "GSAT: no trade. FCC approval of an announced acquisition, public in-session",
+        "reasoning": [
+          "Filter gap: regulator approvals of an announced acquisition ('Receives Approval From FCC', 'FTC clears', 'regulator approves ... acquisition') now count as routine deal steps, like court and shareholder approvals. Fixed after this run.",
+          "Nothing to check later."
+        ],
+        "objections": [
+          "Routine deal step."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

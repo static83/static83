@@ -1,0 +1,208 @@
+{
+  "role": "QUANT",
+  "packet": {
+    "case": 2,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "EXLS",
+      "company": "ExlService Holdings, Inc.",
+      "cik": "1297989",
+      "accession": "news:105535367",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-27T22:01:58Z",
+      "url": "https://www.globenewswire.com/news-release/2026/10/27/3389591/9060/en/exl-reports-2026-third-quarter-results.html",
+      "source_excerpt": "[Benzinga news, 2026-10-27T22:01:58Z, by staff] ExlService Holdings, Inc. Reports Q3 2026 Financial Results and Raises Full-Year Guidance\nExlService Holdings, Inc. reported strong third-quarter 2026 financial results, with revenue of $634.0 million and adjusted diluted EPS of $0.62, while raising its full-year 2026 outlook.\nExlService Holdings, Inc. announced its financial results for the third quarter ended September 30, 2026, reporting revenue of $634.0 million, a 19.7% increase year-over-year. The company achieved a GAAP diluted EPS of $0.45 and an adjusted diluted EPS of $0.62, representing growth of 25.3% and 28.5% respectively compared to the same period in 2025. Driven by strong performance across all business segments and its data and AI strategy, management raised its full-year 2026 revenue guidance to a range of $2.430 billion to $2.440 billion. Additionally, the company increased its full-year 2026 adjusted diluted EPS outlook to $2.34 to $2.36. Chairman and CEO Rohit Kapoor noted that the company's momentum has accelerated throughout the year, providing good visibility for a solid finish to 2026.\n[Other material headlines on this company in the window]\n- 2026-10-27T20:02:16Z ExlService Hldgs Raises FY2026 Adj EPS Guidance from $2.25-$2.29 to $2.34-$2.36 vs $2.29 Est; Raises FY2026 Sales Guidance from $2.390B-$2.415B to $2.430B-$2.440B vs $2.410B Est",
+      "market_cap_usd": 6161227548.66,
+      "last_price": 40.86,
+      "also_accessions": [
+        "news:62635525"
+      ],
+      "weight": 3,
+      "first_report": "2026-10-27T20:02:16+00:00"
+    },
+    "market": {
+      "quote": {
+        "ap": 44.12,
+        "as": 100,
+        "ax": "V",
+        "bp": 36.86,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-27T20:00:01.218574029Z",
+        "z": "C"
+      },
+      "extended_hours": null,
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.88,
+        "max_gap_pct": 3.18
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 439.7446,
+        "slippage_usd": 2.4525,
+        "spread_pct": 17.93
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "EXL beat Q3 EPS by 11% and raised full-year EPS guidance 2.6% above consensus, after the close",
+        "reasoning": [
+          "Source: EXL's release on GlobeNewswire ('EXL Reports 2026 Third Quarter Results', 18:01 ET); figures first on Benzinga at 16:02 ET.",
+          "Quoted: 'Q3 Adj. EPS $0.62 Beats $0.56 Estimate, Sales $634.000M Beat $615.431M Estimate'. 'Raises FY2026 Adj EPS Guidance from $2.25-$2.29 to $2.34-$2.36 vs $2.29 Est; Raises FY2026 Sales Guidance from $2.390B-$2.415B to $2.430B-$2.440B vs $2.410B Est'. The release: revenue 'a 19.7% increase year-over-year'; CEO Rohit Kapoor says 'momentum has accelerated throughout the year'.",
+          "What changed: the year is running ahead of both the company's own plan and analysts'. The new EPS range's bottom ($2.34) sits above the old range's top ($2.29) and above consensus ($2.29).",
+          "Timing: after the close; no session has traded it. After hours: no IEX trades against the 40.86 close, so the reaction is unknown. The stock fell 4.8% over the three sessions before the report (42.91 on 10/22 to 40.86), on 311,667 shares Tuesday, about 2x its recent volume."
+        ],
+        "objections": [
+          "No after-hours price on IEX: we cannot see how much of this the market has already priced."
+        ]
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "agree",
+        "headline": "Long EXLS, 5 trading days: a beat-and-raise of this size usually forces estimates up, and the stock sold off into the print",
+        "reasoning": [
+          "What changed: revenue +19.7% y/y, adjusted EPS +28.5% y/y, and a full-year EPS guide raised ~3% at the midpoint (2.27 to 2.35), now 2.6% above consensus. With one quarter left, the raise implies a Q4 at or above Q3's run-rate.",
+          "What the market must believe for a mispricing: going into the print, the stock dropped 4.8% in three sessions on rising volume, which priced a soft quarter or AI-disruption fears for IT services. The print says the opposite: growth is accelerating, and management credits its data-and-AI work.",
+          "Mechanism: analysts move 2026-27 EPS estimates up about 3-5% over the next days. At an unchanged multiple that is worth +3-5%, plus the reversal of the pre-print selloff (+4.8% back to 42.91).",
+          "Direction: long. horizon_days: 5.",
+          "Would prove this wrong: EXLS trading back below 40.86, Tuesday's pre-report close, after the entry. That would mean the market reads the quarter as already priced or the guide as low quality."
+        ],
+        "objections": [
+          "The opening gap will capture part of the move; the edge depends on the entry QUANT sets.",
+          "Thesis rests on estimate revisions that I cannot see yet."
+        ],
+        "direction": "long",
+        "horizon_days": 5
+      },
+      {
+        "role": "SKEPTIC",
+        "verdict": "agree",
+        "headline": "Survives, barely: fresh news no session has traded, but the entry will be filled by the sellers",
+        "reasoning": [
+          "priced_in_score: 0.35. No regular session has traded it, and IEX shows no after-hours prints. But every earnings screen read 'Beats $0.56 Estimate' at 16:02 ET, and the gap at tomorrow's open will take most of the first move.",
+          "Weakest link, quoted: 'plus the reversal of the pre-print selloff (+4.8% back to 42.91)'. The selloff may have been funds de-risking IT services on AI fears, and a single quarter does not answer that worry. If the selloff was sector-wide, a beat reverses less of it.",
+          "Adverse selection: QUANT's limit buy fills only if EXLS opens at or below the entry, or comes back to it. On the strong days, when the thesis is right, we likely do not fill. We fill on the days the market shrugs. That cuts the real win rate below what the beat suggests.",
+          "Track record: the crew's only real trade (SMCI, 10/20) was this exact setup, a long the night after a guided beat with entry near the after-hours price, and it was stopped out for -$95. One case is not a rule, but it is the only evidence we have. On the other side, my kills went on to average +1.1% (3 of 6 right), which says I have been too strict, so I raise my bar for killing.",
+          "Why the market might still miss it: the EPS guide's new floor ($2.34) clears the old ceiling ($2.29) by 2%. That is a real raise, not a nudge to consensus, so estimates must move. And mid-cap IT services names are thinly covered at night."
+        ],
+        "objections": [
+          "1. No after-hours price: reaction unknown (SCOUT).",
+          "2. The opening gap captures part of the move (ANALYST).",
+          "3. Estimate revisions are inferred, not seen (ANALYST).",
+          "4. Adverse selection: the limit fills mainly when the reaction is weak.",
+          "5. The crew's only comparable trade (SMCI) stopped out.",
+          "6. The pre-print selloff may be sector-wide AI fear, which one quarter does not reverse."
+        ],
+        "priced_in_score": 0.35
+      }
+    ],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 104 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 38% on average, actual 100% across 1 case(s). Only 1 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "SLDE",
+          "night": "20261028-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "KO",
+          "night": "20261027-1635",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "TEVA",
+          "night": "20261027-1635",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "FUL",
+          "night": "20261027-1635",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "UPS",
+          "night": "20261027-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "AMT",
+          "night": "20261027-1306",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "INIO",
+          "night": "20261027-1306",
+          "ended_by": "SKEPTIC",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BWIN",
+          "night": "20261027-1306",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 121
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

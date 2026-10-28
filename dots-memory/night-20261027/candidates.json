@@ -1,0 +1,57 @@
+[
+  {
+    "ticker": "SLDE",
+    "company": "Slide Insurance Holdings, Inc.",
+    "cik": "1886428",
+    "accession": "news:105535420",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-27T22:02:30Z",
+    "url": "https://www.globenewswire.com/news-release/2026/10/27/3389630/0/en/slide-insurance-holdings-inc-declares-quarterly-dividend-of-0-07-per-share-and-one-time-special-dividend-of-1-50-per-share.html",
+    "source_excerpt": "[Benzinga news, 2026-10-27T22:02:30Z, by staff] Slide Insurance Declares Quarterly and One-Time Special Dividend\nSlide Insurance's Board of Directors declared a quarterly dividend of $0.07 per share and a one-time special dividend of $1.50 per share.\nSlide Insurance Holdings, Inc. announced that its Board of Directors has declared a quarterly dividend of $0.07 per common share and a one-time special dividend of $1.50 per common share. Both dividends are payable on November 30, 2026, to shareholders of record as of the close of business on November 23, 2026. CEO Bruce Lucas stated that the special dividend reflects the company's confidence in its business model and balance sheet strength, while allowing the company to retain capital for long-term growth initiatives.\n[Other material headlines on this company in the window]\n- 2026-10-27T20:11:42Z Slide Insurance Declares One-Time Special Dividend Of $1.50/Share",
+    "market_cap_usd": 3316284702.41,
+    "last_price": 28.39,
+    "also_accessions": [
+      "news:62636750"
+    ],
+    "weight": 3,
+    "first_report": "2026-10-27T20:11:42+00:00"
+  },
+  {
+    "ticker": "EXLS",
+    "company": "ExlService Holdings, Inc.",
+    "cik": "1297989",
+    "accession": "news:105535367",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-27T22:01:58Z",
+    "url": "https://www.globenewswire.com/news-release/2026/10/27/3389591/9060/en/exl-reports-2026-third-quarter-results.html",
+    "source_excerpt": "[Benzinga news, 2026-10-27T22:01:58Z, by staff] ExlService Holdings, Inc. Reports Q3 2026 Financial Results and Raises Full-Year Guidance\nExlService Holdings, Inc. reported strong third-quarter 2026 financial results, with revenue of $634.0 million and adjusted diluted EPS of $0.62, while raising its full-year 2026 outlook.\nExlService Holdings, Inc. announced its financial results for the third quarter ended September 30, 2026, reporting revenue of $634.0 million, a 19.7% increase year-over-year. The company achieved a GAAP diluted EPS of $0.45 and an adjusted diluted EPS of $0.62, representing growth of 25.3% and 28.5% respectively compared to the same period in 2025. Driven by strong performance across all business segments and its data and AI strategy, management raised its full-year 2026 revenue guidance to a range of $2.430 billion to $2.440 billion. Additionally, the company increased its full-year 2026 adjusted diluted EPS outlook to $2.34 to $2.36. Chairman and CEO Rohit Kapoor noted that the company's momentum has accelerated throughout the year, providing good visibility for a solid finish to 2026.\n[Other material headlines on this company in the window]\n- 2026-10-27T20:02:16Z ExlService Hldgs Raises FY2026 Adj EPS Guidance from $2.25-$2.29 to $2.34-$2.36 vs $2.29 Est; Raises FY2026 Sales Guidance from $2.390B-$2.415B to $2.430B-$2.440B vs $2.410B Est",
+    "market_cap_usd": 6161227548.66,
+    "last_price": 40.86,
+    "also_accessions": [
+      "news:62635525"
+    ],
+    "weight": 3,
+    "first_report": "2026-10-27T20:02:16+00:00"
+  },
+  {
+    "ticker": "GSAT",
+    "company": "Globalstar, Inc.",
+    "cik": "1366868",
+    "accession": "news:105535350",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-27T22:01:52Z",
+    "url": "https://www.marketscreener.com/news/amazon-s-acquisition-of-globalstar-receives-approval-from-fcc-ce785cddde8af72c",
+    "source_excerpt": "[Benzinga news, 2026-10-27T22:01:52Z, by staff] Amazon's Acquisition of Globalstar Receives Approval From FCC\nThe U.S. Federal Communications Commission (FCC) has approved the transfer of Globalstar's licenses to Amazon as part of its acquisition of the satellite telecommunications company.\nThe FCC has granted authorization for the transfer of various Globalstar, Inc. licenses to Amazon, including space station licenses, earth station licenses, and domestic and international section 214 authorizations. This regulatory approval is a key component of Amazon's broader acquisition of the satellite telecommunications provider. The agency's decision facilitates the integration of Globalstar's assets into Amazon's operations.",
+    "market_cap_usd": 10800023770.0,
+    "last_price": 83.87,
+    "also_accessions": [],
+    "weight": 3,
+    "first_report": "2026-10-27T22:01:52+00:00"
+  }
+]

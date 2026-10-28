@@ -1,0 +1,5 @@
+{"role":"JOURNAL","verdict":"agree","headline":"EXLS: QUANT rejected a long after a real beat-and-raise; the fill would come mainly when the market shrugs",
+"reasoning":["The first case in a while that SCOUT, ANALYST and SKEPTIC all passed. QUANT ended it on arithmetic: a limit entry below the expected gap fills mostly on weak reactions, and that, plus the SMCI stop-out, makes the expectancy about zero or negative.",
+"Check later (scored in 5 days): EXLS's close on 11/03 against 42.90 (the entry) and 40.86 (the pre-report close). If it ran well above 45.50 without coming back to 42.90, the call was right that we would not have filled. If it came back to 42.90 and then rose, QUANT was too cautious.",
+"For the two-week review: this is the first QUANT rejection driven by adverse selection at the entry. It is a structural issue with how the crew enters after-close news, not with this name."],
+"objections":["Killed by QUANT on expectancy."]}

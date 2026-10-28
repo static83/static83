@@ -1,0 +1,18 @@
+{
+ "role": "ANALYST",
+ "verdict": "agree",
+ "headline": "Long EXLS, 5 trading days: a beat-and-raise of this size usually forces estimates up, and the stock sold off into the print",
+ "reasoning": [
+  "What changed: revenue +19.7% y/y, adjusted EPS +28.5% y/y, and a full-year EPS guide raised ~3% at the midpoint (2.27 to 2.35), now 2.6% above consensus. With one quarter left, the raise implies a Q4 at or above Q3's run-rate.",
+  "What the market must believe for a mispricing: going into the print, the stock dropped 4.8% in three sessions on rising volume, which priced a soft quarter or AI-disruption fears for IT services. The print says the opposite: growth is accelerating, and management credits its data-and-AI work.",
+  "Mechanism: analysts move 2026-27 EPS estimates up about 3-5% over the next days. At an unchanged multiple that is worth +3-5%, plus the reversal of the pre-print selloff (+4.8% back to 42.91).",
+  "Direction: long. horizon_days: 5.",
+  "Would prove this wrong: EXLS trading back below 40.86, Tuesday's pre-report close, after the entry. That would mean the market reads the quarter as already priced or the guide as low quality."
+ ],
+ "objections": [
+  "The opening gap will capture part of the move; the edge depends on the entry QUANT sets.",
+  "Thesis rests on estimate revisions that I cannot see yet."
+ ],
+ "direction": "long",
+ "horizon_days": 5
+}
