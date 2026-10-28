@@ -1,0 +1,5 @@
+{"role":"SCOUT","verdict":"object","headline":"Not a trial: Shell started production at phase 3 of a Gulf of Mexico field, a tiny add for a $600B company",
+"reasoning":["Source: Shell's release on PR Newswire ('Shell adds production in the Gulf of America with Phase 3 Silvertip'), relayed by Benzinga 11:01 ET. Quoted: 'Shell has officially started production at the Silvertip Phase 3 subsea development in the Gulf of Mexico.'",
+"What changed: a planned tie-back to existing infrastructure came online on schedule. No volumes are given in the summary. Shell produces close to 3M barrels of oil equivalent a day, so one subsea phase is a rounding error.",
+"Move: SHEL 105.25 vs 105.22 before the item, +0.03%. The item weighed 3 because 'Phase 3' matched the clinical-trial rule."],
+"objections":["A project phase, not a trial phase; immaterial."]}

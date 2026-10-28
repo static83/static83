@@ -1,0 +1,164 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "SHEL",
+      "company": "Shell plc",
+      "cik": "1306965",
+      "accession": "news:106060547",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-28T15:01:37Z",
+      "url": "https://www.prnewswire.com/news-releases/shell-adds-production-in-the-gulf-of-america-with-phase-3-silvertip-302921322.html",
+      "source_excerpt": "[Benzinga news, 2026-10-28T15:01:37Z, by staff] Shell Commences Production at Silvertip Phase 3 in the Gulf of Mexico\nShell has officially started production at the Silvertip Phase 3 subsea development in the Gulf of Mexico.\nShell announced the start of production at its Silvertip Phase 3 project, a subsea development located in the Gulf of Mexico. This project is part of the company's ongoing efforts to expand its offshore production capabilities. The development is designed to leverage existing infrastructure to bring new volumes online efficiently.",
+      "market_cap_usd": 599031795017.6,
+      "last_price": 105.28,
+      "also_accessions": [],
+      "weight": 3,
+      "first_report": "2026-10-28T15:01:37+00:00"
+    },
+    "market": {
+      "quote": {
+        "ap": 105.26,
+        "as": 800,
+        "ax": "V",
+        "bp": 105.23,
+        "bs": 800,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-28T15:03:10.071127684Z",
+        "z": "A"
+      },
+      "extended_hours": null,
+      "since_news": {
+        "since": "2026-10-28T15:01:37+00:00",
+        "reference": 105.22,
+        "reference_is": "last bar before the news",
+        "last": 105.25,
+        "move_pct": 0.03,
+        "high": 105.28,
+        "low": 105.145,
+        "volume": 2052,
+        "as_of": "2026-10-28T15:00:00Z",
+        "trades_seen": true,
+        "note": "IEX feed only: the move since the news went out, during today's session"
+      },
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.81,
+        "max_gap_pct": 2.67
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 0.6991,
+        "slippage_usd": 2.4525,
+        "spread_pct": 0.029
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 107 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 40% on average, actual 100% across 2 case(s). Only 2 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "SW",
+          "night": "20261028-1402",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "FELE",
+          "night": "20261028-1257",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SLS",
+          "night": "20261028-1257",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "FCBC",
+          "night": "20261028-1257",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GSAT",
+          "night": "20261028-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "EXLS",
+          "night": "20261028-0217",
+          "ended_by": "QUANT",
+          "direction": "long",
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": "stop"
+        },
+        {
+          "ticker": "SLDE",
+          "night": "20261028-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "KO",
+          "night": "20261027-1635",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 127
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

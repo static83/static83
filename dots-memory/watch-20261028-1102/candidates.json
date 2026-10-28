@@ -1,0 +1,19 @@
+[
+  {
+    "ticker": "SHEL",
+    "company": "Shell plc",
+    "cik": "1306965",
+    "accession": "news:106060547",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-28T15:01:37Z",
+    "url": "https://www.prnewswire.com/news-releases/shell-adds-production-in-the-gulf-of-america-with-phase-3-silvertip-302921322.html",
+    "source_excerpt": "[Benzinga news, 2026-10-28T15:01:37Z, by staff] Shell Commences Production at Silvertip Phase 3 in the Gulf of Mexico\nShell has officially started production at the Silvertip Phase 3 subsea development in the Gulf of Mexico.\nShell announced the start of production at its Silvertip Phase 3 project, a subsea development located in the Gulf of Mexico. This project is part of the company's ongoing efforts to expand its offshore production capabilities. The development is designed to leverage existing infrastructure to bring new volumes online efficiently.",
+    "market_cap_usd": 599031795017.6,
+    "last_price": 105.28,
+    "also_accessions": [],
+    "weight": 3,
+    "first_report": "2026-10-28T15:01:37+00:00"
+  }
+]

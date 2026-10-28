@@ -1,0 +1,58 @@
+[
+  {
+    "case": 1,
+    "ticker": "SHEL",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Not a trial: Shell started production at phase 3 of a Gulf of Mexico field, a tiny add for a $600B company",
+        "reasoning": [
+          "Source: Shell's release on PR Newswire ('Shell adds production in the Gulf of America with Phase 3 Silvertip'), relayed by Benzinga 11:01 ET. Quoted: 'Shell has officially started production at the Silvertip Phase 3 subsea development in the Gulf of Mexico.'",
+          "What changed: a planned tie-back to existing infrastructure came online on schedule. No volumes are given in the summary. Shell produces close to 3M barrels of oil equivalent a day, so one subsea phase is a rounding error.",
+          "Move: SHEL 105.25 vs 105.22 before the item, +0.03%. The item weighed 3 because 'Phase 3' matched the clinical-trial rule."
+        ],
+        "objections": [
+          "A project phase, not a trial phase; immaterial."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "SHEL: no trade. 'Phase 3' of an oilfield project read as a clinical trial",
+        "reasoning": [
+          "Filter gap: 'Phase 3' next to production, development, project, field or plant words now counts as an industrial project stage, not a trial readout. It weighs 1. Fixed after this run.",
+          "Nothing to check later."
+        ],
+        "objections": [
+          "Immaterial."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]
