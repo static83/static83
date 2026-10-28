@@ -188,6 +188,10 @@ def weight(text: str, market_cap: Optional[float] = None, price: Optional[float]
         w = min(w, 2)  # a planned handover, the outgoing CEO staying on as chair: continuity, not a shock
     if guidance_to_consensus(text):
         w = min(w, 2)  # the raise lands on the analysts' number
+    if re.search(r"\bphase (1|2|3|i|ii|iii|one|two|three)\b.{0,40}\b(production|development|project|expansion|construction|plant|mine|field|facility|tie-?back|refinery|pipeline)\b|"
+                 r"\b(production|development|project|expansion|construction|plant|mine|field|facility)\b.{0,30}\bphase (1|2|3|i|ii|iii|one|two|three)\b",
+                 text, re.IGNORECASE) and not re.search(r"\b(trial|study|patients?|endpoint|topline|data)\b", text, re.IGNORECASE):
+        return 1  # a stage of an industrial project, not a clinical trial
     if re.search(r"\bpublished (in|by) (the )?(new england|nejm|lancet|nature|jama|science|journal)", text, re.IGNORECASE):
         return 1  # the paper of a trial whose result was announced when it read out
     if re.search(r"\bunconfirmed\b|\brumou?rs?\b|\bspeculation\b", text, re.IGNORECASE):
