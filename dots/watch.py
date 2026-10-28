@@ -18,6 +18,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sys
 import time
 from datetime import datetime, timedelta, timezone
@@ -80,6 +81,24 @@ def start_from(now: datetime) -> datetime:
     return now - timedelta(minutes=15)
 
 
+_RESULTS = re.compile(r"\b(results|earnings|eps|outlook|guidance|forecast|q[1-4])\b", re.IGNORECASE)
+_RESULTS_OUT = re.compile(r"earnings call|conference call|transcript|\bq[1-4] (\d{4} )?(adj\.? )?(eps|sales|revenue|results)|"
+                          r"reports? (q[1-4]|(first|second|third|fourth)[- ]quarter|quarterly)", re.IGNORECASE)
+
+
+def _results_before_open(raw: dict, c, open_: datetime) -> str | None:
+    """For a results or outlook headline: an item on the same company before today's open that shows the
+    results were already out (the call, its transcript, the EPS line), whatever words it used."""
+    if not _RESULTS.search(c.source_excerpt.split("\n")[0]):
+        return None
+    for i in raw.values():
+        when = datetime.fromisoformat(i["created_at"].replace("Z", "+00:00"))
+        if (c.ticker in (i.get("symbols") or []) and len(i.get("symbols") or []) <= 2
+                and open_ - timedelta(hours=18) <= when < open_ and _RESULTS_OUT.search(i["headline"])):
+            return f"'{i['headline'][:60]}' at {when.astimezone(NY):%H:%M} ET"
+    return None
+
+
 def poll(edgar, data, broker, tickers, raw: dict, seen: set[str], since: datetime, now: datetime):
     """One look at the feeds: (heavy new cases, alerts on held stocks)."""
     for item in fetch_news(data, since, now):
@@ -125,6 +144,10 @@ def poll(edgar, data, broker, tickers, raw: dict, seen: set[str], since: datetim
         first = datetime.fromisoformat((c.first_report or c.filed_at).replace("Z", "+00:00"))
         if first < open_:  # a recap of pre-open news: the open priced it, and the 08:45 run judged it
             log(f"  skip {c.ticker}: first reported {first.astimezone(NY):%H:%M} ET, before today's open")
+            continue
+        early = _results_before_open(raw, c, open_)
+        if early:  # results whose call or release was out before the open, under different words
+            log(f"  skip {c.ticker}: results already out before the open ({early})")
             continue
         if c.weight >= 3 and c.ticker not in names:
             heavy.append(c)
