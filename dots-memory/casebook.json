@@ -1592,7 +1592,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.086,
+        "raw": 0.0789,
         "thesis": null
       }
     },
@@ -1624,7 +1624,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0111,
+        "raw": -0.0086,
         "thesis": null
       }
     },
@@ -1656,7 +1656,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.019,
+        "raw": 0.0299,
         "thesis": null
       }
     },
@@ -1688,7 +1688,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0465,
+        "raw": 0.0445,
         "thesis": null
       }
     },
@@ -1720,7 +1720,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0302,
+        "raw": -0.03,
         "thesis": null
       }
     },
@@ -1752,7 +1752,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0311,
+        "raw": 0.0326,
         "thesis": null
       }
     },
@@ -1784,7 +1784,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.013,
+        "raw": 0.0023,
         "thesis": null
       }
     },
@@ -1816,7 +1816,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0205,
+        "raw": -0.036,
         "thesis": null
       }
     },
@@ -1850,7 +1850,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0625,
+        "raw": 0.0627,
         "thesis": null
       }
     },
@@ -1882,7 +1882,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0022,
+        "raw": -0.0044,
         "thesis": null
       }
     },
@@ -1914,7 +1914,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0428,
+        "raw": -0.0515,
         "thesis": null
       }
     },
@@ -1946,7 +1946,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0345,
+        "raw": 0.0333,
         "thesis": null
       }
     },
@@ -1981,7 +1981,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0714,
+        "raw": 0.0632,
         "thesis": null
       }
     },
@@ -2016,7 +2016,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0597,
+        "raw": -0.0578,
         "thesis": null
       }
     },
@@ -2052,7 +2052,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0493,
+        "raw": 0.0464,
         "thesis": null
       }
     },
@@ -2087,7 +2087,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0537,
+        "raw": 0.0533,
         "thesis": null
       }
     },
@@ -2124,7 +2124,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0904,
+        "raw": 0.0998,
         "thesis": null
       }
     },
@@ -2157,7 +2157,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0239,
+        "raw": 0.0209,
         "thesis": null
       }
     },
@@ -3605,7 +3605,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0084,
+        "raw": -0.0029,
         "thesis": null
       }
     },
@@ -3634,7 +3634,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0037,
+        "raw": -0.0047,
         "thesis": null
       }
     },
@@ -3663,7 +3663,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0161,
+        "raw": 0.0049,
         "thesis": null
       }
     },
@@ -3692,7 +3692,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0119,
+        "raw": 0.0101,
         "thesis": null
       }
     },
@@ -3723,7 +3723,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0204,
+        "raw": -0.0283,
         "thesis": null
       }
     },
@@ -3783,7 +3783,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0023,
+        "raw": -0.0017,
         "thesis": null
       }
     },
@@ -3812,7 +3812,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0033,
+        "raw": -0.0104,
         "thesis": null
       }
     },
@@ -3912,6 +3912,78 @@
     "source_head": "[Benzinga news, 2026-10-28T15:01:37Z, by staff] Shell Commences Production at Silvertip Phase 3 in the Gulf of Mexico\nShell has officially started production at the Silvertip Phase 3 subsea development in the Gulf of Mexico.\nShell announced the start of production at its Silvertip Phase 3 project, a subsea development located in the Gulf of Mexico. This project is part of the company's ongoing efforts to expand its offshore production capabilities. The development is designed to leverage existing infrastructure to bring new volumes online efficiently.",
     "decided_at": "2026-10-28T15:03:27.130224+00:00",
     "price_at_decision": 105.28,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261028-1628-01-CHEF": {
+    "key": "20261028-1628-01-CHEF",
+    "night": "20261028-1628",
+    "ticker": "CHEF",
+    "accession": "news:62663637",
+    "also_accessions": [],
+    "filed_at": "2026-10-28T16:04:23Z",
+    "source_head": "[Benzinga news, 2026-10-28T16:04:23Z, by Neeraj Jain] Chefs' Warehouse Raises Outlook on Strong Demand Ahead of Holiday Season\nChefs' Warehouse stock rises after strong Q3 earnings, higher revenue and an upbeat 2026 forecast fueled by robust demand.\nThe Chefs\u2019 Warehouse Inc. (NASDAQ: CHEF ) stock rose Wednesday after the specialty food distributor reported better-than-expected third-quarter results and raised its full-year forecast . The company reported adjusted earnings of 66 cents per share, beating analysts\u2019 expectations of 56 cents . Revenue increased 11.2% year over year to $1.14 billion",
+    "decided_at": "2026-10-28T16:29:09.868842+00:00",
+    "price_at_decision": 110.07,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261028-1628-02-AER": {
+    "key": "20261028-1628-02-AER",
+    "night": "20261028-1628",
+    "ticker": "AER",
+    "accession": "news:105978494",
+    "also_accessions": [],
+    "filed_at": "2026-10-28T14:01:34Z",
+    "source_head": "[Benzinga news, 2026-10-28T14:01:34Z, by staff] AerCap Holdings N.V. Reports Third Quarter 2026 Financial Results and Raises Full-Year Guidance\nAerCap reported record financial results for the third quarter of 2026 and increased its full-year 2026 adjusted earnings per share guidance to approximately $20.70.\nAerCap Holdings N.V. announced record financial results for the third quarter of 2026, reporting GAAP net income of $949 million, or $6.17 per share, and adjusted net income of $1,009 million, or $6.56 per share. Driven by strong demand for aviation assets, the company raised its full-year",
+    "decided_at": "2026-10-28T16:29:20.388531+00:00",
+    "price_at_decision": 156.78,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261028-1628-03-FTV": {
+    "key": "20261028-1628-03-FTV",
+    "night": "20261028-1628",
+    "ticker": "FTV",
+    "accession": "news:105941267",
+    "also_accessions": [],
+    "filed_at": "2026-10-28T13:33:23Z",
+    "source_head": "[Benzinga news, 2026-10-28T13:33:23Z, by staff] Fortive Corporation Reports Third Quarter 2026 Financial Results and Raises Full-Year Guidance\nFortive Corporation announced its third-quarter 2026 financial results, reporting revenue of $1.108 billion and adjusted earnings per share of $0.77, while raising its full-year 2026 adjusted earnings outlook.\nFortive Corporation reported third-quarter 2026 revenue of $1.108 billion, an increase of 7.9% compared to $1.027 billion in the same period last year. The company achieved adjusted earnings per share of $0.77, surpassing the FactSet consensus est",
+    "decided_at": "2026-10-28T16:29:29.276438+00:00",
+    "price_at_decision": 64.91499999999999,
     "outcome": "no_trade",
     "ended_by": "SCOUT",
     "rounds": 1,

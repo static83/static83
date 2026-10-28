@@ -1,0 +1,143 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "CHEF",
+      "company": "Chefs' Warehouse, Inc.",
+      "cik": "1517175",
+      "accession": "news:62663637",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-28T16:04:23Z",
+      "url": "https://www.benzinga.com/markets/earnings/26/10/62663637/chefs-warehouse-raises-outlook-on-strong-demand-ahead-of-holiday-season",
+      "source_excerpt": "[Benzinga news, 2026-10-28T16:04:23Z, by Neeraj Jain] Chefs' Warehouse Raises Outlook on Strong Demand Ahead of Holiday Season\nChefs' Warehouse stock rises after strong Q3 earnings, higher revenue and an upbeat 2026 forecast fueled by robust demand.\nThe Chefs\u2019 Warehouse Inc. (NASDAQ: CHEF ) stock rose Wednesday after the specialty food distributor reported better-than-expected third-quarter results and raised its full-year forecast . The company reported adjusted earnings of 66 cents per share, beating analysts\u2019 expectations of 56 cents . Revenue increased 11.2% year over year to $1.14 billion, topping the consensus estimate of $1.12 billion. Third-Quarter Sales and Margins Organic sales rose 10.3% year over year, while acquisitions contributed another 0.9 percentage points to revenue growth. Organic case volume in the specialty category increased 6.1%, supported by 4.4% growth in unique customers and a 7.2% increase in unique item placements. Organic pounds sold in the center-of-the-plate category rose 6.6%. Net inflation reached 4.1%, including 2.6% in specialty products and 6.6% in center-of-the-plate products. Gross profit climbed 15% to $284.3 million, driven by higher sales volumes, price inflation and acquisitions. Gross margin expanded 84 basis points to 25%, reflecting improvements across both product categories. Adjusted EBITDA increased to $82.2 million from $65.1 million a year earlier. The company ended the quarter with $164.7 million in cash and cash equivalents and $728.9 million in total debt. Chairman and CEO Christopher Pappas attributed the strong results to broad-based growth across regional markets and product categories. Pappas said business momentum continued into October, positioning the company for the important holiday shopping and dining season . Pappas also highlighted strong demand heading into the holiday season, particularly for private events, corporate gatherings and celebrations. \u201cThere\u2019s a lot of demand in the fourth quarter of private events, corporate events, celebrations. So it\u2019s really healthy at the top,\u201d Pappas said during Wednesday\u2019s earnings call. CFO James Leddy said the company recorded double-digit sales growth in October, consistent with trends throughout the year. See More: Top Value Stocks Chefs\u2019 Warehouse Raises 2026 Forecast The company raised its full-year revenue forecast to $4.56 billion to $4.61 billion from $4.5 billion to $4.6 billion. Analysts expect revenue of $4.59 billion . Chefs\u2019 Warehouse expects gross profit of $1.13 billion to $1.14 billion and adjusted EBITDA of $317 million to $321 million. Management also highlighted resilient operations in the Middle East despite regional challenges. Recent revenue trends remained near year-earlier levels, supported by returning expatriates and local dining demand. The company plans to expand distribution and consolidate facilities in key markets, including Texas and New England. It also intends to invest in artificial intelligence and digital tools to improve operating efficiency. Management remains cautious about inflation and fuel costs. It expects price inflation to stay near the upper end of its normal 2% to 4% range. CHEF Stock Price Action CHEF Price Action: The Chefs\u2019 Warehouse shares were up 2.92% at $112.17 at the time of publication on Wednesday, according to Benzinga Pro data . Image via Shutterstock Read Also: EXCLUSIVE: SK Hynix Soars 11% on Record Profit, But This Expert Says Samsung Will Lead HBM in 2027",
+      "market_cap_usd": 4783960852.65,
+      "last_price": 110.07,
+      "also_accessions": [],
+      "weight": 3,
+      "first_report": "2026-10-28T16:04:23+00:00"
+    },
+    "market": {
+      "quote": null,
+      "extended_hours": null,
+      "since_news": {
+        "since": "2026-10-28T16:04:23+00:00",
+        "trades_seen": false,
+        "note": "no trades on the IEX feed since the news; the move cannot be measured here"
+      },
+      "gap_stats_30d": {
+        "n": 0,
+        "mean_gap_pct": null,
+        "max_gap_pct": null
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": null,
+        "slippage_usd": null
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 108 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 40% on average, actual 100% across 2 case(s). Only 2 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "SHEL",
+          "night": "20261028-1502",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SW",
+          "night": "20261028-1402",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "FELE",
+          "night": "20261028-1257",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SLS",
+          "night": "20261028-1257",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "FCBC",
+          "night": "20261028-1257",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GSAT",
+          "night": "20261028-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "EXLS",
+          "night": "20261028-0217",
+          "ended_by": "QUANT",
+          "direction": "long",
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": "stop"
+        },
+        {
+          "ticker": "SLDE",
+          "night": "20261028-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 128
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

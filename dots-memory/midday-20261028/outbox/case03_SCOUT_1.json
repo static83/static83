@@ -1,0 +1,156 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 3,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "FTV",
+      "company": "Fortive Corp",
+      "cik": "1659166",
+      "accession": "news:105941267",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-28T13:33:23Z",
+      "url": "https://www.businesswire.com/newsroom/industry/health",
+      "source_excerpt": "[Benzinga news, 2026-10-28T13:33:23Z, by staff] Fortive Corporation Reports Third Quarter 2026 Financial Results and Raises Full-Year Guidance\nFortive Corporation announced its third-quarter 2026 financial results, reporting revenue of $1.108 billion and adjusted earnings per share of $0.77, while raising its full-year 2026 adjusted earnings outlook.\nFortive Corporation reported third-quarter 2026 revenue of $1.108 billion, an increase of 7.9% compared to $1.027 billion in the same period last year. The company achieved adjusted earnings per share of $0.77, surpassing the FactSet consensus estimate of $0.70. Driven by strong year-to-date performance, management raised its full-year 2026 adjusted earnings guidance to a range of $3.10 to $3.14 per share, up from the previous forecast of $2.95 to $3.05 per share. Leadership attributed the results to the successful execution of the 'Fortive Accelerated' strategy, noting core growth of over 7% and adjusted EBITDA growth of approximately 10% for the quarter.",
+      "market_cap_usd": 19321589861.239998,
+      "last_price": 64.91499999999999,
+      "also_accessions": [],
+      "weight": 3,
+      "first_report": "2026-10-28T13:33:23+00:00"
+    },
+    "market": {
+      "quote": {
+        "ap": 64.85,
+        "as": 100,
+        "ax": "V",
+        "bp": 64.78,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-28T16:29:26.383848804Z",
+        "z": "A"
+      },
+      "extended_hours": null,
+      "since_news": {
+        "since": "2026-10-28T13:33:23+00:00",
+        "trades_seen": false,
+        "note": "no trades on the IEX feed since the news; the move cannot be measured here"
+      },
+      "gap_stats_30d": {
+        "n": 0,
+        "mean_gap_pct": null,
+        "max_gap_pct": null
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 2.6487,
+        "slippage_usd": 2.4525,
+        "spread_pct": 0.108
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 109 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 40% on average, actual 100% across 2 case(s). Only 2 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "CHEF",
+          "night": "20261028-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SHEL",
+          "night": "20261028-1502",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SW",
+          "night": "20261028-1402",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "FELE",
+          "night": "20261028-1257",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SLS",
+          "night": "20261028-1257",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "FCBC",
+          "night": "20261028-1257",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GSAT",
+          "night": "20261028-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "EXLS",
+          "night": "20261028-0217",
+          "ended_by": "QUANT",
+          "direction": "long",
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": "stop"
+        }
+      ],
+      "cases_on_file": 129
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

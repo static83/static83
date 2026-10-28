@@ -1,0 +1,167 @@
+[
+  {
+    "case": 1,
+    "ticker": "CHEF",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Late: Chefs' Warehouse reported before the open (call transcript out 09:35 ET); this is a 12:04 recap",
+        "reasoning": [
+          "Source: Chefs' Warehouse Q3 release, as summarized by Benzinga at 12:04 ET: 'adjusted earnings of 66 cents per share, beating analysts' expectations of 56 cents. Revenue increased 11.2% year over year to $1.14 billion'; full-year forecast raised. The earnings-call transcript was on Benzinga at 09:35 ET, so the results were out before the open.",
+          "Move from Tuesday's 108.925 close: 110.07, +1.05%, but the session range is 101.22 to 113.90 on 10,373 IEX shares. The market has traded both directions for three hours and settled about flat to slightly up."
+        ],
+        "objections": [
+          "Late by over three hours; the session has priced it."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "CHEF: no trade. A midday recap of pre-open results",
+        "reasoning": [
+          "Filter gap, the same for all three cases today: results headlines that appear during the session are relays of results released outside hours. The filters now measure their move from the previous close and treat them as pre-open news. Fixed after this run.",
+          "Check later: CHEF's 5-day move from 108.925."
+        ],
+        "objections": [
+          "Late."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "AER",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Late and priced: AerCap's record quarter was out before the open, and the stock is +4.5% since",
+        "reasoning": [
+          "Source: AerCap's release on PR Newswire ('AerCap Holdings N.V. Reports Another Record Quarter ... and Raises 2026 Guidance'). Benzinga at 09:18 ET: 'Q3 Adj. EPS $6.56 Beats $4.16 Estimate, Sales $2.415B Beat $2.142B Estimate'. CEO call remarks followed at 09:19 and 09:23 ET. Full-year adjusted EPS guidance raised to about $20.70.",
+          "Move: 156.78 vs Tuesday's 150.02 close, +4.51% on 34,586 IEX shares. Measured from the 10:01 recap it shows only +1.5%, which is why it passed the 3% rule."
+        ],
+        "objections": [
+          "Already traded +4.5% since the release; over the 3% line from the true first report."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "AER: no trade. +4.5% from the close by the time the recap arrived",
+        "reasoning": [
+          "Same filter gap as CHEF; fixed.",
+          "Check later: AER's 5-day move from 150.02."
+        ],
+        "objections": [
+          "Priced."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "FTV",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Late and priced: Fortive's beat and raise came out before the open; the stock is +5.1% from the close",
+        "reasoning": [
+          "Source: Fortive's release on Business Wire, relayed by Benzinga at 09:33 ET: 'adjusted earnings per share of $0.77, surpassing the FactSet consensus estimate of $0.70 ... raised its full-year 2026 adjusted earnings guidance to a range of $3.10 to $3.14 per share, up from the previous forecast of $2.95 to $3.05'.",
+          "Move: 64.75 vs Tuesday's 61.62 close, +5.08% on 153,370 IEX shares. It peaked at 67.03 (+8.8%) and has given back about half. Benzinga listed it at 10:54 among 'Big Stocks Moving Higher On Wednesday'."
+        ],
+        "objections": [
+          "Already traded +5.1%, over the 3% line; the peak has partly faded."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "FTV: no trade. +5.1% from the close, peak +8.8% already faded",
+        "reasoning": [
+          "Same filter gap; fixed.",
+          "Check later: FTV's 5-day move from 61.62, to see whether the fade from 67.03 continues."
+        ],
+        "objections": [
+          "Priced."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]
