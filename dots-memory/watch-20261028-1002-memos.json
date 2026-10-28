@@ -1,0 +1,58 @@
+[
+  {
+    "case": 1,
+    "ticker": "SW",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Late and priced: Smurfit Westrock's miss and cut came before the open; the stock is already -5.4%",
+        "reasoning": [
+          "Source: Smurfit Westrock's Q3 2026 results, summarized by Finanzen.ch and relayed by Benzinga at 10:01 ET: 'adjusted earnings per share of $0.45, which was below the expected $0.61 ... management slashed the company's full-year 2026 earnings outlook'.",
+          "The results were public before the open. Benzinga carried the CEO's conference-call remarks at 07:44 ET: 'Mexico Demand As Weak As I've Seen In Years', and the call transcript at 08:34 ET.",
+          "Move: SW 40.30 vs Tuesday's 42.59 close, -5.38% on 32,930 IEX shares, range 40.13-40.98 in the first half hour. The market has priced the miss and the cut, and the 10:01 item is a recap."
+        ],
+        "objections": [
+          "Late by over two hours and through the open; -5.4% already."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "SW: no trade. A 10:01 recap of results the open had priced at -5.4%",
+        "reasoning": [
+          "Filter gap: the watcher's pre-open rule looked only for an earlier item on the same event, and the earlier items here (call remarks, transcript) did not share the headline's words. The watcher now treats a results or outlook headline as pre-open news whenever the company had an earnings-call, transcript or results item before today's open. Fixed after this run.",
+          "Check later: SW's 5-day move from 42.59."
+        ],
+        "objections": [
+          "Late."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

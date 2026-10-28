@@ -1,0 +1,3 @@
+{"role":"JOURNAL","verdict":"agree","headline":"SW: no trade. A 10:01 recap of results the open had priced at -5.4%",
+"reasoning":["Filter gap: the watcher's pre-open rule looked only for an earlier item on the same event, and the earlier items here (call remarks, transcript) did not share the headline's words. The watcher now treats a results or outlook headline as pre-open news whenever the company had an earnings-call, transcript or results item before today's open. Fixed after this run.","Check later: SW's 5-day move from 42.59."],
+"objections":["Late."]}

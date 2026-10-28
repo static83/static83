@@ -1590,6 +1590,10 @@
       "1": {
         "raw": 0.0065,
         "thesis": null
+      },
+      "5": {
+        "raw": 0.0783,
+        "thesis": null
       }
     },
     "first_exit": null
@@ -1617,6 +1621,10 @@
     "returns": {
       "1": {
         "raw": 0.0304,
+        "thesis": null
+      },
+      "5": {
+        "raw": -0.0059,
         "thesis": null
       }
     },
@@ -1646,6 +1654,10 @@
       "1": {
         "raw": 0.0078,
         "thesis": null
+      },
+      "5": {
+        "raw": 0.0012,
+        "thesis": null
       }
     },
     "first_exit": null
@@ -1673,6 +1685,10 @@
     "returns": {
       "1": {
         "raw": -0.0004,
+        "thesis": null
+      },
+      "5": {
+        "raw": 0.0477,
         "thesis": null
       }
     },
@@ -1702,6 +1718,10 @@
       "1": {
         "raw": -0.0216,
         "thesis": null
+      },
+      "5": {
+        "raw": -0.0307,
+        "thesis": null
       }
     },
     "first_exit": null
@@ -1729,6 +1749,10 @@
     "returns": {
       "1": {
         "raw": 0.0424,
+        "thesis": null
+      },
+      "5": {
+        "raw": 0.0365,
         "thesis": null
       }
     },
@@ -1758,6 +1782,10 @@
       "1": {
         "raw": -0.0175,
         "thesis": null
+      },
+      "5": {
+        "raw": 0.0115,
+        "thesis": null
       }
     },
     "first_exit": null
@@ -1785,6 +1813,10 @@
     "returns": {
       "1": {
         "raw": 0.0187,
+        "thesis": null
+      },
+      "5": {
+        "raw": -0.0297,
         "thesis": null
       }
     },
@@ -1816,6 +1848,10 @@
       "1": {
         "raw": -0.0327,
         "thesis": null
+      },
+      "5": {
+        "raw": 0.0664,
+        "thesis": null
       }
     },
     "first_exit": null
@@ -1843,6 +1879,10 @@
     "returns": {
       "1": {
         "raw": 0.0256,
+        "thesis": null
+      },
+      "5": {
+        "raw": 0.0012,
         "thesis": null
       }
     },
@@ -1872,6 +1912,10 @@
       "1": {
         "raw": 0.0036,
         "thesis": null
+      },
+      "5": {
+        "raw": -0.0445,
+        "thesis": null
       }
     },
     "first_exit": null
@@ -1899,6 +1943,10 @@
     "returns": {
       "1": {
         "raw": 0.0181,
+        "thesis": null
+      },
+      "5": {
+        "raw": 0.0285,
         "thesis": null
       }
     },
@@ -1931,6 +1979,10 @@
       "1": {
         "raw": 0.0589,
         "thesis": null
+      },
+      "5": {
+        "raw": 0.0729,
+        "thesis": null
       }
     },
     "first_exit": null
@@ -1961,6 +2013,10 @@
     "returns": {
       "1": {
         "raw": -0.0415,
+        "thesis": null
+      },
+      "5": {
+        "raw": -0.0671,
         "thesis": null
       }
     },
@@ -1994,6 +2050,10 @@
       "1": {
         "raw": -0.015,
         "thesis": null
+      },
+      "5": {
+        "raw": 0.0484,
+        "thesis": null
       }
     },
     "first_exit": null
@@ -2024,6 +2084,10 @@
     "returns": {
       "1": {
         "raw": 0.0847,
+        "thesis": null
+      },
+      "5": {
+        "raw": 0.0554,
         "thesis": null
       }
     },
@@ -2058,6 +2122,10 @@
       "1": {
         "raw": 0.047,
         "thesis": null
+      },
+      "5": {
+        "raw": 0.0915,
+        "thesis": null
       }
     },
     "first_exit": null
@@ -2086,6 +2154,10 @@
     "returns": {
       "1": {
         "raw": 0.0057,
+        "thesis": null
+      },
+      "5": {
+        "raw": 0.0243,
         "thesis": null
       }
     },
@@ -3531,7 +3603,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": -0.0063,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261027-1635-01-FUL": {
@@ -3555,7 +3632,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0039,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261027-1635-02-TEVA": {
@@ -3579,7 +3661,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0059,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261027-1635-03-KO": {
@@ -3603,7 +3690,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0071,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261028-0217-01-SLDE": {
@@ -3629,7 +3721,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": -0.0169,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261028-0217-02-EXLS": {
@@ -3655,8 +3752,13 @@
     "target": 45.5,
     "p_strike": 0.42,
     "order_id": null,
-    "returns": {},
-    "first_exit": null
+    "returns": {
+      "1": {
+        "raw": -0.0061,
+        "thesis": -0.0061
+      }
+    },
+    "first_exit": "stop"
   },
   "20261028-0217-03-GSAT": {
     "key": "20261028-0217-03-GSAT",
@@ -3679,7 +3781,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": -0.0005,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261028-1257-01-FCBC": {
@@ -3703,7 +3810,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0137,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261028-1257-02-SLS": {
@@ -3727,7 +3839,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": -0.1363,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261028-1257-03-FELE": {
@@ -3746,6 +3863,35 @@
     "ended_by": "ANALYST",
     "rounds": 1,
     "objections": 4,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {
+      "1": {
+        "raw": 0.0,
+        "thesis": null
+      }
+    },
+    "first_exit": null
+  },
+  "20261028-1402-01-SW": {
+    "key": "20261028-1402-01-SW",
+    "night": "20261028-1402",
+    "ticker": "SW",
+    "accession": "news:105978499",
+    "also_accessions": [],
+    "filed_at": "2026-10-28T14:01:37Z",
+    "source_head": "[Benzinga news, 2026-10-28T14:01:37Z, by staff] Smurfit Westrock Reports Q3 2026 Financial Results and Lowers Full-Year Outlook\nSmurfit Westrock reported third-quarter 2026 financial results that missed analyst expectations and announced a reduction in its full-year earnings outlook.\nSmurfit Westrock plc reported third-quarter 2026 revenue of $8.16 billion, falling short of the FactSet consensus estimate of $8.29 billion. The company also posted an adjusted earnings per share of $0.45, which was below the expected $0.61. Alongside these results, management slashed the company's full-year 2026 ",
+    "decided_at": "2026-10-28T14:03:17.855831+00:00",
+    "price_at_decision": 40.379999999999995,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
     "direction": null,
     "horizon_days": 10,
     "entry": null,
