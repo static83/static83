@@ -805,6 +805,9 @@ def find_news_candidates(
             head = i["headline"].lower()
             named = bool(re.search(rf"\b{re.escape(ticker.lower())}\b", head)) or bool(title and title[0] in head)
             w = weight(i["headline"], cap, price) if named else min(weight(i["headline"], cap, price), 2)
+            other = re.search(r"\b(?:ceo|chief executive)(?: officer)? of (?:the )?([A-Z][\w&.-]+)", i["headline"], re.IGNORECASE)
+            if other and title and not other.group(1).lower().startswith(title[0][:5]):
+                w = 1  # someone becomes CEO of another company: for this one, an executive leaving
             # a rewrite of a guidance raise that a sibling headline shows only reaches consensus
             return min(w, 2) if catch_up and _GUIDANCE.search(i["headline"]) else w
 

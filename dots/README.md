@@ -124,7 +124,8 @@ source with an official timestamp, so "pull the original source" is literal. Fil
      contracts, lawsuits, buybacks
    - weight 1: everything else.
 
-   A special dividend under 10% of the share price weighs 2, as does a deal announced by a named
+   A headline making someone CEO of another company weighs 1 for the tagged company (an executive
+   leaving). A special dividend under 10% of the share price weighs 2, as does a deal announced by a named
    unit ('Parent's Unit Acquires'). A planned CEO succession (the outgoing CEO becomes chair) weighs 2, and so does a guidance
    raise whose new range lands on the consensus figure in the same or a sibling headline
    ('to $5.04-$5.06 vs $5.04 Est').
