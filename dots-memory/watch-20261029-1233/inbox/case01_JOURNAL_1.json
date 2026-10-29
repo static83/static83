@@ -1,0 +1,3 @@
+{"role":"JOURNAL","verdict":"agree","headline":"UL: no trade. A Clorox CEO appointment retagged to the executive's old employer",
+"reasoning":["Filter gap: 'X Executive Appointed CEO of <another company>' weighed 3 for X on the CEO rule. When the headline makes someone CEO of a company other than the tagged one, it now weighs 1 for the tagged company. Fixed after this run."],
+"objections":["Not Unilever's CEO."]}
