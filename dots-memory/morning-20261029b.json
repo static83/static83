@@ -1,0 +1,258 @@
+{
+  "title": "DOTS night run",
+  "fictional": false,
+  "mode": "alpaca-paper",
+  "model": "claude (in session)",
+  "router": "SPIDER",
+  "started_at": "2026-10-29T12:55:44.521516+00:00",
+  "start_balance": 4905.03,
+  "hours": 1,
+  "balance": [
+    [
+      0,
+      4905.03
+    ],
+    [
+      1,
+      4905.03
+    ]
+  ],
+  "events": [
+    {
+      "m": 0,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 0,
+      "text": "track record: 139 past case(s) on file"
+    },
+    {
+      "m": 0,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 1,
+      "text": "case 01 opened: FSTR news"
+    },
+    {
+      "m": 0,
+      "role": "SCOUT",
+      "kind": "handoff",
+      "case": 1,
+      "text": "A bolt-on by a subsidiary: L.B. Foster's CXT unit buys Dulworth Enterprises for about $52M"
+    },
+    {
+      "m": 0,
+      "role": "SCOUT",
+      "kind": "objection",
+      "case": 1,
+      "text": "Unvalued bolt-on deal by a unit; no terms beyond price."
+    },
+    {
+      "m": 0,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 1,
+      "text": "FSTR: no trade. A unit's bolt-on acquisition with no terms"
+    },
+    {
+      "m": 0,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 2,
+      "text": "case 02 opened: NUVB news"
+    },
+    {
+      "m": 0,
+      "role": "SCOUT",
+      "kind": "handoff",
+      "case": 2,
+      "text": "Operational, not a result: Nuvation Bio adds European sites to its Phase 3 SIGMA study"
+    },
+    {
+      "m": 0,
+      "role": "SCOUT",
+      "kind": "objection",
+      "case": 2,
+      "text": "Trial operations; no data."
+    },
+    {
+      "m": 0,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 2,
+      "text": "NUVB: no trade. Trial sites added, no data"
+    },
+    {
+      "m": 0,
+      "role": "SPIDER",
+      "kind": "system",
+      "case": 3,
+      "text": "case 03 opened: STGW news"
+    },
+    {
+      "m": 1,
+      "role": "SCOUT",
+      "kind": "handoff",
+      "case": 3,
+      "text": "A small raise, then corrected: Stagwell lifted its EPS range 4 cents and only affirmed sales"
+    },
+    {
+      "m": 1,
+      "role": "SCOUT",
+      "kind": "objection",
+      "case": 3,
+      "text": "A modest EPS raise with sales below consensus; the first headline overstated it."
+    },
+    {
+      "m": 1,
+      "role": "JOURNAL",
+      "kind": "report",
+      "case": 3,
+      "text": "STGW: no trade. A 4-cent EPS raise, sales below consensus"
+    }
+  ],
+  "cases": [
+    {
+      "id": 1,
+      "ticker": "FSTR",
+      "outcome": "no_trade",
+      "rounds": 1,
+      "entry": null,
+      "stop": null,
+      "target": null,
+      "size": null,
+      "p_strike": null,
+      "risk": "PENDING",
+      "objections": 2,
+      "order": null
+    },
+    {
+      "id": 2,
+      "ticker": "NUVB",
+      "outcome": "no_trade",
+      "rounds": 1,
+      "entry": null,
+      "stop": null,
+      "target": null,
+      "size": null,
+      "p_strike": null,
+      "risk": "PENDING",
+      "objections": 2,
+      "order": null
+    },
+    {
+      "id": 3,
+      "ticker": "STGW",
+      "outcome": "no_trade",
+      "rounds": 1,
+      "entry": null,
+      "stop": null,
+      "target": null,
+      "size": null,
+      "p_strike": null,
+      "risk": "PENDING",
+      "objections": 2,
+      "order": null
+    }
+  ],
+  "receipts": {
+    "SCOUT": 6,
+    "ANALYST": 0,
+    "SKEPTIC": 0,
+    "QUANT": 0,
+    "RISK": 0,
+    "JOURNAL": 4
+  },
+  "counts": {
+    "objections": 3,
+    "source_links": 3,
+    "send_backs": 0,
+    "restarts": 0
+  },
+  "track_record": {
+    "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+    "scorecard": [
+      "SCOUT skipped 118 case(s); none has a thesis direction with 5 trading days of history yet.",
+      "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+      "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+      "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+      "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+      "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+      "QUANT calibration: predicted stop-out 40% on average, actual 100% across 2 case(s). Only 2 so far, too few to act on."
+    ],
+    "recent_cases": [
+      {
+        "ticker": "STGW",
+        "night": "20261029-1255",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "NUVB",
+        "night": "20261029-1255",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "FSTR",
+        "night": "20261029-1255",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "NDAQ",
+        "night": "20261029-1252",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "H",
+        "night": "20261029-1252",
+        "ended_by": "ANALYST",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "HCC",
+        "night": "20261029-1252",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "VICI",
+        "night": "20261029-0217",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      },
+      {
+        "ticker": "KYMR",
+        "night": "20261029-0217",
+        "ended_by": "SCOUT",
+        "direction": null,
+        "thesis_5d": null,
+        "raw_5d": null,
+        "first_exit": null
+      }
+    ],
+    "cases_on_file": 140
+  }
+}

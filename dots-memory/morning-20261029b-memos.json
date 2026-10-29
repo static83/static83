@@ -1,0 +1,164 @@
+[
+  {
+    "case": 1,
+    "ticker": "FSTR",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A bolt-on by a subsidiary: L.B. Foster's CXT unit buys Dulworth Enterprises for about $52M",
+        "reasoning": [
+          "Source: L.B. Foster's announcement, relayed by Benzinga Newsdesk 08:13 ET (headline only): 'L.B. Foster's CXT Acquires Dulworth Enterprises For ~$52.2M'.",
+          "What changed: a subsidiary makes an acquisition worth about 14% of the parent's $380M market cap. No revenue, earnings or multiple is given, so the deal cannot be valued from the headline. Pre-market: no IEX trades against the 36.095 close."
+        ],
+        "objections": [
+          "Unvalued bolt-on deal by a unit; no terms beyond price."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "FSTR: no trade. A unit's bolt-on acquisition with no terms",
+        "reasoning": [
+          "Filter gap: a possessive unit ('L.B. Foster's CXT Acquires') did not trigger the subsidiary-deal cap. Deals announced by a named unit now weigh at most 2. Fixed after this run."
+        ],
+        "objections": [
+          "No terms."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "NUVB",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Operational, not a result: Nuvation Bio adds European sites to its Phase 3 SIGMA study",
+        "reasoning": [
+          "Source: Nuvation Bio's announcement, relayed by Benzinga Newsdesk 08:01 ET (headline only): 'Nuvation Bio Plans To Add Sites In Six European Countries For Its Pivotal Phase 3 SIGMA Study Of Safusidenib'.",
+          "What changed: enrollment capacity for an ongoing trial. There are no data, and the readout date is not given. Pre-market: no IEX trades."
+        ],
+        "objections": [
+          "Trial operations; no data."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "NUVB: no trade. Trial sites added, no data",
+        "reasoning": [
+          "Filter gap: trial-site expansion ('add sites', 'site activation', 'expands enrollment') joins the dosing and enrollment milestones. Fixed after this run."
+        ],
+        "objections": [
+          "No data."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "STGW",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A small raise, then corrected: Stagwell lifted its EPS range 4 cents and only affirmed sales",
+        "reasoning": [
+          "Source: Stagwell's Q3 release (07:33 ET), with Benzinga Newsdesk's corrected line at 07:43 ET: 'CORRECTION: Stagwell Raises FY2026 Adj EPS Guidance from $1.03-$1.17 to $1.07-$1.21 vs $1.11 Est; Affirms FY2026 Sales Guidance of $3.142B-$3.258B vs $3.249B Est'. The 07:15 headline had wrongly said sales guidance was raised.",
+          "What changed: the EPS midpoint rises from $1.10 to $1.14, 2.7% above consensus. Sales guidance is unchanged and its midpoint ($3.20B) sits below consensus ($3.249B). Pre-market: no IEX prints."
+        ],
+        "objections": [
+          "A modest EPS raise with sales below consensus; the first headline overstated it."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "STGW: no trade. A 4-cent EPS raise, sales below consensus",
+        "reasoning": [
+          "Check later: STGW's 5-day move from 8.845."
+        ],
+        "objections": [
+          "Modest."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

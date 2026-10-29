@@ -1,0 +1,166 @@
+{
+  "role": "ANALYST",
+  "packet": {
+    "case": 2,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "H",
+      "company": "Hyatt Hotels Corp",
+      "cik": "1468174",
+      "accession": "news:62692453",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-29T12:28:55Z",
+      "url": "https://www.benzinga.com/markets/earnings/26/10/62692453/hyatt-bets-on-luxury-wins-big-and-raises-2026-growth-outlook",
+      "source_excerpt": "[Benzinga news, 2026-10-29T12:28:55Z, by Kaustubh Bagalkote] Hyatt Bets on Luxury, Wins Big and Raises 2026 Growth Outlook\nHyatt (NYSE: H) stock rose premarket after beating Q3 earnings with $1.27 EPS and raising its full-year 2026 RevPAR growth forecast.\nHyatt Hotels Corporation (NYSE: H ) stock rose in Thursday\u2019s premarket trading after the hotel operator reported better-than-expected third-quarter earnings and raised its full-year revenue per available room growth forecast, supported by strong U.S. travel demand and higher management fees . Beats Earnings Estimates Hyatt reported adjusted earnings of $1.27 per share, beating analysts\u2019 consensus estimate of 77 cents. The company reported an adjusted loss of 30 cents per share a year earlier . Revenue declined 2.41% year over year to $1.743 billion from $1.786 billion, narrowly missing Wall Street\u2019s estimate of $1.747 billion, according to Benzinga Pro . Net income attributable to Hyatt reached $58 million, or 60 cents per diluted share. Adjusted net income totaled $122 million. Adjusted EBITDA increased 6.2% year over year to $295 million, or 19% after adjusting for assets sold in 2025. Gross fees climbed 15.2% to $327 million, driven by strong hotel performance and expansion. U.S. Travel Demand Drives Growth Comparable system-wide hotel revenue per available room (RevPAR) rose 7.2% year over year, led by luxury properties and strong leisure and group travel demand. U.S. RevPAR increased 8.2%, benefiting partly from the FIFA World Cup and the timing of Jewish holidays. However, comparable all-inclusive resort net package RevPAR declined 2.5%, primarily due to weaker demand in parts of Mexico. Base management fees increased 10%, while incentive management fees jumped 21.9%. Franchise and other fees rose 16.8%. Hyatt opened 3,808 rooms during the quarter. Its development pipeline expanded 12.1% to approximately 158,000 rooms. Net rooms growth reached 3.8% over the trailing 12 months. Meanwhile, World of Hyatt membership grew 19% to approximately 72 million. See More: Top Value Stocks Hyatt Raises 2026 Growth Forecast Hyatt expects full-year comparable system-wide hotel RevPAR growth of 5% to 5.5%, reflecting stronger third-quarter performance . The company forecasts net rooms growth of approximately 6% and net income of $240 million to $310 million. Hyatt projects adjusted EBITDA of $1.17 billion to $1.20 billion, representing growth of 14% to 17% on an adjusted comparison basis. Gross fees are expected to reach $1.32 billion to $1.335 billion. Adjusted free cash flow is projected at $580 million to $630 million. Balance Sheet and Shareholder Returns As of Sept. 30, Hyatt reported total debt of $4.4 billion and liquidity of $1.8 billion, including $495 million in cash, cash equivalents and short-term investments. Available borrowing capacity totaled $1.347 billion. Hyatt repurchased $147 million in shares during the quarter, bringing year-to-date shareholder returns to $336 million. Approximately $1.4 billion remained under its repurchase authorization. The company also raised its full-year shareholder returns forecast to $375 million to $425 million through dividends and repurchases. Hyatt declared a quarterly dividend of 15 cents per share, payable Dec. 7 to shareholders of record as of Nov. 23. H Price Action: Hyatt Hotels shares were up 2.81% at $178.22 during premarket trading on Thursday, according to Benzinga Pro data . Image via Shutterstock Read Also: Delaware Senator Threatens to Subpoena Elon Musk Following Putin's 'Real Genius' Praise, Says Trump May Be 'Directly Involved' in Ukraine Starlink Disruption",
+      "market_cap_usd": 16359961297.96,
+      "last_price": 173.32,
+      "also_accessions": [],
+      "weight": 3,
+      "first_report": "2026-10-29T12:28:55+00:00"
+    },
+    "market": {
+      "quote": {
+        "ap": 182.49,
+        "as": 100,
+        "ax": "V",
+        "bp": 160.61,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-28T20:00:00.191395348Z",
+        "z": "A"
+      },
+      "extended_hours": null,
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 0,
+        "mean_gap_pct": null,
+        "max_gap_pct": null
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 312.8011,
+        "slippage_usd": 2.4525,
+        "spread_pct": 12.754
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "Hyatt beat Q3 EPS by 65% and raised its 2026 RevPAR outlook; revenue narrowly missed",
+        "reasoning": [
+          "Source: Hyatt's Q3 release, figures on Benzinga Newsdesk at 07:05 ET: 'Q3 Adj. EPS $1.27 Beats $0.77 Estimate, Sales $1.743B Miss $1.747B Estimate'. Benzinga's 08:28 summary: comparable system-wide RevPAR '+7.2% year over year, led by luxury properties'; gross fees '+15.2% to $327 million'; full-year RevPAR growth forecast raised.",
+          "What changed: fee income and RevPAR are running well ahead of plan. Revenue is down 2.4% y/y only because of hotels sold in 2025 (an asset-light shift); adjusted EBITDA is +19% excluding them.",
+          "Timing: before the open; no session has traded it. Pre-market: Benzinga says the stock 'rose premarket'; IEX shows no prints against the 173.32 close."
+        ],
+        "objections": [
+          "Benzinga reports a pre-market rise we cannot see on IEX; part of the beat may already be priced."
+        ]
+      }
+    ],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 114 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 40% on average, actual 100% across 2 case(s). Only 2 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "HCC",
+          "night": "20261029-1252",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "VICI",
+          "night": "20261029-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "KYMR",
+          "night": "20261029-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "NXT",
+          "night": "20261029-0217",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "FTV",
+          "night": "20261028-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "AER",
+          "night": "20261028-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CHEF",
+          "night": "20261028-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SHEL",
+          "night": "20261028-1502",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 135
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

@@ -1,0 +1,191 @@
+[
+  {
+    "case": 1,
+    "ticker": "HCC",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A $2 special dividend (2.4% of the price) moves cash to holders; the stock drops by it on the ex-date",
+        "reasoning": [
+          "Source: Warrior Met Coal's announcement, relayed by Benzinga Newsdesk 08:42 ET (headline only): 'Warrior Met Coal Declares Special Dividend Of $2 Per Share'.",
+          "What changed: $2 a share leaves the balance sheet and goes to holders. Against the 83.45 close that is 2.4%, and the price adjusts mechanically on the ex-date. Pre-market: no IEX trades."
+        ],
+        "objections": [
+          "A payout, not a mispricing."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "HCC: no trade. A special dividend",
+        "reasoning": [
+          "Second special-dividend case this week (SLDE, HCC), each closed in one SCOUT memo. Special dividends now weigh 2 unless the dividend is 10% of the price or more, so they stop taking case slots from real events. Fixed after this run."
+        ],
+        "objections": [
+          "Mechanical."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "H",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "Hyatt beat Q3 EPS by 65% and raised its 2026 RevPAR outlook; revenue narrowly missed",
+        "reasoning": [
+          "Source: Hyatt's Q3 release, figures on Benzinga Newsdesk at 07:05 ET: 'Q3 Adj. EPS $1.27 Beats $0.77 Estimate, Sales $1.743B Miss $1.747B Estimate'. Benzinga's 08:28 summary: comparable system-wide RevPAR '+7.2% year over year, led by luxury properties'; gross fees '+15.2% to $327 million'; full-year RevPAR growth forecast raised.",
+          "What changed: fee income and RevPAR are running well ahead of plan. Revenue is down 2.4% y/y only because of hotels sold in 2025 (an asset-light shift); adjusted EBITDA is +19% excluding them.",
+          "Timing: before the open; no session has traded it. Pre-market: Benzinga says the stock 'rose premarket'; IEX shows no prints against the 173.32 close."
+        ],
+        "objections": [
+          "Benzinga reports a pre-market rise we cannot see on IEX; part of the beat may already be priced."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "object",
+        "headline": "The EPS beat is mostly one-offs and fees from a year of asset sales; no mispricing I can size",
+        "reasoning": [
+          "What changed: adjusted EPS of $1.27 against $0.77 is a 65% beat, but adjusted EBITDA grew only 6.2% ($295M), or 19% excluding sold hotels. A 65% EPS beat on 6% EBITDA growth points to below-the-line items (tax, interest, gains) rather than operations, and the summary does not break them out.",
+          "Operations: RevPAR +7.2% and fees +15.2% are good, and the full-year RevPAR raise confirms them. But the summary gives no size for the raise and no full-year EPS or EBITDA guide to compare with consensus.",
+          "Price: Benzinga says the stock rose pre-market, size unknown. With the operating beat moderate and the headline beat inflated, the open is likely to price what is real.",
+          "Would prove this wrong: H up more than 5% by Monday's close."
+        ],
+        "objections": [
+          "Headline EPS beat not matched by EBITDA; no full-year guide figures.",
+          "Pre-market rise unseen on IEX (SCOUT)."
+        ],
+        "send_back_to": null,
+        "direction": "none",
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "H: no trade. A big EPS beat that EBITDA growth (6%) does not support",
+        "reasoning": [
+          "Check later: H's 5-day move from 173.32."
+        ],
+        "objections": [
+          "Quality of beat."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "NDAQ",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Not Nasdaq's news: Nasdaq the exchange halted another company's stock (TJGC Group)",
+        "reasoning": [
+          "Source: Nasdaq's trading-halt notice, relayed by Benzinga Newsdesk 08:15 ET: 'Nasdaq Halts Trading In TJGC Group For Additional Information Following SEC Suspension From October 15, 2026 To October 28, 2026'.",
+          "What changed for Nasdaq Inc.: nothing. Routine market operations. The item was tagged NDAQ because the exchange is named."
+        ],
+        "objections": [
+          "Exchange notice about another listed company."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "NDAQ: no trade. An exchange halt notice about another company",
+        "reasoning": [
+          "Filter gap: 'Nasdaq/NYSE Halts Trading In <other company>' is now treated as the exchange's routine notice, not news about the exchange. Fixed after this run."
+        ],
+        "objections": [
+          "Not about the company."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

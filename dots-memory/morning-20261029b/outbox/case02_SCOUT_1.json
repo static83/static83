@@ -1,0 +1,139 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 2,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "NUVB",
+      "company": "Nuvation Bio Inc.",
+      "cik": "1811063",
+      "accession": "news:62691116",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-29T12:01:27Z",
+      "url": "https://www.benzinga.com/news/26/10/62691116/nuvation-bio-plans-add-sites-six-european-countries-its-pivotal-phase-3-sigma-study-safusidenib",
+      "source_excerpt": "[Benzinga news, 2026-10-29T12:01:27Z, by Benzinga Newsdesk] Nuvation Bio Plans To Add Sites In Six European Countries For Its Pivotal Phase 3 SIGMA Study Of Safusidenib\n\n",
+      "market_cap_usd": 1611655639.47,
+      "last_price": 4.59,
+      "also_accessions": [],
+      "weight": 3,
+      "first_report": "2026-10-29T12:01:27+00:00"
+    },
+    "market": {
+      "quote": null,
+      "extended_hours": null,
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 1.05,
+        "max_gap_pct": 2.93
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": null,
+        "slippage_usd": null
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 115 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 40% on average, actual 100% across 2 case(s). Only 2 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "NDAQ",
+          "night": "20261029-1252",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "H",
+          "night": "20261029-1252",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "HCC",
+          "night": "20261029-1252",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "VICI",
+          "night": "20261029-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "KYMR",
+          "night": "20261029-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "NXT",
+          "night": "20261029-0217",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "FTV",
+          "night": "20261028-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "AER",
+          "night": "20261028-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 137
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

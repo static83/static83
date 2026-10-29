@@ -1,0 +1,7 @@
+{"role":"ANALYST","verdict":"object","headline":"The EPS beat is mostly one-offs and fees from a year of asset sales; no mispricing I can size",
+"reasoning":["What changed: adjusted EPS of $1.27 against $0.77 is a 65% beat, but adjusted EBITDA grew only 6.2% ($295M), or 19% excluding sold hotels. A 65% EPS beat on 6% EBITDA growth points to below-the-line items (tax, interest, gains) rather than operations, and the summary does not break them out.",
+"Operations: RevPAR +7.2% and fees +15.2% are good, and the full-year RevPAR raise confirms them. But the summary gives no size for the raise and no full-year EPS or EBITDA guide to compare with consensus.",
+"Price: Benzinga says the stock rose pre-market, size unknown. With the operating beat moderate and the headline beat inflated, the open is likely to price what is real.",
+"Would prove this wrong: H up more than 5% by Monday's close."],
+"objections":["Headline EPS beat not matched by EBITDA; no full-year guide figures.","Pre-market rise unseen on IEX (SCOUT)."],
+"direction":"none"}

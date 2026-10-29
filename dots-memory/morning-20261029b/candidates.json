@@ -1,0 +1,56 @@
+[
+  {
+    "ticker": "FSTR",
+    "company": "FOSTER L B CO",
+    "cik": "352825",
+    "accession": "news:62692037",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-29T12:13:48Z",
+    "url": "https://www.benzinga.com/m/26/10/62692037/l-b-foster-s-cxt-acquires-dulworth-enterprises-52-2m",
+    "source_excerpt": "[Benzinga news, 2026-10-29T12:13:48Z, by Benzinga Newsdesk] L.B. Foster's CXT Acquires Dulworth Enterprises For ~$52.2M\n\n",
+    "market_cap_usd": 379710845.485,
+    "last_price": 36.095,
+    "also_accessions": [],
+    "weight": 3,
+    "first_report": "2026-10-29T12:13:48+00:00"
+  },
+  {
+    "ticker": "NUVB",
+    "company": "Nuvation Bio Inc.",
+    "cik": "1811063",
+    "accession": "news:62691116",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-29T12:01:27Z",
+    "url": "https://www.benzinga.com/news/26/10/62691116/nuvation-bio-plans-add-sites-six-european-countries-its-pivotal-phase-3-sigma-study-safusidenib",
+    "source_excerpt": "[Benzinga news, 2026-10-29T12:01:27Z, by Benzinga Newsdesk] Nuvation Bio Plans To Add Sites In Six European Countries For Its Pivotal Phase 3 SIGMA Study Of Safusidenib\n\n",
+    "market_cap_usd": 1611655639.47,
+    "last_price": 4.59,
+    "also_accessions": [],
+    "weight": 3,
+    "first_report": "2026-10-29T12:01:27+00:00"
+  },
+  {
+    "ticker": "STGW",
+    "company": "Stagwell Inc",
+    "cik": "876883",
+    "accession": "news:62690286",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-29T11:43:03Z",
+    "url": "https://www.benzinga.com/news/26/10/62690286/correction-stagwell-raises-fy2026-adj-eps-guidance-1-03-1-17-1-07-1-21-vs-1-11-est-affirms-fy2026-sa",
+    "source_excerpt": "[Benzinga news, 2026-10-29T11:43:03Z, by Benzinga Newsdesk] CORRECTION: Stagwell Raises FY2026 Adj EPS Guidance from $1.03-$1.17 to $1.07-$1.21 vs $1.11 Est; Affirms FY2026 Sales Guidance of $3.142B-$3.258B vs $3.249B Est\n\n\n[Other material headlines on this company in the window]\n- 2026-10-29T11:33:34Z Stagwell Reports Third Quarter 2026 Financial Results and Raises Full-Year Guidance\n- 2026-10-29T11:15:50Z Stagwell Raises FY2026 Adj EPS Guidance from $1.03-$1.17 to $1.07-$1.21 vs $1.11 Est; Raises FY2026 Sales Guidance from $2.970B-$3.080B to $3.142B-$3.258B vs $3.249B Est",
+    "market_cap_usd": 2162385364.0950003,
+    "last_price": 8.845,
+    "also_accessions": [
+      "news:107124542",
+      "news:62689130"
+    ],
+    "weight": 3,
+    "first_report": "2026-10-29T11:15:50+00:00"
+  }
+]

@@ -1,0 +1,3 @@
+{"role":"JOURNAL","verdict":"agree","headline":"NDAQ: no trade. An exchange halt notice about another company",
+"reasoning":["Filter gap: 'Nasdaq/NYSE Halts Trading In <other company>' is now treated as the exchange's routine notice, not news about the exchange. Fixed after this run."],
+"objections":["Not about the company."]}
