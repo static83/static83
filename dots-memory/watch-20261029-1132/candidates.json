@@ -1,0 +1,19 @@
+[
+  {
+    "ticker": "SNY",
+    "company": "Sanofi",
+    "cik": "1121404",
+    "accession": "news:107362072",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-29T15:31:39Z",
+    "url": "https://www.moomoo.com/ja/news/post/1002843054/novavax-earns-125-million-milestone-as-sanofi-launches-phase-3",
+    "source_excerpt": "[Benzinga news, 2026-10-29T15:31:39Z, by staff] Sanofi Initiates Phase 3 Trial for Influenza-COVID-19 Combination Vaccine\nSanofi has commenced a Phase 3 clinical trial in Europe for its influenza-COVID-19 combination vaccine candidate, triggering a $125 million milestone payment to its partner, Novavax.\nSanofi has initiated a Phase 3 clinical trial in Europe to evaluate the safety and immunogenicity of a combination vaccine candidate that pairs its high-dose influenza vaccine (Efluelda/Fluzone High-Dose) with Novavax's Nuvaxovid COVID-19 vaccine. The trial focuses on adults aged 60 and older. The initiation of this study, marked by the dosing of the fifth patient, triggered a $125 million milestone payment from Sanofi to Novavax under their existing collaboration and license agreement. Sanofi aims to be a first mover in the combination vaccine segment, which addresses a global market valued at over $10 billion. The partnership has already generated over $1 billion in revenue for Novavax to date.",
+    "market_cap_usd": 51648834651.08,
+    "last_price": 42.355000000000004,
+    "also_accessions": [],
+    "weight": 3,
+    "first_report": "2026-10-29T15:31:39+00:00"
+  }
+]
