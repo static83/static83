@@ -112,7 +112,7 @@ source with an official timestamp, so "pull the original source" is literal. Fil
    went out, or else from the filing time), if any of the next three closed sessions opened or
    closed at least 5% from the prior close on at least twice the median volume, the market has
    already acted on it. Quiet news that drew no reaction still goes to the crew.
-11. Not already judged on an earlier night. A second filing from the same company the same night is
+11. Not already judged on an earlier night (a case SCOUT turned away does not block the company's next event). A second filing from the same company the same night is
    folded into that company's case.
 12. At most `DOTS_MAX_CANDIDATES` handoffs a night (default 3). Depth, not volume. The heaviest
    events go first, and the newest breaks ties:
@@ -124,7 +124,8 @@ source with an official timestamp, so "pull the original source" is literal. Fil
      contracts, lawsuits, buybacks
    - weight 1: everything else.
 
-   A planned CEO succession (the outgoing CEO becomes chair) weighs 2, and so does a guidance
+   A special dividend under 10% of the share price weighs 2, as does a deal announced by a named
+   unit ('Parent's Unit Acquires'). A planned CEO succession (the outgoing CEO becomes chair) weighs 2, and so does a guidance
    raise whose new range lands on the consensus figure in the same or a sibling headline
    ('to $5.04-$5.06 vs $5.04 Est').
    A deal, contract, settlement or buyback is also weighed against the company: under 3% of
@@ -148,7 +149,7 @@ only if:
 
 1. Its headline names a material event (a deal, FDA or trial result, guidance change, halt,
    lawsuit, bankruptcy, top-officer change, buyback...) and is not commentary, a price-target note,
-   a prediction, a poll, a conference-presentation notice, a dosing or trial-event-count milestone, a notice that results are coming, shareholder
+   a prediction, a poll, a conference-presentation notice, a dosing, trial-site or trial-event-count milestone, an exchange's halt notice about another company, a notice that results are coming, shareholder
    complaints about a pending merger, a 'you may qualify for a settlement payment' notice to class
    members, a court's or regulator's approval of an announced acquisition, a forecast for an index, commodity or
    economy, an item whose source is an earnings preview, an FDA go-ahead to start or widen a study

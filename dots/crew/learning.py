@@ -153,7 +153,10 @@ def recently_judged_tickers(days: int = 3) -> set[str]:
     from datetime import timedelta
 
     cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
-    return {r["ticker"] for r in _load(CASEBOOK).values() if r.get("decided_at", "") >= cutoff}
+    # a case SCOUT turned away (a notice, a rewrite, filler) does not block the company's next event:
+    # rewrites of the same story are caught by the same-event check on the items already judged
+    return {r["ticker"] for r in _load(CASEBOOK).values()
+            if r.get("decided_at", "") >= cutoff and r.get("ended_by") != "SCOUT"}
 
 
 # ---- rule 8: the time limit ---------------------------------------------------------------

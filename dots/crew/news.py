@@ -42,11 +42,13 @@ _FILLER = re.compile(
     r"\bto present\b|\bwill present\b|\bpresents?\b.{0,40}\bat\b|"
     r"\b(to|will) (announce|report|release)\b.{0,80}\b(results|data|earnings)\b|\b(to|will) (host|hold)\b.{0,60}\b(call|webcast)\b|"
     r"\b(doses|dosed|dosing|enrolls|enrolled|enrollment)\b|first patient|last patient|\bon track\b|"
+    r"\b(adds?|opens?|activates?|expands?) .{0,30}\b(trial |clinical )?sites?\b|\bsite activation\b|"
     r"\b(surpass|reach|achiev|hit)\w*\b.{0,40}\b(\d+(st|nd|rd|th)? |pre-?specified |target )+events?\b|triggers? (the )?(final|interim) analysis|"
     r"(stockholders|shareholders)'? (approv|vote)|(stockholder|shareholder) (complaints?|demands?)|ipo security released|"
     r"\b(index|indices|oil|crude|gold|copper|gdp|inflation|rates?|yields?|s&p( 500)?|kospi|nikkei|nasdaq|dow|currency|dollar|yuan|yen) (price )?(forecasts?|targets?|outlook)\b|"
     r"\b(court|fcc|ftc|doj|cfius|regulators?|commission|ministry|authority)\b.{0,40}\b(approv|sanction|clear)\w*\b.{0,40}\b(acquisition|merger|scheme|arrangement|takeover|deal)\b|"
     r"\b(acquisition|merger|takeover|deal)\b.{0,40}\b(receives?|wins?|gets?|secures?)\b.{0,30}\b(approval|clearance)\b|"
+    r"^(nasdaq|nyse|cboe|nyse american)\b.{0,20}\b(halts?|resumes?) trading in\b|"
     r"\byou may (qualify|be eligible)\b|\bsettlement payments?\b|\bnotice of (proposed |potential |pending )?(class action )?settlement\b|\bclaims? deadline\b",
     re.IGNORECASE,
 )
@@ -176,6 +178,8 @@ def weight(text: str, market_cap: Optional[float] = None, price: Optional[float]
     with no price in the headline counts at most 2.
     """
     w = 3 if _TIER3.search(text) else 2 if _TIER2.search(text) else 1
+    if re.search(r"^[A-Z][\w.&' -]{1,40}'s [A-Z][\w&-]{1,20}( unit| subsidiary)? (acquires|buys|to acquire|agrees to acquire)\b", text.split("\n")[0], re.IGNORECASE):
+        w = min(w, 2)  # "Parent's Unit Acquires X": a subsidiary's deal, usually small for the parent
     if (re.search(r"\b(units?|subsidiar(y|ies)|divisions?)\b", text, re.IGNORECASE)
             and re.search(r"takeover|sale|sell|divest|acqui|deal|spin|merg", text, re.IGNORECASE)
             and largest_amount(text, price) is None):
@@ -187,6 +191,9 @@ def weight(text: str, market_cap: Optional[float] = None, price: Optional[float]
     if re.search(r"(will become|to become|becomes?|named|transition\w* to) (executive |non-executive )?chair|succession plan",
                  text, re.IGNORECASE):
         w = min(w, 2)  # a planned handover, the outgoing CEO staying on as chair: continuity, not a shock
+    special = re.search(r"special (cash )?dividend\b.{0,30}?\$(\d+(?:\.\d+)?)", text, re.IGNORECASE)
+    if special and price:
+        w = min(w, 3 if float(special.group(2)) / price >= 0.10 else 2)  # a payout, priced off on the ex-date
     if guidance_to_consensus(text):
         w = min(w, 2)  # the raise lands on the analysts' number
     if re.search(r"\bphase (1|2|3|i|ii|iii|one|two|three)\b.{0,40}\b(production|development|project|expansion|construction|plant|mine|field|facility|tie-?back|refinery|pipeline)\b|"
