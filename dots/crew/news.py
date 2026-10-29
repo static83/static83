@@ -40,6 +40,7 @@ _FILLER = re.compile(
     r"^reported earlier|become\W{0,2}obvious|this week in|week in review|weekly recap|"
     r"\bsays? .{0,40}(has become|is|are) (obvious|likely|inevitable)|\bwarns? .{0,30}against|"
     r"\bto present\b|\bwill present\b|\bpresents?\b.{0,40}\bat\b|"
+    r"\b(to|will) (announce|report|release)\b.{0,80}\b(results|data|earnings)\b|\b(to|will) (host|hold)\b.{0,60}\b(call|webcast)\b|"
     r"\b(doses|dosed|dosing|enrolls|enrolled|enrollment)\b|first patient|last patient|\bon track\b|"
     r"\b(surpass|reach|achiev|hit)\w*\b.{0,40}\b(\d+(st|nd|rd|th)? |pre-?specified |target )+events?\b|triggers? (the )?(final|interim) analysis|"
     r"(stockholders|shareholders)'? (approv|vote)|(stockholder|shareholder) (complaints?|demands?)|ipo security released|"
