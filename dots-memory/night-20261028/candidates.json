@@ -1,0 +1,58 @@
+[
+  {
+    "ticker": "NXT",
+    "company": "Nextpower Inc.",
+    "cik": "1852131",
+    "accession": "news:106768372",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-28T22:02:24Z",
+    "url": "https://www.marketscreener.com/news/nextpower-q2-adjusted-earnings-revenue-rise-ups-outlook-ce785cd3d88ef720",
+    "source_excerpt": "[Benzinga news, 2026-10-28T22:02:24Z, by staff] Nextpower Inc. Reports Q2 Earnings and Raises Fiscal 2027 Outlook\nNextpower Inc. reported Q2 revenue of $1.11 billion and adjusted EPS of $1.31, both exceeding analyst estimates, while providing an updated fiscal 2027 outlook.\nNextpower Inc. announced its second-quarter financial results, reporting revenue of $1.11 billion and adjusted earnings per share of $1.31, surpassing FactSet consensus estimates of $1.06 billion and $1.10, respectively. Alongside these results, the company provided an updated outlook for fiscal 2027, projecting an adjusted EPS range of $4.61 to $4.87 and revenue between $4.2 billion and $4.45 billion. These figures reflect the company's performance and forward-looking expectations as reported on October 28, 2026.\n[Other material headlines on this company in the window]\n- 2026-10-28T20:10:49Z Nextpower Raises FY2027 GAAP EPS Guidance from $3.42-$3.64 to $3.62-$3.87 vs $3.83 Est\n- 2026-10-28T20:10:18Z Nextpower Raises FY2027 Adj EPS Guidance from $4.42-$4.73 to $4.61-$4.87 vs $4.63 Est; Raises FY2027 Sales Guidance from $4.100B-$4.400B to $4.200B-$4.450B vs $4.317B Est",
+    "market_cap_usd": 12517600352.599998,
+    "last_price": 83.02,
+    "also_accessions": [
+      "news:62674175",
+      "news:62674096"
+    ],
+    "weight": 3,
+    "first_report": "2026-10-28T22:02:24+00:00"
+  },
+  {
+    "ticker": "KYMR",
+    "company": "Kymera Therapeutics, Inc.",
+    "cik": "1815442",
+    "accession": "news:106768362",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-28T22:02:17Z",
+    "url": "https://www.globenewswire.com/news-release/2026/10/28/3390716/0/en/kymera-therapeutics-to-announce-kt-579-phase-1-healthy-volunteer-trial-results-on-october-29-2026.html",
+    "source_excerpt": "[Benzinga news, 2026-10-28T22:02:17Z, by staff] Kymera Therapeutics to Announce KT-579 Phase 1 Healthy Volunteer Trial Results\nKymera Therapeutics, Inc. announced it will report Phase 1 clinical trial results for its oral IRF5 degrader, KT-579, on October 29, 2026, in conjunction with its third-quarter 2026 financial results.\nKymera Therapeutics, Inc. has scheduled the release of results from its Phase 1 clinical trial of KT-579 for October 29, 2026. The trial evaluated single and multiple-ascending doses of the investigational drug in healthy volunteers. The company will present these findings alongside its third-quarter 2026 financial results during a conference call and webcast at 8:30 a.m. ET. KT-579 is a first-in-class oral degrader of IRF5, a transcription factor involved in immunity, and is being developed as a potential treatment for various autoimmune diseases, including lupus, Sj\u00f6gren's, rheumatoid arthritis, and inflammatory bowel disease.",
+    "market_cap_usd": 10192602754.44,
+    "last_price": 122.58,
+    "also_accessions": [],
+    "weight": 3,
+    "first_report": "2026-10-28T22:02:17+00:00"
+  },
+  {
+    "ticker": "VICI",
+    "company": "VICI PROPERTIES INC.",
+    "cik": "1705696",
+    "accession": "news:106768336",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-28T22:02:05Z",
+    "url": "https://www.marketscreener.com/news/vici-properties-q3-affo-revenue-rise-lifts-2026-guidance-ce785cd3d88ef721",
+    "source_excerpt": "[Benzinga news, 2026-10-28T22:02:05Z, by staff] VICI Properties Raises 2026 AFFO Guidance\nFollowing its third-quarter earnings report, VICI Properties updated its 2026 outlook, raising its expected Adjusted Funds From Operations (AFFO) range.\nVICI Properties has updated its financial guidance for the full year 2026. The company now expects its Adjusted Funds From Operations (AFFO) to fall within a range of $2.47 to $2.48 per share. This updated outlook follows the company's third-quarter financial results, where it reported AFFO of $0.62 per share, aligning with market expectations. The guidance adjustment reflects the company's current performance and management's updated expectations for the remainder of the fiscal year.\n[Other material headlines on this company in the window]\n- 2026-10-28T20:21:32Z VICI Properties Raises FY2026 FFO Guidance from $2.45-$2.47 to $2.47-$2.48 vs $2.63 Est",
+    "market_cap_usd": 25925060075.280003,
+    "last_price": 23.545,
+    "also_accessions": [
+      "news:62675652"
+    ],
+    "weight": 3,
+    "first_report": "2026-10-28T20:21:32+00:00"
+  }
+]

@@ -1,0 +1,195 @@
+[
+  {
+    "case": 1,
+    "ticker": "NXT",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "Nextpower beat Q2 EPS by 19% and raised its fiscal 2027 range; it had run +4.5% into the print",
+        "reasoning": [
+          "Source: Nextpower's Q2 release (summarized by MarketScreener; Benzinga 18:02 ET) and Benzinga Newsdesk at 16:07-16:10 ET: 'Q2 Adj. EPS $1.31 Beats $1.10 Estimate, Sales $1.109B Beat $1.059B Estimate'. 'Raises FY2027 Adj EPS Guidance from $4.42-$4.73 to $4.61-$4.87 vs $4.63 Est; Raises FY2027 Sales Guidance from $4.100B-$4.400B to $4.200B-$4.450B vs $4.317B Est'.",
+          "What changed: a large quarter beat, +19% on EPS and +5% on sales. The full-year EPS midpoint ($4.74) is 2.4% above consensus. The sales midpoint ($4.325B) is about at consensus ($4.317B).",
+          "Timing and price: after the close; no session has traded it. After hours: no IEX trades. Into the report the stock rose from 76.49 (Monday) to 83.02 (Wednesday), +8.5% in two sessions, +4.5% on Wednesday alone on 226,423 shares, about 1.6x normal."
+        ],
+        "objections": [
+          "No after-hours price; reaction unknown.",
+          "+8.5% in the two sessions before the report: some of the beat may already be in the price."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "object",
+        "headline": "No edge I can defend: a big beat whose full-year raise lands near consensus, after an 8.5% run-up into the print",
+        "reasoning": [
+          "What changed: Q2 EPS was 19% above estimate, but the full-year EPS midpoint rose only 4% ($4.575 to $4.74). That is less than the $0.21 Q2 beat, so the second half is guided about flat to the old plan. Full-year sales are guided at consensus. The beat is concentrated in one quarter.",
+          "What the market must believe for a mispricing: that Nextpower's full year is worse than $4.74. The stock already rose 8.5% in two sessions into the print, so the market was positioned for a beat.",
+          "The crew's own fresh evidence: EXLS last night, a beat and a raise above consensus with no run-up, opened -2.2% and closed -0.3% today. INIO, a 12% revenue beat after a run-up, is still pending its 5-day score. Beat-and-raise prints have not given the crew a reliable direction.",
+          "Would prove this wrong: NXT up more than 5% at Thursday's close and holding through Monday."
+        ],
+        "objections": [
+          "Full-year raise smaller than the quarter beat; sales guide at consensus.",
+          "+8.5% run-up into the print (SCOUT).",
+          "No after-hours price (SCOUT)."
+        ],
+        "send_back_to": null,
+        "direction": "none",
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "NXT: no trade. A big quarter beat, a full-year raise near consensus, after a run-up",
+        "reasoning": [
+          "Check later: NXT's close Thursday and on 11/04 against 83.02.",
+          "Pattern for the two-week review: EXLS (beat and raise, no run-up) opened -2.2%. If NXT also fades, the crew should expect little from beat-and-raise prints, unless the full-year raise clearly exceeds the quarter's beat."
+        ],
+        "objections": [
+          "No edge."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "KYMR",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A date, not data: Kymera will report KT-579 Phase 1 results tomorrow at 08:30 ET",
+        "reasoning": [
+          "Source: Kymera's release on GlobeNewswire (18:02 ET): 'Kymera Therapeutics to Announce KT-579 Phase 1 Healthy Volunteer Trial Results on October 29, 2026 ... during a conference call and webcast at 8:30 a.m. ET.'",
+          "What changed: nothing yet. The results come tomorrow, before the open, and the 08:45 run will see them."
+        ],
+        "objections": [
+          "A notice that results are coming; no results."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "KYMR: no trade. A notice of tomorrow's Phase 1 results",
+        "reasoning": [
+          "Filter gap: news notices that results will be announced on a date ('to Announce ... Results on October 29') are now filtered, as call-date 8-Ks already are. Fixed after this run.",
+          "Check later: tomorrow's KT-579 data is a real event for the 08:45 run."
+        ],
+        "objections": [
+          "Notice only."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "VICI",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A one-cent raise: VICI's 2026 AFFO range moves to $2.47-$2.48 after an in-line quarter",
+        "reasoning": [
+          "Source: VICI's Q3 release (summarized by MarketScreener; Benzinga 18:02 ET): 'reported AFFO of $0.62 per share, aligning with market expectations'; 'now expects its Adjusted Funds From Operations (AFFO) to fall within a range of $2.47 to $2.48 per share'. Benzinga Newsdesk 16:21 ET: 'Raises FY2026 FFO Guidance from $2.45-$2.47 to $2.47-$2.48 vs $2.63 Est'. That estimate looks like a different FFO measure, so it cannot be compared.",
+          "What changed: the midpoint rises by about 1.5 cents (0.6%). For a net-lease REIT this is the normal year-end narrowing. After hours: no IEX trades."
+        ],
+        "objections": [
+          "An in-line quarter and a fractional narrowing of guidance."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "VICI: no trade. An in-line quarter and a one-cent guidance narrowing",
+        "reasoning": [
+          "Nothing to check later."
+        ],
+        "objections": [
+          "Immaterial."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

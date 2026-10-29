@@ -1,0 +1,152 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 2,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "KYMR",
+      "company": "Kymera Therapeutics, Inc.",
+      "cik": "1815442",
+      "accession": "news:106768362",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-28T22:02:17Z",
+      "url": "https://www.globenewswire.com/news-release/2026/10/28/3390716/0/en/kymera-therapeutics-to-announce-kt-579-phase-1-healthy-volunteer-trial-results-on-october-29-2026.html",
+      "source_excerpt": "[Benzinga news, 2026-10-28T22:02:17Z, by staff] Kymera Therapeutics to Announce KT-579 Phase 1 Healthy Volunteer Trial Results\nKymera Therapeutics, Inc. announced it will report Phase 1 clinical trial results for its oral IRF5 degrader, KT-579, on October 29, 2026, in conjunction with its third-quarter 2026 financial results.\nKymera Therapeutics, Inc. has scheduled the release of results from its Phase 1 clinical trial of KT-579 for October 29, 2026. The trial evaluated single and multiple-ascending doses of the investigational drug in healthy volunteers. The company will present these findings alongside its third-quarter 2026 financial results during a conference call and webcast at 8:30 a.m. ET. KT-579 is a first-in-class oral degrader of IRF5, a transcription factor involved in immunity, and is being developed as a potential treatment for various autoimmune diseases, including lupus, Sj\u00f6gren's, rheumatoid arthritis, and inflammatory bowel disease.",
+      "market_cap_usd": 10192602754.44,
+      "last_price": 122.58,
+      "also_accessions": [],
+      "weight": 3,
+      "first_report": "2026-10-28T22:02:17+00:00"
+    },
+    "market": {
+      "quote": {
+        "ap": 150.26,
+        "as": 100,
+        "ax": "V",
+        "bp": 82.56,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-28T20:00:01.424348414Z",
+        "z": "C"
+      },
+      "extended_hours": null,
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 0,
+        "mean_gap_pct": null,
+        "max_gap_pct": null
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 1426.2973,
+        "slippage_usd": 2.4525,
+        "spread_pct": 58.157
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 111 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 40% on average, actual 100% across 2 case(s). Only 2 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "FTV",
+          "night": "20261028-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "AER",
+          "night": "20261028-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CHEF",
+          "night": "20261028-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SHEL",
+          "night": "20261028-1502",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SW",
+          "night": "20261028-1402",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "FELE",
+          "night": "20261028-1257",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SLS",
+          "night": "20261028-1257",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "FCBC",
+          "night": "20261028-1257",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 131
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}
