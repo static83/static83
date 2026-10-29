@@ -1,0 +1,167 @@
+[
+  {
+    "case": 1,
+    "ticker": "NVAX",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Expected and priced: Novavax's $125M Sanofi milestone, public since 09:40 ET; the stock is -0.2% since",
+        "reasoning": [
+          "Source: Novavax's announcement, relayed by Benzinga Newsdesk 09:40 ET: 'Novavax Earns $125M Milestone Payment With Initiation Of Sanofi's Phase 3 Influence-COVID-19 Combination Vaccine Study Through Nuvaxovid'.",
+          "What changed: $125M of cash, about 7% of the $1.72B market cap. The milestone was a scheduled term of the 2024 Sanofi agreement, triggered by a trial start the market expected.",
+          "Move: 10.405 vs 10.425 before the item, -0.19%, range 10.29-10.53 on 90,333 IEX shares over three hours. Q3 results come on November 5."
+        ],
+        "objections": [
+          "A scheduled milestone the market has had three hours to price; no reaction."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "NVAX: no trade. A scheduled $125M milestone the market shrugged at",
+        "reasoning": [
+          "Check later: NVAX's 5-day move from 10.31."
+        ],
+        "objections": [
+          "Priced."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "HGV",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A one-off beat and a guidance cut, priced since the open: Hilton Grand Vacations is -1.2%",
+        "reasoning": [
+          "Source: HGV's Q3 release (pre-open), summarized by Benzinga 09:23 ET: 'adjusted earnings of $4.03 per share, beating analysts' consensus estimate of $1.06'; but 'the results benefited significantly from the recognition of previously deferred revenue ... $536 million ... boosting net income and adjusted EBITDA by $296 million, or $3.76 per share'; and 'lowered its full-year profit forecast after contract sales declined'.",
+          "What changed: excluding the $3.76 one-off, EPS was about $0.27 against $1.06 expected, plus a cut to full-year guidance and falling contract sales.",
+          "Move: 35.09 vs Wednesday's 35.50 close, -1.15%, range 34.92-37.50. It opened up on the headline beat and gave it back as the market read the one-off."
+        ],
+        "objections": [
+          "Priced through three hours of trading; the headline beat is one-off."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "HGV: no trade. A one-off-driven beat with a guidance cut, priced",
+        "reasoning": [
+          "Check later: HGV's 5-day move from 35.50. Underlying weakness (contract sales down, guidance cut) may keep weighing."
+        ],
+        "objections": [
+          "Priced."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "BWA",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Mixed and priced: BorgWarner nudged adjusted EPS up, trimmed sales and GAAP EPS; the stock is -2.6%",
+        "reasoning": [
+          "Source: BorgWarner's Q3 release (pre-open), via Benzinga Newsdesk's corrected lines at 09:13 ET: 'Raises FY2026 Adj EPS Guidance from $5.05-$5.30 to $5.20-$5.35 vs $5.21 Est; Narrows FY2026 Sales Guidance from $14.000B-$14.300B to $14.000B-$14.200B vs $14.197B Est' and 'Lowers FY2026 GAAP EPS Guidance from $4.72-$4.94 to $4.65-$4.84'. Also an inverter award from an unnamed automaker (08:11 ET).",
+          "What changed: the adjusted EPS midpoint is 1.2% above consensus, while the sales midpoint ($14.1B) falls below consensus ($14.197B) and GAAP EPS is cut.",
+          "Move: 54.44 vs Wednesday's 55.88 close, -2.58% on 218,050 IEX shares, with a low of 51.37 (-8.1%) before a partial recovery. The market has read this as negative for three hours."
+        ],
+        "objections": [
+          "Priced through a wide-ranging session; mixed guide."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "BWA: no trade. A mixed guide the session priced at -2.6%",
+        "reasoning": [
+          "Check later: BWA's 5-day move from 55.88."
+        ],
+        "objections": [
+          "Priced."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]
