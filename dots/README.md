@@ -149,7 +149,7 @@ only if:
 
 1. Its headline names a material event (a deal, FDA or trial result, guidance change, halt,
    lawsuit, bankruptcy, top-officer change, buyback...) and is not commentary, a price-target note,
-   a prediction, a poll, a conference-presentation notice, a dosing, trial-site or trial-event-count milestone, an exchange's halt notice about another company, a notice that results are coming, shareholder
+   a prediction, a poll, a conference-presentation notice, a trial start, a dosing, trial-site or trial-event-count milestone, an exchange's halt notice about another company, a notice that results are coming, shareholder
    complaints about a pending merger, a 'you may qualify for a settlement payment' notice to class
    members, a court's or regulator's approval of an announced acquisition, a forecast for an index, commodity or
    economy, an item whose source is an earnings preview, an FDA go-ahead to start or widen a study

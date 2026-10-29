@@ -43,6 +43,7 @@ _FILLER = re.compile(
     r"\b(to|will) (announce|report|release)\b.{0,80}\b(results|data|earnings)\b|\b(to|will) (host|hold)\b.{0,60}\b(call|webcast)\b|"
     r"\b(doses|dosed|dosing|enrolls|enrolled|enrollment)\b|first patient|last patient|\bon track\b|"
     r"\b(adds?|opens?|activates?|expands?) .{0,30}\b(trial |clinical )?sites?\b|\bsite activation\b|"
+    r"\b(initiates?|starts?|begins?|launch(es)?|commences?|initiation of|start of)\b.{0,40}\b(phase (1|2|3|i|ii|iii)|pivotal|clinical)\b.{0,30}\b(trial|study)\b|"
     r"\b(surpass|reach|achiev|hit)\w*\b.{0,40}\b(\d+(st|nd|rd|th)? |pre-?specified |target )+events?\b|triggers? (the )?(final|interim) analysis|"
     r"(stockholders|shareholders)'? (approv|vote)|(stockholder|shareholder) (complaints?|demands?)|ipo security released|"
     r"\b(index|indices|oil|crude|gold|copper|gdp|inflation|rates?|yields?|s&p( 500)?|kospi|nikkei|nasdaq|dow|currency|dollar|yuan|yen) (price )?(forecasts?|targets?|outlook)\b|"
