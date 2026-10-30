@@ -1,0 +1,5 @@
+{"role":"JOURNAL","verdict":"agree","headline":"TWLO: no trade. 'Beat and raise' met with -17% after hours; cause unknown",
+"reasoning":["Data fix: after-hours and pre-market moves now come from the consolidated (SIP) tape, which the account can query with a 15-minute delay. IEX alone showed one 5-share print for a -17%, 1.1M-share move. Fixed after this run.",
+"Check later: TWLO's 5-day move from 241.85 and from the 201 after-hours level. Is a -17% reaction to a beat-and-raise followed by more selling or a rebound? Useful for future cases.",
+"Pattern: beat-and-raise headlines this week ran from -17% (TWLO) through -2% (EXLS) to +15% (CDNA). The headline alone says little."],
+"objections":["Unknown cause."]}

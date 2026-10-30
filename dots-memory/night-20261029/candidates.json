@@ -1,0 +1,58 @@
+[
+  {
+    "ticker": "CDNA",
+    "company": "CareDx, Inc.",
+    "cik": "1217234",
+    "accession": "news:108005408",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-29T22:02:31Z",
+    "url": "https://www.marketscreener.com/news/earnings-flash-cdna-caredx-inc-reports-q3-revenue-139-4m-vs-factset-est-of-122-0m-ce785fdadc89f324",
+    "source_excerpt": "[Benzinga news, 2026-10-29T22:02:31Z, by staff] CareDx Reports Q3 2026 Financial Results and Raises Full-Year Guidance\nCareDx, Inc. reported third-quarter 2026 revenue of $139.4 million, exceeding analyst expectations, and increased its full-year 2026 revenue and adjusted EBITDA guidance.\nCareDx, Inc. announced its financial results for the third quarter of 2026, reporting revenue of $139.4 million, which surpassed the FactSet consensus estimate of $122.0 million. The company also reported an adjusted EPS of $0.70 for the quarter. Driven by strong performance, including a 51% year-over-year increase in testing volume and an adjusted EBITDA margin of 22%, the company raised its full-year 2026 outlook. CareDx now expects full-year 2026 revenue to be in the range of $520 million to $530 million, with adjusted EBITDA projected between $90 million and $100 million.\n[Other material headlines on this company in the window]\n- 2026-10-29T20:45:30Z CareDx Raises FY26 Rev Guidance To $520M-$530M Prior $490M-$500M; Raises Adj. EBITDA Guidance To $90M-$100M Prior $66M-$78M\n- 2026-10-29T20:24:12Z CareDx Raises FY2026 Sales Guidance from $490.000M-$500.000M to $520.000M-$530.000M vs $489.692M Est",
+    "market_cap_usd": 3755758343.28,
+    "last_price": 71.48,
+    "also_accessions": [
+      "news:62721696",
+      "news:62719839"
+    ],
+    "weight": 3,
+    "first_report": "2026-10-29T20:24:12+00:00"
+  },
+  {
+    "ticker": "TPG",
+    "company": "TPG Inc.",
+    "cik": "1880661",
+    "accession": "news:108005395",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-29T22:02:21Z",
+    "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4384869:0-tpg-record-dry-powder-and-stronger-fundraising-underpin-higher-2026-guidance/",
+    "source_excerpt": "[Benzinga news, 2026-10-29T22:02:21Z, by staff] TPG Inc. Raises 2026 Fundraising Guidance\nTPG Inc. increased its 2026 fundraising guidance to over $55 billion, supported by record dry powder and strong fundraising activity.\nTPG Inc. has raised its fiscal year 2026 fundraising guidance to exceed $55 billion. The firm reported that its assets under management reached $346 billion, with dry powder hitting a record $86 billion. Additionally, the company provided a fee-related earnings (FRE) margin guidance of approximately 48%.",
+    "market_cap_usd": 7774271310.36,
+    "last_price": 47.94,
+    "also_accessions": [],
+    "weight": 3,
+    "first_report": "2026-10-29T22:02:21+00:00"
+  },
+  {
+    "ticker": "TWLO",
+    "company": "TWILIO INC",
+    "cik": "1447669",
+    "accession": "news:108005370",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-29T22:02:15Z",
+    "url": "https://www.marketscreener.com/news/earnings-flash-twlo-twilio-inc-posts-q3-adjusted-eps-1-65-per-share-vs-factset-est-of-1-47-ce785fdadc89f026",
+    "source_excerpt": "[Benzinga news, 2026-10-29T22:02:15Z, by staff] Twilio Inc. Reports Q3 2026 Financial Results and Raises Full-Year Guidance\nTwilio Inc. reported third-quarter 2026 financial results, exceeding analyst expectations for both revenue and adjusted earnings per share, while raising its full-year outlook.\nTwilio Inc. announced its third-quarter 2026 financial results, reporting revenue of $1.56 billion and an adjusted earnings per share (EPS) of $1.65, both surpassing FactSet consensus estimates of $1.52 billion and $1.47, respectively. The company also provided its outlook for the fourth quarter, projecting revenue between $1.60 billion and $1.61 billion and adjusted EPS in the range of $1.48 to $1.53. Additionally, Twilio raised its full-year 2026 guidance for revenue growth, non-GAAP operating income, and free cash flow, citing strengthened growth and cash flow performance during the quarter.\n[Other material headlines on this company in the window]\n- 2026-10-29T20:13:20Z Twilio Raises FY2026 Sales Guidance from $5.979B-$6.004B to $6.084B vs $6.004B Est",
+    "market_cap_usd": 30983800635.0,
+    "last_price": 201.75,
+    "also_accessions": [
+      "news:62718361"
+    ],
+    "weight": 3,
+    "first_report": "2026-10-29T20:13:20+00:00"
+  }
+]

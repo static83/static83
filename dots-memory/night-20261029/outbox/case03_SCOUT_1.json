@@ -1,0 +1,154 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 3,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "TWLO",
+      "company": "TWILIO INC",
+      "cik": "1447669",
+      "accession": "news:108005370",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-29T22:02:15Z",
+      "url": "https://www.marketscreener.com/news/earnings-flash-twlo-twilio-inc-posts-q3-adjusted-eps-1-65-per-share-vs-factset-est-of-1-47-ce785fdadc89f026",
+      "source_excerpt": "[Benzinga news, 2026-10-29T22:02:15Z, by staff] Twilio Inc. Reports Q3 2026 Financial Results and Raises Full-Year Guidance\nTwilio Inc. reported third-quarter 2026 financial results, exceeding analyst expectations for both revenue and adjusted earnings per share, while raising its full-year outlook.\nTwilio Inc. announced its third-quarter 2026 financial results, reporting revenue of $1.56 billion and an adjusted earnings per share (EPS) of $1.65, both surpassing FactSet consensus estimates of $1.52 billion and $1.47, respectively. The company also provided its outlook for the fourth quarter, projecting revenue between $1.60 billion and $1.61 billion and adjusted EPS in the range of $1.48 to $1.53. Additionally, Twilio raised its full-year 2026 guidance for revenue growth, non-GAAP operating income, and free cash flow, citing strengthened growth and cash flow performance during the quarter.\n[Other material headlines on this company in the window]\n- 2026-10-29T20:13:20Z Twilio Raises FY2026 Sales Guidance from $5.979B-$6.004B to $6.084B vs $6.004B Est",
+      "market_cap_usd": 30983800635.0,
+      "last_price": 201.75,
+      "also_accessions": [
+        "news:62718361"
+      ],
+      "weight": 3,
+      "first_report": "2026-10-29T20:13:20+00:00"
+    },
+    "market": {
+      "quote": {
+        "ap": 202.98,
+        "as": 100,
+        "ax": "V",
+        "bp": 200.52,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-29T20:08:40.993318455Z",
+        "z": "A"
+      },
+      "extended_hours": null,
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 0,
+        "mean_gap_pct": null,
+        "max_gap_pct": null
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 29.9043,
+        "slippage_usd": 2.4525,
+        "spread_pct": 1.219
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 123 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 39% on average, actual 67% across 3 case(s). Only 3 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "CDNA",
+          "night": "20261030-0217",
+          "ended_by": "QUANT",
+          "direction": "long",
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "UL",
+          "night": "20261029-1633",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BWA",
+          "night": "20261029-1631",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "HGV",
+          "night": "20261029-1631",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "NVAX",
+          "night": "20261029-1631",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "SNY",
+          "night": "20261029-1532",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "STGW",
+          "night": "20261029-1255",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "NUVB",
+          "night": "20261029-1255",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 146
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

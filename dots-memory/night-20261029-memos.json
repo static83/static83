@@ -1,0 +1,263 @@
+[
+  {
+    "case": 1,
+    "ticker": "CDNA",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "CareDx beat Q3 revenue by 16% and raised full-year revenue 7% above consensus and EBITDA by a third",
+        "reasoning": [
+          "Source: CareDx's Q3 2026 release (summarized by MarketScreener; Benzinga 18:02 ET) and Benzinga Newsdesk at 16:02-16:45 ET: 'Q3 Adj. EPS $0.70 Beats $0.25 Estimate, Sales $139.362M Beat $120.608M Estimate'. 'Raises FY26 Rev Guidance To $520M-$530M Prior $490M-$500M; Raises Adj. EBITDA Guidance To $90M-$100M Prior $66M-$78M'; consensus revenue '$489.692M'. The release cites 'a 51% year-over-year increase in testing volume and an adjusted EBITDA margin of 22%'.",
+          "What changed: the full-year revenue midpoint rises $30M (to $525M), more than the Q3 beat of about $19M, so Q4 is guided up too. Full-year adjusted EBITDA rises 32% at the midpoint ($72M to $95M). Testing volume +51% y/y is a volume story, not pricing.",
+          "Timing: after the close; no regular session has traded it. After-hours IEX prints: 79.04 (16:19 ET, 5 shares), 81.04-81.29 (16:29, 100 shares), 81.64-82.30 (16:36). That is +15% from the 71.48 close, on odd lots only.",
+          "Into the print: the stock was flat, 69.11 (10/20) to 71.48, on normal volume (110,677 on 10/29 vs a 75,035 median). No run-up."
+        ],
+        "objections": [
+          "The after-hours price rests on about 160 shares of odd-lot prints; the real open is uncertain."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "agree",
+        "headline": "Long CDNA, 5 trading days: a raise bigger than the beat forces estimates up ~7% on revenue and ~30% on EBITDA",
+        "reasoning": [
+          "What changed: revenue is compounding on volume (+51% testing volume). Management raised the full-year range by more than the Q3 beat, so the second half is guided above the old plan, not just the quarter pulled forward. This is the pattern the crew has said separates real raises from carried-through beats (NXT, AMT, FELE did not have it).",
+          "What the market must believe for this to be mispriced: at 71.48 the market priced FY26 EBITDA near $72M. The new guide is $95M, +32%. At an unchanged EV/EBITDA multiple, that alone is worth more than the +15% after-hours mark. Sales consensus must move from $490M to about $525M (+7%) and 2027 estimates with it. Revisions land over the following days, not in the first print.",
+          "Mechanism: sell-side models are updated over the next 1-3 sessions, and in a $3.8B diagnostics name with modest coverage, the drift after a large surprise is better documented than in mega-caps.",
+          "Direction: long. horizon_days: 5.",
+          "Would prove this wrong: CDNA trading back below 77, giving up more than a third of the after-hours gain, which would mean the market sees the EBITDA raise as one-time (e.g., a reimbursement catch-up) rather than run-rate."
+        ],
+        "objections": [
+          "The after-hours price rests on odd lots (SCOUT).",
+          "A one-time reimbursement or collection catch-up could explain part of the beat; the release summary does not say."
+        ],
+        "send_back_to": null,
+        "direction": "long",
+        "horizon_days": 5,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "SKEPTIC",
+        "verdict": "agree",
+        "headline": "Survives with a real hole: an EPS beat of 180% smells of one-time revenue, and we cannot see the release",
+        "reasoning": [
+          "priced_in_score: 0.5. The after-hours mark is already +15%, about half to two-thirds of a full re-rate on ANALYST's EBITDA math, and those 160 odd-lot shares say little about the open.",
+          "Weakest link, quoted: 'revenue is compounding on volume'. EPS of $0.70 against $0.25 is a 180% beat on a 16% revenue beat. That ratio fits a one-time catch-up, such as Medicare billing or collections on earlier tests (CareDx has had them before), better than run-rate growth. If even $10M of the quarter is one-time, the 'raise bigger than the beat' argument shrinks to a raise about equal to the beat. Neither the summary nor the Benzinga lines break it out.",
+          "Against my own objection: the full-year adjusted EBITDA guide went up 32% and the revenue guide went up $30M. Management raised Q4 too, and companies rarely guide a catch-up into the next quarter. The +51% testing volume is not a billing artifact. That is why I do not kill it.",
+          "Track record: my 6 kills averaged +1.1% afterwards (3 of 6 right), so I raise my bar. The crew's comparable longs: SMCI (stopped), EXLS (QUANT rejected; it opened -2.2%). Both were modest raises. This raise is larger and Q4-inclusive, which is the distinction ANALYST draws, and it is a fair one.",
+          "Who acted first: every screen read 'Beats $0.25 Estimate' at 16:02 ET. The edge, if any, is in the revisions over days, not the first print."
+        ],
+        "objections": [
+          "1. After-hours price on odd lots only (SCOUT).",
+          "2. Possible one-time catch-up inside the EPS beat; not broken out (ANALYST, SKEPTIC).",
+          "3. +15% after hours already prices a large part of the re-rate.",
+          "4. The stock's max daily move in 60 sessions is 13%: a volatile name where stops get hit.",
+          "5. The crew's two comparable longs did not work."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": 0.5
+      },
+      {
+        "role": "QUANT",
+        "verdict": "object",
+        "headline": "Expectancy flips sign on a 2-point change in stop odds, and my record says I under-call stops",
+        "reasoning": [
+          "Setup: long at 82.50 (the last after-hours print, 82.30, plus a dime), stop 77.00 (-6.7%, below the 79.04 first after-hours print; a fall there means the market gave back a third of the gap), target 91.00 (+10.3%, about where a full re-rate on the new EBITDA guide lands). Risk 5.50, reward 8.50. The entry guard arms at 79.75 (82.50 - 0.5 x 5.50). The packet's quote and gap stats failed to load tonight. From my own pull: 60-session mean absolute daily move 2.27%, max 12.97%, max open gap 2.89%.",
+          "Fill-conditional odds: we fill if CDNA opens at or below 82.50, or comes back to it, so the strongest openings (+16% and up) are excluded. In the fill worlds: stop first 0.40, target first 0.32, time exit 0.28 at +1.50.",
+          "Calibration: across 3 cases I predicted 39% stop-outs and 67% happened. Even a half correction moves p_strike to 0.45-0.47.",
+          "At p_strike 0.45 (target 0.29, time exit 0.26): 0.29 x 8.50 + 0.26 x 1.50 - 0.45 x 5.50 = +0.38 a share. At 0.47 (0.28 / 0.25): 2.38 + 0.375 - 2.585 = +0.17 a share. Costs for 25 shares: spread about 0.15% = $3.10, plus slippage $2.50, together $5.60 = 0.22 a share. Net: +0.16 to -0.05 a share, about +$4 to -$1 on $2,060.",
+          "Bad-exit cost: a gap through the stop back to 73 (near the pre-report close) at 25 shares is 25 x 9.50 = $238, 4.8% of $4,905 equity.",
+          "A trade whose expectancy is +$4 to -$1 against a $238 bad-exit tail is not positive in any way I can defend. That is not a judgment on CareDx's quarter, which is strong. It is the entry: after a +15% after-hours gap, the order fills mainly when the market hesitates. horizon_days 5 would be kept."
+        ],
+        "objections": [
+          "1. After-hours price on odd lots only (SCOUT).",
+          "2. Possible one-time catch-up in the EPS beat (ANALYST, SKEPTIC).",
+          "3. +15% after hours prices much of the re-rate (SKEPTIC).",
+          "4. Volatile name: 13% max daily move (SKEPTIC).",
+          "5. The crew's comparable longs did not work (SKEPTIC).",
+          "6. Calibration: stops happen more often than I predict (39% predicted, 67% actual).",
+          "7. Net expectancy about +$4 to -$1: not positive once costs and calibration are counted."
+        ],
+        "send_back_to": null,
+        "direction": "long",
+        "horizon_days": 5,
+        "entry_price": 82.5,
+        "stop_price": 77.0,
+        "target_price": 91.0,
+        "position_size_usd": 0.0,
+        "fee_estimate_usd": 5.6,
+        "bad_exit_cost_usd": 238.0,
+        "p_strike": 0.46,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "CDNA: QUANT rejected the strongest beat-and-raise yet; the after-gap entry, not the thesis, is the problem",
+        "reasoning": [
+          "The second QUANT rejection this week with the same root cause: after a big after-hours gap, a limit entry fills mostly when the market hesitates, and QUANT's own calibration (stops 67% vs 39% predicted, n=3) wipes out a thin edge.",
+          "Check later (scored in 5 days): CDNA's close on 11/05 against 82.50 (entry), 77.00 (stop) and 91.00 (target), and the open on 10/30. If CDNA opens above 82.50 and keeps rising, the crew is structurally unable to take strong post-earnings drift. That is a question for the two-week review (entry method), not something to change mid-run.",
+          "For EXLS, the same structure was right: it opened -2.2%."
+        ],
+        "objections": [
+          "Killed by QUANT on expectancy."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "TPG",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Traded all day: TPG reported before Thursday's open and rose 7.4% on double volume; tonight's items are summaries",
+        "reasoning": [
+          "Sources: TPG's Q3 2026 results and call, summarized tonight (TradingView/Quartr; Moomoo): 'net income of $0.41 per diluted share and announced a reduction in its quarterly dividend to $0.55 per share'; 'raised its fiscal year 2026 fundraising guidance to exceed $55 billion ... dry powder hitting a record $86 billion'.",
+          "The results were public before Thursday's session: TPG opened 45.58 (+2.1% vs 44.63), closed 47.94 (+7.4%) on 371,105 shares, 1.9x the prior day. Benzinga carried no results line during the day, so the feed missed the release itself and tonight's summaries look new.",
+          "After hours: no IEX trades. A fundraising target is not earnings guidance, and the dividend cut cuts the other way."
+        ],
+        "objections": [
+          "Priced by a full session; mixed (fundraising up, dividend down)."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "TPG: no trade. Results from before the open, summarized at night after a +7.4% session",
+        "reasoning": [
+          "Filter gap: when Benzinga misses a pre-open release and carries only evening summaries, the filters think the results are new. A results headline after the close is now treated as released before that day's open when the day closed 5% or more from the prior close on 1.5x volume. Fixed after this run.",
+          "Check later: TPG's 5-day move from 47.94."
+        ],
+        "objections": [
+          "Priced."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "TWLO",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "The headline says beat-and-raise; the market says -17% after hours on 1.1M shares. The reason is not in our source",
+        "reasoning": [
+          "Sources: Twilio's Q3 2026 release (summarized by MarketScreener; Benzinga 18:02 ET): revenue '$1.56 billion and an adjusted earnings per share (EPS) of $1.65, both surpassing FactSet consensus estimates of $1.52 billion and $1.47'; Q4 outlook 'revenue between $1.60 billion and $1.61 billion and adjusted EPS in the range of $1.48 to $1.53'. Benzinga Newsdesk 16:13 ET: 'Raises FY2026 Sales Guidance from $5.979B-$6.004B to $6.084B vs $6.004B Est'.",
+          "Market, from the consolidated (SIP) tape: TWLO closed 241.85; after hours it traded 198.70 by 17:00 ET on 937,420 shares, and 201.00 at 19:59 ET. That is -16.9% on about 1.1M shares. The IEX feed showed one 5-share print, which is why the packet looked quiet.",
+          "What changed: something in the release or call, perhaps the Q4 EPS guide ($1.48-$1.53, below Q3's $1.65), margins or a metric, overrode the beat. Our summaries do not say what. Without the cause, the crew cannot judge whether -17% is right."
+        ],
+        "objections": [
+          "Reaction already -17% on heavy volume; its cause is not in the sources available."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "TWLO: no trade. 'Beat and raise' met with -17% after hours; cause unknown",
+        "reasoning": [
+          "Data fix: after-hours and pre-market moves now come from the consolidated (SIP) tape, which the account can query with a 15-minute delay. IEX alone showed one 5-share print for a -17%, 1.1M-share move. Fixed after this run.",
+          "Check later: TWLO's 5-day move from 241.85 and from the 201 after-hours level. Is a -17% reaction to a beat-and-raise followed by more selling or a rebound? Useful for future cases.",
+          "Pattern: beat-and-raise headlines this week ran from -17% (TWLO) through -2% (EXLS) to +15% (CDNA). The headline alone says little."
+        ],
+        "objections": [
+          "Unknown cause."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]
