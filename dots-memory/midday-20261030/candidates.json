@@ -1,0 +1,53 @@
+[
+  {
+    "ticker": "GD",
+    "company": "GENERAL DYNAMICS CORP",
+    "cik": "40533",
+    "accession": "news:62738117",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-30T13:29:17Z",
+    "url": "https://www.benzinga.com/news/26/10/62738117/conference-call-general-dynamics-raises-fy2026-gaap-eps-guidance-16-80-16-90-17-20-17-30-vs-17-00-es",
+    "source_excerpt": "[Benzinga news, 2026-10-30T13:29:17Z, by Benzinga Newsdesk] Conference call:\nGeneral Dynamics Raises FY2026 GAAP EPS Guidance from $16.80-$16.90 to $17.20-$17.30 vs $17.00 Est; Raises FY2026 Sales Guidance from $55.700B to $56.500B-$56.800B vs $55.940B Est\n\n",
+    "market_cap_usd": 102126997460.915,
+    "last_price": 377.935,
+    "also_accessions": [],
+    "weight": 3,
+    "first_report": "2026-10-30T13:29:17+00:00"
+  },
+  {
+    "ticker": "NXST",
+    "company": "NEXSTAR MEDIA GROUP, INC.",
+    "cik": "1142417",
+    "accession": "0001193125-26-440976",
+    "items": [
+      "8.01"
+    ],
+    "filed_at": "2026-10-30T12:22:40-04:00",
+    "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526440976/nxst-20261029.htm",
+    "source_excerpt": "Item 8.01 Other Events. On October 30, 2026, Nexstar Media Group, Inc. issued a press release, a copy of which is attached hereto as Exhibit No. 99.1 and incorporated by reference herein, announcing that its Board of Directors has declared a quarterly cash dividend of $1.86 per share on its outstanding common stock. The dividend is payable on November 27, 2026 to stockholders of record on November 13, 2026. Item 9.01 Financial Statements and Exhibits. (d) Exhibits Exhibit No. Description 99.1 Press Release issued on October 30, 2026. 104 Cover Page Interactive Data File (embedded within the Inline XBRL document). SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized. NEXSTAR MEDIA GROUP, INC. Date: October 30, 2026 By: /s/ Lee Ann Gliha Name: Lee Ann Gliha Title: Chief Financial Officer (Principal Financial Officer)",
+    "market_cap_usd": 5237103086.990001,
+    "last_price": 169.99,
+    "also_accessions": [],
+    "weight": 2,
+    "first_report": null
+  },
+  {
+    "ticker": "NVS",
+    "company": "NOVARTIS AG",
+    "cik": "1114448",
+    "accession": "news:108665959",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-30T15:31:31Z",
+    "url": "https://www.globenewswire.com/news-release/2026/10/30/3392260/0/en/israel-david-llc-secures-significant-litigation-victory-for-hedge-fund-manager-against-novartis.html",
+    "source_excerpt": "[Benzinga news, 2026-10-30T15:31:31Z, by staff] Federal Court Denies Novartis's Motion to Dismiss in Misappropriation Lawsuit\nA U.S. District Court judge denied motions to dismiss filed by Novartis International AG, allowing a lawsuit alleging the misappropriation of confidential investment strategy information to proceed to discovery.\nChief United States District Judge Laura Taylor Swain denied two motions to dismiss filed by Novartis International AG and its co-defendants in the case Richmond Global Compass Fund Management, LP v. Novartis International AG. The lawsuit alleges that Novartis and its co-defendants misappropriated confidential information and a proprietary ESG investment strategy from the plaintiff. By denying the motions, the court has allowed all claims in the case to move forward to the discovery phase and potential trial.",
+    "market_cap_usd": 310551685757.25,
+    "last_price": 162.75,
+    "also_accessions": [],
+    "weight": 2,
+    "first_report": "2026-10-30T15:31:31+00:00"
+  }
+]

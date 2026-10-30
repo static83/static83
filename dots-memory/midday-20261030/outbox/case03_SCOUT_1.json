@@ -1,0 +1,156 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 3,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "NVS",
+      "company": "NOVARTIS AG",
+      "cik": "1114448",
+      "accession": "news:108665959",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-30T15:31:31Z",
+      "url": "https://www.globenewswire.com/news-release/2026/10/30/3392260/0/en/israel-david-llc-secures-significant-litigation-victory-for-hedge-fund-manager-against-novartis.html",
+      "source_excerpt": "[Benzinga news, 2026-10-30T15:31:31Z, by staff] Federal Court Denies Novartis's Motion to Dismiss in Misappropriation Lawsuit\nA U.S. District Court judge denied motions to dismiss filed by Novartis International AG, allowing a lawsuit alleging the misappropriation of confidential investment strategy information to proceed to discovery.\nChief United States District Judge Laura Taylor Swain denied two motions to dismiss filed by Novartis International AG and its co-defendants in the case Richmond Global Compass Fund Management, LP v. Novartis International AG. The lawsuit alleges that Novartis and its co-defendants misappropriated confidential information and a proprietary ESG investment strategy from the plaintiff. By denying the motions, the court has allowed all claims in the case to move forward to the discovery phase and potential trial.",
+      "market_cap_usd": 310551685757.25,
+      "last_price": 162.75,
+      "also_accessions": [],
+      "weight": 2,
+      "first_report": "2026-10-30T15:31:31+00:00"
+    },
+    "market": {
+      "quote": {
+        "ap": 169,
+        "as": 200,
+        "ax": "V",
+        "bp": 162.31,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-30T16:30:23.77377517Z",
+        "z": "A"
+      },
+      "extended_hours": null,
+      "since_news": {
+        "since": "2026-10-30T15:31:31+00:00",
+        "trades_seen": false,
+        "note": "no trades on the IEX feed since the news; the move cannot be measured here"
+      },
+      "gap_stats_30d": {
+        "n": 0,
+        "mean_gap_pct": null,
+        "max_gap_pct": null
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 99.0452,
+        "slippage_usd": 2.4525,
+        "spread_pct": 4.039
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 133 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 39% on average, actual 67% across 3 case(s). Only 3 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "GD",
+          "night": "20261030-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "VTRS",
+          "night": "20261030-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "IRMD",
+          "night": "20261030-1316",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "VTRS",
+          "night": "20261030-1316",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "TCBK",
+          "night": "20261030-1316",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "PCRX",
+          "night": "20261030-1312",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "HIPO",
+          "night": "20261030-1312",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BFLY",
+          "night": "20261030-1312",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 156
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

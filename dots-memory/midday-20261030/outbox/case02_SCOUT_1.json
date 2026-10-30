@@ -1,0 +1,156 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 2,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "NXST",
+      "company": "NEXSTAR MEDIA GROUP, INC.",
+      "cik": "1142417",
+      "accession": "0001193125-26-440976",
+      "items": [
+        "8.01"
+      ],
+      "filed_at": "2026-10-30T12:22:40-04:00",
+      "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526440976/nxst-20261029.htm",
+      "source_excerpt": "Item 8.01 Other Events. On October 30, 2026, Nexstar Media Group, Inc. issued a press release, a copy of which is attached hereto as Exhibit No. 99.1 and incorporated by reference herein, announcing that its Board of Directors has declared a quarterly cash dividend of $1.86 per share on its outstanding common stock. The dividend is payable on November 27, 2026 to stockholders of record on November 13, 2026. Item 9.01 Financial Statements and Exhibits. (d) Exhibits Exhibit No. Description 99.1 Press Release issued on October 30, 2026. 104 Cover Page Interactive Data File (embedded within the Inline XBRL document). SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized. NEXSTAR MEDIA GROUP, INC. Date: October 30, 2026 By: /s/ Lee Ann Gliha Name: Lee Ann Gliha Title: Chief Financial Officer (Principal Financial Officer)",
+      "market_cap_usd": 5237103086.990001,
+      "last_price": 169.99,
+      "also_accessions": [],
+      "weight": 2,
+      "first_report": null
+    },
+    "market": {
+      "quote": {
+        "ap": 180.3,
+        "as": 100,
+        "ax": "V",
+        "bp": 161.16,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-30T16:29:50.813306873Z",
+        "z": "C"
+      },
+      "extended_hours": null,
+      "since_news": {
+        "since": "2026-10-30T12:22:40-04:00",
+        "trades_seen": false,
+        "note": "no trades on the IEX feed since the news; the move cannot be measured here"
+      },
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.65,
+        "max_gap_pct": 2.78
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 274.9437,
+        "slippage_usd": 2.4525,
+        "spread_pct": 11.211
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 132 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 39% on average, actual 67% across 3 case(s). Only 3 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "VTRS",
+          "night": "20261030-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "IRMD",
+          "night": "20261030-1316",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "VTRS",
+          "night": "20261030-1316",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "TCBK",
+          "night": "20261030-1316",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "PCRX",
+          "night": "20261030-1312",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "HIPO",
+          "night": "20261030-1312",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BFLY",
+          "night": "20261030-1312",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "TWLO",
+          "night": "20261030-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 155
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

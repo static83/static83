@@ -2678,6 +2678,10 @@
       "1": {
         "raw": -0.0278,
         "thesis": null
+      },
+      "5": {
+        "raw": -0.0276,
+        "thesis": null
       }
     },
     "first_exit": null
@@ -2709,7 +2713,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0782,
+        "raw": -0.1001,
         "thesis": null
       }
     },
@@ -2742,7 +2746,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.4018,
+        "raw": -0.3905,
         "thesis": null
       }
     },
@@ -2775,7 +2779,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.004,
+        "raw": -0.0019,
         "thesis": null
       }
     },
@@ -2805,6 +2809,10 @@
     "returns": {
       "1": {
         "raw": 0.0,
+        "thesis": null
+      },
+      "5": {
+        "raw": -0.0015,
         "thesis": null
       }
     },
@@ -2837,7 +2845,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.014,
+        "raw": -0.0107,
         "thesis": null
       }
     },
@@ -2870,7 +2878,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.3268,
+        "raw": -0.2988,
         "thesis": null
       }
     },
@@ -2903,7 +2911,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0869,
+        "raw": 0.0454,
         "thesis": null
       }
     },
@@ -2936,7 +2944,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0654,
+        "raw": 0.059,
         "thesis": null
       }
     },
@@ -2969,7 +2977,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0322,
+        "raw": 0.0166,
         "thesis": null
       }
     },
@@ -3002,7 +3010,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0657,
+        "raw": 0.0644,
         "thesis": null
       }
     },
@@ -3035,7 +3043,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.1981,
+        "raw": 0.1859,
         "thesis": null
       }
     },
@@ -3068,7 +3076,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0335,
+        "raw": 0.0443,
         "thesis": null
       }
     },
@@ -3101,7 +3109,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0502,
+        "raw": -0.0386,
         "thesis": null
       }
     },
@@ -3134,7 +3142,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.1671,
+        "raw": 0.1463,
         "thesis": null
       }
     },
@@ -3167,7 +3175,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.3634,
+        "raw": 0.3358,
         "thesis": null
       }
     },
@@ -3203,7 +3211,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.035,
+        "raw": 0.0349,
         "thesis": null
       }
     },
@@ -3236,7 +3244,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0941,
+        "raw": -0.0552,
         "thesis": null
       }
     },
@@ -3269,7 +3277,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0762,
+        "raw": 0.0853,
         "thesis": null
       }
     },
@@ -3304,7 +3312,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0294,
+        "raw": 0.0172,
         "thesis": null
       }
     },
@@ -4443,7 +4451,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0082,
+        "raw": -0.0057,
         "thesis": null
       }
     },
@@ -4472,7 +4480,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0176,
+        "raw": -0.0151,
         "thesis": null
       }
     },
@@ -4501,7 +4509,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0062,
+        "raw": 0.0125,
         "thesis": null
       }
     },
@@ -4532,7 +4540,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0004,
+        "raw": -0.0136,
         "thesis": null
       }
     },
@@ -4561,7 +4569,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0069,
+        "raw": 0.0056,
         "thesis": null
       }
     },
@@ -4593,8 +4601,8 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0156,
-        "thesis": 0.0156
+        "raw": 0.0259,
+        "thesis": 0.0259
       }
     },
     "first_exit": null
@@ -4622,7 +4630,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0053,
+        "raw": -0.0097,
         "thesis": null
       }
     },
@@ -4653,7 +4661,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0407,
+        "raw": 0.0837,
         "thesis": null
       }
     },
@@ -4682,7 +4690,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0467,
+        "raw": -0.0899,
         "thesis": null
       }
     },
@@ -4711,7 +4719,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0248,
+        "raw": -0.0072,
         "thesis": null
       }
     },
@@ -4740,7 +4748,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0,
+        "raw": 0.0001,
         "thesis": null
       }
     },
@@ -4767,7 +4775,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261030-1316-02-VTRS": {
@@ -4793,7 +4806,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0023,
+        "raw": -0.0114,
         "thesis": null
       }
     },
@@ -4824,7 +4837,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.005,
+        "raw": -0.02,
         "thesis": null
       }
     },
@@ -4840,6 +4853,78 @@
     "source_head": "[Benzinga news, 2026-10-30T13:31:57Z, by staff] Viatris Begins $36.50 Per Share Cash Tender Offer for Pacira BioSciences\nViatris Inc. has officially commenced a cash tender offer to acquire all outstanding shares of Pacira BioSciences for $36.50 per share.\nViatris Inc. has initiated a cash tender offer to acquire all outstanding shares of Pacira BioSciences at a price of $36.50 per share. The offer is scheduled to expire on November 16, 2026, unless extended. Completion of the acquisition is subject to customary conditions, including the tender of at least 50% of Pacira's outstanding shares an",
     "decided_at": "2026-10-30T13:48:40.538539+00:00",
     "price_at_decision": 19.240000000000002,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261030-1628-01-GD": {
+    "key": "20261030-1628-01-GD",
+    "night": "20261030-1628",
+    "ticker": "GD",
+    "accession": "news:62738117",
+    "also_accessions": [],
+    "filed_at": "2026-10-30T13:29:17Z",
+    "source_head": "[Benzinga news, 2026-10-30T13:29:17Z, by Benzinga Newsdesk] Conference call:\nGeneral Dynamics Raises FY2026 GAAP EPS Guidance from $16.80-$16.90 to $17.20-$17.30 vs $17.00 Est; Raises FY2026 Sales Guidance from $55.700B to $56.500B-$56.800B vs $55.940B Est\n\n",
+    "decided_at": "2026-10-30T16:29:35.391334+00:00",
+    "price_at_decision": 377.935,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261030-1628-02-NXST": {
+    "key": "20261030-1628-02-NXST",
+    "night": "20261030-1628",
+    "ticker": "NXST",
+    "accession": "0001193125-26-440976",
+    "also_accessions": [],
+    "filed_at": "2026-10-30T12:22:40-04:00",
+    "source_head": "Item 8.01 Other Events. On October 30, 2026, Nexstar Media Group, Inc. issued a press release, a copy of which is attached hereto as Exhibit No. 99.1 and incorporated by reference herein, announcing that its Board of Directors has declared a quarterly cash dividend of $1.86 per share on its outstanding common stock. The dividend is payable on November 27, 2026 to stockholders of record on November 13, 2026. Item 9.01 Financial Statements and Exhibits. (d) Exhibits Exhibit No. Description 99.1 Press Release issued on October 30, 2026. 104 Cover Page Interactive Data File (embedded within the In",
+    "decided_at": "2026-10-30T16:29:55.394718+00:00",
+    "price_at_decision": 169.99,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261030-1628-03-NVS": {
+    "key": "20261030-1628-03-NVS",
+    "night": "20261030-1628",
+    "ticker": "NVS",
+    "accession": "news:108665959",
+    "also_accessions": [],
+    "filed_at": "2026-10-30T15:31:31Z",
+    "source_head": "[Benzinga news, 2026-10-30T15:31:31Z, by staff] Federal Court Denies Novartis's Motion to Dismiss in Misappropriation Lawsuit\nA U.S. District Court judge denied motions to dismiss filed by Novartis International AG, allowing a lawsuit alleging the misappropriation of confidential investment strategy information to proceed to discovery.\nChief United States District Judge Laura Taylor Swain denied two motions to dismiss filed by Novartis International AG and its co-defendants in the case Richmond Global Compass Fund Management, LP v. Novartis International AG. The lawsuit alleges that Novartis a",
+    "decided_at": "2026-10-30T16:30:24.188900+00:00",
+    "price_at_decision": 162.75,
     "outcome": "no_trade",
     "ended_by": "SCOUT",
     "rounds": 1,

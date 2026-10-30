@@ -1,0 +1,165 @@
+[
+  {
+    "case": 1,
+    "ticker": "GD",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Priced through the morning: General Dynamics' pre-open raise is +2.0% after peaking at +3.9%",
+        "reasoning": [
+          "Source: General Dynamics' Q3 release and call, via Benzinga Newsdesk 09:29 ET: 'Raises FY2026 GAAP EPS Guidance from $16.80-$16.90 to $17.20-$17.30 vs $17.00 Est; Raises FY2026 Sales Guidance from $55.700B to $56.500B-$56.800B vs $55.940B Est'.",
+          "What changed: the full-year EPS midpoint ($17.25) is 1.5% above consensus and the sales midpoint 1.2% above. A solid raise for a $102B defense prime.",
+          "Move from Thursday's 371.11 close: 378.41, +1.97% on 41,433 IEX shares. The high was 385.64 (+3.9%), and it has given back half. Three hours of trading have priced it."
+        ],
+        "objections": [
+          "Pre-open news, priced through the morning; peak already faded."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "GD: no trade. A pre-open raise, priced and partly faded",
+        "reasoning": [
+          "Check later: GD's 5-day move from 371.11."
+        ],
+        "objections": [
+          "Priced."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "NXST",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A regular quarterly dividend: Nexstar declares its usual $1.86 a share",
+        "reasoning": [
+          "Source: Nexstar's 8-K filed 12:22 ET, item 8.01: 'its Board of Directors has declared a quarterly cash dividend of $1.86 per share on its outstanding common stock ... payable on November 27, 2026'.",
+          "What changed: nothing. The filing does not call it an increase, a cut or a special. IEX shows no trades since the filing."
+        ],
+        "objections": [
+          "Routine dividend declaration."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "NXST: no trade. A routine quarterly dividend",
+        "reasoning": [
+          "Filter gap: an 8.01 that only declares the regular quarterly dividend (no increase, cut, initiation or special) is now skipped as routine. Fixed after this run."
+        ],
+        "objections": [
+          "Routine."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "NVS",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A plaintiff's law-firm release: a court let a hedge fund's trade-secret suit against Novartis proceed",
+        "reasoning": [
+          "Source: a press release by Israel David LLC, the plaintiff's counsel, on GlobeNewswire ('Israel David LLC Secures Significant Litigation Victory for Hedge Fund Manager Against Novartis'). Quoted: 'Chief United States District Judge Laura Taylor Swain denied two motions to dismiss filed by Novartis International AG'. The case is Richmond Global Compass Fund Management v. Novartis, over an ESG investment strategy.",
+          "What changed: a procedural ruling in a dispute that has no stated damages and is immaterial to a $310B company. Move: -0.2% since the release."
+        ],
+        "objections": [
+          "A law-firm release on a procedural ruling; immaterial."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "NVS: no trade. A plaintiff firm's release on a motion to dismiss",
+        "reasoning": [
+          "Filter gap: plaintiff-firm releases ('<firm> LLC Secures ... Litigation Victory') join the law-firm solicitation filter, checked by URL as the others are. Fixed after this run."
+        ],
+        "objections": [
+          "Immaterial."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

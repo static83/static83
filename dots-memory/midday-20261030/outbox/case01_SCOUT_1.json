@@ -1,0 +1,164 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "GD",
+      "company": "GENERAL DYNAMICS CORP",
+      "cik": "40533",
+      "accession": "news:62738117",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-30T13:29:17Z",
+      "url": "https://www.benzinga.com/news/26/10/62738117/conference-call-general-dynamics-raises-fy2026-gaap-eps-guidance-16-80-16-90-17-20-17-30-vs-17-00-es",
+      "source_excerpt": "[Benzinga news, 2026-10-30T13:29:17Z, by Benzinga Newsdesk] Conference call:\nGeneral Dynamics Raises FY2026 GAAP EPS Guidance from $16.80-$16.90 to $17.20-$17.30 vs $17.00 Est; Raises FY2026 Sales Guidance from $55.700B to $56.500B-$56.800B vs $55.940B Est\n\n",
+      "market_cap_usd": 102126997460.915,
+      "last_price": 377.935,
+      "also_accessions": [],
+      "weight": 3,
+      "first_report": "2026-10-30T13:29:17+00:00"
+    },
+    "market": {
+      "quote": {
+        "ap": 379.1,
+        "as": 40,
+        "ax": "V",
+        "bp": 354.85,
+        "bs": 80,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-30T16:29:07.885637051Z",
+        "z": "A"
+      },
+      "extended_hours": null,
+      "since_news": {
+        "since": "2026-10-30T13:29:17+00:00",
+        "reference": 371.11,
+        "reference_is": "previous close",
+        "last": 378.41,
+        "move_pct": 1.97,
+        "high": 385.64,
+        "low": 371.95,
+        "volume": 41433,
+        "as_of": "2026-10-30T16:25:00Z",
+        "trades_seen": true,
+        "note": "IEX feed only: the move since the news went out, during today's session"
+      },
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.6,
+        "max_gap_pct": 2.36
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 162.0641,
+        "slippage_usd": 2.4525,
+        "spread_pct": 6.608
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 132 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 39% on average, actual 67% across 3 case(s). Only 3 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "VTRS",
+          "night": "20261030-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "IRMD",
+          "night": "20261030-1316",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "VTRS",
+          "night": "20261030-1316",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "TCBK",
+          "night": "20261030-1316",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "PCRX",
+          "night": "20261030-1312",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "HIPO",
+          "night": "20261030-1312",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BFLY",
+          "night": "20261030-1312",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "TWLO",
+          "night": "20261030-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 155
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}
