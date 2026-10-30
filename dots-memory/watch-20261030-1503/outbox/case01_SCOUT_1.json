@@ -1,0 +1,164 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "AMGN",
+      "company": "AMGEN INC",
+      "cik": "318154",
+      "accession": "news:109015747",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-30T19:01:52Z",
+      "url": "https://www.abnewswire.com/pressreleases/gout-clinical-trials-update-2026-phasewise-pipeline-status-drug-profiles-and-key-developers-astrazeneca-rpharm-allena-pharma-jw-pharma-hinova-pharma-jiangsu-hengrui-medicine-selecta-bio_845005.html",
+      "source_excerpt": "[Benzinga news, 2026-10-30T19:01:52Z, by staff] Amgen Continues Phase III Clinical Trial for Pegloticase in Uncontrolled Gout\nAmgen's Phase III clinical trial evaluating subcutaneous and intravenous administration of pegloticase for uncontrolled gout remains active and continues to recruit participants.\nAs of October 2026, Amgen continues to conduct its Phase III clinical trial comparing subcutaneous and intravenous administration of pegloticase, both administered alongside methotrexate. The study, which was updated in the clinical trial registry on October 19, 2026, focuses on patients with uncontrolled gout. The primary endpoint of the trial is to achieve sustained serum uric acid control at Month 6. The trial remains in the recruitment phase as part of broader industry efforts to advance gout treatment options.",
+      "market_cap_usd": 251977764890.4,
+      "last_price": 466.08,
+      "also_accessions": [],
+      "weight": 3,
+      "first_report": "2026-10-30T19:01:52+00:00"
+    },
+    "market": {
+      "quote": {
+        "ap": 466.51,
+        "as": 40,
+        "ax": "V",
+        "bp": 465.63,
+        "bs": 40,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-30T19:04:18.192218552Z",
+        "z": "C"
+      },
+      "extended_hours": null,
+      "since_news": {
+        "since": "2026-10-30T19:01:52+00:00",
+        "reference": 466.17,
+        "reference_is": "last bar before the news",
+        "last": 466.33,
+        "move_pct": 0.03,
+        "high": 466.69,
+        "low": 466.33,
+        "volume": 723,
+        "as_of": "2026-10-30T19:00:00Z",
+        "trades_seen": true,
+        "note": "IEX feed only: the move since the news went out, during today's session"
+      },
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.79,
+        "max_gap_pct": 2.93
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 4.6307,
+        "slippage_usd": 2.4525,
+        "spread_pct": 0.189
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 137 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 39% on average, actual 67% across 3 case(s). Only 3 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "RAMP",
+          "night": "20261030-1803",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "KVUE",
+          "night": "20261030-1802",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "NVS",
+          "night": "20261030-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "NXST",
+          "night": "20261030-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GD",
+          "night": "20261030-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "VTRS",
+          "night": "20261030-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "IRMD",
+          "night": "20261030-1316",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "VTRS",
+          "night": "20261030-1316",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 160
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

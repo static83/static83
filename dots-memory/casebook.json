@@ -2680,7 +2680,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0337,
+        "raw": -0.0408,
         "thesis": null
       }
     },
@@ -2713,7 +2713,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0966,
+        "raw": -0.0988,
         "thesis": null
       }
     },
@@ -2746,7 +2746,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.3888,
+        "raw": -0.404,
         "thesis": null
       }
     },
@@ -2779,7 +2779,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0091,
+        "raw": -0.0118,
         "thesis": null
       }
     },
@@ -2845,7 +2845,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0003,
+        "raw": -0.0028,
         "thesis": null
       }
     },
@@ -2878,7 +2878,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.2852,
+        "raw": -0.2773,
         "thesis": null
       }
     },
@@ -2911,7 +2911,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0401,
+        "raw": 0.0289,
         "thesis": null
       }
     },
@@ -2944,7 +2944,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0566,
+        "raw": 0.0509,
         "thesis": null
       }
     },
@@ -2977,7 +2977,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0112,
+        "raw": 0.0095,
         "thesis": null
       }
     },
@@ -3010,7 +3010,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.063,
+        "raw": 0.0661,
         "thesis": null
       }
     },
@@ -3043,7 +3043,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.1909,
+        "raw": 0.1648,
         "thesis": null
       }
     },
@@ -3076,7 +3076,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0432,
+        "raw": 0.0426,
         "thesis": null
       }
     },
@@ -3109,7 +3109,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0379,
+        "raw": -0.0428,
         "thesis": null
       }
     },
@@ -3142,7 +3142,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.1271,
+        "raw": 0.1255,
         "thesis": null
       }
     },
@@ -3175,7 +3175,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.3199,
+        "raw": 0.3259,
         "thesis": null
       }
     },
@@ -3211,7 +3211,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0369,
+        "raw": 0.0344,
         "thesis": null
       }
     },
@@ -3244,7 +3244,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0839,
+        "raw": -0.0833,
         "thesis": null
       }
     },
@@ -3277,7 +3277,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0734,
+        "raw": 0.0743,
         "thesis": null
       }
     },
@@ -3312,7 +3312,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0222,
+        "raw": 0.0173,
         "thesis": null
       }
     },
@@ -4451,7 +4451,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0062,
+        "raw": -0.0104,
         "thesis": null
       }
     },
@@ -4480,7 +4480,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0195,
+        "raw": -0.0317,
         "thesis": null
       }
     },
@@ -4509,7 +4509,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0342,
+        "raw": 0.0352,
         "thesis": null
       }
     },
@@ -4540,7 +4540,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0207,
+        "raw": -0.0229,
         "thesis": null
       }
     },
@@ -4569,7 +4569,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0081,
+        "raw": 0.0057,
         "thesis": null
       }
     },
@@ -4601,8 +4601,8 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0014,
-        "thesis": -0.0014
+        "raw": -0.0022,
+        "thesis": -0.0022
       }
     },
     "first_exit": null
@@ -4630,7 +4630,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0217,
+        "raw": -0.0264,
         "thesis": null
       }
     },
@@ -4661,7 +4661,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0999,
+        "raw": 0.0981,
         "thesis": null
       }
     },
@@ -4690,7 +4690,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.097,
+        "raw": -0.1041,
         "thesis": null
       }
     },
@@ -4719,7 +4719,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0109,
+        "raw": -0.0145,
         "thesis": null
       }
     },
@@ -4777,7 +4777,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0039,
+        "raw": -0.0047,
         "thesis": null
       }
     },
@@ -4806,7 +4806,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0104,
+        "raw": -0.0129,
         "thesis": null
       }
     },
@@ -4837,7 +4837,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0103,
+        "raw": -0.026,
         "thesis": null
       }
     },
@@ -4973,6 +4973,30 @@
     "source_head": "[Benzinga news, 2026-10-30T18:02:53Z, by staff] LiveRamp Set for NYSE Delisting Following Publicis Acquisition\nLiveRamp is scheduled to be delisted from the New York Stock Exchange on Monday following the completion of its $2.5 billion acquisition by Publicis.\nLiveRamp is set to be delisted from the New York Stock Exchange before the market opens on Monday, November 2, 2026, marking the finalization of its $2.5 billion all-cash acquisition by Publicis. The deal, valued at $38.50 per share, received regulatory approval from the Federal Trade Commission earlier this month. Under the terms of a c",
     "decided_at": "2026-10-30T18:04:51.689379+00:00",
     "price_at_decision": 38.495000000000005,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261030-1903-01-AMGN": {
+    "key": "20261030-1903-01-AMGN",
+    "night": "20261030-1903",
+    "ticker": "AMGN",
+    "accession": "news:109015747",
+    "also_accessions": [],
+    "filed_at": "2026-10-30T19:01:52Z",
+    "source_head": "[Benzinga news, 2026-10-30T19:01:52Z, by staff] Amgen Continues Phase III Clinical Trial for Pegloticase in Uncontrolled Gout\nAmgen's Phase III clinical trial evaluating subcutaneous and intravenous administration of pegloticase for uncontrolled gout remains active and continues to recruit participants.\nAs of October 2026, Amgen continues to conduct its Phase III clinical trial comparing subcutaneous and intravenous administration of pegloticase, both administered alongside methotrexate. The study, which was updated in the clinical trial registry on October 19, 2026, focuses on patients with u",
+    "decided_at": "2026-10-30T19:04:52.687098+00:00",
+    "price_at_decision": 466.08,
     "outcome": "no_trade",
     "ended_by": "SCOUT",
     "rounds": 1,

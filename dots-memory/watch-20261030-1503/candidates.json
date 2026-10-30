@@ -1,0 +1,19 @@
+[
+  {
+    "ticker": "AMGN",
+    "company": "AMGEN INC",
+    "cik": "318154",
+    "accession": "news:109015747",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-30T19:01:52Z",
+    "url": "https://www.abnewswire.com/pressreleases/gout-clinical-trials-update-2026-phasewise-pipeline-status-drug-profiles-and-key-developers-astrazeneca-rpharm-allena-pharma-jw-pharma-hinova-pharma-jiangsu-hengrui-medicine-selecta-bio_845005.html",
+    "source_excerpt": "[Benzinga news, 2026-10-30T19:01:52Z, by staff] Amgen Continues Phase III Clinical Trial for Pegloticase in Uncontrolled Gout\nAmgen's Phase III clinical trial evaluating subcutaneous and intravenous administration of pegloticase for uncontrolled gout remains active and continues to recruit participants.\nAs of October 2026, Amgen continues to conduct its Phase III clinical trial comparing subcutaneous and intravenous administration of pegloticase, both administered alongside methotrexate. The study, which was updated in the clinical trial registry on October 19, 2026, focuses on patients with uncontrolled gout. The primary endpoint of the trial is to achieve sustained serum uric acid control at Month 6. The trial remains in the recruitment phase as part of broader industry efforts to advance gout treatment options.",
+    "market_cap_usd": 251977764890.4,
+    "last_price": 466.08,
+    "also_accessions": [],
+    "weight": 3,
+    "first_report": "2026-10-30T19:01:52+00:00"
+  }
+]

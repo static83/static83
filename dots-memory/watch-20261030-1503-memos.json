@@ -1,0 +1,56 @@
+[
+  {
+    "case": 1,
+    "ticker": "AMGN",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Not Amgen news: a market-research press release says a Phase III gout trial is still recruiting",
+        "reasoning": [
+          "Source: an industry-report press release on ABNewswire ('Gout Clinical Trials Update 2026: Phasewise Pipeline Status, Drug Profiles and Key Developers'), relayed by Benzinga 15:01 ET: 'Amgen's Phase III clinical trial ... remains active and continues to recruit participants ... updated in the clinical trial registry on October 19, 2026'.",
+          "What changed: nothing. A registry entry for an ongoing study was summarized by a research vendor. Move: +0.03%."
+        ],
+        "objections": [
+          "A pipeline-report advertisement about an ongoing trial."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "AMGN: no trade. A research vendor's pipeline release",
+        "reasoning": [
+          "Filter gap: market-research press-release wires (ABNewswire, openPR, EIN Presswire) and 'continues / remains active / still recruiting' trial items are now filtered as non-events. Fixed after this run."
+        ],
+        "objections": [
+          "Filler."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]
