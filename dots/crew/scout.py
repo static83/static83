@@ -20,6 +20,7 @@ from .schema import Candidate
 EDGAR_CURRENT = "https://www.sec.gov/cgi-bin/browse-edgar"
 EDGAR_TICKERS = "https://www.sec.gov/files/company_tickers.json"
 EDGAR_FACTS = "https://data.sec.gov/api/xbrl/companyfacts/CIK{cik:0>10}.json"
+EDGAR_SUBMISSIONS = "https://data.sec.gov/submissions/CIK{cik:0>10}.json"
 # Tried in order. Companies with several share classes often tag only the class-level dei figure,
 # which the API leaves out, so fall back to the statement-level counts.
 SHARE_CONCEPTS = [
@@ -133,6 +134,17 @@ class Edgar:
                 except requests.RequestException:
                     return ""
         return ""
+
+    def latest_results_filing(self, cik: str) -> Optional[datetime]:
+        """When the company last filed a results 8-K (item 2.02) with the SEC, or None."""
+        try:
+            recent = self._get(EDGAR_SUBMISSIONS.format(cik=cik)).json()["filings"]["recent"]
+        except (requests.RequestException, ValueError, KeyError):
+            return None
+        for form, items, accepted in zip(recent["form"], recent["items"], recent["acceptanceDateTime"]):
+            if form in ("8-K", "8-K/A") and "2.02" in items.split(","):
+                return datetime.fromisoformat(accepted.replace("Z", "+00:00"))
+        return None
 
     def tickers(self) -> dict[str, dict]:
         if self._tickers is None:
@@ -848,6 +860,12 @@ def find_news_candidates(
                   or moved_before(bars, first_public_session(created))
                   or traded_since(move_since(data, ticker, created, now))
                   or moved_today(move_since(data, ticker, _open_of(now), now)))
+        if not traded and _RESULTS_HEADLINE.search(item["headline"]):
+            # a late summary of results the feed never carried at release time: ask the SEC when they came out
+            filed = edgar.latest_results_filing(cik)
+            if filed and created - timedelta(days=10) < filed < created and _sessions_closed(filed, now) >= 1:
+                traded = (f"results filed with the SEC {filed.astimezone(NY):%b %d %H:%M} ET; "
+                          "a full session has traded them")
         if traded:
             log(f"  news skip {ticker}: {traded}")
             continue

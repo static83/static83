@@ -84,7 +84,8 @@ source with an official timestamp, so "pull the original source" is literal. Fil
    says was previously disclosed, the closing of the filer's own buyout (its shares stop trading),
    anything from a company under a pending cash takeover (its price is pinned to the offer),
    a routine step on a previously disclosed merger (waiting period,
-   regulatory or court approval, shareholder vote, shareholder complaints about the deal; amended terms still
+   regulatory or court approval, shareholder vote, the launch of an agreed tender offer, shareholder
+   complaints about the deal; amended terms still
    count as news), the closing of a bond
    or convertible bond offering, a weekly at-the-market or crypto-treasury update ('ATM and BTC Update'),
    or an underwriting agreement (signed the day an offering is priced). The last two only apply when
@@ -127,7 +128,7 @@ source with an official timestamp, so "pull the original source" is literal. Fil
    A headline making someone CEO of another company weighs 1 for the tagged company (an executive
    leaving). A special dividend under 10% of the share price weighs 2, as does a deal announced by a named
    unit ('Parent's Unit Acquires'). A planned CEO succession (the outgoing CEO becomes chair) weighs 2, and so does a guidance
-   raise whose new range lands on the consensus figure in the same or a sibling headline
+   raise or cut whose new range lands on the consensus figure in the same or a sibling headline
    ('to $5.04-$5.06 vs $5.04 Est').
    A deal, contract, settlement or buyback is also weighed against the company: under 3% of
    its market value counts 1 and under 10% counts 2, however big the verb. A minority stake in
@@ -163,6 +164,8 @@ only if:
    judged, and the stock has not visibly reacted.
    A results or guidance headline published during the session is dated to before that day's
    open (companies report outside market hours), so its move counts from the previous close.
+   A results headline is also checked against the company's latest results 8-K (item 2.02) at the
+   SEC: filed before a session that has since closed means the results are old news.
    So is one published after the close when that day's session already moved 5% or more on 1.5x
    volume: the release came before the open and the feed only carried the evening summaries.
    A 10% day on heavy volume in the two sessions before the first Benzinga item also counts as

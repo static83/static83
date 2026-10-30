@@ -45,7 +45,7 @@ _FILLER = re.compile(
     r"\b(adds?|opens?|activates?|expands?) .{0,30}\b(trial |clinical )?sites?\b|\bsite activation\b|"
     r"\b(initiates?|starts?|begins?|launch(es)?|commences?|initiation of|start of)\b.{0,40}\b(phase (1|2|3|i|ii|iii)|pivotal|clinical)\b.{0,30}\b(trial|study)\b|"
     r"\b(surpass|reach|achiev|hit)\w*\b.{0,40}\b(\d+(st|nd|rd|th)? |pre-?specified |target )+events?\b|triggers? (the )?(final|interim) analysis|"
-    r"(stockholders|shareholders)'? (approv|vote)|(stockholder|shareholder) (complaints?|demands?)|ipo security released|"
+    r"(stockholders|shareholders)'? (approv|vote)|(stockholder|shareholder) (complaints?|demands?|approvals?)|ipo security released|"
     r"\b(index|indices|oil|crude|gold|copper|gdp|inflation|rates?|yields?|s&p( 500)?|kospi|nikkei|nasdaq|dow|currency|dollar|yuan|yen) (price )?(forecasts?|targets?|outlook)\b|"
     r"\b(court|fcc|ftc|doj|cfius|regulators?|commission|ministry|authority)\b.{0,40}\b(approv|sanction|clear)\w*\b.{0,40}\b(acquisition|merger|scheme|arrangement|takeover|deal)\b|"
     r"\b(acquisition|merger|takeover|deal)\b.{0,40}\b(receives?|wins?|gets?|secures?)\b.{0,30}\b(approval|clearance)\b|"
@@ -106,6 +106,11 @@ def classify(item: dict) -> Optional[str]:
         return "law-firm solicitation, not company news"
     if _PREVIEW_URL.search(item.get("url") or ""):
         return "earnings preview, which recaps earlier news"
+    about = f"{head} {item.get('summary') or ''}"
+    if (re.search(r"\b(commence[sd]?|launch(es|ed)?|begins?|starts?)\b.{0,30}\btender offer\b", head, re.IGNORECASE)
+            and (re.search(r"previously announced|merger agreement|definitive agreement", about, re.IGNORECASE)
+                 or re.search(r"\b(purchaser|merger|acquisition) sub\b|\bsubsidiary\b", head, re.IGNORECASE))):
+        return "tender offer launched on an agreed deal: a routine step"
     if _PROCEDURAL.search(head):
         return "procedural FDA step (IDE/IND), not a result"
     if not _MATERIAL.search(head):
@@ -155,7 +160,7 @@ def largest_amount(text: str, price: Optional[float] = None) -> Optional[float]:
 
 
 _GUIDANCE_TO = re.compile(
-    r"\b(raises|boosts|lifts|increases)\b.{0,40}\bguidance\b.{0,40}\bto \$(\d+\.?\d*)[BMK]?(?:\s*-\s*\$(\d+\.?\d*)[BMK]?)?\s+vs\.? \$(\d+\.?\d*)[BMK]? est",
+    r"\b(raises|boosts|lifts|increases|lowers|cuts|reduces|narrows)\b.{0,40}\bguidance\b.{0,40}\bto \$(\d+\.?\d*)[BMK]?(?:\s*-\s*\$(\d+\.?\d*)[BMK]?)?\s+vs\.? \$(\d+\.?\d*)[BMK]? est",
     re.IGNORECASE,
 )
 _GUIDANCE = re.compile(r"\b(outlook|forecast|guidance)\b", re.IGNORECASE)
