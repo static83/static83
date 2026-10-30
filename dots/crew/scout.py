@@ -247,6 +247,9 @@ def settles_prior_news(items: list[str], body: str) -> Optional[str]:
         return "completes a previously disclosed acquisition or sale"
     if "2.02" not in items and _AS_PREVIOUSLY.search(head) and _DEAL_STEP.search(head) and not _NEW_TERMS.search(head):
         return "a routine step (waiting period, approval or vote) on a previously announced deal"
+    if (set(items) <= {"8.01", "7.01"} and re.search(r"declared (a|its) (regular )?quarterly (cash )?dividend", head, re.IGNORECASE)
+            and not re.search(r"\b(increase|raise|reduc|cut|suspend|initiat|special|first)\w*", head, re.IGNORECASE)):
+        return "a routine quarterly dividend declaration"
     if set(items) <= _FINANCING_ONLY_ITEMS and _TREASURY_UPDATE.search(head):
         return "a routine periodic update of an at-the-market program or crypto treasury"
     if set(items) <= _FINANCING_ONLY_ITEMS:

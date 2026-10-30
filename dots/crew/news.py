@@ -79,7 +79,8 @@ _TIER2 = re.compile(
 # Plaintiff-firm notices ('shareholder alert', 'investigating the merger'): they repeat old news to find clients.
 _SOLICITATION = re.compile(
     r"law firm|class[- ]action (firm|lawsuit filed|deadline)|shareholder[- ]alert|investor[- ]alert|"
-    r"\binvestigat\w* (the )?(merger|claims|on behalf)|deadline reminder|lead plaintiff",
+    r"\binvestigat\w* (the )?(merger|claims|on behalf)|deadline reminder|lead plaintiff|"
+    r"litigation[- ]victory|\b(llc|llp|p\.?c\.?)[- ]secures\b",
     re.IGNORECASE,
 )
 # Earnings previews recap last quarter's news under a summary that can read as new.

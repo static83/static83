@@ -81,7 +81,8 @@ source with an official timestamp, so "pull the original source" is literal. Fil
 2. A listed ticker (EDGAR's own CIK to ticker map).
 3. Not just the paperwork for news that is already public: a filing that says it completed, closed,
    settled or priced something "previously announced", a completed acquisition or sale the filing
-   says was previously disclosed, the closing of the filer's own buyout (its shares stop trading),
+   says was previously disclosed, a routine quarterly dividend declaration, the closing of the filer's
+   own buyout (its shares stop trading),
    anything from a company under a pending cash takeover (its price is pinned to the offer),
    a routine step on a previously disclosed merger (waiting period,
    regulatory or court approval, shareholder vote, the launch of an agreed tender offer, shareholder
