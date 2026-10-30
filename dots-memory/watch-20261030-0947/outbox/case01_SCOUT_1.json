@@ -1,0 +1,164 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "VTRS",
+      "company": "Viatris Inc",
+      "cik": "1792044",
+      "accession": "news:108493777",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-30T13:31:57Z",
+      "url": "https://www.marketscreener.com/news/viatris-begins-36-50-per-share-cash-offer-for-pacira-biosciences-ce785fdbdc8bf32d",
+      "source_excerpt": "[Benzinga news, 2026-10-30T13:31:57Z, by staff] Viatris Begins $36.50 Per Share Cash Tender Offer for Pacira BioSciences\nViatris Inc. has officially commenced a cash tender offer to acquire all outstanding shares of Pacira BioSciences for $36.50 per share.\nViatris Inc. has initiated a cash tender offer to acquire all outstanding shares of Pacira BioSciences at a price of $36.50 per share. The offer is scheduled to expire on November 16, 2026, unless extended. Completion of the acquisition is subject to customary conditions, including the tender of at least 50% of Pacira's outstanding shares and the expiration or termination of the waiting period under the Hart-Scott-Rodino (HSR) Antitrust Improvements Act. The company plans to utilize a section 251(h) short-form merger process to finalize the acquisition following a successful tender, which avoids the need for a shareholder vote.",
+      "market_cap_usd": 22098888223.36,
+      "last_price": 19.240000000000002,
+      "also_accessions": [],
+      "weight": 3,
+      "first_report": "2026-10-30T13:31:57+00:00"
+    },
+    "market": {
+      "quote": {
+        "ap": 19.3,
+        "as": 500,
+        "ax": "V",
+        "bp": 19.28,
+        "bs": 200,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-30T13:48:39.324752249Z",
+        "z": "C"
+      },
+      "extended_hours": null,
+      "since_news": {
+        "since": "2026-10-30T13:31:57+00:00",
+        "reference": 19.315,
+        "reference_is": "last bar before the news",
+        "last": 19.27,
+        "move_pct": -0.23,
+        "high": 19.5,
+        "low": 19.22,
+        "volume": 45332,
+        "as_of": "2026-10-30T13:45:00Z",
+        "trades_seen": true,
+        "note": "IEX feed only: the move since the news went out, during today's session"
+      },
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.59,
+        "max_gap_pct": 1.43
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 2.5428,
+        "slippage_usd": 2.4525,
+        "spread_pct": 0.104
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 131 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 39% on average, actual 67% across 3 case(s). Only 3 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "IRMD",
+          "night": "20261030-1316",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "VTRS",
+          "night": "20261030-1316",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "TCBK",
+          "night": "20261030-1316",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "PCRX",
+          "night": "20261030-1312",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "HIPO",
+          "night": "20261030-1312",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BFLY",
+          "night": "20261030-1312",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "TWLO",
+          "night": "20261030-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "TPG",
+          "night": "20261030-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 154
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+{"role":"JOURNAL","verdict":"agree","headline":"VTRS: no trade. A rewrite of a case judged this morning",
+"reasoning":["Filter gap: once a filter stops counting an item as material, that item also drops out of the history the rewrite check reads, so its rewrites look new. The rewrite check now also compares against the headlines in the casebook. Fixed after this run."],
+"objections":["Rewrite."]}

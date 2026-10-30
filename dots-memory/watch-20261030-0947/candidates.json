@@ -1,0 +1,19 @@
+[
+  {
+    "ticker": "VTRS",
+    "company": "Viatris Inc",
+    "cik": "1792044",
+    "accession": "news:108493777",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-30T13:31:57Z",
+    "url": "https://www.marketscreener.com/news/viatris-begins-36-50-per-share-cash-offer-for-pacira-biosciences-ce785fdbdc8bf32d",
+    "source_excerpt": "[Benzinga news, 2026-10-30T13:31:57Z, by staff] Viatris Begins $36.50 Per Share Cash Tender Offer for Pacira BioSciences\nViatris Inc. has officially commenced a cash tender offer to acquire all outstanding shares of Pacira BioSciences for $36.50 per share.\nViatris Inc. has initiated a cash tender offer to acquire all outstanding shares of Pacira BioSciences at a price of $36.50 per share. The offer is scheduled to expire on November 16, 2026, unless extended. Completion of the acquisition is subject to customary conditions, including the tender of at least 50% of Pacira's outstanding shares and the expiration or termination of the waiting period under the Hart-Scott-Rodino (HSR) Antitrust Improvements Act. The company plans to utilize a section 251(h) short-form merger process to finalize the acquisition following a successful tender, which avoids the need for a shareholder vote.",
+    "market_cap_usd": 22098888223.36,
+    "last_price": 19.240000000000002,
+    "also_accessions": [],
+    "weight": 3,
+    "first_report": "2026-10-30T13:31:57+00:00"
+  }
+]

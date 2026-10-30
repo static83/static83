@@ -1,0 +1,56 @@
+[
+  {
+    "case": 1,
+    "ticker": "VTRS",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A rewrite of a case judged at 09:16: Viatris's agreed $36.50 tender for Pacira, a routine deal step",
+        "reasoning": [
+          "Source: Viatris's release on PR Newswire, retold by Benzinga at 09:31 ET: 'Viatris Inc. has officially commenced a cash tender offer to acquire all outstanding shares of Pacira BioSciences for $36.50 per share ... scheduled to expire on November 16, 2026'.",
+          "The crew judged the 08:43 ET Newsdesk version of this exact event in this morning's second pass and turned it away as a routine step on an agreed deal."
+        ],
+        "objections": [
+          "Already judged this morning; routine."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "VTRS: no trade. A rewrite of a case judged this morning",
+        "reasoning": [
+          "Filter gap: once a filter stops counting an item as material, that item also drops out of the history the rewrite check reads, so its rewrites look new. The rewrite check now also compares against the headlines in the casebook. Fixed after this run."
+        ],
+        "objections": [
+          "Rewrite."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]
