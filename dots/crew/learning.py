@@ -148,6 +148,19 @@ def seen_filings() -> set[str]:
     return out
 
 
+def recent_heads(ticker: str, days: int = 3) -> list[tuple[str, str]]:
+    """(decided_at, headline) of the cases judged on this company lately, whatever ended them."""
+    from datetime import timedelta
+
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+    out = []
+    for r in _load(CASEBOOK).values():
+        if r.get("ticker") == ticker and r.get("decided_at", "") >= cutoff:
+            head = (r.get("source_head") or "").split("] ", 1)[-1].split("\n")[0]
+            out.append((r["decided_at"], head))
+    return out
+
+
 def recently_judged_tickers(days: int = 3) -> set[str]:
     """Companies the crew has judged in the last few days; their news is usually the same story."""
     from datetime import timedelta

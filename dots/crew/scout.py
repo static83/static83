@@ -856,6 +856,13 @@ def find_news_candidates(
         if judged:  # a rewrite that names the company where the first report did not, or adds a detail
             log(f"  news skip {ticker}: rewrites '{judged['headline'][:50]}', already judged at {judged['created_at']}")
             continue
+        # the judged item may no longer count as material (a filter added since), so check the casebook too
+        from .learning import recent_heads
+
+        case = next(((when, h) for when, h in recent_heads(ticker) if h and _same_event(h, about, info.get("title", ticker))), None)
+        if case:
+            log(f"  news skip {ticker}: rewrites '{case[1][:50]}', already judged at {case[0][:16]}")
+            continue
         traded = (already_traded(bars, first_public_session(created), now)
                   or moved_before(bars, first_public_session(created))
                   or traded_since(move_since(data, ticker, created, now))
