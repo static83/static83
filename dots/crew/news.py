@@ -195,6 +195,9 @@ def weight(text: str, market_cap: Optional[float] = None, price: Optional[float]
                   text, re.IGNORECASE)
             or re.search(r"\bon \w+ \d{1,2}, \d{4},? .{0,80}\b(acquired|completed the acquisition|closed the acquisition)\b", text, re.IGNORECASE)):
         return 1  # a closing: the deal was priced when it was announced
+    if re.search(r"\bdelist\w*\b.{0,30}\b(following|after|upon|on completion of)\b.{0,60}\b(acquisition|merger|takeover|deal|buyout)\b",
+                 text, re.IGNORECASE):
+        return 1  # a delisting because an agreed deal closes
     if re.search(r"(will become|to become|becomes?|named|transition\w* to) (executive |non-executive )?chair|succession plan",
                  text, re.IGNORECASE):
         w = min(w, 2)  # a planned handover, the outgoing CEO staying on as chair: continuity, not a shock
