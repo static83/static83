@@ -43,6 +43,7 @@ _FILLER = re.compile(
     r"\b(to|will) (announce|report|release)\b.{0,80}\b(results|data|earnings)\b|\b(to|will) (host|hold)\b.{0,60}\b(call|webcast)\b|"
     r"\b(doses|dosed|dosing|enrolls|enrolled|enrollment)\b|first patient|last patient|\bon track\b|"
     r"\b(adds?|opens?|activates?|expands?) .{0,30}\b(trial |clinical )?sites?\b|\bsite activation\b|"
+    r"\b(continues?|remains? active|still recruiting|continues to recruit)\b.{0,40}\b(trial|study|recruit)|"
     r"\b(initiates?|starts?|begins?|launch(es)?|commences?|initiation of|start of)\b.{0,40}\b(phase (1|2|3|i|ii|iii)|pivotal|clinical)\b.{0,30}\b(trial|study)\b|"
     r"\b(surpass|reach|achiev|hit)\w*\b.{0,40}\b(\d+(st|nd|rd|th)? |pre-?specified |target )+events?\b|triggers? (the )?(final|interim) analysis|"
     r"(stockholders|shareholders)'? (approv|vote)|(stockholder|shareholder) (complaints?|demands?|approvals?)|ipo security released|"
@@ -80,7 +81,8 @@ _TIER2 = re.compile(
 _SOLICITATION = re.compile(
     r"law firm|class[- ]action (firm|lawsuit filed|deadline)|shareholder[- ]alert|investor[- ]alert|"
     r"\binvestigat\w* (the )?(merger|claims|on behalf)|deadline reminder|lead plaintiff|"
-    r"litigation[- ]victory|\b(llc|llp|p\.?c\.?)[- ]secures\b",
+    r"litigation[- ]victory|\b(llc|llp|p\.?c\.?)[- ]secures\b|"
+    r"abnewswire\.com|openpr\.com|einpresswire\.com|pipeline[- ]status|market[- ]research[- ]report",
     re.IGNORECASE,
 )
 # Earnings previews recap last quarter's news under a summary that can read as new.
