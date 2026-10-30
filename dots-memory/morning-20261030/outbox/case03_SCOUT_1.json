@@ -1,0 +1,144 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 3,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "PCRX",
+      "company": "Pacira BioSciences, Inc.",
+      "cik": "1396814",
+      "accession": "news:108457524",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-30T13:02:17Z",
+      "url": "https://www.prnewswire.com/news-releases/viatris-announces-commencement-of-tender-offer-to-acquire-pacira-biosciences-inc-302924916.html",
+      "source_excerpt": "[Benzinga news, 2026-10-30T13:02:17Z, by staff] Viatris Commences Tender Offer for Pacira BioSciences\nViatris Inc. has officially launched a cash tender offer to acquire all outstanding shares of Pacira BioSciences, Inc. for $36.50 per share.\nOn October 30, 2026, a wholly owned subsidiary of Viatris Inc. commenced a tender offer to purchase all issued and outstanding shares of Pacira BioSciences, Inc. common stock. The offer is priced at $36.50 per share in cash, net of applicable withholding taxes and without interest. The transaction is subject to customary conditions, including the tender of a majority of the outstanding shares and regulatory clearance under the Hart-Scott-Rodino (HSR) Act. The offer is scheduled to expire on November 16, 2026, unless extended. This move follows the previously announced acquisition agreement between the two companies.",
+      "market_cap_usd": 1450175412.68,
+      "last_price": 36.38,
+      "also_accessions": [],
+      "weight": 3,
+      "first_report": "2026-10-30T13:02:17+00:00"
+    },
+    "market": {
+      "quote": null,
+      "extended_hours": {
+        "session": "pre-market",
+        "reference_close": 36.38,
+        "trades_seen": false,
+        "note": "no extended-hours trades on the consolidated or IEX feed yet"
+      },
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 1.99,
+        "max_gap_pct": 44.14
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": null,
+        "slippage_usd": null
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 126 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 39% on average, actual 67% across 3 case(s). Only 3 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "BFLY",
+          "night": "20261030-1312",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "TWLO",
+          "night": "20261030-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "TPG",
+          "night": "20261030-0217",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "CDNA",
+          "night": "20261030-0217",
+          "ended_by": "QUANT",
+          "direction": "long",
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "UL",
+          "night": "20261029-1633",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BWA",
+          "night": "20261029-1631",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "HGV",
+          "night": "20261029-1631",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "NVAX",
+          "night": "20261029-1631",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 149
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

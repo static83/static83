@@ -1,0 +1,55 @@
+[
+  {
+    "ticker": "TCBK",
+    "company": "TRICO BANCSHARES /",
+    "cik": "356171",
+    "accession": "news:108457509",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-30T13:02:09Z",
+    "url": "https://www.globenewswire.com/news-release/2026/10/29/3391964/0/en/first-hawaiian-inc-and-trico-bancshares-announce-shareholder-approvals-of-acquisition.html",
+    "source_excerpt": "[Benzinga news, 2026-10-30T13:02:09Z, by staff] First Hawaiian and TriCo Bancshares Receive Shareholder Approvals for Acquisition\nFirst Hawaiian, Inc. and TriCo Bancshares have jointly announced that their respective stockholders and shareholders have approved the proposed acquisition of TriCo by First Hawaiian.\nFirst Hawaiian, Inc. and TriCo Bancshares announced that they have secured all necessary approvals from their respective shareholders regarding the planned acquisition of TriCo Bancshares by First Hawaiian. The companies expect the transaction to close later in 2026, pending the satisfaction of remaining customary closing conditions. This milestone marks a significant step in the business combination between the two financial institutions.",
+    "market_cap_usd": 1708776206.6499999,
+    "last_price": 53.455,
+    "also_accessions": [],
+    "weight": 3,
+    "first_report": "2026-10-30T13:02:09+00:00"
+  },
+  {
+    "ticker": "VTRS",
+    "company": "Viatris Inc",
+    "cik": "1792044",
+    "accession": "news:62736200",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-30T12:43:05Z",
+    "url": "https://www.benzinga.com/m/26/10/62736200/viatris-subsidiary-peach-purchaser-sub-commences-tender-offer-acquire-pacira-biosciences-36-50-shr",
+    "source_excerpt": "[Benzinga news, 2026-10-30T12:43:05Z, by Benzinga Newsdesk] Viatris Subsidiary Peach Purchaser Sub Commences Tender Offer To Acquire Pacira Biosciences For $36.50/Shr\n\n",
+    "market_cap_usd": 22075916406.079998,
+    "last_price": 19.22,
+    "also_accessions": [],
+    "weight": 3,
+    "first_report": "2026-10-30T12:43:05+00:00"
+  },
+  {
+    "ticker": "IRMD",
+    "company": "IRADIMED CORP",
+    "cik": "1325618",
+    "accession": "news:62735621",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-30T12:33:24Z",
+    "url": "https://www.benzinga.com/news/26/10/62735621/iradimed-lowers-fy2026-adj-eps-guidance-2-09-2-24-2-07-2-11-vs-2-11-est-narrows-fy2026-sales-guidanc",
+    "source_excerpt": "[Benzinga news, 2026-10-30T12:33:24Z, by Benzinga Newsdesk] iRadimed Lowers FY2026 Adj EPS Guidance from $2.09-$2.24 to $2.07-$2.11 vs $2.11 Est; Narrows FY2026 Sales Guidance from $91.000M-$96.000M to $91.600M-$93.100M vs $92.133M Est\n\n\n[Other material headlines on this company in the window]\n- 2026-10-30T12:33:44Z iRadimed Narrows FY2026 GAAP EPS Guidance from $1.90-$2.05 to $1.90-$1.94 vs $1.94 Est",
+    "market_cap_usd": 1098402526.9,
+    "last_price": 85.9,
+    "also_accessions": [
+      "news:62735647"
+    ],
+    "weight": 3,
+    "first_report": "2026-10-30T12:33:24+00:00"
+  }
+]

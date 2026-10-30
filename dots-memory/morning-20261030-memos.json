@@ -1,0 +1,164 @@
+[
+  {
+    "case": 1,
+    "ticker": "BFLY",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Old results: Butterfly filed its Q3 8-K on 10/29 before the open; today's item is a late summary",
+        "reasoning": [
+          "Source: Butterfly Network's Q3 2026 release; its 2.02 8-K was accepted by the SEC at 06:33 ET on 10/29 (10-Q at 06:40 ET). Benzinga's 09:02 ET item today relays it via NatLawReview: 'revenue of $32.6 million, representing a 52% increase ... raised its full-year 2026 revenue guidance to a range of $123 million to $126 million'.",
+          "A full session (10/29) has traded the results. Pre-market today on the consolidated tape: 7.29 vs 7.505, -2.9% on 10,319 shares. That move is unrelated to a day-old release."
+        ],
+        "objections": [
+          "Released a day ago and traded by a full session."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "BFLY: no trade. A day-old results release, resurfaced by a late summary",
+        "reasoning": [
+          "Filter gap: when Benzinga carried no results line at release time, its late summary looked new. A results headline is now checked against the company's latest 2.02 8-K at the SEC. If that filing came before a session that has since closed, the item is stale. Fixed after this run."
+        ],
+        "objections": [
+          "Stale."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "HIPO",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Old results: Hippo filed its Q3 8-K on 10/28 after the close; two sessions have traded it",
+        "reasoning": [
+          "Source: Hippo's Q3 2026 release on PR Newswire; its 2.02 8-K was accepted by the SEC at 18:28 ET on 10/28 (10-Q at 18:53 ET). Benzinga's 09:02 ET summary today: 'Gross written premium rose 60% year-over-year to $498 million ... now expecting gross written premium between $1.7 billion and $1.75 billion'.",
+          "Sessions since: 10/29 (closed 37.08, -1.6%) and none other yet today. Pre-market: no trades on the consolidated tape."
+        ],
+        "objections": [
+          "Released two days ago and traded by a full session."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "HIPO: no trade. Results from 10/28 evening, resurfaced today",
+        "reasoning": [
+          "Same filter gap as BFLY; fixed."
+        ],
+        "objections": [
+          "Stale."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "PCRX",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A routine deal step: Viatris starts its $36.50 cash tender for Pacira, as agreed; the stock sits at $36.38",
+        "reasoning": [
+          "Source: Viatris's release on PR Newswire: 'commenced a tender offer to purchase all issued and outstanding shares of Pacira BioSciences ... $36.50 per share in cash ... scheduled to expire on November 16, 2026'. It follows 'the previously announced acquisition agreement'.",
+          "What changed: the agreed deal moved to its next step. Pacira closed at 36.38, a 0.3% spread to the offer, which is pinned."
+        ],
+        "objections": [
+          "Routine step on an announced cash deal; price pinned to the offer."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "PCRX: no trade. Tender offer launched on an agreed cash deal",
+        "reasoning": [
+          "Filter gap: 'Commences Tender Offer' on a previously announced deal is now a routine deal step. Fixed after this run."
+        ],
+        "objections": [
+          "Pinned."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

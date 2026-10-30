@@ -1,0 +1,165 @@
+[
+  {
+    "case": 1,
+    "ticker": "TCBK",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A routine deal step: shareholders of First Hawaiian and TriCo approved the agreed merger",
+        "reasoning": [
+          "Source: the companies' joint release on GlobeNewswire (dated 10/29), relayed by Benzinga 09:02 ET: 'their respective stockholders and shareholders have approved the proposed acquisition of TriCo by First Hawaiian ... expect the transaction to close later in 2026'.",
+          "What changed: an expected vote passed. Pre-market on the consolidated tape: 53.40 vs 53.455, -0.1%."
+        ],
+        "objections": [
+          "Expected shareholder vote on an announced deal."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "TCBK: no trade. Shareholder approval of an agreed merger",
+        "reasoning": [
+          "Filter gap: 'Receive Shareholder Approvals' did not match the vote filter's wording. It does now."
+        ],
+        "objections": [
+          "Routine."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "VTRS",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "The buyer's side of a routine step: Viatris's sub starts the agreed $36.50 tender for Pacira",
+        "reasoning": [
+          "Source: Viatris's release, relayed by Benzinga Newsdesk 08:43 ET: 'Viatris Subsidiary Peach Purchaser Sub Commences Tender Offer To Acquire Pacira Biosciences For $36.50/Shr'. The deal was agreed earlier; this starts the mechanics.",
+          "For Viatris (a $22B company), the deal was priced when announced. Nothing new today."
+        ],
+        "objections": [
+          "Routine step; the buyer's exposure was priced at announcement."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "VTRS: no trade. Tender launch on an agreed deal",
+        "reasoning": [
+          "Filter gap: tender-offer launches by a named subsidiary ('Sub Commences Tender Offer') now count as routine without needing 'previously announced' in the text. A hostile bid would not come from a purchaser sub set up for an agreed deal."
+        ],
+        "objections": [
+          "Routine."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "IRMD",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A cut to consensus: iRadimed trimmed its EPS range to $2.07-$2.11, where analysts already were ($2.11)",
+        "reasoning": [
+          "Source: iRadimed's Q3 release, via Benzinga Newsdesk 08:33 ET: 'Lowers FY2026 Adj EPS Guidance from $2.09-$2.24 to $2.07-$2.11 vs $2.11 Est; Narrows FY2026 Sales Guidance from $91.000M-$96.000M to $91.600M-$93.100M vs $92.133M Est'.",
+          "What changed: the guidance range narrows down onto consensus. The EPS midpoint ($2.09) is 1% below the estimate and the sales midpoint ($92.35M) is about at it. Analysts were already at the low end. Pre-market: no trades on the consolidated tape."
+        ],
+        "objections": [
+          "A narrowing to consensus; little new."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "IRMD: no trade. Guidance narrowed down onto consensus",
+        "reasoning": [
+          "Filter gap: the guidance-to-consensus rule only covered raises. Cuts that land on consensus now weigh 2 too. Fixed after this run.",
+          "Check later: IRMD's 5-day move from 85.90."
+        ],
+        "objections": [
+          "To consensus."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

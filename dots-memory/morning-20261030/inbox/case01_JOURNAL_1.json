@@ -1,0 +1,3 @@
+{"role":"JOURNAL","verdict":"agree","headline":"BFLY: no trade. A day-old results release, resurfaced by a late summary",
+"reasoning":["Filter gap: when Benzinga carried no results line at release time, its late summary looked new. A results headline is now checked against the company's latest 2.02 8-K at the SEC. If that filing came before a session that has since closed, the item is stale. Fixed after this run."],
+"objections":["Stale."]}

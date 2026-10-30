@@ -1,0 +1,53 @@
+[
+  {
+    "ticker": "BFLY",
+    "company": "Butterfly Network, Inc.",
+    "cik": "1804176",
+    "accession": "news:108457585",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-30T13:02:46Z",
+    "url": "https://natlawreview.com/press-releases/butterfly-network-reports-third-quarter-2026-financial-results",
+    "source_excerpt": "[Benzinga news, 2026-10-30T13:02:46Z, by staff] Butterfly Network Reports Third Quarter 2026 Financial Results and Raises Full-Year Guidance\nButterfly Network announced strong third-quarter 2026 financial results, featuring a 52% year-over-year revenue increase and improved profitability metrics, while raising its full-year 2026 outlook.\nButterfly Network reported third-quarter 2026 revenue of $32.6 million, representing a 52% increase compared to the same period in 2025. The company significantly narrowed its net loss to $12.8 million from $34.0 million in the prior-year quarter and reported an adjusted EBITDA loss of $1.2 million, an 85% improvement year-over-year. Driven by these results, management raised its full-year 2026 revenue guidance to a range of $123 million to $126 million. Operational highlights included achieving FedRAMP authorization, the commencement of its Home & Community Care program, and the expansion of its Butterfly Embedded\u2122 partnership ecosystem. The company also reported an adjusted EPS of $(0.01), outperforming analyst expectations.",
+    "market_cap_usd": 1964369874.945,
+    "last_price": 7.505,
+    "also_accessions": [],
+    "weight": 3,
+    "first_report": "2026-10-30T13:02:46+00:00"
+  },
+  {
+    "ticker": "HIPO",
+    "company": "Hippo Holdings Inc.",
+    "cik": "1828105",
+    "accession": "news:108457558",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-30T13:02:34Z",
+    "url": "https://www.prnewswire.com/news-releases/hippo-reports-third-quarter-2026-financial-results-302922863.html",
+    "source_excerpt": "[Benzinga news, 2026-10-30T13:02:34Z, by staff] Hippo Holdings Inc. Reports Third Quarter 2026 Financial Results and Raises Full-Year Outlook\nHippo Holdings Inc. reported positive third-quarter 2026 earnings and increased its full-year financial guidance, citing strong premium growth and improved underwriting profitability.\nHippo Holdings Inc. reported third-quarter 2026 net income of $9 million and adjusted net income of $20 million, marking a fifth consecutive quarter of underwriting profitability. Gross written premium rose 60% year-over-year to $498 million, while the combined ratio improved by 1 percentage point to 98.4%. Driven by these results, the company raised its full-year outlook, now expecting gross written premium between $1.7 billion and $1.75 billion and revenue between $585 million and $590 million. The company also improved its full-year combined ratio guidance to a range of 97% to 98% and increased its adjusted net income forecast to $77 million to $80 million. Management attributed the performance to portfolio diversification, premium growth, and improved operating leverage.",
+    "market_cap_usd": 987133006.8,
+    "last_price": 37.08,
+    "also_accessions": [],
+    "weight": 3,
+    "first_report": "2026-10-30T13:02:34+00:00"
+  },
+  {
+    "ticker": "PCRX",
+    "company": "Pacira BioSciences, Inc.",
+    "cik": "1396814",
+    "accession": "news:108457524",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-30T13:02:17Z",
+    "url": "https://www.prnewswire.com/news-releases/viatris-announces-commencement-of-tender-offer-to-acquire-pacira-biosciences-inc-302924916.html",
+    "source_excerpt": "[Benzinga news, 2026-10-30T13:02:17Z, by staff] Viatris Commences Tender Offer for Pacira BioSciences\nViatris Inc. has officially launched a cash tender offer to acquire all outstanding shares of Pacira BioSciences, Inc. for $36.50 per share.\nOn October 30, 2026, a wholly owned subsidiary of Viatris Inc. commenced a tender offer to purchase all issued and outstanding shares of Pacira BioSciences, Inc. common stock. The offer is priced at $36.50 per share in cash, net of applicable withholding taxes and without interest. The transaction is subject to customary conditions, including the tender of a majority of the outstanding shares and regulatory clearance under the Hart-Scott-Rodino (HSR) Act. The offer is scheduled to expire on November 16, 2026, unless extended. This move follows the previously announced acquisition agreement between the two companies.",
+    "market_cap_usd": 1450175412.68,
+    "last_price": 36.38,
+    "also_accessions": [],
+    "weight": 3,
+    "first_report": "2026-10-30T13:02:17+00:00"
+  }
+]
