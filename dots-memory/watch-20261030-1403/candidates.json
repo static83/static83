@@ -1,0 +1,19 @@
+[
+  {
+    "ticker": "RAMP",
+    "company": "LiveRamp Holdings, Inc.",
+    "cik": "733269",
+    "accession": "news:108902909",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-30T18:02:53Z",
+    "url": "https://www.tradingview.com/news/seekingalpha:58c9972ff094b:0-liveramp-ticks-higher-as-it-s-set-to-be-delisted-before-monday-open-on-publicis-deal/",
+    "source_excerpt": "[Benzinga news, 2026-10-30T18:02:53Z, by staff] LiveRamp Set for NYSE Delisting Following Publicis Acquisition\nLiveRamp is scheduled to be delisted from the New York Stock Exchange on Monday following the completion of its $2.5 billion acquisition by Publicis.\nLiveRamp is set to be delisted from the New York Stock Exchange before the market opens on Monday, November 2, 2026, marking the finalization of its $2.5 billion all-cash acquisition by Publicis. The deal, valued at $38.50 per share, received regulatory approval from the Federal Trade Commission earlier this month. Under the terms of a consent decree with the FTC, Publicis is required to maintain neutral and nondiscriminatory access to LiveRamp's products and services and implement firewalls to prevent the parent company from accessing LiveRamp's customer data.",
+    "market_cap_usd": 2340302832.09,
+    "last_price": 38.495000000000005,
+    "also_accessions": [],
+    "weight": 3,
+    "first_report": "2026-10-30T18:02:53+00:00"
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "case": 1,
+    "ticker": "RAMP",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A closing, not news: LiveRamp delists as Publicis completes its acquisition",
+        "reasoning": [
+          "Source: Benzinga 14:02 ET: 'LiveRamp Set for NYSE Delisting Following Publicis Acquisition'. An agreed acquisition is completing; the price was set when the deal was announced."
+        ],
+        "objections": [
+          "Completion of an announced deal."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "RAMP: no trade. Delisting at the close of an agreed acquisition",
+        "reasoning": [
+          "Same filter gap as KVUE; fixed."
+        ],
+        "objections": [
+          "Completed deal."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

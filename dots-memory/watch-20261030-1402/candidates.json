@@ -1,0 +1,19 @@
+[
+  {
+    "ticker": "KVUE",
+    "company": "Kenvue Inc.",
+    "cik": "1944048",
+    "accession": "news:108901052",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-30T18:01:47Z",
+    "url": "https://www.tradingview.com/news/seekingalpha:67f20c100094b:0-kenvue-set-to-be-delisted-on-monday-before-open-after-kimberly-clark-deal/",
+    "source_excerpt": "[Benzinga news, 2026-10-30T18:01:47Z, by staff] Kenvue Set for NYSE Delisting Following Kimberly-Clark Acquisition\nKenvue Inc. is expected to be delisted from the New York Stock Exchange as its $40 billion acquisition by Kimberly-Clark nears completion.\nKenvue Inc. is scheduled to be delisted from the New York Stock Exchange before the market opens on the upcoming Monday, marking the final stages of its $40 billion acquisition by Kimberly-Clark. The transaction, which was first announced in January, has received necessary antitrust approvals from authorities in China, Brazil, and the European Union. This combination integrates two major global players in consumer health and personal care, aiming to establish a leader in the health and wellness sector with a projected $32 billion in annual revenue. The delisting follows the successful regulatory clearance process required to finalize the merger.",
+    "market_cap_usd": 37560964277.07,
+    "last_price": 19.545,
+    "also_accessions": [],
+    "weight": 3,
+    "first_report": "2026-10-30T18:01:47+00:00"
+  }
+]

@@ -1,0 +1,143 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "RAMP",
+      "company": "LiveRamp Holdings, Inc.",
+      "cik": "733269",
+      "accession": "news:108902909",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-30T18:02:53Z",
+      "url": "https://www.tradingview.com/news/seekingalpha:58c9972ff094b:0-liveramp-ticks-higher-as-it-s-set-to-be-delisted-before-monday-open-on-publicis-deal/",
+      "source_excerpt": "[Benzinga news, 2026-10-30T18:02:53Z, by staff] LiveRamp Set for NYSE Delisting Following Publicis Acquisition\nLiveRamp is scheduled to be delisted from the New York Stock Exchange on Monday following the completion of its $2.5 billion acquisition by Publicis.\nLiveRamp is set to be delisted from the New York Stock Exchange before the market opens on Monday, November 2, 2026, marking the finalization of its $2.5 billion all-cash acquisition by Publicis. The deal, valued at $38.50 per share, received regulatory approval from the Federal Trade Commission earlier this month. Under the terms of a consent decree with the FTC, Publicis is required to maintain neutral and nondiscriminatory access to LiveRamp's products and services and implement firewalls to prevent the parent company from accessing LiveRamp's customer data.",
+      "market_cap_usd": 2340302832.09,
+      "last_price": 38.495000000000005,
+      "also_accessions": [],
+      "weight": 3,
+      "first_report": "2026-10-30T18:02:53+00:00"
+    },
+    "market": {
+      "quote": null,
+      "extended_hours": null,
+      "since_news": {
+        "since": "2026-10-30T18:02:53+00:00",
+        "trades_seen": false,
+        "note": "no trades on the IEX feed since the news; the move cannot be measured here"
+      },
+      "gap_stats_30d": {
+        "n": 0,
+        "mean_gap_pct": null,
+        "max_gap_pct": null
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": null,
+        "slippage_usd": null
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 136 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 39% on average, actual 67% across 3 case(s). Only 3 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "KVUE",
+          "night": "20261030-1802",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "NVS",
+          "night": "20261030-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "NXST",
+          "night": "20261030-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GD",
+          "night": "20261030-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "VTRS",
+          "night": "20261030-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "IRMD",
+          "night": "20261030-1316",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "VTRS",
+          "night": "20261030-1316",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "TCBK",
+          "night": "20261030-1316",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 159
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}
