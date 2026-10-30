@@ -84,12 +84,20 @@ def extended_move(data: "AlpacaData", symbol: str, now=None) -> Optional[dict]:
     if not prior:
         return None
     ref = float(prior[-1]["c"])
-    got = data._get(f"/v2/stocks/{symbol}/bars", timeframe="5Min", start=start.isoformat(), end=end.isoformat(),
-                    limit=1000, feed="iex")
+    # The consolidated tape (SIP) sees every venue; the free plan serves it 15 minutes late. IEX alone
+    # often shows a few odd lots for a move that traded a million shares elsewhere.
+    feed, sip_end = "sip", min(end, datetime.now(timezone.utc).astimezone(ny) - timedelta(minutes=16))
+    got = data._get(f"/v2/stocks/{symbol}/bars", timeframe="5Min", start=start.isoformat(), end=sip_end.isoformat(),
+                    limit=1000, feed="sip") if sip_end > start else None
     bars = (got or {}).get("bars") or []
     if not bars:
+        feed = "iex"
+        got = data._get(f"/v2/stocks/{symbol}/bars", timeframe="5Min", start=start.isoformat(), end=end.isoformat(),
+                        limit=1000, feed="iex")
+        bars = (got or {}).get("bars") or []
+    if not bars:
         return {"session": session, "reference_close": ref, "trades_seen": False,
-                "note": "no extended-hours trades on the IEX feed yet"}
+                "note": "no extended-hours trades on the consolidated or IEX feed yet"}
     last = float(bars[-1]["c"])
     return {
         "session": session,
@@ -101,7 +109,9 @@ def extended_move(data: "AlpacaData", symbol: str, now=None) -> Optional[dict]:
         "volume": int(sum(float(b["v"]) for b in bars)),
         "as_of": bars[-1]["t"],
         "trades_seen": True,
-        "note": "IEX feed only; extended-hours volume is thin, so a small print can move the last price",
+        "feed": feed,
+        "note": ("consolidated tape, 15 minutes delayed" if feed == "sip" else
+                 "IEX feed only; extended-hours volume is thin, so a small print can move the last price"),
     }
 
 

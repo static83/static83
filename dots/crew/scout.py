@@ -716,12 +716,27 @@ _RESULTS_HEADLINE = re.compile(
 )
 
 
-def results_released_before(headline: str, created: datetime) -> datetime:
-    """A results headline published during regular hours dates from before that day's open."""
+def results_released_before(headline: str, created: datetime, bars: Optional[list[dict]] = None) -> datetime:
+    """A results headline published during regular hours dates from before that day's open. One published
+    after the close does too when that day's session already moved 5%+ on 1.5x volume: the release came
+    before the open and the feed carried only the evening summaries (TPG, 10/29)."""
     from .market import in_regular_session
 
-    if _RESULTS_HEADLINE.search(headline) and in_regular_session(created):
-        return min(created, created.astimezone(NY).replace(hour=9, minute=29, second=0, microsecond=0))
+    if not _RESULTS_HEADLINE.search(headline):
+        return created
+    local = created.astimezone(NY)
+    before_open = local.replace(hour=9, minute=29, second=0, microsecond=0)
+    if in_regular_session(created):
+        return min(created, before_open)
+    if bars and local.hour >= 16:
+        idx = [i for i, b in enumerate(bars) if b["t"][:10] == local.date().isoformat()]
+        if idx and idx[0] > 0:
+            i = idx[0]
+            base = sorted(float(b["v"]) for b in bars[max(0, i - 20):i])
+            median = base[len(base) // 2] if base else 0
+            move = float(bars[i]["c"]) / float(bars[i - 1]["c"]) - 1
+            if abs(move) >= 0.05 and median and float(bars[i]["v"]) >= 1.5 * median:
+                return before_open
     return created
 
 
@@ -818,7 +833,7 @@ def find_news_candidates(
         about = f"{item['headline']} {item.get('summary') or ''}"
         created = min([_created(i) for i in items if _same_event(i["headline"], about, info.get("title", ticker))
                        and _sessions_closed(_created(i), now) < 1] + [_created(item)])
-        created = results_released_before(item["headline"], created)
+        created = results_released_before(item["headline"], created, bars)
         repeat = told_by_news([i for i in items if i not in live], f"{item['headline']} {item.get('summary') or ''}",
                               info.get("title", ticker), now)
         if repeat:  # tonight's item rewrites a story a full session already traded

@@ -163,6 +163,8 @@ only if:
    judged, and the stock has not visibly reacted.
    A results or guidance headline published during the session is dated to before that day's
    open (companies report outside market hours), so its move counts from the previous close.
+   So is one published after the close when that day's session already moved 5% or more on 1.5x
+   volume: the release came before the open and the feed only carried the evening summaries.
    A 10% day on heavy volume in the two sessions before the first Benzinga item also counts as
    already traded: the news most likely came out elsewhere first (MRNA's leaked trial data fell 17%
    the day before Benzinga carried it).
@@ -203,8 +205,11 @@ Open `dashboard/index.html` through any static server (`python -m http.server -d
 press REPLAY. With no `runs/latest.json` present it replays a built-in sample night, labelled as
 fictional. After a real run, it replays that run's ledger instead.
 
-IEX's own after-hours session ends at 5:00pm New York time, so the free feed shows no reaction to
-news released later in the evening; the crew is told when `trades_seen` is false.
+The pre-market and after-hours move comes from the consolidated tape (SIP), which the free plan
+serves 15 minutes late; IEX alone often shows a few odd lots for a move that traded a million
+shares elsewhere (TWLO, 10/29: IEX one 5-share print, SIP -17% on 1.1M shares). If SIP has nothing
+yet, it falls back to IEX, whose own after-hours session ends at 5:00pm; the crew is told which
+feed it sees (`feed`) and when `trades_seen` is false.
 
 ## How an order enters
 
