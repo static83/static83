@@ -189,7 +189,7 @@ def weight(text: str, market_cap: Optional[float] = None, price: Optional[float]
     w = 3 if _TIER3.search(text) else 2 if _TIER2.search(text) else 1
     if re.search(r"^[A-Z][\w.&' -]{1,40}'s [A-Z][\w&-]{1,20}( unit| subsidiary)? (acquires|buys|to acquire|agrees to acquire)\b", text.split("\n")[0], re.IGNORECASE):
         w = min(w, 2)  # "Parent's Unit Acquires X": a subsidiary's deal, usually small for the parent
-    if (re.search(r"\b(units?|subsidiar(y|ies)|divisions?)\b", text, re.IGNORECASE)
+    if (re.search(r"\b(units?|subsidiar(y|ies)|divisions?|arm|part of|an affiliate of)\b", text, re.IGNORECASE)
             and re.search(r"takeover|sale|sell|divest|acqui|deal|spin|merg", text, re.IGNORECASE)
             and largest_amount(text, price) is None):
         w = min(w, 2)  # a deal for a unit, with no price: the parent's exposure is unknown and usually small
@@ -200,6 +200,8 @@ def weight(text: str, market_cap: Optional[float] = None, price: Optional[float]
     if re.search(r"\bdelist\w*\b.{0,30}\b(following|after|upon|on completion of)\b.{0,60}\b(acquisition|merger|takeover|deal|buyout)\b",
                  text, re.IGNORECASE):
         return 1  # a delisting because an agreed deal closes
+    if re.search(r"\b(following|after|upon|ahead of)\b.{0,20}\b(privatization|take-private|going private|go-private)\b", text, re.IGNORECASE):
+        return 1  # a consequence of a take-private already agreed
     if re.search(r"(will become|to become|becomes?|named|transition\w* to) (executive |non-executive )?chair|succession plan",
                  text, re.IGNORECASE):
         w = min(w, 2)  # a planned handover, the outgoing CEO staying on as chair: continuity, not a shock
