@@ -2680,7 +2680,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0408,
+        "raw": -0.0302,
         "thesis": null
       }
     },
@@ -2713,7 +2713,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0988,
+        "raw": -0.0954,
         "thesis": null
       }
     },
@@ -2746,7 +2746,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.404,
+        "raw": -0.4011,
         "thesis": null
       }
     },
@@ -2779,7 +2779,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0118,
+        "raw": -0.0086,
         "thesis": null
       }
     },
@@ -2845,7 +2845,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0028,
+        "raw": 0.0056,
         "thesis": null
       }
     },
@@ -2878,7 +2878,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.2773,
+        "raw": -0.3007,
         "thesis": null
       }
     },
@@ -2911,7 +2911,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0289,
+        "raw": 0.0436,
         "thesis": null
       }
     },
@@ -2944,7 +2944,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0509,
+        "raw": 0.0474,
         "thesis": null
       }
     },
@@ -2977,7 +2977,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0095,
+        "raw": 0.0116,
         "thesis": null
       }
     },
@@ -3010,7 +3010,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0661,
+        "raw": 0.0624,
         "thesis": null
       }
     },
@@ -3043,7 +3043,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.1648,
+        "raw": 0.1823,
         "thesis": null
       }
     },
@@ -3076,7 +3076,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0426,
+        "raw": 0.04,
         "thesis": null
       }
     },
@@ -3109,7 +3109,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0428,
+        "raw": -0.0314,
         "thesis": null
       }
     },
@@ -3142,7 +3142,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.1255,
+        "raw": 0.1431,
         "thesis": null
       }
     },
@@ -3175,7 +3175,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.3259,
+        "raw": 0.3269,
         "thesis": null
       }
     },
@@ -3211,7 +3211,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0344,
+        "raw": 0.0293,
         "thesis": null
       }
     },
@@ -3244,7 +3244,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0833,
+        "raw": -0.0727,
         "thesis": null
       }
     },
@@ -3277,7 +3277,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0743,
+        "raw": 0.078,
         "thesis": null
       }
     },
@@ -3312,7 +3312,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0173,
+        "raw": 0.0126,
         "thesis": null
       }
     },
@@ -4451,7 +4451,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0104,
+        "raw": -0.0119,
         "thesis": null
       }
     },
@@ -4480,7 +4480,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0317,
+        "raw": -0.018,
         "thesis": null
       }
     },
@@ -4509,7 +4509,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0352,
+        "raw": 0.0524,
         "thesis": null
       }
     },
@@ -4540,7 +4540,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0229,
+        "raw": -0.0128,
         "thesis": null
       }
     },
@@ -4569,7 +4569,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0057,
+        "raw": 0.0008,
         "thesis": null
       }
     },
@@ -4601,8 +4601,8 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0022,
-        "thesis": -0.0022
+        "raw": 0.0198,
+        "thesis": 0.0198
       }
     },
     "first_exit": null
@@ -4630,7 +4630,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0264,
+        "raw": -0.0212,
         "thesis": null
       }
     },
@@ -4661,7 +4661,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0981,
+        "raw": 0.1173,
         "thesis": null
       }
     },
@@ -4690,7 +4690,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.1041,
+        "raw": -0.0956,
         "thesis": null
       }
     },
@@ -4719,7 +4719,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0145,
+        "raw": -0.0221,
         "thesis": null
       }
     },
@@ -4748,7 +4748,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0001,
+        "raw": 0.0003,
         "thesis": null
       }
     },
@@ -4777,7 +4777,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0047,
+        "raw": -0.0042,
         "thesis": null
       }
     },
@@ -4806,7 +4806,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0129,
+        "raw": -0.0145,
         "thesis": null
       }
     },
@@ -4837,7 +4837,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.026,
+        "raw": -0.0452,
         "thesis": null
       }
     },
@@ -4997,6 +4997,78 @@
     "source_head": "[Benzinga news, 2026-10-30T19:01:52Z, by staff] Amgen Continues Phase III Clinical Trial for Pegloticase in Uncontrolled Gout\nAmgen's Phase III clinical trial evaluating subcutaneous and intravenous administration of pegloticase for uncontrolled gout remains active and continues to recruit participants.\nAs of October 2026, Amgen continues to conduct its Phase III clinical trial comparing subcutaneous and intravenous administration of pegloticase, both administered alongside methotrexate. The study, which was updated in the clinical trial registry on October 19, 2026, focuses on patients with u",
     "decided_at": "2026-10-30T19:04:52.687098+00:00",
     "price_at_decision": 466.08,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261031-0216-01-UTZ": {
+    "key": "20261031-0216-01-UTZ",
+    "night": "20261031-0216",
+    "ticker": "UTZ",
+    "accession": "news:62760194",
+    "also_accessions": [],
+    "filed_at": "2026-10-30T20:55:45Z",
+    "source_head": "[Benzinga news, 2026-10-30T20:55:45Z, by Benzinga Newsdesk] Utz Brands Announces Howard Friedman To Cease Employment As CEO Following Privatization Closing; Departure Expected Effective November 30, 2026\n\n",
+    "decided_at": "2026-10-31T02:17:25.121844+00:00",
+    "price_at_decision": 14.25,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261031-0216-02-ACGL": {
+    "key": "20261031-0216-02-ACGL",
+    "night": "20261031-0216",
+    "ticker": "ACGL",
+    "accession": "0000947484-26-000140",
+    "also_accessions": [],
+    "filed_at": "2026-10-30T16:20:38-04:00",
+    "source_head": "ITEM 7.01 Regulation FD Disclosure. On October 30, 2026, Arch Insurance North America, part of Arch Capital Group Ltd. (\u201cArch\u201d) that includes Arch\u2019s insurance operations in the United States and Canada, announced that it had entered into an agreement to acquire Premier Dealer Holding Corp., a Dublin, Ohio-based provider of automotive finance and insurance products and services. The transaction is subject to regulatory approvals and satisfaction of other customary closing conditions. The information in this Current Report on Form 8-K shall not be deemed \u201cfiled\u201d for purposes of Section 18 of the",
+    "decided_at": "2026-10-31T02:17:33.672519+00:00",
+    "price_at_decision": 106.36,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261031-0216-03-LMT": {
+    "key": "20261031-0216-03-LMT",
+    "night": "20261031-0216",
+    "ticker": "LMT",
+    "accession": "news:109629295",
+    "also_accessions": [],
+    "filed_at": "2026-10-31T00:01:46Z",
+    "source_head": "[Benzinga news, 2026-10-31T00:01:46Z, by staff] U.S. State Department Approves $2.1B Patriot Missile Sale to Ukraine\nThe U.S. State Department has approved a $2.1 billion sale of Patriot PAC-3 missiles to Ukraine, with Lockheed Martin serving as the principal contractor.\nThe U.S. State Department announced the approval of a $2.1 billion sale of up to 500 Patriot PAC-3 interceptor missiles to Ukraine, which includes associated spare parts, logistics, and support. Lockheed Martin is the principal contractor for the sale. The missiles utilize \"hit-to-kill\" kinetic energy technology, featuring a d",
+    "decided_at": "2026-10-31T02:17:41.837397+00:00",
+    "price_at_decision": 637.12,
     "outcome": "no_trade",
     "ended_by": "SCOUT",
     "rounds": 1,

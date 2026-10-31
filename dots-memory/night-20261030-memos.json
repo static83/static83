@@ -1,0 +1,164 @@
+[
+  {
+    "case": 1,
+    "ticker": "UTZ",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A going-private company's CEO leaves after the deal closes; the stock is pinned to the buyout price",
+        "reasoning": [
+          "Source: Utz Brands' announcement, relayed by Benzinga Newsdesk 16:55 ET (headline only): 'Utz Brands Announces Howard Friedman To Cease Employment As CEO Following Privatization Closing; Departure Expected Effective November 30, 2026'.",
+          "What changed: an agreed take-private is near its close, and the CEO's exit is part of the transaction. On the consolidated tape: 14.25 after hours, unchanged, on 513,756 shares, a deal-pinned price."
+        ],
+        "objections": [
+          "A take-private in progress; the CEO change is a consequence of the deal."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "UTZ: no trade. A CEO exit tied to a closing take-private",
+        "reasoning": [
+          "Filter gap: headlines tying an event to a privatization or take-private closing now weigh 1, like a completed deal. Fixed after this run."
+        ],
+        "objections": [
+          "Pinned."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "ACGL",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "An unpriced bolt-on by a unit: Arch's North American insurance arm buys an auto F&I provider",
+        "reasoning": [
+          "Source: Arch Capital's 8-K filed 16:20 ET, item 7.01: 'Arch Insurance North America, part of Arch Capital Group Ltd. ... announced that it had entered into an agreement to acquire Premier Dealer Holding Corp., a Dublin, Ohio-based provider of automotive finance and insurance products'. No price is given.",
+          "What changed: a small unpriced acquisition by a unit of a $36B insurer. Material deals are priced; this one is not, and it was furnished under 7.01. After hours on the consolidated tape: 105.75, -0.57%."
+        ],
+        "objections": [
+          "An unpriced, immaterial unit acquisition."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "ACGL: no trade. An unpriced bolt-on by a unit",
+        "reasoning": [
+          "Filter gap: a filing where the buyer is 'part of' or 'a subsidiary of' the filer and no price is disclosed now weighs at most 2. That matches the news rule for unit deals. Fixed after this run."
+        ],
+        "objections": [
+          "Immaterial."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "LMT",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Small for Lockheed: a $2.1B Patriot sale to Ukraine is about 1.4% of its market value",
+        "reasoning": [
+          "Source: the State Department's foreign-military-sale notice, reported by Seeking Alpha and relayed by Benzinga 20:01 ET: 'approval of a $2.1 billion sale of up to 500 Patriot PAC-3 interceptor missiles to Ukraine ... Lockheed Martin is the principal contractor'.",
+          "What changed: an approval, not yet a contract, worth about 2.8% of Lockheed's annual revenue, spread over years. PAC-3 demand was already in the backlog story. After hours: 636.00, -0.18%."
+        ],
+        "objections": [
+          "Immaterial against a $147B market cap; approval, not a contract."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "LMT: no trade. A $2.1B sale approval, small for Lockheed",
+        "reasoning": [
+          "Nothing to check later."
+        ],
+        "objections": [
+          "Immaterial."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

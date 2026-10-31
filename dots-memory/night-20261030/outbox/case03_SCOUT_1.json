@@ -1,0 +1,144 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 3,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "LMT",
+      "company": "LOCKHEED MARTIN CORP",
+      "cik": "936468",
+      "accession": "news:109629295",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-31T00:01:46Z",
+      "url": "https://www.tradingview.com/news/seekingalpha:a0029d67c094b:0-state-department-approves-2-1b-patriot-missile-sale-to-ukraine/",
+      "source_excerpt": "[Benzinga news, 2026-10-31T00:01:46Z, by staff] U.S. State Department Approves $2.1B Patriot Missile Sale to Ukraine\nThe U.S. State Department has approved a $2.1 billion sale of Patriot PAC-3 missiles to Ukraine, with Lockheed Martin serving as the principal contractor.\nThe U.S. State Department announced the approval of a $2.1 billion sale of up to 500 Patriot PAC-3 interceptor missiles to Ukraine, which includes associated spare parts, logistics, and support. Lockheed Martin is the principal contractor for the sale. The missiles utilize \"hit-to-kill\" kinetic energy technology, featuring a dual-pulse solid rocket motor and advanced fins for maneuverability against ballistic and hypersonic threats. The purchase is being funded by international donations via the JUMPSTART program and European Union loans, with no U.S. funds involved in the transaction.",
+      "market_cap_usd": 147177676236.8,
+      "last_price": 637.12,
+      "also_accessions": [],
+      "weight": 2,
+      "first_report": "2026-10-31T00:01:46+00:00"
+    },
+    "market": {
+      "quote": null,
+      "extended_hours": {
+        "session": "after-hours",
+        "reference_close": 637.12,
+        "trades_seen": false,
+        "note": "no extended-hours trades on the consolidated or IEX feed yet"
+      },
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 0,
+        "mean_gap_pct": null,
+        "max_gap_pct": null
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": null,
+        "slippage_usd": null
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 139 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 39% on average, actual 67% across 3 case(s). Only 3 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "UTZ",
+          "night": "20261031-0216",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "AMGN",
+          "night": "20261030-1903",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "RAMP",
+          "night": "20261030-1803",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "KVUE",
+          "night": "20261030-1802",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "NVS",
+          "night": "20261030-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "NXST",
+          "night": "20261030-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GD",
+          "night": "20261030-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "VTRS",
+          "night": "20261030-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 162
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

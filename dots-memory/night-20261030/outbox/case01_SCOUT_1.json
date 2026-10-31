@@ -1,0 +1,164 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "UTZ",
+      "company": "Utz Brands, Inc.",
+      "cik": "1739566",
+      "accession": "news:62760194",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-10-30T20:55:45Z",
+      "url": "https://www.benzinga.com/news/26/10/62760194/utz-brands-announces-howard-friedman-cease-employment-ceo-following-privatization-closing-departure-",
+      "source_excerpt": "[Benzinga news, 2026-10-30T20:55:45Z, by Benzinga Newsdesk] Utz Brands Announces Howard Friedman To Cease Employment As CEO Following Privatization Closing; Departure Expected Effective November 30, 2026\n\n",
+      "market_cap_usd": 1260118237.5,
+      "last_price": 14.25,
+      "also_accessions": [],
+      "weight": 3,
+      "first_report": "2026-10-30T20:55:45+00:00"
+    },
+    "market": {
+      "quote": {
+        "ap": 14.29,
+        "as": 600,
+        "ax": "V",
+        "bp": 12.23,
+        "bs": 100,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-10-30T20:00:01.766631589Z",
+        "z": "A"
+      },
+      "extended_hours": {
+        "session": "after-hours",
+        "reference_close": 14.25,
+        "last": 14.25,
+        "move_pct": 0.0,
+        "high": 14.27,
+        "low": 14.245,
+        "volume": 513756,
+        "as_of": "2026-10-30T20:50:00Z",
+        "trades_seen": true,
+        "feed": "sip",
+        "note": "consolidated tape, 15 minutes delayed"
+      },
+      "since_news": null,
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 0.05,
+        "max_gap_pct": 0.14
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 381.0091,
+        "slippage_usd": 2.4525,
+        "spread_pct": 15.535
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 138 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 39% on average, actual 67% across 3 case(s). Only 3 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "AMGN",
+          "night": "20261030-1903",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "RAMP",
+          "night": "20261030-1803",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "KVUE",
+          "night": "20261030-1802",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "NVS",
+          "night": "20261030-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "NXST",
+          "night": "20261030-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "GD",
+          "night": "20261030-1628",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "VTRS",
+          "night": "20261030-1347",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "IRMD",
+          "night": "20261030-1316",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 161
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

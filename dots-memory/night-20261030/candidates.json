@@ -1,0 +1,53 @@
+[
+  {
+    "ticker": "UTZ",
+    "company": "Utz Brands, Inc.",
+    "cik": "1739566",
+    "accession": "news:62760194",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-30T20:55:45Z",
+    "url": "https://www.benzinga.com/news/26/10/62760194/utz-brands-announces-howard-friedman-cease-employment-ceo-following-privatization-closing-departure-",
+    "source_excerpt": "[Benzinga news, 2026-10-30T20:55:45Z, by Benzinga Newsdesk] Utz Brands Announces Howard Friedman To Cease Employment As CEO Following Privatization Closing; Departure Expected Effective November 30, 2026\n\n",
+    "market_cap_usd": 1260118237.5,
+    "last_price": 14.25,
+    "also_accessions": [],
+    "weight": 3,
+    "first_report": "2026-10-30T20:55:45+00:00"
+  },
+  {
+    "ticker": "ACGL",
+    "company": "ARCH CAPITAL GROUP LTD.",
+    "cik": "947484",
+    "accession": "0000947484-26-000140",
+    "items": [
+      "7.01"
+    ],
+    "filed_at": "2026-10-30T16:20:38-04:00",
+    "url": "https://www.sec.gov/Archives/edgar/data/947484/000094748426000140/acgl-20261030.htm",
+    "source_excerpt": "ITEM 7.01 Regulation FD Disclosure. On October 30, 2026, Arch Insurance North America, part of Arch Capital Group Ltd. (\u201cArch\u201d) that includes Arch\u2019s insurance operations in the United States and Canada, announced that it had entered into an agreement to acquire Premier Dealer Holding Corp., a Dublin, Ohio-based provider of automotive finance and insurance products and services. The transaction is subject to regulatory approvals and satisfaction of other customary closing conditions. The information in this Current Report on Form 8-K shall not be deemed \u201cfiled\u201d for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the \u201cExchange Act\u201d), or incorporated by reference in any filing under the Securities Act of 1933, as amended, or the Exchange Act, except as shall be expressly set forth by specific reference in such a filing. The Private Securities Litigation Reform Act of 1995 provides a \u201csafe harbor\u201d for forward\u2212looking statements. This Form 8-K or any other written or oral statements made by or on behalf of Arch Capital Group Ltd. and its subsidiaries may include forward\u2212looking statements, which reflect the Company\u2019s current views with respect to future events and financial performance. Actual events and results may differ materially from those expressed or implied in these statements. A non-exclusive list of the important factors that could cause actual results to differ materially from those in such forward-looking statements includes the factors identified in our other filings with the U.S. Securities and Exchange Commission (\u201cSEC\u201d). ITEM 9.01 Financial Statements and Exhibits. (d): The following exhibits are being filed herewith. EXHIBIT NO. DESCRIPTION 99.1 Press release dated October 30, 2026. 104 Cover Page Interactive Data File (embedded within the Inline XBRL document) 2 SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, as amended, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. ARCH CAPITAL GROUP LTD. Date: October 30, 2026 By: /s/ Fran\u00e7ois Morin Name: Fran\u00e7ois Morin Title: Executive Vice President, Chief Financial Officer and Treasurer 3",
+    "market_cap_usd": 36293129841.36,
+    "last_price": 106.36,
+    "also_accessions": [],
+    "weight": 3,
+    "first_report": null
+  },
+  {
+    "ticker": "LMT",
+    "company": "LOCKHEED MARTIN CORP",
+    "cik": "936468",
+    "accession": "news:109629295",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-10-31T00:01:46Z",
+    "url": "https://www.tradingview.com/news/seekingalpha:a0029d67c094b:0-state-department-approves-2-1b-patriot-missile-sale-to-ukraine/",
+    "source_excerpt": "[Benzinga news, 2026-10-31T00:01:46Z, by staff] U.S. State Department Approves $2.1B Patriot Missile Sale to Ukraine\nThe U.S. State Department has approved a $2.1 billion sale of Patriot PAC-3 missiles to Ukraine, with Lockheed Martin serving as the principal contractor.\nThe U.S. State Department announced the approval of a $2.1 billion sale of up to 500 Patriot PAC-3 interceptor missiles to Ukraine, which includes associated spare parts, logistics, and support. Lockheed Martin is the principal contractor for the sale. The missiles utilize \"hit-to-kill\" kinetic energy technology, featuring a dual-pulse solid rocket motor and advanced fins for maneuverability against ballistic and hypersonic threats. The purchase is being funded by international donations via the JUMPSTART program and European Union loans, with no U.S. funds involved in the transaction.",
+    "market_cap_usd": 147177676236.8,
+    "last_price": 637.12,
+    "also_accessions": [],
+    "weight": 2,
+    "first_report": "2026-10-31T00:01:46+00:00"
+  }
+]
