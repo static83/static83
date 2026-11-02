@@ -1,0 +1,151 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "TLRY",
+      "company": "Tilray Brands, Inc.",
+      "cik": "1731348",
+      "accession": "news:62782093",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-11-02T15:17:56Z",
+      "url": "https://www.benzinga.com/markets/guidance/26/11/62782093/tilray-stock-rises-as-cannabis-giant-raises-ebitda-outlook-targets-restructuring-across-canada",
+      "source_excerpt": "[Benzinga news, 2026-11-02T15:17:56Z, by Neeraj Jain] Tilray Stock Rises As Cannabis Giant Raises EBITDA Outlook, Targets Restructuring Across Canada\nTilray raises FY2027 EBITDA guidance to $70M-$75M and restructures Canadian cannabis operations, targeting $10M in annual savings.\nTilray Brands, Inc. (NASDAQ: TLRY ) stock is up about 2% on Monday after the company raised its fiscal 2027 EBITDA guidance and announced a strategic restructuring of its Canadian cannabis operations . The company raised the lower end of its fiscal 2027 adjusted EBITDA guidance and expects adjusted EBITDA of $70 million to $75 million. Targets $10 Million in Annual Cost Savings Through Canadian Transition Tilray operates advanced cannabis cultivation and manufacturing platforms in Canada, spanning 4.2 million square feet of cultivation capacity. The company announced plans to transition cannabis cultivation and pre-roll production from its Foss facility in Fenwick, Ontario, into its existing operations in Masson, Quebec, and Cayuga, Ontario. Tilray expects to generate approximately $10 million in annualized cost savings by the end of fiscal 2028. Tilray\u2019s Masson facility is expected to increase annual cultivation capacity from approximately 32.5 metric tonnes to 50 metric tonnes, supported by higher-than-expected yields and operational improvements. The facility is also expected to regain its EU-GMP certification in calendar 2027, potentially strengthening Tilray\u2019s ability to serve international medical cannabis markets. Pre-roll production shift to Cayuga will help improve capacity utilization by leveraging existing infrastructure. Pre-rolls represented approximately one-third of Tilray\u2019s Canadian adult-use sales and grew 28% in fiscal 2026. Tilray Raises Fiscal 2027 EBITDA Guidance Tilray raised the lower end of its fiscal 2027 adjusted EBITDA outlook to $70 million\u2013$75 million, compared with its previous forecast of $68 million\u2013$75 million. The increased outlook reflects the company\u2019s continued focus on operational efficiency through cost-reduction initiatives currently underway. Chairman and CEO Irwin D. Simon emphasized that the restructuring would help Tilray leverage its existing infrastructure, reduce operating costs, expand margins and improve cash flow. President of Tilray Canada Blair MacNeil said the consolidation supports the company\u2019s plans to ship more than 8 metric tonnes of cannabis internationally in fiscal 2027. The restructuring development follows Tilray\u2019s Oct. 29 business update , when the company announced the next phase of its U.S. beverage business restructuring, targeting around $20 million in annualized cost savings by the end of fiscal 2028. The company said that it successfully completed consolidation of its U.S. brewing footprint from 10 facilities to six. It is pursuing additional opportunities across manufacturing, warehousing, procurement and logistics to lower production costs and increase utilization at its remaining breweries. Tilray\u2019s upcoming exclusive U.S. brewing and commercial partnership with Carlsberg AS (OTC: CABGY ) , scheduled to launch on Jan. 1, 2027, represents another potential growth catalyst. Elevated Short Interest Adds to Volatility Tilray\u2019s elevated short interest may have amplified Monday\u2019s move, as the guidance update may have prompted investors betting against the stock to cover their positions. The company has a short interest of 21.5 million shares, representing 14.8% of its publicly traded float according to Benzinga Pro data, indicating a relatively high level of short interest among investors betting against the stock. With a market capitalization of about $373.9 million as of Friday\u2019s close, Tilray remains a micro-cap stock vulnerable to sharp price swings amid elevated trading activity. TLRY Stock Price Activity: Tilray Brands shares are trading higher by 1.98% at $2.58 at the time of publication on Monday, according to Benzinga Pro data . Image via Shutterstock Read Also: Scott Bessent Says World Can \u2018Live Without Iranian Oil\u2019 as Hormuz Flows Return to Pre-Conflict Levels",
+      "market_cap_usd": 377597121.265,
+      "last_price": 2.5549999999999997,
+      "also_accessions": [],
+      "weight": 3,
+      "first_report": "2026-11-02T09:29:00-05:00"
+    },
+    "market": {
+      "quote": null,
+      "extended_hours": null,
+      "since_news": {
+        "since": "2026-11-02T15:17:56+00:00",
+        "reference": 2.57,
+        "reference_is": "last bar before the news",
+        "last": 2.55,
+        "move_pct": -0.78,
+        "high": 2.595,
+        "low": 2.545,
+        "volume": 48102,
+        "as_of": "2026-11-02T17:25:00Z",
+        "trades_seen": true,
+        "note": "IEX feed only: the move since the news went out, during today's session"
+      },
+      "gap_stats_30d": {
+        "n": 0,
+        "mean_gap_pct": null,
+        "max_gap_pct": null
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": null,
+        "slippage_usd": null
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 143 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 39% on average, actual 67% across 3 case(s). Only 3 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "AXSM",
+          "night": "20261102-1350",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "LITE",
+          "night": "20261102-1350",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BLMN",
+          "night": "20261102-1350",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "LMT",
+          "night": "20261031-0216",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ACGL",
+          "night": "20261031-0216",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "UTZ",
+          "night": "20261031-0216",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "AMGN",
+          "night": "20261030-1903",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "RAMP",
+          "night": "20261030-1803",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 167
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

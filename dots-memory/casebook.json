@@ -3343,6 +3343,10 @@
       "1": {
         "raw": 0.0126,
         "thesis": null
+      },
+      "5": {
+        "raw": 0.0616,
+        "thesis": null
       }
     },
     "first_exit": null
@@ -3371,6 +3375,10 @@
     "returns": {
       "1": {
         "raw": 0.0047,
+        "thesis": null
+      },
+      "5": {
+        "raw": -0.0335,
         "thesis": null
       }
     },
@@ -3425,6 +3433,10 @@
       "1": {
         "raw": 0.01,
         "thesis": null
+      },
+      "5": {
+        "raw": 0.0182,
+        "thesis": null
       }
     },
     "first_exit": null
@@ -3453,6 +3465,10 @@
     "returns": {
       "1": {
         "raw": -0.0009,
+        "thesis": null
+      },
+      "5": {
+        "raw": 0.0374,
         "thesis": null
       }
     },
@@ -3483,6 +3499,10 @@
       "1": {
         "raw": 0.0074,
         "thesis": null
+      },
+      "5": {
+        "raw": -0.038,
+        "thesis": null
       }
     },
     "first_exit": null
@@ -3511,6 +3531,10 @@
     "returns": {
       "1": {
         "raw": -0.0,
+        "thesis": null
+      },
+      "5": {
+        "raw": -0.0033,
         "thesis": null
       }
     },
@@ -3541,6 +3565,10 @@
       "1": {
         "raw": 0.0091,
         "thesis": null
+      },
+      "5": {
+        "raw": 0.0373,
+        "thesis": null
       }
     },
     "first_exit": null
@@ -3570,6 +3598,10 @@
       "1": {
         "raw": -0.1519,
         "thesis": null
+      },
+      "5": {
+        "raw": -0.1478,
+        "thesis": null
       }
     },
     "first_exit": null
@@ -3598,6 +3630,10 @@
     "returns": {
       "1": {
         "raw": 0.0035,
+        "thesis": null
+      },
+      "5": {
+        "raw": 0.0381,
         "thesis": null
       }
     },
@@ -3652,6 +3688,10 @@
       "1": {
         "raw": 0.0002,
         "thesis": null
+      },
+      "5": {
+        "raw": 0.002,
+        "thesis": null
       }
     },
     "first_exit": null
@@ -3683,6 +3723,10 @@
       "1": {
         "raw": -0.0093,
         "thesis": null
+      },
+      "5": {
+        "raw": -0.0522,
+        "thesis": null
       }
     },
     "first_exit": null
@@ -3713,6 +3757,10 @@
     "returns": {
       "1": {
         "raw": -0.0193,
+        "thesis": null
+      },
+      "5": {
+        "raw": 0.0034,
         "thesis": null
       }
     },
@@ -4888,7 +4936,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": -0.0052,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261030-1628-02-NXST": {
@@ -4912,7 +4965,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": -0.0005,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261030-1628-03-NVS": {
@@ -4936,7 +4994,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0022,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261030-1802-01-KVUE": {
@@ -5056,7 +5119,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0184,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261031-0216-03-LMT": {
@@ -5080,7 +5148,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0119,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261102-1350-01-BLMN": {
@@ -5104,7 +5177,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0189,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261102-1350-02-LITE": {
@@ -5144,6 +5222,78 @@
     "source_head": "[Benzinga news, 2026-11-02T12:25:41Z, by Benzinga Newsdesk] Axsome Sees Phase 3 ENGAGE Binge Eating Disorder Data In Q1 2027\n\n",
     "decided_at": "2026-11-02T13:51:47.596142+00:00",
     "price_at_decision": 144.63,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261102-1735-01-TLRY": {
+    "key": "20261102-1735-01-TLRY",
+    "night": "20261102-1735",
+    "ticker": "TLRY",
+    "accession": "news:62782093",
+    "also_accessions": [],
+    "filed_at": "2026-11-02T15:17:56Z",
+    "source_head": "[Benzinga news, 2026-11-02T15:17:56Z, by Neeraj Jain] Tilray Stock Rises As Cannabis Giant Raises EBITDA Outlook, Targets Restructuring Across Canada\nTilray raises FY2027 EBITDA guidance to $70M-$75M and restructures Canadian cannabis operations, targeting $10M in annual savings.\nTilray Brands, Inc. (NASDAQ: TLRY ) stock is up about 2% on Monday after the company raised its fiscal 2027 EBITDA guidance and announced a strategic restructuring of its Canadian cannabis operations . The company raised the lower end of its fiscal 2027 adjusted EBITDA guidance and expects adjusted EBITDA of $70 milli",
+    "decided_at": "2026-11-02T17:36:14.014888+00:00",
+    "price_at_decision": 2.5549999999999997,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261102-1735-02-DCH": {
+    "key": "20261102-1735-02-DCH",
+    "night": "20261102-1735",
+    "ticker": "DCH",
+    "accession": "news:110376975",
+    "also_accessions": [],
+    "filed_at": "2026-11-02T14:02:27Z",
+    "source_head": "[Benzinga news, 2026-11-02T14:02:27Z, by staff] Dauch Corporation Announces Preliminary Third Quarter 2026 Results and Adjusts Full-Year Guidance\nDauch Corporation reported preliminary third-quarter 2026 financial results and revised its full-year 2026 outlook, citing macroeconomic headwinds including production volatility and rising costs.\nDauch Corporation announced preliminary results for the third quarter ended September 30, 2026, projecting a net loss between $42 million and $47 million and Adjusted EBITDA between $355 million and $360 million. The company is adjusting its full-year 2026 ",
+    "decided_at": "2026-11-02T17:36:32.031900+00:00",
+    "price_at_decision": 4.755,
+    "outcome": "no_trade",
+    "ended_by": "SCOUT",
+    "rounds": 1,
+    "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261102-1735-03-NVS": {
+    "key": "20261102-1735-03-NVS",
+    "night": "20261102-1735",
+    "ticker": "NVS",
+    "accession": "news:110376334",
+    "also_accessions": [],
+    "filed_at": "2026-11-02T14:01:39Z",
+    "source_head": "[Benzinga news, 2026-11-02T14:01:39Z, by staff] Novartis Phase III ORION-4 Trial of Pelacarsen Misses Primary Endpoint\nNovartis announced that its Phase III ORION-4 clinical trial for pelacarsen did not meet its primary endpoint.\nNovartis reported that the Phase III ORION-4 trial evaluating pelacarsen failed to achieve its primary endpoint. The company indicated that full results from the study will be presented at an upcoming American Heart Association meeting and published in a medical journal. This development represents a setback for the company's cardiovascular pipeline.",
+    "decided_at": "2026-11-02T17:36:47.753258+00:00",
+    "price_at_decision": 160.84,
     "outcome": "no_trade",
     "ended_by": "SCOUT",
     "rounds": 1,

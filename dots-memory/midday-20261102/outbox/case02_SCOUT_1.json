@@ -1,0 +1,164 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 2,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "DCH",
+      "company": "Dauch Corp",
+      "cik": "1062231",
+      "accession": "news:110376975",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-11-02T14:02:27Z",
+      "url": "https://www.tradingview.com/news/reuters.com,2026-11-02:newsml_RSB2830Ba:0-reg-dauch-corporation-results-of-operations-and-financial-condition/",
+      "source_excerpt": "[Benzinga news, 2026-11-02T14:02:27Z, by staff] Dauch Corporation Announces Preliminary Third Quarter 2026 Results and Adjusts Full-Year Guidance\nDauch Corporation reported preliminary third-quarter 2026 financial results and revised its full-year 2026 outlook, citing macroeconomic headwinds including production volatility and rising costs.\nDauch Corporation announced preliminary results for the third quarter ended September 30, 2026, projecting a net loss between $42 million and $47 million and Adjusted EBITDA between $355 million and $360 million. The company is adjusting its full-year 2026 Adjusted EBITDA target to a range of $1.350 billion to $1.375 billion, down from its previous guidance of $1.360 billion to $1.425 billion. Additionally, the company updated its full-year 2026 sales target to a range of $10.8 billion to $10.875 billion, compared to the prior range of $10.6 billion to $10.8 billion. Management attributed these adjustments to ongoing macroeconomic challenges, including customer production volatility, inflation, and rising energy costs. A full report of the third-quarter results is scheduled for release on November 6, 2026.",
+      "market_cap_usd": 1129809882.51,
+      "last_price": 4.755,
+      "also_accessions": [],
+      "weight": 3,
+      "first_report": "2026-11-02T14:02:27+00:00"
+    },
+    "market": {
+      "quote": {
+        "ap": 4.76,
+        "as": 10200,
+        "ax": "V",
+        "bp": 4.75,
+        "bs": 700,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-11-02T17:36:31.140896588Z",
+        "z": "A"
+      },
+      "extended_hours": null,
+      "since_news": {
+        "since": "2026-11-02T14:02:27+00:00",
+        "reference": 4.78,
+        "reference_is": "previous close",
+        "last": 4.745,
+        "move_pct": -0.73,
+        "high": 4.885,
+        "low": 4.745,
+        "volume": 127058,
+        "as_of": "2026-11-02T17:35:00Z",
+        "trades_seen": true,
+        "note": "IEX feed only: the move since the news went out, during today's session"
+      },
+      "gap_stats_30d": {
+        "n": 29,
+        "mean_gap_pct": 1.39,
+        "max_gap_pct": 5.08
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 5.1578,
+        "slippage_usd": 2.4525,
+        "spread_pct": 0.21
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 143 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 39% on average, actual 67% across 3 case(s). Only 3 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "AXSM",
+          "night": "20261102-1350",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "LITE",
+          "night": "20261102-1350",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BLMN",
+          "night": "20261102-1350",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "LMT",
+          "night": "20261031-0216",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "ACGL",
+          "night": "20261031-0216",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "UTZ",
+          "night": "20261031-0216",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "AMGN",
+          "night": "20261030-1903",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "RAMP",
+          "night": "20261030-1803",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 167
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}

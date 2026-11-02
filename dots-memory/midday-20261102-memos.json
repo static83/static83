@@ -1,0 +1,165 @@
+[
+  {
+    "case": 1,
+    "ticker": "TLRY",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Pre-open news priced by midday: Tilray nudged up the low end of its EBITDA range; the stock is +1.0%",
+        "reasoning": [
+          "Source: Tilray's announcement (before the open), summarized by Benzinga at 10:17 ET: 'raised the lower end of its fiscal 2027 adjusted EBITDA guidance and expects adjusted EBITDA of $70 million to $75 million'; Canadian restructuring targeting '$10 million in annualized cost savings by the end of fiscal 2028'.",
+          "Move from Friday's 2.525 close: 2.55, +0.99% on 99,203 IEX shares; it peaked at 2.65 (+5%) and faded. A raise to the low end of a range plus small savings, priced through the morning."
+        ],
+        "objections": [
+          "Small raise; priced and faded."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "TLRY: no trade. A low-end EBITDA raise, priced",
+        "reasoning": [
+          "Check later: TLRY's 5-day move from 2.525."
+        ],
+        "objections": [
+          "Priced."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "DCH",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Mixed and priced: Dauch trimmed its EBITDA range and raised sales in preliminary results; the stock is -0.5%",
+        "reasoning": [
+          "Source: Dauch Corporation's preliminary Q3 results via Reuters (Benzinga 09:02 ET): 'projecting a net loss between $42 million and $47 million and Adjusted EBITDA between $355 million and $360 million ... full-year 2026 Adjusted EBITDA target to a range of $1.350 billion to $1.375 billion, down from its previous guidance of $1.360 billion to $1.425 billion'; sales target raised to '$10.8 billion to $10.875 billion'.",
+          "What changed: the EBITDA midpoint falls about 2% while sales rise; margins are thinner. Full results come on November 6.",
+          "Move: 4.755 vs Friday's 4.78 close, -0.52% on 126,383 IEX shares over three hours."
+        ],
+        "objections": [
+          "Small mixed revision, priced; full results due Nov 6."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "DCH: no trade. A small mixed guidance revision",
+        "reasoning": [
+          "Check later: the full results on Nov 6."
+        ],
+        "objections": [
+          "Priced."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "NVS",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Old news in a weekly recap: Novartis's ORION-4 miss was reported last week",
+        "reasoning": [
+          "Source: a TradingView weekly recap ('Weekly recap: 2026 outlook raised and ORION-4 misses primary endpoint'), relayed by Benzinga 09:01 ET: 'Novartis reported that the Phase III ORION-4 trial evaluating pelacarsen failed to achieve its primary endpoint'.",
+          "The URL and title say it is a recap of the past week, so the market has traded the miss already. Move today: +0.02% from Friday's 160.80 close."
+        ],
+        "objections": [
+          "A weekly recap of news already traded."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "NVS: no trade. A weekly recap of last week's trial miss",
+        "reasoning": [
+          "Filter gap: recap items flagged only in their URL ('weekly-recap', 'week-in-review') are now filtered like recap headlines. Fixed after this run."
+        ],
+        "objections": [
+          "Recap."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

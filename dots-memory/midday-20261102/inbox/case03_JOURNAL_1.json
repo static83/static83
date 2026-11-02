@@ -1,0 +1,2 @@
+{"role":"JOURNAL","verdict":"agree","headline":"NVS: no trade. A weekly recap of last week's trial miss",
+"reasoning":["Filter gap: recap items flagged only in their URL ('weekly-recap', 'week-in-review') are now filtered like recap headlines. Fixed after this run."],"objections":["Recap."]}
