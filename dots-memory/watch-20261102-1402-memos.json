@@ -1,0 +1,56 @@
+[
+  {
+    "case": 1,
+    "ticker": "C",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "Not Citigroup's news: Citi is the dealer manager on another company's $2B bond buyback",
+        "reasoning": [
+          "Source: Cloud Software Group's release on PR Newswire (via Morningstar), relayed by Benzinga 14:01 ET: 'Cloud Software Group Holdings, Inc. has commenced a cash tender offer to purchase up to $2 billion of its 9.00% Senior Secured Second Lien Notes due 2029 ... retained Citigroup Global Markets Inc. to serve as the dealer manager'.",
+          "What changed for Citigroup: one more advisory mandate, routine and immaterial."
+        ],
+        "objections": [
+          "An adviser's role in someone else's transaction."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "C: no trade. Citi named dealer manager for another company's tender",
+        "reasoning": [
+          "Filter gap: '<bank> Retained as Dealer Manager / Financial Advisor / Underwriter' is now commentary about the adviser. Fixed after this run."
+        ],
+        "objections": [
+          "Not about Citi."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

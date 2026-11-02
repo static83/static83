@@ -1,0 +1,19 @@
+[
+  {
+    "ticker": "C",
+    "company": "CITIGROUP INC",
+    "cik": "831001",
+    "accession": "news:110729968",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-11-02T19:01:52Z",
+    "url": "https://www.morningstar.com/news/pr-newswire/20261102ny86403/cloud-software-group-commences-offer-to-purchase-for-cash-up-to-20-billion-aggregate-principal-amount-of-its-900-senior-secured-second-lien-notes-due-2029",
+    "source_excerpt": "[Benzinga news, 2026-11-02T19:01:52Z, by staff] Citigroup Global Markets Inc. Retained as Dealer Manager for Cloud Software Group Tender Offer\nCloud Software Group Holdings, Inc. has retained Citigroup Global Markets Inc. to act as the dealer manager for its cash tender offer for senior secured notes.\nCloud Software Group Holdings, Inc. has commenced a cash tender offer to purchase up to $2 billion of its 9.00% Senior Secured Second Lien Notes due 2029. As part of this transaction, the company has retained Citigroup Global Markets Inc. to serve as the dealer manager for the offer. The tender offer is scheduled to expire on November 9, 2026, unless extended or terminated by the company. Citigroup Global Markets Inc. is providing advisory services to facilitate the tender process for noteholders.",
+    "market_cap_usd": 216312042057.895,
+    "last_price": 123.655,
+    "also_accessions": [],
+    "weight": 3,
+    "first_report": "2026-11-02T19:01:52+00:00"
+  }
+]

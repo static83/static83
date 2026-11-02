@@ -1,0 +1,111 @@
+[
+  {
+    "case": 1,
+    "ticker": "ROKU",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A deal step, out with Fox's results this morning: shareholder and foreign approvals for the $22B Roku purchase; the US DOJ review is still open",
+        "reasoning": [
+          "Source: Fox Corporation's fiscal Q1 2027 earnings release (before the open), summarized by Seeking Alpha ('Roku-Fox deal's spread narrows after Fox says it received all foreign regulator approvals') and Benzinga 14:02 ET: 'received all required shareholder and foreign regulatory clearances for its proposed $22 billion acquisition of Roku ... currently working with the U.S. Department of Justice'.",
+          "What changed: two conditions are met. The remaining risk, the DOJ, is unchanged. The source itself reports the spread has already narrowed, so the session has priced it."
+        ],
+        "objections": [
+          "A routine step on an agreed deal, priced since the morning."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "ROKU: no trade. Approvals on an agreed deal, the DOJ still pending",
+        "reasoning": [
+          "Filter gap: 'Receives Shareholder and Foreign Regulatory Approvals for <X> Acquisition' did not match the approval wordings. Any 'receives ... approval(s)' next to an acquisition or merger is now a routine deal step. Fixed after this run.",
+          "Check later: watch for a DOJ decision on Fox-Roku; that is the real event."
+        ],
+        "objections": [
+          "Routine."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "OMC",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A unit head, not the group CEO: Omnicom names a new chief for its health-marketing business",
+        "reasoning": [
+          "Source: Omnicom's release on PR Newswire: 'appointment of Tom Schwenger as the Chief Executive Officer of its health marketing business, Omnicom Health, effective November 2, 2026 ... He succeeds Dana Maiman'.",
+          "What changed: leadership of one division. The group CEO is unchanged."
+        ],
+        "objections": [
+          "Division leadership change; immaterial for the group."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "OMC: no trade. A division CEO appointment",
+        "reasoning": [
+          "Filter gap: 'CEO of <Company> <Unit>' (a division head) weighed 3 on the CEO rule. A CEO title followed by a business-unit name now weighs 1. Fixed after this run."
+        ],
+        "objections": [
+          "Division."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]

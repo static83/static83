@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "ROKU",
+    "company": "ROKU, INC",
+    "cik": "1428439",
+    "accession": "news:110731449",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-11-02T19:02:09Z",
+    "url": "https://www.tradingview.com/news/seekingalpha:39446e363094b:0-roku-fox-deals-spread-narrows-after-fox-says-it-received-all-foreign-regulator-approvals/",
+    "source_excerpt": "[Benzinga news, 2026-11-02T19:02:09Z, by staff] Fox Corporation Receives Shareholder and Foreign Regulatory Approvals for Roku Acquisition\nFox Corporation announced that it has secured all necessary shareholder and foreign regulatory approvals for its planned $22 billion acquisition of Roku, Inc.\nDuring its fiscal Q1 2027 earnings announcement on November 2, 2026, Fox Corporation confirmed that it has received all required shareholder and foreign regulatory clearances for its proposed $22 billion acquisition of Roku, Inc. The company is currently working with the U.S. Department of Justice to obtain final antitrust clearance, with the deal expected to close by the first half of 2027. While the transaction has faced some scrutiny from state attorneys general, the progress in securing foreign and shareholder approvals has narrowed the deal spread. Roku remains the target of this acquisition, which is a significant strategic development for the streaming platform.",
+    "market_cap_usd": 23085298999.999996,
+    "last_price": 156.14,
+    "also_accessions": [],
+    "weight": 3,
+    "first_report": "2026-11-02T19:02:09+00:00"
+  },
+  {
+    "ticker": "OMC",
+    "company": "OMNICOM GROUP INC.",
+    "cik": "29989",
+    "accession": "news:110731445",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-11-02T19:02:09Z",
+    "url": "https://www.prnewswire.com/news-releases/omnicom-appoints-tom-schwenger-as-ceo-of-omnicom-health-marketing-302926521.html",
+    "source_excerpt": "[Benzinga news, 2026-11-02T19:02:09Z, by staff] Omnicom Appoints Tom Schwenger as CEO of Omnicom Health Marketing\nOmnicom Group Inc. has appointed Tom Schwenger as the new CEO of its health marketing business, effective immediately, succeeding Dana Maiman.\nOmnicom Group Inc. announced the appointment of Tom Schwenger as the Chief Executive Officer of its health marketing business, Omnicom Health, effective November 2, 2026. Schwenger, who joins the company from Veeva Systems, will oversee the unit's global marketing agencies. He succeeds Dana Maiman, who is departing the company. The leadership transition involves the oversight of Omnicom Health's specialized marketing services, which leverage the company's proprietary data and identity platform, Omni, to serve life sciences and pharmaceutical clients.",
+    "market_cap_usd": 22608141198.48,
+    "last_price": 82.86,
+    "also_accessions": [],
+    "weight": 3,
+    "first_report": "2026-11-02T19:02:09+00:00"
+  }
+]

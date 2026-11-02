@@ -1,0 +1,156 @@
+{
+  "role": "SCOUT",
+  "packet": {
+    "case": 1,
+    "account": {
+      "equity_usd": 4905.03,
+      "mode": "alpaca-paper",
+      "open_positions": [],
+      "open_orders": []
+    },
+    "filing": {
+      "ticker": "ROKU",
+      "company": "ROKU, INC",
+      "cik": "1428439",
+      "accession": "news:110731449",
+      "items": [
+        "news"
+      ],
+      "filed_at": "2026-11-02T19:02:09Z",
+      "url": "https://www.tradingview.com/news/seekingalpha:39446e363094b:0-roku-fox-deals-spread-narrows-after-fox-says-it-received-all-foreign-regulator-approvals/",
+      "source_excerpt": "[Benzinga news, 2026-11-02T19:02:09Z, by staff] Fox Corporation Receives Shareholder and Foreign Regulatory Approvals for Roku Acquisition\nFox Corporation announced that it has secured all necessary shareholder and foreign regulatory approvals for its planned $22 billion acquisition of Roku, Inc.\nDuring its fiscal Q1 2027 earnings announcement on November 2, 2026, Fox Corporation confirmed that it has received all required shareholder and foreign regulatory clearances for its proposed $22 billion acquisition of Roku, Inc. The company is currently working with the U.S. Department of Justice to obtain final antitrust clearance, with the deal expected to close by the first half of 2027. While the transaction has faced some scrutiny from state attorneys general, the progress in securing foreign and shareholder approvals has narrowed the deal spread. Roku remains the target of this acquisition, which is a significant strategic development for the streaming platform.",
+      "market_cap_usd": 23085298999.999996,
+      "last_price": 156.14,
+      "also_accessions": [],
+      "weight": 3,
+      "first_report": "2026-11-02T19:02:09+00:00"
+    },
+    "market": {
+      "quote": {
+        "ap": 156.37,
+        "as": 100,
+        "ax": "V",
+        "bp": 156.19,
+        "bs": 200,
+        "bx": "V",
+        "c": [
+          "R"
+        ],
+        "t": "2026-11-02T19:04:19.706102977Z",
+        "z": "C"
+      },
+      "extended_hours": null,
+      "since_news": {
+        "since": "2026-11-02T19:02:09+00:00",
+        "trades_seen": false,
+        "note": "no trades on the IEX feed since the news; the move cannot be measured here"
+      },
+      "gap_stats_30d": {
+        "n": 0,
+        "mean_gap_pct": null,
+        "max_gap_pct": null
+      },
+      "cost_model_for_full_account": {
+        "commission_usd": 0.0,
+        "spread_usd": 2.8248,
+        "slippage_usd": 2.4525,
+        "spread_pct": 0.115
+      },
+      "note": "quote is None when Alpaca keys are not configured; say so instead of guessing"
+    },
+    "memos_so_far": [],
+    "track_record": {
+      "how_to_use": "Evidence about this crew's own past calls. Weigh it by sample size; never treat a handful of cases as a rule.",
+      "scorecard": [
+        "SCOUT skipped 147 case(s); none has a thesis direction with 5 trading days of history yet.",
+        "SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.",
+        "QUANT rejected 1 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 1 of 1 times. Positive means this gate is stopping trades that would have worked. Only 1 so far, too few to act on.",
+        "Trades closed: 1, realized P&L -95.09 USD, 0 winners. Exits: 0 at target, 1 at stop, 0 on the time limit, 0 by the crew on news. Only 1 so far, too few to act on.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, stop exit, P&L -0.02.",
+        "Test order (plumbing check, not a crew call): buy 1 F, closed, time limit exit, P&L +0.22.",
+        "QUANT calibration: predicted stop-out 39% on average, actual 67% across 3 case(s). Only 3 so far, too few to act on."
+      ],
+      "recent_cases": [
+        {
+          "ticker": "C",
+          "night": "20261102-1902",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "EW",
+          "night": "20261102-1833",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "NVS",
+          "night": "20261102-1735",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "DCH",
+          "night": "20261102-1735",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "TLRY",
+          "night": "20261102-1735",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "AXSM",
+          "night": "20261102-1350",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "LITE",
+          "night": "20261102-1350",
+          "ended_by": "ANALYST",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        },
+        {
+          "ticker": "BLMN",
+          "night": "20261102-1350",
+          "ended_by": "SCOUT",
+          "direction": null,
+          "thesis_5d": null,
+          "raw_5d": null,
+          "first_exit": null
+        }
+      ],
+      "cases_on_file": 172
+    },
+    "rules": {
+      "unanimous_first_pass_restarts": true,
+      "max_rounds": 4,
+      "max_bad_exit_fraction_of_account": 0.05,
+      "time_limit": "trades close after horizon_days trading days (default 10)"
+    }
+  }
+}
