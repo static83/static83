@@ -1,0 +1,7 @@
+{"role":"ANALYST","verdict":"object","headline":"No single-name edge: LITE now trades as Marvell stock plus a 7.9% deal-risk spread",
+"reasoning":["What changed: LITE's value is 4.5 x MRVL if the deal closes. The 7.9% gap to that value is large for an agreed deal, and it prices real risk: a $115B semiconductor combination needs antitrust review in several countries, China's included, and a long closing period.",
+"A long LITE is a long MRVL position plus a bet the spread narrows. Without shorting MRVL against it, which the crew's single-leg brackets cannot do, most of the risk is Marvell's own price, which fell 10% Friday and 3.8% this morning.",
+"A short on LITE or MRVL bets on deal failure or more selling of the buyer. There is no information yet on regulatory pushback, and the buyer has already marked down 14% over two sessions.",
+"Would prove this wrong: the spread collapsing to under 3% within days (the market dismissing regulatory risk) or widening past 15% (pricing a likely break). Either would be a new event to judge."],
+"objections":["Merger arbitrage; the crew cannot hold a hedged pair.","Friday's pre-announcement falls are unexplained (SCOUT)."],
+"direction":"none"}

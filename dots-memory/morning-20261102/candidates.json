@@ -1,0 +1,56 @@
+[
+  {
+    "ticker": "BLMN",
+    "company": "Bloomin' Brands, Inc.",
+    "cik": "1546417",
+    "accession": "news:62777597",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-11-02T13:43:49Z",
+    "url": "https://www.benzinga.com/news/26/11/62777597/bloomin-brands-cerca-trova-restaurant-group-holdings-subsidiary-submits-chapter-11-bankruptcy-61-ste",
+    "source_excerpt": "[Benzinga news, 2026-11-02T13:43:49Z, by Benzinga Newsdesk] Bloomin Brands' Cerca Trova Restaurant Group Holdings Subsidiary Submits Chapter 11 Bankruptcy For 61 Steakhouse Locations; Bloomin Agrees To Acquire Assets Of Cerca For $26.30M; Anticipated To Be Stalking Horse Bidder For Subsidiary's Asset Sale; No Impact On Day To Day Operations\n\n",
+    "market_cap_usd": 905441197.275,
+    "last_price": 10.575,
+    "also_accessions": [],
+    "weight": 3,
+    "first_report": "2026-11-02T13:43:49+00:00"
+  },
+  {
+    "ticker": "LITE",
+    "company": "Lumentum Holdings Inc.",
+    "cik": "1633978",
+    "accession": "news:110344269",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-11-02T13:02:15Z",
+    "url": "https://www.morningstar.com/news/dow-jones/202611023637/marvell-lumentum-to-combine-in-115-billion-deal",
+    "source_excerpt": "[Benzinga news, 2026-11-02T13:02:15Z, by staff] Marvell Technology to Acquire Lumentum in $115 Billion All-Stock Merger\nMarvell Technology and Lumentum Holdings Inc. have entered into a definitive agreement to merge in an all-stock transaction valued at approximately $115 billion.\nUnder the terms of the agreement, Lumentum shareholders will receive 4.5 shares of Marvell common stock for each share of Lumentum stock they own, representing a premium of approximately 23.9%. The deal, which has been unanimously approved by the boards of both companies, aims to create a leader in artificial intelligence connectivity. Upon completion, Marvell shareholders are expected to own approximately 67% of the combined entity, while Lumentum shareholders will own about 33% on a fully diluted basis. The transaction is valued at $115 billion, including debt.\n[Other material headlines on this company in the window]\n- 2026-11-02T12:25:00Z Trading Halt: Halt status updated at 7:25:00 AM ET: Quotation Resumption: News and Resumption Times\n- 2026-11-02T11:57:18Z Trading Halt: Halted at 6:57:18 a.m. ET - Trading Halt: Halt News Pending",
+    "market_cap_usd": 75420657000.0,
+    "last_price": 840.81,
+    "also_accessions": [
+      "news:62774024",
+      "news:62772640"
+    ],
+    "weight": 3,
+    "first_report": "2026-11-02T13:02:15+00:00"
+  },
+  {
+    "ticker": "AXSM",
+    "company": "Axsome Therapeutics, Inc.",
+    "cik": "1579428",
+    "accession": "news:62774085",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-11-02T12:25:41Z",
+    "url": "https://www.benzinga.com/quote/AXSM",
+    "source_excerpt": "[Benzinga news, 2026-11-02T12:25:41Z, by Benzinga Newsdesk] Axsome Sees Phase 3 ENGAGE Binge Eating Disorder Data In Q1 2027\n\n",
+    "market_cap_usd": 7575837707.34,
+    "last_price": 144.63,
+    "also_accessions": [],
+    "weight": 3,
+    "first_report": "2026-11-02T12:25:41+00:00"
+  }
+]

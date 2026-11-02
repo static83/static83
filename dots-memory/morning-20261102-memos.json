@@ -1,0 +1,192 @@
+[
+  {
+    "case": 1,
+    "ticker": "BLMN",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A subsidiary's Chapter 11 with the parent buying its assets back: Bloomin' restructures 61 Carrabba's-type steakhouses",
+        "reasoning": [
+          "Source: Bloomin' Brands' announcement, relayed by Benzinga Newsdesk 08:43 ET (headline only): 'Cerca Trova Restaurant Group Holdings Subsidiary Submits Chapter 11 Bankruptcy For 61 Steakhouse Locations; Bloomin Agrees To Acquire Assets Of Cerca For $26.30M; Anticipated To Be Stalking Horse Bidder ... No Impact On Day To Day Operations'.",
+          "What changed: a structured restructuring of one subsidiary, with Bloomin' as the expected buyer for $26.3M (about 3% of the $0.9B market cap). Pre-market on the consolidated tape: 10.62, +0.4% on 20,712 shares."
+        ],
+        "objections": [
+          "A contained subsidiary restructuring; small and pre-arranged."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "BLMN: no trade. A subsidiary's pre-arranged Chapter 11",
+        "reasoning": [
+          "Check later: BLMN's 5-day move from 10.575."
+        ],
+        "objections": [
+          "Contained."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 2,
+    "ticker": "LITE",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "Marvell will buy Lumentum in a $115B all-stock deal, 4.5 Marvell shares per Lumentum share",
+        "reasoning": [
+          "Source: the companies' joint announcement (Dow Jones via Morningstar; Benzinga 08:02 ET): 'Lumentum shareholders will receive 4.5 shares of Marvell common stock for each share of Lumentum stock ... a premium of approximately 23.9% ... unanimously approved by the boards'. Lumentum holders get about 33% of the combined company. Lumentum was halted at 06:57 ET and quoted again from 07:25.",
+          "What changed: Lumentum stops being an independent optical-component company. Its value is now tied to Marvell's share price.",
+          "Pre-market on the consolidated tape: LITE 783.52, -6.8% from 840.81, on 778,275 shares; MRVL 189.01, -3.8% from 196.40, on 2.87M shares. At 4.5 x 189.01 the deal is worth 850.55 a Lumentum share, so LITE trades 7.9% below it. Both fell sharply on Friday (LITE -8.6%, MRVL -10%) before the announcement."
+        ],
+        "objections": [
+          "Friday's falls in both names before the announcement are unexplained."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "object",
+        "headline": "No single-name edge: LITE now trades as Marvell stock plus a 7.9% deal-risk spread",
+        "reasoning": [
+          "What changed: LITE's value is 4.5 x MRVL if the deal closes. The 7.9% gap to that value is large for an agreed deal, and it prices real risk: a $115B semiconductor combination needs antitrust review in several countries, China's included, and a long closing period.",
+          "A long LITE is a long MRVL position plus a bet the spread narrows. Without shorting MRVL against it, which the crew's single-leg brackets cannot do, most of the risk is Marvell's own price, which fell 10% Friday and 3.8% this morning.",
+          "A short on LITE or MRVL bets on deal failure or more selling of the buyer. There is no information yet on regulatory pushback, and the buyer has already marked down 14% over two sessions.",
+          "Would prove this wrong: the spread collapsing to under 3% within days (the market dismissing regulatory risk) or widening past 15% (pricing a likely break). Either would be a new event to judge."
+        ],
+        "objections": [
+          "Merger arbitrage; the crew cannot hold a hedged pair.",
+          "Friday's pre-announcement falls are unexplained (SCOUT)."
+        ],
+        "send_back_to": null,
+        "direction": "none",
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "LITE: no trade. Merger arbitrage at a 7.9% spread",
+        "reasoning": [
+          "Check later: the LITE/MRVL spread (LITE vs 4.5 x MRVL) on 11/09. A big agreed deal priced at about 8% below terms is a datapoint on how the market prices large-cap antitrust risk.",
+          "Same call as RRC/EQT last week."
+        ],
+        "objections": [
+          "No single-leg edge."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  },
+  {
+    "case": 3,
+    "ticker": "AXSM",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "object",
+        "headline": "A date, not data: Axsome expects Phase 3 binge-eating results in Q1 2027",
+        "reasoning": [
+          "Source: Axsome's update, relayed by Benzinga Newsdesk 07:25 ET (headline only): 'Axsome Sees Phase 3 ENGAGE Binge Eating Disorder Data In Q1 2027'.",
+          "What changed: a readout date. There are no results. Pre-market: no data in the packet."
+        ],
+        "objections": [
+          "A timing guide, not a result."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "AXSM: no trade. A readout date",
+        "reasoning": [
+          "Filter gap: 'Sees ... Data In Q1 2027' style timing guides are now filtered like other notices that results are coming. Fixed after this run."
+        ],
+        "objections": [
+          "Notice."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]
