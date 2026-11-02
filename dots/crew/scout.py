@@ -623,6 +623,9 @@ def find_candidates(
             log(f"  skip {ticker}: routine items only")
             continue
         body = excerpt(text)
+        if "2.01" in items and _TAKEN_PRIVATE.search(text[:40000]):  # the merger language sits past the excerpt
+            log(f"  skip {ticker}: the company itself has been acquired; its shares stop trading")
+            continue
         prior = (settles_prior_news(items, body) or routine_people_filing(items, body)
                  or late_earnings(items, body, entry["filed_at"]) or call_notice_only(items, body)
                  or told_by_news((news or {}).get(ticker, []), body, entry["company"]))
