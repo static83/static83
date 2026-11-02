@@ -108,6 +108,8 @@ def classify(item: dict) -> Optional[str]:
         return "commentary, not an event"
     if _SOLICITATION.search(head) or _SOLICITATION.search(item.get("url") or ""):
         return "law-firm solicitation, not company news"
+    if re.search(r"weekly[- ]recap|week[- ]in[- ]review|weekly[- ]roundup|this[- ]week[- ]in", item.get("url") or "", re.IGNORECASE):
+        return "a weekly recap of news already traded"
     if _PREVIEW_URL.search(item.get("url") or ""):
         return "earnings preview, which recaps earlier news"
     about = f"{head} {item.get('summary') or ''}"
