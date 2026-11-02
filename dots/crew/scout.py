@@ -209,7 +209,9 @@ _FINANCING_ONLY_ITEMS = {"1.01", "7.01", "8.01"}
 # The filer itself was bought: the closing 8-K of its own acquisition.
 _TAKEN_PRIVATE = re.compile(
     r"\b(Parent|Purchaser|Buyer) completed (the|its) acquisition of the Company\b|"
-    r"\bthe Company (became|is now|continued as) an? (direct |indirect )?wholly[- ]owned subsidiary of\b",
+    r"\bthe Company (became|is now|continued as) an? (direct |indirect )?wholly[- ]owned subsidiary of\b|"
+    r"\ba change (of|in) control of the Company occurred\b|"
+    r"\b(initial |final )?surviving (company|corporation) (became|continued as) an? (direct |indirect )?wholly[- ]owned subsidiary of\b",
     re.IGNORECASE,
 )
 
