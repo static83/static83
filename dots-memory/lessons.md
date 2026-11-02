@@ -1,6 +1,6 @@
 # DOTS track record
 
-Updated 2026-11-02 12:36 ET. 170 case(s) on file.
+Updated 2026-11-02 13:34 ET. 171 case(s) on file.
 
 - SCOUT skipped 146 case(s); none has a thesis direction with 5 trading days of history yet.
 - SKEPTIC killed 6 case(s) with a thesis. Five days later the thesis averaged +1.1%, right 3 of 6 times. Positive means this gate is stopping trades that would have worked. Only 6 so far, too few to act on.

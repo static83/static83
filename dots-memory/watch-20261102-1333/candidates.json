@@ -1,0 +1,19 @@
+[
+  {
+    "ticker": "EW",
+    "company": "Edwards Lifesciences Corp",
+    "cik": "1099800",
+    "accession": "news:62790746",
+    "items": [
+      "news"
+    ],
+    "filed_at": "2026-11-02T18:30:50Z",
+    "url": "https://www.benzinga.com/news/26/11/62790746/edwards-lifesciences-reports-pascal-system-tricuspid-repair-shows-superiority-compared-medical-thera",
+    "source_excerpt": "[Benzinga news, 2026-11-02T18:30:50Z, by Benzinga Newsdesk] Edwards Lifesciences Reports PASCAL System For Tricuspid Repair Shows Superiority Compared To Medical Therapy Alone For Six-Month Primary Endpoint Of CLASP II TR Trial\n\n",
+    "market_cap_usd": 53541796000.0,
+    "last_price": 92.89,
+    "also_accessions": [],
+    "weight": 3,
+    "first_report": "2026-11-02T18:30:50+00:00"
+  }
+]

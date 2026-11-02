@@ -3345,7 +3345,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0616,
+        "raw": 0.0621,
         "thesis": null
       }
     },
@@ -3378,7 +3378,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0335,
+        "raw": -0.0334,
         "thesis": null
       }
     },
@@ -3435,7 +3435,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0182,
+        "raw": 0.0172,
         "thesis": null
       }
     },
@@ -3468,7 +3468,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0374,
+        "raw": 0.0368,
         "thesis": null
       }
     },
@@ -3501,7 +3501,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.038,
+        "raw": -0.0387,
         "thesis": null
       }
     },
@@ -3534,7 +3534,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0033,
+        "raw": -0.0038,
         "thesis": null
       }
     },
@@ -3567,7 +3567,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0373,
+        "raw": 0.0413,
         "thesis": null
       }
     },
@@ -3600,7 +3600,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.1478,
+        "raw": -0.1281,
         "thesis": null
       }
     },
@@ -3633,7 +3633,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0381,
+        "raw": 0.0267,
         "thesis": null
       }
     },
@@ -3725,7 +3725,7 @@
         "thesis": null
       },
       "5": {
-        "raw": -0.0522,
+        "raw": -0.044,
         "thesis": null
       }
     },
@@ -3760,7 +3760,7 @@
         "thesis": null
       },
       "5": {
-        "raw": 0.0034,
+        "raw": 0.0028,
         "thesis": null
       }
     },
@@ -4912,7 +4912,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": -0.0175,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261030-1628-01-GD": {
@@ -4967,7 +4972,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": -0.0005,
+        "raw": 0.0044,
         "thesis": null
       }
     },
@@ -4996,7 +5001,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0022,
+        "raw": 0.0051,
         "thesis": null
       }
     },
@@ -5071,7 +5076,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0012,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261031-0216-01-UTZ": {
@@ -5095,7 +5105,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0003,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261031-0216-02-ACGL": {
@@ -5121,7 +5136,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0184,
+        "raw": 0.0245,
         "thesis": null
       }
     },
@@ -5150,7 +5165,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0119,
+        "raw": 0.014,
         "thesis": null
       }
     },
@@ -5179,7 +5194,7 @@
     "order_id": null,
     "returns": {
       "1": {
-        "raw": 0.0189,
+        "raw": 0.0166,
         "thesis": null
       }
     },
@@ -5209,7 +5224,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": -0.1173,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261102-1350-03-AXSM": {
@@ -5233,7 +5253,12 @@
     "target": null,
     "p_strike": null,
     "order_id": null,
-    "returns": {},
+    "returns": {
+      "1": {
+        "raw": 0.0164,
+        "thesis": null
+      }
+    },
     "first_exit": null
   },
   "20261102-1735-01-TLRY": {
@@ -5298,6 +5323,30 @@
     "ended_by": "SCOUT",
     "rounds": 1,
     "objections": 2,
+    "direction": null,
+    "horizon_days": 10,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "p_strike": null,
+    "order_id": null,
+    "returns": {},
+    "first_exit": null
+  },
+  "20261102-1833-01-EW": {
+    "key": "20261102-1833-01-EW",
+    "night": "20261102-1833",
+    "ticker": "EW",
+    "accession": "news:62790746",
+    "also_accessions": [],
+    "filed_at": "2026-11-02T18:30:50Z",
+    "source_head": "[Benzinga news, 2026-11-02T18:30:50Z, by Benzinga Newsdesk] Edwards Lifesciences Reports PASCAL System For Tricuspid Repair Shows Superiority Compared To Medical Therapy Alone For Six-Month Primary Endpoint Of CLASP II TR Trial\n\n",
+    "decided_at": "2026-11-02T18:34:40.853106+00:00",
+    "price_at_decision": 92.89,
+    "outcome": "no_trade",
+    "ended_by": "ANALYST",
+    "rounds": 1,
+    "objections": 4,
     "direction": null,
     "horizon_days": 10,
     "entry": null,

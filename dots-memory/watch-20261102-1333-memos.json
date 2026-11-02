@@ -1,0 +1,84 @@
+[
+  {
+    "case": 1,
+    "ticker": "EW",
+    "outcome": "no_trade",
+    "rounds": 1,
+    "memos": [
+      {
+        "role": "SCOUT",
+        "verdict": "agree",
+        "headline": "Edwards: its PASCAL repair device beat medical therapy alone at six months in the pivotal CLASP II TR tricuspid trial",
+        "reasoning": [
+          "Source: Edwards Lifesciences' announcement, relayed by Benzinga Newsdesk 13:30 ET (headline only): 'PASCAL System For Tricuspid Repair Shows Superiority Compared To Medical Therapy Alone For Six-Month Primary Endpoint Of CLASP II TR Trial'. Likely a late-breaking conference presentation; the effect size is not in the headline.",
+          "What changed: a pivotal randomized trial supports a US label for transcatheter tricuspid repair with PASCAL. Edwards already sells EVOQUE for tricuspid replacement, so this widens a franchise it already leads.",
+          "Move: EW 92.585 vs 91.75 in the bar before, +0.91%, with a high of 93.84 (+2.3%) in the first minutes."
+        ],
+        "objections": [
+          "Effect size not given; intraday news, already partly priced."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "ANALYST",
+        "verdict": "object",
+        "headline": "A real win but an expected one, in a franchise Edwards already owns; no mispricing to size",
+        "reasoning": [
+          "What changed: PASCAL's tricuspid label, expected after the trial's design (superiority against medical therapy, a low bar for a device that reduces regurgitation). The commercial upside is incremental to EVOQUE, which already serves tricuspid patients, and the effect size is not yet public.",
+          "Size: US transcatheter tricuspid is a growing but small market against Edwards' revenue of about $6B; PASCAL TR adds share inside it. That is a fraction of a percent of value per year of sales, not a re-rating.",
+          "Price: the stock popped 2.3% and is holding about +0.9%, which looks like a fair read of an expected positive outcome. The crew's record on large-cap readouts (MRK, GSK, BMY) is that they rarely move the stock further.",
+          "Would prove this wrong: EW up more than 4% by Wednesday's close."
+        ],
+        "objections": [
+          "Expected outcome; incremental to an existing franchise.",
+          "Intraday, partly priced (SCOUT)."
+        ],
+        "send_back_to": null,
+        "direction": "none",
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      },
+      {
+        "role": "JOURNAL",
+        "verdict": "agree",
+        "headline": "EW: no trade. An expected pivotal device win in a franchise Edwards leads",
+        "reasoning": [
+          "Check later: EW's close on Wednesday against 91.75.",
+          "Fifth large-cap readout judged too small to move the stock. The pattern holds for the two-week review."
+        ],
+        "objections": [
+          "Incremental."
+        ],
+        "send_back_to": null,
+        "direction": null,
+        "horizon_days": null,
+        "entry_price": null,
+        "stop_price": null,
+        "target_price": null,
+        "position_size_usd": null,
+        "fee_estimate_usd": null,
+        "bad_exit_cost_usd": null,
+        "p_strike": null,
+        "priced_in_score": null
+      }
+    ],
+    "order": null
+  }
+]
