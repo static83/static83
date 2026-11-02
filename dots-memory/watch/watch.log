@@ -69298,3 +69298,108 @@ AbbVie Raises FY2026 Sales Guidan', already judged at 2026-10-30T13:44:37Z
 2026-10-30T19:59:21+00:00   news skip SPG: already judged on an earlier run
 2026-10-30T19:59:21+00:00   news skip AXP: already judged on an earlier run
 2026-10-30T19:59:21+00:00   news skip GD: already judged on an earlier run
+2026-11-02T15:30:58+00:00 start: 1500 headlines of history, watching from 2026-11-02T15:15:55+00:00
+2026-11-02T15:31:01+00:00   skip ABVC: market cap 28M below floor
+2026-11-02T15:31:01+00:00   news pulled TLRY (weight 3): Tilray Stock Rises As Cannabis Giant Raises EBITDA Outlook, Targets Restructuring Across C
+2026-11-02T15:31:01+00:00   news skip BLMN: already judged on an earlier run
+2026-11-02T15:31:01+00:00   news skip LITE: the crew judged this company in the last 3 days
+2026-11-02T15:31:01+00:00   skip TLRY: first reported 09:29 ET, before today's open
+2026-11-02T15:31:02+00:00   skip FCFS: already traded since the news: +5.3% from 181.06 on the IEX feed
+2026-11-02T15:31:04+00:00   pulled KVUE: items 2.01, 5.02, 8.01
+2026-11-02T15:31:05+00:00   news pulled TLRY (weight 3): Tilray Stock Rises As Cannabis Giant Raises EBITDA Outlook, Targets Restructuring Across C
+2026-11-02T15:31:05+00:00   news skip ANT: no price at Alpaca
+2026-11-02T15:31:06+00:00   news skip DRUG: no share count on file at the SEC
+2026-11-02T15:31:06+00:00   news skip RBNE: market cap 1M below floor
+2026-11-02T15:31:07+00:00   news pulled SITE (weight 1): SiteOne Landscape Supply Completes Acquisition of Bedrock Environmental Seed & Supply
+2026-11-02T15:31:08+00:00   news pulled PRVA (weight 2): Privia Health Group, Inc. Acquires American Choice Healthcare MSSP, LLC
+2026-11-02T15:31:08+00:00   news skip NMRK: already traded since the news: +4.3% from 11.53 on the IEX feed
+2026-11-02T15:31:09+00:00   news pulled SUPN (weight 1): Supernus Pharmaceuticals Completes Merger with Indivior Pharmaceuticals
+2026-11-02T15:31:10+00:00   news pulled AIR (weight 2): AAR Corp. Announces Proposed Offering of Senior Notes to Fund MRO Holdings Acquisition
+2026-11-02T15:31:11+00:00   news pulled VECO (weight 2): Axcelis Technologies and Veeco Instruments Provide Update on Expected Timing of Merger Clo
+2026-11-02T15:31:14+00:00   news pulled UFPI (weight 1): UFP Industries Expands Deckorators Distribution Partnership with Wausau Supply Co.
+2026-11-02T15:31:15+00:00   news skip HLNE: no share count on file at the SEC
+2026-11-02T15:31:16+00:00   news pulled CIGI (weight 1): Englobe, a Colliers Company, Finalizes Acquisition of C.F. Crozier & Associates Inc.
+2026-11-02T15:31:16+00:00   news pulled LUMN (weight 1): Lumen and Microsoft Expand Co-Selling Partnership for Enterprise AI
+2026-11-02T15:31:17+00:00   news skip BYD: already traded since the news: +3.5% from 74.16 on the IEX feed
+2026-11-02T15:31:18+00:00   news pulled SNEX (weight 2): StoneX Group Inc. Acquires Benchmark
+2026-11-02T15:31:19+00:00   news pulled AAL (weight 2): American Airlines Secures Five-Year Labor Contract and Expands Citi AAdvantage Card Benefi
+2026-11-02T15:31:19+00:00   news pulled OSK (weight 1): Oshkosh Defense and Grid Aero Announce Strategic Partnership
+2026-11-02T15:31:21+00:00   news skip KRYS: already traded since the news: -14.3% from 331.96 on the IEX feed
+2026-11-02T15:31:21+00:00   news skip DASH: already traded since the news: +4.1% from 181.37 on the IEX feed
+2026-11-02T15:31:22+00:00   news skip NXT: already traded since the news: +15.6% from 79.34 on the IEX feed
+2026-11-02T15:31:22+00:00   news skip KVUE: rewrites 'Kenvue Set for NYSE Delisting Following Kimberly-C', already judged at 2026-10-30T18:04
+2026-11-02T15:31:23+00:00   news skip IR: already traded since the news: +5.2% from 80.06 on the IEX feed
+2026-11-02T15:31:24+00:00   news pulled BSY (weight 2): Bentley Systems Announces Seequent's Acquisition of Eliis
+2026-11-02T15:31:26+00:00   news pulled JKHY (weight 1): Jack Henry Reports Growth in Treasury Management Contracts and ICBA Partnership
+2026-11-02T15:31:28+00:00   news pulled ULTA (weight 1): DECORTÉ Expands U.S. Retail Presence with Ulta Beauty Partnership
+2026-11-02T15:31:30+00:00   news pulled HAL (weight 2): Halliburton Acquires Keystone to Strengthen Digital Well Construction Capabilities
+2026-11-02T15:31:31+00:00   news pulled DT (weight 1): CrowdStrike and Dynatrace Announce Strategic Partnership
+2026-11-02T15:31:32+00:00   news pulled NTAP (weight 1): NetApp Completes Acquisition of PEAK:AIO
+2026-11-02T15:31:32+00:00   news pulled VRT (weight 1): Vertiv Announces Distribution Partnership with Inflow Technologies
+2026-11-02T15:31:33+00:00   news skip NA: market cap 31M below floor
+2026-11-02T15:31:35+00:00   news pulled MSFT (weight 1): Lumen Technologies and Microsoft Expand Collaboration on Cloud and AI Infrastructure
+2026-11-02T15:31:36+00:00   news skip MAR: already traded since the news: +3.9% from 399.62 on the IEX feed
+2026-11-02T15:31:36+00:00   news skip BLMN: already judged on an earlier run
+2026-11-02T15:31:36+00:00   news skip LITE: the crew judged this company in the last 3 days
+2026-11-02T15:31:36+00:00   skip TLRY: first reported 09:29 ET, before today's open
+2026-11-02T15:31:36+00:00   skip PRVA: first reported 08:40 ET, before today's open
+2026-11-02T15:31:36+00:00   skip BSY: first reported 08:06 ET, before today's open
+2026-11-02T15:31:36+00:00   skip HAL: first reported 08:03 ET, before today's open
+2026-11-02T15:31:36+00:00   skip LUMN: first reported 08:32 ET, before today's open
+2026-11-02T15:31:59+00:00   news skip TLRY: already judged on an earlier run
+2026-11-02T15:31:59+00:00   news skip BLMN: already judged on an earlier run
+2026-11-02T15:31:59+00:00   news skip LITE: the crew judged this company in the last 3 days
+2026-11-02T15:32:45+00:00   skip ABVC: market cap 28M below floor
+2026-11-02T15:32:46+00:00   skip FCFS: already traded since the news: +5.3% from 181.06 on the IEX feed
+2026-11-02T15:32:47+00:00   skip KVUE: the company itself has been acquired; its shares stop trading
+2026-11-02T15:32:47+00:00   skip SUPN: the company itself has been acquired; its shares stop trading
+2026-11-02T15:32:48+00:00   pulled INDV: items 1.01, 2.01, 5.02, 7.01
+2026-11-02T15:32:49+00:00   skip CSBB: no price at Alpaca, so it cannot be paper traded
+2026-11-02T15:32:52+00:00   pulled QCRH: items 7.01, 2.02
+2026-11-02T15:32:53+00:00   skip KPTI: market cap 2M below floor
+2026-11-02T15:32:53+00:00   skip CBZ: the company itself has been acquired; its shares stop trading
+2026-11-02T15:32:54+00:00   news pulled BWAY (weight 1): BrainsWay Announces Strategic Collaboration with Mindful Health Solutions
+2026-11-02T15:32:55+00:00   news pulled ROP (weight 1): Roche Receives FDA 510(k) Clearance for Cobas Eplex Respiratory Pathogen Panel 3
+2026-11-02T15:32:56+00:00   news pulled TLRY (weight 3): Tilray Stock Rises As Cannabis Giant Raises EBITDA Outlook, Targets Restructuring Across C
+2026-11-02T15:32:56+00:00   news skip ANT: no price at Alpaca
+2026-11-02T15:32:56+00:00   news skip DRUG: no share count on file at the SEC
+2026-11-02T15:32:57+00:00   news skip RBNE: market cap 1M below floor
+2026-11-02T15:32:57+00:00   news pulled SITE (weight 1): SiteOne Landscape Supply Completes Acquisition of Bedrock Environmental Seed & Supply
+2026-11-02T15:32:58+00:00   news pulled PRVA (weight 2): Privia Health Group, Inc. Acquires American Choice Healthcare MSSP, LLC
+2026-11-02T15:32:58+00:00   news skip NMRK: already traded since the news: +4.2% from 11.53 on the IEX feed
+2026-11-02T15:32:59+00:00   news pulled SUPN (weight 1): Supernus Pharmaceuticals Completes Merger with Indivior Pharmaceuticals
+2026-11-02T15:33:00+00:00   news pulled AIR (weight 2): AAR Corp. Announces Proposed Offering of Senior Notes to Fund MRO Holdings Acquisition
+2026-11-02T15:33:01+00:00   news pulled VECO (weight 2): Axcelis Technologies and Veeco Instruments Provide Update on Expected Timing of Merger Clo
+2026-11-02T15:33:03+00:00   news pulled UFPI (weight 1): UFP Industries Expands Deckorators Distribution Partnership with Wausau Supply Co.
+2026-11-02T15:33:03+00:00   news skip HLNE: no share count on file at the SEC
+2026-11-02T15:33:04+00:00   news pulled CIGI (weight 1): Englobe, a Colliers Company, Finalizes Acquisition of C.F. Crozier & Associates Inc.
+2026-11-02T15:33:05+00:00   news pulled LUMN (weight 1): Lumen and Microsoft Expand Co-Selling Partnership for Enterprise AI
+2026-11-02T15:33:05+00:00   news skip BYD: already traded since the news: +3.6% from 74.16 on the IEX feed
+2026-11-02T15:33:07+00:00   news pulled SNEX (weight 2): StoneX Group Inc. Acquires Benchmark
+2026-11-02T15:33:07+00:00   news pulled AAL (weight 2): American Airlines Secures Five-Year Labor Contract and Expands Citi AAdvantage Card Benefi
+2026-11-02T15:33:08+00:00   news pulled OSK (weight 1): Oshkosh Defense and Grid Aero Announce Strategic Partnership
+2026-11-02T15:33:09+00:00   news skip KRYS: already traded since the news: -14.4% from 331.96 on the IEX feed
+2026-11-02T15:33:09+00:00   news skip DASH: already traded since the news: +4.1% from 181.37 on the IEX feed
+2026-11-02T15:33:10+00:00   news skip NXT: already traded since the news: +15.5% from 79.34 on the IEX feed
+2026-11-02T15:33:11+00:00   news skip KVUE: rewrites 'Kenvue Set for NYSE Delisting Following Kimberly-C', already judged at 2026-10-30T18:04
+2026-11-02T15:33:11+00:00   news skip IR: already traded since the news: +5.1% from 80.06 on the IEX feed
+2026-11-02T15:33:12+00:00   news pulled BSY (weight 2): Bentley Systems Announces Seequent's Acquisition of Eliis
+2026-11-02T15:33:14+00:00   news pulled JKHY (weight 1): Jack Henry Reports Growth in Treasury Management Contracts and ICBA Partnership
+2026-11-02T15:33:16+00:00   news pulled ULTA (weight 1): DECORTÉ Expands U.S. Retail Presence with Ulta Beauty Partnership
+2026-11-02T15:33:18+00:00   news pulled HAL (weight 2): Halliburton Acquires Keystone to Strengthen Digital Well Construction Capabilities
+2026-11-02T15:33:19+00:00   news pulled DT (weight 1): CrowdStrike and Dynatrace Announce Strategic Partnership
+2026-11-02T15:33:20+00:00   news skip NTAP: already traded since the news: -3.0% from 200.45 on the IEX feed
+2026-11-02T15:33:20+00:00   news pulled VRT (weight 1): Vertiv Announces Distribution Partnership with Inflow Technologies
+2026-11-02T15:33:20+00:00   news skip NA: market cap 31M below floor
+2026-11-02T15:33:22+00:00   news pulled MSFT (weight 1): Lumen Technologies and Microsoft Expand Collaboration on Cloud and AI Infrastructure
+2026-11-02T15:33:22+00:00   news skip MAR: already traded since the news: +3.9% from 399.62 on the IEX feed
+2026-11-02T15:33:23+00:00   news skip TRLV: already traded since the news: +6.3% from 10.28 on the IEX feed
+2026-11-02T15:33:23+00:00   news skip BLMN: already judged on an earlier run
+2026-11-02T15:33:23+00:00   news skip LITE: the crew judged this company in the last 3 days
+2026-11-02T15:33:23+00:00   skip TLRY: first reported 09:29 ET, before today's open
+2026-11-02T15:33:23+00:00   skip INDV: first reported 09:27 ET, before today's open
+2026-11-02T15:33:23+00:00   skip QCRH: first reported 09:25 ET, before today's open
+2026-11-02T15:33:23+00:00   skip PRVA: first reported 08:40 ET, before today's open
+2026-11-02T15:33:23+00:00   skip BSY: first reported 08:06 ET, before today's open
+2026-11-02T15:33:23+00:00   skip HAL: first reported 08:03 ET, before today's open
+2026-11-02T15:33:23+00:00   skip LUMN: first reported 08:32 ET, before today's open
