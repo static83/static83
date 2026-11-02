@@ -843,6 +843,11 @@ def find_news_candidates(
             other = re.search(r"\b(?:ceo|chief executive)(?: officer)? of (?:the )?([A-Z][\w&.-]+)", i["headline"], re.IGNORECASE)
             if other and title and not other.group(1).lower().startswith(title[0][:5]):
                 w = 1  # someone becomes CEO of another company: for this one, an executive leaving
+            unit = re.search(r"\b(?:CEO|Ceo|ceo|Chief Executive|chief executive)(?: Officer| officer)? of (?:[Tt]he |[Ii]ts )?(?!The |Its )[A-Z][\w&.-]+ "
+                             r"(?!(?i:inc\b|corp|co\b|company|group\b|holdings|plc|ltd|n\.?v|effective|as\b|and\b|to\b|for\b|in\b|on\b|after\b|from\b|succeed))[A-Z][\w&-]+",
+                             i["headline"])
+            if unit or re.search(r"\b(?:ceo|chief executive)\b.{0,30}\bof (?:its|the company's)\b", i["headline"], re.IGNORECASE):
+                w = min(w, 1)  # the head of a business unit, not of the company
             # a rewrite of a guidance raise that a sibling headline shows only reaches consensus
             return min(w, 2) if catch_up and _GUIDANCE.search(i["headline"]) else w
 

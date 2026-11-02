@@ -51,6 +51,8 @@ _FILLER = re.compile(
     r"\b(index|indices|oil|crude|gold|copper|gdp|inflation|rates?|yields?|s&p( 500)?|kospi|nikkei|nasdaq|dow|currency|dollar|yuan|yen) (price )?(forecasts?|targets?|outlook)\b|"
     r"\b(court|fcc|ftc|doj|cfius|regulators?|commission|ministry|authority)\b.{0,40}\b(approv|sanction|clear)\w*\b.{0,40}\b(acquisition|merger|scheme|arrangement|takeover|deal)\b|"
     r"\b(acquisition|merger|takeover|deal)\b.{0,40}\b(receives?|wins?|gets?|secures?)\b.{0,30}\b(approval|clearance)\b|"
+    r"\b(receives?|wins?|gets?|secures?|obtains?)\b.{0,50}\b(approvals?|clearances?)\b.{0,30}\b(for|of|on)\b.{0,40}\b(acquisition|merger|takeover|deal|combination)\b|"
+    r"\b(retained|engaged|appointed|selected|named) as (the |a )?(dealer manager|financial advis[oe]r|lead (arranger|manager)|underwriter|placement agent|bookrunner|information agent|depositary|exchange agent)\b|"
     r"^(nasdaq|nyse|cboe|nyse american)\b.{0,20}\b(halts?|resumes?) trading in\b|"
     r"\byou may (qualify|be eligible)\b|\bsettlement payments?\b|\bnotice of (proposed |potential |pending )?(class action )?settlement\b|\bclaims? deadline\b",
     re.IGNORECASE,
